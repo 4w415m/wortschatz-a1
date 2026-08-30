@@ -1175,7 +1175,7 @@ function drawCard(){
     '<span class="counts"><b>'+left+'</b> übrig</span>'+
     '<button class="iconbtn flagbtn'+(flagged?" on":"")+'" data-flag aria-label="Fehler melden">⚑</button></div>'+
     '<div class="card"><div class="face" id="face"></div><div class="acts" id="acts"></div></div>';
-  app.innerHTML="";app.appendChild($(h));
+  app.innerHTML=h;
   app.querySelector("[data-back]").onclick=()=>{save();home()};
   app.querySelector("[data-flag]").onclick=(e)=>{
     if(S.flags[w.id])delete S.flags[w.id];else S.flags[w.id]=1;

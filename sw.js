@@ -1,5 +1,5 @@
 /* Offline cache. Bump CACHE when you change index.html. */
-const CACHE = "wortschatz-a1-v1";
+const CACHE = "wortschatz-a1-v2";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
