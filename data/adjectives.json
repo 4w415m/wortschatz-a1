@@ -1,0 +1,467 @@
+[
+  {
+    "word": "groß",
+    "en": "big, tall",
+    "opposite": "klein"
+  },
+  {
+    "word": "klein",
+    "en": "small",
+    "opposite": "groß"
+  },
+  {
+    "word": "alt",
+    "en": "old",
+    "opposite": "neu, jung"
+  },
+  {
+    "word": "neu",
+    "en": "new",
+    "opposite": "alt"
+  },
+  {
+    "word": "jung",
+    "en": "young",
+    "opposite": "alt"
+  },
+  {
+    "word": "lang",
+    "en": "long",
+    "opposite": "kurz"
+  },
+  {
+    "word": "kurz",
+    "en": "short",
+    "opposite": "lang"
+  },
+  {
+    "word": "hoch",
+    "en": "high",
+    "opposite": "niedrig"
+  },
+  {
+    "word": "niedrig",
+    "en": "low",
+    "opposite": "hoch"
+  },
+  {
+    "word": "tief",
+    "en": "deep",
+    "opposite": "flach"
+  },
+  {
+    "word": "breit",
+    "en": "wide",
+    "opposite": "schmal"
+  },
+  {
+    "word": "schmal",
+    "en": "narrow",
+    "opposite": "breit"
+  },
+  {
+    "word": "dick",
+    "en": "thick, fat",
+    "opposite": "dünn"
+  },
+  {
+    "word": "dünn",
+    "en": "thin",
+    "opposite": "dick"
+  },
+  {
+    "word": "schwer",
+    "en": "heavy, difficult",
+    "opposite": "leicht"
+  },
+  {
+    "word": "leicht",
+    "en": "light, easy",
+    "opposite": "schwer"
+  },
+  {
+    "word": "schnell",
+    "en": "fast",
+    "opposite": "langsam"
+  },
+  {
+    "word": "langsam",
+    "en": "slow",
+    "opposite": "schnell"
+  },
+  {
+    "word": "früh",
+    "en": "early",
+    "opposite": "spät"
+  },
+  {
+    "word": "spät",
+    "en": "late",
+    "opposite": "früh"
+  },
+  {
+    "word": "gut",
+    "en": "good",
+    "opposite": "schlecht"
+  },
+  {
+    "word": "schlecht",
+    "en": "bad",
+    "opposite": "gut"
+  },
+  {
+    "word": "schön",
+    "en": "beautiful, nice",
+    "opposite": "hässlich"
+  },
+  {
+    "word": "hässlich",
+    "en": "ugly",
+    "opposite": "schön"
+  },
+  {
+    "word": "nett",
+    "en": "nice, kind",
+    "opposite": null
+  },
+  {
+    "word": "freundlich",
+    "en": "friendly",
+    "opposite": "unfreundlich"
+  },
+  {
+    "word": "sympathisch",
+    "en": "likeable",
+    "opposite": null
+  },
+  {
+    "word": "höflich",
+    "en": "polite",
+    "opposite": "unhöflich"
+  },
+  {
+    "word": "lustig",
+    "en": "funny",
+    "opposite": null
+  },
+  {
+    "word": "traurig",
+    "en": "sad",
+    "opposite": "fröhlich"
+  },
+  {
+    "word": "fröhlich",
+    "en": "cheerful",
+    "opposite": "traurig"
+  },
+  {
+    "word": "glücklich",
+    "en": "happy",
+    "opposite": "unglücklich"
+  },
+  {
+    "word": "müde",
+    "en": "tired",
+    "opposite": null
+  },
+  {
+    "word": "krank",
+    "en": "ill",
+    "opposite": "gesund"
+  },
+  {
+    "word": "gesund",
+    "en": "healthy",
+    "opposite": "krank"
+  },
+  {
+    "word": "teuer",
+    "en": "expensive",
+    "opposite": "billig"
+  },
+  {
+    "word": "billig",
+    "en": "cheap",
+    "opposite": "teuer"
+  },
+  {
+    "word": "günstig",
+    "en": "good value",
+    "opposite": "teuer"
+  },
+  {
+    "word": "reich",
+    "en": "rich",
+    "opposite": "arm"
+  },
+  {
+    "word": "arm",
+    "en": "poor",
+    "opposite": "reich"
+  },
+  {
+    "word": "warm",
+    "en": "warm",
+    "opposite": "kalt"
+  },
+  {
+    "word": "kalt",
+    "en": "cold",
+    "opposite": "warm"
+  },
+  {
+    "word": "heiß",
+    "en": "hot",
+    "opposite": "kalt"
+  },
+  {
+    "word": "kühl",
+    "en": "cool",
+    "opposite": null
+  },
+  {
+    "word": "nass",
+    "en": "wet",
+    "opposite": "trocken"
+  },
+  {
+    "word": "trocken",
+    "en": "dry",
+    "opposite": "nass"
+  },
+  {
+    "word": "sauber",
+    "en": "clean",
+    "opposite": "schmutzig"
+  },
+  {
+    "word": "schmutzig",
+    "en": "dirty",
+    "opposite": "sauber"
+  },
+  {
+    "word": "hell",
+    "en": "bright, light",
+    "opposite": "dunkel"
+  },
+  {
+    "word": "dunkel",
+    "en": "dark",
+    "opposite": "hell"
+  },
+  {
+    "word": "laut",
+    "en": "loud",
+    "opposite": "leise"
+  },
+  {
+    "word": "leise",
+    "en": "quiet",
+    "opposite": "laut"
+  },
+  {
+    "word": "voll",
+    "en": "full",
+    "opposite": "leer"
+  },
+  {
+    "word": "leer",
+    "en": "empty",
+    "opposite": "voll"
+  },
+  {
+    "word": "offen",
+    "en": "open",
+    "opposite": "geschlossen"
+  },
+  {
+    "word": "geschlossen",
+    "en": "closed",
+    "opposite": "offen"
+  },
+  {
+    "word": "richtig",
+    "en": "correct",
+    "opposite": "falsch"
+  },
+  {
+    "word": "falsch",
+    "en": "wrong",
+    "opposite": "richtig"
+  },
+  {
+    "word": "wichtig",
+    "en": "important",
+    "opposite": "unwichtig"
+  },
+  {
+    "word": "einfach",
+    "en": "simple, easy",
+    "opposite": "schwierig"
+  },
+  {
+    "word": "schwierig",
+    "en": "difficult",
+    "opposite": "einfach"
+  },
+  {
+    "word": "interessant",
+    "en": "interesting",
+    "opposite": "langweilig"
+  },
+  {
+    "word": "langweilig",
+    "en": "boring",
+    "opposite": "interessant"
+  },
+  {
+    "word": "bekannt",
+    "en": "well known",
+    "opposite": "unbekannt"
+  },
+  {
+    "word": "fremd",
+    "en": "foreign, unfamiliar",
+    "opposite": null
+  },
+  {
+    "word": "frei",
+    "en": "free, vacant",
+    "opposite": "besetzt"
+  },
+  {
+    "word": "besetzt",
+    "en": "occupied, taken",
+    "opposite": "frei"
+  },
+  {
+    "word": "fertig",
+    "en": "finished, ready",
+    "opposite": null
+  },
+  {
+    "word": "möglich",
+    "en": "possible",
+    "opposite": "unmöglich"
+  },
+  {
+    "word": "nötig",
+    "en": "necessary",
+    "opposite": null
+  },
+  {
+    "word": "sicher",
+    "en": "safe, certain",
+    "opposite": "unsicher"
+  },
+  {
+    "word": "ruhig",
+    "en": "calm, quiet",
+    "opposite": null
+  },
+  {
+    "word": "weit",
+    "en": "far",
+    "opposite": "nah"
+  },
+  {
+    "word": "nah",
+    "en": "near",
+    "opposite": "weit"
+  },
+  {
+    "word": "stark",
+    "en": "strong",
+    "opposite": "schwach"
+  },
+  {
+    "word": "schwach",
+    "en": "weak",
+    "opposite": "stark"
+  },
+  {
+    "word": "zufrieden",
+    "en": "satisfied",
+    "opposite": null
+  },
+  {
+    "word": "verheiratet",
+    "en": "married",
+    "opposite": "ledig"
+  },
+  {
+    "word": "ledig",
+    "en": "single, unmarried",
+    "opposite": "verheiratet"
+  },
+  {
+    "word": "lecker",
+    "en": "delicious",
+    "opposite": null
+  },
+  {
+    "word": "süß",
+    "en": "sweet",
+    "opposite": "sauer"
+  },
+  {
+    "word": "sauer",
+    "en": "sour",
+    "opposite": "süß"
+  },
+  {
+    "word": "salzig",
+    "en": "salty",
+    "opposite": null
+  },
+  {
+    "word": "scharf",
+    "en": "spicy, sharp",
+    "opposite": null
+  },
+  {
+    "word": "frisch",
+    "en": "fresh",
+    "opposite": null
+  },
+  {
+    "word": "rot",
+    "en": "red",
+    "opposite": null
+  },
+  {
+    "word": "blau",
+    "en": "blue",
+    "opposite": null
+  },
+  {
+    "word": "grün",
+    "en": "green",
+    "opposite": null
+  },
+  {
+    "word": "gelb",
+    "en": "yellow",
+    "opposite": null
+  },
+  {
+    "word": "schwarz",
+    "en": "black",
+    "opposite": null
+  },
+  {
+    "word": "weiß",
+    "en": "white",
+    "opposite": null
+  },
+  {
+    "word": "braun",
+    "en": "brown",
+    "opposite": null
+  },
+  {
+    "word": "grau",
+    "en": "grey",
+    "opposite": null
+  }
+]

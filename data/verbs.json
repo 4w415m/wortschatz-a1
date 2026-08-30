@@ -1,0 +1,1332 @@
+[
+  {
+    "infinitive": "sein",
+    "en": "to be",
+    "forms": [
+      "bin",
+      "bist",
+      "ist",
+      "sind",
+      "seid",
+      "sind"
+    ],
+    "stemChange": null,
+    "perfect": "ist gewesen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "haben",
+    "en": "to have",
+    "forms": null,
+    "stemChange": [
+      "hast",
+      "hat"
+    ],
+    "perfect": "hat gehabt",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "werden",
+    "en": "to become",
+    "forms": null,
+    "stemChange": [
+      "wirst",
+      "wird"
+    ],
+    "perfect": "ist geworden",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "können",
+    "en": "can, to be able to",
+    "forms": [
+      "kann",
+      "kannst",
+      "kann",
+      "können",
+      "könnt",
+      "können"
+    ],
+    "stemChange": null,
+    "perfect": "hat gekonnt",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "müssen",
+    "en": "must, to have to",
+    "forms": [
+      "muss",
+      "musst",
+      "muss",
+      "müssen",
+      "müsst",
+      "müssen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gemusst",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "wollen",
+    "en": "to want to",
+    "forms": [
+      "will",
+      "willst",
+      "will",
+      "wollen",
+      "wollt",
+      "wollen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gewollt",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "sollen",
+    "en": "should, ought to",
+    "forms": [
+      "soll",
+      "sollst",
+      "soll",
+      "sollen",
+      "sollt",
+      "sollen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gesollt",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "dürfen",
+    "en": "may, to be allowed to",
+    "forms": [
+      "darf",
+      "darfst",
+      "darf",
+      "dürfen",
+      "dürft",
+      "dürfen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gedurft",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "mögen",
+    "en": "to like",
+    "forms": [
+      "mag",
+      "magst",
+      "mag",
+      "mögen",
+      "mögt",
+      "mögen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gemocht",
+    "flags": [
+      "core",
+      "modal"
+    ]
+  },
+  {
+    "infinitive": "machen",
+    "en": "to do, to make",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gemacht",
+    "flags": [
+      "core"
+    ]
+  },
+  {
+    "infinitive": "gehen",
+    "en": "to go",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist gegangen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "kommen",
+    "en": "to come",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist gekommen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "sehen",
+    "en": "to see",
+    "forms": null,
+    "stemChange": [
+      "siehst",
+      "sieht"
+    ],
+    "perfect": "hat gesehen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "geben",
+    "en": "to give",
+    "forms": null,
+    "stemChange": [
+      "gibst",
+      "gibt"
+    ],
+    "perfect": "hat gegeben",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "sagen",
+    "en": "to say",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gesagt",
+    "flags": [
+      "core"
+    ]
+  },
+  {
+    "infinitive": "wissen",
+    "en": "to know (a fact)",
+    "forms": [
+      "weiß",
+      "weißt",
+      "weiß",
+      "wissen",
+      "wisst",
+      "wissen"
+    ],
+    "stemChange": null,
+    "perfect": "hat gewusst",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "finden",
+    "en": "to find",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gefunden",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "nehmen",
+    "en": "to take",
+    "forms": null,
+    "stemChange": [
+      "nimmst",
+      "nimmt"
+    ],
+    "perfect": "hat genommen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "sprechen",
+    "en": "to speak",
+    "forms": null,
+    "stemChange": [
+      "sprichst",
+      "spricht"
+    ],
+    "perfect": "hat gesprochen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "heißen",
+    "en": "to be called",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geheißen",
+    "flags": [
+      "core",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "essen",
+    "en": "to eat",
+    "forms": null,
+    "stemChange": [
+      "isst",
+      "isst"
+    ],
+    "perfect": "hat gegessen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "trinken",
+    "en": "to drink",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat getrunken",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "schlafen",
+    "en": "to sleep",
+    "forms": null,
+    "stemChange": [
+      "schläfst",
+      "schläft"
+    ],
+    "perfect": "hat geschlafen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "fahren",
+    "en": "to drive, to travel",
+    "forms": null,
+    "stemChange": [
+      "fährst",
+      "fährt"
+    ],
+    "perfect": "ist gefahren",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "laufen",
+    "en": "to run, to walk",
+    "forms": null,
+    "stemChange": [
+      "läufst",
+      "läuft"
+    ],
+    "perfect": "ist gelaufen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "fliegen",
+    "en": "to fly",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist geflogen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "lesen",
+    "en": "to read",
+    "forms": null,
+    "stemChange": [
+      "liest",
+      "liest"
+    ],
+    "perfect": "hat gelesen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "schreiben",
+    "en": "to write",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geschrieben",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "lernen",
+    "en": "to learn",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gelernt",
+    "flags": []
+  },
+  {
+    "infinitive": "arbeiten",
+    "en": "to work",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gearbeitet",
+    "flags": []
+  },
+  {
+    "infinitive": "wohnen",
+    "en": "to live, to reside",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gewohnt",
+    "flags": []
+  },
+  {
+    "infinitive": "leben",
+    "en": "to live, to be alive",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gelebt",
+    "flags": []
+  },
+  {
+    "infinitive": "spielen",
+    "en": "to play",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gespielt",
+    "flags": []
+  },
+  {
+    "infinitive": "hören",
+    "en": "to hear, to listen",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gehört",
+    "flags": []
+  },
+  {
+    "infinitive": "kaufen",
+    "en": "to buy",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gekauft",
+    "flags": []
+  },
+  {
+    "infinitive": "verkaufen",
+    "en": "to sell",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat verkauft",
+    "flags": []
+  },
+  {
+    "infinitive": "kosten",
+    "en": "to cost",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gekostet",
+    "flags": []
+  },
+  {
+    "infinitive": "bezahlen",
+    "en": "to pay",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat bezahlt",
+    "flags": []
+  },
+  {
+    "infinitive": "brauchen",
+    "en": "to need",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gebraucht",
+    "flags": []
+  },
+  {
+    "infinitive": "suchen",
+    "en": "to look for",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gesucht",
+    "flags": []
+  },
+  {
+    "infinitive": "fragen",
+    "en": "to ask",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gefragt",
+    "flags": []
+  },
+  {
+    "infinitive": "antworten",
+    "en": "to answer",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geantwortet",
+    "flags": []
+  },
+  {
+    "infinitive": "verstehen",
+    "en": "to understand",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat verstanden",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "denken",
+    "en": "to think",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gedacht",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "glauben",
+    "en": "to believe",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geglaubt",
+    "flags": []
+  },
+  {
+    "infinitive": "meinen",
+    "en": "to mean, to think",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gemeint",
+    "flags": []
+  },
+  {
+    "infinitive": "kennen",
+    "en": "to know (a person, place)",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gekannt",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "lieben",
+    "en": "to love",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geliebt",
+    "flags": []
+  },
+  {
+    "infinitive": "warten",
+    "en": "to wait",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gewartet",
+    "flags": []
+  },
+  {
+    "infinitive": "bleiben",
+    "en": "to stay",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist geblieben",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "stehen",
+    "en": "to stand",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gestanden",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "sitzen",
+    "en": "to sit",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gesessen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "liegen",
+    "en": "to lie, to be located",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gelegen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "legen",
+    "en": "to lay, to put down",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gelegt",
+    "flags": []
+  },
+  {
+    "infinitive": "stellen",
+    "en": "to put, to place upright",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gestellt",
+    "flags": []
+  },
+  {
+    "infinitive": "setzen",
+    "en": "to set, to seat",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gesetzt",
+    "flags": []
+  },
+  {
+    "infinitive": "öffnen",
+    "en": "to open",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geöffnet",
+    "flags": []
+  },
+  {
+    "infinitive": "schließen",
+    "en": "to close",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geschlossen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "beginnen",
+    "en": "to begin",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat begonnen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "helfen",
+    "en": "to help",
+    "forms": null,
+    "stemChange": [
+      "hilfst",
+      "hilft"
+    ],
+    "perfect": "hat geholfen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "danken",
+    "en": "to thank",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gedankt",
+    "flags": []
+  },
+  {
+    "infinitive": "bringen",
+    "en": "to bring",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gebracht",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "holen",
+    "en": "to fetch",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geholt",
+    "flags": []
+  },
+  {
+    "infinitive": "tragen",
+    "en": "to carry, to wear",
+    "forms": null,
+    "stemChange": [
+      "trägst",
+      "trägt"
+    ],
+    "perfect": "hat getragen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "bekommen",
+    "en": "to receive, to get",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat bekommen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "schenken",
+    "en": "to give as a gift",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geschenkt",
+    "flags": []
+  },
+  {
+    "infinitive": "zeigen",
+    "en": "to show",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gezeigt",
+    "flags": []
+  },
+  {
+    "infinitive": "erklären",
+    "en": "to explain",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat erklärt",
+    "flags": []
+  },
+  {
+    "infinitive": "üben",
+    "en": "to practise",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geübt",
+    "flags": []
+  },
+  {
+    "infinitive": "wiederholen",
+    "en": "to repeat",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat wiederholt",
+    "flags": []
+  },
+  {
+    "infinitive": "vergessen",
+    "en": "to forget",
+    "forms": null,
+    "stemChange": [
+      "vergisst",
+      "vergisst"
+    ],
+    "perfect": "hat vergessen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "treffen",
+    "en": "to meet",
+    "forms": null,
+    "stemChange": [
+      "triffst",
+      "trifft"
+    ],
+    "perfect": "hat getroffen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "besuchen",
+    "en": "to visit",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat besucht",
+    "flags": []
+  },
+  {
+    "infinitive": "reisen",
+    "en": "to travel",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist gereist",
+    "flags": []
+  },
+  {
+    "infinitive": "wandern",
+    "en": "to hike",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist gewandert",
+    "flags": []
+  },
+  {
+    "infinitive": "schwimmen",
+    "en": "to swim",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist geschwommen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "tanzen",
+    "en": "to dance",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat getanzt",
+    "flags": []
+  },
+  {
+    "infinitive": "singen",
+    "en": "to sing",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gesungen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "kochen",
+    "en": "to cook",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gekocht",
+    "flags": []
+  },
+  {
+    "infinitive": "backen",
+    "en": "to bake",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gebacken",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "putzen",
+    "en": "to clean",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geputzt",
+    "flags": []
+  },
+  {
+    "infinitive": "waschen",
+    "en": "to wash",
+    "forms": null,
+    "stemChange": [
+      "wäschst",
+      "wäscht"
+    ],
+    "perfect": "hat gewaschen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "duschen",
+    "en": "to shower",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geduscht",
+    "flags": []
+  },
+  {
+    "infinitive": "ziehen",
+    "en": "to pull",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gezogen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "gefallen",
+    "en": "to please, to be liked",
+    "forms": null,
+    "stemChange": [
+      "gefällst",
+      "gefällt"
+    ],
+    "perfect": "hat gefallen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "schmecken",
+    "en": "to taste good",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geschmeckt",
+    "flags": []
+  },
+  {
+    "infinitive": "passen",
+    "en": "to fit, to suit",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gepasst",
+    "flags": []
+  },
+  {
+    "infinitive": "gehören",
+    "en": "to belong to",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gehört",
+    "flags": []
+  },
+  {
+    "infinitive": "funktionieren",
+    "en": "to work, to function",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat funktioniert",
+    "flags": []
+  },
+  {
+    "infinitive": "probieren",
+    "en": "to try, to taste",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat probiert",
+    "flags": []
+  },
+  {
+    "infinitive": "versuchen",
+    "en": "to try, to attempt",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat versucht",
+    "flags": []
+  },
+  {
+    "infinitive": "entschuldigen",
+    "en": "to excuse",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat entschuldigt",
+    "flags": []
+  },
+  {
+    "infinitive": "schicken",
+    "en": "to send",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geschickt",
+    "flags": []
+  },
+  {
+    "infinitive": "bestellen",
+    "en": "to order",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat bestellt",
+    "flags": []
+  },
+  {
+    "infinitive": "buchen",
+    "en": "to book",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gebucht",
+    "flags": []
+  },
+  {
+    "infinitive": "reservieren",
+    "en": "to reserve",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat reserviert",
+    "flags": []
+  },
+  {
+    "infinitive": "verlieren",
+    "en": "to lose",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat verloren",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "gewinnen",
+    "en": "to win",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gewonnen",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "rauchen",
+    "en": "to smoke",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geraucht",
+    "flags": []
+  },
+  {
+    "infinitive": "sparen",
+    "en": "to save (money)",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gespart",
+    "flags": []
+  },
+  {
+    "infinitive": "verdienen",
+    "en": "to earn",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat verdient",
+    "flags": []
+  },
+  {
+    "infinitive": "studieren",
+    "en": "to study",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat studiert",
+    "flags": []
+  },
+  {
+    "infinitive": "unterschreiben",
+    "en": "to sign",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat unterschrieben",
+    "flags": [
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "wechseln",
+    "en": "to change, to swap",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gewechselt",
+    "flags": []
+  },
+  {
+    "infinitive": "ändern",
+    "en": "to change, to alter",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geändert",
+    "flags": []
+  },
+  {
+    "infinitive": "dauern",
+    "en": "to last, to take (time)",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gedauert",
+    "flags": []
+  },
+  {
+    "infinitive": "lachen",
+    "en": "to laugh",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gelacht",
+    "flags": []
+  },
+  {
+    "infinitive": "weinen",
+    "en": "to cry",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat geweint",
+    "flags": []
+  },
+  {
+    "infinitive": "hoffen",
+    "en": "to hope",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat gehofft",
+    "flags": []
+  },
+  {
+    "infinitive": "aufstehen",
+    "en": "to get up",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist aufgestanden",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "anfangen",
+    "en": "to begin",
+    "forms": null,
+    "stemChange": [
+      "fängst",
+      "fängt"
+    ],
+    "perfect": "hat angefangen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "aufhören",
+    "en": "to stop",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat aufgehört",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "einkaufen",
+    "en": "to shop",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat eingekauft",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "einladen",
+    "en": "to invite",
+    "forms": null,
+    "stemChange": [
+      "lädst",
+      "lädt"
+    ],
+    "perfect": "hat eingeladen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "anrufen",
+    "en": "to phone, to call",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat angerufen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "aufmachen",
+    "en": "to open",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat aufgemacht",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "zumachen",
+    "en": "to close",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat zugemacht",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "mitkommen",
+    "en": "to come along",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist mitgekommen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "mitbringen",
+    "en": "to bring along",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat mitgebracht",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "ankommen",
+    "en": "to arrive",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist angekommen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "abfahren",
+    "en": "to depart",
+    "forms": null,
+    "stemChange": [
+      "fährst",
+      "fährt"
+    ],
+    "perfect": "ist abgefahren",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "aussehen",
+    "en": "to look, to appear",
+    "forms": null,
+    "stemChange": [
+      "siehst",
+      "sieht"
+    ],
+    "perfect": "hat ausgesehen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "fernsehen",
+    "en": "to watch TV",
+    "forms": null,
+    "stemChange": [
+      "siehst",
+      "sieht"
+    ],
+    "perfect": "hat ferngesehen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "stattfinden",
+    "en": "to take place",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat stattgefunden",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "vorstellen",
+    "en": "to introduce, to present",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat vorgestellt",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "ausfüllen",
+    "en": "to fill in",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat ausgefüllt",
+    "flags": [
+      "sep"
+    ]
+  },
+  {
+    "infinitive": "umziehen",
+    "en": "to move house",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "ist umgezogen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "anziehen",
+    "en": "to put on (clothes)",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat angezogen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  },
+  {
+    "infinitive": "ausziehen",
+    "en": "to take off (clothes)",
+    "forms": null,
+    "stemChange": null,
+    "perfect": "hat ausgezogen",
+    "flags": [
+      "sep",
+      "irr"
+    ]
+  }
+]

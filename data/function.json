@@ -1,0 +1,267 @@
+[
+  {
+    "word": "ich",
+    "en": "I",
+    "note": "Nominativ"
+  },
+  {
+    "word": "du",
+    "en": "you (informal singular)",
+    "note": "Nominativ"
+  },
+  {
+    "word": "er",
+    "en": "he",
+    "note": "Nominativ"
+  },
+  {
+    "word": "sie",
+    "en": "she / they",
+    "note": "Nominativ"
+  },
+  {
+    "word": "es",
+    "en": "it",
+    "note": "Nominativ"
+  },
+  {
+    "word": "wir",
+    "en": "we",
+    "note": "Nominativ"
+  },
+  {
+    "word": "ihr",
+    "en": "you (informal plural)",
+    "note": "Nominativ"
+  },
+  {
+    "word": "Sie",
+    "en": "you (formal)",
+    "note": "Nominativ, always capitalised"
+  },
+  {
+    "word": "mich",
+    "en": "me",
+    "note": "Akkusativ von ich"
+  },
+  {
+    "word": "dich",
+    "en": "you",
+    "note": "Akkusativ von du"
+  },
+  {
+    "word": "ihn",
+    "en": "him",
+    "note": "Akkusativ von er"
+  },
+  {
+    "word": "uns",
+    "en": "us",
+    "note": "Akkusativ and Dativ von wir"
+  },
+  {
+    "word": "euch",
+    "en": "you (plural)",
+    "note": "Akkusativ and Dativ von ihr"
+  },
+  {
+    "word": "mir",
+    "en": "to me, me",
+    "note": "Dativ von ich"
+  },
+  {
+    "word": "dir",
+    "en": "to you",
+    "note": "Dativ von du"
+  },
+  {
+    "word": "ihm",
+    "en": "to him, to it",
+    "note": "Dativ von er / es"
+  },
+  {
+    "word": "ihr (Dativ)",
+    "en": "to her",
+    "note": "Dativ von sie (singular)"
+  },
+  {
+    "word": "ihnen",
+    "en": "to them",
+    "note": "Dativ von sie (plural)"
+  },
+  {
+    "word": "Ihnen",
+    "en": "to you (formal)",
+    "note": "Dativ von Sie"
+  },
+  {
+    "word": "mein",
+    "en": "my",
+    "note": "possessive"
+  },
+  {
+    "word": "dein",
+    "en": "your",
+    "note": "possessive, informal singular"
+  },
+  {
+    "word": "sein",
+    "en": "his, its",
+    "note": "possessive"
+  },
+  {
+    "word": "ihr (Possessiv)",
+    "en": "her, their",
+    "note": "possessive"
+  },
+  {
+    "word": "unser",
+    "en": "our",
+    "note": "possessive"
+  },
+  {
+    "word": "euer",
+    "en": "your (plural)",
+    "note": "possessive, informal plural"
+  },
+  {
+    "word": "Ihr",
+    "en": "your (formal)",
+    "note": "possessive, always capitalised"
+  },
+  {
+    "word": "der",
+    "en": "the",
+    "note": "masculine Nominativ"
+  },
+  {
+    "word": "die",
+    "en": "the",
+    "note": "feminine and plural Nominativ"
+  },
+  {
+    "word": "das",
+    "en": "the",
+    "note": "neuter Nominativ"
+  },
+  {
+    "word": "den",
+    "en": "the",
+    "note": "masculine Akkusativ / plural Dativ"
+  },
+  {
+    "word": "dem",
+    "en": "the",
+    "note": "masculine and neuter Dativ"
+  },
+  {
+    "word": "ein",
+    "en": "a, an",
+    "note": "masculine and neuter Nominativ"
+  },
+  {
+    "word": "eine",
+    "en": "a, an",
+    "note": "feminine Nominativ and Akkusativ"
+  },
+  {
+    "word": "einen",
+    "en": "a, an",
+    "note": "masculine Akkusativ"
+  },
+  {
+    "word": "einem",
+    "en": "a, an",
+    "note": "masculine and neuter Dativ"
+  },
+  {
+    "word": "einer",
+    "en": "a, an",
+    "note": "feminine Dativ"
+  },
+  {
+    "word": "kein",
+    "en": "no, not a",
+    "note": "negates a noun"
+  },
+  {
+    "word": "und",
+    "en": "and",
+    "note": "does not change word order"
+  },
+  {
+    "word": "oder",
+    "en": "or",
+    "note": "does not change word order"
+  },
+  {
+    "word": "aber",
+    "en": "but",
+    "note": "does not change word order"
+  },
+  {
+    "word": "denn",
+    "en": "because",
+    "note": "does not change word order"
+  },
+  {
+    "word": "sondern",
+    "en": "but rather (after a negative)",
+    "note": "nicht X, sondern Y"
+  },
+  {
+    "word": "dass",
+    "en": "that",
+    "note": "verb goes to the end"
+  },
+  {
+    "word": "weil",
+    "en": "because",
+    "note": "verb goes to the end"
+  },
+  {
+    "word": "wenn",
+    "en": "if, when",
+    "note": "verb goes to the end"
+  },
+  {
+    "word": "ob",
+    "en": "whether",
+    "note": "verb goes to the end"
+  },
+  {
+    "word": "man",
+    "en": "one, you (impersonal)",
+    "note": "man sagt = people say"
+  },
+  {
+    "word": "es gibt",
+    "en": "there is, there are",
+    "note": "always followed by Akkusativ"
+  },
+  {
+    "word": "nichts",
+    "en": "nothing",
+    "note": null
+  },
+  {
+    "word": "etwas",
+    "en": "something, a bit",
+    "note": null
+  },
+  {
+    "word": "alles",
+    "en": "everything",
+    "note": null
+  },
+  {
+    "word": "jeder",
+    "en": "every, each",
+    "note": null
+  },
+  {
+    "word": "viele",
+    "en": "many",
+    "note": null
+  }
+]

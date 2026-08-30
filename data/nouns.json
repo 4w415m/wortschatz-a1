@@ -1,0 +1,2060 @@
+[
+  {
+    "gender": "der",
+    "singular": "Mann",
+    "plural": "Männer",
+    "en": "man"
+  },
+  {
+    "gender": "die",
+    "singular": "Frau",
+    "plural": "Frauen",
+    "en": "woman, wife"
+  },
+  {
+    "gender": "das",
+    "singular": "Kind",
+    "plural": "Kinder",
+    "en": "child"
+  },
+  {
+    "gender": "der",
+    "singular": "Junge",
+    "plural": "Jungen",
+    "en": "boy"
+  },
+  {
+    "gender": "das",
+    "singular": "Mädchen",
+    "plural": "Mädchen",
+    "en": "girl"
+  },
+  {
+    "gender": "die",
+    "singular": "Familie",
+    "plural": "Familien",
+    "en": "family"
+  },
+  {
+    "gender": "die",
+    "singular": "Eltern",
+    "plural": null,
+    "en": "parents (plural only)"
+  },
+  {
+    "gender": "der",
+    "singular": "Vater",
+    "plural": "Väter",
+    "en": "father"
+  },
+  {
+    "gender": "die",
+    "singular": "Mutter",
+    "plural": "Mütter",
+    "en": "mother"
+  },
+  {
+    "gender": "der",
+    "singular": "Sohn",
+    "plural": "Söhne",
+    "en": "son"
+  },
+  {
+    "gender": "die",
+    "singular": "Tochter",
+    "plural": "Töchter",
+    "en": "daughter"
+  },
+  {
+    "gender": "der",
+    "singular": "Bruder",
+    "plural": "Brüder",
+    "en": "brother"
+  },
+  {
+    "gender": "die",
+    "singular": "Schwester",
+    "plural": "Schwestern",
+    "en": "sister"
+  },
+  {
+    "gender": "die",
+    "singular": "Geschwister",
+    "plural": null,
+    "en": "siblings (plural only)"
+  },
+  {
+    "gender": "der",
+    "singular": "Opa",
+    "plural": "Opas",
+    "en": "grandpa"
+  },
+  {
+    "gender": "die",
+    "singular": "Oma",
+    "plural": "Omas",
+    "en": "grandma"
+  },
+  {
+    "gender": "der",
+    "singular": "Großvater",
+    "plural": "Großväter",
+    "en": "grandfather"
+  },
+  {
+    "gender": "die",
+    "singular": "Großmutter",
+    "plural": "Großmütter",
+    "en": "grandmother"
+  },
+  {
+    "gender": "der",
+    "singular": "Freund",
+    "plural": "Freunde",
+    "en": "friend (m), boyfriend"
+  },
+  {
+    "gender": "die",
+    "singular": "Freundin",
+    "plural": "Freundinnen",
+    "en": "friend (f), girlfriend"
+  },
+  {
+    "gender": "der",
+    "singular": "Kollege",
+    "plural": "Kollegen",
+    "en": "colleague (m)"
+  },
+  {
+    "gender": "die",
+    "singular": "Kollegin",
+    "plural": "Kolleginnen",
+    "en": "colleague (f)"
+  },
+  {
+    "gender": "der",
+    "singular": "Nachbar",
+    "plural": "Nachbarn",
+    "en": "neighbour"
+  },
+  {
+    "gender": "der",
+    "singular": "Mensch",
+    "plural": "Menschen",
+    "en": "human, person"
+  },
+  {
+    "gender": "die",
+    "singular": "Person",
+    "plural": "Personen",
+    "en": "person"
+  },
+  {
+    "gender": "die",
+    "singular": "Leute",
+    "plural": null,
+    "en": "people (plural only)"
+  },
+  {
+    "gender": "der",
+    "singular": "Herr",
+    "plural": "Herren",
+    "en": "Mr, gentleman"
+  },
+  {
+    "gender": "die",
+    "singular": "Dame",
+    "plural": "Damen",
+    "en": "lady"
+  },
+  {
+    "gender": "das",
+    "singular": "Baby",
+    "plural": "Babys",
+    "en": "baby"
+  },
+  {
+    "gender": "der",
+    "singular": "Gast",
+    "plural": "Gäste",
+    "en": "guest"
+  },
+  {
+    "gender": "der",
+    "singular": "Name",
+    "plural": "Namen",
+    "en": "name"
+  },
+  {
+    "gender": "der",
+    "singular": "Vorname",
+    "plural": "Vornamen",
+    "en": "first name"
+  },
+  {
+    "gender": "der",
+    "singular": "Nachname",
+    "plural": "Nachnamen",
+    "en": "surname"
+  },
+  {
+    "gender": "die",
+    "singular": "Adresse",
+    "plural": "Adressen",
+    "en": "address"
+  },
+  {
+    "gender": "das",
+    "singular": "Alter",
+    "plural": null,
+    "en": "age"
+  },
+  {
+    "gender": "der",
+    "singular": "Beruf",
+    "plural": "Berufe",
+    "en": "profession"
+  },
+  {
+    "gender": "die",
+    "singular": "Heimat",
+    "plural": null,
+    "en": "homeland"
+  },
+  {
+    "gender": "das",
+    "singular": "Land",
+    "plural": "Länder",
+    "en": "country, countryside"
+  },
+  {
+    "gender": "die",
+    "singular": "Stadt",
+    "plural": "Städte",
+    "en": "city, town"
+  },
+  {
+    "gender": "die",
+    "singular": "Sprache",
+    "plural": "Sprachen",
+    "en": "language"
+  },
+  {
+    "gender": "der",
+    "singular": "Kopf",
+    "plural": "Köpfe",
+    "en": "head"
+  },
+  {
+    "gender": "das",
+    "singular": "Haar",
+    "plural": "Haare",
+    "en": "hair"
+  },
+  {
+    "gender": "das",
+    "singular": "Auge",
+    "plural": "Augen",
+    "en": "eye"
+  },
+  {
+    "gender": "die",
+    "singular": "Nase",
+    "plural": "Nasen",
+    "en": "nose"
+  },
+  {
+    "gender": "der",
+    "singular": "Mund",
+    "plural": "Münder",
+    "en": "mouth"
+  },
+  {
+    "gender": "das",
+    "singular": "Ohr",
+    "plural": "Ohren",
+    "en": "ear"
+  },
+  {
+    "gender": "der",
+    "singular": "Zahn",
+    "plural": "Zähne",
+    "en": "tooth"
+  },
+  {
+    "gender": "der",
+    "singular": "Hals",
+    "plural": "Hälse",
+    "en": "neck, throat"
+  },
+  {
+    "gender": "der",
+    "singular": "Arm",
+    "plural": "Arme",
+    "en": "arm"
+  },
+  {
+    "gender": "die",
+    "singular": "Hand",
+    "plural": "Hände",
+    "en": "hand"
+  },
+  {
+    "gender": "der",
+    "singular": "Finger",
+    "plural": "Finger",
+    "en": "finger"
+  },
+  {
+    "gender": "das",
+    "singular": "Bein",
+    "plural": "Beine",
+    "en": "leg"
+  },
+  {
+    "gender": "der",
+    "singular": "Fuß",
+    "plural": "Füße",
+    "en": "foot"
+  },
+  {
+    "gender": "der",
+    "singular": "Bauch",
+    "plural": "Bäuche",
+    "en": "belly, stomach"
+  },
+  {
+    "gender": "der",
+    "singular": "Rücken",
+    "plural": "Rücken",
+    "en": "back"
+  },
+  {
+    "gender": "das",
+    "singular": "Herz",
+    "plural": "Herzen",
+    "en": "heart"
+  },
+  {
+    "gender": "der",
+    "singular": "Körper",
+    "plural": "Körper",
+    "en": "body"
+  },
+  {
+    "gender": "der",
+    "singular": "Arzt",
+    "plural": "Ärzte",
+    "en": "doctor (m)"
+  },
+  {
+    "gender": "die",
+    "singular": "Ärztin",
+    "plural": "Ärztinnen",
+    "en": "doctor (f)"
+  },
+  {
+    "gender": "die",
+    "singular": "Praxis",
+    "plural": "Praxen",
+    "en": "doctor's practice"
+  },
+  {
+    "gender": "das",
+    "singular": "Krankenhaus",
+    "plural": "Krankenhäuser",
+    "en": "hospital"
+  },
+  {
+    "gender": "die",
+    "singular": "Apotheke",
+    "plural": "Apotheken",
+    "en": "pharmacy"
+  },
+  {
+    "gender": "die",
+    "singular": "Tablette",
+    "plural": "Tabletten",
+    "en": "tablet, pill"
+  },
+  {
+    "gender": "der",
+    "singular": "Schmerz",
+    "plural": "Schmerzen",
+    "en": "pain"
+  },
+  {
+    "gender": "das",
+    "singular": "Fieber",
+    "plural": null,
+    "en": "fever"
+  },
+  {
+    "gender": "die",
+    "singular": "Erkältung",
+    "plural": "Erkältungen",
+    "en": "cold (illness)"
+  },
+  {
+    "gender": "der",
+    "singular": "Termin",
+    "plural": "Termine",
+    "en": "appointment"
+  },
+  {
+    "gender": "die",
+    "singular": "Gesundheit",
+    "plural": null,
+    "en": "health"
+  },
+  {
+    "gender": "das",
+    "singular": "Haus",
+    "plural": "Häuser",
+    "en": "house"
+  },
+  {
+    "gender": "die",
+    "singular": "Wohnung",
+    "plural": "Wohnungen",
+    "en": "flat, apartment"
+  },
+  {
+    "gender": "das",
+    "singular": "Zimmer",
+    "plural": "Zimmer",
+    "en": "room"
+  },
+  {
+    "gender": "die",
+    "singular": "Küche",
+    "plural": "Küchen",
+    "en": "kitchen"
+  },
+  {
+    "gender": "das",
+    "singular": "Bad",
+    "plural": "Bäder",
+    "en": "bathroom"
+  },
+  {
+    "gender": "das",
+    "singular": "Schlafzimmer",
+    "plural": "Schlafzimmer",
+    "en": "bedroom"
+  },
+  {
+    "gender": "das",
+    "singular": "Wohnzimmer",
+    "plural": "Wohnzimmer",
+    "en": "living room"
+  },
+  {
+    "gender": "der",
+    "singular": "Flur",
+    "plural": "Flure",
+    "en": "hallway"
+  },
+  {
+    "gender": "der",
+    "singular": "Balkon",
+    "plural": "Balkone",
+    "en": "balcony"
+  },
+  {
+    "gender": "der",
+    "singular": "Garten",
+    "plural": "Gärten",
+    "en": "garden"
+  },
+  {
+    "gender": "der",
+    "singular": "Keller",
+    "plural": "Keller",
+    "en": "cellar"
+  },
+  {
+    "gender": "die",
+    "singular": "Tür",
+    "plural": "Türen",
+    "en": "door"
+  },
+  {
+    "gender": "das",
+    "singular": "Fenster",
+    "plural": "Fenster",
+    "en": "window"
+  },
+  {
+    "gender": "die",
+    "singular": "Wand",
+    "plural": "Wände",
+    "en": "wall"
+  },
+  {
+    "gender": "der",
+    "singular": "Boden",
+    "plural": "Böden",
+    "en": "floor, ground"
+  },
+  {
+    "gender": "die",
+    "singular": "Treppe",
+    "plural": "Treppen",
+    "en": "stairs"
+  },
+  {
+    "gender": "der",
+    "singular": "Tisch",
+    "plural": "Tische",
+    "en": "table"
+  },
+  {
+    "gender": "der",
+    "singular": "Stuhl",
+    "plural": "Stühle",
+    "en": "chair"
+  },
+  {
+    "gender": "das",
+    "singular": "Sofa",
+    "plural": "Sofas",
+    "en": "sofa"
+  },
+  {
+    "gender": "das",
+    "singular": "Bett",
+    "plural": "Betten",
+    "en": "bed"
+  },
+  {
+    "gender": "der",
+    "singular": "Schrank",
+    "plural": "Schränke",
+    "en": "cupboard, wardrobe"
+  },
+  {
+    "gender": "das",
+    "singular": "Regal",
+    "plural": "Regale",
+    "en": "shelf"
+  },
+  {
+    "gender": "die",
+    "singular": "Lampe",
+    "plural": "Lampen",
+    "en": "lamp"
+  },
+  {
+    "gender": "der",
+    "singular": "Teppich",
+    "plural": "Teppiche",
+    "en": "carpet"
+  },
+  {
+    "gender": "der",
+    "singular": "Spiegel",
+    "plural": "Spiegel",
+    "en": "mirror"
+  },
+  {
+    "gender": "die",
+    "singular": "Dusche",
+    "plural": "Duschen",
+    "en": "shower"
+  },
+  {
+    "gender": "die",
+    "singular": "Toilette",
+    "plural": "Toiletten",
+    "en": "toilet"
+  },
+  {
+    "gender": "der",
+    "singular": "Kühlschrank",
+    "plural": "Kühlschränke",
+    "en": "fridge"
+  },
+  {
+    "gender": "der",
+    "singular": "Herd",
+    "plural": "Herde",
+    "en": "stove, cooker"
+  },
+  {
+    "gender": "die",
+    "singular": "Miete",
+    "plural": "Mieten",
+    "en": "rent"
+  },
+  {
+    "gender": "der",
+    "singular": "Schlüssel",
+    "plural": "Schlüssel",
+    "en": "key"
+  },
+  {
+    "gender": "der",
+    "singular": "Strom",
+    "plural": null,
+    "en": "electricity"
+  },
+  {
+    "gender": "das",
+    "singular": "Essen",
+    "plural": null,
+    "en": "food, meal"
+  },
+  {
+    "gender": "das",
+    "singular": "Frühstück",
+    "plural": null,
+    "en": "breakfast"
+  },
+  {
+    "gender": "das",
+    "singular": "Mittagessen",
+    "plural": null,
+    "en": "lunch"
+  },
+  {
+    "gender": "das",
+    "singular": "Abendessen",
+    "plural": null,
+    "en": "dinner"
+  },
+  {
+    "gender": "das",
+    "singular": "Brot",
+    "plural": "Brote",
+    "en": "bread"
+  },
+  {
+    "gender": "das",
+    "singular": "Brötchen",
+    "plural": "Brötchen",
+    "en": "bread roll"
+  },
+  {
+    "gender": "die",
+    "singular": "Butter",
+    "plural": null,
+    "en": "butter"
+  },
+  {
+    "gender": "der",
+    "singular": "Käse",
+    "plural": null,
+    "en": "cheese"
+  },
+  {
+    "gender": "die",
+    "singular": "Wurst",
+    "plural": "Würste",
+    "en": "sausage"
+  },
+  {
+    "gender": "das",
+    "singular": "Fleisch",
+    "plural": null,
+    "en": "meat"
+  },
+  {
+    "gender": "das",
+    "singular": "Ei",
+    "plural": "Eier",
+    "en": "egg"
+  },
+  {
+    "gender": "der",
+    "singular": "Fisch",
+    "plural": "Fische",
+    "en": "fish"
+  },
+  {
+    "gender": "die",
+    "singular": "Suppe",
+    "plural": "Suppen",
+    "en": "soup"
+  },
+  {
+    "gender": "der",
+    "singular": "Salat",
+    "plural": "Salate",
+    "en": "salad, lettuce"
+  },
+  {
+    "gender": "das",
+    "singular": "Gemüse",
+    "plural": null,
+    "en": "vegetables"
+  },
+  {
+    "gender": "das",
+    "singular": "Obst",
+    "plural": null,
+    "en": "fruit"
+  },
+  {
+    "gender": "der",
+    "singular": "Apfel",
+    "plural": "Äpfel",
+    "en": "apple"
+  },
+  {
+    "gender": "die",
+    "singular": "Banane",
+    "plural": "Bananen",
+    "en": "banana"
+  },
+  {
+    "gender": "die",
+    "singular": "Orange",
+    "plural": "Orangen",
+    "en": "orange"
+  },
+  {
+    "gender": "die",
+    "singular": "Tomate",
+    "plural": "Tomaten",
+    "en": "tomato"
+  },
+  {
+    "gender": "die",
+    "singular": "Kartoffel",
+    "plural": "Kartoffeln",
+    "en": "potato"
+  },
+  {
+    "gender": "die",
+    "singular": "Zwiebel",
+    "plural": "Zwiebeln",
+    "en": "onion"
+  },
+  {
+    "gender": "der",
+    "singular": "Reis",
+    "plural": null,
+    "en": "rice"
+  },
+  {
+    "gender": "die",
+    "singular": "Nudel",
+    "plural": "Nudeln",
+    "en": "noodle, pasta"
+  },
+  {
+    "gender": "der",
+    "singular": "Zucker",
+    "plural": null,
+    "en": "sugar"
+  },
+  {
+    "gender": "das",
+    "singular": "Salz",
+    "plural": null,
+    "en": "salt"
+  },
+  {
+    "gender": "der",
+    "singular": "Pfeffer",
+    "plural": null,
+    "en": "pepper"
+  },
+  {
+    "gender": "das",
+    "singular": "Öl",
+    "plural": "Öle",
+    "en": "oil"
+  },
+  {
+    "gender": "der",
+    "singular": "Kuchen",
+    "plural": "Kuchen",
+    "en": "cake"
+  },
+  {
+    "gender": "die",
+    "singular": "Schokolade",
+    "plural": "Schokoladen",
+    "en": "chocolate"
+  },
+  {
+    "gender": "das",
+    "singular": "Eis",
+    "plural": null,
+    "en": "ice, ice cream"
+  },
+  {
+    "gender": "das",
+    "singular": "Getränk",
+    "plural": "Getränke",
+    "en": "drink"
+  },
+  {
+    "gender": "das",
+    "singular": "Wasser",
+    "plural": null,
+    "en": "water"
+  },
+  {
+    "gender": "der",
+    "singular": "Kaffee",
+    "plural": null,
+    "en": "coffee"
+  },
+  {
+    "gender": "der",
+    "singular": "Tee",
+    "plural": "Tees",
+    "en": "tea"
+  },
+  {
+    "gender": "die",
+    "singular": "Milch",
+    "plural": null,
+    "en": "milk"
+  },
+  {
+    "gender": "der",
+    "singular": "Saft",
+    "plural": "Säfte",
+    "en": "juice"
+  },
+  {
+    "gender": "das",
+    "singular": "Bier",
+    "plural": "Biere",
+    "en": "beer"
+  },
+  {
+    "gender": "der",
+    "singular": "Wein",
+    "plural": "Weine",
+    "en": "wine"
+  },
+  {
+    "gender": "die",
+    "singular": "Flasche",
+    "plural": "Flaschen",
+    "en": "bottle"
+  },
+  {
+    "gender": "das",
+    "singular": "Glas",
+    "plural": "Gläser",
+    "en": "glass"
+  },
+  {
+    "gender": "die",
+    "singular": "Tasse",
+    "plural": "Tassen",
+    "en": "cup"
+  },
+  {
+    "gender": "der",
+    "singular": "Teller",
+    "plural": "Teller",
+    "en": "plate"
+  },
+  {
+    "gender": "die",
+    "singular": "Gabel",
+    "plural": "Gabeln",
+    "en": "fork"
+  },
+  {
+    "gender": "das",
+    "singular": "Messer",
+    "plural": "Messer",
+    "en": "knife"
+  },
+  {
+    "gender": "der",
+    "singular": "Löffel",
+    "plural": "Löffel",
+    "en": "spoon"
+  },
+  {
+    "gender": "das",
+    "singular": "Restaurant",
+    "plural": "Restaurants",
+    "en": "restaurant"
+  },
+  {
+    "gender": "das",
+    "singular": "Café",
+    "plural": "Cafés",
+    "en": "café"
+  },
+  {
+    "gender": "die",
+    "singular": "Rechnung",
+    "plural": "Rechnungen",
+    "en": "bill, invoice"
+  },
+  {
+    "gender": "die",
+    "singular": "Speisekarte",
+    "plural": "Speisekarten",
+    "en": "menu"
+  },
+  {
+    "gender": "der",
+    "singular": "Hunger",
+    "plural": null,
+    "en": "hunger"
+  },
+  {
+    "gender": "der",
+    "singular": "Durst",
+    "plural": null,
+    "en": "thirst"
+  },
+  {
+    "gender": "die",
+    "singular": "Kleidung",
+    "plural": null,
+    "en": "clothing"
+  },
+  {
+    "gender": "das",
+    "singular": "Hemd",
+    "plural": "Hemden",
+    "en": "shirt"
+  },
+  {
+    "gender": "die",
+    "singular": "Hose",
+    "plural": "Hosen",
+    "en": "trousers"
+  },
+  {
+    "gender": "der",
+    "singular": "Rock",
+    "plural": "Röcke",
+    "en": "skirt"
+  },
+  {
+    "gender": "das",
+    "singular": "Kleid",
+    "plural": "Kleider",
+    "en": "dress"
+  },
+  {
+    "gender": "die",
+    "singular": "Jacke",
+    "plural": "Jacken",
+    "en": "jacket"
+  },
+  {
+    "gender": "der",
+    "singular": "Mantel",
+    "plural": "Mäntel",
+    "en": "coat"
+  },
+  {
+    "gender": "der",
+    "singular": "Pullover",
+    "plural": "Pullover",
+    "en": "jumper, sweater"
+  },
+  {
+    "gender": "das",
+    "singular": "T-Shirt",
+    "plural": "T-Shirts",
+    "en": "T-shirt"
+  },
+  {
+    "gender": "der",
+    "singular": "Schuh",
+    "plural": "Schuhe",
+    "en": "shoe"
+  },
+  {
+    "gender": "die",
+    "singular": "Socke",
+    "plural": "Socken",
+    "en": "sock"
+  },
+  {
+    "gender": "der",
+    "singular": "Hut",
+    "plural": "Hüte",
+    "en": "hat"
+  },
+  {
+    "gender": "die",
+    "singular": "Mütze",
+    "plural": "Mützen",
+    "en": "cap, beanie"
+  },
+  {
+    "gender": "der",
+    "singular": "Schal",
+    "plural": "Schals",
+    "en": "scarf"
+  },
+  {
+    "gender": "die",
+    "singular": "Brille",
+    "plural": "Brillen",
+    "en": "glasses"
+  },
+  {
+    "gender": "die",
+    "singular": "Tasche",
+    "plural": "Taschen",
+    "en": "bag, pocket"
+  },
+  {
+    "gender": "die",
+    "singular": "Größe",
+    "plural": "Größen",
+    "en": "size"
+  },
+  {
+    "gender": "der",
+    "singular": "Platz",
+    "plural": "Plätze",
+    "en": "square, place, seat"
+  },
+  {
+    "gender": "die",
+    "singular": "Straße",
+    "plural": "Straßen",
+    "en": "street"
+  },
+  {
+    "gender": "der",
+    "singular": "Weg",
+    "plural": "Wege",
+    "en": "way, path"
+  },
+  {
+    "gender": "die",
+    "singular": "Kirche",
+    "plural": "Kirchen",
+    "en": "church"
+  },
+  {
+    "gender": "das",
+    "singular": "Museum",
+    "plural": "Museen",
+    "en": "museum"
+  },
+  {
+    "gender": "das",
+    "singular": "Kino",
+    "plural": "Kinos",
+    "en": "cinema"
+  },
+  {
+    "gender": "das",
+    "singular": "Theater",
+    "plural": "Theater",
+    "en": "theatre"
+  },
+  {
+    "gender": "die",
+    "singular": "Bibliothek",
+    "plural": "Bibliotheken",
+    "en": "library"
+  },
+  {
+    "gender": "die",
+    "singular": "Schule",
+    "plural": "Schulen",
+    "en": "school"
+  },
+  {
+    "gender": "die",
+    "singular": "Universität",
+    "plural": "Universitäten",
+    "en": "university"
+  },
+  {
+    "gender": "das",
+    "singular": "Büro",
+    "plural": "Büros",
+    "en": "office"
+  },
+  {
+    "gender": "die",
+    "singular": "Bank",
+    "plural": "Banken",
+    "en": "bank"
+  },
+  {
+    "gender": "die",
+    "singular": "Post",
+    "plural": null,
+    "en": "post office, mail"
+  },
+  {
+    "gender": "der",
+    "singular": "Markt",
+    "plural": "Märkte",
+    "en": "market"
+  },
+  {
+    "gender": "der",
+    "singular": "Supermarkt",
+    "plural": "Supermärkte",
+    "en": "supermarket"
+  },
+  {
+    "gender": "das",
+    "singular": "Geschäft",
+    "plural": "Geschäfte",
+    "en": "shop, business"
+  },
+  {
+    "gender": "der",
+    "singular": "Laden",
+    "plural": "Läden",
+    "en": "shop"
+  },
+  {
+    "gender": "das",
+    "singular": "Hotel",
+    "plural": "Hotels",
+    "en": "hotel"
+  },
+  {
+    "gender": "der",
+    "singular": "Park",
+    "plural": "Parks",
+    "en": "park"
+  },
+  {
+    "gender": "der",
+    "singular": "Bahnhof",
+    "plural": "Bahnhöfe",
+    "en": "train station"
+  },
+  {
+    "gender": "der",
+    "singular": "Flughafen",
+    "plural": "Flughäfen",
+    "en": "airport"
+  },
+  {
+    "gender": "die",
+    "singular": "Haltestelle",
+    "plural": "Haltestellen",
+    "en": "stop (bus, tram)"
+  },
+  {
+    "gender": "das",
+    "singular": "Zentrum",
+    "plural": "Zentren",
+    "en": "centre"
+  },
+  {
+    "gender": "das",
+    "singular": "Dorf",
+    "plural": "Dörfer",
+    "en": "village"
+  },
+  {
+    "gender": "das",
+    "singular": "Auto",
+    "plural": "Autos",
+    "en": "car"
+  },
+  {
+    "gender": "der",
+    "singular": "Bus",
+    "plural": "Busse",
+    "en": "bus"
+  },
+  {
+    "gender": "der",
+    "singular": "Zug",
+    "plural": "Züge",
+    "en": "train"
+  },
+  {
+    "gender": "die",
+    "singular": "Bahn",
+    "plural": "Bahnen",
+    "en": "train, railway"
+  },
+  {
+    "gender": "das",
+    "singular": "Fahrrad",
+    "plural": "Fahrräder",
+    "en": "bicycle"
+  },
+  {
+    "gender": "das",
+    "singular": "Taxi",
+    "plural": "Taxis",
+    "en": "taxi"
+  },
+  {
+    "gender": "das",
+    "singular": "Flugzeug",
+    "plural": "Flugzeuge",
+    "en": "aeroplane"
+  },
+  {
+    "gender": "das",
+    "singular": "Schiff",
+    "plural": "Schiffe",
+    "en": "ship"
+  },
+  {
+    "gender": "die",
+    "singular": "Fahrt",
+    "plural": "Fahrten",
+    "en": "journey, ride"
+  },
+  {
+    "gender": "die",
+    "singular": "Reise",
+    "plural": "Reisen",
+    "en": "trip"
+  },
+  {
+    "gender": "der",
+    "singular": "Urlaub",
+    "plural": null,
+    "en": "holiday, vacation"
+  },
+  {
+    "gender": "die",
+    "singular": "Ferien",
+    "plural": null,
+    "en": "school holidays (plural only)"
+  },
+  {
+    "gender": "die",
+    "singular": "Fahrkarte",
+    "plural": "Fahrkarten",
+    "en": "travel ticket"
+  },
+  {
+    "gender": "das",
+    "singular": "Ticket",
+    "plural": "Tickets",
+    "en": "ticket"
+  },
+  {
+    "gender": "der",
+    "singular": "Ausweis",
+    "plural": "Ausweise",
+    "en": "ID card"
+  },
+  {
+    "gender": "der",
+    "singular": "Pass",
+    "plural": "Pässe",
+    "en": "passport"
+  },
+  {
+    "gender": "der",
+    "singular": "Koffer",
+    "plural": "Koffer",
+    "en": "suitcase"
+  },
+  {
+    "gender": "die",
+    "singular": "Ankunft",
+    "plural": "Ankünfte",
+    "en": "arrival"
+  },
+  {
+    "gender": "die",
+    "singular": "Abfahrt",
+    "plural": "Abfahrten",
+    "en": "departure"
+  },
+  {
+    "gender": "der",
+    "singular": "Ausflug",
+    "plural": "Ausflüge",
+    "en": "excursion"
+  },
+  {
+    "gender": "die",
+    "singular": "Arbeit",
+    "plural": null,
+    "en": "work"
+  },
+  {
+    "gender": "der",
+    "singular": "Job",
+    "plural": "Jobs",
+    "en": "job"
+  },
+  {
+    "gender": "die",
+    "singular": "Firma",
+    "plural": "Firmen",
+    "en": "company"
+  },
+  {
+    "gender": "der",
+    "singular": "Chef",
+    "plural": "Chefs",
+    "en": "boss"
+  },
+  {
+    "gender": "der",
+    "singular": "Lehrer",
+    "plural": "Lehrer",
+    "en": "teacher (m)"
+  },
+  {
+    "gender": "die",
+    "singular": "Lehrerin",
+    "plural": "Lehrerinnen",
+    "en": "teacher (f)"
+  },
+  {
+    "gender": "der",
+    "singular": "Schüler",
+    "plural": "Schüler",
+    "en": "pupil"
+  },
+  {
+    "gender": "der",
+    "singular": "Student",
+    "plural": "Studenten",
+    "en": "student (m)"
+  },
+  {
+    "gender": "die",
+    "singular": "Studentin",
+    "plural": "Studentinnen",
+    "en": "student (f)"
+  },
+  {
+    "gender": "der",
+    "singular": "Kurs",
+    "plural": "Kurse",
+    "en": "course"
+  },
+  {
+    "gender": "die",
+    "singular": "Klasse",
+    "plural": "Klassen",
+    "en": "class"
+  },
+  {
+    "gender": "die",
+    "singular": "Aufgabe",
+    "plural": "Aufgaben",
+    "en": "task, exercise"
+  },
+  {
+    "gender": "die",
+    "singular": "Übung",
+    "plural": "Übungen",
+    "en": "exercise"
+  },
+  {
+    "gender": "die",
+    "singular": "Prüfung",
+    "plural": "Prüfungen",
+    "en": "exam"
+  },
+  {
+    "gender": "das",
+    "singular": "Buch",
+    "plural": "Bücher",
+    "en": "book"
+  },
+  {
+    "gender": "das",
+    "singular": "Heft",
+    "plural": "Hefte",
+    "en": "notebook"
+  },
+  {
+    "gender": "der",
+    "singular": "Stift",
+    "plural": "Stifte",
+    "en": "pen"
+  },
+  {
+    "gender": "das",
+    "singular": "Papier",
+    "plural": "Papiere",
+    "en": "paper"
+  },
+  {
+    "gender": "das",
+    "singular": "Wort",
+    "plural": "Wörter",
+    "en": "word"
+  },
+  {
+    "gender": "der",
+    "singular": "Satz",
+    "plural": "Sätze",
+    "en": "sentence"
+  },
+  {
+    "gender": "die",
+    "singular": "Frage",
+    "plural": "Fragen",
+    "en": "question"
+  },
+  {
+    "gender": "die",
+    "singular": "Antwort",
+    "plural": "Antworten",
+    "en": "answer"
+  },
+  {
+    "gender": "das",
+    "singular": "Beispiel",
+    "plural": "Beispiele",
+    "en": "example"
+  },
+  {
+    "gender": "der",
+    "singular": "Text",
+    "plural": "Texte",
+    "en": "text"
+  },
+  {
+    "gender": "die",
+    "singular": "Seite",
+    "plural": "Seiten",
+    "en": "page, side"
+  },
+  {
+    "gender": "der",
+    "singular": "Computer",
+    "plural": "Computer",
+    "en": "computer"
+  },
+  {
+    "gender": "das",
+    "singular": "Handy",
+    "plural": "Handys",
+    "en": "mobile phone"
+  },
+  {
+    "gender": "das",
+    "singular": "Telefon",
+    "plural": "Telefone",
+    "en": "telephone"
+  },
+  {
+    "gender": "die",
+    "singular": "E-Mail",
+    "plural": "E-Mails",
+    "en": "email"
+  },
+  {
+    "gender": "der",
+    "singular": "Brief",
+    "plural": "Briefe",
+    "en": "letter"
+  },
+  {
+    "gender": "die",
+    "singular": "Nummer",
+    "plural": "Nummern",
+    "en": "number"
+  },
+  {
+    "gender": "das",
+    "singular": "Internet",
+    "plural": null,
+    "en": "internet"
+  },
+  {
+    "gender": "das",
+    "singular": "Foto",
+    "plural": "Fotos",
+    "en": "photo"
+  },
+  {
+    "gender": "die",
+    "singular": "Zeitung",
+    "plural": "Zeitungen",
+    "en": "newspaper"
+  },
+  {
+    "gender": "der",
+    "singular": "Fernseher",
+    "plural": "Fernseher",
+    "en": "TV set"
+  },
+  {
+    "gender": "die",
+    "singular": "Musik",
+    "plural": null,
+    "en": "music"
+  },
+  {
+    "gender": "der",
+    "singular": "Film",
+    "plural": "Filme",
+    "en": "film"
+  },
+  {
+    "gender": "das",
+    "singular": "Spiel",
+    "plural": "Spiele",
+    "en": "game"
+  },
+  {
+    "gender": "der",
+    "singular": "Sport",
+    "plural": null,
+    "en": "sport"
+  },
+  {
+    "gender": "das",
+    "singular": "Hobby",
+    "plural": "Hobbys",
+    "en": "hobby"
+  },
+  {
+    "gender": "die",
+    "singular": "Zeit",
+    "plural": "Zeiten",
+    "en": "time"
+  },
+  {
+    "gender": "die",
+    "singular": "Uhr",
+    "plural": "Uhren",
+    "en": "clock, o'clock"
+  },
+  {
+    "gender": "die",
+    "singular": "Stunde",
+    "plural": "Stunden",
+    "en": "hour"
+  },
+  {
+    "gender": "die",
+    "singular": "Minute",
+    "plural": "Minuten",
+    "en": "minute"
+  },
+  {
+    "gender": "die",
+    "singular": "Sekunde",
+    "plural": "Sekunden",
+    "en": "second"
+  },
+  {
+    "gender": "der",
+    "singular": "Tag",
+    "plural": "Tage",
+    "en": "day"
+  },
+  {
+    "gender": "die",
+    "singular": "Woche",
+    "plural": "Wochen",
+    "en": "week"
+  },
+  {
+    "gender": "der",
+    "singular": "Monat",
+    "plural": "Monate",
+    "en": "month"
+  },
+  {
+    "gender": "das",
+    "singular": "Jahr",
+    "plural": "Jahre",
+    "en": "year"
+  },
+  {
+    "gender": "der",
+    "singular": "Morgen",
+    "plural": null,
+    "en": "morning"
+  },
+  {
+    "gender": "der",
+    "singular": "Vormittag",
+    "plural": "Vormittage",
+    "en": "late morning"
+  },
+  {
+    "gender": "der",
+    "singular": "Mittag",
+    "plural": "Mittage",
+    "en": "midday"
+  },
+  {
+    "gender": "der",
+    "singular": "Nachmittag",
+    "plural": "Nachmittage",
+    "en": "afternoon"
+  },
+  {
+    "gender": "der",
+    "singular": "Abend",
+    "plural": "Abende",
+    "en": "evening"
+  },
+  {
+    "gender": "die",
+    "singular": "Nacht",
+    "plural": "Nächte",
+    "en": "night"
+  },
+  {
+    "gender": "das",
+    "singular": "Wochenende",
+    "plural": "Wochenenden",
+    "en": "weekend"
+  },
+  {
+    "gender": "der",
+    "singular": "Montag",
+    "plural": null,
+    "en": "Monday"
+  },
+  {
+    "gender": "der",
+    "singular": "Dienstag",
+    "plural": null,
+    "en": "Tuesday"
+  },
+  {
+    "gender": "der",
+    "singular": "Mittwoch",
+    "plural": null,
+    "en": "Wednesday"
+  },
+  {
+    "gender": "der",
+    "singular": "Donnerstag",
+    "plural": null,
+    "en": "Thursday"
+  },
+  {
+    "gender": "der",
+    "singular": "Freitag",
+    "plural": null,
+    "en": "Friday"
+  },
+  {
+    "gender": "der",
+    "singular": "Samstag",
+    "plural": null,
+    "en": "Saturday"
+  },
+  {
+    "gender": "der",
+    "singular": "Sonntag",
+    "plural": null,
+    "en": "Sunday"
+  },
+  {
+    "gender": "der",
+    "singular": "Geburtstag",
+    "plural": "Geburtstage",
+    "en": "birthday"
+  },
+  {
+    "gender": "das",
+    "singular": "Datum",
+    "plural": "Daten",
+    "en": "date"
+  },
+  {
+    "gender": "der",
+    "singular": "Januar",
+    "plural": null,
+    "en": "January"
+  },
+  {
+    "gender": "der",
+    "singular": "Februar",
+    "plural": null,
+    "en": "February"
+  },
+  {
+    "gender": "der",
+    "singular": "März",
+    "plural": null,
+    "en": "March"
+  },
+  {
+    "gender": "der",
+    "singular": "April",
+    "plural": null,
+    "en": "April"
+  },
+  {
+    "gender": "der",
+    "singular": "Mai",
+    "plural": null,
+    "en": "May"
+  },
+  {
+    "gender": "der",
+    "singular": "Juni",
+    "plural": null,
+    "en": "June"
+  },
+  {
+    "gender": "der",
+    "singular": "Juli",
+    "plural": null,
+    "en": "July"
+  },
+  {
+    "gender": "der",
+    "singular": "August",
+    "plural": null,
+    "en": "August"
+  },
+  {
+    "gender": "der",
+    "singular": "September",
+    "plural": null,
+    "en": "September"
+  },
+  {
+    "gender": "der",
+    "singular": "Oktober",
+    "plural": null,
+    "en": "October"
+  },
+  {
+    "gender": "der",
+    "singular": "November",
+    "plural": null,
+    "en": "November"
+  },
+  {
+    "gender": "der",
+    "singular": "Dezember",
+    "plural": null,
+    "en": "December"
+  },
+  {
+    "gender": "das",
+    "singular": "Wetter",
+    "plural": null,
+    "en": "weather"
+  },
+  {
+    "gender": "die",
+    "singular": "Sonne",
+    "plural": "Sonnen",
+    "en": "sun"
+  },
+  {
+    "gender": "der",
+    "singular": "Regen",
+    "plural": null,
+    "en": "rain"
+  },
+  {
+    "gender": "der",
+    "singular": "Schnee",
+    "plural": null,
+    "en": "snow"
+  },
+  {
+    "gender": "der",
+    "singular": "Wind",
+    "plural": "Winde",
+    "en": "wind"
+  },
+  {
+    "gender": "die",
+    "singular": "Wolke",
+    "plural": "Wolken",
+    "en": "cloud"
+  },
+  {
+    "gender": "der",
+    "singular": "Himmel",
+    "plural": null,
+    "en": "sky"
+  },
+  {
+    "gender": "die",
+    "singular": "Temperatur",
+    "plural": "Temperaturen",
+    "en": "temperature"
+  },
+  {
+    "gender": "der",
+    "singular": "Grad",
+    "plural": "Grade",
+    "en": "degree"
+  },
+  {
+    "gender": "der",
+    "singular": "Sommer",
+    "plural": "Sommer",
+    "en": "summer"
+  },
+  {
+    "gender": "der",
+    "singular": "Winter",
+    "plural": "Winter",
+    "en": "winter"
+  },
+  {
+    "gender": "der",
+    "singular": "Frühling",
+    "plural": null,
+    "en": "spring"
+  },
+  {
+    "gender": "der",
+    "singular": "Herbst",
+    "plural": null,
+    "en": "autumn"
+  },
+  {
+    "gender": "der",
+    "singular": "Baum",
+    "plural": "Bäume",
+    "en": "tree"
+  },
+  {
+    "gender": "die",
+    "singular": "Blume",
+    "plural": "Blumen",
+    "en": "flower"
+  },
+  {
+    "gender": "der",
+    "singular": "Berg",
+    "plural": "Berge",
+    "en": "mountain"
+  },
+  {
+    "gender": "der",
+    "singular": "See",
+    "plural": "Seen",
+    "en": "lake"
+  },
+  {
+    "gender": "das",
+    "singular": "Meer",
+    "plural": "Meere",
+    "en": "sea"
+  },
+  {
+    "gender": "der",
+    "singular": "Fluss",
+    "plural": "Flüsse",
+    "en": "river"
+  },
+  {
+    "gender": "der",
+    "singular": "Wald",
+    "plural": "Wälder",
+    "en": "forest"
+  },
+  {
+    "gender": "das",
+    "singular": "Tier",
+    "plural": "Tiere",
+    "en": "animal"
+  },
+  {
+    "gender": "der",
+    "singular": "Hund",
+    "plural": "Hunde",
+    "en": "dog"
+  },
+  {
+    "gender": "die",
+    "singular": "Katze",
+    "plural": "Katzen",
+    "en": "cat"
+  },
+  {
+    "gender": "der",
+    "singular": "Vogel",
+    "plural": "Vögel",
+    "en": "bird"
+  },
+  {
+    "gender": "das",
+    "singular": "Geld",
+    "plural": null,
+    "en": "money"
+  },
+  {
+    "gender": "der",
+    "singular": "Euro",
+    "plural": "Euro",
+    "en": "euro"
+  },
+  {
+    "gender": "der",
+    "singular": "Cent",
+    "plural": "Cent",
+    "en": "cent"
+  },
+  {
+    "gender": "der",
+    "singular": "Preis",
+    "plural": "Preise",
+    "en": "price"
+  },
+  {
+    "gender": "die",
+    "singular": "Kasse",
+    "plural": "Kassen",
+    "en": "checkout, till"
+  },
+  {
+    "gender": "die",
+    "singular": "Karte",
+    "plural": "Karten",
+    "en": "card, map, ticket"
+  },
+  {
+    "gender": "das",
+    "singular": "Konto",
+    "plural": "Konten",
+    "en": "bank account"
+  },
+  {
+    "gender": "die",
+    "singular": "Quittung",
+    "plural": "Quittungen",
+    "en": "receipt"
+  },
+  {
+    "gender": "die",
+    "singular": "Sache",
+    "plural": "Sachen",
+    "en": "thing"
+  },
+  {
+    "gender": "das",
+    "singular": "Ding",
+    "plural": "Dinge",
+    "en": "thing"
+  },
+  {
+    "gender": "das",
+    "singular": "Problem",
+    "plural": "Probleme",
+    "en": "problem"
+  },
+  {
+    "gender": "die",
+    "singular": "Idee",
+    "plural": "Ideen",
+    "en": "idea"
+  },
+  {
+    "gender": "die",
+    "singular": "Information",
+    "plural": "Informationen",
+    "en": "information"
+  },
+  {
+    "gender": "die",
+    "singular": "Hilfe",
+    "plural": null,
+    "en": "help"
+  },
+  {
+    "gender": "der",
+    "singular": "Grund",
+    "plural": "Gründe",
+    "en": "reason"
+  },
+  {
+    "gender": "die",
+    "singular": "Möglichkeit",
+    "plural": "Möglichkeiten",
+    "en": "possibility"
+  },
+  {
+    "gender": "das",
+    "singular": "Glück",
+    "plural": null,
+    "en": "luck, happiness"
+  },
+  {
+    "gender": "die",
+    "singular": "Farbe",
+    "plural": "Farben",
+    "en": "colour"
+  },
+  {
+    "gender": "der",
+    "singular": "Teil",
+    "plural": "Teile",
+    "en": "part"
+  },
+  {
+    "gender": "die",
+    "singular": "Art",
+    "plural": "Arten",
+    "en": "kind, type"
+  },
+  {
+    "gender": "das",
+    "singular": "Stück",
+    "plural": "Stücke",
+    "en": "piece"
+  },
+  {
+    "gender": "die",
+    "singular": "Liste",
+    "plural": "Listen",
+    "en": "list"
+  },
+  {
+    "gender": "der",
+    "singular": "Plan",
+    "plural": "Pläne",
+    "en": "plan"
+  },
+  {
+    "gender": "die",
+    "singular": "Party",
+    "plural": "Partys",
+    "en": "party"
+  },
+  {
+    "gender": "das",
+    "singular": "Geschenk",
+    "plural": "Geschenke",
+    "en": "present, gift"
+  },
+  {
+    "gender": "das",
+    "singular": "Formular",
+    "plural": "Formulare",
+    "en": "form (to fill in)"
+  },
+  {
+    "gender": "der",
+    "singular": "Anfang",
+    "plural": "Anfänge",
+    "en": "beginning"
+  },
+  {
+    "gender": "das",
+    "singular": "Ende",
+    "plural": "Enden",
+    "en": "end"
+  },
+  {
+    "gender": "die",
+    "singular": "Pause",
+    "plural": "Pausen",
+    "en": "break"
+  }
+]

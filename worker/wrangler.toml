@@ -1,0 +1,14 @@
+name = "wortschatz-sync"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Restrict this to your Pages origin once deployed; "*" allows any site to use
+# the endpoint with a valid code.
+[vars]
+ALLOWED_ORIGINS = "https://4w415m.github.io"
+
+# Create with:  wrangler kv namespace create PROGRESS
+# then paste the returned id below.
+[[kv_namespaces]]
+binding = "PROGRESS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"

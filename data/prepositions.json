@@ -1,0 +1,152 @@
+[
+  {
+    "word": "aus",
+    "en": "from, out of",
+    "case": "Dativ",
+    "note": "aus Berlin, aus dem Haus"
+  },
+  {
+    "word": "bei",
+    "en": "at, near, at someone's place",
+    "case": "Dativ",
+    "note": "bei der Arbeit, bei mir"
+  },
+  {
+    "word": "mit",
+    "en": "with, by (transport)",
+    "case": "Dativ",
+    "note": "mit dem Bus"
+  },
+  {
+    "word": "nach",
+    "en": "after, to (cities, countries)",
+    "case": "Dativ",
+    "note": "nach Hause, nach Berlin"
+  },
+  {
+    "word": "seit",
+    "en": "since, for (duration)",
+    "case": "Dativ",
+    "note": "seit zwei Jahren"
+  },
+  {
+    "word": "von",
+    "en": "from, of, by",
+    "case": "Dativ",
+    "note": "von München, vom Arzt"
+  },
+  {
+    "word": "zu",
+    "en": "to (people, places)",
+    "case": "Dativ",
+    "note": "zum Arzt, zur Schule"
+  },
+  {
+    "word": "gegenüber",
+    "en": "opposite",
+    "case": "Dativ",
+    "note": "gegenüber dem Bahnhof"
+  },
+  {
+    "word": "außer",
+    "en": "except for",
+    "case": "Dativ",
+    "note": "außer mir"
+  },
+  {
+    "word": "durch",
+    "en": "through",
+    "case": "Akkusativ",
+    "note": "durch den Park"
+  },
+  {
+    "word": "für",
+    "en": "for",
+    "case": "Akkusativ",
+    "note": "für dich"
+  },
+  {
+    "word": "gegen",
+    "en": "against, around (time)",
+    "case": "Akkusativ",
+    "note": "gegen acht Uhr"
+  },
+  {
+    "word": "ohne",
+    "en": "without",
+    "case": "Akkusativ",
+    "note": "ohne Zucker"
+  },
+  {
+    "word": "um",
+    "en": "around, at (clock time)",
+    "case": "Akkusativ",
+    "note": "um sieben Uhr"
+  },
+  {
+    "word": "bis",
+    "en": "until, up to",
+    "case": "Akkusativ",
+    "note": "bis morgen"
+  },
+  {
+    "word": "entlang",
+    "en": "along",
+    "case": "Akkusativ",
+    "note": "die Straße entlang"
+  },
+  {
+    "word": "an",
+    "en": "at, on (a vertical surface)",
+    "case": "Wechsel",
+    "note": "an der Wand / an die Wand"
+  },
+  {
+    "word": "auf",
+    "en": "on top of",
+    "case": "Wechsel",
+    "note": "auf dem Tisch / auf den Tisch"
+  },
+  {
+    "word": "hinter",
+    "en": "behind",
+    "case": "Wechsel",
+    "note": "hinter dem Haus"
+  },
+  {
+    "word": "in",
+    "en": "in, into",
+    "case": "Wechsel",
+    "note": "im Kino / ins Kino"
+  },
+  {
+    "word": "neben",
+    "en": "next to",
+    "case": "Wechsel",
+    "note": "neben mir"
+  },
+  {
+    "word": "über",
+    "en": "over, above, about",
+    "case": "Wechsel",
+    "note": "über dem Bett"
+  },
+  {
+    "word": "unter",
+    "en": "under, among",
+    "case": "Wechsel",
+    "note": "unter dem Stuhl"
+  },
+  {
+    "word": "vor",
+    "en": "in front of, before, ago",
+    "case": "Wechsel",
+    "note": "vor dem Haus, vor zwei Tagen"
+  },
+  {
+    "word": "zwischen",
+    "en": "between",
+    "case": "Wechsel",
+    "note": "zwischen uns"
+  }
+]
