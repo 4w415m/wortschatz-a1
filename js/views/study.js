@@ -3,7 +3,7 @@ import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue } from "../srs.js";
 import { present, PERS } from "../conjugate.js";
-import { go } from "../router.js";
+import { back } from "../router.js";
 
 let app = null;
 let queue = [], cur = null, cat = "all";
@@ -34,7 +34,7 @@ function finished() {
     esc(catName(cat)) + " — " + sessionCount +
     " Karten in dieser Runde.<br>Komm später wieder, dann sind die nächsten dran.</p>" +
     '<button class="ghost" data-home>Zur Übersicht</button></div>'));
-  app.querySelector("[data-home]").onclick = () => go("home");
+  app.querySelector("[data-home]").onclick = () => back();
 }
 
 function drawCard() {
@@ -55,7 +55,7 @@ function drawCard() {
       '" data-flag aria-label="Fehler melden">⚑</button></div>' +
     '<div class="card"><div class="face" id="face"></div><div class="acts" id="acts"></div></div>';
 
-  app.querySelector("[data-back]").onclick = () => { save(); go("home"); };
+  app.querySelector("[data-back]").onclick = () => { save(); back(); };
   app.querySelector("[data-flag]").onclick = (e) => {
     if (S.flags[w.id]) delete S.flags[w.id]; else S.flags[w.id] = 1;
     save();

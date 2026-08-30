@@ -1,6 +1,6 @@
 import { loadWords } from "./data.js";
 import { initState, syncConfig } from "./state.js";
-import { register, go } from "./router.js";
+import { register, start, rerender, currentRoute } from "./router.js";
 import { home } from "./views/home.js";
 import { study } from "./views/study.js";
 import { settings } from "./views/settings.js";
@@ -39,11 +39,13 @@ async function boot() {
   }
 
   await initState();
-  go("home");
+  start();
 
   /* Opportunistic catch-up on load; a failure here is not worth interrupting for. */
   if (syncEnabled() && syncConfig().code && navigator.onLine) {
-    syncNow().then(() => go("home")).catch(() => {});
+    /* Re-render only if the user is still on the overview; redrawing mid-session
+       would throw away the queue they are working through. */
+    syncNow().then(() => { if (currentRoute() === "home") rerender(); }).catch(() => {});
   }
 }
 

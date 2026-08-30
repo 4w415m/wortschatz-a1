@@ -3,7 +3,7 @@ import { catName, summary } from "../categories.js";
 import { ALL } from "../data.js";
 import { S, save, replaceState, resetState, syncConfig } from "../state.js";
 import { syncEnabled, createCode, validCode, syncNow, forgetSync } from "../sync.js";
-import { go } from "../router.js";
+import { back } from "../router.js";
 
 function syncSection() {
   if (!syncEnabled()) return "";
@@ -67,12 +67,17 @@ export function settings(app) {
   const ta = app.querySelector("#ex");
   ta.value = JSON.stringify(S);
 
-  app.querySelector("[data-home]").onclick = () => {
+  /* Commit on change rather than on close: the panel can now also be left with
+     the browser back button, which fires no click on ✕. */
+  const commitLimits = () => {
     S.set.newPerDay = Math.max(0, +app.querySelector("#np").value || 0);
     S.set.maxRev = Math.max(10, +app.querySelector("#mr").value || 120);
     save();
-    go("home");
   };
+  app.querySelector("#np").onchange = commitLimits;
+  app.querySelector("#mr").onchange = commitLimits;
+
+  app.querySelector("[data-home]").onclick = () => { commitLimits(); back(); };
 
   app.querySelector("[data-copy]").onclick = async () => {
     try { await navigator.clipboard.writeText(ta.value); toast("Kopiert"); }
@@ -92,7 +97,7 @@ export function settings(app) {
         if (!o || typeof o !== "object" || !o.cards) throw new Error("no cards");
         replaceState(o);
         toast("Eingespielt");
-        go("home");
+        back();
       } catch { toast("Das war keine gültige Sicherung"); }
     };
   };
@@ -101,7 +106,7 @@ export function settings(app) {
   if (clear) clear.onclick = () => { S.flags = {}; save(); settings(app); };
 
   app.querySelector("[data-reset]").onclick = () => {
-    if (confirm("Wirklich allen Fortschritt löschen?")) { resetState(); go("home"); }
+    if (confirm("Wirklich allen Fortschritt löschen?")) { resetState(); back(); }
   };
 
   wireSync(app);
