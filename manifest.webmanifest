@@ -1,0 +1,13 @@
+{
+  "name": "Wortschatz A1",
+  "short_name": "Wortschatz",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12161F",
+  "theme_color": "#12161F",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#12161F">
+<title>Wortschatz A1</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{
+  --ink:#12161F; --surface:#1B212D; --surface2:#232B3A; --line:#2E3746;
+  --text:#E8E6E1; --muted:#8A93A5; --dim:#5C6577;
+  --der:#4C8DF6; --die:#E0518B; --das:#3FBF87; --amber:#F2B441;
+  --ok:#3FBF87; --bad:#E0518B;
+  --serif: Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  --sans: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;height:100%}
+body{
+  background:var(--ink); color:var(--text); font-family:var(--sans);
+  font-size:16px; line-height:1.5; overscroll-behavior:none;
+  -webkit-font-smoothing:antialiased;
+}
+#app{max-width:540px;margin:0 auto;min-height:100%;display:flex;flex-direction:column;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- home ---------- */
+.wrap{padding:20px 18px 32px}
+.masthead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px}
+.masthead h1{font-family:var(--serif);font-size:30px;font-weight:600;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin:0 0 22px}
+.iconbtn{color:var(--muted);font-size:22px;padding:6px 8px;border-radius:8px}
+.iconbtn:hover{color:var(--text)}
+
+.today{background:var(--surface);border-radius:14px;padding:16px 18px;margin-bottom:22px;
+  display:flex;gap:26px;align-items:center}
+.today .n{font-family:var(--serif);font-size:26px;line-height:1}
+.today .l{color:var(--muted);font-size:12px;margin-top:3px}
+.today .flame{margin-left:auto;text-align:right}
+
+.cat{display:block;width:100%;text-align:left;background:var(--surface);border-radius:14px;
+  padding:15px 17px;margin-bottom:10px;transition:background .12s}
+.cat:active{background:var(--surface2)}
+.cat .row1{display:flex;align-items:center;gap:10px}
+.cat .nm{font-family:var(--serif);font-size:19px;font-weight:600}
+.cat .due{margin-left:auto;font-size:13px;font-variant-numeric:tabular-nums}
+.cat .due b{color:var(--amber);font-weight:600}
+.cat .due span{color:var(--dim)}
+.cat .desc{color:var(--muted);font-size:12.5px;margin-top:2px}
+.bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin-top:11px;background:#2A3242}
+.bar i{display:block;height:100%}
+.legend{display:flex;gap:14px;font-size:11px;color:var(--dim);margin-top:7px}
+.legend b{font-weight:400}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
+
+/* ---------- study ---------- */
+.top{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.top .ttl{font-size:14px;color:var(--muted);flex:1}
+.counts{font-size:13px;font-variant-numeric:tabular-nums;color:var(--dim)}
+.counts b{color:var(--amber);font-weight:600}
+
+.card{flex:1;display:flex;flex-direction:column;padding:0 18px}
+.face{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;
+  text-align:center;padding:24px 0 12px;min-height:190px}
+.cue{color:var(--dim);font-size:12.5px;margin-bottom:14px}
+.word{font-family:var(--serif);font-size:42px;line-height:1.15;font-weight:600;letter-spacing:-.015em;
+  word-break:break-word}
+.word.en{font-family:var(--sans);font-size:27px;font-weight:400;letter-spacing:0}
+.art{font-family:var(--serif);font-size:42px;font-weight:600;margin-right:.28em}
+.art.der{color:var(--der)} .art.die{color:var(--die)} .art.das{color:var(--das)}
+.plural{font-family:var(--serif);font-size:24px;color:var(--amber);margin-top:10px}
+.plural s{text-decoration:none;color:var(--dim);font-family:var(--sans);font-size:14px}
+.mean{font-size:19px;color:var(--text);margin-top:18px}
+.note{font-size:13.5px;color:var(--muted);margin-top:10px;max-width:34ch}
+.opp{font-size:14px;color:var(--muted);margin-top:12px}
+.opp b{color:var(--text);font-weight:500;font-family:var(--serif)}
+.kase{display:inline-block;font-size:12px;padding:3px 9px;border-radius:20px;margin-top:14px}
+.kase.Dativ{background:rgba(76,141,246,.16);color:#8FB8FA}
+.kase.Akkusativ{background:rgba(224,81,139,.16);color:#F08CB4}
+.kase.Wechsel{background:rgba(242,180,65,.16);color:#F5CB7C}
+
+table.conj{border-collapse:collapse;margin-top:16px;font-size:15px}
+table.conj td{padding:3px 0}
+table.conj td:first-child{color:var(--dim);text-align:right;padding-right:14px;width:44px}
+table.conj td:last-child{font-family:var(--serif);text-align:left}
+.perf{margin-top:14px;font-family:var(--serif);font-size:17px}
+.perf em{font-style:normal;color:var(--amber)}
+.tags{display:flex;gap:6px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+.tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--surface2);color:var(--muted)}
+.tag.core{background:rgba(242,180,65,.15);color:var(--amber)}
+
+.acts{padding:10px 0 20px}
+.hint{text-align:center;color:var(--dim);font-size:12px;margin-bottom:10px}
+.arts{display:flex;gap:9px}
+.arts button{flex:1;padding:18px 0;border-radius:12px;font-family:var(--serif);font-size:21px;
+  font-weight:600;background:var(--surface);border:1.5px solid var(--line)}
+.arts button.der{color:var(--der)} .arts button.die{color:var(--die)} .arts button.das{color:var(--das)}
+.arts button.right{background:rgba(63,191,135,.15);border-color:var(--ok)}
+.arts button.wrong{background:rgba(224,81,139,.14);border-color:var(--bad)}
+.big{display:block;width:100%;padding:17px;border-radius:12px;background:var(--surface2);
+  font-size:16px;font-weight:500;border:1.5px solid var(--line)}
+.big:active{background:var(--line)}
+.grades{display:flex;gap:8px}
+.grades button{flex:1;padding:14px 0;border-radius:12px;background:var(--surface);
+  border:1.5px solid var(--line);font-size:14px;font-weight:500}
+.grades button .iv{display:block;font-size:11px;color:var(--dim);margin-top:3px;font-weight:400}
+.grades button.g0{border-color:rgba(224,81,139,.5)}
+.grades button.g3{border-color:rgba(63,191,135,.45)}
+.grades button.suggest{box-shadow:0 0 0 2px rgba(224,81,139,.35)}
+.triage button{margin-bottom:8px;text-align:left;padding:15px 17px}
+.triage button b{display:block;font-family:var(--serif);font-size:17px;margin-bottom:1px}
+.triage button i{font-style:normal;color:var(--muted);font-size:12.5px}
+.flagbtn.on{color:var(--amber)}
+
+.done{text-align:center;padding:70px 24px}
+.done h2{font-family:var(--serif);font-size:26px;margin:0 0 8px}
+.done p{color:var(--muted);margin:0 0 26px}
+
+/* ---------- panels ---------- */
+.panel h2{font-family:var(--serif);font-size:22px;margin:26px 0 10px}
+.panel h2:first-child{margin-top:0}
+.panel p{color:var(--muted);font-size:14px}
+.field{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}
+.field label{flex:1;font-size:15px}
+.field input{width:78px;padding:9px;border-radius:9px;background:var(--surface2);
+  border:1px solid var(--line);color:var(--text);text-align:center;font-size:15px}
+textarea{width:100%;height:130px;background:var(--surface);border:1px solid var(--line);
+  border-radius:11px;color:var(--text);padding:11px;font-family:ui-monospace,Menlo,monospace;
+  font-size:11.5px;resize:vertical}
+.ghost{padding:12px 16px;border-radius:11px;border:1.5px solid var(--line);font-size:14.5px;
+  margin:8px 8px 0 0;display:inline-block}
+.danger{border-color:rgba(224,81,139,.5);color:#F08CB4}
+.flagged{font-size:14px;padding:9px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
+.flagged span{font-family:var(--serif)}
+.flagged em{font-style:normal;color:var(--muted);margin-left:auto;font-size:12.5px}
+.boot{padding:34px 22px;max-width:34em}
+.boot h1{font-family:var(--serif);font-size:28px;margin:0 0 14px}
+.boot p{color:var(--muted);font-size:15px;line-height:1.6}
+.boot b{color:var(--text)}
+.boot pre{white-space:pre-wrap;font-size:12px;color:var(--amber);background:var(--surface);
+  padding:12px;border-radius:10px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:28px;background:var(--surface2);
+  border:1px solid var(--line);padding:11px 18px;border-radius:22px;font-size:14px;z-index:9}
+</style>
+</head>
+<body>
+<div id="app"><div class="boot">
+  <h1>Wortschatz A1</h1>
+  <p><b>Diese Seite braucht JavaScript.</b></p>
+  <p>You are seeing this because the page opened in a preview that does not run JavaScript &mdash; that is what the iOS Files app does with HTML files. Put the file on a web address and open it in Safari instead. The setup takes about five minutes and is a one-off.</p>
+</div></div>
+<script>
+window.onerror=function(m,src,line){
+  var a=document.getElementById("app");
+  if(a)a.innerHTML='<div class="boot"><h1>Da ist etwas kaputt</h1><p>Zeig mir diesen Text:</p><pre>'+
+    String(m).replace(/</g,"&lt;")+"\nZeile "+line+"</pre></div>";
+};
+if("serviceWorker" in navigator && location.protocol.indexOf("http")===0)
+  navigator.serviceWorker.register("sw.js").catch(function(){});
+</script>
+<script>
+/* DATA — edit freely. Format per line is described above each block. */
+const DATA = {};
+
+/* NOUNS: "artikel|Singular|Plural|english"   ("-" plural = no normal plural / plural-only) */
+DATA.nouns = `
+der|Mann|Männer|man
+die|Frau|Frauen|woman, wife
+das|Kind|Kinder|child
+der|Junge|Jungen|boy
+das|Mädchen|Mädchen|girl
+die|Familie|Familien|family
+die|Eltern|-|parents (plural only)
+der|Vater|Väter|father
+die|Mutter|Mütter|mother
+der|Sohn|Söhne|son
+die|Tochter|Töchter|daughter
+der|Bruder|Brüder|brother
+die|Schwester|Schwestern|sister
+die|Geschwister|-|siblings (plural only)
+der|Opa|Opas|grandpa
+die|Oma|Omas|grandma
+der|Großvater|Großväter|grandfather
+die|Großmutter|Großmütter|grandmother
+der|Freund|Freunde|friend (m), boyfriend
+die|Freundin|Freundinnen|friend (f), girlfriend
+der|Kollege|Kollegen|colleague (m)
+die|Kollegin|Kolleginnen|colleague (f)
+der|Nachbar|Nachbarn|neighbour
+der|Mensch|Menschen|human, person
+die|Person|Personen|person
+die|Leute|-|people (plural only)
+der|Herr|Herren|Mr, gentleman
+die|Dame|Damen|lady
+das|Baby|Babys|baby
+der|Gast|Gäste|guest
+der|Name|Namen|name
+der|Vorname|Vornamen|first name
+der|Nachname|Nachnamen|surname
+die|Adresse|Adressen|address
+das|Alter|-|age
+der|Beruf|Berufe|profession
+die|Heimat|-|homeland
+das|Land|Länder|country, countryside
+die|Stadt|Städte|city, town
+die|Sprache|Sprachen|language
+der|Kopf|Köpfe|head
+das|Haar|Haare|hair
+das|Auge|Augen|eye
+die|Nase|Nasen|nose
+der|Mund|Münder|mouth
+das|Ohr|Ohren|ear
+der|Zahn|Zähne|tooth
+der|Hals|Hälse|neck, throat
+der|Arm|Arme|arm
+die|Hand|Hände|hand
+der|Finger|Finger|finger
+das|Bein|Beine|leg
+der|Fuß|Füße|foot
+der|Bauch|Bäuche|belly, stomach
+der|Rücken|Rücken|back
+das|Herz|Herzen|heart
+der|Körper|Körper|body
+der|Arzt|Ärzte|doctor (m)
+die|Ärztin|Ärztinnen|doctor (f)
+die|Praxis|Praxen|doctor's practice
+das|Krankenhaus|Krankenhäuser|hospital
+die|Apotheke|Apotheken|pharmacy
+die|Tablette|Tabletten|tablet, pill
+der|Schmerz|Schmerzen|pain
+das|Fieber|-|fever
+die|Erkältung|Erkältungen|cold (illness)
+der|Termin|Termine|appointment
+die|Gesundheit|-|health
+das|Haus|Häuser|house
+die|Wohnung|Wohnungen|flat, apartment
+das|Zimmer|Zimmer|room
+die|Küche|Küchen|kitchen
+das|Bad|Bäder|bathroom
+das|Schlafzimmer|Schlafzimmer|bedroom
+das|Wohnzimmer|Wohnzimmer|living room
+der|Flur|Flure|hallway
+der|Balkon|Balkone|balcony
+der|Garten|Gärten|garden
+der|Keller|Keller|cellar
+die|Tür|Türen|door
+das|Fenster|Fenster|window
+die|Wand|Wände|wall
+der|Boden|Böden|floor, ground
+die|Treppe|Treppen|stairs
+der|Tisch|Tische|table
+der|Stuhl|Stühle|chair
+das|Sofa|Sofas|sofa
+das|Bett|Betten|bed
+der|Schrank|Schränke|cupboard, wardrobe
+das|Regal|Regale|shelf
+die|Lampe|Lampen|lamp
+der|Teppich|Teppiche|carpet
+der|Spiegel|Spiegel|mirror
+die|Dusche|Duschen|shower
+die|Toilette|Toiletten|toilet
+der|Kühlschrank|Kühlschränke|fridge
+der|Herd|Herde|stove, cooker
+die|Miete|Mieten|rent
+der|Schlüssel|Schlüssel|key
+der|Strom|-|electricity
+das|Essen|-|food, meal
+das|Frühstück|-|breakfast
+das|Mittagessen|-|lunch
+das|Abendessen|-|dinner
+das|Brot|Brote|bread
+das|Brötchen|Brötchen|bread roll
+die|Butter|-|butter
+der|Käse|-|cheese
+die|Wurst|Würste|sausage
+das|Fleisch|-|meat
+das|Ei|Eier|egg
+der|Fisch|Fische|fish
+die|Suppe|Suppen|soup
+der|Salat|Salate|salad, lettuce
+das|Gemüse|-|vegetables
+das|Obst|-|fruit
+der|Apfel|Äpfel|apple
+die|Banane|Bananen|banana
+die|Orange|Orangen|orange
+die|Tomate|Tomaten|tomato
+die|Kartoffel|Kartoffeln|potato
+die|Zwiebel|Zwiebeln|onion
+der|Reis|-|rice
+die|Nudel|Nudeln|noodle, pasta
+der|Zucker|-|sugar
+das|Salz|-|salt
+der|Pfeffer|-|pepper
+das|Öl|Öle|oil
+der|Kuchen|Kuchen|cake
+die|Schokolade|Schokoladen|chocolate
+das|Eis|-|ice, ice cream
+das|Getränk|Getränke|drink
+das|Wasser|-|water
+der|Kaffee|-|coffee
+der|Tee|Tees|tea
+die|Milch|-|milk
+der|Saft|Säfte|juice
+das|Bier|Biere|beer
+der|Wein|Weine|wine
+die|Flasche|Flaschen|bottle
+das|Glas|Gläser|glass
+die|Tasse|Tassen|cup
+der|Teller|Teller|plate
+die|Gabel|Gabeln|fork
+das|Messer|Messer|knife
+der|Löffel|Löffel|spoon
+das|Restaurant|Restaurants|restaurant
+das|Café|Cafés|café
+die|Rechnung|Rechnungen|bill, invoice
+die|Speisekarte|Speisekarten|menu
+der|Hunger|-|hunger
+der|Durst|-|thirst
+die|Kleidung|-|clothing
+das|Hemd|Hemden|shirt
+die|Hose|Hosen|trousers
+der|Rock|Röcke|skirt
+das|Kleid|Kleider|dress
+die|Jacke|Jacken|jacket
+der|Mantel|Mäntel|coat
+der|Pullover|Pullover|jumper, sweater
+das|T-Shirt|T-Shirts|T-shirt
+der|Schuh|Schuhe|shoe
+die|Socke|Socken|sock
+der|Hut|Hüte|hat
+die|Mütze|Mützen|cap, beanie
+der|Schal|Schals|scarf
+die|Brille|Brillen|glasses
+die|Tasche|Taschen|bag, pocket
+die|Größe|Größen|size
+der|Platz|Plätze|square, place, seat
+die|Straße|Straßen|street
+der|Weg|Wege|way, path
+die|Kirche|Kirchen|church
+das|Museum|Museen|museum
+das|Kino|Kinos|cinema
+das|Theater|Theater|theatre
+die|Bibliothek|Bibliotheken|library
+die|Schule|Schulen|school
+die|Universität|Universitäten|university
+das|Büro|Büros|office
+die|Bank|Banken|bank
+die|Post|-|post office, mail
+der|Markt|Märkte|market
+der|Supermarkt|Supermärkte|supermarket
+das|Geschäft|Geschäfte|shop, business
+der|Laden|Läden|shop
+das|Hotel|Hotels|hotel
+der|Park|Parks|park
+der|Bahnhof|Bahnhöfe|train station
+der|Flughafen|Flughäfen|airport
+die|Haltestelle|Haltestellen|stop (bus, tram)
+das|Zentrum|Zentren|centre
+das|Dorf|Dörfer|village
+das|Auto|Autos|car
+der|Bus|Busse|bus
+der|Zug|Züge|train
+die|Bahn|Bahnen|train, railway
+das|Fahrrad|Fahrräder|bicycle
+das|Taxi|Taxis|taxi
+das|Flugzeug|Flugzeuge|aeroplane
+das|Schiff|Schiffe|ship
+die|Fahrt|Fahrten|journey, ride
+die|Reise|Reisen|trip
+der|Urlaub|-|holiday, vacation
+die|Ferien|-|school holidays (plural only)
+die|Fahrkarte|Fahrkarten|travel ticket
+das|Ticket|Tickets|ticket
+der|Ausweis|Ausweise|ID card
+der|Pass|Pässe|passport
+der|Koffer|Koffer|suitcase
+die|Ankunft|Ankünfte|arrival
+die|Abfahrt|Abfahrten|departure
+der|Ausflug|Ausflüge|excursion
+die|Arbeit|-|work
+der|Job|Jobs|job
+die|Firma|Firmen|company
+der|Chef|Chefs|boss
+der|Lehrer|Lehrer|teacher (m)
+die|Lehrerin|Lehrerinnen|teacher (f)
+der|Schüler|Schüler|pupil
+der|Student|Studenten|student (m)
+die|Studentin|Studentinnen|student (f)
+der|Kurs|Kurse|course
+die|Klasse|Klassen|class
+die|Aufgabe|Aufgaben|task, exercise
+die|Übung|Übungen|exercise
+die|Prüfung|Prüfungen|exam
+das|Buch|Bücher|book
+das|Heft|Hefte|notebook
+der|Stift|Stifte|pen
+das|Papier|Papiere|paper
+das|Wort|Wörter|word
+der|Satz|Sätze|sentence
+die|Frage|Fragen|question
+die|Antwort|Antworten|answer
+das|Beispiel|Beispiele|example
+der|Text|Texte|text
+die|Seite|Seiten|page, side
+der|Computer|Computer|computer
+das|Handy|Handys|mobile phone
+das|Telefon|Telefone|telephone
+die|E-Mail|E-Mails|email
+der|Brief|Briefe|letter
+die|Nummer|Nummern|number
+das|Internet|-|internet
+das|Foto|Fotos|photo
+die|Zeitung|Zeitungen|newspaper
+der|Fernseher|Fernseher|TV set
+die|Musik|-|music
+der|Film|Filme|film
+das|Spiel|Spiele|game
+der|Sport|-|sport
+das|Hobby|Hobbys|hobby
+die|Zeit|Zeiten|time
+die|Uhr|Uhren|clock, o'clock
+die|Stunde|Stunden|hour
+die|Minute|Minuten|minute
+die|Sekunde|Sekunden|second
+der|Tag|Tage|day
+die|Woche|Wochen|week
+der|Monat|Monate|month
+das|Jahr|Jahre|year
+der|Morgen|-|morning
+der|Vormittag|Vormittage|late morning
+der|Mittag|Mittage|midday
+der|Nachmittag|Nachmittage|afternoon
+der|Abend|Abende|evening
+die|Nacht|Nächte|night
+das|Wochenende|Wochenenden|weekend
+der|Montag|-|Monday
+der|Dienstag|-|Tuesday
+der|Mittwoch|-|Wednesday
+der|Donnerstag|-|Thursday
+der|Freitag|-|Friday
+der|Samstag|-|Saturday
+der|Sonntag|-|Sunday
+der|Geburtstag|Geburtstage|birthday
+das|Datum|Daten|date
+der|Januar|-|January
+der|Februar|-|February
+der|März|-|March
+der|April|-|April
+der|Mai|-|May
+der|Juni|-|June
+der|Juli|-|July
+der|August|-|August
+der|September|-|September
+der|Oktober|-|October
+der|November|-|November
+der|Dezember|-|December
+das|Wetter|-|weather
+die|Sonne|Sonnen|sun
+der|Regen|-|rain
+der|Schnee|-|snow
+der|Wind|Winde|wind
+die|Wolke|Wolken|cloud
+der|Himmel|-|sky
+die|Temperatur|Temperaturen|temperature
+der|Grad|Grade|degree
+der|Sommer|Sommer|summer
+der|Winter|Winter|winter
+der|Frühling|-|spring
+der|Herbst|-|autumn
+der|Baum|Bäume|tree
+die|Blume|Blumen|flower
+der|Berg|Berge|mountain
+der|See|Seen|lake
+das|Meer|Meere|sea
+der|Fluss|Flüsse|river
+der|Wald|Wälder|forest
+das|Tier|Tiere|animal
+der|Hund|Hunde|dog
+die|Katze|Katzen|cat
+der|Vogel|Vögel|bird
+das|Geld|-|money
+der|Euro|Euro|euro
+der|Cent|Cent|cent
+der|Preis|Preise|price
+die|Kasse|Kassen|checkout, till
+die|Karte|Karten|card, map, ticket
+das|Konto|Konten|bank account
+die|Quittung|Quittungen|receipt
+die|Sache|Sachen|thing
+das|Ding|Dinge|thing
+das|Problem|Probleme|problem
+die|Idee|Ideen|idea
+die|Information|Informationen|information
+die|Hilfe|-|help
+der|Grund|Gründe|reason
+die|Möglichkeit|Möglichkeiten|possibility
+das|Glück|-|luck, happiness
+die|Farbe|Farben|colour
+der|Teil|Teile|part
+die|Art|Arten|kind, type
+das|Stück|Stücke|piece
+die|Liste|Listen|list
+der|Plan|Pläne|plan
+die|Party|Partys|party
+das|Geschenk|Geschenke|present, gift
+das|Formular|Formulare|form (to fill in)
+der|Anfang|Anfänge|beginning
+das|Ende|Enden|end
+die|Pause|Pausen|break
+`;
+
+/* VERBS: "infinitiv|english|du,er overrides (blank = regular, FULL:a,b,c,d,e,f = full set)|Perfekt|flags"
+   flags: core = one of the 20 that carry most sentences, sep = separable, irr = irregular, modal */
+DATA.verbs = `
+sein|to be|FULL:bin,bist,ist,sind,seid,sind|ist gewesen|core,irr
+haben|to have|hast,hat|hat gehabt|core,irr
+werden|to become|wirst,wird|ist geworden|core,irr
+können|can, to be able to|FULL:kann,kannst,kann,können,könnt,können|hat gekonnt|core,modal
+müssen|must, to have to|FULL:muss,musst,muss,müssen,müsst,müssen|hat gemusst|core,modal
+wollen|to want to|FULL:will,willst,will,wollen,wollt,wollen|hat gewollt|core,modal
+sollen|should, ought to|FULL:soll,sollst,soll,sollen,sollt,sollen|hat gesollt|core,modal
+dürfen|may, to be allowed to|FULL:darf,darfst,darf,dürfen,dürft,dürfen|hat gedurft|core,modal
+mögen|to like|FULL:mag,magst,mag,mögen,mögt,mögen|hat gemocht|core,modal
+machen|to do, to make||hat gemacht|core
+gehen|to go||ist gegangen|core,irr
+kommen|to come||ist gekommen|core,irr
+sehen|to see|siehst,sieht|hat gesehen|core,irr
+geben|to give|gibst,gibt|hat gegeben|core,irr
+sagen|to say||hat gesagt|core
+wissen|to know (a fact)|FULL:weiß,weißt,weiß,wissen,wisst,wissen|hat gewusst|core,irr
+finden|to find||hat gefunden|core,irr
+nehmen|to take|nimmst,nimmt|hat genommen|core,irr
+sprechen|to speak|sprichst,spricht|hat gesprochen|core,irr
+heißen|to be called||hat geheißen|core,irr
+essen|to eat|isst,isst|hat gegessen|irr
+trinken|to drink||hat getrunken|irr
+schlafen|to sleep|schläfst,schläft|hat geschlafen|irr
+fahren|to drive, to travel|fährst,fährt|ist gefahren|irr
+laufen|to run, to walk|läufst,läuft|ist gelaufen|irr
+fliegen|to fly||ist geflogen|irr
+lesen|to read|liest,liest|hat gelesen|irr
+schreiben|to write||hat geschrieben|irr
+lernen|to learn||hat gelernt|
+arbeiten|to work||hat gearbeitet|
+wohnen|to live, to reside||hat gewohnt|
+leben|to live, to be alive||hat gelebt|
+spielen|to play||hat gespielt|
+hören|to hear, to listen||hat gehört|
+kaufen|to buy||hat gekauft|
+verkaufen|to sell||hat verkauft|
+kosten|to cost||hat gekostet|
+bezahlen|to pay||hat bezahlt|
+brauchen|to need||hat gebraucht|
+suchen|to look for||hat gesucht|
+fragen|to ask||hat gefragt|
+antworten|to answer||hat geantwortet|
+verstehen|to understand||hat verstanden|irr
+denken|to think||hat gedacht|irr
+glauben|to believe||hat geglaubt|
+meinen|to mean, to think||hat gemeint|
+kennen|to know (a person, place)||hat gekannt|irr
+lieben|to love||hat geliebt|
+warten|to wait||hat gewartet|
+bleiben|to stay||ist geblieben|irr
+stehen|to stand||hat gestanden|irr
+sitzen|to sit||hat gesessen|irr
+liegen|to lie, to be located||hat gelegen|irr
+legen|to lay, to put down||hat gelegt|
+stellen|to put, to place upright||hat gestellt|
+setzen|to set, to seat||hat gesetzt|
+öffnen|to open||hat geöffnet|
+schließen|to close||hat geschlossen|irr
+beginnen|to begin||hat begonnen|irr
+helfen|to help|hilfst,hilft|hat geholfen|irr
+danken|to thank||hat gedankt|
+bringen|to bring||hat gebracht|irr
+holen|to fetch||hat geholt|
+tragen|to carry, to wear|trägst,trägt|hat getragen|irr
+bekommen|to receive, to get||hat bekommen|irr
+schenken|to give as a gift||hat geschenkt|
+zeigen|to show||hat gezeigt|
+erklären|to explain||hat erklärt|
+üben|to practise||hat geübt|
+wiederholen|to repeat||hat wiederholt|
+vergessen|to forget|vergisst,vergisst|hat vergessen|irr
+treffen|to meet|triffst,trifft|hat getroffen|irr
+besuchen|to visit||hat besucht|
+reisen|to travel||ist gereist|
+wandern|to hike||ist gewandert|
+schwimmen|to swim||ist geschwommen|irr
+tanzen|to dance||hat getanzt|
+singen|to sing||hat gesungen|irr
+kochen|to cook||hat gekocht|
+backen|to bake||hat gebacken|irr
+putzen|to clean||hat geputzt|
+waschen|to wash|wäschst,wäscht|hat gewaschen|irr
+duschen|to shower||hat geduscht|
+ziehen|to pull||hat gezogen|irr
+gefallen|to please, to be liked|gefällst,gefällt|hat gefallen|irr
+schmecken|to taste good||hat geschmeckt|
+passen|to fit, to suit||hat gepasst|
+gehören|to belong to||hat gehört|
+funktionieren|to work, to function||hat funktioniert|
+probieren|to try, to taste||hat probiert|
+versuchen|to try, to attempt||hat versucht|
+entschuldigen|to excuse||hat entschuldigt|
+schicken|to send||hat geschickt|
+bestellen|to order||hat bestellt|
+buchen|to book||hat gebucht|
+reservieren|to reserve||hat reserviert|
+verlieren|to lose||hat verloren|irr
+gewinnen|to win||hat gewonnen|irr
+rauchen|to smoke||hat geraucht|
+sparen|to save (money)||hat gespart|
+verdienen|to earn||hat verdient|
+studieren|to study||hat studiert|
+unterschreiben|to sign||hat unterschrieben|irr
+wechseln|to change, to swap||hat gewechselt|
+ändern|to change, to alter||hat geändert|
+dauern|to last, to take (time)||hat gedauert|
+lachen|to laugh||hat gelacht|
+weinen|to cry||hat geweint|
+hoffen|to hope||hat gehofft|
+aufstehen|to get up||ist aufgestanden|sep,irr
+anfangen|to begin|fängst,fängt|hat angefangen|sep,irr
+aufhören|to stop||hat aufgehört|sep
+einkaufen|to shop||hat eingekauft|sep
+einladen|to invite|lädst,lädt|hat eingeladen|sep,irr
+anrufen|to phone, to call||hat angerufen|sep,irr
+aufmachen|to open||hat aufgemacht|sep
+zumachen|to close||hat zugemacht|sep
+mitkommen|to come along||ist mitgekommen|sep,irr
+mitbringen|to bring along||hat mitgebracht|sep,irr
+ankommen|to arrive||ist angekommen|sep,irr
+abfahren|to depart|fährst,fährt|ist abgefahren|sep,irr
+aussehen|to look, to appear|siehst,sieht|hat ausgesehen|sep,irr
+fernsehen|to watch TV|siehst,sieht|hat ferngesehen|sep,irr
+stattfinden|to take place||hat stattgefunden|sep,irr
+vorstellen|to introduce, to present||hat vorgestellt|sep
+ausfüllen|to fill in||hat ausgefüllt|sep
+umziehen|to move house||ist umgezogen|sep,irr
+anziehen|to put on (clothes)||hat angezogen|sep,irr
+ausziehen|to take off (clothes)||hat ausgezogen|sep,irr
+`;
+
+/* ADJECTIVES: "wort|english|opposite (blank if none)" */
+DATA.adjectives = `
+groß|big, tall|klein
+klein|small|groß
+alt|old|neu, jung
+neu|new|alt
+jung|young|alt
+lang|long|kurz
+kurz|short|lang
+hoch|high|niedrig
+niedrig|low|hoch
+tief|deep|flach
+breit|wide|schmal
+schmal|narrow|breit
+dick|thick, fat|dünn
+dünn|thin|dick
+schwer|heavy, difficult|leicht
+leicht|light, easy|schwer
+schnell|fast|langsam
+langsam|slow|schnell
+früh|early|spät
+spät|late|früh
+gut|good|schlecht
+schlecht|bad|gut
+schön|beautiful, nice|hässlich
+hässlich|ugly|schön
+nett|nice, kind|
+freundlich|friendly|unfreundlich
+sympathisch|likeable|
+höflich|polite|unhöflich
+lustig|funny|
+traurig|sad|fröhlich
+fröhlich|cheerful|traurig
+glücklich|happy|unglücklich
+müde|tired|
+krank|ill|gesund
+gesund|healthy|krank
+teuer|expensive|billig
+billig|cheap|teuer
+günstig|good value|teuer
+reich|rich|arm
+arm|poor|reich
+warm|warm|kalt
+kalt|cold|warm
+heiß|hot|kalt
+kühl|cool|
+nass|wet|trocken
+trocken|dry|nass
+sauber|clean|schmutzig
+schmutzig|dirty|sauber
+hell|bright, light|dunkel
+dunkel|dark|hell
+laut|loud|leise
+leise|quiet|laut
+voll|full|leer
+leer|empty|voll
+offen|open|geschlossen
+geschlossen|closed|offen
+richtig|correct|falsch
+falsch|wrong|richtig
+wichtig|important|unwichtig
+einfach|simple, easy|schwierig
+schwierig|difficult|einfach
+interessant|interesting|langweilig
+langweilig|boring|interessant
+bekannt|well known|unbekannt
+fremd|foreign, unfamiliar|
+frei|free, vacant|besetzt
+besetzt|occupied, taken|frei
+fertig|finished, ready|
+möglich|possible|unmöglich
+nötig|necessary|
+sicher|safe, certain|unsicher
+ruhig|calm, quiet|
+weit|far|nah
+nah|near|weit
+stark|strong|schwach
+schwach|weak|stark
+zufrieden|satisfied|
+verheiratet|married|ledig
+ledig|single, unmarried|verheiratet
+lecker|delicious|
+süß|sweet|sauer
+sauer|sour|süß
+salzig|salty|
+scharf|spicy, sharp|
+frisch|fresh|
+rot|red|
+blau|blue|
+grün|green|
+gelb|yellow|
+schwarz|black|
+weiß|white|
+braun|brown|
+grau|grey|
+`;
+
+/* PREPOSITIONS: "wort|english|case|note" */
+DATA.prepositions = `
+aus|from, out of|Dativ|aus Berlin, aus dem Haus
+bei|at, near, at someone's place|Dativ|bei der Arbeit, bei mir
+mit|with, by (transport)|Dativ|mit dem Bus
+nach|after, to (cities, countries)|Dativ|nach Hause, nach Berlin
+seit|since, for (duration)|Dativ|seit zwei Jahren
+von|from, of, by|Dativ|von München, vom Arzt
+zu|to (people, places)|Dativ|zum Arzt, zur Schule
+gegenüber|opposite|Dativ|gegenüber dem Bahnhof
+außer|except for|Dativ|außer mir
+durch|through|Akkusativ|durch den Park
+für|for|Akkusativ|für dich
+gegen|against, around (time)|Akkusativ|gegen acht Uhr
+ohne|without|Akkusativ|ohne Zucker
+um|around, at (clock time)|Akkusativ|um sieben Uhr
+bis|until, up to|Akkusativ|bis morgen
+entlang|along|Akkusativ|die Straße entlang
+an|at, on (a vertical surface)|Wechsel|an der Wand / an die Wand
+auf|on top of|Wechsel|auf dem Tisch / auf den Tisch
+hinter|behind|Wechsel|hinter dem Haus
+in|in, into|Wechsel|im Kino / ins Kino
+neben|next to|Wechsel|neben mir
+über|over, above, about|Wechsel|über dem Bett
+unter|under, among|Wechsel|unter dem Stuhl
+vor|in front of, before, ago|Wechsel|vor dem Haus, vor zwei Tagen
+zwischen|between|Wechsel|zwischen uns
+`;
+
+/* FUNCTION WORDS: "wort|english|note" */
+DATA.function = `
+ich|I|Nominativ
+du|you (informal singular)|Nominativ
+er|he|Nominativ
+sie|she / they|Nominativ
+es|it|Nominativ
+wir|we|Nominativ
+ihr|you (informal plural)|Nominativ
+Sie|you (formal)|Nominativ, always capitalised
+mich|me|Akkusativ von ich
+dich|you|Akkusativ von du
+ihn|him|Akkusativ von er
+uns|us|Akkusativ and Dativ von wir
+euch|you (plural)|Akkusativ and Dativ von ihr
+mir|to me, me|Dativ von ich
+dir|to you|Dativ von du
+ihm|to him, to it|Dativ von er / es
+ihr (Dativ)|to her|Dativ von sie (singular)
+ihnen|to them|Dativ von sie (plural)
+Ihnen|to you (formal)|Dativ von Sie
+mein|my|possessive
+dein|your|possessive, informal singular
+sein|his, its|possessive
+ihr (Possessiv)|her, their|possessive
+unser|our|possessive
+euer|your (plural)|possessive, informal plural
+Ihr|your (formal)|possessive, always capitalised
+der|the|masculine Nominativ
+die|the|feminine and plural Nominativ
+das|the|neuter Nominativ
+den|the|masculine Akkusativ / plural Dativ
+dem|the|masculine and neuter Dativ
+ein|a, an|masculine and neuter Nominativ
+eine|a, an|feminine Nominativ and Akkusativ
+einen|a, an|masculine Akkusativ
+einem|a, an|masculine and neuter Dativ
+einer|a, an|feminine Dativ
+kein|no, not a|negates a noun
+und|and|does not change word order
+oder|or|does not change word order
+aber|but|does not change word order
+denn|because|does not change word order
+sondern|but rather (after a negative)|nicht X, sondern Y
+dass|that|verb goes to the end
+weil|because|verb goes to the end
+wenn|if, when|verb goes to the end
+ob|whether|verb goes to the end
+man|one, you (impersonal)|man sagt = people say
+es gibt|there is, there are|always followed by Akkusativ
+nichts|nothing|
+etwas|something, a bit|
+alles|everything|
+jeder|every, each|
+viele|many|
+`;
+
+/* OTHER: "wort|english|note" — adverbs, numbers, question words, everyday phrases */
+DATA.other = `
+wer|who|Nominativ: wen = Akkusativ, wem = Dativ
+was|what|
+wo|where (location)|
+wann|when|
+wie|how|
+warum|why|
+wohin|where to|
+woher|where from|
+welcher|which|takes der/die/das endings
+wie viel|how much|
+wie viele|how many|
+wie lange|how long|
+wie oft|how often|
+was für ein|what kind of|
+null|zero|
+eins|one|ein/eine before a noun
+zwei|two|
+drei|three|
+vier|four|
+fünf|five|
+sechs|six|
+sieben|seven|
+acht|eight|
+neun|nine|
+zehn|ten|
+elf|eleven|
+zwölf|twelve|
+dreizehn|thirteen|
+zwanzig|twenty|
+einundzwanzig|twenty-one|units first, then tens
+dreißig|thirty|note the ß
+vierzig|forty|
+fünfzig|fifty|
+hundert|hundred|
+tausend|thousand|
+erste|first|der erste Mai
+zweite|second|
+dritte|third|
+heute|today|
+gestern|yesterday|
+morgen|tomorrow|der Morgen = the morning
+übermorgen|the day after tomorrow|
+vorgestern|the day before yesterday|
+jetzt|now|
+gleich|right away, in a moment|
+bald|soon|
+später|later|
+immer|always|
+oft|often|
+manchmal|sometimes|
+selten|rarely|
+nie|never|
+schon|already|
+noch|still, yet|noch nicht = not yet
+wieder|again|
+endlich|finally|
+zuerst|first of all|
+dann|then|
+danach|after that|
+gerade|right now, just|
+hier|here|
+da|there, here|
+dort|over there|
+oben|upstairs, above|
+unten|downstairs, below|
+links|on the left|
+rechts|on the right|
+geradeaus|straight ahead|
+draußen|outside|
+drinnen|inside|
+überall|everywhere|
+nach Hause|(to) home|movement towards home
+zu Hause|at home|no movement
+weg|away, gone|
+sehr|very|
+ziemlich|fairly, quite|
+ganz|whole, quite|
+zu|too (excessively)|zu teuer
+genug|enough|comes after the adjective: gut genug
+fast|almost|
+ungefähr|approximately|
+nur|only|
+auch|also, too|
+besonders|especially|
+vielleicht|maybe|
+natürlich|of course|
+leider|unfortunately|
+gern|gladly, willingly|ich trinke gern Kaffee
+lieber|preferably, rather|
+am liebsten|most of all|
+wirklich|really|
+eigentlich|actually|
+hoffentlich|hopefully|
+noch mal|again, once more|
+ja|yes|
+nein|no|
+doch|yes (contradicting a negative)|answer to a negative question
+bitte|please, you're welcome|
+danke|thank you|
+nicht|not|negates verbs and adjectives
+hallo|hello|
+tschüss|bye|informal
+guten Tag|good day, hello|
+guten Morgen|good morning|
+guten Abend|good evening|
+gute Nacht|good night|
+auf Wiedersehen|goodbye|formal
+bis bald|see you soon|
+Entschuldigung|excuse me, sorry|
+Wie geht's?|How are you?|informal
+alles klar|all good, got it|
+`;
+
+</script>
+<script>
+"use strict";
+const DAY=864e5, KEY="wortschatz-a1-v1";
+const $=(h)=>{const d=document.createElement("div");d.innerHTML=h.trim();return d.firstChild};
+const esc=(s)=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+/* ---------- parse ---------- */
+function rows(t){return t.trim().split("\n").map(l=>l.trim()).filter(Boolean).map(l=>l.split("|"))}
+const CATS=[
+ {k:"nouns", nm:"Nomen",        desc:"Artikel, Plural und Bedeutung"},
+ {k:"verbs", nm:"Verben",       desc:"Konjugation und Perfekt · die 20 Kernverben zuerst"},
+ {k:"adjectives", nm:"Adjektive", desc:"meist als Gegensatzpaar"},
+ {k:"prepositions", nm:"Präpositionen", desc:"mit Fall: Dativ, Akkusativ, Wechsel"},
+ {k:"function", nm:"Pronomen, Artikel, Konjunktionen", desc:"kleine Wörter, größte Wirkung"},
+ {k:"other", nm:"Adverbien, Zahlen, Fragewörter", desc:"heute, sehr, wie viele, bitte"},
+];
+const W={};
+CATS.forEach(c=>{
+  W[c.k]=rows(DATA[c.k]).map((r,i)=>({id:c.k+":"+i,cat:c.k,f:r}));
+});
+W.verbs.sort((a,b)=>{
+  const ca=(a.f[4]||"").includes("core"), cb=(b.f[4]||"").includes("core");
+  return ca===cb?0:(ca?-1:1);
+});
+W.verbs.forEach((w,i)=>w.id="verbs:"+i);
+const ALL={}; CATS.forEach(c=>W[c.k].forEach(w=>ALL[w.id]=w));
+
+/* ---------- conjugation ---------- */
+const PREFIX=["auf","aus","ein","mit","ab","an","zu","vor","fern","statt","um","zurück","weg","los","her","hin","nach","bei","fest","frei","weiter"];
+function splitSep(inf){
+  for(const p of PREFIX.slice().sort((a,b)=>b.length-a.length))
+    if(inf.startsWith(p)&&inf.length>p.length+3) return [p,inf.slice(p.length)];
+  return ["",inf];
+}
+function present(inf,ovr,sep){
+  if(ovr&&ovr.startsWith("FULL:")) return ovr.slice(5).split(",");
+  let pre="",base=inf;
+  if(sep) [pre,base]=splitSep(inf);
+  const eln=/eln$/.test(base);
+  let stem = /(eln|ern)$/.test(base) ? base.slice(0,-1)
+           : base.endsWith("en") ? base.slice(0,-2)
+           : base.replace(/n$/,"");
+  const needsE=/[dt]$/.test(stem)||/[bcdfgkpstwz][mn]$/.test(stem);
+  const sib=/[sßxz]$/.test(stem);
+  let f=[
+    eln?base.slice(0,-3)+"le":stem+"e",
+    needsE?stem+"est":(sib?stem+"t":stem+"st"),
+    needsE?stem+"et":stem+"t",
+    base,
+    needsE?stem+"et":stem+"t",
+    base
+  ];
+  if(ovr){const o=ovr.split(",");if(o[0])f[1]=o[0];if(o[1])f[2]=o[1];}
+  return pre? f.map(x=>x+" "+pre) : f;
+}
+const PERS=["ich","du","er/sie","wir","ihr","sie/Sie"];
+
+/* ---------- state ---------- */
+let S=null, mem=null;
+function fresh(){return{v:1,cards:{},flags:{},
+  set:{newPerDay:15,maxRev:120},
+  day:{d:today(),nw:0,rv:0,ok:0,tot:0},
+  streak:{n:0,last:""}}}
+function today(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function load(){
+  let raw=null;
+  try{raw=localStorage.getItem(KEY)}catch(e){}
+  if(raw===null&&mem)raw=mem;
+  S=raw?Object.assign(fresh(),JSON.parse(raw)):fresh();
+  if(S.day.d!==today()){
+    const y=new Date(Date.now()-DAY);
+    const ys=y.getFullYear()+"-"+String(y.getMonth()+1).padStart(2,"0")+"-"+String(y.getDate()).padStart(2,"0");
+    if(S.day.rv+S.day.nw>0&&S.streak.last!==S.day.d){S.streak.n=(S.streak.last===ys||S.streak.last==="")?S.streak.n+1:1;S.streak.last=S.day.d}
+    if(S.streak.last!==today()&&S.streak.last!==ys)S.streak.n=S.streak.last?0:S.streak.n;
+    S.day={d:today(),nw:0,rv:0,ok:0,tot:0};
+  }
+}
+let storageOK=true;
+function save(){const j=JSON.stringify(S);mem=j;
+  try{localStorage.setItem(KEY,j)}catch(e){
+    if(storageOK){storageOK=false;toast("Fortschritt wird nicht gespeichert")}}}
+function C(id){return S.cards[id]||null}
+
+/* ---------- srs ---------- */
+function triage(id,kind){
+  const now=Date.now();
+  if(kind==="known") S.cards[id]={i:30,e:2.6,d:now+30*DAY,r:1,l:0,s:2};
+  else if(kind==="shaky") S.cards[id]={i:3,e:2.3,d:now+3*DAY,r:1,l:0,s:2};
+  else S.cards[id]={i:0,e:2.5,d:now,r:0,l:0,s:1,step:0};
+  S.day.nw++;
+}
+function fuzz(i){return i<=2?i:i*(0.95+Math.random()*0.1)}
+function grade(id,g){
+  const c=S.cards[id],now=Date.now();
+  S.day.tot++; if(g>0)S.day.ok++;
+  if(c.s===1){
+    if(g===0){c.step=0;c.d=now}
+    else{c.step=(c.step||0)+1;
+      if(c.step>=2||g===3){c.s=2;c.i=g===3?4:1;c.d=now+fuzz(c.i)*DAY}
+      else c.d=now;}
+  }else{
+    if(g===0){c.l++;c.e=Math.max(1.3,c.e-0.2);c.s=1;c.step=0;c.d=now;c.i=Math.max(1,c.i*0.3)}
+    else{
+      if(g===1){c.i=Math.max(1,c.i*1.2);c.e=Math.max(1.3,c.e-0.15)}
+      if(g===2){c.i=Math.max(1,c.i*c.e)}
+      if(g===3){c.i=Math.max(2,c.i*c.e*1.3);c.e=Math.min(2.8,c.e+0.15)}
+      c.d=now+fuzz(c.i)*DAY;
+    }
+    c.r++;
+    if(c.s===2)S.day.rv++;
+  }
+  save();
+}
+function nextIvl(id,g){
+  const c=S.cards[id];if(!c)return"";
+  if(c.s===1){if(g===0)return"jetzt";if(g===3)return"4 T";return (c.step||0)+1>=2?"1 T":"jetzt"}
+  let i;
+  if(g===0)return"jetzt";
+  if(g===1)i=Math.max(1,c.i*1.2); else if(g===2)i=Math.max(1,c.i*c.e); else i=Math.max(2,c.i*c.e*1.3);
+  return i<30?Math.round(i)+" T":(i<365?Math.round(i/30)+" Mo":Math.round(i/365)+" J");
+}
+function stats(k){
+  const list=W[k];let nw=0,lr=0,yg=0,mt=0;
+  list.forEach(w=>{const c=C(w.id);
+    if(!c)nw++;else if(c.s===1)lr++;else if(c.i<21)yg++;else mt++;});
+  return{nw,lr,yg,mt,total:list.length};
+}
+function dueCount(k){
+  const now=Date.now();let d=0;
+  W[k].forEach(w=>{const c=C(w.id);if(c&&c.d<=now)d++});
+  return d;
+}
+function buildQueue(k){
+  const now=Date.now(),keys=k==="all"?CATS.map(c=>c.k):[k];
+  let due=[],neu=[];
+  keys.forEach(kk=>W[kk].forEach(w=>{
+    const c=C(w.id);
+    if(!c)neu.push(w); else if(c.d<=now)due.push(w);
+  }));
+  due.sort((a,b)=>C(a.id).d-C(b.id).d);
+  due=due.slice(0,Math.max(0,S.set.maxRev-S.day.rv));
+  neu=neu.slice(0,Math.max(0,S.set.newPerDay-S.day.nw));
+  const q=due.slice();
+  neu.forEach((w,i)=>q.splice(Math.min(q.length,Math.round((i+1)*(q.length+neu.length)/(neu.length+1))),0,w));
+  return q;
+}
+
+/* ---------- render: home ---------- */
+const app=document.getElementById("app");
+function toast(m){const t=$('<div class="toast">'+esc(m)+"</div>");document.body.appendChild(t);setTimeout(()=>t.remove(),1800)}
+
+function home(){
+  load();
+  let totDue=0;CATS.forEach(c=>totDue+=dueCount(c.k));
+  const acc=S.day.tot?Math.round(S.day.ok/S.day.tot*100):0;
+  let h='<div class="wrap"><div class="masthead"><h1>Wortschatz A1</h1>'+
+    '<button class="iconbtn" data-go="settings" aria-label="Einstellungen">⚙</button></div>'+
+    '<p class="sub">'+Object.keys(ALL).length+' Wörter · A1.2</p>'+
+    '<div class="today">'+
+      '<div><div class="n">'+totDue+'</div><div class="l">fällig</div></div>'+
+      '<div><div class="n">'+(S.day.rv+S.day.nw)+'</div><div class="l">heute gemacht</div></div>'+
+      '<div><div class="n">'+(S.day.tot?acc+"%":"–")+'</div><div class="l">richtig</div></div>'+
+      '<div class="flame"><div class="n">'+S.streak.n+'</div><div class="l">Tage in Folge</div></div>'+
+    '</div>';
+  h+=catBtn({k:"all",nm:"Alles gemischt",desc:"alle sechs Gruppen zusammen"},true);
+  CATS.forEach(c=>h+=catBtn(c,false));
+  h+='<div class="legend" style="margin-top:16px">'+
+    '<b><i class="dot" style="background:#2A3242"></i>neu</b>'+
+    '<b><i class="dot" style="background:var(--die)"></i>am Lernen</b>'+
+    '<b><i class="dot" style="background:var(--amber)"></i>frisch</b>'+
+    '<b><i class="dot" style="background:var(--das)"></i>sitzt</b></div>';
+  h+='</div>';
+  app.innerHTML="";app.appendChild($(h));
+  app.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>study(b.dataset.cat));
+  app.querySelector("[data-go=settings]").onclick=settings;
+}
+function catBtn(c,isAll){
+  let s;
+  if(isAll){s={nw:0,lr:0,yg:0,mt:0,total:0};CATS.forEach(x=>{const t=stats(x.k);s.nw+=t.nw;s.lr+=t.lr;s.yg+=t.yg;s.mt+=t.mt;s.total+=t.total})}
+  else s=stats(c.k);
+  const d=isAll?CATS.reduce((a,x)=>a+dueCount(x.k),0):dueCount(c.k);
+  const p=(n)=>n/s.total*100;
+  return '<button class="cat" data-cat="'+(isAll?"all":c.k)+'">'+
+    '<div class="row1"><span class="nm">'+esc(c.nm)+'</span>'+
+    '<span class="due">'+(d?"<b>"+d+" fällig</b>":'<span>'+s.total+" Wörter</span>")+'</span></div>'+
+    '<div class="desc">'+esc(c.desc)+'</div>'+
+    '<div class="bar">'+
+      '<i style="background:var(--die);width:'+p(s.lr)+'%"></i>'+
+      '<i style="background:var(--amber);width:'+p(s.yg)+'%"></i>'+
+      '<i style="background:var(--das);width:'+p(s.mt)+'%"></i>'+
+    '</div></button>';
+}
+
+/* ---------- render: study ---------- */
+let Q=[],cur=null,cat="all",revealed=false,artPick=null,sessionCount=0;
+function study(k){
+  cat=k;Q=buildQueue(k);sessionCount=0;next();
+}
+function next(){
+  revealed=false;artPick=null;
+  const now=Date.now();
+  const i=Q.findIndex(w=>{const c=C(w.id);return !c||c.d<=now});
+  if(i<0){return finished()}
+  cur=Q.splice(i,1)[0];
+  drawCard();
+}
+function finished(){
+  save();
+  const nm=cat==="all"?"Alles gemischt":CATS.find(c=>c.k===cat).nm;
+  app.innerHTML="";
+  app.appendChild($('<div class="done"><h2>Fertig für jetzt</h2><p>'+esc(nm)+' — '+sessionCount+
+    ' Karten in dieser Runde.<br>Komm später wieder, dann sind die nächsten dran.</p>'+
+    '<button class="ghost" data-h>Zur Übersicht</button></div>'));
+  app.querySelector("[data-h]").onclick=home;
+}
+function drawCard(){
+  const w=cur,c=C(w.id),isNew=!c;
+  const produce = c && c.s===2 && c.i>=10;
+  const flagged=!!S.flags[w.id];
+  const left=Q.filter(x=>{const cc=C(x.id);return !cc||cc.d<=Date.now()}).length+1;
+  const nm=cat==="all"?CATS.find(x=>x.k===w.cat).nm:CATS.find(x=>x.k===cat).nm;
+  let h='<div class="top"><button class="iconbtn" data-back aria-label="Zurück">‹</button>'+
+    '<span class="ttl">'+esc(nm.split(",")[0])+'</span>'+
+    '<span class="counts"><b>'+left+'</b> übrig</span>'+
+    '<button class="iconbtn flagbtn'+(flagged?" on":"")+'" data-flag aria-label="Fehler melden">⚑</button></div>'+
+    '<div class="card"><div class="face" id="face"></div><div class="acts" id="acts"></div></div>';
+  app.innerHTML="";app.appendChild($(h));
+  app.querySelector("[data-back]").onclick=()=>{save();home()};
+  app.querySelector("[data-flag]").onclick=(e)=>{
+    if(S.flags[w.id])delete S.flags[w.id];else S.flags[w.id]=1;
+    save();e.currentTarget.classList.toggle("on");
+    toast(S.flags[w.id]?"Markiert — später prüfen":"Markierung weg");
+  };
+  paint(produce,isNew);
+}
+function paint(produce,isNew){
+  const w=cur,face=document.getElementById("face"),acts=document.getElementById("acts");
+  const f=w.f, k=w.cat;
+  const isNoun=k==="nouns", isVerb=k==="verbs";
+  face.innerHTML="";acts.innerHTML="";
+
+  /* ---- front ---- */
+  if(!revealed){
+    if(produce){
+      face.appendChild($('<div><div class="cue">Auf Deutsch?'+
+        (isNoun?" Mit Artikel und Plural.":"")+'</div>'+
+        '<div class="word en">'+esc(f[isNoun?3:1])+"</div></div>"));
+      acts.appendChild($('<button class="big" data-rev>Antwort zeigen</button>'));
+      acts.querySelector("[data-rev]").onclick=()=>{revealed=true;paint(produce,isNew)};
+    } else if(isNoun){
+      face.appendChild($('<div><div class="cue">Artikel, Plural, Bedeutung?</div>'+
+        '<div class="word">'+esc(f[1])+"</div></div>"));
+      const box=$('<div><div class="hint">Tippe den Artikel</div><div class="arts"></div></div>');
+      const row=box.querySelector(".arts");
+      ["der","die","das"].forEach(a=>{
+        const b=$('<button class="'+a+'">'+a+"</button>");
+        b.onclick=()=>{
+          artPick=a;
+          row.querySelectorAll("button").forEach(x=>{
+            if(x.textContent===f[0])x.classList.add("right");
+            else if(x.textContent===a)x.classList.add("wrong");
+            x.disabled=true;
+          });
+          setTimeout(()=>{revealed=true;paint(produce,isNew)},420);
+        };
+        row.appendChild(b);
+      });
+      acts.appendChild(box);
+    } else {
+      face.appendChild($('<div><div class="cue">Was heißt das?</div>'+
+        '<div class="word">'+esc(f[0])+"</div></div>"));
+      acts.appendChild($('<button class="big" data-rev>Antwort zeigen</button>'));
+      acts.querySelector("[data-rev]").onclick=()=>{revealed=true;paint(produce,isNew)};
+    }
+    return;
+  }
+
+  /* ---- back ---- */
+  let b="<div>";
+  if(isNoun){
+    b+='<div class="word"><span class="art '+f[0]+'">'+f[0]+"</span>"+esc(f[1])+"</div>";
+    b+='<div class="plural">'+(f[2]==="-"?'<s>kein normaler Plural</s>':"die "+esc(f[2]))+"</div>";
+    b+='<div class="mean">'+esc(f[3])+"</div>";
+  } else if(isVerb){
+    b+='<div class="word">'+esc(f[0])+"</div>";
+    b+='<div class="mean">'+esc(f[1])+"</div>";
+    const fl=(f[4]||"");
+    const forms=present(f[0],f[2],fl.includes("sep"));
+    b+='<table class="conj">'+PERS.map((p,i)=>"<tr><td>"+p+"</td><td>"+esc(forms[i])+"</td></tr>").join("")+"</table>";
+    b+='<div class="perf">Perfekt: <em>'+esc(f[3])+"</em></div>";
+    if(f[0]==="mögen")b+='<div class="note">möchte, möchtest, möchte, möchten, möchtet, möchten — would like</div>';
+    let tg="";
+    if(fl.includes("core"))tg+='<span class="tag core">Kernverb</span>';
+    if(fl.includes("irr"))tg+='<span class="tag">unregelmäßig</span>';
+    if(fl.includes("sep"))tg+='<span class="tag">trennbar</span>';
+    if(fl.includes("modal"))tg+='<span class="tag">Modalverb</span>';
+    if(f[3].startsWith("ist"))tg+='<span class="tag">Perfekt mit sein</span>';
+    if(tg)b+='<div class="tags">'+tg+"</div>";
+  } else if(k==="adjectives"){
+    b+='<div class="word">'+esc(f[0])+'</div><div class="mean">'+esc(f[1])+"</div>";
+    if(f[2])b+='<div class="opp">Gegenteil: <b>'+esc(f[2])+"</b></div>";
+  } else if(k==="prepositions"){
+    b+='<div class="word">'+esc(f[0])+'</div><div class="mean">'+esc(f[1])+"</div>";
+    b+='<div><span class="kase '+f[2]+'">'+f[2]+(f[2]==="Wechsel"?" — Ort = Dativ, Richtung = Akkusativ":"")+"</span></div>";
+    if(f[3])b+='<div class="note">'+esc(f[3])+"</div>";
+  } else {
+    b+='<div class="word">'+esc(f[0])+'</div><div class="mean">'+esc(f[1])+"</div>";
+    if(f[2])b+='<div class="note">'+esc(f[2])+"</div>";
+  }
+  b+="</div>";
+  face.appendChild($(b));
+
+  if(isNew){
+    const box=$('<div class="triage"><div class="hint">Ehrlich: wie gut kanntest du das?</div></div>');
+    [["known","Kannte ich","kommt in 30 Tagen wieder"],
+     ["shaky","Wackelig","kommt in 3 Tagen wieder"],
+     ["new","Neu für mich","kommt morgen wieder"]].forEach(([kk,t,s])=>{
+      const btn=$('<button class="big"><b>'+t+"</b><i>"+s+"</i></button>");
+      btn.onclick=()=>{triage(w.id,kk);sessionCount++;
+        if(kk==="new")Q.push(w);
+        save();next()};
+      box.appendChild(btn);
+    });
+    acts.appendChild(box);
+    return;
+  }
+
+  const wrongArt = isNoun && artPick && artPick!==f[0];
+  const hint = wrongArt ? "Artikel war falsch — nimm <em>Nochmal</em>"
+    : (isNoun?"Artikel <em>und</em> Plural <em>und</em> Bedeutung richtig?":"Wie gut saß das?");
+  const box=$('<div><div class="hint">'+hint+'</div><div class="grades"></div></div>');
+  const row=box.querySelector(".grades");
+  [["Nochmal",0],["Schwer",1],["Gut",2],["Leicht",3]].forEach(([t,g])=>{
+    const btn=$('<button class="g'+g+(wrongArt&&g===0?" suggest":"")+'">'+t+
+      '<span class="iv">'+nextIvl(w.id,g)+"</span></button>");
+    btn.onclick=()=>{grade(w.id,g);sessionCount++;if(g===0)Q.push(w);next()};
+    row.appendChild(btn);
+  });
+  acts.appendChild(box);
+}
+
+/* keyboard, for desktop */
+document.addEventListener("keydown",e=>{
+  if(!cur||!document.getElementById("acts"))return;
+  const btns=document.querySelectorAll("#acts button");
+  if(e.key===" "||e.key==="Enter"){const r=document.querySelector("[data-rev]");if(r){e.preventDefault();r.click()}}
+  if(/^[1-4]$/.test(e.key)&&revealed&&btns.length>=3)btns[Math.min(+e.key-1,btns.length-1)].click();
+});
+
+/* ---------- settings ---------- */
+function settings(){
+  const fl=Object.keys(S.flags).filter(id=>ALL[id]);
+  let h='<div class="wrap panel"><div class="masthead"><h1>Einstellungen</h1>'+
+    '<button class="iconbtn" data-h aria-label="Zurück">✕</button></div>'+
+    '<h2>Tageslimit</h2>'+
+    '<div class="field"><label>Neue Wörter pro Tag</label><input id="np" type="number" min="0" max="100" value="'+S.set.newPerDay+'"></div>'+
+    '<div class="field"><label>Wiederholungen pro Tag</label><input id="mr" type="number" min="10" max="500" value="'+S.set.maxRev+'"></div>'+
+    '<p>15 neue Wörter pro Tag heißt: der ganze Wortschatz in etwa sechs Wochen, wenn du täglich kommst.</p>'+
+    '<h2>Fortschritt sichern</h2>'+
+    '<p>Der Fortschritt liegt nur in diesem Browser. Wenn du den Verlauf löschst oder das Handy wechselst, ist er weg. Kopier dir den Text ab und zu irgendwohin.</p>'+
+    '<textarea id="ex" readonly></textarea>'+
+    '<button class="ghost" data-copy>Kopieren</button><button class="ghost" data-imp>Sicherung einspielen</button>'+
+    '<h2>Gemeldete Fehler ('+fl.length+')</h2>';
+  if(!fl.length)h+="<p>Nichts markiert. Wenn dir ein Artikel oder Plural falsch vorkommt, tipp im Kartenfenster oben rechts auf ⚑ — dann taucht das Wort hier auf und du kannst es gegen dein Kursbuch prüfen.</p>";
+  else fl.forEach(id=>{const w=ALL[id];h+='<div class="flagged"><span>'+esc(w.f.slice(0,2).join(" "))+
+    "</span><em>"+esc(CATS.find(c=>c.k===w.cat).nm.split(",")[0])+"</em></div>"});
+  if(fl.length)h+='<button class="ghost" data-clearflags>Markierungen zurücksetzen</button>';
+  h+='<h2>Neu anfangen</h2><p>Löscht jeden Fortschritt in allen sechs Gruppen.</p>'+
+    '<button class="ghost danger" data-reset>Allen Fortschritt löschen</button></div>';
+  app.innerHTML="";app.appendChild($(h));
+  const ta=document.getElementById("ex");ta.value=JSON.stringify(S);
+  app.querySelector("[data-h]").onclick=()=>{
+    S.set.newPerDay=Math.max(0,+document.getElementById("np").value||0);
+    S.set.maxRev=Math.max(10,+document.getElementById("mr").value||120);
+    save();home();
+  };
+  app.querySelector("[data-copy]").onclick=()=>{ta.select();
+    try{document.execCommand("copy");toast("Kopiert")}catch(e){toast("Text markieren und kopieren")}};
+  app.querySelector("[data-imp]").onclick=()=>{
+    ta.readOnly=false;ta.value="";ta.placeholder="Sicherung hier einfügen, dann nochmal tippen";
+    ta.focus();
+    app.querySelector("[data-imp]").textContent="Jetzt einspielen";
+    app.querySelector("[data-imp]").onclick=()=>{
+      try{const o=JSON.parse(ta.value);if(!o.cards)throw 0;S=Object.assign(fresh(),o);save();toast("Eingespielt");home()}
+      catch(e){toast("Das war keine gültige Sicherung")}
+    };
+  };
+  const cf=app.querySelector("[data-clearflags]");
+  if(cf)cf.onclick=()=>{S.flags={};save();settings()};
+  app.querySelector("[data-reset]").onclick=()=>{
+    if(confirm("Wirklich allen Fortschritt löschen?")){S=fresh();save();home()}
+  };
+}
+home();
+</script>
+</body>
+</html>
