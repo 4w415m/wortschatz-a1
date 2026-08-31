@@ -1,7 +1,7 @@
 import { h, esc } from "../dom.js";
 import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
-import { triage, grade, nextIvl, buildQueue,
+import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
 import { present, PERS } from "../conjugate.js";
 import { back, go } from "../router.js";
@@ -201,12 +201,10 @@ function paint(produce, isNew) {
      graded on a guess. */
   if (isNew) {
     const box = h('<div class="triage"><div class="hint">Ehrlich: wie gut kanntest du das?</div></div>');
-    for (const [kind, title, sub] of [
-      ["known", "Kannte ich", "kommt in 30 Tagen wieder"],
-      ["shaky", "Wackelig", "kommt in 3 Tagen wieder"],
-      ["new", "Neu für mich", "kommt morgen wieder"],
-    ]) {
-      const btn = h('<button class="big"><b>' + title + "</b><i>" + sub + "</i></button>");
+    /* Labels come from TRIAGE so they cannot drift from what the scheduler does. */
+    for (const kind of ["known", "shaky", "new"]) {
+      const btn = h('<button class="big"><b>' + TRIAGE[kind].label + "</b><i>" +
+        triageHint(kind) + "</i></button>");
       btn.onclick = () => {
         triage(w.id, kind);
         sessionCount++;

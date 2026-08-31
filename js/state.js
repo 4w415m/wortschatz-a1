@@ -27,7 +27,7 @@ export function fresh() {
     mt: 0,
     cards: {},
     flags: {},
-    set: { newPerDay: 15, maxRev: 120 },
+    set: { newPerDay: 30, maxRev: 120 },
     day: { d: today(), nw: 0, rv: 0, ok: 0, tot: 0 },
     streak: { n: 0, last: "" },
   };

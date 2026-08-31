@@ -1,5 +1,5 @@
 /* Offline cache. Bump CACHE whenever any cached file changes. */
-const CACHE = "wortschatz-a1-v5";
+const CACHE = "wortschatz-a1-v6";
 const FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png",
   "./css/app.css",

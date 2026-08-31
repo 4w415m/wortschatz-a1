@@ -2,8 +2,24 @@ import { h, esc, toast } from "../dom.js";
 import { catName, summary } from "../categories.js";
 import { ALL } from "../data.js";
 import { S, save, replaceState, resetState, syncConfig } from "../state.js";
+import { unseenCount } from "../srs.js";
 import { syncEnabled, createCode, validCode, syncNow, forgetSync } from "../sync.js";
 import { back } from "../router.js";
+
+/* Computed rather than written down: the old fixed sentence claimed "15 a day,
+   whole vocabulary in six weeks", which was wrong even for 15 and survived every
+   change to the default. */
+function paceNote() {
+  const left = unseenCount("all");
+  if (left === 0) return "<p>Du hast jedes Wort schon einmal gesehen.</p>";
+  if (S.set.newPerDay === 0) {
+    return "<p>Auf 0 kommen keine neuen Wörter dazu. " + left + " warten noch.</p>";
+  }
+  const days = Math.ceil(left / S.set.newPerDay);
+  return "<p>Bei " + S.set.newPerDay + " neuen Wörtern pro Tag sind die restlichen " + left +
+    " in gut " + days + " Tagen durch, wenn du täglich kommst. Wörter, die du mit " +
+    "„Kannte ich“ wegtippst, zählen nicht gegen das Limit — dann geht es schneller.</p>";
+}
 
 function syncSection() {
   if (!syncEnabled()) return "";
@@ -36,7 +52,7 @@ export function settings(app) {
       '<input id="np" type="number" min="0" max="100" value="' + S.set.newPerDay + '"></div>' +
     '<div class="field"><label for="mr">Wiederholungen pro Tag</label>' +
       '<input id="mr" type="number" min="10" max="500" value="' + S.set.maxRev + '"></div>' +
-    "<p>15 neue Wörter pro Tag heißt: der ganze Wortschatz in etwa sechs Wochen, wenn du täglich kommst.</p>" +
+    '<div id="pace">' + paceNote() + "</div>" +
 
     syncSection() +
 
@@ -89,6 +105,7 @@ export function settings(app) {
     if (np !== null) S.set.newPerDay = np;
     if (mr !== null) S.set.maxRev = mr;
     save();
+    app.querySelector("#pace").innerHTML = paceNote();
   };
   app.querySelector("#np").onchange = commitLimits;
   app.querySelector("#mr").onchange = commitLimits;

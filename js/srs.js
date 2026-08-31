@@ -11,13 +11,32 @@ const stamp = (c) => { c.m = Date.now(); return c; };
 /* Spread reviews so cards learned together do not all fall due the same day. */
 const fuzz = (i) => (i <= 2 ? i : i * (0.95 + Math.random() * 0.1));
 
-/* First contact with a word: the learner places it themselves. */
+/* First contact with a word: the learner places it themselves.
+ *
+ * countsAsNew is what the daily limit actually meters. "Kannte ich" is exempt:
+ * the limit exists to cap the review load you are signing up for, and a word
+ * you already know schedules one review a week out and little else. Charging it
+ * a full slot rate-limits you on words you never had to learn.
+ *
+ * days === 0 means the card starts in the learning stage and comes back within
+ * the same session, rather than being scheduled out. */
+export const TRIAGE = {
+  known: { days: 7, ease: 2.6, label: "Kannte ich",   countsAsNew: false },
+  shaky: { days: 3, ease: 2.3, label: "Wackelig",     countsAsNew: true },
+  new:   { days: 0, ease: 2.5, label: "Neu für mich", countsAsNew: true },
+};
+
+export const triageHint = (kind) =>
+  TRIAGE[kind].days === 0 ? "kommt morgen wieder"
+    : "kommt in " + TRIAGE[kind].days + " Tagen wieder";
+
 export function triage(id, kind) {
   const now = Date.now();
-  if (kind === "known")      S.cards[id] = stamp({ i: 30, e: 2.6, d: now + 30 * DAY, r: 1, l: 0, s: 2 });
-  else if (kind === "shaky") S.cards[id] = stamp({ i: 3,  e: 2.3, d: now + 3 * DAY,  r: 1, l: 0, s: 2 });
-  else                       S.cards[id] = stamp({ i: 0,  e: 2.5, d: now,            r: 0, l: 0, s: 1, step: 0 });
-  S.day.nw++;
+  const t = TRIAGE[kind];
+  S.cards[id] = stamp(t.days === 0
+    ? { i: 0, e: t.ease, d: now, r: 0, l: 0, s: 1, step: 0 }
+    : { i: t.days, e: t.ease, d: now + t.days * DAY, r: 1, l: 0, s: 2 });
+  if (t.countsAsNew) S.day.nw++;
   save();
 }
 
