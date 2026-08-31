@@ -128,3 +128,30 @@ export function buildQueue(k) {
   });
   return q;
 }
+
+/* ---- why a session ended ----
+   "Nothing to do" has several different causes, and the difference matters:
+   a daily cap is a choice the learner made and can change, whereas an empty
+   queue really does mean come back later. */
+
+export const newAllowanceLeft = () => Math.max(0, S.set.newPerDay - S.day.nw);
+
+/* Words in this category never studied yet. */
+export function unseenCount(k) {
+  const keys = k === "all" ? CATS.map((c) => c.k) : [k];
+  let n = 0;
+  for (const kk of keys) for (const w of W[kk]) if (!card(w.id)) n++;
+  return n;
+}
+
+/* When the earliest not-yet-due card comes back, or null if none. */
+export function nextDueAt(k) {
+  const keys = k === "all" ? CATS.map((c) => c.k) : [k];
+  const now = Date.now();
+  let soonest = null;
+  for (const kk of keys) for (const w of W[kk]) {
+    const c = card(w.id);
+    if (c && c.d > now && (soonest === null || c.d < soonest)) soonest = c.d;
+  }
+  return soonest;
+}

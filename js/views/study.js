@@ -1,9 +1,10 @@
 import { h, esc } from "../dom.js";
 import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
-import { triage, grade, nextIvl, buildQueue } from "../srs.js";
+import { triage, grade, nextIvl, buildQueue,
+  newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
 import { present, PERS } from "../conjugate.js";
-import { back } from "../router.js";
+import { back, go } from "../router.js";
 
 let app = null;
 let queue = [], cur = null, cat = "all";
@@ -27,13 +28,57 @@ function next() {
   drawCard();
 }
 
+/* "in 3 Stunden" / "morgen" / "in 4 Tagen". Units are spelled out so the
+   phrase can be followed by a full stop without doubling an abbreviation dot. */
+function when(at) {
+  const mins = Math.round((at - Date.now()) / 60000);
+  if (mins <= 1) return "gleich";
+  if (mins < 60) return "in " + mins + (mins === 1 ? " Minute" : " Minuten");
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return "in " + hours + (hours === 1 ? " Stunde" : " Stunden");
+  const days = Math.round(hours / 24);
+  return days === 1 ? "morgen" : "in " + days + " Tagen";
+}
+
+/* An empty queue has several causes and they call for different things from
+   the learner, so say which one this was rather than a flat "come back later". */
 function finished() {
   save();
+
+  const unseen = unseenCount(cat);
+  const capped = newAllowanceLeft() === 0 && unseen > 0;
+  const due = nextDueAt(cat);
+
+  let title, body, action = "";
+  if (capped) {
+    /* Nothing new is being offered, which is a setting rather than a lack of
+       words -- say which, and how to change it. */
+    title = S.set.newPerDay === 0 ? "Keine neuen Wörter eingestellt" : "Tageslimit erreicht";
+    body = (S.set.newPerDay === 0
+        ? "„Neue Wörter pro Tag“ steht auf 0, also kommt nichts Neues dazu."
+        : "Du hast heute alle " + S.set.newPerDay + " neuen Wörter angefangen.") +
+      " Noch " + unseen + " warten." +
+      (due ? "<br>Nächste Wiederholung " + when(due) + "." : "");
+    action = '<button class="ghost" data-settings>Limit ändern</button>';
+  } else if (due) {
+    title = "Fertig für jetzt";
+    body = esc(catName(cat)) + " — " + sessionCount + " Karten in dieser Runde.<br>" +
+      "Nächste Wiederholung " + when(due) + ".";
+  } else if (unseen === 0) {
+    title = "Alles durch";
+    body = "In dieser Gruppe ist jedes Wort geplant. Komm wieder, wenn die ersten fällig werden.";
+  } else {
+    title = "Fertig für jetzt";
+    body = esc(catName(cat)) + " — " + sessionCount +
+      " Karten in dieser Runde.<br>Komm später wieder, dann sind die nächsten dran.";
+  }
+
   app.innerHTML = "";
-  app.appendChild(h('<div class="done"><h2>Fertig für jetzt</h2><p>' +
-    esc(catName(cat)) + " — " + sessionCount +
-    " Karten in dieser Runde.<br>Komm später wieder, dann sind die nächsten dran.</p>" +
-    '<button class="ghost" data-home>Zur Übersicht</button></div>'));
+  app.appendChild(h('<div class="done"><h2>' + title + "</h2><p>" + body + "</p>" +
+    action + '<button class="ghost" data-home>Zur Übersicht</button></div>'));
+
+  const settingsBtn = app.querySelector("[data-settings]");
+  if (settingsBtn) settingsBtn.onclick = () => go("settings");
   app.querySelector("[data-home]").onclick = () => back();
 }
 

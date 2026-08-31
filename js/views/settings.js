@@ -69,9 +69,25 @@ export function settings(app) {
 
   /* Commit on change rather than on close: the panel can now also be left with
      the browser back button, which fires no click on ✕. */
+  /* A blank or non-numeric field means "leave this alone". Coercing it to a
+     number instead would read empty as 0 and quietly stop all new words, with
+     nothing on screen to explain why the app had gone silent. */
+  const current = (sel) => (sel === "#np" ? S.set.newPerDay : S.set.maxRev);
+
+  const readLimit = (sel, min, max) => {
+    const el = app.querySelector(sel);
+    const raw = el.value.trim();
+    const n = raw === "" ? NaN : Number(raw);
+    const value = Number.isFinite(n) ? Math.min(max, Math.max(min, Math.round(n))) : null;
+    el.value = value ?? current(sel);
+    return value;
+  };
+
   const commitLimits = () => {
-    S.set.newPerDay = Math.max(0, +app.querySelector("#np").value || 0);
-    S.set.maxRev = Math.max(10, +app.querySelector("#mr").value || 120);
+    const np = readLimit("#np", 0, 100);
+    const mr = readLimit("#mr", 10, 500);
+    if (np !== null) S.set.newPerDay = np;
+    if (mr !== null) S.set.maxRev = mr;
     save();
   };
   app.querySelector("#np").onchange = commitLimits;
