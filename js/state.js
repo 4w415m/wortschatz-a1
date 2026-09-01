@@ -28,7 +28,7 @@ export function fresh() {
     cards: {},
     flags: {},
     set: { newPerDay: 30, maxRev: 120 },
-    day: { d: today(), nw: 0, rv: 0, ok: 0, tot: 0 },
+    day: { d: today(), nw: 0, rv: 0, ok: 0, tot: 0, done: 0 },
     streak: { n: 0, last: "" },
   };
 }
@@ -96,7 +96,7 @@ function rollDay(state) {
   if (state.streak.last !== today() && state.streak.last !== yesterday) {
     state.streak.n = state.streak.last ? 0 : state.streak.n;
   }
-  state.day = { d: today(), nw: 0, rv: 0, ok: 0, tot: 0 };
+  state.day = { d: today(), nw: 0, rv: 0, ok: 0, tot: 0, done: 0 };
   return state;
 }
 

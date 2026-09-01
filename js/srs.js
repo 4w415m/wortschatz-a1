@@ -8,6 +8,15 @@ import { S, DAY, card, save } from "./state.js";
 
 const stamp = (c) => { c.m = Date.now(); return c; };
 
+/* Cards handled today, counted independently of the new-word budget.
+   Must run before nw/rv are touched for the current card: a day recorded before
+   this counter existed seeds itself from the old rv+nw derivation, and seeding
+   afterwards would count the card in flight twice. */
+function markDone() {
+  if (S.day.done === undefined) S.day.done = S.day.rv + S.day.nw;
+  S.day.done++;
+}
+
 /* Spread reviews so cards learned together do not all fall due the same day. */
 const fuzz = (i) => (i <= 2 ? i : i * (0.95 + Math.random() * 0.1));
 
@@ -36,12 +45,19 @@ export function triage(id, kind) {
   S.cards[id] = stamp(t.days === 0
     ? { i: 0, e: t.ease, d: now, r: 0, l: 0, s: 1, step: 0 }
     : { i: t.days, e: t.ease, d: now + t.days * DAY, r: 1, l: 0, s: 2 });
+  /* nw meters the new-word budget; done counts work actually put in. They are
+     different questions -- "Kannte ich" is exempt from the budget but is still
+     a card the learner dealt with today. */
+  markDone();
   if (t.countsAsNew) S.day.nw++;
   save();
 }
 
 export function grade(id, g) {
   const c = S.cards[id], now = Date.now();
+  /* Counted for every grade, including repeats of a card still in the learning
+     stage, which increment neither rv nor nw. */
+  markDone();
   /* Captured before the card moves: a lapse drops s to 1, and a graduating
      learner rises to 2, but neither should be counted as a review of the
      other kind. Only cards already in review count toward r and the day's

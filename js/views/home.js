@@ -5,6 +5,10 @@ import { S, refresh } from "../state.js";
 import { stats, dueCount } from "../srs.js";
 import { go } from "../router.js";
 
+/* Days recorded before this counter existed have no `done`, so fall back to the
+   old derivation rather than showing them as zero. */
+const doneToday = () => S.day.done ?? (S.day.rv + S.day.nw);
+
 function catButton(k, desc) {
   const s = stats(k);
   const due = dueCount(k);
@@ -29,7 +33,7 @@ export function home(app) {
     '<p class="sub">' + totalWords() + " Wörter · A1.2</p>" +
     '<div class="today">' +
       '<div><div class="n">' + dueCount("all") + '</div><div class="l">fällig</div></div>' +
-      '<div><div class="n">' + (S.day.rv + S.day.nw) + '</div><div class="l">heute gemacht</div></div>' +
+      '<div><div class="n">' + doneToday() + '</div><div class="l">heute gemacht</div></div>' +
       '<div><div class="n">' + (S.day.tot ? acc + "%" : "–") + '</div><div class="l">richtig</div></div>' +
       '<div class="flame"><div class="n">' + S.streak.n + '</div><div class="l">Tage in Folge</div></div>' +
     "</div>";
