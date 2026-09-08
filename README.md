@@ -45,6 +45,12 @@ card ids are `"<category>:<headword>"` — so adding, removing, or reordering
 words leaves existing progress pointing at the right entries. Headwords must
 stay unique within a category.
 
+Every entry also carries an `example` (`{ de, en }`, one A1-level sentence with
+its translation) and a `tip` (a short English usage note, or `null`). Both are
+shown on the answer side of the card. Tips should say something the card does
+not already show: a gender rule, the case a verb takes, a false friend, why the
+Perfekt uses *sein*.
+
 The original version stored progress by array position, which meant any edit to
 a list silently reassigned someone's progress to different words.
 `data/legacy-ids.json` maps those old ids onto the new ones, and `state.js`
@@ -67,7 +73,15 @@ outside the backup blob so exporting a backup does not hand over write access.
 
 ## Provenance
 
-Everything below `data/` was mechanically converted from the original
+Everything below `data/` started as a mechanical conversion of the original
 single-file app by `tools/extract-data.mjs`. The conjugation and scheduling
 rewrites were checked against the original implementation: identical output for
 all 129 verbs, and identical card state across 7200 graded transitions.
+
+The word lists have since diverged from that conversion, so `extract-data.mjs`
+no longer reproduces them. All 754 entries were reviewed against Duden and the
+Goethe A1 list, which corrected 27 fields (16 plurals wrongly marked as absent,
+7 notes that named only one of the cases a form covers, and 4 glosses), and
+every entry gained an example sentence and a tip. Headwords were deliberately
+left untouched: card ids are built from them, so changing one would orphan
+saved progress.

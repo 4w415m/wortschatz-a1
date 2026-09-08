@@ -3,150 +3,275 @@
     "word": "aus",
     "en": "from, out of",
     "case": "Dativ",
-    "note": "aus Berlin, aus dem Haus"
+    "note": "aus Berlin, aus dem Haus",
+    "example": {
+      "de": "Meine Freundin kommt aus der Schweiz.",
+      "en": "My friend comes from Switzerland."
+    },
+    "tip": "aus = origin or out of; von = from a person or a starting point (von Peter, vom Bahnhof). Unlike von/zu, aus never contracts."
   },
   {
     "word": "bei",
     "en": "at, near, at someone's place",
     "case": "Dativ",
-    "note": "bei der Arbeit, bei mir"
+    "note": "bei der Arbeit, bei mir",
+    "example": {
+      "de": "Ich wohne noch bei meinen Eltern.",
+      "en": "I still live with my parents."
+    },
+    "tip": "bei + dem contracts to beim (beim Arzt, beim Essen). Also for employers: Ich arbeite bei Siemens."
   },
   {
     "word": "mit",
     "en": "with, by (transport)",
     "case": "Dativ",
-    "note": "mit dem Bus"
+    "note": "mit dem Bus",
+    "example": {
+      "de": "Wir fahren mit dem Zug nach Hamburg.",
+      "en": "We are going to Hamburg by train."
+    },
+    "tip": "Means of transport always takes mit + Dativ (mit dem Auto, mit der U-Bahn); on foot is zu Fuß."
   },
   {
     "word": "nach",
     "en": "after, to (cities, countries)",
     "case": "Dativ",
-    "note": "nach Hause, nach Berlin"
+    "note": "nach Hause, nach Berlin",
+    "example": {
+      "de": "Nach dem Essen gehe ich nach Hause.",
+      "en": "After the meal I go home."
+    },
+    "tip": "nach for places used without an article (Berlin, Italien); countries with an article take in (in die Schweiz). Fixed: nach Hause."
   },
   {
     "word": "seit",
     "en": "since, for (duration)",
     "case": "Dativ",
-    "note": "seit zwei Jahren"
+    "note": "seit zwei Jahren",
+    "example": {
+      "de": "Ich lerne seit einem Jahr Deutsch.",
+      "en": "I have been learning German for a year."
+    },
+    "tip": "seit goes with the present tense where English uses 'have been ...ing': Ich wohne seit 2020 hier."
   },
   {
     "word": "von",
     "en": "from, of, by",
     "case": "Dativ",
-    "note": "von München, vom Arzt"
+    "note": "von München, vom Arzt",
+    "example": {
+      "de": "Das Geschenk ist von meiner Schwester.",
+      "en": "The present is from my sister."
+    },
+    "tip": "von + dem = vom. Ranges: von Montag bis Freitag. Replaces the genitive in speech: das Auto von Peter."
   },
   {
     "word": "zu",
     "en": "to (people, places)",
     "case": "Dativ",
-    "note": "zum Arzt, zur Schule"
+    "note": "zum Arzt, zur Schule",
+    "example": {
+      "de": "Ich gehe heute Abend zu meiner Freundin.",
+      "en": "I am going to my friend's place tonight."
+    },
+    "tip": "zu + dem = zum, zu + der = zur. zu for people and buildings in town, nach for cities/countries. zu Hause = at home."
   },
   {
     "word": "gegenüber",
     "en": "opposite",
     "case": "Dativ",
-    "note": "gegenüber dem Bahnhof"
+    "note": "gegenüber dem Bahnhof",
+    "example": {
+      "de": "Die Apotheke liegt gegenüber der Post.",
+      "en": "The pharmacy is opposite the post office."
+    },
+    "tip": "Can follow the noun (dem Bahnhof gegenüber) and must follow a pronoun: mir gegenüber. Also gegenüber von der Post."
   },
   {
     "word": "außer",
     "en": "except for",
     "case": "Dativ",
-    "note": "außer mir"
+    "note": "außer mir",
+    "example": {
+      "de": "Außer mir ist niemand zu Hause.",
+      "en": "Nobody is at home except me."
+    },
+    "tip": "Don't mix up with aus: außer = except/apart from. Pronounced with a sharp s (ß)."
   },
   {
     "word": "durch",
     "en": "through",
     "case": "Akkusativ",
-    "note": "durch den Park"
+    "note": "durch den Park",
+    "example": {
+      "de": "Der Zug fährt durch einen langen Tunnel.",
+      "en": "The train goes through a long tunnel."
+    },
+    "tip": "durch + das often becomes durchs (durchs Fenster). Also 'by means of': durch Zufall = by chance."
   },
   {
     "word": "für",
     "en": "for",
     "case": "Akkusativ",
-    "note": "für dich"
+    "note": "für dich",
+    "example": {
+      "de": "Ich kaufe Blumen für meinen Vater.",
+      "en": "I am buying flowers for my father."
+    },
+    "tip": "für + das = fürs. Pronouns show the Akkusativ: für mich, für dich, für ihn. Common: Danke für die Hilfe!"
   },
   {
     "word": "gegen",
     "en": "against, around (time)",
     "case": "Akkusativ",
-    "note": "gegen acht Uhr"
+    "note": "gegen acht Uhr",
+    "example": {
+      "de": "Das Auto fährt gegen den Baum.",
+      "en": "The car crashes into the tree."
+    },
+    "tip": "Also for remedies and opponents: eine Tablette gegen Kopfschmerzen; Deutschland spielt gegen Spanien."
   },
   {
     "word": "ohne",
     "en": "without",
     "case": "Akkusativ",
-    "note": "ohne Zucker"
+    "note": "ohne Zucker",
+    "example": {
+      "de": "Ich gehe ohne meinen Bruder ins Kino.",
+      "en": "I am going to the cinema without my brother."
+    },
+    "tip": "Always Akkusativ: ohne mich, ohne dich (never ohne mir). Often used without an article: ohne Zucker, ohne Auto."
   },
   {
     "word": "um",
     "en": "around, at (clock time)",
     "case": "Akkusativ",
-    "note": "um sieben Uhr"
+    "note": "um sieben Uhr",
+    "example": {
+      "de": "Die Kinder sitzen um den Tisch.",
+      "en": "The children are sitting around the table."
+    },
+    "tip": "For clock times ask 'Um wie viel Uhr?' – answer 'Um acht Uhr.' Spatial: 'um den Tisch' (around the table), 'um die Ecke'."
   },
   {
     "word": "bis",
     "en": "until, up to",
     "case": "Akkusativ",
-    "note": "bis morgen"
+    "note": "bis morgen",
+    "example": {
+      "de": "Ich arbeite heute bis sechs Uhr.",
+      "en": "I am working until six o'clock today."
+    },
+    "tip": "Before a noun with an article it usually pairs with zu (Dativ): 'bis zum Bahnhof'. Greetings: 'Bis später!', 'Bis bald!'"
   },
   {
     "word": "entlang",
     "en": "along",
     "case": "Akkusativ",
-    "note": "die Straße entlang"
+    "note": "die Straße entlang",
+    "example": {
+      "de": "Wir gehen den Fluss entlang.",
+      "en": "We walk along the river."
+    },
+    "tip": "Comes AFTER its noun (Akkusativ): 'den Weg entlang'. Placed before the noun it takes Genitiv, sometimes Dativ: 'entlang des Weges'."
   },
   {
     "word": "an",
     "en": "at, on (a vertical surface)",
     "case": "Wechsel",
-    "note": "an der Wand / an die Wand"
+    "note": "an der Wand / an die Wand",
+    "example": {
+      "de": "Das Bild hängt an der Wand.",
+      "en": "The picture is hanging on the wall."
+    },
+    "tip": "Contractions: an dem = am, an das = ans. Also for days and times of day: am Montag, am Morgen, am Wochenende."
   },
   {
     "word": "auf",
     "en": "on top of",
     "case": "Wechsel",
-    "note": "auf dem Tisch / auf den Tisch"
+    "note": "auf dem Tisch / auf den Tisch",
+    "example": {
+      "de": "Auf dem Stuhl liegt meine Jacke.",
+      "en": "My jacket is lying on the chair."
+    },
+    "tip": "auf = on a horizontal surface (auf dem Tisch), an = on a vertical one (an der Wand). Also 'auf Deutsch' = in German."
   },
   {
     "word": "hinter",
     "en": "behind",
     "case": "Wechsel",
-    "note": "hinter dem Haus"
+    "note": "hinter dem Haus",
+    "example": {
+      "de": "Das Auto steht hinter dem Haus.",
+      "en": "The car is behind the house."
+    },
+    "tip": "Opposite of vor. Typical pairs: stehen/liegen + Dativ (where?), stellen/legen + Akkusativ (where to?)."
   },
   {
     "word": "in",
     "en": "in, into",
     "case": "Wechsel",
-    "note": "im Kino / ins Kino"
+    "note": "im Kino / ins Kino",
+    "example": {
+      "de": "Wir gehen heute Abend ins Kino.",
+      "en": "We are going to the cinema tonight."
+    },
+    "tip": "in dem = im, in das = ins. Also for months and seasons: im Mai, im Winter; 'in einer Woche' = in a week's time."
   },
   {
     "word": "neben",
     "en": "next to",
     "case": "Wechsel",
-    "note": "neben mir"
+    "note": "neben mir",
+    "example": {
+      "de": "Die Bank ist neben der Post.",
+      "en": "The bank is next to the post office."
+    },
+    "tip": "Also means 'besides': 'Neben Deutsch lernt sie Englisch.' Don't confuse with the adverb nebenan (next door)."
   },
   {
     "word": "über",
     "en": "over, above, about",
     "case": "Wechsel",
-    "note": "über dem Bett"
+    "note": "über dem Bett",
+    "example": {
+      "de": "Die Lampe hängt über dem Tisch.",
+      "en": "The lamp hangs above the table."
+    },
+    "tip": "Meaning 'about' it is always Akkusativ: 'Wir sprechen über den Film.' Contraction: über das = übers."
   },
   {
     "word": "unter",
     "en": "under, among",
     "case": "Wechsel",
-    "note": "unter dem Stuhl"
+    "note": "unter dem Stuhl",
+    "example": {
+      "de": "Die Schuhe stehen unter dem Bett.",
+      "en": "The shoes are under the bed."
+    },
+    "tip": "Opposite of über. Also 'less than / among' (Dativ): 'Kinder unter zehn Jahren', 'unter Freunden'."
   },
   {
     "word": "vor",
     "en": "in front of, before, ago",
     "case": "Wechsel",
-    "note": "vor dem Haus, vor zwei Tagen"
+    "note": "vor dem Haus, vor zwei Tagen",
+    "example": {
+      "de": "Ich warte vor dem Kino auf dich.",
+      "en": "I am waiting for you in front of the cinema."
+    },
+    "tip": "Time uses are always Dativ: 'vor einer Woche' = a week ago, 'vor dem Essen' = before the meal. 'Viertel vor acht' = 7:45."
   },
   {
     "word": "zwischen",
     "en": "between",
     "case": "Wechsel",
-    "note": "zwischen uns"
+    "note": "zwischen uns",
+    "example": {
+      "de": "Der Tisch steht zwischen dem Bett und dem Schrank.",
+      "en": "The table stands between the bed and the wardrobe."
+    },
+    "tip": "Also for time: 'zwischen acht und neun Uhr' (Dativ). Watch the Dativ plural -n: 'zwischen den Häusern'."
   }
 ]

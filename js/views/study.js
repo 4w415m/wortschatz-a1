@@ -147,6 +147,12 @@ function backHtml(w) {
     b += '<div class="word">' + esc(w.word) + '</div><div class="mean">' + esc(w.en) + "</div>";
     if (w.note) b += '<div class="note">' + esc(w.note) + "</div>";
   }
+  /* Every category ends with a sentence and, where there is one, a tip. */
+  if (w.example) {
+    b += '<div class="ex"><div class="de">' + esc(w.example.de) + "</div>" +
+      '<div class="en">' + esc(w.example.en) + "</div></div>";
+  }
+  if (w.tip) b += '<div class="tip">' + esc(w.tip) + "</div>";
   return b + "</div>";
 }
 

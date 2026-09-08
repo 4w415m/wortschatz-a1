@@ -15,7 +15,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich bin Lehrerin und meine Schwester ist Ärztin.",
+      "en": "I am a teacher and my sister is a doctor."
+    },
+    "tip": "Perfekt uses sein itself: Ich bin gewesen. No article before jobs: Ich bin Lehrer."
   },
   {
     "infinitive": "haben",
@@ -29,7 +34,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Hast du heute Zeit für einen Kaffee?",
+      "en": "Do you have time for a coffee today?"
+    },
+    "tip": "Takes the Akkusativ (Ich habe einen Hund) and is the Perfekt helper for most verbs."
   },
   {
     "infinitive": "werden",
@@ -43,7 +53,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Meine Tochter wird im Mai sechs Jahre alt.",
+      "en": "My daughter turns six in May."
+    },
+    "tip": "Also the future helper: Ich werde morgen arbeiten. Change of state, so Perfekt with sein: Sie ist Ärztin geworden."
   },
   {
     "infinitive": "können",
@@ -61,7 +76,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Meine Tochter kann schon lesen.",
+      "en": "My daughter can already read."
+    },
+    "tip": "Main verb goes to the end as an infinitive: Ich kann gut schwimmen. ich/er kann – no ending."
   },
   {
     "infinitive": "müssen",
@@ -79,7 +99,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Ich muss jetzt nach Hause gehen.",
+      "en": "I have to go home now."
+    },
+    "tip": "'Ich muss nicht' = I don't have to (not 'must not'); prohibition is 'nicht dürfen'."
   },
   {
     "infinitive": "wollen",
@@ -97,7 +122,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Wir wollen am Wochenende ins Kino gehen.",
+      "en": "We want to go to the cinema at the weekend."
+    },
+    "tip": "'Ich will' = I want, never 'I will' (future). Politer: 'ich möchte'."
   },
   {
     "infinitive": "sollen",
@@ -115,7 +145,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Soll ich das Fenster aufmachen?",
+      "en": "Should I open the window?"
+    },
+    "tip": "Relays someone's wish: Der Arzt sagt, ich soll mehr trinken. 'Soll ich ...?' = an offer."
   },
   {
     "infinitive": "dürfen",
@@ -133,7 +168,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Hier darf man nicht rauchen.",
+      "en": "You are not allowed to smoke here."
+    },
+    "tip": "'nicht dürfen' = must not / not allowed. 'Darf ich ...?' is the polite way to ask permission."
   },
   {
     "infinitive": "mögen",
@@ -151,7 +191,12 @@
     "flags": [
       "core",
       "modal"
-    ]
+    ],
+    "example": {
+      "de": "Ich mag Kaffee, aber ich mag keinen Tee.",
+      "en": "I like coffee, but I don't like tea."
+    },
+    "tip": "mag + noun: Ich mag Pizza. 'möchte' (would like) is its Konjunktiv II: Ich möchte einen Tee."
   },
   {
     "infinitive": "machen",
@@ -161,7 +206,12 @@
     "perfect": "hat gemacht",
     "flags": [
       "core"
-    ]
+    ],
+    "example": {
+      "de": "Was machst du am Samstag?",
+      "en": "What are you doing on Saturday?"
+    },
+    "tip": "Key collocations: Hausaufgaben/Sport/eine Pause machen. 'Das macht nichts' = never mind."
   },
   {
     "infinitive": "gehen",
@@ -172,7 +222,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich gehe jeden Morgen zu Fuß zur Arbeit.",
+      "en": "I walk to work every morning."
+    },
+    "tip": "Perfekt with sein (motion): Ich bin gegangen. 'Wie geht's?' = How are you?"
   },
   {
     "infinitive": "kommen",
@@ -183,7 +238,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Kommst du heute Abend zur Party?",
+      "en": "Are you coming to the party tonight?"
+    },
+    "tip": "Perfekt with sein: Sie ist gekommen. Origin: kommen aus + Dativ (aus der Schweiz)."
   },
   {
     "infinitive": "sehen",
@@ -197,7 +257,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich sehe den Hund im Garten.",
+      "en": "I see the dog in the garden."
+    },
+    "tip": "Separable 'fernsehen': Ich sehe fern. 'Wir sehen uns!' = See you! 'Mal sehen' = We'll see."
   },
   {
     "infinitive": "geben",
@@ -211,7 +276,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Gibst du mir bitte das Salz?",
+      "en": "Can you pass me the salt, please?"
+    },
+    "tip": "Person in the Dativ, thing in the Akkusativ: Ich gebe dir das Buch. 'Es gibt' + Akkusativ = there is."
   },
   {
     "infinitive": "sagen",
@@ -221,7 +291,12 @@
     "perfect": "hat gesagt",
     "flags": [
       "core"
-    ]
+    ],
+    "example": {
+      "de": "Wie sagt man das auf Deutsch?",
+      "en": "How do you say that in German?"
+    },
+    "tip": "Person in the Dativ: Ich sage dir die Wahrheit. sagen = say something; sprechen = speak (a language)."
   },
   {
     "infinitive": "wissen",
@@ -239,7 +314,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Weißt du, wo der Bahnhof ist?",
+      "en": "Do you know where the station is?"
+    },
+    "tip": "wissen = know facts, often with a dass/ob/W-clause; kennen = be familiar with people, places, things."
   },
   {
     "infinitive": "finden",
@@ -250,7 +330,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich finde meinen Schlüssel nicht.",
+      "en": "I can't find my key."
+    },
+    "tip": "Also 'to think': 'Ich finde das gut' = I think that's good. Very common A1 phrase for giving opinions."
   },
   {
     "infinitive": "nehmen",
@@ -264,7 +349,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich nehme heute den Bus zur Arbeit.",
+      "en": "I'm taking the bus to work today."
+    },
+    "tip": "Stem change e→i with double m: du nimmst, er nimmt. Used for transport: den Bus/Zug nehmen."
   },
   {
     "infinitive": "sprechen",
@@ -278,7 +368,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Meine Schwester spricht sehr gut Englisch.",
+      "en": "My sister speaks English very well."
+    },
+    "tip": "sprechen mit + Dativ (talk to sb), sprechen über + Akkusativ (talk about sth). Stem e→i: du sprichst."
   },
   {
     "infinitive": "heißen",
@@ -289,7 +384,12 @@
     "flags": [
       "core",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich heiße Anna, und wie heißt du?",
+      "en": "My name is Anna, and what's your name?"
+    },
+    "tip": "du heißt, not 'heißest': the ß is already an s-sound, so -st loses its s. Also 'das heißt' = that means."
   },
   {
     "infinitive": "essen",
@@ -302,7 +402,12 @@
     "perfect": "hat gegessen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Was isst du gern zum Frühstück?",
+      "en": "What do you like to eat for breakfast?"
+    },
+    "tip": "'isst' sounds exactly like 'ist' – only context tells them apart. Partizip has an extra ge-: gegessen."
   },
   {
     "infinitive": "trinken",
@@ -312,7 +417,12 @@
     "perfect": "hat getrunken",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich trinke morgens gern einen Kaffee.",
+      "en": "I like to drink a coffee in the morning."
+    },
+    "tip": "Vowel pattern i–a–u like finden and singen: trinken, trank, getrunken."
   },
   {
     "infinitive": "schlafen",
@@ -325,7 +435,12 @@
     "perfect": "hat geschlafen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Am Wochenende schlafe ich lange.",
+      "en": "On the weekend I sleep in."
+    },
+    "tip": "a→ä only in du/er forms: du schläfst, er schläft, but ihr schlaft. Key phrase: 'Hast du gut geschlafen?'"
   },
   {
     "infinitive": "fahren",
@@ -338,7 +453,12 @@
     "perfect": "ist gefahren",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Fährst du mich bitte nach Hause?",
+      "en": "Will you drive me home, please?"
+    },
+    "tip": "Any vehicle: Auto, Bus, Zug, Fahrrad fahren. Motion verb → ist gefahren. Transport takes 'mit dem/der' + Dativ."
   },
   {
     "infinitive": "laufen",
@@ -351,7 +471,12 @@
     "perfect": "ist gelaufen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Meine Tochter läuft allein zur Haltestelle.",
+      "en": "My daughter walks to the bus stop on her own."
+    },
+    "tip": "In everyday German laufen often means to walk (zu Fuß); 'rennen' is to run fast. Motion → ist gelaufen."
   },
   {
     "infinitive": "fliegen",
@@ -361,7 +486,12 @@
     "perfect": "ist geflogen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Im Sommer fliegen wir nach Spanien.",
+      "en": "In summer we're flying to Spain."
+    },
+    "tip": "Motion verb → ist geflogen. Vowel pattern ie–o–o: fliegen, flog, geflogen."
   },
   {
     "infinitive": "lesen",
@@ -374,7 +504,12 @@
     "perfect": "hat gelesen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Er liest jeden Abend ein Buch.",
+      "en": "He reads a book every evening."
+    },
+    "tip": "du liest = er liest: the stem's s merges with the -st ending. Stem change e→ie in du/er forms only."
   },
   {
     "infinitive": "schreiben",
@@ -384,7 +519,12 @@
     "perfect": "hat geschrieben",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich schreibe meiner Oma einen Brief.",
+      "en": "I'm writing my grandma a letter."
+    },
+    "tip": "Person in Dativ, thing in Akkusativ: Ich schreibe dir eine E-Mail. Or 'schreiben an' + Akkusativ."
   },
   {
     "infinitive": "lernen",
@@ -392,7 +532,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gelernt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich lerne jeden Tag zwanzig Minuten Deutsch.",
+      "en": "I study German for twenty minutes every day."
+    },
+    "tip": "lernen = learn/study (school, vocabulary, for a test); studieren = be enrolled at university."
   },
   {
     "infinitive": "arbeiten",
@@ -400,7 +545,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gearbeitet",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Mein Vater arbeitet bei der Post.",
+      "en": "My father works at the post office."
+    },
+    "tip": "Stem ends in -t → extra -e-: du arbeitest, er arbeitet. 'arbeiten als' + job (no article), 'bei' + employer."
   },
   {
     "infinitive": "wohnen",
@@ -408,7 +558,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gewohnt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich wohne in Berlin.",
+      "en": "I live in Berlin."
+    },
+    "tip": "wohnen = where you reside (address, city); leben = be alive / live in general. Collocation: wohnen in + Dativ."
   },
   {
     "infinitive": "leben",
@@ -416,7 +571,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gelebt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Meine Großeltern leben in Italien.",
+      "en": "My grandparents live in Italy."
+    },
+    "tip": "leben = be alive or live your life; for your address use wohnen. 'Lebt er noch?' = Is he still alive?"
   },
   {
     "infinitive": "spielen",
@@ -424,7 +584,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gespielt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Die Kinder spielen im Park.",
+      "en": "The children are playing in the park."
+    },
+    "tip": "Used for games, sport and instruments; sports and instruments take no article: Fußball spielen, Klavier spielen."
   },
   {
     "infinitive": "hören",
@@ -432,7 +597,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gehört",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich höre gern Musik.",
+      "en": "I like listening to music."
+    },
+    "tip": "hören covers both hear and listen; zuhören (sep., + Dativ) is to listen attentively to someone."
   },
   {
     "infinitive": "kaufen",
@@ -440,7 +610,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gekauft",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Wir kaufen Brot und Milch im Supermarkt.",
+      "en": "We buy bread and milk at the supermarket."
+    },
+    "tip": "Related: einkaufen (sep.) = to do the shopping: 'Ich gehe einkaufen.' kaufen needs an object (Akkusativ)."
   },
   {
     "infinitive": "verkaufen",
@@ -448,7 +623,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat verkauft",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Er verkauft sein altes Auto.",
+      "en": "He is selling his old car."
+    },
+    "tip": "Inseparable prefix ver-: no ge- in the Perfekt (hat verkauft); stress falls on -kau-."
   },
   {
     "infinitive": "kosten",
@@ -456,7 +636,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gekostet",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Das Zimmer kostet 50 Euro pro Nacht.",
+      "en": "The room costs 50 euros per night."
+    },
+    "tip": "Stem ends in -t, so -e- is inserted: du kostest, es kostet. Key phrase: 'Wie viel kostet das?'"
   },
   {
     "infinitive": "bezahlen",
@@ -464,7 +649,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat bezahlt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich bezahle mit Karte.",
+      "en": "I'm paying by card."
+    },
+    "tip": "Inseparable be-: no ge- (hat bezahlt). Short form zahlen also exists: 'Zahlen, bitte!' = the bill, please."
   },
   {
     "infinitive": "brauchen",
@@ -472,7 +662,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gebraucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich brauche einen neuen Stift.",
+      "en": "I need a new pen."
+    },
+    "tip": "brauchen + Akkusativ, no preposition: 'Wir brauchen Hilfe.' Don't mix up with bringen (to bring) or gebrauchen (to use)."
   },
   {
     "infinitive": "suchen",
@@ -480,7 +675,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gesucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich suche meinen Schlüssel.",
+      "en": "I'm looking for my key."
+    },
+    "tip": "No preposition, unlike English 'look for': suchen + Akkusativ directly ('Ich suche den Bahnhof')."
   },
   {
     "infinitive": "fragen",
@@ -488,7 +688,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gefragt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich frage den Lehrer.",
+      "en": "I ask the teacher."
+    },
+    "tip": "The person asked is Akkusativ: 'Ich frage dich.' Fully regular; 'du frägst' is dialect, not standard German."
   },
   {
     "infinitive": "antworten",
@@ -496,7 +701,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geantwortet",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Er antwortet mir nicht.",
+      "en": "He doesn't answer me."
+    },
+    "tip": "The person answered is Dativ: 'Ich antworte dir.' Stem in -t, so -e- is inserted: du antwortest."
   },
   {
     "infinitive": "verstehen",
@@ -506,7 +716,12 @@
     "perfect": "hat verstanden",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Verstehst du die Frage?",
+      "en": "Do you understand the question?"
+    },
+    "tip": "Perfekt follows stehen (hat gestanden) but the inseparable ver- means no ge-: hat verstanden."
   },
   {
     "infinitive": "denken",
@@ -516,7 +731,12 @@
     "perfect": "hat gedacht",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich denke an meine Familie.",
+      "en": "I'm thinking about my family."
+    },
+    "tip": "Mixed verb: regular present endings, but Perfekt hat gedacht. 'denken an' + Akkusativ = think of/about."
   },
   {
     "infinitive": "glauben",
@@ -524,7 +744,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geglaubt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Glaubst du das wirklich?",
+      "en": "Do you really believe that?"
+    },
+    "tip": "Everyday 'I think' is usually 'Ich glaube'. Believing a person takes the Dativ: 'Ich glaube dir.'"
   },
   {
     "infinitive": "meinen",
@@ -532,7 +757,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gemeint",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich meine, das Restaurant ist sehr gut.",
+      "en": "I think the restaurant is very good."
+    },
+    "tip": "For an opinion: 'Was meinst du?' = What do you think? For what a word means, use bedeuten, not meinen."
   },
   {
     "infinitive": "kennen",
@@ -542,7 +772,12 @@
     "perfect": "hat gekannt",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Kennst du meinen Bruder?",
+      "en": "Do you know my brother?"
+    },
+    "tip": "kennen + Akkusativ = be familiar with people/places/things; wissen = know facts (Ich weiß, dass ...)."
   },
   {
     "infinitive": "lieben",
@@ -550,7 +785,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geliebt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich liebe meine Familie sehr.",
+      "en": "I love my family very much."
+    },
+    "tip": "Takes Akkusativ: Ich liebe dich. For milder liking use mögen or gern haben."
   },
   {
     "infinitive": "warten",
@@ -558,7 +798,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gewartet",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich warte auf den Bus.",
+      "en": "I am waiting for the bus."
+    },
+    "tip": "warten auf + Akkusativ: Ich warte auf dich / auf den Zug. Stem ends in -t, so add -e-: du wartest, er wartet."
   },
   {
     "infinitive": "bleiben",
@@ -568,7 +813,12 @@
     "perfect": "ist geblieben",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Heute bleibe ich zu Hause.",
+      "en": "Today I am staying at home."
+    },
+    "tip": "Perfekt with sein even though nothing moves: sein, bleiben and werden are the exceptions (ist geblieben)."
   },
   {
     "infinitive": "stehen",
@@ -578,7 +828,12 @@
     "perfect": "hat gestanden",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Wir stehen schon zehn Minuten an der Kasse.",
+      "en": "We've been standing at the checkout for ten minutes."
+    },
+    "tip": "Position verb: answers 'wo?' with Dativ (vor dem Haus). Its action partner is stellen (wohin? + Akkusativ)."
   },
   {
     "infinitive": "sitzen",
@@ -588,7 +843,12 @@
     "perfect": "hat gesessen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Wir sitzen im Garten und trinken Kaffee.",
+      "en": "We are sitting in the garden drinking coffee."
+    },
+    "tip": "Position (wo? + Dativ): Ich sitze auf dem Stuhl. To sit down is sich setzen (wohin? + Akkusativ)."
   },
   {
     "infinitive": "liegen",
@@ -598,7 +858,12 @@
     "perfect": "hat gelegen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Das Buch liegt auf dem Tisch.",
+      "en": "The book is lying on the table."
+    },
+    "tip": "liegen = be lying/located (wo? + Dativ); legen = put something down flat (wohin? + Akkusativ). Also: Wo liegt Berlin?"
   },
   {
     "infinitive": "legen",
@@ -606,7 +871,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gelegt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich lege das Buch auf den Tisch.",
+      "en": "I put the book on the table."
+    },
+    "tip": "legen = lay something flat, direction wohin? + Akkusativ (auf den Tisch). Resulting state: liegen (auf dem Tisch)."
   },
   {
     "infinitive": "stellen",
@@ -614,15 +884,25 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gestellt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich stelle die Flasche auf den Tisch.",
+      "en": "I put the bottle on the table."
+    },
+    "tip": "Use stellen for things that stand upright (Flasche, Glas), legen for flat things. Also: eine Frage stellen = ask a question."
   },
   {
     "infinitive": "setzen",
-    "en": "to set, to seat",
+    "en": "to set, to put; sich setzen: to sit down",
     "forms": null,
     "stemChange": null,
     "perfect": "hat gesetzt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich setze mich auf den Stuhl.",
+      "en": "I sit down on the chair."
+    },
+    "tip": "Mostly reflexive at A1: Setzen Sie sich! / Ich setze mich (wohin? + Akkusativ). Resulting state: sitzen."
   },
   {
     "infinitive": "öffnen",
@@ -630,7 +910,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geöffnet",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Öffnest du bitte das Fenster?",
+      "en": "Would you open the window, please?"
+    },
+    "tip": "Stem ends in -fn, so add -e-: du öffnest, er öffnet. In everyday speech aufmachen is more common."
   },
   {
     "infinitive": "schließen",
@@ -640,7 +925,12 @@
     "perfect": "hat geschlossen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Der Supermarkt schließt um acht Uhr.",
+      "en": "The supermarket closes at eight o'clock."
+    },
+    "tip": "After a sibilant the -st ending loses its s: du schließt (not schließst). Geschlossen = 'closed' on signs. Colloquial: zumachen."
   },
   {
     "infinitive": "beginnen",
@@ -650,7 +940,12 @@
     "perfect": "hat begonnen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Der Deutschkurs beginnt um neun Uhr.",
+      "en": "The German course begins at nine o'clock."
+    },
+    "tip": "Inseparable be- prefix: no ge- in the Partizip (hat begonnen). beginnen mit + Dativ."
   },
   {
     "infinitive": "helfen",
@@ -663,7 +958,12 @@
     "perfect": "hat geholfen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich helfe meiner Mutter in der Küche.",
+      "en": "I help my mother in the kitchen."
+    },
+    "tip": "helfen takes Dativ: Ich helfe dir / meiner Mutter. Imperative keeps the stem change: Hilf mir! Also helfen bei + Dativ."
   },
   {
     "infinitive": "danken",
@@ -671,7 +971,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gedankt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich danke dir für das Geschenk.",
+      "en": "Thank you for the present."
+    },
+    "tip": "Takes Dativ: Ich danke dir / Ihnen. Danke schön! and Vielen Dank! are the everyday short forms."
   },
   {
     "infinitive": "bringen",
@@ -681,7 +986,12 @@
     "perfect": "hat gebracht",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich bringe dir morgen das Buch.",
+      "en": "I'll bring you the book tomorrow."
+    },
+    "tip": "Mixed verb: present is regular but Perfekt is hat gebracht (like denken → gedacht). Person in Dativ, thing in Akkusativ."
   },
   {
     "infinitive": "holen",
@@ -689,7 +999,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geholt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich hole schnell Brot vom Bäcker.",
+      "en": "I'll quickly get some bread from the baker's."
+    },
+    "tip": "holen = go and get something. abholen (separable) = pick someone up: Ich hole dich ab."
   },
   {
     "infinitive": "tragen",
@@ -702,7 +1017,12 @@
     "perfect": "hat getragen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Sie trägt heute ein rotes Kleid.",
+      "en": "She is wearing a red dress today."
+    },
+    "tip": "Means both carry (eine Tasche) and wear (ein Kleid). a → ä only in du/er: trägst, trägt; ihr tragt."
   },
   {
     "infinitive": "bekommen",
@@ -712,7 +1032,12 @@
     "perfect": "hat bekommen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich bekomme zum Geburtstag ein neues Handy.",
+      "en": "I'm getting a new phone for my birthday."
+    },
+    "tip": "False friend: bekommen = to get, not to become (that is werden). Inseparable be-, so no ge-: hat bekommen."
   },
   {
     "infinitive": "schenken",
@@ -720,7 +1045,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geschenkt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Wir schenken Oma Blumen zum Geburtstag.",
+      "en": "We're giving Grandma flowers for her birthday."
+    },
+    "tip": "Person in Dativ, gift in Akkusativ: Ich schenke ihr eine Uhr. Noun: das Geschenk."
   },
   {
     "infinitive": "zeigen",
@@ -728,7 +1058,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gezeigt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich zeige dir mein neues Zimmer.",
+      "en": "I'll show you my new room."
+    },
+    "tip": "Dativ person + Akkusativ thing: Zeigst du mir das Foto? Also: Kannst du mir den Weg zeigen?"
   },
   {
     "infinitive": "erklären",
@@ -736,7 +1071,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat erklärt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Die Lehrerin erklärt die Aufgabe noch einmal.",
+      "en": "The teacher explains the task once more."
+    },
+    "tip": "Inseparable er-: no ge- in the Perfekt, hat erklärt. Erklär mir das bitte (person in Dativ)."
   },
   {
     "infinitive": "üben",
@@ -744,7 +1084,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geübt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich übe jeden Tag zehn Minuten Deutsch.",
+      "en": "I practise German for ten minutes every day."
+    },
+    "tip": "Noun: die Übung (exercise, -ung → die). Pronounce ü like 'ee' with rounded lips."
   },
   {
     "infinitive": "wiederholen",
@@ -752,7 +1097,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat wiederholt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich wiederhole die neuen Wörter jeden Abend.",
+      "en": "I go over the new words every evening."
+    },
+    "tip": "Not separable in this meaning: ich wiederhole, hat wiederholt, stress on -HO-. Key phrase: Können Sie das bitte wiederholen?"
   },
   {
     "infinitive": "vergessen",
@@ -765,7 +1115,12 @@
     "perfect": "hat vergessen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich vergesse immer meinen Schlüssel.",
+      "en": "I always forget my key."
+    },
+    "tip": "e → i in du/er, both vergisst (ss + st merge). Inseparable ver-: Perfekt hat vergessen, no ge-."
   },
   {
     "infinitive": "treffen",
@@ -778,7 +1133,12 @@
     "perfect": "hat getroffen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich treffe morgen meine Freunde im Café.",
+      "en": "I'm meeting my friends at the café tomorrow."
+    },
+    "tip": "Takes Akkusativ: Ich treffe meinen Freund. Also reflexive sich treffen mit + Dativ: Wir treffen uns mit Anna."
   },
   {
     "infinitive": "besuchen",
@@ -786,7 +1146,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat besucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Am Sonntag besuchen wir meine Großeltern.",
+      "en": "On Sunday we're visiting my grandparents."
+    },
+    "tip": "Direct object, no preposition: Ich besuche meine Oma (not 'bei'). Inseparable be-: hat besucht."
   },
   {
     "infinitive": "reisen",
@@ -794,7 +1159,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "ist gereist",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Wir reisen im Sommer nach Italien.",
+      "en": "We're travelling to Italy in the summer."
+    },
+    "tip": "Perfekt with sein (movement): Ich bin nach Berlin gereist. Stem ends in -s, so du reist = er reist."
   },
   {
     "infinitive": "wandern",
@@ -802,7 +1172,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "ist gewandert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Am Wochenende wandern wir in den Bergen.",
+      "en": "At the weekend we go hiking in the mountains."
+    },
+    "tip": "-ern verbs: wir/sie wandern (no -en), ich wandere. Perfekt with sein: ist gewandert."
   },
   {
     "infinitive": "schwimmen",
@@ -812,7 +1187,12 @@
     "perfect": "ist geschwommen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Im Sommer schwimmen wir oft im See.",
+      "en": "In summer we often swim in the lake."
+    },
+    "tip": "Perfekt with sein (ist geschwommen) because it is movement; 'hat geschwommen' is also heard when no direction is meant."
   },
   {
     "infinitive": "tanzen",
@@ -820,7 +1200,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat getanzt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Am Samstag tanzen wir in der Disco.",
+      "en": "On Saturday we're dancing at the club."
+    },
+    "tip": "Stem ends in -z, so du tanzt (the -s of -st merges) — the du form looks the same as er/sie tanzt."
   },
   {
     "infinitive": "singen",
@@ -830,7 +1215,12 @@
     "perfect": "hat gesungen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Meine Schwester singt sehr gern.",
+      "en": "My sister really likes singing."
+    },
+    "tip": "Vowel shift i–a–u: singen, sang, gesungen — same pattern as trinken/getrunken and finden/gefunden."
   },
   {
     "infinitive": "kochen",
@@ -838,7 +1228,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gekocht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Heute koche ich eine Suppe.",
+      "en": "Today I'm cooking soup."
+    },
+    "tip": "Also 'to boil': Das Wasser kocht. 'Kaffee kochen' = to make coffee."
   },
   {
     "infinitive": "backen",
@@ -848,7 +1243,12 @@
     "perfect": "hat gebacken",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Oma backt am Sonntag einen Kuchen.",
+      "en": "Grandma is baking a cake on Sunday."
+    },
+    "tip": "Present tense is regular today (du backst, er backt; older bäckt); only the Partizip gebacken is irregular."
   },
   {
     "infinitive": "putzen",
@@ -856,7 +1256,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geputzt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich putze jeden Samstag die Wohnung.",
+      "en": "I clean the flat every Saturday."
+    },
+    "tip": "Stem in -z → du putzt. Key collocations: Zähne putzen (brush teeth), Fenster putzen, die Wohnung putzen."
   },
   {
     "infinitive": "waschen",
@@ -869,7 +1274,12 @@
     "perfect": "hat gewaschen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Er wäscht am Wochenende sein Auto.",
+      "en": "He washes his car at the weekend."
+    },
+    "tip": "a→ä only in du/er: du wäschst, er wäscht (ihr wascht). Reflexive for oneself: Ich wasche mich / mir die Hände."
   },
   {
     "infinitive": "duschen",
@@ -877,7 +1287,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geduscht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich dusche jeden Morgen um sieben.",
+      "en": "I shower every morning at seven."
+    },
+    "tip": "du duschst keeps the full -st (sch does not merge like s/z). 'Ich dusche' and reflexive 'ich dusche mich' are both fine."
   },
   {
     "infinitive": "ziehen",
@@ -887,7 +1302,12 @@
     "perfect": "hat gezogen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich ziehe an der Tür, aber sie geht nicht auf.",
+      "en": "I pull on the door, but it doesn't open."
+    },
+    "tip": "Meaning 'to move house' takes sein: Wir sind nach Berlin gezogen. On doors: Ziehen = pull, Drücken = push."
   },
   {
     "infinitive": "gefallen",
@@ -900,15 +1320,25 @@
     "perfect": "hat gefallen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Die Jacke gefällt mir sehr gut.",
+      "en": "I like the jacket a lot."
+    },
+    "tip": "Takes Dativ; the liked thing is the subject: Das Buch gefällt mir = I like the book. Partizip has no extra ge-."
   },
   {
     "infinitive": "schmecken",
-    "en": "to taste good",
+    "en": "to taste (good)",
     "forms": null,
     "stemChange": null,
     "perfect": "hat geschmeckt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Die Pizza schmeckt mir sehr gut.",
+      "en": "The pizza tastes really good to me."
+    },
+    "tip": "The person is in the Dativ: Schmeckt es dir? 'schmecken nach' = taste of: Das schmeckt nach Zitrone."
   },
   {
     "infinitive": "passen",
@@ -916,7 +1346,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gepasst",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Die Hose passt mir leider nicht.",
+      "en": "Unfortunately the trousers don't fit me."
+    },
+    "tip": "Dativ for the person: Das passt mir (fits/suits me). 'passen zu' = go together with: Die Schuhe passen zur Hose."
   },
   {
     "infinitive": "gehören",
@@ -924,7 +1359,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gehört",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Das Fahrrad gehört meinem Bruder.",
+      "en": "The bike belongs to my brother."
+    },
+    "tip": "Dativ: Das gehört mir. 'hat gehört' is also the Perfekt of hören (heard) — context tells them apart."
   },
   {
     "infinitive": "funktionieren",
@@ -932,7 +1372,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat funktioniert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Der Aufzug funktioniert heute nicht.",
+      "en": "The lift isn't working today."
+    },
+    "tip": "-ieren verbs take no ge- in the Perfekt: hat funktioniert. Things (machines, plans) funktionieren; people who work arbeiten."
   },
   {
     "infinitive": "probieren",
@@ -940,7 +1385,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat probiert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Probierst du mal die Suppe?",
+      "en": "Will you try the soup?"
+    },
+    "tip": "No ge- in the Perfekt (hat probiert). anprobieren = try on (clothes), ausprobieren = try out."
   },
   {
     "infinitive": "versuchen",
@@ -948,7 +1398,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat versucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich versuche es morgen noch einmal.",
+      "en": "I'll try it again tomorrow."
+    },
+    "tip": "Often with zu + Infinitiv: Ich versuche, Deutsch zu lernen. Inseparable ver-: Perfekt hat versucht, no ge-."
   },
   {
     "infinitive": "entschuldigen",
@@ -956,7 +1411,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat entschuldigt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Entschuldigen Sie bitte, wo ist der Bahnhof?",
+      "en": "Excuse me please, where is the train station?"
+    },
+    "tip": "Reflexive for apologising: Ich entschuldige mich (Akk.). 'Entschuldigen Sie' = formal excuse me, 'Entschuldige' = informal."
   },
   {
     "infinitive": "schicken",
@@ -964,7 +1424,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geschickt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich schicke dir morgen eine E-Mail.",
+      "en": "I'll send you an email tomorrow."
+    },
+    "tip": "Person in Dativ, thing in Akkusativ: Ich schicke dir (Dativ) ein Paket (Akk.). Synonym: senden."
   },
   {
     "infinitive": "bestellen",
@@ -972,7 +1437,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat bestellt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Wir bestellen zwei Kaffee und ein Stück Kuchen.",
+      "en": "We're ordering two coffees and a piece of cake."
+    },
+    "tip": "Inseparable be-: Perfekt hat bestellt, no ge-. Used in the café and online: Ich habe im Internet bestellt."
   },
   {
     "infinitive": "buchen",
@@ -980,7 +1450,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gebucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich buche ein Hotel in Berlin.",
+      "en": "I'm booking a hotel in Berlin."
+    },
+    "tip": "buchen = make a firm booking (trip, flight, hotel, often paid); reservieren = have a table or seat held for you."
   },
   {
     "infinitive": "reservieren",
@@ -988,7 +1463,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat reserviert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich reserviere einen Tisch für zwei Personen.",
+      "en": "I'm reserving a table for two people."
+    },
+    "tip": "-ieren verbs take no ge- in the Perfekt: hat reserviert. Stress on -VIE-: reser-VIE-ren."
   },
   {
     "infinitive": "verlieren",
@@ -998,7 +1478,12 @@
     "perfect": "hat verloren",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich verliere immer meinen Schlüssel.",
+      "en": "I always lose my key."
+    },
+    "tip": "Strong verb: Perfekt hat verloren (vowel change ie → o, no ge- because of ver-). Opposite: gewinnen / finden."
   },
   {
     "infinitive": "gewinnen",
@@ -1008,7 +1493,12 @@
     "perfect": "hat gewonnen",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Unser Team gewinnt das Spiel.",
+      "en": "Our team wins the game."
+    },
+    "tip": "Perfekt hat gewonnen: the ge- belongs to the stem, so no second ge-. Also for money and prizes: im Lotto gewinnen."
   },
   {
     "infinitive": "rauchen",
@@ -1016,7 +1506,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geraucht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Mein Vater raucht nicht mehr.",
+      "en": "My father doesn't smoke any more."
+    },
+    "tip": "Sign: 'Rauchen verboten' = no smoking. der Raucher / der Nichtraucher = smoker / non-smoker."
   },
   {
     "infinitive": "sparen",
@@ -1024,7 +1519,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gespart",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich spare für ein neues Fahrrad.",
+      "en": "I'm saving for a new bike."
+    },
+    "tip": "sparen für + Akk. Also Zeit/Strom/Wasser sparen. Saving a file is speichern, rescuing someone is retten."
   },
   {
     "infinitive": "verdienen",
@@ -1032,7 +1532,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat verdient",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Meine Schwester verdient viel Geld.",
+      "en": "My sister earns a lot of money."
+    },
+    "tip": "Geld verdienen = earn money; also 'deserve': Das hast du verdient. Inseparable ver-: Perfekt hat verdient."
   },
   {
     "infinitive": "studieren",
@@ -1040,7 +1545,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat studiert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Mein Bruder studiert Medizin in München.",
+      "en": "My brother studies medicine in Munich."
+    },
+    "tip": "Only for university: Ich studiere Informatik. For a language or homework use lernen: Ich lerne Deutsch."
   },
   {
     "infinitive": "unterschreiben",
@@ -1050,7 +1560,12 @@
     "perfect": "hat unterschrieben",
     "flags": [
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Bitte unterschreiben Sie hier.",
+      "en": "Please sign here."
+    },
+    "tip": "Inseparable here (stress on -SCHREI-): Ich unterschreibe den Vertrag. Perfekt hat unterschrieben, no ge-."
   },
   {
     "infinitive": "wechseln",
@@ -1058,7 +1573,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gewechselt",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich wechsle am Flughafen Geld.",
+      "en": "I'm changing money at the airport."
+    },
+    "tip": "-eln verb: ich wechsle (e dropped), wir/sie wechseln. Geld wechseln = exchange money; changing trains is umsteigen."
   },
   {
     "infinitive": "ändern",
@@ -1066,7 +1586,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geändert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich ändere meine Adresse.",
+      "en": "I'm changing my address."
+    },
+    "tip": "-ern verb: ich ändere, wir ändern. Reflexive when something changes by itself: Das Wetter ändert sich."
   },
   {
     "infinitive": "dauern",
@@ -1074,7 +1599,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gedauert",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Der Film dauert zwei Stunden.",
+      "en": "The film lasts two hours."
+    },
+    "tip": "Mostly used in the 3rd person: 'Wie lange dauert das?' – 'Es dauert eine Stunde.' No object needed."
   },
   {
     "infinitive": "lachen",
@@ -1082,7 +1612,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gelacht",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Warum lachst du über mich?",
+      "en": "Why are you laughing at me?"
+    },
+    "tip": "lachen über + Akkusativ: Wir lachen über den Film. 'lächeln' is the quiet smile."
   },
   {
     "infinitive": "weinen",
@@ -1090,7 +1625,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat geweint",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Das Baby weint die ganze Nacht.",
+      "en": "The baby cries all night."
+    },
+    "tip": "Only 'cry' as in shedding tears; to shout or call out is rufen or schreien."
   },
   {
     "infinitive": "hoffen",
@@ -1098,7 +1638,12 @@
     "forms": null,
     "stemChange": null,
     "perfect": "hat gehofft",
-    "flags": []
+    "flags": [],
+    "example": {
+      "de": "Ich hoffe, dass du morgen kommst.",
+      "en": "I hope that you come tomorrow."
+    },
+    "tip": "hoffen auf + Akkusativ (auf gutes Wetter). 'Hoffentlich' = hopefully; 'Ich hoffe es' = I hope so."
   },
   {
     "infinitive": "aufstehen",
@@ -1109,7 +1654,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich stehe jeden Tag um sieben Uhr auf.",
+      "en": "I get up at seven o'clock every day."
+    },
+    "tip": "Perfekt with sein (change of position): Ich bin um sieben aufgestanden. Prefix auf- goes to the end."
   },
   {
     "infinitive": "anfangen",
@@ -1123,7 +1673,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Der Film fängt gleich an.",
+      "en": "The film starts in a moment."
+    },
+    "tip": "anfangen mit + Dativ: Ich fange mit der Arbeit an. Same meaning as beginnen, which is not separable."
   },
   {
     "infinitive": "aufhören",
@@ -1133,7 +1688,12 @@
     "perfect": "hat aufgehört",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Ich höre jetzt mit der Arbeit auf.",
+      "en": "I'm stopping work now."
+    },
+    "tip": "aufhören mit + Dativ: Ich höre mit dem Rauchen auf. Means to cease; to stop a car or bus use anhalten."
   },
   {
     "infinitive": "einkaufen",
@@ -1143,7 +1703,12 @@
     "perfect": "hat eingekauft",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Wir kaufen am Samstag im Supermarkt ein.",
+      "en": "We do our shopping at the supermarket on Saturday."
+    },
+    "tip": "einkaufen = do the shopping (no object needed); kaufen = buy a specific thing. Common: einkaufen gehen."
   },
   {
     "infinitive": "einladen",
@@ -1157,7 +1722,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich lade dich zu meinem Geburtstag ein.",
+      "en": "I'm inviting you to my birthday."
+    },
+    "tip": "Person in Akkusativ, occasion with zu + Dativ. Also 'to treat': Ich lade dich ein = it's on me."
   },
   {
     "infinitive": "anrufen",
@@ -1168,7 +1738,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich rufe dich heute Abend an.",
+      "en": "I'll call you this evening."
+    },
+    "tip": "Takes Akkusativ directly (Ich rufe dich an), no preposition. For a place: bei der Firma anrufen."
   },
   {
     "infinitive": "aufmachen",
@@ -1178,7 +1753,12 @@
     "perfect": "hat aufgemacht",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Der Laden macht um acht Uhr auf.",
+      "en": "The shop opens at eight o'clock."
+    },
+    "tip": "Everyday word for öffnen: Mach bitte das Fenster auf! Like all separable verbs, stress is on the prefix auf-."
   },
   {
     "infinitive": "zumachen",
@@ -1188,7 +1768,12 @@
     "perfect": "hat zugemacht",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Der Supermarkt macht um 20 Uhr zu.",
+      "en": "The supermarket closes at 8 pm."
+    },
+    "tip": "Everyday word for schließen: Mach bitte die Tür zu! Opposite of aufmachen; stress is on the prefix zu-."
   },
   {
     "infinitive": "mitkommen",
@@ -1199,7 +1784,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Kommst du morgen mit ins Kino?",
+      "en": "Are you coming along to the cinema tomorrow?"
+    },
+    "tip": "Perfekt with sein (motion): Sie ist mitgekommen. 'Kommst du mit?' is the everyday 'Coming along?'"
   },
   {
     "infinitive": "mitbringen",
@@ -1210,7 +1800,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich bringe einen Kuchen zur Party mit.",
+      "en": "I'm bringing a cake to the party."
+    },
+    "tip": "Person in Dativ, thing in Akkusativ: Ich bringe dir etwas mit. Typical guest question: Was soll ich mitbringen?"
   },
   {
     "infinitive": "ankommen",
@@ -1221,7 +1816,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Der Zug kommt um zehn Uhr in Berlin an.",
+      "en": "The train arrives in Berlin at ten o'clock."
+    },
+    "tip": "Place with in + Dativ (in Berlin, im Hotel). Perfekt with sein: Wir sind gut angekommen."
   },
   {
     "infinitive": "abfahren",
@@ -1235,7 +1835,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Der Zug fährt um acht Uhr ab.",
+      "en": "The train departs at eight o'clock."
+    },
+    "tip": "Motion verb, so sein in the Perfekt: 'Der Zug ist abgefahren.' Typical question: 'Wann fährt der Bus ab?'"
   },
   {
     "infinitive": "aussehen",
@@ -1249,7 +1854,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Du siehst heute sehr müde aus.",
+      "en": "You look very tired today."
+    },
+    "tip": "Appearance, not eyesight: 'gut aussehen' = to look good; 'gut sehen' = to see well. Ask 'Wie sieht er aus?'"
   },
   {
     "infinitive": "fernsehen",
@@ -1263,7 +1873,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Am Abend sehen wir zusammen fern.",
+      "en": "In the evening we watch TV together."
+    },
+    "tip": "Separable: 'Ich sehe fern.' The activity is das Fernsehen, the TV set is der Fernseher."
   },
   {
     "infinitive": "stattfinden",
@@ -1274,7 +1889,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Das Konzert findet am Samstag statt.",
+      "en": "The concert takes place on Saturday."
+    },
+    "tip": "Almost always 3rd person with an event as subject: 'Der Kurs findet nicht statt.' Stress on the prefix: STATTfinden."
   },
   {
     "infinitive": "vorstellen",
@@ -1284,7 +1904,12 @@
     "perfect": "hat vorgestellt",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Ich stelle dir meinen Bruder vor.",
+      "en": "I'll introduce my brother to you."
+    },
+    "tip": "Reflexive: 'Ich stelle mich vor' (Akk) = I introduce myself; 'Ich stelle mir das vor' (Dativ) = I imagine that."
   },
   {
     "infinitive": "ausfüllen",
@@ -1294,7 +1919,12 @@
     "perfect": "hat ausgefüllt",
     "flags": [
       "sep"
-    ]
+    ],
+    "example": {
+      "de": "Bitte füllen Sie das Formular aus.",
+      "en": "Please fill in the form."
+    },
+    "tip": "Key collocation: ein Formular ausfüllen. Plain 'füllen' is to fill a container (ein Glas füllen)."
   },
   {
     "infinitive": "umziehen",
@@ -1305,7 +1935,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Wir ziehen im Mai nach Berlin um.",
+      "en": "We're moving to Berlin in May."
+    },
+    "tip": "Change of place, so sein: 'Ich bin umgezogen.' Reflexive 'sich umziehen' (hat) means to change clothes."
   },
   {
     "infinitive": "anziehen",
@@ -1316,7 +1951,12 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Ich ziehe heute eine warme Jacke an.",
+      "en": "I'm putting on a warm jacket today."
+    },
+    "tip": "Takes Akk: 'den Mantel anziehen'. Reflexive 'sich anziehen' = to get dressed. Opposite: ausziehen."
   },
   {
     "infinitive": "ausziehen",
@@ -1327,6 +1967,11 @@
     "flags": [
       "sep",
       "irr"
-    ]
+    ],
+    "example": {
+      "de": "Die Kinder ziehen die Schuhe aus.",
+      "en": "The children take off their shoes."
+    },
+    "tip": "Clothes: hat ausgezogen. But 'ausziehen' = to move out takes sein: 'Er ist aus der Wohnung ausgezogen.'"
   }
 ]

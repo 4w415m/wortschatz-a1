@@ -2,466 +2,931 @@
   {
     "word": "groß",
     "en": "big, tall",
-    "opposite": "klein"
+    "opposite": "klein",
+    "example": {
+      "de": "Mein Bruder ist sehr groß.",
+      "en": "My brother is very tall."
+    },
+    "tip": "Comparison takes an umlaut: groß – größer – am größten. Long o, so ß: 'gross' is only the Swiss spelling."
   },
   {
     "word": "klein",
     "en": "small",
-    "opposite": "groß"
+    "opposite": "groß",
+    "example": {
+      "de": "Wir haben eine kleine Wohnung.",
+      "en": "We have a small flat."
+    },
+    "tip": "Also 'little/young' for children: ein kleines Kind. Attributive endings: eine kleine Wohnung, ein kleines Haus, der kleine Hund."
   },
   {
     "word": "alt",
     "en": "old",
-    "opposite": "neu, jung"
+    "opposite": "neu, jung",
+    "example": {
+      "de": "Wie alt bist du?",
+      "en": "How old are you?"
+    },
+    "tip": "Age is asked with alt: Wie alt bist du? – Ich bin 30 (Jahre alt). Comparative älter takes an umlaut."
   },
   {
     "word": "neu",
     "en": "new",
-    "opposite": "alt"
+    "opposite": "alt",
+    "example": {
+      "de": "Ich habe ein neues Handy.",
+      "en": "I have a new mobile phone."
+    },
+    "tip": "Attributive: ein neues Auto, die neue Wohnung. Useful phrase: Was gibt es Neues? = What's new?"
   },
   {
     "word": "jung",
     "en": "young",
-    "opposite": "alt"
+    "opposite": "alt",
+    "example": {
+      "de": "Meine Schwester ist noch sehr jung.",
+      "en": "My sister is still very young."
+    },
+    "tip": "For living things (people, animals, plants); a new car or phone is neu, not jung. Comparative jünger takes an umlaut."
   },
   {
     "word": "lang",
     "en": "long",
-    "opposite": "kurz"
+    "opposite": "kurz",
+    "example": {
+      "de": "Der Film ist sehr lang.",
+      "en": "The film is very long."
+    },
+    "tip": "Adjective lang vs. adverb lange (for a long time): Wie lange dauert das? Comparative länger with umlaut."
   },
   {
     "word": "kurz",
     "en": "short",
-    "opposite": "lang"
+    "opposite": "lang",
+    "example": {
+      "de": "Sie hat kurze Haare.",
+      "en": "She has short hair."
+    },
+    "tip": "Also 'brief' in time: eine kurze Pause. A short person is klein, not kurz. Comparative kürzer."
   },
   {
     "word": "hoch",
     "en": "high",
-    "opposite": "niedrig"
+    "opposite": "niedrig",
+    "example": {
+      "de": "Der Berg ist sehr hoch.",
+      "en": "The mountain is very high."
+    },
+    "tip": "Before a noun the c drops: ein hohes Haus, der hohe Berg. Comparison: hoch – höher – am höchsten."
   },
   {
     "word": "niedrig",
     "en": "low",
-    "opposite": "hoch"
+    "opposite": "hoch",
+    "example": {
+      "de": "Die Preise hier sind niedrig.",
+      "en": "The prices here are low."
+    },
+    "tip": "Used for height, prices and temperatures: niedrige Preise. Final -ig is pronounced -ich: [ˈniːdrɪç]."
   },
   {
     "word": "tief",
     "en": "deep",
-    "opposite": "flach"
+    "opposite": "flach",
+    "example": {
+      "de": "Das Wasser hier ist nicht tief.",
+      "en": "The water here is not deep."
+    },
+    "tip": "Also 'low' for temperatures and voices (tiefe Temperaturen, eine tiefe Stimme), where it is the opposite of hoch."
   },
   {
     "word": "breit",
     "en": "wide",
-    "opposite": "schmal"
+    "opposite": "schmal",
+    "example": {
+      "de": "Die Straße ist sehr breit.",
+      "en": "The street is very wide."
+    },
+    "tip": "Don't confuse with weit (far): weit weg = far away. breit is for width: eine breite Straße, breite Schultern."
   },
   {
     "word": "schmal",
     "en": "narrow",
-    "opposite": "breit"
+    "opposite": "breit",
+    "example": {
+      "de": "Der Weg ist sehr schmal.",
+      "en": "The path is very narrow."
+    },
+    "tip": "schmal = narrow in width; eng = narrow/tight in space (enge Schuhe, eine enge Straße). Both are common."
   },
   {
     "word": "dick",
     "en": "thick, fat",
-    "opposite": "dünn"
+    "opposite": "dünn",
+    "example": {
+      "de": "Das Buch ist sehr dick.",
+      "en": "The book is very thick."
+    },
+    "tip": "About people dick sounds blunt; safer to say kräftig. Also for clothes: ein dicker Pullover = a thick jumper."
   },
   {
     "word": "dünn",
     "en": "thin",
-    "opposite": "dick"
+    "opposite": "dick",
+    "example": {
+      "de": "Die Wand ist sehr dünn.",
+      "en": "The wall is very thin."
+    },
+    "tip": "For people dünn is neutral; the compliment is schlank (slim). Also for weak drinks: dünner Kaffee."
   },
   {
     "word": "schwer",
     "en": "heavy, difficult",
-    "opposite": "leicht"
+    "opposite": "leicht",
+    "example": {
+      "de": "Die Tasche ist zu schwer für mich.",
+      "en": "The bag is too heavy for me."
+    },
+    "tip": "Both senses (heavy, difficult) share one opposite: leicht. schwierig means only 'difficult'. Don't mix up with schwarz."
   },
   {
     "word": "leicht",
     "en": "light, easy",
-    "opposite": "schwer"
+    "opposite": "schwer",
+    "example": {
+      "de": "Die Aufgabe ist leicht.",
+      "en": "The task is easy."
+    },
+    "tip": "'light' in weight or difficulty only; for light colours or bright rooms use hell (ein helles Zimmer)."
   },
   {
     "word": "schnell",
     "en": "fast",
-    "opposite": "langsam"
+    "opposite": "langsam",
+    "example": {
+      "de": "Das Auto fährt sehr schnell.",
+      "en": "The car goes very fast."
+    },
+    "tip": "Same form as adverb, no -ly: Er läuft schnell. On its own, Schnell! = Quick! / Hurry up!"
   },
   {
     "word": "langsam",
     "en": "slow",
-    "opposite": "schnell"
+    "opposite": "schnell",
+    "example": {
+      "de": "Bitte sprechen Sie langsam.",
+      "en": "Please speak slowly."
+    },
+    "tip": "Also the adverb 'slowly' with no change. Very useful: Können Sie bitte langsamer sprechen? Stress on the first syllable."
   },
   {
     "word": "früh",
     "en": "early",
-    "opposite": "spät"
+    "opposite": "spät",
+    "example": {
+      "de": "Ich stehe immer sehr früh auf.",
+      "en": "I always get up very early."
+    },
+    "tip": "morgen früh = tomorrow morning, not 'early tomorrow'. Comparative früher also means 'formerly / in the past'."
   },
   {
     "word": "spät",
     "en": "late",
-    "opposite": "früh"
+    "opposite": "früh",
+    "example": {
+      "de": "Wie spät ist es?",
+      "en": "What time is it?"
+    },
+    "tip": "Wie spät ist es? asks the time, not 'how late'. zu spät = too late; später = later (Bis später!)."
   },
   {
     "word": "gut",
     "en": "good",
-    "opposite": "schlecht"
+    "opposite": "schlecht",
+    "example": {
+      "de": "Das Essen hier ist sehr gut.",
+      "en": "The food here is very good."
+    },
+    "tip": "Irregular comparison: gut – besser – am besten. Also 'well': Es geht mir gut, Sie spricht gut Deutsch."
   },
   {
     "word": "schlecht",
     "en": "bad",
-    "opposite": "gut"
+    "opposite": "gut",
+    "example": {
+      "de": "Das Wetter ist heute schlecht.",
+      "en": "The weather is bad today."
+    },
+    "tip": "Mir ist schlecht = I feel sick (nauseous), not 'I am bad'. Also adverb: Er spricht schlecht Englisch."
   },
   {
     "word": "schön",
     "en": "beautiful, nice",
-    "opposite": "hässlich"
+    "opposite": "hässlich",
+    "example": {
+      "de": "Das ist ein schönes Bild.",
+      "en": "That is a beautiful picture."
+    },
+    "tip": "Everywhere in set phrases: Schönes Wochenende!, Danke schön, Bitte schön, Schön, dich zu sehen. Round the lips for ö."
   },
   {
     "word": "hässlich",
     "en": "ugly",
-    "opposite": "schön"
+    "opposite": "schön",
+    "example": {
+      "de": "Ich finde das Bild hässlich.",
+      "en": "I think the picture is ugly."
+    },
+    "tip": "ss (not ß) because the ä is short; related to der Hass (hatred). A softer alternative is nicht schön."
   },
   {
     "word": "nett",
     "en": "nice, kind",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Unsere Nachbarin ist sehr nett.",
+      "en": "Our neighbour is very nice."
+    },
+    "tip": "\"Das ist nett von dir/Ihnen\" = that's kind of you. The everyday all-purpose word for a pleasant person."
   },
   {
     "word": "freundlich",
     "en": "friendly",
-    "opposite": "unfreundlich"
+    "opposite": "unfreundlich",
+    "example": {
+      "de": "Der Verkäufer ist immer sehr freundlich.",
+      "en": "The shop assistant is always very friendly."
+    },
+    "tip": "\"Mit freundlichen Grüßen\" is the standard sign-off for letters and emails (Best regards)."
   },
   {
     "word": "sympathisch",
     "en": "likeable",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich finde deine Schwester sehr sympathisch.",
+      "en": "I think your sister is very likeable."
+    },
+    "tip": "False friend: not \"sympathetic\" (that is mitfühlend). Opposite: unsympathisch."
   },
   {
     "word": "höflich",
     "en": "polite",
-    "opposite": "unhöflich"
+    "opposite": "unhöflich",
+    "example": {
+      "de": "Die Kinder sind sehr höflich.",
+      "en": "The children are very polite."
+    },
+    "tip": "From der Hof (court): courtly manners. Noun: die Höflichkeit (-keit → die)."
   },
   {
     "word": "lustig",
     "en": "funny",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Der Film ist sehr lustig.",
+      "en": "The film is very funny."
+    },
+    "tip": "lustig = funny (makes you laugh). \"Fun\" as in enjoyable is \"Das macht Spaß\", not lustig."
   },
   {
     "word": "traurig",
     "en": "sad",
-    "opposite": "fröhlich"
+    "opposite": "fröhlich",
+    "example": {
+      "de": "Ich bin traurig, weil mein Hund krank ist.",
+      "en": "I'm sad because my dog is ill."
+    },
+    "tip": "traurig über + Akkusativ: Ich bin traurig über die Nachricht. Noun: die Trauer (grief)."
   },
   {
     "word": "fröhlich",
     "en": "cheerful",
-    "opposite": "traurig"
+    "opposite": "traurig",
+    "example": {
+      "de": "Die Kinder sind heute sehr fröhlich.",
+      "en": "The children are very cheerful today."
+    },
+    "tip": "Fröhliche Weihnachten! = Merry Christmas. Mind the ö; froh (glad) is the simpler relative."
   },
   {
     "word": "glücklich",
     "en": "happy",
-    "opposite": "unglücklich"
+    "opposite": "unglücklich",
+    "example": {
+      "de": "Ich bin in meiner neuen Wohnung sehr glücklich.",
+      "en": "I'm very happy in my new flat."
+    },
+    "tip": "das Glück means both luck and happiness: Viel Glück! = Good luck! For \"glad\" use froh: Ich bin froh, dass …"
   },
   {
     "word": "müde",
     "en": "tired",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Nach der Arbeit bin ich immer müde.",
+      "en": "After work I'm always tired."
+    },
+    "tip": "Everyday opposite is wach (awake) or fit. Pronounce the ü with rounded lips: MÜ-de."
   },
   {
     "word": "krank",
     "en": "ill",
-    "opposite": "gesund"
+    "opposite": "gesund",
+    "example": {
+      "de": "Mein Bruder ist krank und bleibt im Bett.",
+      "en": "My brother is ill and is staying in bed."
+    },
+    "tip": "Compounds: das Krankenhaus (hospital), die Krankenkasse (health insurance), krankschreiben (sign off sick)."
   },
   {
     "word": "gesund",
     "en": "healthy",
-    "opposite": "krank"
+    "opposite": "krank",
+    "example": {
+      "de": "Obst und Gemüse sind gesund.",
+      "en": "Fruit and vegetables are healthy."
+    },
+    "tip": "Gesundheit! is what you say when someone sneezes. Comparative has umlaut: gesünder."
   },
   {
     "word": "teuer",
     "en": "expensive",
-    "opposite": "billig"
+    "opposite": "billig",
+    "example": {
+      "de": "Das Auto ist zu teuer für mich.",
+      "en": "The car is too expensive for me."
+    },
+    "tip": "Drops the e before an ending: ein teures Auto, teure Schuhe (not teueres)."
   },
   {
     "word": "billig",
     "en": "cheap",
-    "opposite": "teuer"
+    "opposite": "teuer",
+    "example": {
+      "de": "Die Schuhe sind sehr billig.",
+      "en": "The shoes are very cheap."
+    },
+    "tip": "billig can hint at poor quality; günstig is the polite, neutral word for a good price."
   },
   {
     "word": "günstig",
     "en": "good value",
-    "opposite": "teuer"
+    "opposite": "teuer",
+    "example": {
+      "de": "Das Hotel ist günstig und sauber.",
+      "en": "The hotel is good value and clean."
+    },
+    "tip": "Also \"favourable/convenient\": ein günstiger Zeitpunkt. Preferred over billig in ads and polite speech."
   },
   {
     "word": "reich",
     "en": "rich",
-    "opposite": "arm"
+    "opposite": "arm",
+    "example": {
+      "de": "Mein Onkel ist sehr reich.",
+      "en": "My uncle is very rich."
+    },
+    "tip": "Don't mix up with das Reich (realm) in Österreich, Frankreich. reich an + Dativ = rich in."
   },
   {
     "word": "arm",
     "en": "poor",
-    "opposite": "reich"
+    "opposite": "reich",
+    "example": {
+      "de": "Die Familie ist arm und hat wenig Geld.",
+      "en": "The family is poor and has little money."
+    },
+    "tip": "Same spelling as der Arm (the body part). Du Armer! / Du Arme! = you poor thing."
   },
   {
     "word": "warm",
     "en": "warm",
-    "opposite": "kalt"
+    "opposite": "kalt",
+    "example": {
+      "de": "Im Sommer ist es hier sehr warm.",
+      "en": "In summer it's very warm here."
+    },
+    "tip": "Umlaut in the comparative: warm – wärmer – am wärmsten. Mir ist warm (Dativ) = I feel warm."
   },
   {
     "word": "kalt",
     "en": "cold",
-    "opposite": "warm"
+    "opposite": "warm",
+    "example": {
+      "de": "Im Winter ist es in Berlin sehr kalt.",
+      "en": "In winter it's very cold in Berlin."
+    },
+    "tip": "Mir ist kalt (Dativ) = I'm cold. \"Ich bin kalt\" would mean you're a cold person. Comparative: kälter."
   },
   {
     "word": "heiß",
     "en": "hot",
-    "opposite": "kalt"
+    "opposite": "kalt",
+    "example": {
+      "de": "Der Kaffee ist noch sehr heiß.",
+      "en": "The coffee is still very hot."
+    },
+    "tip": "Mir ist heiß (Dativ) = I feel hot. Spicy food is scharf, not heiß. Note the ß."
   },
   {
     "word": "kühl",
     "en": "cool",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Am Abend ist es oft kühl.",
+      "en": "In the evening it's often cool."
+    },
+    "tip": "der Kühlschrank (fridge) = \"cool cupboard\". Also describes a distant person: Er ist kühl zu mir."
   },
   {
     "word": "nass",
     "en": "wet",
-    "opposite": "trocken"
+    "opposite": "trocken",
+    "example": {
+      "de": "Meine Jacke ist ganz nass.",
+      "en": "My jacket is completely wet."
+    },
+    "tip": "Short vowel → ss, not ß. nass werden = to get wet: Ich bin nass geworden."
   },
   {
     "word": "trocken",
     "en": "dry",
-    "opposite": "nass"
+    "opposite": "nass",
+    "example": {
+      "de": "Die Wäsche ist schon trocken.",
+      "en": "The washing is already dry."
+    },
+    "tip": "Also for wine (trockener Wein = dry wine) and humour (trockener Humor)."
   },
   {
     "word": "sauber",
     "en": "clean",
-    "opposite": "schmutzig"
+    "opposite": "schmutzig",
+    "example": {
+      "de": "Die Küche ist jetzt sauber.",
+      "en": "The kitchen is clean now."
+    },
+    "tip": "sauber machen = to clean: Ich mache das Bad sauber. Also \"neat/proper\": saubere Arbeit."
   },
   {
     "word": "schmutzig",
     "en": "dirty",
-    "opposite": "sauber"
+    "opposite": "sauber",
+    "example": {
+      "de": "Meine Schuhe sind sehr schmutzig.",
+      "en": "My shoes are very dirty."
+    },
+    "tip": "From der Schmutz (dirt). Colloquial synonym: dreckig. schmutzig machen = to get something dirty."
   },
   {
     "word": "hell",
     "en": "bright, light",
-    "opposite": "dunkel"
+    "opposite": "dunkel",
+    "example": {
+      "de": "Das Zimmer ist sehr hell.",
+      "en": "The room is very bright."
+    },
+    "tip": "False friend: 'hell' means bright, not the English hell (die Hölle). 'Helles Bier' = pale lager."
   },
   {
     "word": "dunkel",
     "en": "dark",
-    "opposite": "hell"
+    "opposite": "hell",
+    "example": {
+      "de": "Im Winter ist es um fünf Uhr schon dunkel.",
+      "en": "In winter it is already dark at five o'clock."
+    },
+    "tip": "Drops the -e- before endings: 'ein dunkles Zimmer', 'die dunkle Jacke' (never 'dunkeles')."
   },
   {
     "word": "laut",
     "en": "loud",
-    "opposite": "leise"
+    "opposite": "leise",
+    "example": {
+      "de": "Die Musik ist zu laut.",
+      "en": "The music is too loud."
+    },
+    "tip": "Also an adverb: 'Sprich bitte lauter!' = speak up; 'laut lesen' = read aloud."
   },
   {
     "word": "leise",
     "en": "quiet",
-    "opposite": "laut"
+    "opposite": "laut",
+    "example": {
+      "de": "Die Kinder sprechen sehr leise.",
+      "en": "The children are speaking very quietly."
+    },
+    "tip": "leise = low volume (sounds, voices); ruhig = calm/peaceful. 'Leiser, bitte!' = quieter, please."
   },
   {
     "word": "voll",
     "en": "full",
-    "opposite": "leer"
+    "opposite": "leer",
+    "example": {
+      "de": "Der Bus ist heute sehr voll.",
+      "en": "The bus is very full today."
+    },
+    "tip": "After eating say 'Ich bin satt', not 'Ich bin voll' – that means 'I'm drunk'."
   },
   {
     "word": "leer",
     "en": "empty",
-    "opposite": "voll"
+    "opposite": "voll",
+    "example": {
+      "de": "Die Flasche ist leer.",
+      "en": "The bottle is empty."
+    },
+    "tip": "Also for batteries and tanks: 'Der Akku ist leer' = the battery is dead. Long vowel: leer rhymes with mehr."
   },
   {
     "word": "offen",
     "en": "open",
-    "opposite": "geschlossen"
+    "opposite": "geschlossen",
+    "example": {
+      "de": "Das Fenster ist offen.",
+      "en": "The window is open."
+    },
+    "tip": "Shop signs say 'geöffnet'; in speech 'Der Laden ist offen' is fine. Also = frank: 'offen sagen'."
   },
   {
     "word": "geschlossen",
     "en": "closed",
-    "opposite": "offen"
+    "opposite": "offen",
+    "example": {
+      "de": "Am Sonntag sind die Geschäfte geschlossen.",
+      "en": "On Sunday the shops are closed."
+    },
+    "tip": "Partizip II of schließen used as an adjective. Colloquial 'zu': 'Der Laden ist zu.' Sign opposite: geöffnet."
   },
   {
     "word": "richtig",
     "en": "correct",
-    "opposite": "falsch"
+    "opposite": "falsch",
+    "example": {
+      "de": "Die Antwort ist richtig.",
+      "en": "The answer is correct."
+    },
+    "tip": "Also 'real/proper' and an intensifier: 'richtig gut' = really good. Don't confuse with 'rechts' (right side)."
   },
   {
     "word": "falsch",
     "en": "wrong",
-    "opposite": "richtig"
+    "opposite": "richtig",
+    "example": {
+      "de": "Das ist die falsche Nummer.",
+      "en": "That is the wrong number."
+    },
+    "tip": "Also 'false/fake': 'ein falscher Name'. On the phone: 'Sie sind falsch verbunden' = wrong number."
   },
   {
     "word": "wichtig",
     "en": "important",
-    "opposite": "unwichtig"
+    "opposite": "unwichtig",
+    "example": {
+      "de": "Das ist ein wichtiger Termin.",
+      "en": "That is an important appointment."
+    },
+    "tip": "wichtig für + Akkusativ: 'Das ist wichtig für mich / für dich.'"
   },
   {
     "word": "einfach",
     "en": "simple, easy",
-    "opposite": "schwierig"
+    "opposite": "schwierig",
+    "example": {
+      "de": "Die Aufgabe ist ganz einfach.",
+      "en": "The task is really easy."
+    },
+    "tip": "Also 'just': 'Ruf einfach an!' At the ticket counter 'einfach' = one-way (vs. 'hin und zurück')."
   },
   {
     "word": "schwierig",
     "en": "difficult",
-    "opposite": "einfach"
+    "opposite": "einfach",
+    "example": {
+      "de": "Deutsch ist nicht so schwierig.",
+      "en": "German is not that difficult."
+    },
+    "tip": "schwer also means difficult (and heavy); schwierig is only 'difficult'. Other opposite: leicht."
   },
   {
     "word": "interessant",
     "en": "interesting",
-    "opposite": "langweilig"
+    "opposite": "langweilig",
+    "example": {
+      "de": "Das Buch ist sehr interessant.",
+      "en": "The book is very interesting."
+    },
+    "tip": "Stress on the last syllable: interesSANT. Related: sich interessieren für + Akkusativ."
   },
   {
     "word": "langweilig",
     "en": "boring",
-    "opposite": "interessant"
+    "opposite": "interessant",
+    "example": {
+      "de": "Der Film ist langweilig.",
+      "en": "The film is boring."
+    },
+    "tip": "'Mir ist langweilig' (Dativ) = I'm bored. 'Ich bin langweilig' means I'm a boring person!"
   },
   {
     "word": "bekannt",
     "en": "well known",
-    "opposite": "unbekannt"
+    "opposite": "unbekannt",
+    "example": {
+      "de": "Der Sänger ist in Deutschland sehr bekannt.",
+      "en": "The singer is very well known in Germany."
+    },
+    "tip": "From kennen. 'Das kommt mir bekannt vor' = that seems familiar. Noun: der/die Bekannte = acquaintance."
   },
   {
     "word": "fremd",
     "en": "foreign, unfamiliar",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Stadt ist mir noch fremd.",
+      "en": "The city is still unfamiliar to me."
+    },
+    "tip": "'Das ist mir fremd' takes Dativ. Fremdsprache = foreign language; der/die Fremde = stranger."
   },
   {
     "word": "frei",
     "en": "free, vacant",
-    "opposite": "besetzt"
+    "opposite": "besetzt",
+    "example": {
+      "de": "Ist dieser Platz noch frei?",
+      "en": "Is this seat still free?"
+    },
+    "tip": "'Ich habe heute frei' = I have the day off. 'Free of charge' is usually kostenlos/gratis (but: 'Eintritt frei')."
   },
   {
     "word": "besetzt",
     "en": "occupied, taken",
-    "opposite": "frei"
+    "opposite": "frei",
+    "example": {
+      "de": "Die Toilette ist leider besetzt.",
+      "en": "Unfortunately the toilet is occupied."
+    },
+    "tip": "Partizip II of besetzen. On the phone 'Es ist besetzt' = the line is busy."
   },
   {
     "word": "fertig",
     "en": "finished, ready",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich bin mit der Arbeit fertig.",
+      "en": "I am finished with the work."
+    },
+    "tip": "fertig mit + Dativ = done with. Colloquially 'Ich bin fertig' can also mean 'I'm exhausted'."
   },
   {
     "word": "möglich",
     "en": "possible",
-    "opposite": "unmöglich"
+    "opposite": "unmöglich",
+    "example": {
+      "de": "Ein Termin am Montag ist möglich.",
+      "en": "An appointment on Monday is possible."
+    },
+    "tip": "'so schnell wie möglich' = as soon as possible. Noun: die Möglichkeit (-keit → die)."
   },
   {
     "word": "nötig",
     "en": "necessary",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Das ist nicht nötig, danke.",
+      "en": "That's not necessary, thanks."
+    },
+    "tip": "'Nicht nötig!' is a polite refusal (no need). 'etwas nötig haben' = to need something; formal synonym: notwendig."
   },
   {
     "word": "sicher",
     "en": "safe, certain",
-    "opposite": "unsicher"
+    "opposite": "unsicher",
+    "example": {
+      "de": "Diese Straße ist nachts sehr sicher.",
+      "en": "This street is very safe at night."
+    },
+    "tip": "Also 'sure' (Bist du sicher?) and adverb 'certainly': 'Er kommt sicher.' = He'll surely come."
   },
   {
     "word": "ruhig",
     "en": "calm, quiet",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Straße ist am Sonntag sehr ruhig.",
+      "en": "The street is very quiet on Sunday."
+    },
+    "tip": "ruhig = calm/peaceful (places, people); leise = low volume. Particle: 'Komm ruhig rein!' = go ahead, come in."
   },
   {
     "word": "weit",
     "en": "far",
-    "opposite": "nah"
+    "opposite": "nah",
+    "example": {
+      "de": "Die Schule ist nicht weit von hier.",
+      "en": "The school is not far from here."
+    },
+    "tip": "Also 'wide/loose' for clothes: ein weites Hemd. Distance question: Wie weit ist es bis zum Bahnhof?"
   },
   {
     "word": "nah",
     "en": "near",
-    "opposite": "weit"
+    "opposite": "weit",
+    "example": {
+      "de": "Der Bahnhof ist ganz nah.",
+      "en": "The train station is very close."
+    },
+    "tip": "Irregular comparison: nah – näher – am nächsten. Everyday phrase: in der Nähe (nearby): Ist hier eine Bank in der Nähe?"
   },
   {
     "word": "stark",
     "en": "strong",
-    "opposite": "schwach"
+    "opposite": "schwach",
+    "example": {
+      "de": "Der Kaffee ist sehr stark.",
+      "en": "The coffee is very strong."
+    },
+    "tip": "Umlaut in comparison: stark – stärker – am stärksten. Also for coffee, rain, wind: starker Regen."
   },
   {
     "word": "schwach",
     "en": "weak",
-    "opposite": "stark"
+    "opposite": "stark",
+    "example": {
+      "de": "Der Tee ist zu schwach.",
+      "en": "The tea is too weak."
+    },
+    "tip": "Umlaut in comparison: schwach – schwächer – am schwächsten. 'schwach in Mathe' = bad at maths."
   },
   {
     "word": "zufrieden",
     "en": "satisfied",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich bin mit meiner Arbeit zufrieden.",
+      "en": "I am satisfied with my work."
+    },
+    "tip": "Takes mit + Dativ: zufrieden mit dem Essen. The opposite is simply unzufrieden."
   },
   {
     "word": "verheiratet",
     "en": "married",
-    "opposite": "ledig"
+    "opposite": "ledig",
+    "example": {
+      "de": "Meine Schwester ist seit zwei Jahren verheiratet.",
+      "en": "My sister has been married for two years."
+    },
+    "tip": "verheiratet mit + Dativ: mit einem Arzt verheiratet. seit + present tense = 'has been married for'."
   },
   {
     "word": "ledig",
     "en": "single, unmarried",
-    "opposite": "verheiratet"
+    "opposite": "verheiratet",
+    "example": {
+      "de": "Mein Bruder ist noch ledig.",
+      "en": "My brother is still single."
+    },
+    "tip": "Official/form word (Familienstand: ledig). In conversation people say 'Ich bin Single' or 'nicht verheiratet'."
   },
   {
     "word": "lecker",
     "en": "delicious",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Pizza schmeckt sehr lecker.",
+      "en": "The pizza tastes really delicious."
+    },
+    "tip": "Informal and very common; 'Lecker!' alone means 'Yummy!'. Pairs with schmecken: Das schmeckt lecker."
   },
   {
     "word": "süß",
     "en": "sweet",
-    "opposite": "sauer"
+    "opposite": "sauer",
+    "example": {
+      "de": "Der Kuchen ist mir zu süß.",
+      "en": "The cake is too sweet for me."
+    },
+    "tip": "Also 'cute': ein süßes Baby, eine süße Katze. Long ü, so it is spelled with ß."
   },
   {
     "word": "sauer",
     "en": "sour",
-    "opposite": "süß"
+    "opposite": "süß",
+    "example": {
+      "de": "Die Zitrone ist sehr sauer.",
+      "en": "The lemon is very sour."
+    },
+    "tip": "Colloquially 'annoyed': Ich bin sauer auf dich. Comparative drops the e: saurer."
   },
   {
     "word": "salzig",
     "en": "salty",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Suppe ist zu salzig.",
+      "en": "The soup is too salty."
+    },
+    "tip": "-ig turns nouns into adjectives: das Salz → salzig, der Hunger → hungrig, der Durst → durstig."
   },
   {
     "word": "scharf",
     "en": "spicy, sharp",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Das Essen ist mir zu scharf.",
+      "en": "The food is too spicy for me."
+    },
+    "tip": "Umlaut in comparison: scharf – schärfer – am schärfsten. Food: spicy/hot; knife: sharp."
   },
   {
     "word": "frisch",
     "en": "fresh",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Das Brot ist noch frisch.",
+      "en": "The bread is still fresh."
+    },
+    "tip": "Also chilly weather: Es ist frisch draußen. 'frisch gebacken' = freshly baked."
   },
   {
     "word": "rot",
     "en": "red",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich habe ein rotes Fahrrad.",
+      "en": "I have a red bicycle."
+    },
+    "tip": "Colour adjectives take normal endings: ein rotes Auto, die rote Tasche. 'rot werden' = to blush."
   },
   {
     "word": "blau",
     "en": "blue",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Der Himmel ist heute blau.",
+      "en": "The sky is blue today."
+    },
+    "tip": "Colloquial: blau sein = to be drunk; blaumachen = to skip work or school."
   },
   {
     "word": "grün",
     "en": "green",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich trinke gern grünen Tee.",
+      "en": "I like drinking green tea."
+    },
+    "tip": "Without an article the masculine ending changes: grüner Tee (nominative), but grünen Tee (accusative)."
   },
   {
     "word": "gelb",
     "en": "yellow",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Banane ist gelb.",
+      "en": "The banana is yellow."
+    },
+    "tip": "Final -b is pronounced like p: 'gelp'. The same devoicing happens in halb and lieb."
   },
   {
     "word": "schwarz",
     "en": "black",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Ich trinke meinen Kaffee schwarz.",
+      "en": "I drink my coffee black."
+    },
+    "tip": "Comparative with umlaut: schwärzer. schwarzfahren = to ride without a ticket; schwarz-weiß = black and white."
   },
   {
     "word": "weiß",
     "en": "white",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Das Hemd ist weiß.",
+      "en": "The shirt is white."
+    },
+    "tip": "Looks like 'ich weiß' (I know, from wissen); context tells them apart. ei is a diphthong, so ß not ss."
   },
   {
     "word": "braun",
     "en": "brown",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Sie hat braune Haare.",
+      "en": "She has brown hair."
+    },
+    "tip": "Hair is usually plural: braune Haare (singular braunes Haar also exists). braun werden = to get a tan."
   },
   {
     "word": "grau",
     "en": "grey",
-    "opposite": null
+    "opposite": null,
+    "example": {
+      "de": "Die Katze ist grau.",
+      "en": "The cat is grey."
+    },
+    "tip": "Also for overcast weather: Der Himmel ist grau. Comparative: grauer."
   }
 ]

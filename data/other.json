@@ -2,556 +2,1111 @@
   {
     "word": "wer",
     "en": "who",
-    "note": "Nominativ: wen = Akkusativ, wem = Dativ"
+    "note": "Nominativ: wen = Akkusativ, wem = Dativ",
+    "example": {
+      "de": "Wer ist das?",
+      "en": "Who is that?"
+    },
+    "tip": "Takes a singular verb: Wer kommt mit? (not kommen). Exception with sein + plural: Wer sind Sie? / Wer sind die Leute?"
   },
   {
     "word": "was",
     "en": "what",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Was machst du heute?",
+      "en": "What are you doing today?"
+    },
+    "tip": "Never changes form (no wen/wem version). In casual speech was = etwas: Ich habe was gekauft."
   },
   {
     "word": "wo",
     "en": "where (location)",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wo wohnst du?",
+      "en": "Where do you live?"
+    },
+    "tip": "Only for a place you are at (answer with Dativ: in der Stadt). Movement = wohin, origin = woher."
   },
   {
     "word": "wann",
     "en": "when",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wann beginnt der Kurs?",
+      "en": "When does the course start?"
+    },
+    "tip": "Only in questions about time. The conjunction 'when' is wenn (or als for the past): Wenn ich Zeit habe, ..."
   },
   {
     "word": "wie",
     "en": "how",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wie komme ich zum Bahnhof?",
+      "en": "How do I get to the train station?"
+    },
+    "tip": "Also 'like/as' in comparisons: so groß wie ich. German uses wie where English says what: Wie heißt du?"
   },
   {
     "word": "warum",
     "en": "why",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Warum lernst du Deutsch?",
+      "en": "Why are you learning German?"
+    },
+    "tip": "Answer with weil, which sends the verb to the end: Weil ich in Berlin wohne. Synonyms: wieso, weshalb."
   },
   {
     "word": "wohin",
     "en": "where to",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wohin fährst du im Urlaub?",
+      "en": "Where are you going on holiday?"
+    },
+    "tip": "Asks for a destination; the answer takes Akkusativ after in/an/auf: in die Stadt. Also split: Wo fährst du hin?"
   },
   {
     "word": "woher",
     "en": "where from",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Woher kommst du?",
+      "en": "Where are you from?"
+    },
+    "tip": "Answer with aus + Dativ: aus Berlin, aus der Schweiz, aus den USA. Also split: Wo kommst du her?"
   },
   {
     "word": "welcher",
     "en": "which",
-    "note": "takes der/die/das endings"
+    "note": "takes der/die/das endings",
+    "example": {
+      "de": "Welcher Bus fährt zum Bahnhof?",
+      "en": "Which bus goes to the station?"
+    },
+    "tip": "Akkusativ masculine is welchen: Welchen Bus nimmst du? The answer usually uses dieser/diese/dieses."
   },
   {
     "word": "wie viel",
     "en": "how much",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wie viel kostet das Brot?",
+      "en": "How much does the bread cost?"
+    },
+    "tip": "Two words in modern spelling (old: wieviel). Wie viel Uhr ist es? = What time is it?"
   },
   {
     "word": "wie viele",
     "en": "how many",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wie viele Kinder hast du?",
+      "en": "How many children do you have?"
+    },
+    "tip": "Use with countable plural nouns (Wie viele Äpfel?); uncountable nouns take wie viel (Wie viel Zeit?)."
   },
   {
     "word": "wie lange",
     "en": "how long",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wie lange dauert der Film?",
+      "en": "How long does the film last?"
+    },
+    "tip": "Asks about duration only: Wie lange dauert ...? The length of an object is Wie lang ist ...?"
   },
   {
     "word": "wie oft",
     "en": "how often",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wie oft gehst du ins Kino?",
+      "en": "How often do you go to the cinema?"
+    },
+    "tip": "Typical answers: jeden Tag, einmal pro Woche, manchmal, nie. Do not confuse with wie lange (duration)."
   },
   {
     "word": "was für ein",
     "en": "what kind of",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Was für ein Auto hast du?",
+      "en": "What kind of car do you have?"
+    },
+    "tip": "Only ein declines, by the noun's role, not by für: Was für einen Film magst du? No ein with plurals: Was für Filme?"
   },
   {
     "word": "null",
     "en": "zero",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Heute ist es null Grad.",
+      "en": "It is zero degrees today."
+    },
+    "tip": "Short u as in 'pull'. Phone numbers are read digit by digit: null drei null. Scores: zwei zu null."
   },
   {
     "word": "eins",
     "en": "one",
-    "note": "ein/eine before a noun"
+    "note": "ein/eine before a noun",
+    "example": {
+      "de": "Eins plus eins ist zwei.",
+      "en": "One plus one is two."
+    },
+    "tip": "Used for counting, maths and clock times (Es ist eins). With Uhr say ein Uhr: um ein Uhr, not um eins Uhr."
   },
   {
     "word": "zwei",
     "en": "two",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich habe zwei Brüder.",
+      "en": "I have two brothers."
+    },
+    "tip": "On the phone people often say zwo instead of zwei so it is not confused with drei."
   },
   {
     "word": "drei",
     "en": "three",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Kurs dauert drei Wochen.",
+      "en": "The course lasts three weeks."
+    },
+    "tip": "Ordinal is irregular: der dritte (not dreite). Thirty is dreißig with ß, unlike zwanzig, vierzig."
   },
   {
     "word": "vier",
     "en": "four",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir brauchen vier Stühle.",
+      "en": "We need four chairs."
+    },
+    "tip": "Pronounce v as f: 'feer'. Viertel (quarter) comes from vier: Viertel nach vier = quarter past four."
   },
   {
     "word": "fünf",
     "en": "five",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich arbeite fünf Tage pro Woche.",
+      "en": "I work five days a week."
+    },
+    "tip": "Keep the ü in fünfzehn and fünfzig. Pronounce ü with rounded lips, like French 'u' in 'tu'."
   },
   {
     "word": "sechs",
     "en": "six",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Zug fährt um sechs Uhr.",
+      "en": "The train leaves at six o'clock."
+    },
+    "tip": "chs sounds like ks: 'zeks'. The s disappears in sechzehn and sechzig (not sechszehn)."
   },
   {
     "word": "sieben",
     "en": "seven",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Sieben Kinder warten an der Haltestelle.",
+      "en": "Seven children are waiting at the bus stop."
+    },
+    "tip": "Drops -en in siebzehn and siebzig (not siebenzehn). Ordinal: der siebte."
   },
   {
     "word": "acht",
     "en": "eight",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Kind ist acht Jahre alt.",
+      "en": "The child is eight years old."
+    },
+    "tip": "ch after a is the throat sound of Bach, not 'k'. Ordinal: der achte; achtzehn and achtzig keep the t."
   },
   {
     "word": "neun",
     "en": "nine",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das macht neun Euro, bitte.",
+      "en": "That comes to nine euros, please."
+    },
+    "tip": "'eu' sounds like 'oy' in boy, so neun rhymes with 'coin'. 19 = neunzehn, 90 = neunzig."
   },
   {
     "word": "zehn",
     "en": "ten",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Bus kommt um zehn Uhr.",
+      "en": "The bus comes at ten o'clock."
+    },
+    "tip": "z = 'ts' and the h is silent, only lengthening the e: 'tsehn'. 13 to 19 all end in -zehn."
   },
   {
     "word": "elf",
     "en": "eleven",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Mein Bruder ist elf Jahre alt.",
+      "en": "My brother is eleven years old."
+    },
+    "tip": "elf and zwölf are the odd ones out: no -zehn, unlike dreizehn to neunzehn."
   },
   {
     "word": "zwölf",
     "en": "twelve",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir essen um zwölf Uhr zu Mittag.",
+      "en": "We have lunch at twelve o'clock."
+    },
+    "tip": "zwölf Uhr can be noon or midnight; add mittags or say Mitternacht to be clear. Round your lips for ö."
   },
   {
     "word": "dreizehn",
     "en": "thirteen",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Meine Schwester ist dreizehn Jahre alt.",
+      "en": "My sister is thirteen years old."
+    },
+    "tip": "Pattern unit + zehn, but watch sechzehn (no -s) and siebzehn (no -en)."
   },
   {
     "word": "zwanzig",
     "en": "twenty",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Buch kostet zwanzig Euro.",
+      "en": "The book costs twenty euros."
+    },
+    "tip": "Final -ig sounds like 'ich' in standard German: 'tsvantsich'. 20 to 90 all end in -zig except dreißig."
   },
   {
     "word": "einundzwanzig",
     "en": "twenty-one",
-    "note": "units first, then tens"
+    "note": "units first, then tens",
+    "example": {
+      "de": "Ich bin einundzwanzig Jahre alt.",
+      "en": "I am twenty-one years old."
+    },
+    "tip": "Written as one word, however long. The unit is 'ein', not 'eins': einundzwanzig, never *einsundzwanzig."
   },
   {
     "word": "dreißig",
     "en": "thirty",
-    "note": "note the ß"
+    "note": "note the ß",
+    "example": {
+      "de": "Die Pause dauert dreißig Minuten.",
+      "en": "The break lasts thirty minutes."
+    },
+    "tip": "The only tens number with -ßig; the others end in -zig. ß is a sharp 's': 'DRY-sich', while vierzig is 'FIR-tsich'."
   },
   {
     "word": "vierzig",
     "en": "forty",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Fahrt dauert vierzig Minuten.",
+      "en": "The trip takes forty minutes."
+    },
+    "tip": "Short i here: 'firtsich', unlike vier with its long 'ee'. Same short vowel in vierzehn (14)."
   },
   {
     "word": "fünfzig",
     "en": "fifty",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Jacke kostet fünfzig Euro.",
+      "en": "The jacket costs fifty euros."
+    },
+    "tip": "Regular fünf + zig, like fünfzehn. But 60 and 70 lose letters: sechzig, siebzig."
   },
   {
     "word": "hundert",
     "en": "hundred",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Hotel hat hundert Zimmer.",
+      "en": "The hotel has a hundred rooms."
+    },
+    "tip": "Usually no 'und' after hundert: hunderteins = 101. 'und' links units and tens: hundertdreiundzwanzig = 123."
   },
   {
     "word": "tausend",
     "en": "thousand",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Fahrrad kostet tausend Euro.",
+      "en": "The bicycle costs a thousand euros."
+    },
+    "tip": "German writes 1.000 with a point, not a comma; the comma is the decimal mark: 2,50 € = zwei Euro fünfzig."
   },
   {
     "word": "erste",
     "en": "first",
-    "note": "der erste Mai"
+    "note": "der erste Mai",
+    "example": {
+      "de": "Das ist mein erster Tag in Berlin.",
+      "en": "This is my first day in Berlin."
+    },
+    "tip": "Takes normal adjective endings: der erste, mein erster, am ersten Mai. In dates a point marks the ordinal: 1. Mai."
   },
   {
     "word": "zweite",
     "en": "second",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das ist meine zweite Tasse Kaffee.",
+      "en": "That's my second cup of coffee."
+    },
+    "tip": "Ordinals 2 to 19 add -te (zweite, vierte, zehnte), except dritte, siebte, achte; from 20 on add -ste (zwanzigste)."
   },
   {
     "word": "dritte",
     "en": "third",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich bin zum dritten Mal in Berlin.",
+      "en": "I'm in Berlin for the third time."
+    },
+    "tip": "Irregular like erste: dritte, not *dreite. Also siebte (7th) and achte (8th). Key phrase: zum dritten Mal."
   },
   {
     "word": "heute",
     "en": "today",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Chef ist heute nicht im Büro.",
+      "en": "The boss isn't in the office today."
+    },
+    "tip": "heute Morgen, heute Abend = this morning/evening; the day-part is capitalised because it is a noun."
   },
   {
     "word": "gestern",
     "en": "yesterday",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Gestern war ich zu Hause.",
+      "en": "Yesterday I was at home."
+    },
+    "tip": "gestern Abend = last night, gestern Morgen = yesterday morning. Use a past form with it: Gestern war ich..."
   },
   {
     "word": "morgen",
     "en": "tomorrow",
-    "note": "der Morgen = the morning"
+    "note": "der Morgen = the morning",
+    "example": {
+      "de": "Morgen habe ich frei.",
+      "en": "Tomorrow I have the day off."
+    },
+    "tip": "Tomorrow morning is morgen früh (not morgen Morgen). Time word first puts the verb second: Morgen habe ich frei."
   },
   {
     "word": "übermorgen",
     "en": "the day after tomorrow",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Übermorgen fliege ich nach Spanien.",
+      "en": "The day after tomorrow I'm flying to Spain."
+    },
+    "tip": "über- here means 'beyond': one day beyond tomorrow. Stress the first syllable: ÜBERmorgen."
   },
   {
     "word": "vorgestern",
     "en": "the day before yesterday",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Vorgestern war ich beim Arzt.",
+      "en": "The day before yesterday I was at the doctor's."
+    },
+    "tip": "vor- means 'before': one day before yesterday. Sequence: vorgestern, gestern, heute, morgen, übermorgen."
   },
   {
     "word": "jetzt",
     "en": "now",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich muss jetzt gehen.",
+      "en": "I have to go now."
+    },
+    "tip": "j sounds like English y: 'yetst'. Useful pairs: bis jetzt = so far, jetzt gerade = right now."
   },
   {
     "word": "gleich",
     "en": "right away, in a moment",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Essen ist gleich fertig.",
+      "en": "The food will be ready in a moment."
+    },
+    "tip": "Also an adjective meaning 'same': der gleiche Film. 'Bis gleich!' = see you in a bit (sooner than bis bald)."
   },
   {
     "word": "bald",
     "en": "soon",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir sehen uns bald wieder.",
+      "en": "We'll see each other again soon."
+    },
+    "tip": "False friend: nothing to do with English 'bald'. 'Bis bald!' = see you soon, a very common goodbye."
   },
   {
     "word": "später",
     "en": "later",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir gehen später ins Kino.",
+      "en": "We're going to the cinema later."
+    },
+    "tip": "Bis später! = see you later. It is the comparative of spät (late): spät – später."
   },
   {
     "word": "immer",
     "en": "always",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich trinke morgens immer Kaffee.",
+      "en": "I always drink coffee in the morning."
+    },
+    "tip": "immer noch = still, immer wieder = again and again, für immer = forever."
   },
   {
     "word": "oft",
     "en": "often",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir gehen oft spazieren.",
+      "en": "We often go for a walk."
+    },
+    "tip": "Comparative: öfter (more often). Wie oft? = how often?"
   },
   {
     "word": "manchmal",
     "en": "sometimes",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Manchmal koche ich am Wochenende.",
+      "en": "Sometimes I cook at the weekend."
+    },
+    "tip": "Start the sentence with manchmal and the verb stays second: Manchmal koche ich … (subject after the verb)."
   },
   {
     "word": "selten",
     "en": "rarely",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich fahre selten mit dem Auto.",
+      "en": "I rarely go by car."
+    },
+    "tip": "Also an adjective: ein seltener Name (a rare name). Scale: immer – oft – manchmal – selten – nie."
   },
   {
     "word": "nie",
     "en": "never",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich esse nie Fleisch.",
+      "en": "I never eat meat."
+    },
+    "tip": "nie already negates; never add nicht. noch nie = never (so far), nie mehr = never again."
   },
   {
     "word": "schon",
     "en": "already",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich bin schon fertig.",
+      "en": "I'm already done."
+    },
+    "tip": "In questions schon (mal) = ever: Warst du schon mal in Berlin? Answer: Noch nicht (not yet)."
   },
   {
     "word": "noch",
     "en": "still, yet",
-    "note": "noch nicht = not yet"
+    "note": "noch nicht = not yet",
+    "example": {
+      "de": "Bist du noch im Büro?",
+      "en": "Are you still at the office?"
+    },
+    "tip": "noch ein/eine = one more, another: Noch einen Kaffee, bitte. Pair: schon (already) vs. noch nicht."
   },
   {
     "word": "wieder",
     "en": "again",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir sehen uns morgen wieder.",
+      "en": "We'll see each other again tomorrow."
+    },
+    "tip": "schon wieder = yet again (annoyed); immer wieder = again and again. Spelling: wieder with ie."
   },
   {
     "word": "endlich",
     "en": "finally",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Endlich ist Wochenende!",
+      "en": "It's finally the weekend!"
+    },
+    "tip": "endlich = at last (with relief). For the last step in a list use zum Schluss / schließlich, not endlich."
   },
   {
     "word": "zuerst",
     "en": "first of all",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Zuerst machen wir die Hausaufgaben.",
+      "en": "First we do the homework."
+    },
+    "tip": "Sequence words: zuerst – dann – danach – zum Schluss. Starting with zuerst puts the verb second."
   },
   {
     "word": "dann",
     "en": "then",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Dann gehen wir nach Hause.",
+      "en": "Then we go home."
+    },
+    "tip": "Also 'in that case': Dann bleibe ich zu Hause. After dann at the start, the verb comes next."
   },
   {
     "word": "danach",
     "en": "after that",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Danach trinken wir einen Kaffee.",
+      "en": "After that we have a coffee."
+    },
+    "tip": "da + nach = after that (after an event just mentioned). Opposite: davor. nachher = later on, i.e. after now."
   },
   {
     "word": "gerade",
     "en": "right now, just",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich koche gerade.",
+      "en": "I'm cooking right now."
+    },
+    "tip": "gerade + present tense = English -ing form: Ich esse gerade = I'm eating. Also 'straight' (geradeaus)."
   },
   {
     "word": "hier",
     "en": "here",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Hier ist mein Ausweis.",
+      "en": "Here is my ID."
+    },
+    "tip": "Position only. Movement towards the speaker: her / hierher: Komm her! Komm hierher! (Come here!)"
   },
   {
     "word": "da",
     "en": "there, here",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ist Frau Müller da?",
+      "en": "Is Ms Müller in?"
+    },
+    "tip": "Ist er da? = Is he in / present? da also starts the da-words: dafür, damit, danach."
   },
   {
     "word": "dort",
     "en": "over there",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Dort ist die Bushaltestelle.",
+      "en": "The bus stop is over there."
+    },
+    "tip": "dort = position; dorthin = movement: Ich gehe dorthin. dort sounds a bit more formal than da."
   },
   {
     "word": "oben",
     "en": "upstairs, above",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Bad ist oben.",
+      "en": "The bathroom is upstairs."
+    },
+    "tip": "Position only. Movement: nach oben (upstairs, up): Ich gehe nach oben. ganz oben = at the very top."
   },
   {
     "word": "unten",
     "en": "downstairs, below",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Küche ist unten.",
+      "en": "The kitchen is downstairs."
+    },
+    "tip": "Position: unten. Movement: nach unten (down, downstairs): Ich gehe nach unten."
   },
   {
     "word": "links",
     "en": "on the left",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Apotheke ist links.",
+      "en": "The pharmacy is on the left."
+    },
+    "tip": "Turning: nach links (to the left), links abbiegen. links von + Dativ: links von der Bank."
   },
   {
     "word": "rechts",
     "en": "on the right",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Post ist rechts.",
+      "en": "The post office is on the right."
+    },
+    "tip": "rechts abbiegen = turn right; nach rechts = to the right. rechts von + Dativ: rechts vom Bahnhof."
   },
   {
     "word": "geradeaus",
     "en": "straight ahead",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Gehen Sie immer geradeaus!",
+      "en": "Keep going straight ahead."
+    },
+    "tip": "immer geradeaus = keep going straight. Stress on the last part: gerade-AUS. Written as one word."
   },
   {
     "word": "draußen",
     "en": "outside",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Die Kinder spielen draußen.",
+      "en": "The children are playing outside."
+    },
+    "tip": "Opposite: drinnen (inside). Movement: nach draußen gehen. Spelled with ß after the diphthong au."
   },
   {
     "word": "drinnen",
     "en": "inside",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Heute bleiben wir drinnen.",
+      "en": "Today we're staying inside."
+    },
+    "tip": "Opposite: draußen (outside). Answers 'wo?' — a place adverb, not the preposition 'in'."
   },
   {
     "word": "überall",
     "en": "everywhere",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich suche meine Brille überall.",
+      "en": "I'm looking everywhere for my glasses."
+    },
+    "tip": "Stress on the last syllable: überALL. Opposite: nirgends / nirgendwo (nowhere)."
   },
   {
     "word": "nach Hause",
     "en": "(to) home",
-    "note": "movement towards home"
+    "note": "movement towards home",
+    "example": {
+      "de": "Ich gehe jetzt nach Hause.",
+      "en": "I'm going home now."
+    },
+    "tip": "Same 'nach' as in nach Berlin, nach Deutschland. Pair: nach Hause (going home) vs. zu Hause (being at home)."
   },
   {
     "word": "zu Hause",
     "en": "at home",
-    "note": "no movement"
+    "note": "no movement",
+    "example": {
+      "de": "Am Sonntag bin ich zu Hause.",
+      "en": "On Sunday I'm at home."
+    },
+    "tip": "Also spelled 'zuhause'. Answers 'wo?'; for going home say nach Hause, never 'zu Hause'."
   },
   {
     "word": "weg",
     "en": "away, gone",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Mein Handy ist weg!",
+      "en": "My phone is gone!"
+    },
+    "tip": "Short e: weg (gone) vs. der Weg with long e (the way). Also a separable prefix: weggehen, wegfahren."
   },
   {
     "word": "sehr",
     "en": "very",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Film ist sehr gut.",
+      "en": "The film is very good."
+    },
+    "tip": "Works with verbs too: 'Das gefällt mir sehr' (a lot). Fixed phrases: Danke sehr! Bitte sehr!"
   },
   {
     "word": "ziemlich",
     "en": "fairly, quite",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Hotel ist ziemlich teuer.",
+      "en": "The hotel is fairly expensive."
+    },
+    "tip": "Scale: ein bisschen < ziemlich < sehr. Spelled -ie- (ziemlich), pronounced 'tseem-lich'."
   },
   {
     "word": "ganz",
     "en": "whole, quite",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir sind den ganzen Tag im Park.",
+      "en": "We're in the park the whole day."
+    },
+    "tip": "'ganz gut' is only 'pretty good' (weaker than gut), but 'ganz allein' = completely alone. Adjective: den ganzen Tag."
   },
   {
     "word": "zu",
     "en": "too (excessively)",
-    "note": "zu teuer"
+    "note": "zu teuer",
+    "example": {
+      "de": "Die Jacke ist zu teuer.",
+      "en": "The jacket is too expensive."
+    },
+    "tip": "Goes right before the adjective: zu groß, zu spät. Same word as the preposition zu (+ Dativ), so watch the context."
   },
   {
     "word": "genug",
     "en": "enough",
-    "note": "comes after the adjective: gut genug"
+    "note": "comes after the adjective: gut genug",
+    "example": {
+      "de": "Das Wasser ist nicht warm genug.",
+      "en": "The water isn't warm enough."
+    },
+    "tip": "Usually before a noun: genug Geld, genug Zeit (Zeit genug is also fine). Always after adjectives/adverbs: schnell genug, gut genug."
   },
   {
     "word": "fast",
     "en": "almost",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Es ist fast acht Uhr.",
+      "en": "It's almost eight o'clock."
+    },
+    "tip": "False friend: nothing to do with English 'fast' (= schnell). Pronounced with a short 'a'."
   },
   {
     "word": "ungefähr",
     "en": "approximately",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich brauche ungefähr eine Stunde.",
+      "en": "I need approximately an hour."
+    },
+    "tip": "Synonyms: etwa, circa (ca.). Note the ä: ungefähr. Often with numbers and times: ungefähr 20 Euro."
   },
   {
     "word": "nur",
     "en": "only",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich habe nur zehn Euro.",
+      "en": "I only have ten euros."
+    },
+    "tip": "nur = only (amount/restriction); erst = only (so far, time): Ich habe nur 5 Euro. Es ist erst 8 Uhr."
   },
   {
     "word": "auch",
     "en": "also, too",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Meine Schwester lernt auch Deutsch.",
+      "en": "My sister is also learning German."
+    },
+    "tip": "Usually right after the verb: Ich lerne auch Deutsch. 'Ich auch!' = Me too! 'auch nicht' = not … either."
   },
   {
     "word": "besonders",
     "en": "especially",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Der Kuchen ist besonders gut.",
+      "en": "The cake is especially good."
+    },
+    "tip": "'nicht besonders' = not really / not very: Das Essen war nicht besonders gut. Adjective: besondere (special)."
   },
   {
     "word": "vielleicht",
     "en": "maybe",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Vielleicht regnet es morgen.",
+      "en": "Maybe it will rain tomorrow."
+    },
+    "tip": "At the start of a sentence the verb stays in position 2: Vielleicht komme ich. Spelling: viel + leicht."
   },
   {
     "word": "natürlich",
     "en": "of course",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Natürlich helfe ich dir.",
+      "en": "Of course I'll help you."
+    },
+    "tip": "From die Natur; also the adjective 'natural'. As a reply: 'Ja, natürlich!' / 'Natürlich nicht!'"
   },
   {
     "word": "leider",
     "en": "unfortunately",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich kann leider nicht kommen.",
+      "en": "Unfortunately, I can't come."
+    },
+    "tip": "Polite refusals: 'Leider nicht.' / 'Ich habe leider keine Zeit.' Can also start the sentence: Leider kann ich nicht."
   },
   {
     "word": "gern",
     "en": "gladly, willingly",
-    "note": "ich trinke gern Kaffee"
+    "note": "ich trinke gern Kaffee",
+    "example": {
+      "de": "Ich spiele gern Fußball.",
+      "en": "I like playing football."
+    },
+    "tip": "Verb + gern = 'like to': Ich schwimme gern = I like swimming. 'gerne' is the same word. Forms: gern – lieber – am liebsten."
   },
   {
     "word": "lieber",
     "en": "preferably, rather",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich trinke lieber Tee.",
+      "en": "I'd rather drink tea."
+    },
+    "tip": "Comparative of gern (gern – lieber – am liebsten). 'lieber … als': Ich trinke lieber Tee als Kaffee."
   },
   {
     "word": "am liebsten",
     "en": "most of all",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Am liebsten esse ich Pizza.",
+      "en": "I like eating pizza most of all."
+    },
+    "tip": "Superlative of gern: gern – lieber – am liebsten. Verb + am liebsten = 'like … best': Ich esse am liebsten Pizza."
   },
   {
     "word": "wirklich",
     "en": "really",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Das Buch ist wirklich gut.",
+      "en": "The book is really good."
+    },
+    "tip": "Alone as a question: 'Wirklich?' = Really? Related: die Wirklichkeit (reality). Also adjective: ein wirklicher Freund."
   },
   {
     "word": "eigentlich",
     "en": "actually",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Eigentlich habe ich keine Zeit.",
+      "en": "Actually, I don't have time."
+    },
+    "tip": "Softens questions: 'Wo wohnst du eigentlich?' (by the way). Don't use 'aktuell' for 'actually' — it means 'current'."
   },
   {
     "word": "hoffentlich",
     "en": "hopefully",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Hoffentlich kommt der Bus bald.",
+      "en": "Hopefully the bus will come soon."
+    },
+    "tip": "Means 'I hope (that)…'. If it starts the sentence, the verb comes right after it and the subject follows: 'Hoffentlich regnet es nicht.'"
   },
   {
     "word": "noch mal",
     "en": "again, once more",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Kannst du das bitte noch mal sagen?",
+      "en": "Can you say that again, please?"
+    },
+    "tip": "Colloquial short form of 'noch einmal' (also spelled 'nochmal'). Classroom staple: 'Noch mal, bitte!' = Once more, please."
   },
   {
     "word": "ja",
     "en": "yes",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Kommst du mit? – Ja, gern!",
+      "en": "Are you coming along? – Yes, gladly!"
+    },
+    "tip": "Inside a sentence 'ja' is a particle, not 'yes': 'Das ist ja toll!' = Wow, that's great! (something both speakers can see)."
   },
   {
     "word": "nein",
     "en": "no",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Nein, ich habe heute keine Zeit.",
+      "en": "No, I don't have time today."
+    },
+    "tip": "'nein' stands alone as an answer. Inside a sentence use 'nicht' or, before a noun with ein/no article, 'kein': 'Ich habe kein Auto.'"
   },
   {
     "word": "doch",
     "en": "yes (contradicting a negative)",
-    "note": "answer to a negative question"
+    "note": "answer to a negative question",
+    "example": {
+      "de": "Hast du keinen Hunger? – Doch, ich habe Hunger!",
+      "en": "Aren't you hungry? – Yes, I am hungry!"
+    },
+    "tip": "Use when someone expects 'no': 'Hast du kein Geld?' – 'Doch!' Also softens requests: 'Komm doch mit!'"
   },
   {
     "word": "bitte",
     "en": "please, you're welcome",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Einen Kaffee, bitte.",
+      "en": "A coffee, please."
+    },
+    "tip": "All-purpose: please; 'Bitte!' = you're welcome; 'Bitte schön' = here you are; 'Wie bitte?' = pardon?"
   },
   {
     "word": "danke",
     "en": "thank you",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Danke für den Kaffee!",
+      "en": "Thanks for the coffee!"
+    },
+    "tip": "'danke für' + Akkusativ. Reply: 'Bitte!' or 'Gern!' Trap: a bare 'Danke' to an offer often means 'no, thanks' – accept with 'Ja, bitte'."
   },
   {
     "word": "nicht",
     "en": "not",
-    "note": "negates verbs and adjectives"
+    "note": "negates verbs and adjectives",
+    "example": {
+      "de": "Ich verstehe das nicht.",
+      "en": "I don't understand that."
+    },
+    "tip": "nicht vs. kein: 'kein' replaces ein/no article (kein Auto, keine Zeit); 'nicht' elsewhere, usually near the end: 'Ich komme nicht.'"
   },
   {
     "word": "hallo",
     "en": "hello",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Hallo, ich heiße Anna.",
+      "en": "Hello, my name is Anna."
+    },
+    "tip": "Fine at any time of day, but slightly casual – with officials, doctors or in formal offices 'Guten Tag' is the safer choice."
   },
   {
     "word": "tschüss",
     "en": "bye",
-    "note": "informal"
+    "note": "informal",
+    "example": {
+      "de": "Tschüss, bis morgen!",
+      "en": "Bye, see you tomorrow!"
+    },
+    "tip": "Also spelled 'tschüs'. Fine even in shops and with strangers, just not in formal settings. Regional: 'Servus' (south/Austria), 'Ade' (southwest)."
   },
   {
     "word": "guten Tag",
     "en": "good day, hello",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Guten Tag, Frau Müller. Wie geht es Ihnen?",
+      "en": "Good day, Mrs Müller. How are you?"
+    },
+    "tip": "Daytime greeting (about 10–18h), formal-friendly. 'guten' is Akkusativ (wishing 'einen guten Tag'). South/Austria: 'Grüß Gott'."
   },
   {
     "word": "guten Morgen",
     "en": "good morning",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Guten Morgen! Möchtest du einen Kaffee?",
+      "en": "Good morning! Would you like a coffee?"
+    },
+    "tip": "Until about 10–11 a.m.; casual short form 'Morgen!'. Careful: 'der Morgen' = the morning, but lowercase 'morgen' = tomorrow."
   },
   {
     "word": "guten Abend",
     "en": "good evening",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Guten Abend, was möchten Sie trinken?",
+      "en": "Good evening, what would you like to drink?"
+    },
+    "tip": "From about 6 p.m., as a greeting only. When leaving in the evening say 'Schönen Abend noch' or, at bedtime, 'Gute Nacht'."
   },
   {
     "word": "gute Nacht",
     "en": "good night",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich bin müde. Gute Nacht!",
+      "en": "I'm tired. Good night!"
+    },
+    "tip": "Not a greeting – only when someone is off to bed or you part late at night. 'gute' (not 'guten') because 'die Nacht' is feminine."
   },
   {
     "word": "auf Wiedersehen",
     "en": "goodbye",
-    "note": "formal"
+    "note": "formal",
+    "example": {
+      "de": "Auf Wiedersehen, Herr Schmidt, bis Montag!",
+      "en": "Goodbye, Mr Schmidt, see you Monday!"
+    },
+    "tip": "Literally 'until we see each other again'. On the phone: 'Auf Wiederhören'. Casual short form: 'Wiedersehen!'"
   },
   {
     "word": "bis bald",
     "en": "see you soon",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich muss jetzt gehen. Bis bald!",
+      "en": "I have to go now. See you soon!"
+    },
+    "tip": "Pattern 'bis + time' = see you…: bis morgen, bis später, bis Montag, bis dann. Used when parting, never as a greeting."
   },
   {
     "word": "Entschuldigung",
     "en": "excuse me, sorry",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Entschuldigung, wo ist der Bahnhof?",
+      "en": "Excuse me, where is the train station?"
+    },
+    "tip": "-ung → die (die Entschuldigung). Use to get attention or apologise; for real regret add 'Es tut mir leid'. Verb form: 'Entschuldigen Sie!'"
   },
   {
     "word": "Wie geht's?",
     "en": "How are you?",
-    "note": "informal"
+    "note": "informal",
+    "example": {
+      "de": "Hallo Tom, wie geht's? – Danke, gut.",
+      "en": "Hi Tom, how are you? – Fine, thanks."
+    },
+    "tip": "Short for 'Wie geht es dir?'; formal: 'Wie geht es Ihnen?' (Dativ). Answer 'Gut, danke. Und dir/Ihnen?' – never 'Ich bin gut'."
   },
   {
     "word": "alles klar",
     "en": "all good, got it",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Wir treffen uns um acht. – Alles klar!",
+      "en": "We're meeting at eight. – Got it!"
+    },
+    "tip": "Also a question: 'Alles klar?' = Everything OK? / How's it going? Typical reply: 'Alles klar!' or 'Ja, alles gut.'"
   }
 ]

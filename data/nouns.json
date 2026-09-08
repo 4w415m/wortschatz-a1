@@ -3,2058 +3,3773 @@
     "gender": "der",
     "singular": "Mann",
     "plural": "Männer",
-    "en": "man"
+    "en": "man, husband",
+    "example": {
+      "de": "Mein Mann kommt heute spät nach Hause.",
+      "en": "My husband is coming home late today."
+    },
+    "tip": "'mein Mann' usually means 'my husband', just as 'meine Frau' means 'my wife'."
   },
   {
     "gender": "die",
     "singular": "Frau",
     "plural": "Frauen",
-    "en": "woman, wife"
+    "en": "woman, wife",
+    "example": {
+      "de": "Meine Frau und ich haben zwei Kinder.",
+      "en": "My wife and I have two children."
+    },
+    "tip": "Also the title Mrs/Ms: 'Frau Müller'. 'Fräulein' is outdated – use Frau for every adult woman."
   },
   {
     "gender": "das",
     "singular": "Kind",
     "plural": "Kinder",
-    "en": "child"
+    "en": "child",
+    "example": {
+      "de": "Das Kind spielt im Garten.",
+      "en": "The child is playing in the garden."
+    },
+    "tip": "Neuter for boys and girls alike; the bare -er plural (Kinder) is typical of short neuter nouns."
   },
   {
     "gender": "der",
     "singular": "Junge",
     "plural": "Jungen",
-    "en": "boy"
+    "en": "boy",
+    "example": {
+      "de": "Der Junge ist zehn Jahre alt.",
+      "en": "The boy is ten years old."
+    },
+    "tip": "N-declension: den/dem Jungen in every case except nominative singular. Colloquial plural: die Jungs."
   },
   {
     "gender": "das",
     "singular": "Mädchen",
     "plural": "Mädchen",
-    "en": "girl"
+    "en": "girl",
+    "example": {
+      "de": "Das Mädchen heißt Lena.",
+      "en": "The girl's name is Lena."
+    },
+    "tip": "-chen makes any noun neuter (das), which is why 'girl' is das Mädchen; -chen nouns never change in the plural."
   },
   {
     "gender": "die",
     "singular": "Familie",
     "plural": "Familien",
-    "en": "family"
+    "en": "family",
+    "example": {
+      "de": "Meine Familie wohnt in Berlin.",
+      "en": "My family lives in Berlin."
+    },
+    "tip": "Pronounce the ending: fa-MEE-lee-uh, not like English 'family'."
   },
   {
     "gender": "die",
     "singular": "Eltern",
-    "plural": null,
-    "en": "parents (plural only)"
+    "plural": "Eltern",
+    "en": "parents (plural only)",
+    "example": {
+      "de": "Meine Eltern wohnen in Hamburg.",
+      "en": "My parents live in Hamburg."
+    },
+    "tip": "Always takes a plural verb: 'Meine Eltern sind ...'. For one parent say Vater/Mutter (or 'ein Elternteil')."
   },
   {
     "gender": "der",
     "singular": "Vater",
     "plural": "Väter",
-    "en": "father"
+    "en": "father",
+    "example": {
+      "de": "Mein Vater ist Arzt.",
+      "en": "My father is a doctor."
+    },
+    "tip": "Informal: Papa. Also in compounds: Großvater, Schwiegervater (father-in-law)."
   },
   {
     "gender": "die",
     "singular": "Mutter",
     "plural": "Mütter",
-    "en": "mother"
+    "en": "mother",
+    "example": {
+      "de": "Meine Mutter kocht heute Suppe.",
+      "en": "My mother is cooking soup today."
+    },
+    "tip": "Informal: Mama. Also in compounds: Großmutter, Schwiegermutter (mother-in-law)."
   },
   {
     "gender": "der",
     "singular": "Sohn",
     "plural": "Söhne",
-    "en": "son"
+    "en": "son",
+    "example": {
+      "de": "Unser Sohn geht schon in die Schule.",
+      "en": "Our son already goes to school."
+    },
+    "tip": "The h lengthens the vowel: long 'o' (roughly as in 'zone'), not the short o of 'Sonne'."
   },
   {
     "gender": "die",
     "singular": "Tochter",
     "plural": "Töchter",
-    "en": "daughter"
+    "en": "daughter",
+    "example": {
+      "de": "Ihre Tochter ist drei Jahre alt.",
+      "en": "Her daughter is three years old."
+    },
+    "tip": "Pronunciation: 'ch' is the hard back sound as in Buch; in the plural Töchter it becomes the soft 'ch' as in ich."
   },
   {
     "gender": "der",
     "singular": "Bruder",
     "plural": "Brüder",
-    "en": "brother"
+    "en": "brother",
+    "example": {
+      "de": "Ich habe einen Bruder und zwei Schwestern.",
+      "en": "I have one brother and two sisters."
+    },
+    "tip": "'Brüder' means brothers only; brothers and sisters together are 'Geschwister'."
   },
   {
     "gender": "die",
     "singular": "Schwester",
     "plural": "Schwestern",
-    "en": "sister"
+    "en": "sister",
+    "example": {
+      "de": "Meine Schwester studiert in München.",
+      "en": "My sister is studying in Munich."
+    },
+    "tip": "Also means 'nurse' (short for Krankenschwester). One of the few family words with a simple -n plural."
   },
   {
     "gender": "die",
     "singular": "Geschwister",
-    "plural": null,
-    "en": "siblings (plural only)"
+    "plural": "Geschwister",
+    "en": "siblings (plural only)",
+    "example": {
+      "de": "Hast du Geschwister?",
+      "en": "Do you have any siblings?"
+    },
+    "tip": "Always plural, so the verb is plural too: 'Meine Geschwister wohnen in Köln.' Negative: 'keine Geschwister'."
   },
   {
     "gender": "der",
     "singular": "Opa",
     "plural": "Opas",
-    "en": "grandpa"
+    "en": "grandpa",
+    "example": {
+      "de": "Mein Opa ist 80 Jahre alt.",
+      "en": "My grandpa is 80 years old."
+    },
+    "tip": "Informal and far more common in speech than Großvater; note the long 'o': OH-pa."
   },
   {
     "gender": "die",
     "singular": "Oma",
     "plural": "Omas",
-    "en": "grandma"
+    "en": "grandma",
+    "example": {
+      "de": "Ich besuche meine Oma am Wochenende.",
+      "en": "I'm visiting my grandma at the weekend."
+    },
+    "tip": "Informal for Großmutter; 'Oma und Opa' is the everyday way to say grandparents (Großeltern)."
   },
   {
     "gender": "der",
     "singular": "Großvater",
     "plural": "Großväter",
-    "en": "grandfather"
+    "en": "grandfather",
+    "example": {
+      "de": "Mein Großvater liest gern Zeitung.",
+      "en": "My grandfather likes reading the newspaper."
+    },
+    "tip": "More formal than Opa. 'die Großeltern' (grandparents) is plural only, like Eltern."
   },
   {
     "gender": "die",
     "singular": "Großmutter",
     "plural": "Großmütter",
-    "en": "grandmother"
+    "en": "grandmother",
+    "example": {
+      "de": "Meine Großmutter backt einen Kuchen.",
+      "en": "My grandmother is baking a cake."
+    },
+    "tip": "More formal than Oma. Groß- means 'grand-' in family words (Großeltern, Großvater) but 'big' elsewhere (Großstadt = big city)."
   },
   {
     "gender": "der",
     "singular": "Freund",
     "plural": "Freunde",
-    "en": "friend (m), boyfriend"
+    "en": "friend (m), boyfriend",
+    "example": {
+      "de": "Ich gehe mit meinem Freund ins Kino.",
+      "en": "I'm going to the cinema with my boyfriend."
+    },
+    "tip": "'mein Freund' is usually 'my boyfriend'; for a platonic friend say 'ein Freund von mir'."
   },
   {
     "gender": "die",
     "singular": "Freundin",
     "plural": "Freundinnen",
-    "en": "friend (f), girlfriend"
+    "en": "friend (f), girlfriend",
+    "example": {
+      "de": "Ich telefoniere oft mit einer Freundin.",
+      "en": "I often talk on the phone with a friend."
+    },
+    "tip": "'meine Freundin' = my girlfriend; 'eine Freundin (von mir)' = a female friend."
   },
   {
     "gender": "der",
     "singular": "Kollege",
     "plural": "Kollegen",
-    "en": "colleague (m)"
+    "en": "colleague (m)",
+    "example": {
+      "de": "Mein Kollege kommt aus Spanien.",
+      "en": "My colleague is from Spain."
+    },
+    "tip": "N-declension: den/dem Kollegen. The final -e is pronounced: kol-LEH-ge."
   },
   {
     "gender": "die",
     "singular": "Kollegin",
     "plural": "Kolleginnen",
-    "en": "colleague (f)"
+    "en": "colleague (f)",
+    "example": {
+      "de": "Meine Kollegin ist sehr nett.",
+      "en": "My colleague is very nice."
+    },
+    "tip": "-in marks the female form and is always die; in the plural the n doubles (-innen), as in Lehrerinnen."
   },
   {
     "gender": "der",
     "singular": "Nachbar",
     "plural": "Nachbarn",
-    "en": "neighbour"
+    "en": "neighbour",
+    "example": {
+      "de": "Unser Nachbar hat einen Hund.",
+      "en": "Our neighbour has a dog."
+    },
+    "tip": "Takes -n in the singular too: den/dem Nachbarn. Female form: die Nachbarin."
   },
   {
     "gender": "der",
     "singular": "Mensch",
     "plural": "Menschen",
-    "en": "human, person"
+    "en": "human, person",
+    "example": {
+      "de": "In Berlin leben viele Menschen.",
+      "en": "Many people live in Berlin."
+    },
+    "tip": "N-declension: den/dem Menschen. 'Menschen' = people in general; 'Leute' is the casual word."
   },
   {
     "gender": "die",
     "singular": "Person",
     "plural": "Personen",
-    "en": "person"
+    "en": "person",
+    "example": {
+      "de": "Der Tisch ist für vier Personen.",
+      "en": "The table is for four people."
+    },
+    "tip": "Always die Person, even for a man. Used for counting: 'ein Tisch für zwei Personen'."
   },
   {
     "gender": "die",
     "singular": "Leute",
-    "plural": null,
-    "en": "people (plural only)"
+    "plural": "Leute",
+    "en": "people (plural only)",
+    "example": {
+      "de": "Die Leute im Bus sind sehr freundlich.",
+      "en": "The people on the bus are very friendly."
+    },
+    "tip": "Always takes a plural verb: 'Die Leute sind ...'. Menschen = people/humans in general; Leute = folks, the people around you."
   },
   {
     "gender": "der",
     "singular": "Herr",
     "plural": "Herren",
-    "en": "Mr, gentleman"
+    "en": "Mr, gentleman",
+    "example": {
+      "de": "Herr Müller ist unser Nachbar.",
+      "en": "Mr Müller is our neighbour."
+    },
+    "tip": "Weak noun: den/dem Herrn in the singular, Herren in the plural (Damen und Herren). Used like 'Mr' before surnames."
   },
   {
     "gender": "die",
     "singular": "Dame",
     "plural": "Damen",
-    "en": "lady"
+    "en": "lady",
+    "example": {
+      "de": "Die Dame an der Kasse ist sehr nett.",
+      "en": "The lady at the checkout is very nice."
+    },
+    "tip": "Formal letters open with 'Sehr geehrte Damen und Herren'. As a title before a name use Frau, never Dame."
   },
   {
     "gender": "das",
     "singular": "Baby",
     "plural": "Babys",
-    "en": "baby"
+    "en": "baby",
+    "example": {
+      "de": "Das Baby von meiner Schwester ist drei Monate alt.",
+      "en": "My sister's baby is three months old."
+    },
+    "tip": "English loanword: plural just adds -s (die Babys, not 'Babies'); pronounced roughly as in English."
   },
   {
     "gender": "der",
     "singular": "Gast",
     "plural": "Gäste",
-    "en": "guest"
+    "en": "guest",
+    "example": {
+      "de": "Am Samstag kommen viele Gäste zu uns.",
+      "en": "On Saturday a lot of guests are coming to our place."
+    },
+    "tip": "In a hotel, café or restaurant the customer is also der Gast; the host is der Gastgeber."
   },
   {
     "gender": "der",
     "singular": "Name",
     "plural": "Namen",
-    "en": "name"
+    "en": "name",
+    "example": {
+      "de": "Mein Name ist Anna Schmidt.",
+      "en": "My name is Anna Schmidt."
+    },
+    "tip": "Weak noun: den/dem Namen (Genitiv: des Namens). 'Wie ist dein Name?' means the same as 'Wie heißt du?'"
   },
   {
     "gender": "der",
     "singular": "Vorname",
     "plural": "Vornamen",
-    "en": "first name"
+    "en": "first name",
+    "example": {
+      "de": "Bitte schreiben Sie hier Ihren Vornamen.",
+      "en": "Please write your first name here."
+    },
+    "tip": "Declines like Name: den/dem Vornamen. Forms ask for Vorname and Nachname (or Familienname)."
   },
   {
     "gender": "der",
     "singular": "Nachname",
     "plural": "Nachnamen",
-    "en": "surname"
+    "en": "surname",
+    "example": {
+      "de": "Wie schreibt man Ihren Nachnamen?",
+      "en": "How do you spell your surname?"
+    },
+    "tip": "Synonym on official forms: Familienname. Weak noun like Name: den/dem Nachnamen."
   },
   {
     "gender": "die",
     "singular": "Adresse",
     "plural": "Adressen",
-    "en": "address"
+    "en": "address",
+    "example": {
+      "de": "Wie ist deine Adresse?",
+      "en": "What's your address?"
+    },
+    "tip": "Spelling trap: one d in German (Adresse). Ask 'Wie ist deine Adresse?', not 'Was ist ...'."
   },
   {
     "gender": "das",
     "singular": "Alter",
     "plural": null,
-    "en": "age"
+    "en": "age",
+    "example": {
+      "de": "Bitte schreiben Sie hier Ihren Namen und Ihr Alter.",
+      "en": "Please write your name and your age here."
+    },
+    "tip": "Mostly seen on forms. In conversation ask 'Wie alt bist du?', not 'Was ist dein Alter?'. Related to alt (old)."
   },
   {
     "gender": "der",
     "singular": "Beruf",
     "plural": "Berufe",
-    "en": "profession"
+    "en": "profession",
+    "example": {
+      "de": "Was sind Sie von Beruf?",
+      "en": "What do you do for a living?"
+    },
+    "tip": "Answer without an article: 'Ich bin Lehrerin (von Beruf)', not 'eine Lehrerin'. Informal: 'Was bist du von Beruf?'"
   },
   {
     "gender": "die",
     "singular": "Heimat",
     "plural": null,
-    "en": "homeland"
+    "en": "homeland",
+    "example": {
+      "de": "Meine Heimat ist Polen, aber ich wohne in Berlin.",
+      "en": "My homeland is Poland, but I live in Berlin."
+    },
+    "tip": "Heimat is where you come from and feel you belong; 'at home' (the place you live) is 'zu Hause'."
   },
   {
     "gender": "das",
     "singular": "Land",
     "plural": "Länder",
-    "en": "country, countryside"
+    "en": "country, countryside",
+    "example": {
+      "de": "Aus welchem Land kommst du?",
+      "en": "Which country are you from?"
+    },
+    "tip": "'auf dem Land' (Dativ) = in the countryside, opposite of 'in der Stadt'. A German federal state is das Bundesland."
   },
   {
     "gender": "die",
     "singular": "Stadt",
     "plural": "Städte",
-    "en": "city, town"
+    "en": "city, town",
+    "example": {
+      "de": "Ich fahre am Samstag in die Stadt.",
+      "en": "I'm going into town on Saturday."
+    },
+    "tip": "'in die Stadt' (Akkusativ, going there) vs 'in der Stadt' (Dativ, being there). Don't mix up with der Staat (state)."
   },
   {
     "gender": "die",
     "singular": "Sprache",
     "plural": "Sprachen",
-    "en": "language"
+    "en": "language",
+    "example": {
+      "de": "Welche Sprachen sprichst du?",
+      "en": "Which languages do you speak?"
+    },
+    "tip": "From the verb sprechen. Muttersprache = mother tongue, Fremdsprache = foreign language."
   },
   {
     "gender": "der",
     "singular": "Kopf",
     "plural": "Köpfe",
-    "en": "head"
+    "en": "head",
+    "example": {
+      "de": "Mir tut der Kopf weh.",
+      "en": "My head hurts."
+    },
+    "tip": "'Mir tut der Kopf weh' (Dativ mir + der) is the idiom; 'Mein Kopf tut weh' also works. Headache = Kopfschmerzen (usually plural)."
   },
   {
     "gender": "das",
     "singular": "Haar",
     "plural": "Haare",
-    "en": "hair"
+    "en": "hair",
+    "example": {
+      "de": "Sie hat lange, blonde Haare.",
+      "en": "She has long blond hair."
+    },
+    "tip": "Head hair is usually plural: 'die Haare', 'Ich wasche mir die Haare'. Singular das Haar = one hair, or hair in formal style."
   },
   {
     "gender": "das",
     "singular": "Auge",
     "plural": "Augen",
-    "en": "eye"
+    "en": "eye",
+    "example": {
+      "de": "Meine Schwester hat grüne Augen.",
+      "en": "My sister has green eyes."
+    },
+    "tip": "Ends in -e but is das (like das Ende) – an exception to the -e → die tendency. Augenblick = moment."
   },
   {
     "gender": "die",
     "singular": "Nase",
     "plural": "Nasen",
-    "en": "nose"
+    "en": "nose",
+    "example": {
+      "de": "Meine Nase läuft, weil ich erkältet bin.",
+      "en": "My nose is running because I have a cold."
+    },
+    "tip": "'Die Nase läuft' = runny nose; 'sich die Nase putzen' = to blow your nose."
   },
   {
     "gender": "der",
     "singular": "Mund",
     "plural": "Münder",
-    "en": "mouth"
+    "en": "mouth",
+    "example": {
+      "de": "Bitte machen Sie den Mund auf.",
+      "en": "Please open your mouth."
+    },
+    "tip": "'den Mund aufmachen' = open your mouth (separable: machen ... auf). An animal's mouth is das Maul, not Mund."
   },
   {
     "gender": "das",
     "singular": "Ohr",
     "plural": "Ohren",
-    "en": "ear"
+    "en": "ear",
+    "example": {
+      "de": "Mir tut das linke Ohr weh.",
+      "en": "My left ear hurts."
+    },
+    "tip": "Same pattern as das Auge / die Augen: neuter, plural in -en, no umlaut. Earache = Ohrenschmerzen (plural, like Kopfschmerzen)."
   },
   {
     "gender": "der",
     "singular": "Zahn",
     "plural": "Zähne",
-    "en": "tooth"
+    "en": "tooth",
+    "example": {
+      "de": "Ich putze mir morgens und abends die Zähne.",
+      "en": "I brush my teeth in the morning and in the evening."
+    },
+    "tip": "'sich die Zähne putzen' – reflexive Dativ (mir/dir) + die, no possessive. Zahnarzt = dentist, Zahnschmerzen = toothache."
   },
   {
     "gender": "der",
     "singular": "Hals",
     "plural": "Hälse",
-    "en": "neck, throat"
+    "en": "neck, throat",
+    "example": {
+      "de": "Mein Hals tut weh und ich habe Fieber.",
+      "en": "My throat hurts and I have a fever."
+    },
+    "tip": "Hals covers both neck and throat; sore throat = Halsschmerzen. The back of the neck is der Nacken."
   },
   {
     "gender": "der",
     "singular": "Arm",
     "plural": "Arme",
-    "en": "arm"
+    "en": "arm",
+    "example": {
+      "de": "Sie trägt das Baby auf dem Arm.",
+      "en": "She's carrying the baby in her arms."
+    },
+    "tip": "Don't confuse with the adjective arm (poor): der Arm vs 'arm sein'. 'auf dem Arm tragen' = to carry in one's arms."
   },
   {
     "gender": "die",
     "singular": "Hand",
     "plural": "Hände",
-    "en": "hand"
+    "en": "hand",
+    "example": {
+      "de": "Ich wasche mir vor dem Essen die Hände.",
+      "en": "I wash my hands before eating."
+    },
+    "tip": "'Ich wasche mir die Hände' – Dativ mir + die, no possessive. False friend: das Handy = mobile phone, not 'handy'."
   },
   {
     "gender": "der",
     "singular": "Finger",
     "plural": "Finger",
-    "en": "finger"
+    "en": "finger",
+    "example": {
+      "de": "Mein Finger tut weh.",
+      "en": "My finger hurts."
+    },
+    "tip": "Pronounced like English 'singer', not 'finger': there is no hard g after the ng-sound."
   },
   {
     "gender": "das",
     "singular": "Bein",
     "plural": "Beine",
-    "en": "leg"
+    "en": "leg",
+    "example": {
+      "de": "Er hat lange Beine.",
+      "en": "He has long legs."
+    },
+    "tip": "False friend: das Bein looks like 'bone' but means leg. Bone is der Knochen."
   },
   {
     "gender": "der",
     "singular": "Fuß",
     "plural": "Füße",
-    "en": "foot"
+    "en": "foot",
+    "example": {
+      "de": "Zu Fuß bin ich in zehn Minuten da.",
+      "en": "On foot I'm there in ten minutes."
+    },
+    "tip": "Key phrase: 'zu Fuß gehen' (to go on foot, to walk) - no article."
   },
   {
     "gender": "der",
     "singular": "Bauch",
     "plural": "Bäuche",
-    "en": "belly, stomach"
+    "en": "belly, stomach",
+    "example": {
+      "de": "Mein Bauch tut weh.",
+      "en": "My stomach hurts."
+    },
+    "tip": "Everyday word for the stomach area; der Magen is the organ. Bauchschmerzen = stomach ache."
   },
   {
     "gender": "der",
     "singular": "Rücken",
     "plural": "Rücken",
-    "en": "back"
+    "en": "back",
+    "example": {
+      "de": "Ich habe Schmerzen im Rücken.",
+      "en": "I have pain in my back."
+    },
+    "tip": "Common compound: Rückenschmerzen (back pain). Don't confuse with the adverb zurück (back = return)."
   },
   {
     "gender": "das",
     "singular": "Herz",
     "plural": "Herzen",
-    "en": "heart"
+    "en": "heart",
+    "example": {
+      "de": "Mein Herz schlägt schnell.",
+      "en": "My heart is beating fast."
+    },
+    "tip": "Slightly irregular: Dativ 'dem Herzen'. Related: herzlich (warm, hearty), as in 'Herzlich willkommen!'"
   },
   {
     "gender": "der",
     "singular": "Körper",
     "plural": "Körper",
-    "en": "body"
+    "en": "body",
+    "example": {
+      "de": "Der Körper braucht Wasser.",
+      "en": "The body needs water."
+    },
+    "tip": "Compounds: Körperteil (body part), Körpergröße (height). The ö is short: say 'e' as in 'bet' with rounded lips."
   },
   {
     "gender": "der",
     "singular": "Arzt",
     "plural": "Ärzte",
-    "en": "doctor (m)"
+    "en": "doctor (m)",
+    "example": {
+      "de": "Ich gehe morgen zum Arzt.",
+      "en": "I'm going to the doctor tomorrow."
+    },
+    "tip": "Go 'zum Arzt' (to the doctor), be 'beim Arzt' (at the doctor's). Pronounce the -rzt cluster: 'artst'."
   },
   {
     "gender": "die",
     "singular": "Ärztin",
     "plural": "Ärztinnen",
-    "en": "doctor (f)"
+    "en": "doctor (f)",
+    "example": {
+      "de": "Die Ärztin ist sehr nett.",
+      "en": "The doctor is very nice."
+    },
+    "tip": "Female form with -in, here with umlaut (Arzt → Ärztin, like Koch → Köchin). Feminine -in nouns pluralise with -innen."
   },
   {
     "gender": "die",
     "singular": "Praxis",
     "plural": "Praxen",
-    "en": "doctor's practice"
+    "en": "doctor's practice",
+    "example": {
+      "de": "Die Praxis ist heute geschlossen.",
+      "en": "The practice is closed today."
+    },
+    "tip": "Also 'die Arztpraxis'. In the plural -is becomes -en: Praxis → Praxen (cf. Basis → Basen)."
   },
   {
     "gender": "das",
     "singular": "Krankenhaus",
     "plural": "Krankenhäuser",
-    "en": "hospital"
+    "en": "hospital",
+    "example": {
+      "de": "Meine Oma ist im Krankenhaus.",
+      "en": "My grandma is in the hospital."
+    },
+    "tip": "Compounds take the gender of the last part (das Haus). 'ins Krankenhaus' = into hospital (motion), 'im Krankenhaus' = in hospital."
   },
   {
     "gender": "die",
     "singular": "Apotheke",
     "plural": "Apotheken",
-    "en": "pharmacy"
+    "en": "pharmacy",
+    "example": {
+      "de": "Ich kaufe die Tabletten in der Apotheke.",
+      "en": "I buy the tablets at the pharmacy."
+    },
+    "tip": "Sells medicine; a Drogerie sells toiletries. 'in der Apotheke' = at the pharmacy (Dativ)."
   },
   {
     "gender": "die",
     "singular": "Tablette",
     "plural": "Tabletten",
-    "en": "tablet, pill"
+    "en": "tablet, pill",
+    "example": {
+      "de": "Ich nehme morgens eine Tablette.",
+      "en": "I take a tablet in the morning."
+    },
+    "tip": "'eine Tablette nehmen' = take a pill. The device is 'das Tablet' - a different word."
   },
   {
     "gender": "der",
     "singular": "Schmerz",
     "plural": "Schmerzen",
-    "en": "pain"
+    "en": "pain",
+    "example": {
+      "de": "Hast du Schmerzen?",
+      "en": "Are you in pain?"
+    },
+    "tip": "Mostly used in the plural: 'Schmerzen haben', Kopfschmerzen, Bauchschmerzen. 'Es tut weh' = it hurts."
   },
   {
     "gender": "das",
     "singular": "Fieber",
     "plural": null,
-    "en": "fever"
+    "en": "fever",
+    "example": {
+      "de": "Das Kind hat Fieber.",
+      "en": "The child has a fever."
+    },
+    "tip": "No article: 'Fieber haben' (to have a fever). 'hohes Fieber' = high fever; 'Fieber messen' = take a temperature."
   },
   {
     "gender": "die",
     "singular": "Erkältung",
     "plural": "Erkältungen",
-    "en": "cold (illness)"
+    "en": "cold (illness)",
+    "example": {
+      "de": "Ich habe eine Erkältung.",
+      "en": "I have a cold."
+    },
+    "tip": "-ung nouns are always die. From 'sich erkälten' (catch a cold); 'Ich bin erkältet' = I have a cold."
   },
   {
     "gender": "der",
     "singular": "Termin",
     "plural": "Termine",
-    "en": "appointment"
+    "en": "appointment",
+    "example": {
+      "de": "Ich habe um zehn Uhr einen Termin.",
+      "en": "I have an appointment at ten o'clock."
+    },
+    "tip": "'einen Termin haben/machen' = have/make an appointment; 'beim Arzt' = at the doctor's. Also means deadline."
   },
   {
     "gender": "die",
     "singular": "Gesundheit",
     "plural": null,
-    "en": "health"
+    "en": "health",
+    "example": {
+      "de": "Gesundheit ist sehr wichtig.",
+      "en": "Health is very important."
+    },
+    "tip": "-heit nouns are always die. Say 'Gesundheit!' when someone sneezes (= bless you)."
   },
   {
     "gender": "das",
     "singular": "Haus",
     "plural": "Häuser",
-    "en": "house"
+    "en": "house",
+    "example": {
+      "de": "Wir wohnen in einem kleinen Haus.",
+      "en": "We live in a small house."
+    },
+    "tip": "'zu Hause' = at home (location); 'nach Hause' = home (going there)."
   },
   {
     "gender": "die",
     "singular": "Wohnung",
     "plural": "Wohnungen",
-    "en": "flat, apartment"
+    "en": "flat, apartment",
+    "example": {
+      "de": "Die Wohnung hat drei Zimmer.",
+      "en": "The flat has three rooms."
+    },
+    "tip": "-ung nouns are always die. From the verb wohnen (to live, reside); a Wohnung is a flat, not a house."
   },
   {
     "gender": "das",
     "singular": "Zimmer",
     "plural": "Zimmer",
-    "en": "room"
+    "en": "room",
+    "example": {
+      "de": "Mein Zimmer ist klein, aber schön.",
+      "en": "My room is small but nice."
+    },
+    "tip": "Neuter -er nouns don't change in the plural. Also a hotel room: 'ein Zimmer reservieren'."
   },
   {
     "gender": "die",
     "singular": "Küche",
     "plural": "Küchen",
-    "en": "kitchen"
+    "en": "kitchen",
+    "example": {
+      "de": "Wir essen in der Küche.",
+      "en": "We eat in the kitchen."
+    },
+    "tip": "Watch the umlaut: die Küche (kitchen) vs der Kuchen (cake)!"
   },
   {
     "gender": "das",
     "singular": "Bad",
     "plural": "Bäder",
-    "en": "bathroom"
+    "en": "bathroom",
+    "example": {
+      "de": "Das Bad ist neben der Küche.",
+      "en": "The bathroom is next to the kitchen."
+    },
+    "tip": "Short for das Badezimmer. Also 'das Schwimmbad' (swimming pool); verb: baden (to bathe)."
   },
   {
     "gender": "das",
     "singular": "Schlafzimmer",
     "plural": "Schlafzimmer",
-    "en": "bedroom"
+    "en": "bedroom",
+    "example": {
+      "de": "Das Schlafzimmer ist oben.",
+      "en": "The bedroom is upstairs."
+    },
+    "tip": "Compound of schlafen + Zimmer; the gender comes from the last part (das Zimmer)."
   },
   {
     "gender": "das",
     "singular": "Wohnzimmer",
     "plural": "Wohnzimmer",
-    "en": "living room"
+    "en": "living room",
+    "example": {
+      "de": "Wir sehen im Wohnzimmer fern.",
+      "en": "We watch TV in the living room."
+    },
+    "tip": "Compound of wohnen + Zimmer; gender from the last part (das Zimmer). 'im Wohnzimmer' = in the living room (Dativ)."
   },
   {
     "gender": "der",
     "singular": "Flur",
     "plural": "Flure",
-    "en": "hallway"
+    "en": "hallway",
+    "example": {
+      "de": "Die Schuhe stehen im Flur.",
+      "en": "The shoes are in the hallway."
+    },
+    "tip": "Also 'corridor'. Where something is takes Dativ: im Flur (= in dem Flur)."
   },
   {
     "gender": "der",
     "singular": "Balkon",
     "plural": "Balkone",
-    "en": "balcony"
+    "en": "balcony",
+    "example": {
+      "de": "Wir frühstücken auf dem Balkon.",
+      "en": "We have breakfast on the balcony."
+    },
+    "tip": "French loanword: stress the last syllable, bal-KON. The plural Balkons is also accepted."
   },
   {
     "gender": "der",
     "singular": "Garten",
     "plural": "Gärten",
-    "en": "garden"
+    "en": "garden",
+    "example": {
+      "de": "Die Kinder spielen im Garten.",
+      "en": "The children are playing in the garden."
+    },
+    "tip": "Also 'yard' in US English. Kindergarten is literally 'children's garden' and has the same plural pattern (Kindergärten)."
   },
   {
     "gender": "der",
     "singular": "Keller",
     "plural": "Keller",
-    "en": "cellar"
+    "en": "cellar",
+    "example": {
+      "de": "Mein Fahrrad steht im Keller.",
+      "en": "My bicycle is in the cellar."
+    },
+    "tip": "Also 'basement'. Nouns in -er usually keep the same form in the plural: der Keller – die Keller."
   },
   {
     "gender": "die",
     "singular": "Tür",
     "plural": "Türen",
-    "en": "door"
+    "en": "door",
+    "example": {
+      "de": "Bitte mach die Tür zu!",
+      "en": "Please close the door!"
+    },
+    "tip": "Key phrases: die Tür aufmachen / zumachen (open / close the door). Long ü and no -e at the end: die Tür."
   },
   {
     "gender": "das",
     "singular": "Fenster",
     "plural": "Fenster",
-    "en": "window"
+    "en": "window",
+    "example": {
+      "de": "Ich mache das Fenster auf.",
+      "en": "I open the window."
+    },
+    "tip": "Singular and plural look the same; only the article shows the number: das Fenster – die Fenster."
   },
   {
     "gender": "die",
     "singular": "Wand",
     "plural": "Wände",
-    "en": "wall"
+    "en": "wall",
+    "example": {
+      "de": "Die Wand in der Küche ist weiß.",
+      "en": "The wall in the kitchen is white."
+    },
+    "tip": "die Wand = a wall of a room or house; a free-standing stone or brick wall (garden wall, the Berlin Wall) is die Mauer. an der Wand = on the wall."
   },
   {
     "gender": "der",
     "singular": "Boden",
     "plural": "Böden",
-    "en": "floor, ground"
+    "en": "floor, ground",
+    "example": {
+      "de": "Die Tasche liegt auf dem Boden.",
+      "en": "The bag is lying on the floor."
+    },
+    "tip": "The floor you walk on, or the ground/soil. A storey of a building is der Stock / die Etage, never Boden."
   },
   {
     "gender": "die",
     "singular": "Treppe",
     "plural": "Treppen",
-    "en": "stairs"
+    "en": "stairs",
+    "example": {
+      "de": "Wir nehmen die Treppe, nicht den Aufzug.",
+      "en": "We take the stairs, not the lift."
+    },
+    "tip": "German uses the singular: die Treppe = 'the stairs' (one staircase). A single step is die Stufe."
   },
   {
     "gender": "der",
     "singular": "Tisch",
     "plural": "Tische",
-    "en": "table"
+    "en": "table",
+    "example": {
+      "de": "Die Familie sitzt am Tisch.",
+      "en": "The family is sitting at the table."
+    },
+    "tip": "Collocations: am Tisch sitzen (sit at the table), den Tisch decken (set the table)."
   },
   {
     "gender": "der",
     "singular": "Stuhl",
     "plural": "Stühle",
-    "en": "chair"
+    "en": "chair",
+    "example": {
+      "de": "Ich brauche noch einen Stuhl.",
+      "en": "I need one more chair."
+    },
+    "tip": "Umlaut in the plural: die Stühle. An armchair is der Sessel, not a Stuhl."
   },
   {
     "gender": "das",
     "singular": "Sofa",
     "plural": "Sofas",
-    "en": "sofa"
+    "en": "sofa",
+    "example": {
+      "de": "Abends sitzen wir auf dem Sofa.",
+      "en": "In the evening we sit on the sofa."
+    },
+    "tip": "Nouns ending in -a, -o or -i usually take -s in the plural: Sofas, Autos, Fotos, Taxis. Die Couch is a common synonym."
   },
   {
     "gender": "das",
     "singular": "Bett",
     "plural": "Betten",
-    "en": "bed"
+    "en": "bed",
+    "example": {
+      "de": "Ich gehe um zehn Uhr ins Bett.",
+      "en": "I go to bed at ten o'clock."
+    },
+    "tip": "ins Bett gehen (Akkusativ, movement) vs. im Bett liegen (Dativ, position)."
   },
   {
     "gender": "der",
     "singular": "Schrank",
     "plural": "Schränke",
-    "en": "cupboard, wardrobe"
+    "en": "cupboard, wardrobe",
+    "example": {
+      "de": "Meine Kleidung ist im Schrank.",
+      "en": "My clothes are in the wardrobe."
+    },
+    "tip": "General word for any cupboard; compounds narrow it down: Kleiderschrank (wardrobe), Kühlschrank (fridge)."
   },
   {
     "gender": "das",
     "singular": "Regal",
     "plural": "Regale",
-    "en": "shelf"
+    "en": "shelf",
+    "example": {
+      "de": "Die Bücher stehen im Regal.",
+      "en": "The books are on the shelf."
+    },
+    "tip": "Stress the 2nd syllable: re-GAL. Things stand 'im Regal' – German says 'in', English 'on' the shelf."
   },
   {
     "gender": "die",
     "singular": "Lampe",
     "plural": "Lampen",
-    "en": "lamp"
+    "en": "lamp",
+    "example": {
+      "de": "Die Lampe im Flur ist kaputt.",
+      "en": "The lamp in the hallway is broken."
+    },
+    "tip": "Nouns in -e are mostly feminine and add -n in the plural: die Lampe – die Lampen."
   },
   {
     "gender": "der",
     "singular": "Teppich",
     "plural": "Teppiche",
-    "en": "carpet"
+    "en": "carpet",
+    "example": {
+      "de": "Die Katze schläft auf dem Teppich.",
+      "en": "The cat is sleeping on the carpet."
+    },
+    "tip": "Also 'rug'. The ending -ich is pronounced with the soft ch of 'ich', not like English 'ick'."
   },
   {
     "gender": "der",
     "singular": "Spiegel",
     "plural": "Spiegel",
-    "en": "mirror"
+    "en": "mirror",
+    "example": {
+      "de": "Der Spiegel hängt im Bad.",
+      "en": "The mirror is hanging in the bathroom."
+    },
+    "tip": "Nouns in -el are usually der and unchanged in the plural (der Spiegel – die Spiegel). Also a famous German news magazine."
   },
   {
     "gender": "die",
     "singular": "Dusche",
     "plural": "Duschen",
-    "en": "shower"
+    "en": "shower",
+    "example": {
+      "de": "Ich gehe jetzt unter die Dusche.",
+      "en": "I'm getting in the shower now."
+    },
+    "tip": "Verb: duschen – 'Ich dusche jeden Morgen.' Idiom: unter die Dusche gehen (take a shower)."
   },
   {
     "gender": "die",
     "singular": "Toilette",
     "plural": "Toiletten",
-    "en": "toilet"
+    "en": "toilet",
+    "example": {
+      "de": "Entschuldigung, wo ist die Toilette?",
+      "en": "Excuse me, where is the toilet?"
+    },
+    "tip": "Pronounced to-a-LET-te, stress on 'let'. 'Wo ist die Toilette?' is essential; das WC and das Klo (informal) are also common."
   },
   {
     "gender": "der",
     "singular": "Kühlschrank",
     "plural": "Kühlschränke",
-    "en": "fridge"
+    "en": "fridge",
+    "example": {
+      "de": "Die Milch ist im Kühlschrank.",
+      "en": "The milk is in the fridge."
+    },
+    "tip": "Compound of kühl + Schrank: the last part decides gender and plural, so der Kühlschrank, die Kühlschränke."
   },
   {
     "gender": "der",
     "singular": "Herd",
     "plural": "Herde",
-    "en": "stove, cooker"
+    "en": "stove, cooker",
+    "example": {
+      "de": "Die Suppe steht auf dem Herd.",
+      "en": "The soup is on the stove."
+    },
+    "tip": "False friend: not 'herd' – a herd of animals is die Herde, which also happens to be the plural of Herd!"
   },
   {
     "gender": "die",
     "singular": "Miete",
     "plural": "Mieten",
-    "en": "rent"
+    "en": "rent",
+    "example": {
+      "de": "Die Miete ist 800 Euro im Monat.",
+      "en": "The rent is 800 euros a month."
+    },
+    "tip": "Related verbs: mieten (rent from someone), vermieten (rent out). The person who pays Miete is der Mieter."
   },
   {
     "gender": "der",
     "singular": "Schlüssel",
     "plural": "Schlüssel",
-    "en": "key"
+    "en": "key",
+    "example": {
+      "de": "Wo ist mein Schlüssel?",
+      "en": "Where is my key?"
+    },
+    "tip": "Plural is unchanged – listen for der/die Schlüssel. Comes from schließen (to close/lock)."
   },
   {
     "gender": "der",
     "singular": "Strom",
     "plural": null,
-    "en": "electricity"
+    "en": "electricity",
+    "example": {
+      "de": "Wir haben keinen Strom.",
+      "en": "We have no electricity."
+    },
+    "tip": "Literally 'stream/current'; in the sense of electricity it has no plural. 'Der Strom ist weg' = the power is out."
   },
   {
     "gender": "das",
     "singular": "Essen",
     "plural": null,
-    "en": "food, meal"
+    "en": "food, meal",
+    "example": {
+      "de": "Wie schmeckt dir das Essen?",
+      "en": "How do you like the food?"
+    },
+    "tip": "Same form as the verb essen; the capital letter marks the noun. essen gehen = to eat out; Essen und Trinken = food and drink."
   },
   {
     "gender": "das",
     "singular": "Frühstück",
     "plural": null,
-    "en": "breakfast"
+    "en": "breakfast",
+    "example": {
+      "de": "Zum Frühstück esse ich ein Brötchen.",
+      "en": "For breakfast I eat a bread roll."
+    },
+    "tip": "Collocation: zum Frühstück (for breakfast). The verb is frühstücken: Ich frühstücke um sieben."
   },
   {
     "gender": "das",
     "singular": "Mittagessen",
     "plural": null,
-    "en": "lunch"
+    "en": "lunch",
+    "example": {
+      "de": "Was gibt es heute zum Mittagessen?",
+      "en": "What's for lunch today?"
+    },
+    "tip": "Mittag + Essen: compounds take the gender of the last part (das). zum Mittagessen = for lunch; zu Mittag essen = to have lunch."
   },
   {
     "gender": "das",
     "singular": "Abendessen",
     "plural": null,
-    "en": "dinner"
+    "en": "dinner",
+    "example": {
+      "de": "Wir kochen zusammen das Abendessen.",
+      "en": "We cook dinner together."
+    },
+    "tip": "Also called Abendbrot in many homes (often a cold meal). zum Abendessen = for dinner."
   },
   {
     "gender": "das",
     "singular": "Brot",
     "plural": "Brote",
-    "en": "bread"
+    "en": "bread",
+    "example": {
+      "de": "Ich kaufe ein Brot beim Bäcker.",
+      "en": "I buy a loaf of bread at the baker's."
+    },
+    "tip": "Buying, ein Brot = a loaf; eating, ein Brot = a slice with topping: Ich mache mir ein Brot. A plain slice: eine Scheibe Brot."
   },
   {
     "gender": "das",
     "singular": "Brötchen",
     "plural": "Brötchen",
-    "en": "bread roll"
+    "en": "bread roll",
+    "example": {
+      "de": "Möchtest du ein Brötchen mit Käse?",
+      "en": "Would you like a bread roll with cheese?"
+    },
+    "tip": "-chen makes it das and the plural stays unchanged. Regional names: Semmel (south/Austria), Schrippe (Berlin), Weck (southwest)."
   },
   {
     "gender": "die",
     "singular": "Butter",
     "plural": null,
-    "en": "butter"
+    "en": "butter",
+    "example": {
+      "de": "Ich esse Brot mit Butter.",
+      "en": "I eat bread with butter."
+    },
+    "tip": "Uncountable, usually no article: Wir brauchen Butter. Note die Butter is feminine, unlike der Käse or der Zucker."
   },
   {
     "gender": "der",
     "singular": "Käse",
     "plural": null,
-    "en": "cheese"
+    "en": "cheese",
+    "example": {
+      "de": "Der Käse kommt aus der Schweiz.",
+      "en": "The cheese comes from Switzerland."
+    },
+    "tip": "Ends in -e but is der, an exception to the -e → die tendency. Long ä: KAY-ze. Käsebrot = bread with cheese."
   },
   {
     "gender": "die",
     "singular": "Wurst",
     "plural": "Würste",
-    "en": "sausage"
+    "en": "sausage",
+    "example": {
+      "de": "Die Wurst schmeckt sehr gut.",
+      "en": "The sausage tastes very good."
+    },
+    "tip": "Plural with umlaut: Würste. Informal idiom: Das ist mir wurst = I don't care. Wurstbrot = sausage sandwich."
   },
   {
     "gender": "das",
     "singular": "Fleisch",
     "plural": null,
-    "en": "meat"
+    "en": "meat",
+    "example": {
+      "de": "Ich esse kein Fleisch.",
+      "en": "I don't eat meat."
+    },
+    "tip": "Uncountable, so negate with kein: Ich esse kein Fleisch. Pronounce 'ei' as in 'eye' and 'sch' as 'sh'."
   },
   {
     "gender": "das",
     "singular": "Ei",
     "plural": "Eier",
-    "en": "egg"
+    "en": "egg",
+    "example": {
+      "de": "Ich esse jeden Morgen ein Ei.",
+      "en": "I eat an egg every morning."
+    },
+    "tip": "Plural Eier: the -er plural adds umlaut where it can (Buch → Bücher), but ei can't take one. 'Ei' sounds like English 'eye'."
   },
   {
     "gender": "der",
     "singular": "Fisch",
     "plural": "Fische",
-    "en": "fish"
+    "en": "fish",
+    "example": {
+      "de": "Am Freitag gibt es Fisch.",
+      "en": "On Friday there's fish."
+    },
+    "tip": "Countable for the animal (zwei Fische), but as food it is used without article: Ich esse gern Fisch."
   },
   {
     "gender": "die",
     "singular": "Suppe",
     "plural": "Suppen",
-    "en": "soup"
+    "en": "soup",
+    "example": {
+      "de": "Die Suppe ist noch heiß.",
+      "en": "The soup is still hot."
+    },
+    "tip": "Regular feminine pattern: -e → die, plural -n. eine Suppe kochen = to make soup."
   },
   {
     "gender": "der",
     "singular": "Salat",
     "plural": "Salate",
-    "en": "salad, lettuce"
+    "en": "salad, lettuce",
+    "example": {
+      "de": "Zum Abendessen mache ich einen Salat.",
+      "en": "For dinner I'm making a salad."
+    },
+    "tip": "Stress the second syllable: Sa-LAT. ein Kopf Salat = a head of lettuce; gemischter Salat = mixed salad."
   },
   {
     "gender": "das",
     "singular": "Gemüse",
     "plural": null,
-    "en": "vegetables"
+    "en": "vegetables",
+    "example": {
+      "de": "Kinder essen nicht gern Gemüse.",
+      "en": "Children don't like eating vegetables."
+    },
+    "tip": "Singular in German but plural in English: Gemüse ist gesund = vegetables are healthy. Ge- nouns are often das."
   },
   {
     "gender": "das",
     "singular": "Obst",
     "plural": null,
-    "en": "fruit"
+    "en": "fruit",
+    "example": {
+      "de": "Ich kaufe frisches Obst auf dem Markt.",
+      "en": "I buy fresh fruit at the market."
+    },
+    "tip": "Collective and uncountable (Obst und Gemüse). A single piece of fruit is eine Frucht."
   },
   {
     "gender": "der",
     "singular": "Apfel",
     "plural": "Äpfel",
-    "en": "apple"
+    "en": "apple",
+    "example": {
+      "de": "Der Apfel ist rot und süß.",
+      "en": "The apple is red and sweet."
+    },
+    "tip": "Plural by umlaut only, no ending: Äpfel. Common compounds: Apfelsaft, Apfelkuchen."
   },
   {
     "gender": "die",
     "singular": "Banane",
     "plural": "Bananen",
-    "en": "banana"
+    "en": "banana",
+    "example": {
+      "de": "Die Banane ist noch grün.",
+      "en": "The banana is still green."
+    },
+    "tip": "Stress the second syllable: Ba-NA-ne. Regular -e → die, plural -n."
   },
   {
     "gender": "die",
     "singular": "Orange",
     "plural": "Orangen",
-    "en": "orange"
+    "en": "orange",
+    "example": {
+      "de": "Möchtest du eine Orange?",
+      "en": "Would you like an orange?"
+    },
+    "tip": "Pronounced the French way: o-RONG-zhe. In northern Germany also Apfelsine. Orangensaft = orange juice."
   },
   {
     "gender": "die",
     "singular": "Tomate",
     "plural": "Tomaten",
-    "en": "tomato"
+    "en": "tomato",
+    "example": {
+      "de": "Ich brauche zwei Tomaten für den Salat.",
+      "en": "I need two tomatoes for the salad."
+    },
+    "tip": "Stress the second syllable: To-MA-te. Plural -n, like Banane and Suppe."
   },
   {
     "gender": "die",
     "singular": "Kartoffel",
     "plural": "Kartoffeln",
-    "en": "potato"
+    "en": "potato",
+    "example": {
+      "de": "Wir essen heute Kartoffeln mit Fisch.",
+      "en": "Today we're eating potatoes with fish."
+    },
+    "tip": "Feminine although it ends in -el; plural just adds -n (Kartoffeln). Pommes = French fries."
   },
   {
     "gender": "die",
     "singular": "Zwiebel",
     "plural": "Zwiebeln",
-    "en": "onion"
+    "en": "onion",
+    "example": {
+      "de": "Ich schneide eine Zwiebel für die Suppe.",
+      "en": "I'm cutting an onion for the soup."
+    },
+    "tip": "Like Kartoffel: feminine in -el, plural -n. Pronounce 'ie' as a long ee: TSVEE-bel."
   },
   {
     "gender": "der",
     "singular": "Reis",
     "plural": null,
-    "en": "rice"
+    "en": "rice",
+    "example": {
+      "de": "Ich koche heute Reis mit Gemüse.",
+      "en": "Today I'm cooking rice with vegetables."
+    },
+    "tip": "Don't confuse der Reis (rice, uncountable) with die Reise (trip). Used without article: Ich esse gern Reis."
   },
   {
     "gender": "die",
     "singular": "Nudel",
     "plural": "Nudeln",
-    "en": "noodle, pasta"
+    "en": "noodle, pasta",
+    "example": {
+      "de": "Die Kinder essen gern Nudeln.",
+      "en": "The children like eating pasta."
+    },
+    "tip": "Mostly used in the plural: Nudeln covers all kinds of pasta, not just noodles. Nudeln mit Tomatensoße is a classic."
   },
   {
     "gender": "der",
     "singular": "Zucker",
     "plural": null,
-    "en": "sugar"
+    "en": "sugar",
+    "example": {
+      "de": "Ich nehme keinen Zucker in den Tee.",
+      "en": "I don't take sugar in my tea."
+    },
+    "tip": "Uncountable and used without article: mit Zucker, ohne Zucker. Masculine, like der Kaffee it goes into."
   },
   {
     "gender": "das",
     "singular": "Salz",
     "plural": null,
-    "en": "salt"
+    "en": "salt",
+    "example": {
+      "de": "Ich brauche noch etwas Salz für die Suppe.",
+      "en": "I still need some salt for the soup."
+    },
+    "tip": "Mass noun, usually without an article: 'Salz und Pfeffer, bitte.' Adjective: salzig (salty)."
   },
   {
     "gender": "der",
     "singular": "Pfeffer",
     "plural": null,
-    "en": "pepper"
+    "en": "pepper",
+    "example": {
+      "de": "Kannst du mir bitte den Pfeffer geben?",
+      "en": "Can you pass me the pepper, please?"
+    },
+    "tip": "Fixed pair: 'Salz und Pfeffer'. A bell pepper is 'die Paprika', not Pfeffer."
   },
   {
     "gender": "das",
     "singular": "Öl",
     "plural": "Öle",
-    "en": "oil"
+    "en": "oil",
+    "example": {
+      "de": "Ich koche das Gemüse mit etwas Öl.",
+      "en": "I cook the vegetables with a little oil."
+    },
+    "tip": "Compounds take das: das Olivenöl, das Sonnenblumenöl. The plural Öle is only for kinds of oil."
   },
   {
     "gender": "der",
     "singular": "Kuchen",
     "plural": "Kuchen",
-    "en": "cake"
+    "en": "cake",
+    "example": {
+      "de": "Der Kuchen sieht lecker aus.",
+      "en": "The cake looks delicious."
+    },
+    "tip": "Don't mix up der Kuchen (cake) with die Küche (kitchen)! Classic ritual: 'Kaffee und Kuchen'."
   },
   {
     "gender": "die",
     "singular": "Schokolade",
     "plural": "Schokoladen",
-    "en": "chocolate"
+    "en": "chocolate",
+    "example": {
+      "de": "Meine Schwester isst sehr gern Schokolade.",
+      "en": "My sister really likes eating chocolate."
+    },
+    "tip": "-e ending → usually die. 'Eine Tafel Schokolade' = a bar of chocolate; 'heiße Schokolade' = hot chocolate."
   },
   {
     "gender": "das",
     "singular": "Eis",
     "plural": null,
-    "en": "ice, ice cream"
+    "en": "ice, ice cream",
+    "example": {
+      "de": "Im Sommer esse ich gern Eis.",
+      "en": "In summer I like eating ice cream."
+    },
+    "tip": "One word for ice and ice cream — context decides. 'Ich möchte ein Eis' = an ice cream; Eiswürfel = ice cubes."
   },
   {
     "gender": "das",
     "singular": "Getränk",
     "plural": "Getränke",
-    "en": "drink"
+    "en": "drink",
+    "example": {
+      "de": "Die Getränke sind im Kühlschrank.",
+      "en": "The drinks are in the fridge."
+    },
+    "tip": "Ge- nouns like Getränk, Gemüse, Gebäude are usually das. Related to trinken; menus list 'Getränke'."
   },
   {
     "gender": "das",
     "singular": "Wasser",
     "plural": null,
-    "en": "water"
+    "en": "water",
+    "example": {
+      "de": "Ich trinke jeden Tag viel Wasser.",
+      "en": "I drink a lot of water every day."
+    },
+    "tip": "Order 'stilles Wasser' (still) or 'Wasser mit Kohlensäure' (sparkling); tap water is not usual in restaurants."
   },
   {
     "gender": "der",
     "singular": "Kaffee",
     "plural": null,
-    "en": "coffee"
+    "en": "coffee",
+    "example": {
+      "de": "Möchtest du einen Kaffee?",
+      "en": "Would you like a coffee?"
+    },
+    "tip": "Stress on the first syllable: KAF-fee. Ordering: 'einen Kaffee, bitte' / 'zwei Kaffee, bitte'. The place is das Café."
   },
   {
     "gender": "der",
     "singular": "Tee",
     "plural": "Tees",
-    "en": "tea"
+    "en": "tea",
+    "example": {
+      "de": "Am Abend trinke ich eine Tasse Tee.",
+      "en": "In the evening I drink a cup of tea."
+    },
+    "tip": "Pronounced 'tay' (long e). Measure + noun with no 'of': 'eine Tasse Tee', 'ein Glas Tee'."
   },
   {
     "gender": "die",
     "singular": "Milch",
     "plural": null,
-    "en": "milk"
+    "en": "milk",
+    "example": {
+      "de": "Trinkst du den Kaffee mit Milch?",
+      "en": "Do you drink the coffee with milk?"
+    },
+    "tip": "Usually without an article: 'Kaffee mit Milch und Zucker'; measure comes first: 'ein Liter Milch'."
   },
   {
     "gender": "der",
     "singular": "Saft",
     "plural": "Säfte",
-    "en": "juice"
+    "en": "juice",
+    "example": {
+      "de": "Ich trinke zum Frühstück ein Glas Saft.",
+      "en": "I drink a glass of juice at breakfast."
+    },
+    "tip": "Compounds keep der: der Orangensaft, der Apfelsaft. 'Apfelschorle' (juice + sparkling water) is a very common order."
   },
   {
     "gender": "das",
     "singular": "Bier",
     "plural": "Biere",
-    "en": "beer"
+    "en": "beer",
+    "example": {
+      "de": "Mein Vater trinkt abends gern ein Bier.",
+      "en": "My father likes drinking a beer in the evening."
+    },
+    "tip": "'Ein Bier' = one glass; colloquial 'zwei Bier, bitte'. The plural Biere means kinds of beer."
   },
   {
     "gender": "der",
     "singular": "Wein",
     "plural": "Weine",
-    "en": "wine"
+    "en": "wine",
+    "example": {
+      "de": "Zum Essen trinken wir ein Glas Wein.",
+      "en": "With the meal we drink a glass of wine."
+    },
+    "tip": "Pronounced like 'vine'. Rotwein / Weißwein; 'ein Glas Wein' without 'of'. Don't confuse with weinen (to cry)."
   },
   {
     "gender": "die",
     "singular": "Flasche",
     "plural": "Flaschen",
-    "en": "bottle"
+    "en": "bottle",
+    "example": {
+      "de": "Ich kaufe eine Flasche Wasser.",
+      "en": "I'm buying a bottle of water."
+    },
+    "tip": "'Eine Flasche Wasser' — no 'of'. Many bottles carry Pfand (a deposit) you get back at the shop."
   },
   {
     "gender": "das",
     "singular": "Glas",
     "plural": "Gläser",
-    "en": "glass"
+    "en": "glass",
+    "example": {
+      "de": "Möchtest du ein Glas Wasser?",
+      "en": "Would you like a glass of water?"
+    },
+    "tip": "Both the material and a drinking glass. 'Ein Glas Wein' — no 'of'. Also a jar: 'ein Glas Marmelade' (a jar of jam)."
   },
   {
     "gender": "die",
     "singular": "Tasse",
     "plural": "Tassen",
-    "en": "cup"
+    "en": "cup",
+    "example": {
+      "de": "Ich trinke morgens eine Tasse Kaffee.",
+      "en": "I drink a cup of coffee in the mornings."
+    },
+    "tip": "'Eine Tasse Kaffee/Tee' — no 'of'. For beer or juice use ein Glas, not eine Tasse."
   },
   {
     "gender": "der",
     "singular": "Teller",
     "plural": "Teller",
-    "en": "plate"
+    "en": "plate",
+    "example": {
+      "de": "Stell bitte die Teller auf den Tisch.",
+      "en": "Please put the plates on the table."
+    },
+    "tip": "Masculine/neuter -er, -el, -en nouns add no plural ending (Teller, Messer, Löffel, Kuchen). 'Ein Teller Suppe' = a plate of soup."
   },
   {
     "gender": "die",
     "singular": "Gabel",
     "plural": "Gabeln",
-    "en": "fork"
+    "en": "fork",
+    "example": {
+      "de": "Ich esse den Salat mit der Gabel.",
+      "en": "I eat the salad with the fork."
+    },
+    "tip": "-el nouns are often der (der Löffel, der Apfel), but Gabel is die, like die Kartoffel and die Nudel. 'Messer und Gabel'."
   },
   {
     "gender": "das",
     "singular": "Messer",
     "plural": "Messer",
-    "en": "knife"
+    "en": "knife",
+    "example": {
+      "de": "Das Messer ist sehr scharf.",
+      "en": "The knife is very sharp."
+    },
+    "tip": "Neuter, unlike der Löffel and der Teller. Messer, Gabel und Löffel together = das Besteck (cutlery)."
   },
   {
     "gender": "der",
     "singular": "Löffel",
     "plural": "Löffel",
-    "en": "spoon"
+    "en": "spoon",
+    "example": {
+      "de": "Ich brauche einen Löffel für die Suppe.",
+      "en": "I need a spoon for the soup."
+    },
+    "tip": "-el nouns are often der (der Löffel, der Schlüssel). 'Ein Löffel Zucker' = a spoonful of sugar."
   },
   {
     "gender": "das",
     "singular": "Restaurant",
     "plural": "Restaurants",
-    "en": "restaurant"
+    "en": "restaurant",
+    "example": {
+      "de": "Kennst du hier ein italienisches Restaurant?",
+      "en": "Do you know an Italian restaurant around here?"
+    },
+    "tip": "French loan: the final -t is silent (res-to-RONG). 'Ins Restaurant gehen' = in + das (Akkusativ, direction)."
   },
   {
     "gender": "das",
     "singular": "Café",
     "plural": "Cafés",
-    "en": "café"
+    "en": "café",
+    "example": {
+      "de": "Wir treffen uns um drei Uhr im Café.",
+      "en": "We're meeting at three o'clock in the café."
+    },
+    "tip": "Accent matters: das Café (the place) vs. der Kaffee (the drink). 'Im Café' = in + dem (Dativ, location)."
   },
   {
     "gender": "die",
     "singular": "Rechnung",
     "plural": "Rechnungen",
-    "en": "bill, invoice"
+    "en": "bill, invoice",
+    "example": {
+      "de": "Können wir bitte die Rechnung haben?",
+      "en": "Can we have the bill, please?"
+    },
+    "tip": "-ung → always die. To pay: 'Die Rechnung, bitte!' or 'Zahlen, bitte!'; 'zusammen oder getrennt?' = together or separately?"
   },
   {
     "gender": "die",
     "singular": "Speisekarte",
     "plural": "Speisekarten",
-    "en": "menu"
+    "en": "menu",
+    "example": {
+      "de": "Kann ich bitte die Speisekarte haben?",
+      "en": "Can I have the menu, please?"
+    },
+    "tip": "False friend: das Menü is a set meal, not the menu. The list you read is die Speisekarte (or just die Karte)."
   },
   {
     "gender": "der",
     "singular": "Hunger",
     "plural": null,
-    "en": "hunger"
+    "en": "hunger",
+    "example": {
+      "de": "Nach der Arbeit habe ich immer Hunger.",
+      "en": "After work I'm always hungry."
+    },
+    "tip": "Say 'Ich habe Hunger' for 'I'm hungry' – with haben, not sein. 'Ich bin hungrig' is correct but much less common."
   },
   {
     "gender": "der",
     "singular": "Durst",
     "plural": null,
-    "en": "thirst"
+    "en": "thirst",
+    "example": {
+      "de": "Ich habe Durst und trinke ein Glas Wasser.",
+      "en": "I'm thirsty and I'm drinking a glass of water."
+    },
+    "tip": "Same pattern as Hunger: 'Ich habe Durst' = I'm thirsty. 'durstig' exists, but 'Durst haben' is far more common."
   },
   {
     "gender": "die",
     "singular": "Kleidung",
     "plural": null,
-    "en": "clothing"
+    "en": "clothing",
+    "example": {
+      "de": "Ich kaufe heute neue Kleidung.",
+      "en": "I'm buying new clothes today."
+    },
+    "tip": "-ung → die. Uncountable: 'neue Kleidung' = new clothes. 'Kleider' (plural of Kleid) can also mean clothes."
   },
   {
     "gender": "das",
     "singular": "Hemd",
     "plural": "Hemden",
-    "en": "shirt"
+    "en": "shirt",
+    "example": {
+      "de": "Das Hemd ist zu groß für mich.",
+      "en": "The shirt is too big for me."
+    },
+    "tip": "Unusual: a das-noun with plural -en, like das Bett → die Betten. A Hemd has buttons; a tee is 'das T-Shirt'."
   },
   {
     "gender": "die",
     "singular": "Hose",
     "plural": "Hosen",
-    "en": "trousers"
+    "en": "trousers",
+    "example": {
+      "de": "Ich trage heute eine blaue Hose.",
+      "en": "I'm wearing blue trousers today."
+    },
+    "tip": "Singular in German! 'eine Hose' = one pair of trousers; 'Hosen' means several pairs."
   },
   {
     "gender": "der",
     "singular": "Rock",
     "plural": "Röcke",
-    "en": "skirt"
+    "en": "skirt",
+    "example": {
+      "de": "Sie trägt einen roten Rock.",
+      "en": "She's wearing a red skirt."
+    },
+    "tip": "False friend: der Rock is a skirt, not a rock (that's der Stein). Rock music is also 'der Rock'."
   },
   {
     "gender": "das",
     "singular": "Kleid",
     "plural": "Kleider",
-    "en": "dress"
+    "en": "dress",
+    "example": {
+      "de": "Ich kaufe ein Kleid für die Party.",
+      "en": "I'm buying a dress for the party."
+    },
+    "tip": "The plural 'Kleider' also means clothes in general: 'Kleider machen Leute' (clothes make the man)."
   },
   {
     "gender": "die",
     "singular": "Jacke",
     "plural": "Jacken",
-    "en": "jacket"
+    "en": "jacket",
+    "example": {
+      "de": "Es ist kalt, zieh deine Jacke an!",
+      "en": "It's cold, put your jacket on!"
+    },
+    "tip": "Nouns in -e are mostly die (Jacke, Hose, Mütze, Socke, Tasche). 'die Jacke anziehen / ausziehen' = put on / take off."
   },
   {
     "gender": "der",
     "singular": "Mantel",
     "plural": "Mäntel",
-    "en": "coat"
+    "en": "coat",
+    "example": {
+      "de": "Im Winter trage ich einen Mantel.",
+      "en": "In winter I wear a coat."
+    },
+    "tip": "Plural only adds an umlaut, no ending – the same pattern as Apfel → Äpfel and Vater → Väter."
   },
   {
     "gender": "der",
     "singular": "Pullover",
     "plural": "Pullover",
-    "en": "jumper, sweater"
+    "en": "jumper, sweater",
+    "example": {
+      "de": "Mein neuer Pullover ist sehr warm.",
+      "en": "My new sweater is very warm."
+    },
+    "tip": "Stress the middle: pull-O-ver. In everyday speech people just say 'der Pulli'."
   },
   {
     "gender": "das",
     "singular": "T-Shirt",
     "plural": "T-Shirts",
-    "en": "T-shirt"
+    "en": "T-shirt",
+    "example": {
+      "de": "Im Sommer trage ich nur ein T-Shirt.",
+      "en": "In summer I only wear a T-shirt."
+    },
+    "tip": "Plural -s like most English loanwords (der Job → die Jobs). Gender varies: das T-Shirt, der Job, die Party. Hyphen + capital T."
   },
   {
     "gender": "der",
     "singular": "Schuh",
     "plural": "Schuhe",
-    "en": "shoe"
+    "en": "shoe",
+    "example": {
+      "de": "Wo sind meine Schuhe?",
+      "en": "Where are my shoes?"
+    },
+    "tip": "Mostly used in the plural: 'die Schuhe'. Say 'ein Paar Schuhe' for one pair."
   },
   {
     "gender": "die",
     "singular": "Socke",
     "plural": "Socken",
-    "en": "sock"
+    "en": "sock",
+    "example": {
+      "de": "Ich brauche neue Socken.",
+      "en": "I need new socks."
+    },
+    "tip": "Usually plural: 'die Socken'. Nouns in -e are mostly die, like Jacke and Hose."
   },
   {
     "gender": "der",
     "singular": "Hut",
     "plural": "Hüte",
-    "en": "hat"
+    "en": "hat",
+    "example": {
+      "de": "Der Mann trägt einen schwarzen Hut.",
+      "en": "The man is wearing a black hat."
+    },
+    "tip": "False friend: der Hut is a hat, not a hut (die Hütte). A Hut has a brim; a knitted cap is 'die Mütze'."
   },
   {
     "gender": "die",
     "singular": "Mütze",
     "plural": "Mützen",
-    "en": "cap, beanie"
+    "en": "cap, beanie",
+    "example": {
+      "de": "Das Kind hat eine rote Mütze.",
+      "en": "The child has a red cap."
+    },
+    "tip": "Mütze = soft cap or beanie (winter cap, baseball cap); Hut = hat with a brim. Nouns in -e are mostly die."
   },
   {
     "gender": "der",
     "singular": "Schal",
     "plural": "Schals",
-    "en": "scarf"
+    "en": "scarf",
+    "example": {
+      "de": "Mein Schal ist rot und sehr warm.",
+      "en": "My scarf is red and very warm."
+    },
+    "tip": "Long 'a' as in 'Zahl' – not short like English 'shall'. Don't mix it up with 'die Schale' (bowl, peel)."
   },
   {
     "gender": "die",
     "singular": "Brille",
     "plural": "Brillen",
-    "en": "glasses"
+    "en": "glasses",
+    "example": {
+      "de": "Ich brauche eine neue Brille.",
+      "en": "I need new glasses."
+    },
+    "tip": "Singular in German: 'eine Brille' = one pair of glasses, 'Brillen' = several pairs. Also 'die Sonnenbrille'."
   },
   {
     "gender": "die",
     "singular": "Tasche",
     "plural": "Taschen",
-    "en": "bag, pocket"
+    "en": "bag, pocket",
+    "example": {
+      "de": "Meine Tasche ist sehr schwer.",
+      "en": "My bag is very heavy."
+    },
+    "tip": "Covers both bag and pocket: die Handtasche (handbag), die Hosentasche (trouser pocket)."
   },
   {
     "gender": "die",
     "singular": "Größe",
     "plural": "Größen",
-    "en": "size"
+    "en": "size",
+    "example": {
+      "de": "Welche Größe haben Sie?",
+      "en": "What size are you?"
+    },
+    "tip": "Formed from 'groß' with umlaut + -e (like lang → Länge, kalt → Kälte). Also used for a person's height."
   },
   {
     "gender": "der",
     "singular": "Platz",
     "plural": "Plätze",
-    "en": "square, place, seat"
+    "en": "square, place, seat",
+    "example": {
+      "de": "Auf dem Platz gibt es einen Markt.",
+      "en": "There is a market on the square."
+    },
+    "tip": "Also 'room/space': 'Hier ist kein Platz.' 'Platz nehmen' = take a seat. Many squares end in -platz (Marktplatz)."
   },
   {
     "gender": "die",
     "singular": "Straße",
     "plural": "Straßen",
-    "en": "street"
+    "en": "street",
+    "example": {
+      "de": "Die Kinder spielen auf der Straße.",
+      "en": "The children are playing in the street."
+    },
+    "tip": "'auf der Straße' = in/on the street; 'in der Goethestraße' for an address. ß comes after the long a."
   },
   {
     "gender": "der",
     "singular": "Weg",
     "plural": "Wege",
-    "en": "way, path"
+    "en": "way, path",
+    "example": {
+      "de": "Ist das der Weg zum Bahnhof?",
+      "en": "Is this the way to the station?"
+    },
+    "tip": "Pronunciation trap: der Weg (long e) is the noun; weg (short e) means 'away'. 'nach dem Weg fragen' = ask the way."
   },
   {
     "gender": "die",
     "singular": "Kirche",
     "plural": "Kirchen",
-    "en": "church"
+    "en": "church",
+    "example": {
+      "de": "Die Kirche ist sehr alt und schön.",
+      "en": "The church is very old and beautiful."
+    },
+    "tip": "Don't confuse with 'die Kirsche' (cherry) – Kirche has no s. 'in die Kirche gehen' = go to church."
   },
   {
     "gender": "das",
     "singular": "Museum",
     "plural": "Museen",
-    "en": "museum"
+    "en": "museum",
+    "example": {
+      "de": "Am Sonntag gehen wir ins Museum.",
+      "en": "On Sunday we're going to the museum."
+    },
+    "tip": "Latin-style plural: Museum → Museen (like Zentrum → Zentren). Stress: mu-SE-um. 'ins Museum gehen'."
   },
   {
     "gender": "das",
     "singular": "Kino",
     "plural": "Kinos",
-    "en": "cinema"
+    "en": "cinema",
+    "example": {
+      "de": "Das Kino zeigt jeden Montag einen alten Film.",
+      "en": "The cinema shows an old film every Monday."
+    },
+    "tip": "'ins Kino gehen' = go to the cinema (in + Akkusativ); 'im Kino sein' = be at the cinema. Plural -s like other -o nouns."
   },
   {
     "gender": "das",
     "singular": "Theater",
     "plural": "Theater",
-    "en": "theatre"
+    "en": "theatre",
+    "example": {
+      "de": "Ich habe noch zwei Karten für das Theater.",
+      "en": "I still have two tickets for the theatre."
+    },
+    "tip": "Stress on the second syllable: The-A-ter. 'ins Theater gehen' = go to the theatre. Colloquially also 'a fuss': Mach kein Theater!"
   },
   {
     "gender": "die",
     "singular": "Bibliothek",
     "plural": "Bibliotheken",
-    "en": "library"
+    "en": "library",
+    "example": {
+      "de": "Ich lerne heute in der Bibliothek.",
+      "en": "I'm studying in the library today."
+    },
+    "tip": "Stress on the last syllable: Biblio-THEK. Nouns in -thek are die, plural -en (Diskothek, Mediathek). 'in der Bibliothek' = at the library."
   },
   {
     "gender": "die",
     "singular": "Schule",
     "plural": "Schulen",
-    "en": "school"
+    "en": "school",
+    "example": {
+      "de": "Die Kinder gehen um acht Uhr in die Schule.",
+      "en": "The children go to school at eight o'clock."
+    },
+    "tip": "'in die Schule gehen' = to go to school, 'in der Schule' = at school. Nouns ending in -e are mostly die."
   },
   {
     "gender": "die",
     "singular": "Universität",
     "plural": "Universitäten",
-    "en": "university"
+    "en": "university",
+    "example": {
+      "de": "Meine Schwester studiert an der Universität in Berlin.",
+      "en": "My sister studies at the university in Berlin."
+    },
+    "tip": "-tät is always die (Qualität, Realität). Everyday short form: die Uni, die Unis. 'an der Uni studieren'."
   },
   {
     "gender": "das",
     "singular": "Büro",
     "plural": "Büros",
-    "en": "office"
+    "en": "office",
+    "example": {
+      "de": "Ich arbeite von neun bis fünf im Büro.",
+      "en": "I work in the office from nine to five."
+    },
+    "tip": "Most loanwords in -o take plural -s: Büros, Autos, Fotos. Stress on the last syllable: Bü-RO. 'im Büro' = at the office."
   },
   {
     "gender": "die",
     "singular": "Bank",
     "plural": "Banken",
-    "en": "bank"
+    "en": "bank",
+    "example": {
+      "de": "Ich muss heute noch zur Bank gehen.",
+      "en": "I still have to go to the bank today."
+    },
+    "tip": "Two plurals: Banken = banks (money), Bänke = benches. 'auf der Bank sitzen' = sit on the bench; 'bei der Bank arbeiten' = work at a bank."
   },
   {
     "gender": "die",
     "singular": "Post",
     "plural": null,
-    "en": "post office, mail"
+    "en": "post office, mail",
+    "example": {
+      "de": "Ich bringe das Paket zur Post.",
+      "en": "I'm taking the parcel to the post office."
+    },
+    "tip": "'zur Post gehen' = go to the post office, 'auf der Post' = at the post office; 'Ist Post für mich da?' = Is there any mail for me?"
   },
   {
     "gender": "der",
     "singular": "Markt",
     "plural": "Märkte",
-    "en": "market"
+    "en": "market",
+    "example": {
+      "de": "Am Samstag kaufe ich Obst auf dem Markt.",
+      "en": "On Saturday I buy fruit at the market."
+    },
+    "tip": "Use auf, not in: 'auf dem Markt' = at the market (Dativ), 'auf den Markt gehen' = go to the market (Akkusativ)."
   },
   {
     "gender": "der",
     "singular": "Supermarkt",
     "plural": "Supermärkte",
-    "en": "supermarket"
+    "en": "supermarket",
+    "example": {
+      "de": "Ich gehe schnell in den Supermarkt.",
+      "en": "I'll quickly go to the supermarket."
+    },
+    "tip": "Compounds take the gender of the last part: der Markt → der Supermarkt. Preposition: im Supermarkt (not auf, unlike auf dem Markt)."
   },
   {
     "gender": "das",
     "singular": "Geschäft",
     "plural": "Geschäfte",
-    "en": "shop, business"
+    "en": "shop, business",
+    "example": {
+      "de": "Das Geschäft ist am Sonntag geschlossen.",
+      "en": "The shop is closed on Sunday."
+    },
+    "tip": "Ge- nouns are usually das (das Gespräch, das Geschenk, das Gebäude). Also 'business deal': ein gutes Geschäft machen."
   },
   {
     "gender": "der",
     "singular": "Laden",
     "plural": "Läden",
-    "en": "shop"
+    "en": "shop",
+    "example": {
+      "de": "Der kleine Laden an der Ecke hat gutes Brot.",
+      "en": "The little shop on the corner has good bread."
+    },
+    "tip": "Umlaut, no ending in the plural: der Laden – die Läden (like Garten – Gärten). Same spelling as the verb laden (to load)."
   },
   {
     "gender": "das",
     "singular": "Hotel",
     "plural": "Hotels",
-    "en": "hotel"
+    "en": "hotel",
+    "example": {
+      "de": "Das Hotel liegt direkt am Bahnhof.",
+      "en": "The hotel is right next to the train station."
+    },
+    "tip": "Stress on the last syllable: Ho-TEL. Loanword, so plural -s. 'im Hotel wohnen/schlafen' = to stay at the hotel."
   },
   {
     "gender": "der",
     "singular": "Park",
     "plural": "Parks",
-    "en": "park"
+    "en": "park",
+    "example": {
+      "de": "Am Sonntag gehen wir im Park spazieren.",
+      "en": "On Sunday we go for a walk in the park."
+    },
+    "tip": "Loanword, so plural -s: die Parks. in den Park gehen (Akkusativ, movement) but im Park sitzen (Dativ, place)."
   },
   {
     "gender": "der",
     "singular": "Bahnhof",
     "plural": "Bahnhöfe",
-    "en": "train station"
+    "en": "train station",
+    "example": {
+      "de": "Ich hole dich am Bahnhof ab.",
+      "en": "I'll pick you up at the train station."
+    },
+    "tip": "Bahn + Hof; gender from der Hof. am Bahnhof = at the station, zum Bahnhof = to the station. Hbf = Hauptbahnhof (main station)."
   },
   {
     "gender": "der",
     "singular": "Flughafen",
     "plural": "Flughäfen",
-    "en": "airport"
+    "en": "airport",
+    "example": {
+      "de": "Der Bus fährt direkt zum Flughafen.",
+      "en": "The bus goes directly to the airport."
+    },
+    "tip": "Flug + Hafen ('flight harbour'); gender from der Hafen. Umlaut plural with no ending: die Flughäfen. am/zum Flughafen."
   },
   {
     "gender": "die",
     "singular": "Haltestelle",
     "plural": "Haltestellen",
-    "en": "stop (bus, tram)"
+    "en": "stop (bus, tram)",
+    "example": {
+      "de": "Die Haltestelle ist gleich vor dem Haus.",
+      "en": "The stop is right in front of the house."
+    },
+    "tip": "From halten + Stelle: where a bus or tram stops (Bushaltestelle = bus stop). 'an der Haltestelle warten' = wait at the stop."
   },
   {
     "gender": "das",
     "singular": "Zentrum",
     "plural": "Zentren",
-    "en": "centre"
+    "en": "centre",
+    "example": {
+      "de": "Wir wohnen im Zentrum von Hamburg.",
+      "en": "We live in the centre of Hamburg."
+    },
+    "tip": "Nouns in -um are usually das; the plural swaps -um for -en: Zentrum – Zentren (like Museum – Museen). im Zentrum = in the centre."
   },
   {
     "gender": "das",
     "singular": "Dorf",
     "plural": "Dörfer",
-    "en": "village"
+    "en": "village",
+    "example": {
+      "de": "Meine Großeltern wohnen in einem kleinen Dorf.",
+      "en": "My grandparents live in a small village."
+    },
+    "tip": "Plural with umlaut + -er: Dörfer (like Buch – Bücher, Haus – Häuser). Opposite: die Stadt. auf dem Dorf = out in the country."
   },
   {
     "gender": "das",
     "singular": "Auto",
     "plural": "Autos",
-    "en": "car"
+    "en": "car",
+    "example": {
+      "de": "Wir kaufen nächstes Jahr ein neues Auto.",
+      "en": "Next year we are buying a new car."
+    },
+    "tip": "'mit dem Auto fahren' = to go by car (mit + Dativ); 'Auto fahren' = to drive. Plural -s like most loanwords in -o."
   },
   {
     "gender": "der",
     "singular": "Bus",
     "plural": "Busse",
-    "en": "bus"
+    "en": "bus",
+    "example": {
+      "de": "Der Bus kommt um zehn nach acht.",
+      "en": "The bus comes at ten past eight."
+    },
+    "tip": "The s doubles in the plural: der Bus – die Busse. 'mit dem Bus fahren' = go by bus. A bus fährt or kommt (gehen for buses is only colloquial)."
   },
   {
     "gender": "der",
     "singular": "Zug",
     "plural": "Züge",
-    "en": "train"
+    "en": "train",
+    "example": {
+      "de": "Der Zug nach München fährt um neun Uhr ab.",
+      "en": "The train to Munich leaves at nine o'clock."
+    },
+    "tip": "'mit dem Zug fahren' = to go by train; 'den Zug nehmen' = to take the train. abfahren (to depart) is separable. Also 'a move' in chess."
   },
   {
     "gender": "die",
     "singular": "Bahn",
     "plural": "Bahnen",
-    "en": "train, railway"
+    "en": "train, railway",
+    "example": {
+      "de": "Ich fahre jeden Tag mit der Bahn zur Arbeit.",
+      "en": "I take the train to work every day."
+    },
+    "tip": "die Bahn = the railway as a system (Deutsche Bahn); der Zug = one particular train. Also U-Bahn, S-Bahn, Straßenbahn."
   },
   {
     "gender": "das",
     "singular": "Fahrrad",
     "plural": "Fahrräder",
-    "en": "bicycle"
+    "en": "bicycle",
+    "example": {
+      "de": "Im Sommer fahre ich mit dem Fahrrad zur Schule.",
+      "en": "In summer I cycle to school."
+    },
+    "tip": "Gender and plural from das Rad (wheel): Räder → Fahrräder. Short form: das Rad. 'Fahrrad fahren' or 'mit dem Fahrrad fahren' = to cycle."
   },
   {
     "gender": "das",
     "singular": "Taxi",
     "plural": "Taxis",
-    "en": "taxi"
+    "en": "taxi",
+    "example": {
+      "de": "Wir nehmen ein Taxi zum Bahnhof.",
+      "en": "We're taking a taxi to the station."
+    },
+    "tip": "Loanword in -i, so plural -s: Taxis. Stress on the first syllable: TA-xi. 'ein Taxi nehmen' or 'Taxi fahren' = to take a taxi."
   },
   {
     "gender": "das",
     "singular": "Flugzeug",
     "plural": "Flugzeuge",
-    "en": "aeroplane"
+    "en": "aeroplane",
+    "example": {
+      "de": "Das Flugzeug nach Rom fliegt um zwölf Uhr ab.",
+      "en": "The plane to Rome takes off at twelve o'clock."
+    },
+    "tip": "Flug + Zeug ('flying thing'); gender from das Zeug. Planes fliegen, cars and trains fahren. Compare der Flug = the flight."
   },
   {
     "gender": "das",
     "singular": "Schiff",
     "plural": "Schiffe",
-    "en": "ship"
+    "en": "ship",
+    "example": {
+      "de": "Das Schiff bringt uns nach Dänemark.",
+      "en": "The ship takes us to Denmark."
+    },
+    "tip": "Travel by ship is 'mit dem Schiff fahren' (fahren, not gehen). Pronounce sch like English sh; the i is short."
   },
   {
     "gender": "die",
     "singular": "Fahrt",
     "plural": "Fahrten",
-    "en": "journey, ride"
+    "en": "journey, ride",
+    "example": {
+      "de": "Die Fahrt nach Berlin dauert drei Stunden.",
+      "en": "The journey to Berlin takes three hours."
+    },
+    "tip": "From fahren: a trip by vehicle. 'Gute Fahrt!' = have a safe drive. For a whole trip with stays, use Reise."
   },
   {
     "gender": "die",
     "singular": "Reise",
     "plural": "Reisen",
-    "en": "trip"
+    "en": "trip",
+    "example": {
+      "de": "Wir machen im Sommer eine Reise nach Italien.",
+      "en": "We are taking a trip to Italy in the summer."
+    },
+    "tip": "Whole trip, incl. by plane. 'Gute Reise!' = have a good trip. Related: reisen (to travel), das Reisebüro (travel agency)."
   },
   {
     "gender": "der",
     "singular": "Urlaub",
-    "plural": null,
-    "en": "holiday, vacation"
+    "plural": "Urlaube",
+    "en": "holiday, vacation",
+    "example": {
+      "de": "Im August habe ich zwei Wochen Urlaub.",
+      "en": "In August I have two weeks of holiday."
+    },
+    "tip": "Time off from work: 'Urlaub haben', 'in Urlaub fahren', 'im Urlaub sein'. School breaks are Ferien, not Urlaub."
   },
   {
     "gender": "die",
     "singular": "Ferien",
-    "plural": null,
-    "en": "school holidays (plural only)"
+    "plural": "Ferien",
+    "en": "school holidays (plural only)",
+    "example": {
+      "de": "Die Ferien beginnen nächste Woche.",
+      "en": "The holidays start next week."
+    },
+    "tip": "Always plural: 'Die Ferien sind vorbei.' School/university breaks; Urlaub is time off work. Also Sommerferien, Schulferien."
   },
   {
     "gender": "die",
     "singular": "Fahrkarte",
     "plural": "Fahrkarten",
-    "en": "travel ticket"
+    "en": "travel ticket",
+    "example": {
+      "de": "Ich kaufe eine Fahrkarte nach München.",
+      "en": "I am buying a ticket to Munich."
+    },
+    "tip": "Ticket for bus, train or tram. For cinema, museum or concert say Eintrittskarte; for flights usually Ticket."
   },
   {
     "gender": "das",
     "singular": "Ticket",
     "plural": "Tickets",
-    "en": "ticket"
+    "en": "ticket",
+    "example": {
+      "de": "Hast du schon ein Ticket für das Konzert?",
+      "en": "Do you already have a ticket for the concert?"
+    },
+    "tip": "English loanword: das, plural -s. Common for flights and concerts (Flugticket). Pronounced like the English word."
   },
   {
     "gender": "der",
     "singular": "Ausweis",
     "plural": "Ausweise",
-    "en": "ID card"
+    "en": "ID card",
+    "example": {
+      "de": "Zeigen Sie mir bitte Ihren Ausweis.",
+      "en": "Please show me your ID card."
+    },
+    "tip": "Short for Personalausweis (German ID card). 'Ihren Ausweis, bitte.' Also in Studentenausweis (student ID)."
   },
   {
     "gender": "der",
     "singular": "Pass",
     "plural": "Pässe",
-    "en": "passport"
+    "en": "passport",
+    "example": {
+      "de": "Für die Reise nach Kanada brauche ich einen Pass.",
+      "en": "I need a passport for the trip to Canada."
+    },
+    "tip": "Short for Reisepass; also a mountain pass. The a is short (like in dass), so it is written ss, never ß."
   },
   {
     "gender": "der",
     "singular": "Koffer",
     "plural": "Koffer",
-    "en": "suitcase"
+    "en": "suitcase",
+    "example": {
+      "de": "Mein Koffer ist sehr schwer.",
+      "en": "My suitcase is very heavy."
+    },
+    "tip": "Masculine -er nouns usually keep the same form in the plural: der Koffer – die Koffer. 'den Koffer packen' = to pack."
   },
   {
     "gender": "die",
     "singular": "Ankunft",
     "plural": "Ankünfte",
-    "en": "arrival"
+    "en": "arrival",
+    "example": {
+      "de": "Die Ankunft in Berlin ist um zehn Uhr.",
+      "en": "Arrival in Berlin is at ten o'clock."
+    },
+    "tip": "From ankommen; opposite of Abfahrt. Mostly seen on station and airport boards; the plural is rare in everyday speech."
   },
   {
     "gender": "die",
     "singular": "Abfahrt",
     "plural": "Abfahrten",
-    "en": "departure"
+    "en": "departure",
+    "example": {
+      "de": "Die Abfahrt ist um acht Uhr am Bahnhof.",
+      "en": "Departure is at eight o'clock at the station."
+    },
+    "tip": "From abfahren (to leave by vehicle). For planes say Abflug, for arrival Ankunft. 'Abfahrt 8:00' on timetables."
   },
   {
     "gender": "der",
     "singular": "Ausflug",
     "plural": "Ausflüge",
-    "en": "excursion"
+    "en": "excursion",
+    "example": {
+      "de": "Am Sonntag machen wir einen Ausflug ans Meer.",
+      "en": "On Sunday we are going on an excursion to the sea."
+    },
+    "tip": "A short outing, usually a day trip: 'einen Ausflug machen'. -flug comes from fliegen, but no plane is involved."
   },
   {
     "gender": "die",
     "singular": "Arbeit",
-    "plural": null,
-    "en": "work"
+    "plural": "Arbeiten",
+    "en": "work",
+    "example": {
+      "de": "Ich fahre jeden Tag mit dem Bus zur Arbeit.",
+      "en": "I take the bus to work every day."
+    },
+    "tip": "'zur Arbeit gehen/fahren' (to work), 'bei der Arbeit' (at work), 'Arbeit suchen'. Verb: arbeiten."
   },
   {
     "gender": "der",
     "singular": "Job",
     "plural": "Jobs",
-    "en": "job"
+    "en": "job",
+    "example": {
+      "de": "Mein Bruder hat einen neuen Job in Berlin.",
+      "en": "My brother has a new job in Berlin."
+    },
+    "tip": "Pronounced as in English (dʒ). Often a casual or part-time job (Nebenjob), but also any work: 'einen Job suchen'."
   },
   {
     "gender": "die",
     "singular": "Firma",
     "plural": "Firmen",
-    "en": "company"
+    "en": "company",
+    "example": {
+      "de": "Ich arbeite bei einer kleinen Firma.",
+      "en": "I work at a small company."
+    },
+    "tip": "Plural -a → -en, not -s: die Firmen (like Thema → Themen). 'bei einer Firma arbeiten' (bei + Dativ), 'in der Firma'."
   },
   {
     "gender": "der",
     "singular": "Chef",
     "plural": "Chefs",
-    "en": "boss"
+    "en": "boss",
+    "example": {
+      "de": "Mein Chef ist sehr nett.",
+      "en": "My boss is very nice."
+    },
+    "tip": "False friend: der Chef is the boss, not the cook (der Koch). Feminine: die Chefin. Pronounced 'shef'."
   },
   {
     "gender": "der",
     "singular": "Lehrer",
     "plural": "Lehrer",
-    "en": "teacher (m)"
+    "en": "teacher (m)",
+    "example": {
+      "de": "Unser Lehrer kommt aus Österreich.",
+      "en": "Our teacher is from Austria."
+    },
+    "tip": "Person nouns in -er: no plural ending, feminine adds -in (Lehrerin). No article after sein: 'Er ist Lehrer.'"
   },
   {
     "gender": "die",
     "singular": "Lehrerin",
     "plural": "Lehrerinnen",
-    "en": "teacher (f)"
+    "en": "teacher (f)",
+    "example": {
+      "de": "Die Lehrerin erklärt die Grammatik.",
+      "en": "The teacher explains the grammar."
+    },
+    "tip": "-in makes a feminine noun (always die); the plural doubles the n: -innen. 'Sie ist Lehrerin' – no article."
   },
   {
     "gender": "der",
     "singular": "Schüler",
     "plural": "Schüler",
-    "en": "pupil"
+    "en": "pupil",
+    "example": {
+      "de": "In der Klasse sind zwanzig Schüler.",
+      "en": "There are twenty pupils in the class."
+    },
+    "tip": "School only: Schüler = pupil, Student = university student. Feminine: die Schülerin, plural Schülerinnen."
   },
   {
     "gender": "der",
     "singular": "Student",
     "plural": "Studenten",
-    "en": "student (m)"
+    "en": "student (m)",
+    "example": {
+      "de": "Mein Freund ist Student in München.",
+      "en": "My friend is a student in Munich."
+    },
+    "tip": "n-Deklination: den/dem Studenten in all cases but Nominativ Singular. University only; a school pupil is a Schüler."
   },
   {
     "gender": "die",
     "singular": "Studentin",
     "plural": "Studentinnen",
-    "en": "student (f)"
+    "en": "student (f)",
+    "example": {
+      "de": "Anna ist Studentin und lernt Deutsch.",
+      "en": "Anna is a student and is learning German."
+    },
+    "tip": "Feminine of Student; unlike Student it is not n-Deklination: 'mit der Studentin'. University only, not school."
   },
   {
     "gender": "der",
     "singular": "Kurs",
     "plural": "Kurse",
-    "en": "course"
+    "en": "course",
+    "example": {
+      "de": "Der Kurs beginnt am Montag um neun Uhr.",
+      "en": "The course starts on Monday at nine o'clock."
+    },
+    "tip": "'einen Kurs machen/besuchen' (to take a course), 'der Deutschkurs'. Also means exchange rate (Wechselkurs)."
   },
   {
     "gender": "die",
     "singular": "Klasse",
     "plural": "Klassen",
-    "en": "class"
+    "en": "class",
+    "example": {
+      "de": "Meine Tochter geht in die dritte Klasse.",
+      "en": "My daughter is in the third grade."
+    },
+    "tip": "School class or grade: 'in der dritten Klasse'. Colloquial 'Klasse!' = 'great!'. Also 'erste Klasse' on trains."
   },
   {
     "gender": "die",
     "singular": "Aufgabe",
     "plural": "Aufgaben",
-    "en": "task, exercise"
+    "en": "task, exercise",
+    "example": {
+      "de": "Diese Aufgabe ist sehr leicht.",
+      "en": "This exercise is very easy."
+    },
+    "tip": "Hausaufgaben (homework) is usually plural: 'Ich mache meine Hausaufgaben.' Nouns in -e are mostly die (but der Name, das Ende)."
   },
   {
     "gender": "die",
     "singular": "Übung",
     "plural": "Übungen",
-    "en": "exercise"
+    "en": "exercise",
+    "example": {
+      "de": "Die Übung auf Seite fünf ist leicht.",
+      "en": "The exercise on page five is easy."
+    },
+    "tip": "Nouns in -ung are always die. From üben (to practise): Übung macht den Meister = practice makes perfect."
   },
   {
     "gender": "die",
     "singular": "Prüfung",
     "plural": "Prüfungen",
-    "en": "exam"
+    "en": "exam",
+    "example": {
+      "de": "Ich habe morgen eine Prüfung.",
+      "en": "I have an exam tomorrow."
+    },
+    "tip": "-ung → die. Collocations: eine Prüfung machen / bestehen (pass). A small class test is der Test."
   },
   {
     "gender": "das",
     "singular": "Buch",
     "plural": "Bücher",
-    "en": "book"
+    "en": "book",
+    "example": {
+      "de": "Ich lese gern ein gutes Buch.",
+      "en": "I like reading a good book."
+    },
+    "tip": "Plural umlaut + -er: Buch → Bücher. The ch changes sound: hard (as in \"ach\") after u, soft (as in \"ich\") after ü."
   },
   {
     "gender": "das",
     "singular": "Heft",
     "plural": "Hefte",
-    "en": "notebook"
+    "en": "notebook",
+    "example": {
+      "de": "Ich schreibe die neuen Wörter ins Heft.",
+      "en": "I write the new words in the notebook."
+    },
+    "tip": "Heft = a thin exercise book for school, or a magazine issue. A laptop is der Laptop or das Notebook."
   },
   {
     "gender": "der",
     "singular": "Stift",
     "plural": "Stifte",
-    "en": "pen"
+    "en": "pen",
+    "example": {
+      "de": "Hast du einen Stift für mich?",
+      "en": "Do you have a pen for me?"
+    },
+    "tip": "Stift is the general word for any pen or pencil: Kugelschreiber (Kuli) = ballpoint, Bleistift = pencil."
   },
   {
     "gender": "das",
     "singular": "Papier",
     "plural": "Papiere",
-    "en": "paper"
+    "en": "paper",
+    "example": {
+      "de": "Ich brauche ein Blatt Papier.",
+      "en": "I need a sheet of paper."
+    },
+    "tip": "The material has no plural; die Papiere means documents or ID papers. Stress the last syllable: Pa-PIER."
   },
   {
     "gender": "das",
     "singular": "Wort",
     "plural": "Wörter",
-    "en": "word"
+    "en": "word",
+    "example": {
+      "de": "Das Wort ist neu für mich.",
+      "en": "The word is new for me."
+    },
+    "tip": "Two plurals: Wörter = single words (vocabulary), Worte = words as speech (\"liebe Worte\"). At A1 you need Wörter."
   },
   {
     "gender": "der",
     "singular": "Satz",
     "plural": "Sätze",
-    "en": "sentence"
+    "en": "sentence",
+    "example": {
+      "de": "Bitte schreiben Sie einen Satz mit diesem Wort.",
+      "en": "Please write a sentence with this word."
+    },
+    "tip": "Classroom phrase: Bilden Sie Sätze = form sentences. The plural takes umlaut, like Platz → Plätze."
   },
   {
     "gender": "die",
     "singular": "Frage",
     "plural": "Fragen",
-    "en": "question"
+    "en": "question",
+    "example": {
+      "de": "Ich habe eine Frage.",
+      "en": "I have a question."
+    },
+    "tip": "Ask a question = eine Frage stellen (never \"eine Frage fragen\"). Answer one: auf eine Frage antworten."
   },
   {
     "gender": "die",
     "singular": "Antwort",
     "plural": "Antworten",
-    "en": "answer"
+    "en": "answer",
+    "example": {
+      "de": "Ich weiß die Antwort nicht.",
+      "en": "I don't know the answer."
+    },
+    "tip": "Takes auf + Akkusativ: die Antwort auf die Frage. The verb antworten takes Dativ: Ich antworte dir."
   },
   {
     "gender": "das",
     "singular": "Beispiel",
     "plural": "Beispiele",
-    "en": "example"
+    "en": "example",
+    "example": {
+      "de": "Ich mag Obst, zum Beispiel Äpfel.",
+      "en": "I like fruit, for example apples."
+    },
+    "tip": "Key phrase: zum Beispiel (for example), abbreviated z. B.; zum = zu + dem (Dativ)."
   },
   {
     "gender": "der",
     "singular": "Text",
     "plural": "Texte",
-    "en": "text"
+    "en": "text",
+    "example": {
+      "de": "Wir lesen den Text zusammen.",
+      "en": "We read the text together."
+    },
+    "tip": "Means a written text or song lyrics, not a text message: that is die SMS / die Nachricht; to text = schreiben."
   },
   {
     "gender": "die",
     "singular": "Seite",
     "plural": "Seiten",
-    "en": "page, side"
+    "en": "page, side",
+    "example": {
+      "de": "Bitte öffnen Sie das Buch auf Seite zehn.",
+      "en": "Please open the book at page ten."
+    },
+    "tip": "One word for page and side; also a web page (die Webseite). Auf der linken Seite = on the left."
   },
   {
     "gender": "der",
     "singular": "Computer",
     "plural": "Computer",
-    "en": "computer"
+    "en": "computer",
+    "example": {
+      "de": "Ich arbeite jeden Tag am Computer.",
+      "en": "I work at the computer every day."
+    },
+    "tip": "Der/das nouns in -er take no plural ending (Computer, Zimmer, Lehrer); die nouns in -er usually add -n (Nummern)."
   },
   {
     "gender": "das",
     "singular": "Handy",
     "plural": "Handys",
-    "en": "mobile phone"
+    "en": "mobile phone",
+    "example": {
+      "de": "Mein Handy ist kaputt.",
+      "en": "My mobile phone is broken."
+    },
+    "tip": "Pseudo-English: Handy means mobile phone, not \"handy\" (= praktisch). Pronounced roughly \"Hendi\"."
   },
   {
     "gender": "das",
     "singular": "Telefon",
     "plural": "Telefone",
-    "en": "telephone"
+    "en": "telephone",
+    "example": {
+      "de": "Das Telefon klingelt.",
+      "en": "The telephone is ringing."
+    },
+    "tip": "Stress usually on the first syllable: TE-lefon (Tele-FON mainly in Austria). Am Telefon = on the phone; telefonieren mit + Dativ."
   },
   {
     "gender": "die",
     "singular": "E-Mail",
     "plural": "E-Mails",
-    "en": "email"
+    "en": "email",
+    "example": {
+      "de": "Ich schreibe dir heute eine E-Mail.",
+      "en": "I'll write you an email today."
+    },
+    "tip": "die E-Mail in Germany, das E-Mail in Austria and Switzerland. Keep the capital E and the hyphen; eine E-Mail schreiben / schicken."
   },
   {
     "gender": "der",
     "singular": "Brief",
     "plural": "Briefe",
-    "en": "letter"
+    "en": "letter",
+    "example": {
+      "de": "Meine Mutter bekommt einen Brief von der Bank.",
+      "en": "My mother is getting a letter from the bank."
+    },
+    "tip": "False friend: Brief means letter, not \"brief\" (kurz). Related: die Briefmarke (stamp), der Briefkasten (letterbox)."
   },
   {
     "gender": "die",
     "singular": "Nummer",
     "plural": "Nummern",
-    "en": "number"
+    "en": "number",
+    "example": {
+      "de": "Hast du meine neue Nummer?",
+      "en": "Do you have my new number?"
+    },
+    "tip": "Nummer = a number that identifies (phone, house, room); Zahl = a number for counting or maths."
   },
   {
     "gender": "das",
     "singular": "Internet",
     "plural": null,
-    "en": "internet"
+    "en": "internet",
+    "example": {
+      "de": "Ich suche die Adresse im Internet.",
+      "en": "I look up the address on the internet."
+    },
+    "tip": "German says im Internet (in + Dativ) where English says \"on the internet\": im Internet surfen / suchen."
   },
   {
     "gender": "das",
     "singular": "Foto",
     "plural": "Fotos",
-    "en": "photo"
+    "en": "photo",
+    "example": {
+      "de": "Ich mache ein Foto von dir.",
+      "en": "I'm taking a photo of you."
+    },
+    "tip": "Collocation: ein Foto machen (take a photo). Foreign words in -o usually take plural -s: Fotos, Autos, Kinos."
   },
   {
     "gender": "die",
     "singular": "Zeitung",
     "plural": "Zeitungen",
-    "en": "newspaper"
+    "en": "newspaper",
+    "example": {
+      "de": "Mein Vater liest jeden Morgen die Zeitung.",
+      "en": "My father reads the newspaper every morning."
+    },
+    "tip": "-ung → die. Zeitung = newspaper; Zeitschrift = magazine. Don't confuse with die Zeit (time)."
   },
   {
     "gender": "der",
     "singular": "Fernseher",
     "plural": "Fernseher",
-    "en": "TV set"
+    "en": "TV set",
+    "example": {
+      "de": "Der Fernseher im Wohnzimmer ist neu.",
+      "en": "The TV in the living room is new."
+    },
+    "tip": "Fernseher = the set; fernsehen (separable) = to watch TV: Ich sehe abends fern. On TV = im Fernsehen."
   },
   {
     "gender": "die",
     "singular": "Musik",
     "plural": null,
-    "en": "music"
+    "en": "music",
+    "example": {
+      "de": "Wie findest du die Musik?",
+      "en": "What do you think of the music?"
+    },
+    "tip": "Stress the second syllable: Mu-SIK (unlike English). Musik hören = listen to music, no article needed."
   },
   {
     "gender": "der",
     "singular": "Film",
     "plural": "Filme",
-    "en": "film"
+    "en": "film",
+    "example": {
+      "de": "Wir sehen heute Abend einen Film.",
+      "en": "We're watching a film tonight."
+    },
+    "tip": "Covers both film and movie. Einen Film sehen (colloquially gucken or schauen); im Kino = at the cinema."
   },
   {
     "gender": "das",
     "singular": "Spiel",
     "plural": "Spiele",
-    "en": "game"
+    "en": "game",
+    "example": {
+      "de": "Wir spielen heute ein Spiel.",
+      "en": "We are playing a game today."
+    },
+    "tip": "Also means 'match': das Fußballspiel. 'ein Spiel spielen' = to play a game; it is the noun of spielen."
   },
   {
     "gender": "der",
     "singular": "Sport",
     "plural": null,
-    "en": "sport"
+    "en": "sport",
+    "example": {
+      "de": "Ich mache gern Sport.",
+      "en": "I like doing sports."
+    },
+    "tip": "Say 'Sport machen' or 'Sport treiben', never 'Sport tun'. One particular sport is 'eine Sportart'."
   },
   {
     "gender": "das",
     "singular": "Hobby",
     "plural": "Hobbys",
-    "en": "hobby"
+    "en": "hobby",
+    "example": {
+      "de": "Meine Hobbys sind Musik und Sport.",
+      "en": "My hobbies are music and sports."
+    },
+    "tip": "German plural is Hobbys, never 'Hobbies'. Typical question: 'Was sind deine Hobbys?'"
   },
   {
     "gender": "die",
     "singular": "Zeit",
     "plural": "Zeiten",
-    "en": "time"
+    "en": "time",
+    "example": {
+      "de": "Die Zeit mit meiner Familie ist mir wichtig.",
+      "en": "Time with my family is important to me."
+    },
+    "tip": "Zeit is time in general ('Zeit haben'). For clock time ask 'Wie spät ist es?', not 'Was ist die Zeit?'."
   },
   {
     "gender": "die",
     "singular": "Uhr",
     "plural": "Uhren",
-    "en": "clock, o'clock"
+    "en": "clock, o'clock",
+    "example": {
+      "de": "Es ist jetzt acht Uhr.",
+      "en": "It is eight o'clock now."
+    },
+    "tip": "After a number Uhr stays singular: 'um drei Uhr'. Uhren is only for clocks/watches. 'Wie viel Uhr ist es?'"
   },
   {
     "gender": "die",
     "singular": "Stunde",
     "plural": "Stunden",
-    "en": "hour"
+    "en": "hour",
+    "example": {
+      "de": "Der Kurs dauert zwei Stunden.",
+      "en": "The course lasts two hours."
+    },
+    "tip": "Stunde = 60 minutes, Uhr = o'clock: 'zwei Stunden' vs 'zwei Uhr'. Also 'lesson': die Deutschstunde."
   },
   {
     "gender": "die",
     "singular": "Minute",
     "plural": "Minuten",
-    "en": "minute"
+    "en": "minute",
+    "example": {
+      "de": "Der Bus kommt in fünf Minuten.",
+      "en": "The bus is coming in five minutes."
+    },
+    "tip": "Three syllables, stress on the u: mi-NU-te. 'in fünf Minuten' = in five minutes."
   },
   {
     "gender": "die",
     "singular": "Sekunde",
     "plural": "Sekunden",
-    "en": "second"
+    "en": "second",
+    "example": {
+      "de": "Eine Minute hat sechzig Sekunden.",
+      "en": "A minute has sixty seconds."
+    },
+    "tip": "Only the time unit; 'second' as in 2nd is 'zweite'. 'Eine Sekunde!' = 'Just a second!'"
   },
   {
     "gender": "der",
     "singular": "Tag",
     "plural": "Tage",
-    "en": "day"
+    "en": "day",
+    "example": {
+      "de": "Heute ist ein schöner Tag.",
+      "en": "Today is a beautiful day."
+    },
+    "tip": "'Guten Tag!' is the default daytime greeting. 'jeden Tag' = every day, 'am Tag' = during the day."
   },
   {
     "gender": "die",
     "singular": "Woche",
     "plural": "Wochen",
-    "en": "week"
+    "en": "week",
+    "example": {
+      "de": "Nächste Woche fahre ich nach Wien.",
+      "en": "Next week I'm going to Vienna."
+    },
+    "tip": "'in der Woche' or 'pro Woche' = per week; 'nächste Woche' / 'diese Woche' take no preposition."
   },
   {
     "gender": "der",
     "singular": "Monat",
     "plural": "Monate",
-    "en": "month"
+    "en": "month",
+    "example": {
+      "de": "Ein Jahr hat zwölf Monate.",
+      "en": "A year has twelve months."
+    },
+    "tip": "All month names are der (der Januar, der Mai ...). 'im Monat' = per month, 'im Mai' = in May."
   },
   {
     "gender": "das",
     "singular": "Jahr",
     "plural": "Jahre",
-    "en": "year"
+    "en": "year",
+    "example": {
+      "de": "Ich bin zwanzig Jahre alt.",
+      "en": "I am twenty years old."
+    },
+    "tip": "Years: 'im Jahr 2020' or just '2020', never 'in 2020'. Dativ plural adds -n: 'vor zwei Jahren', 'seit drei Jahren'."
   },
   {
     "gender": "der",
     "singular": "Morgen",
-    "plural": null,
-    "en": "morning"
+    "plural": "Morgen",
+    "en": "morning",
+    "example": {
+      "de": "Am Morgen trinke ich einen Kaffee.",
+      "en": "In the morning I drink a coffee."
+    },
+    "tip": "der Morgen = morning; morgen (lowercase) = tomorrow. 'Guten Morgen!' but 'morgen früh' = tomorrow morning."
   },
   {
     "gender": "der",
     "singular": "Vormittag",
     "plural": "Vormittage",
-    "en": "late morning"
+    "en": "late morning",
+    "example": {
+      "de": "Am Vormittag habe ich Deutschkurs.",
+      "en": "In the late morning I have German class."
+    },
+    "tip": "Roughly 9 to 12 o'clock: 'am Vormittag'. Lowercase 'vormittags' = in the mornings (habitually)."
   },
   {
     "gender": "der",
     "singular": "Mittag",
     "plural": "Mittage",
-    "en": "midday"
+    "en": "midday",
+    "example": {
+      "de": "Am Mittag esse ich mit Anna.",
+      "en": "At midday I eat with Anna."
+    },
+    "tip": "'zu Mittag essen' = to have lunch; das Mittagessen = lunch. 'Mahlzeit!' is a common midday greeting at work."
   },
   {
     "gender": "der",
     "singular": "Nachmittag",
     "plural": "Nachmittage",
-    "en": "afternoon"
+    "en": "afternoon",
+    "example": {
+      "de": "Am Nachmittag gehe ich einkaufen.",
+      "en": "In the afternoon I go shopping."
+    },
+    "tip": "'am Nachmittag' but 'heute Nachmittag' (no preposition, capital N). 'nachmittags' = in the afternoons."
   },
   {
     "gender": "der",
     "singular": "Abend",
     "plural": "Abende",
-    "en": "evening"
+    "en": "evening",
+    "example": {
+      "de": "Ich wünsche dir einen schönen Abend!",
+      "en": "Have a nice evening!"
+    },
+    "tip": "'heute Abend' = tonight (for evening plans); 'Guten Abend!' from about 6 pm; das Abendessen = dinner."
   },
   {
     "gender": "die",
     "singular": "Nacht",
     "plural": "Nächte",
-    "en": "night"
+    "en": "night",
+    "example": {
+      "de": "In der Nacht schlafe ich gut.",
+      "en": "At night I sleep well."
+    },
+    "tip": "'Gute Nacht!' is only a farewell (bedtime or late at night); as a greeting say 'Guten Abend'. 'nachts' = at night (habitually)."
   },
   {
     "gender": "das",
     "singular": "Wochenende",
     "plural": "Wochenenden",
-    "en": "weekend"
+    "en": "weekend",
+    "example": {
+      "de": "Das Wochenende ist immer zu kurz.",
+      "en": "The weekend is always too short."
+    },
+    "tip": "'am Wochenende' = on/at the weekend. 'Schönes Wochenende!' is the usual farewell on a Friday."
   },
   {
     "gender": "der",
     "singular": "Montag",
-    "plural": null,
-    "en": "Monday"
+    "plural": "Montage",
+    "en": "Monday",
+    "example": {
+      "de": "Am Montag beginnt der Deutschkurs.",
+      "en": "The German course starts on Monday."
+    },
+    "tip": "'am Montag' = on Monday; 'montags' (lowercase, with -s) = on Mondays. All weekdays are der."
   },
   {
     "gender": "der",
     "singular": "Dienstag",
-    "plural": null,
-    "en": "Tuesday"
+    "plural": "Dienstage",
+    "en": "Tuesday",
+    "example": {
+      "de": "Am Dienstag habe ich keine Zeit.",
+      "en": "I don't have time on Tuesday."
+    },
+    "tip": "Long 'ie': DEENS-tahk. Don't mix up Dienstag (Tuesday) and Donnerstag (Thursday) — both start with D."
   },
   {
     "gender": "der",
     "singular": "Mittwoch",
-    "plural": null,
-    "en": "Wednesday"
+    "plural": "Mittwoche",
+    "en": "Wednesday",
+    "example": {
+      "de": "Am Mittwoch gehe ich schwimmen.",
+      "en": "On Wednesday I go swimming."
+    },
+    "tip": "Literally 'mid-week' (Mitte + Woche), but still der like all weekdays, not die like Woche."
   },
   {
     "gender": "der",
     "singular": "Donnerstag",
-    "plural": null,
-    "en": "Thursday"
+    "plural": "Donnerstage",
+    "en": "Thursday",
+    "example": {
+      "de": "Am Donnerstag kommt meine Mutter.",
+      "en": "My mother is coming on Thursday."
+    },
+    "tip": "'Donner' = thunder, so it is Thor's day just like English Thursday. Not to be confused with Dienstag."
   },
   {
     "gender": "der",
     "singular": "Freitag",
-    "plural": null,
-    "en": "Friday"
+    "plural": "Freitage",
+    "en": "Friday",
+    "example": {
+      "de": "Am Freitag gehen wir ins Restaurant.",
+      "en": "On Friday we are going to the restaurant."
+    },
+    "tip": "Not 'free day' — named after the goddess Frija. But 'Ich habe am Freitag frei' = I'm off on Friday."
   },
   {
     "gender": "der",
     "singular": "Samstag",
-    "plural": null,
-    "en": "Saturday"
+    "plural": "Samstage",
+    "en": "Saturday",
+    "example": {
+      "de": "Am Samstag spiele ich Fußball.",
+      "en": "On Saturday I play football."
+    },
+    "tip": "In northern and eastern Germany you will also hear 'Sonnabend' for Saturday. 'am Samstag' = on Saturday."
   },
   {
     "gender": "der",
     "singular": "Sonntag",
-    "plural": null,
-    "en": "Sunday"
+    "plural": "Sonntage",
+    "en": "Sunday",
+    "example": {
+      "de": "Am Sonntag schlafe ich lange.",
+      "en": "On Sunday I sleep in."
+    },
+    "tip": "Days take 'am' (an + dem): am Sonntag. Lowercase 'sonntags' means every Sunday."
   },
   {
     "gender": "der",
     "singular": "Geburtstag",
     "plural": "Geburtstage",
-    "en": "birthday"
+    "en": "birthday",
+    "example": {
+      "de": "Wann hast du Geburtstag?",
+      "en": "When is your birthday?"
+    },
+    "tip": "German says 'Geburtstag haben': Ich habe im Mai Geburtstag. Also: Alles Gute zum Geburtstag!"
   },
   {
     "gender": "das",
     "singular": "Datum",
     "plural": "Daten",
-    "en": "date"
+    "en": "date",
+    "example": {
+      "de": "Welches Datum haben wir heute?",
+      "en": "What is the date today?"
+    },
+    "tip": "Latin -um nouns take -en in the plural (Museum → Museen). 'Daten' also means 'data'."
   },
   {
     "gender": "der",
     "singular": "Januar",
     "plural": null,
-    "en": "January"
+    "en": "January",
+    "example": {
+      "de": "Im Januar ist es sehr kalt.",
+      "en": "In January it is very cold."
+    },
+    "tip": "All months are 'der' and take 'im' (in + dem): im Januar. Austria says 'Jänner'."
   },
   {
     "gender": "der",
     "singular": "Februar",
     "plural": null,
-    "en": "February"
+    "en": "February",
+    "example": {
+      "de": "Mein Bruder hat im Februar Geburtstag.",
+      "en": "My brother's birthday is in February."
+    },
+    "tip": "Pronounce every letter: FE-bru-ar (unlike English 'Feb-yoo-ary'). Austria also uses the form 'Feber'."
   },
   {
     "gender": "der",
     "singular": "März",
     "plural": null,
-    "en": "March"
+    "en": "March",
+    "example": {
+      "de": "Im März beginnt der Frühling.",
+      "en": "Spring begins in March."
+    },
+    "tip": "Don't drop the umlaut; the z sounds like 'ts': [mɛrts]."
   },
   {
     "gender": "der",
     "singular": "April",
     "plural": null,
-    "en": "April"
+    "en": "April",
+    "example": {
+      "de": "Im April regnet es oft.",
+      "en": "It often rains in April."
+    },
+    "tip": "Stress the second syllable: a-PRIL. 'April, April!' is the April Fools' call."
   },
   {
     "gender": "der",
     "singular": "Mai",
     "plural": null,
-    "en": "May"
+    "en": "May",
+    "example": {
+      "de": "Im Mai ist das Wetter oft schön.",
+      "en": "In May the weather is often nice."
+    },
+    "tip": "Sounds like English 'my'. 1 May (der erste Mai) is a public holiday in Germany."
   },
   {
     "gender": "der",
     "singular": "Juni",
     "plural": null,
-    "en": "June"
+    "en": "June",
+    "example": {
+      "de": "Im Juni fahren wir nach Italien.",
+      "en": "In June we are going to Italy."
+    },
+    "tip": "To avoid confusion with Juli, Germans often say 'Juno' on the phone. J sounds like English y."
   },
   {
     "gender": "der",
     "singular": "Juli",
     "plural": null,
-    "en": "July"
+    "en": "July",
+    "example": {
+      "de": "Im Juli ist es sehr heiß.",
+      "en": "In July it is very hot."
+    },
+    "tip": "Often pronounced 'Julei' to keep it apart from Juni. J sounds like English y."
   },
   {
     "gender": "der",
     "singular": "August",
     "plural": null,
-    "en": "August"
+    "en": "August",
+    "example": {
+      "de": "Im August haben die Kinder Ferien.",
+      "en": "In August the children have holidays."
+    },
+    "tip": "Stress the second syllable: au-GUST. With first-syllable stress it is the man's name August."
   },
   {
     "gender": "der",
     "singular": "September",
     "plural": null,
-    "en": "September"
+    "en": "September",
+    "example": {
+      "de": "Die Schule beginnt im September.",
+      "en": "School starts in September."
+    },
+    "tip": "Initial S is voiced like English z, stress on -TEM-: zep-TEM-ber."
   },
   {
     "gender": "der",
     "singular": "Oktober",
     "plural": null,
-    "en": "October"
+    "en": "October",
+    "example": {
+      "de": "Mein Vater hat im Oktober Geburtstag.",
+      "en": "My father's birthday is in October."
+    },
+    "tip": "Spelled with k, not c, unlike English October. Stress: ok-TO-ber."
   },
   {
     "gender": "der",
     "singular": "November",
     "plural": null,
-    "en": "November"
+    "en": "November",
+    "example": {
+      "de": "Im November ist es oft grau und kalt.",
+      "en": "In November it is often grey and cold."
+    },
+    "tip": "Here the v is pronounced like English v (no-VEM-ber), not like f as in 'Vater'."
   },
   {
     "gender": "der",
     "singular": "Dezember",
     "plural": null,
-    "en": "December"
+    "en": "December",
+    "example": {
+      "de": "Weihnachten ist im Dezember.",
+      "en": "Christmas is in December."
+    },
+    "tip": "Spelled with z, pronounced 'ts': de-TSEM-ber."
   },
   {
     "gender": "das",
     "singular": "Wetter",
     "plural": null,
-    "en": "weather"
+    "en": "weather",
+    "example": {
+      "de": "Wie ist das Wetter heute?",
+      "en": "What is the weather like today?"
+    },
+    "tip": "Ask 'Wie ist das Wetter?' (not 'Was'). Typical answers: Es ist schön/kalt. Es regnet."
   },
   {
     "gender": "die",
     "singular": "Sonne",
     "plural": "Sonnen",
-    "en": "sun"
+    "en": "sun",
+    "example": {
+      "de": "Die Sonne scheint heute.",
+      "en": "The sun is shining today."
+    },
+    "tip": "Key verb: scheinen – Die Sonne scheint. Adjective: sonnig (sunny)."
   },
   {
     "gender": "der",
     "singular": "Regen",
     "plural": null,
-    "en": "rain"
+    "en": "rain",
+    "example": {
+      "de": "Heute gibt es viel Regen.",
+      "en": "There is a lot of rain today."
+    },
+    "tip": "The verb is regnen: Es regnet. Compound: der Regenschirm (umbrella)."
   },
   {
     "gender": "der",
     "singular": "Schnee",
     "plural": null,
-    "en": "snow"
+    "en": "snow",
+    "example": {
+      "de": "Im Winter liegt hier viel Schnee.",
+      "en": "In winter there is a lot of snow here."
+    },
+    "tip": "The verb is schneien: Es schneit. Snow 'lies' in German: Es liegt Schnee."
   },
   {
     "gender": "der",
     "singular": "Wind",
     "plural": "Winde",
-    "en": "wind"
+    "en": "wind",
+    "example": {
+      "de": "Heute ist der Wind sehr stark.",
+      "en": "Today the wind is very strong."
+    },
+    "tip": "Pronounced [vɪnt]: w like English v, final d like t. Adjective: windig."
   },
   {
     "gender": "die",
     "singular": "Wolke",
     "plural": "Wolken",
-    "en": "cloud"
+    "en": "cloud",
+    "example": {
+      "de": "Am Himmel ist keine Wolke.",
+      "en": "There is not a cloud in the sky."
+    },
+    "tip": "Nouns ending in -e are mostly die with plural -n. Cloudy is 'wolkig' or 'bewölkt'."
   },
   {
     "gender": "der",
     "singular": "Himmel",
     "plural": null,
-    "en": "sky"
+    "en": "sky",
+    "example": {
+      "de": "Am Himmel fliegt ein Vogel.",
+      "en": "A bird is flying in the sky."
+    },
+    "tip": "Also means 'heaven'. 'In the sky' is 'am Himmel', not 'im Himmel'."
   },
   {
     "gender": "die",
     "singular": "Temperatur",
     "plural": "Temperaturen",
-    "en": "temperature"
+    "en": "temperature",
+    "example": {
+      "de": "Die Temperatur ist heute 25 Grad.",
+      "en": "The temperature is 25 degrees today."
+    },
+    "tip": "Nouns in -ur are usually die (die Natur, die Kultur) with plural -en."
   },
   {
     "gender": "der",
     "singular": "Grad",
     "plural": "Grade",
-    "en": "degree"
+    "en": "degree",
+    "example": {
+      "de": "Heute sind es dreißig Grad.",
+      "en": "It is thirty degrees today."
+    },
+    "tip": "After numbers Grad stays unchanged: zwanzig Grad, not Grade. Say 'Es sind 20 Grad.'"
   },
   {
     "gender": "der",
     "singular": "Sommer",
     "plural": "Sommer",
-    "en": "summer"
+    "en": "summer",
+    "example": {
+      "de": "Ich freue mich schon auf den Sommer.",
+      "en": "I'm already looking forward to summer."
+    },
+    "tip": "All four seasons are der and take 'im': im Sommer, im Winter. Plural unchanged like most -er nouns."
   },
   {
     "gender": "der",
     "singular": "Winter",
     "plural": "Winter",
-    "en": "winter"
+    "en": "winter",
+    "example": {
+      "de": "Im Winter ist es oft kalt.",
+      "en": "In winter it is often cold."
+    },
+    "tip": "All four seasons are masculine (der). 'In winter' = 'im Winter' (in + dem)."
   },
   {
     "gender": "der",
     "singular": "Frühling",
-    "plural": null,
-    "en": "spring"
+    "plural": "Frühlinge",
+    "en": "spring",
+    "example": {
+      "de": "Im Frühling ist das Wetter schön.",
+      "en": "In spring the weather is nice."
+    },
+    "tip": "Nouns in -ling are der. 'Im Frühling' = in spring; 'das Frühjahr' is a common synonym."
   },
   {
     "gender": "der",
     "singular": "Herbst",
-    "plural": null,
-    "en": "autumn"
+    "plural": "Herbste",
+    "en": "autumn",
+    "example": {
+      "de": "Im Herbst regnet es viel.",
+      "en": "In autumn it rains a lot."
+    },
+    "tip": "'Im Herbst' = in autumn (US: fall). Compound: die Herbstferien = autumn holidays."
   },
   {
     "gender": "der",
     "singular": "Baum",
     "plural": "Bäume",
-    "en": "tree"
+    "en": "tree",
+    "example": {
+      "de": "Vor dem Haus steht ein großer Baum.",
+      "en": "There is a big tree in front of the house."
+    },
+    "tip": "'Auf dem Baum' = up in the tree. Common compound: der Weihnachtsbaum (Christmas tree)."
   },
   {
     "gender": "die",
     "singular": "Blume",
     "plural": "Blumen",
-    "en": "flower"
+    "en": "flower",
+    "example": {
+      "de": "Ich kaufe meiner Mutter Blumen.",
+      "en": "I am buying my mother flowers."
+    },
+    "tip": "Usually plural as a gift: 'Blumen kaufen/schenken'. The receiver takes Dativ: 'Ich schenke ihr Blumen.'"
   },
   {
     "gender": "der",
     "singular": "Berg",
     "plural": "Berge",
-    "en": "mountain"
+    "en": "mountain",
+    "example": {
+      "de": "Wir fahren am Wochenende in die Berge.",
+      "en": "We are going to the mountains at the weekend."
+    },
+    "tip": "'In die Berge fahren' (Akkusativ, movement) but 'in den Bergen sein' (Dativ, location)."
   },
   {
     "gender": "der",
     "singular": "See",
     "plural": "Seen",
-    "en": "lake"
+    "en": "lake",
+    "example": {
+      "de": "Vom Hotel sieht man den See.",
+      "en": "You can see the lake from the hotel."
+    },
+    "tip": "Gender changes the meaning: der See = lake, die See = sea. Plural 'Seen' has two syllables: Se-en."
   },
   {
     "gender": "das",
     "singular": "Meer",
     "plural": "Meere",
-    "en": "sea"
+    "en": "sea",
+    "example": {
+      "de": "Wir machen Urlaub am Meer.",
+      "en": "We are going on holiday by the sea."
+    },
+    "tip": "'Am Meer' = by the sea, 'ans Meer fahren' = go to the seaside. Synonym: die See (feminine)."
   },
   {
     "gender": "der",
     "singular": "Fluss",
     "plural": "Flüsse",
-    "en": "river"
+    "en": "river",
+    "example": {
+      "de": "Der Rhein ist ein langer Fluss.",
+      "en": "The Rhine is a long river."
+    },
+    "tip": "Short u, so spelled with -ss (old spelling: Fluß). 'Am Fluss' = by the river."
   },
   {
     "gender": "der",
     "singular": "Wald",
     "plural": "Wälder",
-    "en": "forest"
+    "en": "forest",
+    "example": {
+      "de": "Wir laufen am Samstag durch den Wald.",
+      "en": "On Saturday we walk through the forest."
+    },
+    "tip": "'Im Wald' (Dativ) for being there, 'in den Wald' (Akkusativ) for going in. Schwarzwald = Black Forest."
   },
   {
     "gender": "das",
     "singular": "Tier",
     "plural": "Tiere",
-    "en": "animal"
+    "en": "animal",
+    "example": {
+      "de": "Im Zoo gibt es viele Tiere.",
+      "en": "There are many animals in the zoo."
+    },
+    "tip": "Not English 'tier'! Compounds: das Haustier (pet), das Lieblingstier (favourite animal)."
   },
   {
     "gender": "der",
     "singular": "Hund",
     "plural": "Hunde",
-    "en": "dog"
+    "en": "dog",
+    "example": {
+      "de": "Der Hund schläft unter dem Tisch.",
+      "en": "The dog is sleeping under the table."
+    },
+    "tip": "Final -d sounds like 't' ('Hunt'); the d is heard again in Hunde. Female dog: die Hündin."
   },
   {
     "gender": "die",
     "singular": "Katze",
     "plural": "Katzen",
-    "en": "cat"
+    "en": "cat",
+    "example": {
+      "de": "Meine Katze ist schwarz und weiß.",
+      "en": "My cat is black and white."
+    },
+    "tip": "The general word for cat, feminine even for male cats; a tomcat is 'der Kater'."
   },
   {
     "gender": "der",
     "singular": "Vogel",
     "plural": "Vögel",
-    "en": "bird"
+    "en": "bird",
+    "example": {
+      "de": "Ein Vogel sitzt auf dem Baum.",
+      "en": "A bird is sitting in the tree."
+    },
+    "tip": "Pronounce the V like an F: 'Fogel'. The plural changes only the vowel, with no ending."
   },
   {
     "gender": "das",
     "singular": "Geld",
     "plural": null,
-    "en": "money"
+    "en": "money",
+    "example": {
+      "de": "Ich habe heute kein Geld dabei.",
+      "en": "I do not have any money with me today."
+    },
+    "tip": "Uncountable at A1: 'viel/wenig Geld'. 'Geld abheben' = withdraw money, 'Geld verdienen' = earn money."
   },
   {
     "gender": "der",
     "singular": "Euro",
     "plural": "Euro",
-    "en": "euro"
+    "en": "euro",
+    "example": {
+      "de": "Das Brot kostet zwei Euro.",
+      "en": "The bread costs two euros."
+    },
+    "tip": "After a number Euro takes no ending: 'zwei Euro' (only coins are 'Euros'). Prices: 'zwei Euro fünfzig' = 2.50 €."
   },
   {
     "gender": "der",
     "singular": "Cent",
     "plural": "Cent",
-    "en": "cent"
+    "en": "cent",
+    "example": {
+      "de": "Das Brötchen kostet fünfzig Cent.",
+      "en": "The bread roll costs fifty cents."
+    },
+    "tip": "After a number no -s: 'fünfzig Cent'. Pronounced with an s-sound ('Sent'), like in English."
   },
   {
     "gender": "der",
     "singular": "Preis",
     "plural": "Preise",
-    "en": "price"
+    "en": "price",
+    "example": {
+      "de": "Die Preise im Supermarkt sind hoch.",
+      "en": "The prices in the supermarket are high."
+    },
+    "tip": "Also means 'prize': 'einen Preis gewinnen'. To ask a price, say 'Was kostet das?'"
   },
   {
     "gender": "die",
     "singular": "Kasse",
     "plural": "Kassen",
-    "en": "checkout, till"
+    "en": "checkout, till",
+    "example": {
+      "de": "Bitte zahlen Sie an der Kasse.",
+      "en": "Please pay at the checkout."
+    },
+    "tip": "'An der Kasse' = at the checkout. Also 'die Krankenkasse' = health insurance fund."
   },
   {
     "gender": "die",
     "singular": "Karte",
     "plural": "Karten",
-    "en": "card, map, ticket"
+    "en": "card, map, ticket",
+    "example": {
+      "de": "Kann ich mit Karte bezahlen?",
+      "en": "Can I pay by card?"
+    },
+    "tip": "Many compounds: Fahrkarte (ticket), Speisekarte (menu), Landkarte (map), Postkarte. 'Mit Karte zahlen' = pay by card."
   },
   {
     "gender": "das",
     "singular": "Konto",
     "plural": "Konten",
-    "en": "bank account"
+    "en": "bank account",
+    "example": {
+      "de": "Ich habe ein Konto bei der Bank.",
+      "en": "I have an account at the bank."
+    },
+    "tip": "'Ein Konto eröffnen' = open an account; 'Geld aufs Konto überweisen' = transfer money to the account."
   },
   {
     "gender": "die",
     "singular": "Quittung",
     "plural": "Quittungen",
-    "en": "receipt"
+    "en": "receipt",
+    "example": {
+      "de": "Kann ich bitte eine Quittung haben?",
+      "en": "Can I have a receipt, please?"
+    },
+    "tip": "-ung nouns are always die. In shops the receipt is often called 'der Kassenbon' or 'der Bon'."
   },
   {
     "gender": "die",
     "singular": "Sache",
     "plural": "Sachen",
-    "en": "thing"
+    "en": "thing",
+    "example": {
+      "de": "Ich packe meine Sachen in den Koffer.",
+      "en": "I am packing my things into the suitcase."
+    },
+    "tip": "Plural 'Sachen' often means belongings or clothes; 'Das ist meine Sache' = that's my business."
   },
   {
     "gender": "das",
     "singular": "Ding",
     "plural": "Dinge",
-    "en": "thing"
+    "en": "thing",
+    "example": {
+      "de": "Ich habe heute noch viele Dinge zu tun.",
+      "en": "I still have many things to do today."
+    },
+    "tip": "Singular 'Ding' is usually a concrete object; plural 'Dinge' also covers tasks and matters. Colloquial plural: 'Dinger'."
   },
   {
     "gender": "das",
     "singular": "Problem",
     "plural": "Probleme",
-    "en": "problem"
+    "en": "problem",
+    "example": {
+      "de": "Kein Problem, ich helfe dir.",
+      "en": "No problem, I will help you."
+    },
+    "tip": "Stress on the second syllable: pro-BLEM. Foreign nouns in -em are usually das, e.g. das System."
   },
   {
     "gender": "die",
     "singular": "Idee",
     "plural": "Ideen",
-    "en": "idea"
+    "en": "idea",
+    "example": {
+      "de": "Ich habe eine gute Idee.",
+      "en": "I have a good idea."
+    },
+    "tip": "Two syllables, stress on the last: i-DEE (long e). Plural Ideen has three: i-DE-en. 'Gute Idee!' = good idea!"
   },
   {
     "gender": "die",
     "singular": "Information",
     "plural": "Informationen",
-    "en": "information"
+    "en": "information",
+    "example": {
+      "de": "Ich brauche mehr Informationen über den Kurs.",
+      "en": "I need more information about the course."
+    },
+    "tip": "-tion → die. Unlike English, it is countable: eine Information, viele Informationen."
   },
   {
     "gender": "die",
     "singular": "Hilfe",
     "plural": null,
-    "en": "help"
+    "en": "help",
+    "example": {
+      "de": "Danke für deine Hilfe!",
+      "en": "Thanks for your help!"
+    },
+    "tip": "'Hilfe!' is the cry for help. Danke für + Akkusativ: 'Danke für die Hilfe'. The verb helfen takes Dativ."
   },
   {
     "gender": "der",
     "singular": "Grund",
     "plural": "Gründe",
-    "en": "reason"
+    "en": "reason",
+    "example": {
+      "de": "Ich habe einen guten Grund.",
+      "en": "I have a good reason."
+    },
+    "tip": "Collocation: der Grund für + Akkusativ ('der Grund für das Problem'); 'aus diesem Grund' = for this reason."
   },
   {
     "gender": "die",
     "singular": "Möglichkeit",
     "plural": "Möglichkeiten",
-    "en": "possibility"
+    "en": "possibility",
+    "example": {
+      "de": "Es gibt viele Möglichkeiten.",
+      "en": "There are many possibilities."
+    },
+    "tip": "-keit → always die. Formed from the adjective möglich (possible); also means 'option, opportunity'."
   },
   {
     "gender": "das",
     "singular": "Glück",
     "plural": null,
-    "en": "luck, happiness"
+    "en": "luck, happiness",
+    "example": {
+      "de": "Viel Glück bei der Prüfung!",
+      "en": "Good luck with the exam!"
+    },
+    "tip": "'Glück haben' = to be lucky (not 'have happiness'). Adjective: glücklich. Opposite: das Pech (bad luck)."
   },
   {
     "gender": "die",
     "singular": "Farbe",
     "plural": "Farben",
-    "en": "colour"
+    "en": "colour",
+    "example": {
+      "de": "Welche Farbe hat dein Auto?",
+      "en": "What colour is your car?"
+    },
+    "tip": "German asks 'Welche Farbe hat ...?' (what colour does it have?). Farbe also means paint."
   },
   {
     "gender": "der",
     "singular": "Teil",
     "plural": "Teile",
-    "en": "part"
+    "en": "part",
+    "example": {
+      "de": "Ich lese den ersten Teil vom Buch.",
+      "en": "I am reading the first part of the book."
+    },
+    "tip": "der Teil = part of a whole; das Teil = a single piece/component. Seen in Stadtteil, Vorteil, Nachteil."
   },
   {
     "gender": "die",
     "singular": "Art",
     "plural": "Arten",
-    "en": "kind, type"
+    "en": "kind, type",
+    "example": {
+      "de": "Welche Art von Musik magst du?",
+      "en": "What kind of music do you like?"
+    },
+    "tip": "False friend: not 'art' (that is die Kunst). Used with von: 'diese Art von Musik'."
   },
   {
     "gender": "das",
     "singular": "Stück",
     "plural": "Stücke",
-    "en": "piece"
+    "en": "piece",
+    "example": {
+      "de": "Ich möchte ein Stück Kuchen, bitte.",
+      "en": "I would like a piece of cake, please."
+    },
+    "tip": "No 'von' after it: ein Stück Kuchen. After numbers it often stays singular: 'drei Stück Kuchen'."
   },
   {
     "gender": "die",
     "singular": "Liste",
     "plural": "Listen",
-    "en": "list"
+    "en": "list",
+    "example": {
+      "de": "Ich schreibe eine Liste für den Supermarkt.",
+      "en": "I am writing a list for the supermarket."
+    },
+    "tip": "Nouns ending in -e are mostly die. Common compound: die Einkaufsliste (shopping list)."
   },
   {
     "gender": "der",
     "singular": "Plan",
     "plural": "Pläne",
-    "en": "plan"
+    "en": "plan",
+    "example": {
+      "de": "Hast du einen Plan für das Wochenende?",
+      "en": "Do you have a plan for the weekend?"
+    },
+    "tip": "Also means a map/schedule: der Stadtplan, der Fahrplan. 'Pläne machen' = to make plans."
   },
   {
     "gender": "die",
     "singular": "Party",
     "plural": "Partys",
-    "en": "party"
+    "en": "party",
+    "example": {
+      "de": "Kommst du am Samstag zu meiner Party?",
+      "en": "Are you coming to my party on Saturday?"
+    },
+    "tip": "English loanwords in -y just add -s: Partys, Babys, Hobbys (no -ies). Everyday idiom: 'auf eine Party gehen' (Akkusativ)."
   },
   {
     "gender": "das",
     "singular": "Geschenk",
     "plural": "Geschenke",
-    "en": "present, gift"
+    "en": "present, gift",
+    "example": {
+      "de": "Das Geschenk ist für dich.",
+      "en": "The present is for you."
+    },
+    "tip": "Ge- nouns are usually das. Verb: schenken + Dativ + Akkusativ ('Ich schenke dir ein Buch')."
   },
   {
     "gender": "das",
     "singular": "Formular",
     "plural": "Formulare",
-    "en": "form (to fill in)"
+    "en": "form (to fill in)",
+    "example": {
+      "de": "Wo bekomme ich das Formular?",
+      "en": "Where do I get the form?"
+    },
+    "tip": "Key verb: ausfüllen (separable) = to fill in. Not 'die Form' (shape)."
   },
   {
     "gender": "der",
     "singular": "Anfang",
     "plural": "Anfänge",
-    "en": "beginning"
+    "en": "beginning",
+    "example": {
+      "de": "Am Anfang ist Deutsch schwer.",
+      "en": "In the beginning German is hard."
+    },
+    "tip": "'am Anfang' = at the beginning; 'Anfang Mai' = at the start of May (no article). Verb: anfangen."
   },
   {
     "gender": "das",
     "singular": "Ende",
     "plural": "Enden",
-    "en": "end"
+    "en": "end",
+    "example": {
+      "de": "Das Ende vom Film ist traurig.",
+      "en": "The end of the film is sad."
+    },
+    "tip": "'am Ende' = at the end; 'Ende Mai' = at the end of May; 'zu Ende sein' = to be over."
   },
   {
     "gender": "die",
     "singular": "Pause",
     "plural": "Pausen",
-    "en": "break"
+    "en": "break",
+    "example": {
+      "de": "Wir machen jetzt zehn Minuten Pause.",
+      "en": "We are taking a ten-minute break now."
+    },
+    "tip": "Collocation: Pause machen (not 'nehmen'). Pronounced POW-ze, two syllables."
   }
 ]

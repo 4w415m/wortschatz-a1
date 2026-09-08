@@ -1,6 +1,10 @@
 /* One-off: pulls the pipe-delimited DATA blocks out of the original single-file
    index.html and writes them as typed JSON under data/. Kept in the repo so the
-   conversion is reproducible and reviewable, not a thing that happened once. */
+   conversion is reproducible and reviewable, not a thing that happened once.
+
+   Do not rerun it against the current data/: the JSON has since been reviewed
+   and enriched by hand (corrected plurals and notes, plus `example` and `tip`
+   on every entry), none of which exists in the original file. */
 import { readFileSync, writeFileSync } from "node:fs";
 
 const src = readFileSync(process.argv[2] ?? "index.html", "utf8");

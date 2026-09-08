@@ -2,266 +2,531 @@
   {
     "word": "ich",
     "en": "I",
-    "note": "Nominativ"
+    "note": "Nominativ",
+    "example": {
+      "de": "Ich heiße Anna und komme aus Berlin.",
+      "en": "My name is Anna and I come from Berlin."
+    },
+    "tip": "Unlike English 'I', ich is written lowercase unless it starts the sentence."
   },
   {
     "word": "du",
     "en": "you (informal singular)",
-    "note": "Nominativ"
+    "note": "Nominativ",
+    "example": {
+      "de": "Hast du heute Zeit?",
+      "en": "Do you have time today?"
+    },
+    "tip": "Use du with friends, family and children; the verb takes -st after du (du kommst, du hast)."
   },
   {
     "word": "er",
     "en": "he",
-    "note": "Nominativ"
+    "note": "Nominativ",
+    "example": {
+      "de": "Er ist mein Bruder und wohnt in Hamburg.",
+      "en": "He is my brother and lives in Hamburg."
+    },
+    "tip": "er also stands for masculine things, not just people: Der Tisch? Er ist groß."
   },
   {
     "word": "sie",
-    "en": "she / they",
-    "note": "Nominativ"
+    "en": "she / they; her / them",
+    "note": "Nominativ and Akkusativ",
+    "example": {
+      "de": "Wo wohnt sie jetzt?",
+      "en": "Where does she live now?"
+    },
+    "tip": "Same word for she and they; the verb tells you which: sie kommt (she) vs. sie kommen (they)."
   },
   {
     "word": "es",
     "en": "it",
-    "note": "Nominativ"
+    "note": "Nominativ and Akkusativ",
+    "example": {
+      "de": "Es ist heute sehr kalt.",
+      "en": "It is very cold today."
+    },
+    "tip": "es replaces das-nouns (das Auto → es) and starts weather sentences: Es regnet, es ist kalt."
   },
   {
     "word": "wir",
     "en": "we",
-    "note": "Nominativ"
+    "note": "Nominativ",
+    "example": {
+      "de": "Wir trinken jeden Morgen Kaffee.",
+      "en": "We drink coffee every morning."
+    },
+    "tip": "The wir-form looks like the infinitive (wir kommen, wir haben) — only sein differs: wir sind."
   },
   {
     "word": "ihr",
     "en": "you (informal plural)",
-    "note": "Nominativ"
+    "note": "Nominativ",
+    "example": {
+      "de": "Habt ihr am Wochenende Zeit?",
+      "en": "Do you (all) have time at the weekend?"
+    },
+    "tip": "The verb takes -t after ihr (ihr kommt, ihr habt; exception: ihr seid); don't confuse with ihr = 'to her' or 'her/their'."
   },
   {
     "word": "Sie",
     "en": "you (formal)",
-    "note": "Nominativ, always capitalised"
+    "note": "Nominativ and Akkusativ, always capitalised",
+    "example": {
+      "de": "Woher kommen Sie?",
+      "en": "Where do you come from?"
+    },
+    "tip": "Use Sie with strangers, officials and at work; the verb takes the plural form: Sie kommen, Sie sind."
   },
   {
     "word": "mich",
     "en": "me",
-    "note": "Akkusativ von ich"
+    "note": "Akkusativ von ich",
+    "example": {
+      "de": "Kannst du mich morgen anrufen?",
+      "en": "Can you call me tomorrow?"
+    },
+    "tip": "mich after sehen, besuchen, anrufen and für; but mir after helfen, mit, zu: Er sieht mich, er hilft mir."
   },
   {
     "word": "dich",
     "en": "you",
-    "note": "Akkusativ von du"
+    "note": "Akkusativ von du",
+    "example": {
+      "de": "Ich besuche dich am Sonntag.",
+      "en": "I will visit you on Sunday."
+    },
+    "tip": "Ich liebe dich, but Ich helfe dir — helfen, danken and gefallen take Dativ (dir), not dich."
   },
   {
     "word": "ihn",
     "en": "him",
-    "note": "Akkusativ von er"
+    "note": "Akkusativ von er",
+    "example": {
+      "de": "Ich kenne ihn schon lange.",
+      "en": "I have known him for a long time."
+    },
+    "tip": "ihn also means 'it' for der-nouns: Der Film? Ich finde ihn gut."
   },
   {
     "word": "uns",
     "en": "us",
-    "note": "Akkusativ and Dativ von wir"
+    "note": "Akkusativ and Dativ von wir",
+    "example": {
+      "de": "Besuchst du uns am Wochenende?",
+      "en": "Are you visiting us at the weekend?"
+    },
+    "tip": "One form for both cases: Er sieht uns / Er hilft uns. Also reflexive: Wir treffen uns um acht."
   },
   {
     "word": "euch",
     "en": "you (plural)",
-    "note": "Akkusativ and Dativ von ihr"
+    "note": "Akkusativ and Dativ von ihr",
+    "example": {
+      "de": "Ich zeige euch die Stadt.",
+      "en": "I will show you the city."
+    },
+    "tip": "Object form of ihr, same in both cases: Ich sehe euch / Ich helfe euch. Also reflexive: Setzt euch!"
   },
   {
     "word": "mir",
     "en": "to me, me",
-    "note": "Dativ von ich"
+    "note": "Dativ von ich",
+    "example": {
+      "de": "Kannst du mir bitte helfen?",
+      "en": "Can you please help me?"
+    },
+    "tip": "mir after helfen, gefallen, schmecken, danken and after mit, bei, von, zu; also in Mir ist kalt."
   },
   {
     "word": "dir",
     "en": "to you",
-    "note": "Dativ von du"
+    "note": "Dativ von du",
+    "example": {
+      "de": "Wie geht es dir?",
+      "en": "How are you?"
+    },
+    "tip": "Dativ verbs take dir, not dich: Ich helfe dir, ich danke dir, das gefällt dir. So do mit, bei, von, zu."
   },
   {
     "word": "ihm",
     "en": "to him, to it",
-    "note": "Dativ von er / es"
+    "note": "Dativ von er / es",
+    "example": {
+      "de": "Ich helfe ihm bei den Hausaufgaben.",
+      "en": "I help him with the homework."
+    },
+    "tip": "ihm serves both er and es: Das Kind ist krank – ich helfe ihm. Never ihn after helfen."
   },
   {
     "word": "ihr (Dativ)",
     "en": "to her",
-    "note": "Dativ von sie (singular)"
+    "note": "Dativ von sie (singular)",
+    "example": {
+      "de": "Ich schenke ihr Blumen zum Geburtstag.",
+      "en": "I am giving her flowers for her birthday."
+    },
+    "tip": "Same spelling as ihr = 'you (plural)'; the verb tells you which: Habt ihr…? (-t → you) vs. Ich gebe ihr… (to her)."
   },
   {
     "word": "ihnen",
     "en": "to them",
-    "note": "Dativ von sie (plural)"
+    "note": "Dativ von sie (plural)",
+    "example": {
+      "de": "Ich helfe ihnen gern im Garten.",
+      "en": "I like helping them in the garden."
+    },
+    "tip": "Lowercase ihnen = to them; capital Ihnen = to you (formal): Wie geht es Ihnen?"
   },
   {
     "word": "Ihnen",
     "en": "to you (formal)",
-    "note": "Dativ von Sie"
+    "note": "Dativ von Sie",
+    "example": {
+      "de": "Wie geht es Ihnen?",
+      "en": "How are you? (formal)"
+    },
+    "tip": "Capital I = formal you. Lowercase ihnen = 'to them'. Set phrases: Wie geht es Ihnen? Kann ich Ihnen helfen?"
   },
   {
     "word": "mein",
     "en": "my",
-    "note": "possessive"
+    "note": "possessive",
+    "example": {
+      "de": "Das ist mein Bruder.",
+      "en": "That is my brother."
+    },
+    "tip": "Takes the same endings as ein/kein: mein Vater, meine Mutter, meinen Bruder (Akk.), meinem Freund (Dat.)."
   },
   {
     "word": "dein",
     "en": "your",
-    "note": "possessive, informal singular"
+    "note": "possessive, informal singular",
+    "example": {
+      "de": "Ist das dein Auto?",
+      "en": "Is that your car?"
+    },
+    "tip": "Belongs to du. Same endings as ein: dein Bruder, deine Schwester, deinen Freund (Akk.)."
   },
   {
     "word": "sein",
     "en": "his, its",
-    "note": "possessive"
+    "note": "possessive",
+    "example": {
+      "de": "Peter und sein Hund sind im Park.",
+      "en": "Peter and his dog are in the park."
+    },
+    "tip": "Not the verb sein (to be) here. Belongs to er and es: Peter sucht seine Tasche. Das Kind sucht seinen Ball."
   },
   {
     "word": "ihr (Possessiv)",
     "en": "her, their",
-    "note": "possessive"
+    "note": "possessive",
+    "example": {
+      "de": "Anna sucht ihre Tasche.",
+      "en": "Anna is looking for her bag."
+    },
+    "tip": "Belongs to sie (she) and sie (they); context decides. Endings like ein: ihre Tasche, ihren Hund (Akk.)."
   },
   {
     "word": "unser",
     "en": "our",
-    "note": "possessive"
+    "note": "possessive",
+    "example": {
+      "de": "Unser Haus ist klein.",
+      "en": "Our house is small."
+    },
+    "tip": "Endings like ein: unser Sohn, unsere Tochter, unseren Lehrer (Akk.), unserem Kind (Dat.)."
   },
   {
     "word": "euer",
     "en": "your (plural)",
-    "note": "possessive, informal plural"
+    "note": "possessive, informal plural",
+    "example": {
+      "de": "Ist das euer Auto?",
+      "en": "Is that your car? (you plural)"
+    },
+    "tip": "Belongs to ihr (you plural). Drops the second e before an ending: euer Auto, but eure Kinder, euren Sohn."
   },
   {
     "word": "Ihr",
     "en": "your (formal)",
-    "note": "possessive, always capitalised"
+    "note": "possessive, always capitalised",
+    "example": {
+      "de": "Ist das Ihr Koffer?",
+      "en": "Is that your suitcase? (formal)"
+    },
+    "tip": "Belongs to Sie. Endings like ein: Ihr Name, Ihre Adresse, Ihren Ausweis (Akk.). Lowercase ihr = her/their/you (pl.)."
   },
   {
     "word": "der",
     "en": "the",
-    "note": "masculine Nominativ"
+    "note": "masculine Nominativ / feminine Dativ",
+    "example": {
+      "de": "Der Mann trinkt Kaffee.",
+      "en": "The man is drinking coffee."
+    },
+    "tip": "Only masculine changes in the Akkusativ: der Mann → den Mann; die and das stay the same."
   },
   {
     "word": "die",
     "en": "the",
-    "note": "feminine and plural Nominativ"
+    "note": "feminine and plural, Nominativ and Akkusativ",
+    "example": {
+      "de": "Die Frau kommt aus Berlin.",
+      "en": "The woman comes from Berlin."
+    },
+    "tip": "In the Dativ it changes: mit der Frau (feminine), mit den Kindern (plural, noun usually adds -n)."
   },
   {
     "word": "das",
     "en": "the",
-    "note": "neuter Nominativ"
+    "note": "neuter Nominativ and Akkusativ",
+    "example": {
+      "de": "Ich lese das Buch.",
+      "en": "I am reading the book."
+    },
+    "tip": "Also the demonstrative 'that/this': Das ist mein Bruder. Don't confuse with dass (conjunction)."
   },
   {
     "word": "den",
     "en": "the",
-    "note": "masculine Akkusativ / plural Dativ"
+    "note": "masculine Akkusativ / plural Dativ",
+    "example": {
+      "de": "Ich sehe den Bus.",
+      "en": "I see the bus."
+    },
+    "tip": "In the plural Dativ the noun adds -n too (unless it already ends in -n or -s): mit den Kindern, mit den Autos."
   },
   {
     "word": "dem",
     "en": "the",
-    "note": "masculine and neuter Dativ"
+    "note": "masculine and neuter Dativ",
+    "example": {
+      "de": "Ich fahre mit dem Bus.",
+      "en": "I'm going by bus."
+    },
+    "tip": "Follows mit, von, zu, aus, bei, nach (always Dativ). Contractions: zu dem → zum, bei dem → beim, in dem → im."
   },
   {
     "word": "ein",
     "en": "a, an",
-    "note": "masculine and neuter Nominativ"
+    "note": "masculine and neuter Nominativ / neuter Akkusativ",
+    "example": {
+      "de": "Das ist ein Tisch.",
+      "en": "That is a table."
+    },
+    "tip": "No plural form: ein Kind → Kinder. Negate with kein, never 'nicht ein': Ich habe kein Auto."
   },
   {
     "word": "eine",
     "en": "a, an",
-    "note": "feminine Nominativ and Akkusativ"
+    "note": "feminine Nominativ and Akkusativ",
+    "example": {
+      "de": "Ich habe eine Schwester.",
+      "en": "I have a sister."
+    },
+    "tip": "Feminine nouns often end in -e, -ung, -heit, -keit: eine Lampe, eine Zeitung, eine Wohnung."
   },
   {
     "word": "einen",
     "en": "a, an",
-    "note": "masculine Akkusativ"
+    "note": "masculine Akkusativ",
+    "example": {
+      "de": "Ich habe einen Bruder.",
+      "en": "I have a brother."
+    },
+    "tip": "Used after haben, es gibt and most verbs with a masculine object: Ich habe einen Hund. Es gibt einen Park."
   },
   {
     "word": "einem",
     "en": "a, an",
-    "note": "masculine and neuter Dativ"
+    "note": "masculine and neuter Dativ",
+    "example": {
+      "de": "Ich wohne in einem Haus.",
+      "en": "I live in a house."
+    },
+    "tip": "Typical after Dativ prepositions: mit einem Freund, seit einem Jahr, in einem Haus (location)."
   },
   {
     "word": "einer",
     "en": "a, an",
-    "note": "feminine Dativ"
+    "note": "feminine Dativ",
+    "example": {
+      "de": "Sie arbeitet in einer Bank.",
+      "en": "She works in a bank."
+    },
+    "tip": "Dativ after mit, aus, bei, zu, seit, nach, von: seit einer Woche, mit einer Freundin."
   },
   {
     "word": "kein",
     "en": "no, not a",
-    "note": "negates a noun"
+    "note": "negates a noun",
+    "example": {
+      "de": "Ich habe kein Auto.",
+      "en": "I don't have a car."
+    },
+    "tip": "Declines like ein (keine, keinen). Use kein for nouns with ein or no article; use nicht for verbs and adjectives."
   },
   {
     "word": "und",
     "en": "and",
-    "note": "does not change word order"
+    "note": "does not change word order",
+    "example": {
+      "de": "Ich trinke Kaffee und esse ein Brötchen.",
+      "en": "I drink coffee and eat a bread roll."
+    },
+    "tip": "No comma before und in a list: Brot, Käse und Wurst. Both parts keep normal verb-second order."
   },
   {
     "word": "oder",
     "en": "or",
-    "note": "does not change word order"
+    "note": "does not change word order",
+    "example": {
+      "de": "Möchtest du Tee oder Kaffee?",
+      "en": "Would you like tea or coffee?"
+    },
+    "tip": "Also a tag question at the end of a sentence: Du kommst mit, oder? = You're coming, right?"
   },
   {
     "word": "aber",
     "en": "but",
-    "note": "does not change word order"
+    "note": "does not change word order",
+    "example": {
+      "de": "Ich bin müde, aber ich arbeite noch.",
+      "en": "I'm tired, but I'm still working."
+    },
+    "tip": "Comma before aber. sondern replaces aber only when correcting a negative: nicht heute, sondern morgen."
   },
   {
     "word": "denn",
     "en": "because",
-    "note": "does not change word order"
+    "note": "does not change word order",
+    "example": {
+      "de": "Ich bleibe zu Hause, denn ich bin krank.",
+      "en": "I'm staying at home because I'm ill."
+    },
+    "tip": "Same meaning as weil, but the verb stays in 2nd position and denn can't start the sentence. Also a particle: Was ist denn los?"
   },
   {
     "word": "sondern",
     "en": "but rather (after a negative)",
-    "note": "nicht X, sondern Y"
+    "note": "nicht X, sondern Y",
+    "example": {
+      "de": "Ich komme nicht heute, sondern morgen.",
+      "en": "I'm not coming today, but tomorrow."
+    },
+    "tip": "Only after nicht/kein, correcting one thing with another. Also: nicht nur ..., sondern auch ... = not only ... but also."
   },
   {
     "word": "dass",
     "en": "that",
-    "note": "verb goes to the end"
+    "note": "verb goes to the end",
+    "example": {
+      "de": "Ich glaube, dass er morgen kommt.",
+      "en": "I think that he is coming tomorrow."
+    },
+    "tip": "Don't confuse with das (article/relative pronoun): Ich weiß, dass das Haus alt ist. Always a comma before dass."
   },
   {
     "word": "weil",
     "en": "because",
-    "note": "verb goes to the end"
+    "note": "verb goes to the end",
+    "example": {
+      "de": "Ich lerne Deutsch, weil ich in Berlin wohne.",
+      "en": "I'm learning German because I live in Berlin."
+    },
+    "tip": "Same meaning as denn but with verb-final order. Can answer Warum? on its own: Warum? – Weil ich müde bin."
   },
   {
     "word": "wenn",
     "en": "if, when",
-    "note": "verb goes to the end"
+    "note": "verb goes to the end",
+    "example": {
+      "de": "Wenn es regnet, bleibe ich zu Hause.",
+      "en": "When it rains, I stay at home."
+    },
+    "tip": "For a one-time event or period in the past use als (Als ich klein war ...). The question word 'when?' is wann, not wenn."
   },
   {
     "word": "ob",
     "en": "whether",
-    "note": "verb goes to the end"
+    "note": "verb goes to the end",
+    "example": {
+      "de": "Ich weiß nicht, ob er heute kommt.",
+      "en": "I don't know whether he's coming today."
+    },
+    "tip": "Turns a yes/no question into an indirect one: Kommt er? → Ich weiß nicht, ob er kommt. 'If' meaning 'in case' is wenn."
   },
   {
     "word": "man",
     "en": "one, you (impersonal)",
-    "note": "man sagt = people say"
+    "note": "man sagt = people say",
+    "example": {
+      "de": "In Deutschland isst man viel Brot.",
+      "en": "In Germany people eat a lot of bread."
+    },
+    "tip": "Takes a 3rd-person singular verb: man kann, man muss. One n! der Mann (nn) = man/husband."
   },
   {
     "word": "es gibt",
     "en": "there is, there are",
-    "note": "always followed by Akkusativ"
+    "note": "always followed by Akkusativ",
+    "example": {
+      "de": "In der Stadt gibt es einen Bahnhof.",
+      "en": "There is a train station in the city."
+    },
+    "tip": "Always singular 'gibt', even for plurals: Es gibt viele Kinder. Question form: Gibt es hier ein Café?"
   },
   {
     "word": "nichts",
     "en": "nothing",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Heute habe ich nichts zu tun.",
+      "en": "Today I have nothing to do."
+    },
+    "tip": "nichts = nothing (pronoun), nicht = not (negates a verb): Ich sehe nichts vs. Ich sehe ihn nicht."
   },
   {
     "word": "etwas",
     "en": "something, a bit",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Möchtest du etwas trinken?",
+      "en": "Would you like something to drink?"
+    },
+    "tip": "Colloquial short form: was (Willst du was trinken?). An adjective after etwas is capitalised: etwas Neues."
   },
   {
     "word": "alles",
     "en": "everything",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ist alles in Ordnung?",
+      "en": "Is everything okay?"
+    },
+    "tip": "Singular: Alles ist gut. For people use alle (plural): Alle sind da. Set phrases: Alles Gute!, Alles klar?"
   },
   {
     "word": "jeder",
     "en": "every, each",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Ich gehe jeden Tag zur Arbeit.",
+      "en": "I go to work every day."
+    },
+    "tip": "Declines like der: jeder Mann, jede Frau, jedes Kind, Akkusativ jeden Tag. Always singular; for the plural use alle."
   },
   {
     "word": "viele",
     "en": "many",
-    "note": null
+    "note": null,
+    "example": {
+      "de": "Viele Leute lernen Deutsch.",
+      "en": "Many people learn German."
+    },
+    "tip": "Plural, takes endings: viele Kinder, mit vielen Kindern. Uncountable nouns take viel without ending: viel Zeit."
   }
 ]
