@@ -76,6 +76,8 @@ A verb entry looks like this; every field after `en` is optional.
                                           shows es / sie, no imperative
   "flags": ["sep"],                       core · irr · modal · sep · insep
   "example": { "de": "…", "en": "…" },
+  "examplePerfekt": { "de": "…", "en": "…" },   the same idea in the past; on
+                                          möchten it uses wollte instead
   "tip": "…"
 }
 ```
@@ -143,6 +145,7 @@ node tools/check-data.mjs
 ```
 
 Reports schema problems (a `sep` verb with an unknown prefix, a missing
-imperative on an e → i verb, two verbs with the same gloss) and diffs every
+imperative on an e → i verb, two verbs with the same gloss, a Perfekt sentence
+that does not contain the verb's auxiliary and participle) and diffs every
 verb's present tense and imperative against `tools/verbs.snapshot.txt`. After a deliberate change, `--update` rewrites the
 snapshot; the diff it prints first is the review.

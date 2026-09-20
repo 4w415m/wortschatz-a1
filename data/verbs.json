@@ -34,6 +34,10 @@
       "de": "Ich bin Lehrerin und meine Schwester ist Ärztin.",
       "en": "I am a teacher and my sister is a doctor."
     },
+    "examplePerfekt": {
+      "de": "Ich bin schon einmal in Berlin gewesen.",
+      "en": "I have been to Berlin once before."
+    },
     "tip": "The past is the Präteritum war, not the Perfekt: Ich war gestern zu Hause. No article before jobs: Ich bin Lehrer."
   },
   {
@@ -62,6 +66,10 @@
       "de": "Hast du heute Zeit für einen Kaffee?",
       "en": "Do you have time for a coffee today?"
     },
+    "examplePerfekt": {
+      "de": "Wir haben gestern keine Zeit gehabt.",
+      "en": "We had no time yesterday."
+    },
     "tip": "Takes the Akkusativ (Ich habe einen Hund) and is the Perfekt helper for most verbs. Past: ich hatte, du hattest."
   },
   {
@@ -82,6 +90,10 @@
     "example": {
       "de": "Meine Tochter wird im Mai sechs Jahre alt.",
       "en": "My daughter turns six in May."
+    },
+    "examplePerfekt": {
+      "de": "Meine Schwester ist Ärztin geworden.",
+      "en": "My sister became a doctor."
     },
     "tip": "Also the future helper: Ich werde morgen arbeiten. Change of state, so Perfekt with sein: Sie ist Ärztin geworden."
   },
@@ -106,6 +118,10 @@
       "de": "Meine Tochter kann schon lesen.",
       "en": "My daughter can already read."
     },
+    "examplePerfekt": {
+      "de": "Das habe ich früher gut gekonnt.",
+      "en": "I used to be good at that."
+    },
     "tip": "Main verb goes to the end as an infinitive: Ich kann gut schwimmen. ich/er kann – no ending."
   },
   {
@@ -128,6 +144,10 @@
     "example": {
       "de": "Ich muss jetzt nach Hause gehen.",
       "en": "I have to go home now."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben um sechs nach Hause gemusst.",
+      "en": "We had to go home at six."
     },
     "tip": "'Ich muss nicht' = I don't have to (not 'must not'); prohibition is 'nicht dürfen'."
   },
@@ -152,6 +172,10 @@
       "de": "Wir wollen am Wochenende ins Kino gehen.",
       "en": "We want to go to the cinema at the weekend."
     },
+    "examplePerfekt": {
+      "de": "Das habe ich nicht gewollt.",
+      "en": "I didn't mean for that to happen."
+    },
     "tip": "'Ich will' = I want, never 'I will' (future). Politer: 'ich möchte'."
   },
   {
@@ -174,6 +198,10 @@
     "example": {
       "de": "Soll ich das Fenster aufmachen?",
       "en": "Should I open the window?"
+    },
+    "examplePerfekt": {
+      "de": "Das hast du nicht gesollt.",
+      "en": "You weren't supposed to do that."
     },
     "tip": "Relays someone's wish: Der Arzt sagt, ich soll mehr trinken. 'Soll ich ...?' = an offer."
   },
@@ -198,6 +226,10 @@
       "de": "Hier darf man nicht rauchen.",
       "en": "You are not allowed to smoke here."
     },
+    "examplePerfekt": {
+      "de": "Als Kind habe ich das nicht gedurft.",
+      "en": "As a child I wasn't allowed to do that."
+    },
     "tip": "'nicht dürfen' = must not / not allowed. 'Darf ich ...?' is the polite way to ask permission."
   },
   {
@@ -221,6 +253,10 @@
     "example": {
       "de": "Ich mag Kaffee, aber ich mag keinen Tee.",
       "en": "I like coffee, but I don't like tea."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe den Film nicht gemocht.",
+      "en": "I didn't like the film."
     },
     "tip": "mag + noun: Ich mag Pizza. Its Konjunktiv II möchte (would like) is so common it has its own card."
   },
@@ -252,6 +288,10 @@
       "de": "Ich möchte einen Kaffee, bitte.",
       "en": "I would like a coffee, please."
     },
+    "examplePerfekt": {
+      "de": "Ich wollte gestern ins Kino gehen.",
+      "en": "I wanted to go to the cinema yesterday."
+    },
     "tip": "The polite way to want something; ich/er möchte take no ending. It has no Perfekt of its own: for the past say wollte (Ich wollte einen Tee)."
   },
   {
@@ -266,6 +306,10 @@
     "example": {
       "de": "Was machst du am Samstag?",
       "en": "What are you doing on Saturday?"
+    },
+    "examplePerfekt": {
+      "de": "Was hast du am Wochenende gemacht?",
+      "en": "What did you do at the weekend?"
     },
     "tip": "Key collocations: Hausaufgaben/Sport/eine Pause machen. 'Das macht nichts' = never mind."
   },
@@ -282,6 +326,10 @@
       "de": "Ich gehe jeden Morgen zu Fuß zur Arbeit.",
       "en": "I walk to work every morning."
     },
+    "examplePerfekt": {
+      "de": "Ich bin gestern früh ins Bett gegangen.",
+      "en": "I went to bed early yesterday."
+    },
     "tip": "Perfekt with sein (motion): Ich bin gegangen. 'Wie geht's?' = How are you?"
   },
   {
@@ -296,6 +344,10 @@
     "example": {
       "de": "Kommst du heute Abend zur Party?",
       "en": "Are you coming to the party tonight?"
+    },
+    "examplePerfekt": {
+      "de": "Sie ist gestern spät nach Hause gekommen.",
+      "en": "She came home late yesterday."
     },
     "tip": "Perfekt with sein: Sie ist gekommen. Origin: kommen aus + Dativ (aus der Schweiz)."
   },
@@ -318,6 +370,10 @@
       "de": "Ich sehe den Hund im Garten.",
       "en": "I see the dog in the garden."
     },
+    "examplePerfekt": {
+      "de": "Hast du den Film schon gesehen?",
+      "en": "Have you seen the film yet?"
+    },
     "tip": "Separable 'fernsehen': Ich sehe fern. 'Wir sehen uns!' = See you! 'Mal sehen' = We'll see."
   },
   {
@@ -339,6 +395,10 @@
       "de": "Gibst du mir bitte das Salz?",
       "en": "Can you pass me the salt, please?"
     },
+    "examplePerfekt": {
+      "de": "Er hat mir das Buch gegeben.",
+      "en": "He gave me the book."
+    },
     "tip": "Person in the Dativ, thing in the Akkusativ: Ich gebe dir das Buch. 'Es gibt' + Akkusativ = there is."
   },
   {
@@ -353,6 +413,10 @@
     "example": {
       "de": "Wie sagt man das auf Deutsch?",
       "en": "How do you say that in German?"
+    },
+    "examplePerfekt": {
+      "de": "Was hat sie gesagt?",
+      "en": "What did she say?"
     },
     "tip": "Person in the Dativ: Ich sage dir die Wahrheit. sagen = say something; sprechen = speak (a language)."
   },
@@ -378,6 +442,10 @@
       "de": "Weißt du, wo der Bahnhof ist?",
       "en": "Do you know where the station is?"
     },
+    "examplePerfekt": {
+      "de": "Das habe ich nicht gewusst.",
+      "en": "I didn't know that."
+    },
     "tip": "wissen = know facts, often with a dass/ob/W-clause; kennen = be familiar with people, places, things."
   },
   {
@@ -393,6 +461,10 @@
     "example": {
       "de": "Ich finde meinen Schlüssel nicht.",
       "en": "I can't find my key."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe meinen Schlüssel gefunden!",
+      "en": "I found my key!"
     },
     "tip": "Also 'to think': 'Ich finde das gut' = I think that's good. Very common A1 phrase for giving opinions."
   },
@@ -415,6 +487,10 @@
       "de": "Ich nehme heute den Bus zur Arbeit.",
       "en": "I'm taking the bus to work today."
     },
+    "examplePerfekt": {
+      "de": "Wir haben den Zug nach München genommen.",
+      "en": "We took the train to Munich."
+    },
     "tip": "Stem change e→i with double m: du nimmst, er nimmt. Used for transport: den Bus/Zug nehmen."
   },
   {
@@ -436,6 +512,10 @@
       "de": "Meine Schwester spricht sehr gut Englisch.",
       "en": "My sister speaks English very well."
     },
+    "examplePerfekt": {
+      "de": "Ich habe gestern mit meiner Oma gesprochen.",
+      "en": "I spoke to my grandma yesterday."
+    },
     "tip": "sprechen mit + Dativ (talk to sb), sprechen über + Akkusativ (talk about sth). Stem e→i: du sprichst."
   },
   {
@@ -451,6 +531,10 @@
     "example": {
       "de": "Ich heiße Anna, und wie heißt du?",
       "en": "My name is Anna, and what's your name?"
+    },
+    "examplePerfekt": {
+      "de": "Früher hat die Straße anders geheißen.",
+      "en": "The street used to have a different name."
     },
     "tip": "du heißt, not 'heißest': the ß is already an s-sound, so -st loses its s. Also 'das heißt' = that means."
   },
@@ -472,6 +556,10 @@
       "de": "Was isst du gern zum Frühstück?",
       "en": "What do you like to eat for breakfast?"
     },
+    "examplePerfekt": {
+      "de": "Wir haben gestern Pizza gegessen.",
+      "en": "We ate pizza yesterday."
+    },
     "tip": "'isst' sounds exactly like 'ist' – only context tells them apart. Partizip has an extra ge-: gegessen."
   },
   {
@@ -486,6 +574,10 @@
     "example": {
       "de": "Ich trinke morgens gern einen Kaffee.",
       "en": "I like to drink a coffee in the morning."
+    },
+    "examplePerfekt": {
+      "de": "Er hat zwei Tassen Kaffee getrunken.",
+      "en": "He drank two cups of coffee."
     },
     "tip": "Vowel pattern i–a–u like finden and singen: trinken, trank, getrunken."
   },
@@ -505,6 +597,10 @@
       "de": "Am Wochenende schlafe ich lange.",
       "en": "On the weekend I sleep in."
     },
+    "examplePerfekt": {
+      "de": "Ich habe heute Nacht schlecht geschlafen.",
+      "en": "I slept badly last night."
+    },
     "tip": "a→ä only in du/er forms: du schläfst, er schläft, but ihr schlaft. Key phrase: 'Hast du gut geschlafen?'"
   },
   {
@@ -522,6 +618,10 @@
     "example": {
       "de": "Fährst du mich bitte nach Hause?",
       "en": "Will you drive me home, please?"
+    },
+    "examplePerfekt": {
+      "de": "Wir sind mit dem Auto nach Hamburg gefahren.",
+      "en": "We drove to Hamburg."
     },
     "tip": "Any vehicle: Auto, Bus, Zug, Fahrrad fahren. Motion verb → ist gefahren. Transport takes 'mit dem/der' + Dativ."
   },
@@ -541,6 +641,10 @@
       "de": "Meine Tochter läuft allein zur Haltestelle.",
       "en": "My daughter walks to the bus stop on her own."
     },
+    "examplePerfekt": {
+      "de": "Ich bin heute zur Arbeit gelaufen.",
+      "en": "I walked to work today."
+    },
     "tip": "In everyday German laufen often means to walk (zu Fuß); 'rennen' is to run fast. Motion → ist gelaufen."
   },
   {
@@ -554,6 +658,10 @@
     "example": {
       "de": "Im Sommer fliegen wir nach Spanien.",
       "en": "In summer we're flying to Spain."
+    },
+    "examplePerfekt": {
+      "de": "Sie ist letzte Woche nach Rom geflogen.",
+      "en": "She flew to Rome last week."
     },
     "tip": "Motion verb → ist geflogen. Vowel pattern ie–o–o: fliegen, flog, geflogen."
   },
@@ -575,6 +683,10 @@
       "de": "Er liest jeden Abend ein Buch.",
       "en": "He reads a book every evening."
     },
+    "examplePerfekt": {
+      "de": "Hast du das Buch gelesen?",
+      "en": "Have you read the book?"
+    },
     "tip": "du liest = er liest: the stem's s merges with the -st ending. Stem change e→ie in du/er forms only."
   },
   {
@@ -590,6 +702,10 @@
       "de": "Ich schreibe meiner Oma einen Brief.",
       "en": "I'm writing my grandma a letter."
     },
+    "examplePerfekt": {
+      "de": "Ich habe dir eine E-Mail geschrieben.",
+      "en": "I wrote you an email."
+    },
     "tip": "Person in Dativ, thing in Akkusativ: Ich schreibe dir eine E-Mail. Or 'schreiben an' + Akkusativ."
   },
   {
@@ -602,6 +718,10 @@
     "example": {
       "de": "Ich lerne jeden Tag zwanzig Minuten Deutsch.",
       "en": "I study German for twenty minutes every day."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe heute zwanzig neue Wörter gelernt.",
+      "en": "I learned twenty new words today."
     },
     "tip": "lernen = learn/study (school, vocabulary, for a test); studieren = be enrolled at university."
   },
@@ -616,6 +736,10 @@
       "de": "Mein Vater arbeitet bei der Post.",
       "en": "My father works at the post office."
     },
+    "examplePerfekt": {
+      "de": "Er hat gestern bis acht Uhr gearbeitet.",
+      "en": "He worked until eight o'clock yesterday."
+    },
     "tip": "Stem ends in -t → extra -e-: du arbeitest, er arbeitet. 'arbeiten als' + job (no article), 'bei' + employer."
   },
   {
@@ -628,6 +752,10 @@
     "example": {
       "de": "Ich wohne in Berlin.",
       "en": "I live in Berlin."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe zwei Jahre in Wien gewohnt.",
+      "en": "I lived in Vienna for two years."
     },
     "tip": "wohnen = where you reside (address, city); leben = be alive / live in general. Collocation: wohnen in + Dativ."
   },
@@ -642,6 +770,10 @@
       "de": "Meine Großeltern leben in Italien.",
       "en": "My grandparents live in Italy."
     },
+    "examplePerfekt": {
+      "de": "Mein Opa hat lange in Italien gelebt.",
+      "en": "My grandpa lived in Italy for a long time."
+    },
     "tip": "leben = be alive or live your life; for your address use wohnen. 'Lebt er noch?' = Is he still alive?"
   },
   {
@@ -654,6 +786,10 @@
     "example": {
       "de": "Die Kinder spielen im Park.",
       "en": "The children are playing in the park."
+    },
+    "examplePerfekt": {
+      "de": "Die Kinder haben im Park gespielt.",
+      "en": "The children played in the park."
     },
     "tip": "Used for games, sport and instruments; sports and instruments take no article: Fußball spielen, Klavier spielen."
   },
@@ -668,6 +804,10 @@
       "de": "Ich höre gern Musik.",
       "en": "I like listening to music."
     },
+    "examplePerfekt": {
+      "de": "Hast du das gehört?",
+      "en": "Did you hear that?"
+    },
     "tip": "hören covers both hear and listen; zuhören (sep., + Dativ) is to listen attentively to someone."
   },
   {
@@ -680,6 +820,10 @@
     "example": {
       "de": "Wir kaufen Brot und Milch im Supermarkt.",
       "en": "We buy bread and milk at the supermarket."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe ein neues Handy gekauft.",
+      "en": "I bought a new phone."
     },
     "tip": "Related: einkaufen (sep.) = to do the shopping: 'Ich gehe einkaufen.' kaufen needs an object (Akkusativ)."
   },
@@ -696,6 +840,10 @@
       "de": "Er verkauft sein altes Auto.",
       "en": "He is selling his old car."
     },
+    "examplePerfekt": {
+      "de": "Er hat sein Auto verkauft.",
+      "en": "He sold his car."
+    },
     "tip": "Inseparable prefix ver-: no ge- in the Perfekt (hat verkauft); stress falls on -kau-."
   },
   {
@@ -708,6 +856,10 @@
     "example": {
       "de": "Das Zimmer kostet 50 Euro pro Nacht.",
       "en": "The room costs 50 euros per night."
+    },
+    "examplePerfekt": {
+      "de": "Das Ticket hat zehn Euro gekostet.",
+      "en": "The ticket cost ten euros."
     },
     "tip": "Stem ends in -t, so -e- is inserted: du kostest, es kostet. Key phrase: 'Wie viel kostet das?'"
   },
@@ -724,6 +876,10 @@
       "de": "Ich bezahle mit Karte.",
       "en": "I'm paying by card."
     },
+    "examplePerfekt": {
+      "de": "Ich habe mit Karte bezahlt.",
+      "en": "I paid by card."
+    },
     "tip": "Inseparable be-: no ge- (hat bezahlt). Short form zahlen also exists: 'Zahlen, bitte!' = the bill, please."
   },
   {
@@ -736,6 +892,10 @@
     "example": {
       "de": "Ich brauche einen neuen Stift.",
       "en": "I need a new pen."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe deine Hilfe gebraucht.",
+      "en": "I needed your help."
     },
     "tip": "brauchen + Akkusativ, no preposition: 'Wir brauchen Hilfe.' Don't mix up with bringen (to bring) or gebrauchen (to use)."
   },
@@ -750,6 +910,10 @@
       "de": "Ich suche meinen Schlüssel.",
       "en": "I'm looking for my key."
     },
+    "examplePerfekt": {
+      "de": "Ich habe dich überall gesucht.",
+      "en": "I looked for you everywhere."
+    },
     "tip": "No preposition, unlike English 'look for': suchen + Akkusativ directly ('Ich suche den Bahnhof')."
   },
   {
@@ -763,6 +927,10 @@
       "de": "Ich frage den Lehrer.",
       "en": "I ask the teacher."
     },
+    "examplePerfekt": {
+      "de": "Hast du den Lehrer gefragt?",
+      "en": "Did you ask the teacher?"
+    },
     "tip": "The person asked is Akkusativ: 'Ich frage dich.' Fully regular; 'du frägst' is dialect, not standard German."
   },
   {
@@ -775,6 +943,10 @@
     "example": {
       "de": "Er antwortet mir nicht.",
       "en": "He doesn't answer me."
+    },
+    "examplePerfekt": {
+      "de": "Sie hat mir nicht geantwortet.",
+      "en": "She didn't answer me."
     },
     "tip": "The person answered is Dativ: 'Ich antworte dir.' Stem in -t, so -e- is inserted: du antwortest."
   },
@@ -792,6 +964,10 @@
       "de": "Verstehst du die Frage?",
       "en": "Do you understand the question?"
     },
+    "examplePerfekt": {
+      "de": "Ich habe die Frage nicht verstanden.",
+      "en": "I didn't understand the question."
+    },
     "tip": "Perfekt follows stehen (hat gestanden) but the inseparable ver- means no ge-: hat verstanden."
   },
   {
@@ -807,6 +983,10 @@
       "de": "Ich denke an meine Familie.",
       "en": "I'm thinking about my family."
     },
+    "examplePerfekt": {
+      "de": "Ich habe an dich gedacht.",
+      "en": "I thought of you."
+    },
     "tip": "Mixed verb: regular present endings, but Perfekt hat gedacht. 'denken an' + Akkusativ = think of/about."
   },
   {
@@ -820,6 +1000,10 @@
       "de": "Glaubst du das wirklich?",
       "en": "Do you really believe that?"
     },
+    "examplePerfekt": {
+      "de": "Das habe ich nicht geglaubt.",
+      "en": "I didn't believe that."
+    },
     "tip": "Everyday 'I think' is usually 'Ich glaube'. Believing a person takes the Dativ: 'Ich glaube dir.'"
   },
   {
@@ -832,6 +1016,10 @@
     "example": {
       "de": "Ich meine, das Restaurant ist sehr gut.",
       "en": "I think the restaurant is very good."
+    },
+    "examplePerfekt": {
+      "de": "Das habe ich nicht so gemeint.",
+      "en": "I didn't mean it like that."
     },
     "tip": "For an opinion: 'Was meinst du?' = What do you think? For what a word means, use bedeuten, not meinen."
   },
@@ -848,6 +1036,10 @@
       "de": "Kennst du meinen Bruder?",
       "en": "Do you know my brother?"
     },
+    "examplePerfekt": {
+      "de": "Ich habe ihn gut gekannt.",
+      "en": "I knew him well."
+    },
     "tip": "kennen + Akkusativ = be familiar with people/places/things; wissen = know facts (Ich weiß, dass ...)."
   },
   {
@@ -860,6 +1052,10 @@
     "example": {
       "de": "Ich liebe meine Familie sehr.",
       "en": "I love my family very much."
+    },
+    "examplePerfekt": {
+      "de": "Sie hat ihn sehr geliebt.",
+      "en": "She loved him very much."
     },
     "tip": "Takes Akkusativ: Ich liebe dich. For milder liking use mögen or gern haben."
   },
@@ -874,6 +1070,10 @@
       "de": "Ich warte auf den Bus.",
       "en": "I am waiting for the bus."
     },
+    "examplePerfekt": {
+      "de": "Ich habe eine Stunde auf den Bus gewartet.",
+      "en": "I waited an hour for the bus."
+    },
     "tip": "warten auf + Akkusativ: Ich warte auf dich / auf den Zug. Stem ends in -t, so add -e-: du wartest, er wartet."
   },
   {
@@ -887,6 +1087,10 @@
     "example": {
       "de": "Heute bleibe ich zu Hause.",
       "en": "Today I am staying at home."
+    },
+    "examplePerfekt": {
+      "de": "Wir sind gestern zu Hause geblieben.",
+      "en": "We stayed at home yesterday."
     },
     "tip": "Perfekt with sein even though nothing moves: sein, bleiben and werden are the exceptions (ist geblieben)."
   },
@@ -903,6 +1107,10 @@
       "de": "Wir stehen schon zehn Minuten an der Kasse.",
       "en": "We've been standing at the checkout for ten minutes."
     },
+    "examplePerfekt": {
+      "de": "Ich habe lange an der Kasse gestanden.",
+      "en": "I stood at the checkout for a long time."
+    },
     "tip": "Position verb: answers 'wo?' with Dativ (vor dem Haus). Its action partner is stellen (wohin? + Akkusativ)."
   },
   {
@@ -917,6 +1125,10 @@
     "example": {
       "de": "Wir sitzen im Garten und trinken Kaffee.",
       "en": "We are sitting in the garden drinking coffee."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben im Garten gesessen.",
+      "en": "We sat in the garden."
     },
     "tip": "Position (wo? + Dativ): Ich sitze auf dem Stuhl. To sit down is sich setzen (wohin? + Akkusativ)."
   },
@@ -933,6 +1145,10 @@
       "de": "Das Buch liegt auf dem Tisch.",
       "en": "The book is lying on the table."
     },
+    "examplePerfekt": {
+      "de": "Das Buch hat auf dem Tisch gelegen.",
+      "en": "The book was lying on the table."
+    },
     "tip": "liegen = be lying/located (wo? + Dativ); legen = put something down flat (wohin? + Akkusativ). Also: Wo liegt Berlin?"
   },
   {
@@ -946,6 +1162,10 @@
       "de": "Ich lege das Buch auf den Tisch.",
       "en": "I put the book on the table."
     },
+    "examplePerfekt": {
+      "de": "Ich habe den Schlüssel auf den Tisch gelegt.",
+      "en": "I put the key on the table."
+    },
     "tip": "legen = lay something flat, direction wohin? + Akkusativ (auf den Tisch). Resulting state: liegen (auf dem Tisch)."
   },
   {
@@ -958,6 +1178,10 @@
     "example": {
       "de": "Ich stelle die Flasche auf den Tisch.",
       "en": "I put the bottle on the table."
+    },
+    "examplePerfekt": {
+      "de": "Er hat die Flasche in den Kühlschrank gestellt.",
+      "en": "He put the bottle in the fridge."
     },
     "tip": "Use stellen for things that stand upright (Flasche, Glas), legen for flat things. Also: eine Frage stellen = ask a question."
   },
@@ -973,6 +1197,10 @@
       "de": "Ich setze mich auf den Stuhl.",
       "en": "I sit down on the chair."
     },
+    "examplePerfekt": {
+      "de": "Ich habe mich auf den Stuhl gesetzt.",
+      "en": "I sat down on the chair."
+    },
     "tip": "Reflexive with Akkusativ: Setzen Sie sich! / Ich setze mich (wohin? + Akkusativ). Resulting state: sitzen. Without sich it means to put: das Kind auf den Stuhl setzen."
   },
   {
@@ -985,6 +1213,10 @@
     "example": {
       "de": "Öffnest du bitte das Fenster?",
       "en": "Would you open the window, please?"
+    },
+    "examplePerfekt": {
+      "de": "Wer hat das Fenster geöffnet?",
+      "en": "Who opened the window?"
     },
     "tip": "Stem ends in -fn, so add -e-: du öffnest, er öffnet. In everyday speech aufmachen is more common."
   },
@@ -1001,6 +1233,10 @@
       "de": "Der Supermarkt schließt um acht Uhr.",
       "en": "The supermarket closes at eight o'clock."
     },
+    "examplePerfekt": {
+      "de": "Der Laden hat um acht geschlossen.",
+      "en": "The shop closed at eight."
+    },
     "tip": "After a sibilant the -st ending loses its s: du schließt (not schließst). Geschlossen = 'closed' on signs. Colloquial: zumachen."
   },
   {
@@ -1016,6 +1252,10 @@
     "example": {
       "de": "Der Deutschkurs beginnt um neun Uhr.",
       "en": "The German course begins at nine o'clock."
+    },
+    "examplePerfekt": {
+      "de": "Der Kurs hat um neun begonnen.",
+      "en": "The course began at nine."
     },
     "tip": "Inseparable be- prefix: no ge- in the Partizip (hat begonnen). beginnen mit + Dativ."
   },
@@ -1037,6 +1277,10 @@
       "de": "Ich helfe meiner Mutter in der Küche.",
       "en": "I help my mother in the kitchen."
     },
+    "examplePerfekt": {
+      "de": "Sie hat mir bei den Hausaufgaben geholfen.",
+      "en": "She helped me with my homework."
+    },
     "tip": "helfen takes Dativ: Ich helfe dir / meiner Mutter. Imperative keeps the stem change: Hilf mir! Also helfen bei + Dativ."
   },
   {
@@ -1049,6 +1293,10 @@
     "example": {
       "de": "Ich danke dir für das Geschenk.",
       "en": "Thank you for the present."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe ihm für das Geschenk gedankt.",
+      "en": "I thanked him for the present."
     },
     "tip": "Takes Dativ: Ich danke dir / Ihnen. Danke schön! and Vielen Dank! are the everyday short forms."
   },
@@ -1065,6 +1313,10 @@
       "de": "Ich bringe dir morgen das Buch.",
       "en": "I'll bring you the book tomorrow."
     },
+    "examplePerfekt": {
+      "de": "Er hat mir Blumen gebracht.",
+      "en": "He brought me flowers."
+    },
     "tip": "Mixed verb: present is regular but Perfekt is hat gebracht (like denken → gedacht). Person in Dativ, thing in Akkusativ."
   },
   {
@@ -1077,6 +1329,10 @@
     "example": {
       "de": "Ich hole schnell Brot vom Bäcker.",
       "en": "I'll quickly get some bread from the baker's."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe Brot vom Bäcker geholt.",
+      "en": "I got bread from the baker's."
     },
     "tip": "holen = go and get something. abholen (separable) = pick someone up: Ich hole dich ab."
   },
@@ -1097,6 +1353,10 @@
       "de": "Sie trägt heute ein rotes Kleid.",
       "en": "She is wearing a red dress today."
     },
+    "examplePerfekt": {
+      "de": "Sie hat gestern ein rotes Kleid getragen.",
+      "en": "She wore a red dress yesterday."
+    },
     "tip": "Means both carry (eine Tasche) and wear (ein Kleid). a → ä only in du/er: trägst, trägt; ihr tragt."
   },
   {
@@ -1113,6 +1373,10 @@
       "de": "Ich bekomme zum Geburtstag ein neues Handy.",
       "en": "I'm getting a new phone for my birthday."
     },
+    "examplePerfekt": {
+      "de": "Ich habe ein Paket bekommen.",
+      "en": "I received a parcel."
+    },
     "tip": "False friend: bekommen = to get, not to become (that is werden). Inseparable be-, so no ge-: hat bekommen."
   },
   {
@@ -1126,6 +1390,10 @@
       "de": "Wir schenken Oma Blumen zum Geburtstag.",
       "en": "We're giving Grandma flowers for her birthday."
     },
+    "examplePerfekt": {
+      "de": "Wir haben Oma Blumen geschenkt.",
+      "en": "We gave Grandma flowers."
+    },
     "tip": "Person in Dativ, gift in Akkusativ: Ich schenke ihr eine Uhr. Noun: das Geschenk."
   },
   {
@@ -1138,6 +1406,10 @@
     "example": {
       "de": "Ich zeige dir mein neues Zimmer.",
       "en": "I'll show you my new room."
+    },
+    "examplePerfekt": {
+      "de": "Er hat mir seine Wohnung gezeigt.",
+      "en": "He showed me his flat."
     },
     "tip": "Dativ person + Akkusativ thing: Zeigst du mir das Foto? Also: Kannst du mir den Weg zeigen?"
   },
@@ -1154,6 +1426,10 @@
       "de": "Die Lehrerin erklärt die Aufgabe noch einmal.",
       "en": "The teacher explains the task once more."
     },
+    "examplePerfekt": {
+      "de": "Die Lehrerin hat die Aufgabe erklärt.",
+      "en": "The teacher explained the task."
+    },
     "tip": "Inseparable er-: no ge- in the Perfekt, hat erklärt. Erklär mir das bitte (person in Dativ)."
   },
   {
@@ -1166,6 +1442,10 @@
     "example": {
       "de": "Ich übe jeden Tag zehn Minuten Deutsch.",
       "en": "I practise German for ten minutes every day."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe gestern eine Stunde geübt.",
+      "en": "I practised for an hour yesterday."
     },
     "tip": "Noun: die Übung (exercise, -ung → die). Pronounce ü like 'ee' with rounded lips."
   },
@@ -1181,6 +1461,10 @@
     "example": {
       "de": "Ich wiederhole die neuen Wörter jeden Abend.",
       "en": "I go over the new words every evening."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben die Wörter wiederholt.",
+      "en": "We went over the words again."
     },
     "tip": "Not separable in this meaning: ich wiederhole, hat wiederholt, stress on -HO-. Key phrase: Können Sie das bitte wiederholen?"
   },
@@ -1203,6 +1487,10 @@
       "de": "Ich vergesse immer meinen Schlüssel.",
       "en": "I always forget my key."
     },
+    "examplePerfekt": {
+      "de": "Ich habe meinen Schlüssel vergessen.",
+      "en": "I forgot my key."
+    },
     "tip": "e → i in du/er, both vergisst (ss + st merge). Inseparable ver-: Perfekt hat vergessen, no ge-."
   },
   {
@@ -1223,6 +1511,10 @@
       "de": "Ich treffe morgen meine Freunde im Café.",
       "en": "I'm meeting my friends at the café tomorrow."
     },
+    "examplePerfekt": {
+      "de": "Ich habe gestern Anna im Café getroffen.",
+      "en": "I met Anna at the café yesterday."
+    },
     "tip": "Takes Akkusativ: Ich treffe meinen Freund. Also reflexive sich treffen mit + Dativ: Wir treffen uns mit Anna."
   },
   {
@@ -1238,6 +1530,10 @@
       "de": "Am Sonntag besuchen wir meine Großeltern.",
       "en": "On Sunday we're visiting my grandparents."
     },
+    "examplePerfekt": {
+      "de": "Wir haben am Sonntag Oma besucht.",
+      "en": "We visited Grandma on Sunday."
+    },
     "tip": "Direct object, no preposition: Ich besuche meine Oma (not 'bei'). Inseparable be-: hat besucht."
   },
   {
@@ -1251,6 +1547,10 @@
       "de": "Wir reisen im Sommer nach Italien.",
       "en": "We're travelling to Italy in the summer."
     },
+    "examplePerfekt": {
+      "de": "Sie ist letztes Jahr nach Spanien gereist.",
+      "en": "She travelled to Spain last year."
+    },
     "tip": "Perfekt with sein (movement): Ich bin nach Berlin gereist. Stem ends in -s, so du reist = er reist."
   },
   {
@@ -1262,6 +1562,10 @@
     "example": {
       "de": "Am Wochenende wandern wir in den Bergen.",
       "en": "At the weekend we go hiking in the mountains."
+    },
+    "examplePerfekt": {
+      "de": "Wir sind am Wochenende in den Bergen gewandert.",
+      "en": "We went hiking in the mountains at the weekend."
     },
     "tip": "-ern verbs: wir/sie wandern (no -en), ich wandere. Perfekt with sein: ist gewandert."
   },
@@ -1277,6 +1581,10 @@
       "de": "Im Sommer schwimmen wir oft im See.",
       "en": "In summer we often swim in the lake."
     },
+    "examplePerfekt": {
+      "de": "Ich bin im See geschwommen.",
+      "en": "I swam in the lake."
+    },
     "tip": "Perfekt with sein (ist geschwommen) because it is movement; 'hat geschwommen' is also heard when no direction is meant."
   },
   {
@@ -1288,6 +1596,10 @@
     "example": {
       "de": "Am Samstag tanzen wir in der Disco.",
       "en": "On Saturday we're dancing at the club."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben die ganze Nacht getanzt.",
+      "en": "We danced all night."
     },
     "tip": "Stem ends in -z, so du tanzt (the -s of -st merges) — the du form looks the same as er/sie tanzt."
   },
@@ -1303,6 +1615,10 @@
       "de": "Meine Schwester singt sehr gern.",
       "en": "My sister really likes singing."
     },
+    "examplePerfekt": {
+      "de": "Die Kinder haben ein Lied gesungen.",
+      "en": "The children sang a song."
+    },
     "tip": "Vowel shift i–a–u: singen, sang, gesungen — same pattern as trinken/getrunken and finden/gefunden."
   },
   {
@@ -1315,6 +1631,10 @@
     "example": {
       "de": "Heute koche ich eine Suppe.",
       "en": "Today I'm cooking soup."
+    },
+    "examplePerfekt": {
+      "de": "Mein Vater hat gestern gekocht.",
+      "en": "My father cooked yesterday."
     },
     "tip": "Also 'to boil': Das Wasser kocht. 'Kaffee kochen' = to make coffee."
   },
@@ -1331,6 +1651,10 @@
       "de": "Oma backt am Sonntag einen Kuchen.",
       "en": "Grandma is baking a cake on Sunday."
     },
+    "examplePerfekt": {
+      "de": "Oma hat einen Kuchen gebacken.",
+      "en": "Grandma baked a cake."
+    },
     "tip": "Present tense is regular today (du backst, er backt; older bäckt); only the Partizip gebacken is irregular."
   },
   {
@@ -1343,6 +1667,10 @@
     "example": {
       "de": "Ich putze jeden Samstag die Wohnung.",
       "en": "I clean the flat every Saturday."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe die ganze Wohnung geputzt.",
+      "en": "I cleaned the whole flat."
     },
     "tip": "Stem in -z → du putzt. Key collocations: Zähne putzen (brush teeth), Fenster putzen, die Wohnung putzen."
   },
@@ -1363,6 +1691,10 @@
       "de": "Er wäscht am Wochenende sein Auto.",
       "en": "He washes his car at the weekend."
     },
+    "examplePerfekt": {
+      "de": "Er hat sein Auto gewaschen.",
+      "en": "He washed his car."
+    },
     "tip": "a→ä only in du/er: du wäschst, er wäscht (ihr wascht). Reflexive for oneself: Ich wasche mich / mir die Hände."
   },
   {
@@ -1374,6 +1706,10 @@
     "example": {
       "de": "Ich dusche jeden Morgen um sieben.",
       "en": "I shower every morning at seven."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe heute Morgen geduscht.",
+      "en": "I showered this morning."
     },
     "tip": "du duschst keeps the full -st (sch does not merge like s/z). 'Ich dusche' and reflexive 'ich dusche mich' are both fine."
   },
@@ -1389,6 +1725,10 @@
     "example": {
       "de": "Ich ziehe an der Tür, aber sie geht nicht auf.",
       "en": "I pull on the door, but it doesn't open."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe an der Tür gezogen.",
+      "en": "I pulled on the door."
     },
     "tip": "Meaning 'to move house' takes sein: Wir sind nach Berlin gezogen. On doors: Ziehen = pull, Drücken = push."
   },
@@ -1411,6 +1751,10 @@
       "de": "Die Jacke gefällt mir sehr gut.",
       "en": "I like the jacket a lot."
     },
+    "examplePerfekt": {
+      "de": "Der Film hat mir gut gefallen.",
+      "en": "I liked the film a lot."
+    },
     "tip": "Takes Dativ; the liked thing is the subject: Das Buch gefällt mir = I like the book. Partizip has no extra ge-."
   },
   {
@@ -1425,6 +1769,10 @@
       "de": "Die Pizza schmeckt mir sehr gut.",
       "en": "The pizza tastes really good to me."
     },
+    "examplePerfekt": {
+      "de": "Die Suppe hat sehr gut geschmeckt.",
+      "en": "The soup tasted very good."
+    },
     "tip": "The person is in the Dativ: Schmeckt es dir? 'schmecken nach' = taste of: Das schmeckt nach Zitrone."
   },
   {
@@ -1438,6 +1786,10 @@
     "example": {
       "de": "Die Hose passt mir leider nicht.",
       "en": "Unfortunately the trousers don't fit me."
+    },
+    "examplePerfekt": {
+      "de": "Die Hose hat leider nicht gepasst.",
+      "en": "Unfortunately the trousers didn't fit."
     },
     "tip": "Dativ for the person: Das passt mir (fits/suits me). 'passen zu' = go together with: Die Schuhe passen zur Hose."
   },
@@ -1455,6 +1807,10 @@
       "de": "Das Fahrrad gehört meinem Bruder.",
       "en": "The bike belongs to my brother."
     },
+    "examplePerfekt": {
+      "de": "Das Auto hat meinem Vater gehört.",
+      "en": "The car belonged to my father."
+    },
     "tip": "Dativ: Das gehört mir. 'hat gehört' is also the Perfekt of hören (heard) — context tells them apart."
   },
   {
@@ -1468,6 +1824,10 @@
       "de": "Der Aufzug funktioniert heute nicht.",
       "en": "The lift isn't working today."
     },
+    "examplePerfekt": {
+      "de": "Der Aufzug hat gestern nicht funktioniert.",
+      "en": "The lift didn't work yesterday."
+    },
     "tip": "-ieren verbs take no ge- in the Perfekt: hat funktioniert. Things (machines, plans) funktionieren; people who work arbeiten."
   },
   {
@@ -1480,6 +1840,10 @@
     "example": {
       "de": "Probierst du mal die Suppe?",
       "en": "Will you try the soup?"
+    },
+    "examplePerfekt": {
+      "de": "Hast du den Kuchen probiert?",
+      "en": "Did you try the cake?"
     },
     "tip": "No ge- in the Perfekt (hat probiert). anprobieren = try on (clothes), ausprobieren = try out."
   },
@@ -1496,6 +1860,10 @@
       "de": "Ich versuche es morgen noch einmal.",
       "en": "I'll try it again tomorrow."
     },
+    "examplePerfekt": {
+      "de": "Ich habe es dreimal versucht.",
+      "en": "I tried it three times."
+    },
     "tip": "Often with zu + Infinitiv: Ich versuche, Deutsch zu lernen. Inseparable ver-: Perfekt hat versucht, no ge-."
   },
   {
@@ -1511,6 +1879,10 @@
       "de": "Entschuldigen Sie bitte, wo ist der Bahnhof?",
       "en": "Excuse me please, where is the train station?"
     },
+    "examplePerfekt": {
+      "de": "Er hat sich bei mir entschuldigt.",
+      "en": "He apologised to me."
+    },
     "tip": "Reflexive for apologising: Ich entschuldige mich (Akk.). 'Entschuldigen Sie' = formal excuse me, 'Entschuldige' = informal."
   },
   {
@@ -1523,6 +1895,10 @@
     "example": {
       "de": "Ich schicke dir morgen eine E-Mail.",
       "en": "I'll send you an email tomorrow."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe dir ein Paket geschickt.",
+      "en": "I sent you a parcel."
     },
     "tip": "Person in Dativ, thing in Akkusativ: Ich schicke dir (Dativ) ein Paket (Akk.). Synonym: senden."
   },
@@ -1539,6 +1915,10 @@
       "de": "Wir bestellen zwei Kaffee und ein Stück Kuchen.",
       "en": "We're ordering two coffees and a piece of cake."
     },
+    "examplePerfekt": {
+      "de": "Ich habe eine Pizza bestellt.",
+      "en": "I ordered a pizza."
+    },
     "tip": "Inseparable be-: Perfekt hat bestellt, no ge-. Used in the café and online: Ich habe im Internet bestellt."
   },
   {
@@ -1552,6 +1932,10 @@
       "de": "Ich buche ein Hotel in Berlin.",
       "en": "I'm booking a hotel in Berlin."
     },
+    "examplePerfekt": {
+      "de": "Ich habe ein Hotel in Berlin gebucht.",
+      "en": "I booked a hotel in Berlin."
+    },
     "tip": "buchen = make a firm booking (trip, flight, hotel, often paid); reservieren = have a table or seat held for you."
   },
   {
@@ -1564,6 +1948,10 @@
     "example": {
       "de": "Ich reserviere einen Tisch für zwei Personen.",
       "en": "I'm reserving a table for two people."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben einen Tisch reserviert.",
+      "en": "We reserved a table."
     },
     "tip": "-ieren verbs take no ge- in the Perfekt: hat reserviert. Stress on -VIE-: reser-VIE-ren."
   },
@@ -1581,6 +1969,10 @@
       "de": "Ich verliere immer meinen Schlüssel.",
       "en": "I always lose my key."
     },
+    "examplePerfekt": {
+      "de": "Ich habe meinen Schlüssel verloren.",
+      "en": "I lost my key."
+    },
     "tip": "Strong verb: Perfekt hat verloren (vowel change ie → o, no ge- because of ver-). Opposite: gewinnen / finden."
   },
   {
@@ -1597,6 +1989,10 @@
       "de": "Unser Team gewinnt das Spiel.",
       "en": "Our team wins the game."
     },
+    "examplePerfekt": {
+      "de": "Unser Team hat das Spiel gewonnen.",
+      "en": "Our team won the game."
+    },
     "tip": "Perfekt hat gewonnen: the ge- belongs to the stem, so no second ge-. Also for money and prizes: im Lotto gewinnen."
   },
   {
@@ -1608,6 +2004,10 @@
     "example": {
       "de": "Mein Vater raucht nicht mehr.",
       "en": "My father doesn't smoke any more."
+    },
+    "examplePerfekt": {
+      "de": "Er hat früher viel geraucht.",
+      "en": "He used to smoke a lot."
     },
     "tip": "Sign: 'Rauchen verboten' = no smoking. der Raucher / der Nichtraucher = smoker / non-smoker."
   },
@@ -1621,6 +2021,10 @@
     "example": {
       "de": "Ich spare für ein neues Fahrrad.",
       "en": "I'm saving for a new bike."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe lange für das Fahrrad gespart.",
+      "en": "I saved up for the bike for a long time."
     },
     "tip": "sparen für + Akk. Also Zeit/Strom/Wasser sparen. Saving a file is speichern, rescuing someone is retten."
   },
@@ -1637,6 +2041,10 @@
       "de": "Meine Schwester verdient viel Geld.",
       "en": "My sister earns a lot of money."
     },
+    "examplePerfekt": {
+      "de": "Sie hat viel Geld verdient.",
+      "en": "She earned a lot of money."
+    },
     "tip": "Geld verdienen = earn money; also 'deserve': Das hast du verdient. Inseparable ver-: Perfekt hat verdient."
   },
   {
@@ -1649,6 +2057,10 @@
     "example": {
       "de": "Mein Bruder studiert Medizin in München.",
       "en": "My brother studies medicine in Munich."
+    },
+    "examplePerfekt": {
+      "de": "Mein Bruder hat in München studiert.",
+      "en": "My brother studied in Munich."
     },
     "tip": "Only for university: Ich studiere Informatik. For a language or homework use lernen: Ich lerne Deutsch."
   },
@@ -1666,6 +2078,10 @@
       "de": "Bitte unterschreiben Sie hier.",
       "en": "Please sign here."
     },
+    "examplePerfekt": {
+      "de": "Ich habe den Vertrag unterschrieben.",
+      "en": "I signed the contract."
+    },
     "tip": "Inseparable here (stress on -SCHREI-): Ich unterschreibe den Vertrag. Perfekt hat unterschrieben, no ge-."
   },
   {
@@ -1678,6 +2094,10 @@
     "example": {
       "de": "Ich wechsle am Flughafen Geld.",
       "en": "I'm changing money at the airport."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe am Flughafen Geld gewechselt.",
+      "en": "I changed money at the airport."
     },
     "tip": "-eln verb: ich wechsle (e dropped), wir/sie wechseln. Geld wechseln = exchange money; changing trains is umsteigen."
   },
@@ -1692,6 +2112,10 @@
       "de": "Ich ändere meine Adresse.",
       "en": "I'm changing my address."
     },
+    "examplePerfekt": {
+      "de": "Sie hat ihre Adresse geändert.",
+      "en": "She changed her address."
+    },
     "tip": "-ern verb: ich ändere, wir ändern. Reflexive when something changes by itself: Das Wetter ändert sich."
   },
   {
@@ -1704,6 +2128,10 @@
     "example": {
       "de": "Der Film dauert zwei Stunden.",
       "en": "The film lasts two hours."
+    },
+    "examplePerfekt": {
+      "de": "Der Film hat zwei Stunden gedauert.",
+      "en": "The film lasted two hours."
     },
     "tip": "Mostly used in the 3rd person: 'Wie lange dauert das?' – 'Es dauert eine Stunde.' No object needed."
   },
@@ -1718,6 +2146,10 @@
       "de": "Warum lachst du über mich?",
       "en": "Why are you laughing at me?"
     },
+    "examplePerfekt": {
+      "de": "Wir haben viel gelacht.",
+      "en": "We laughed a lot."
+    },
     "tip": "lachen über + Akkusativ: Wir lachen über den Film. 'lächeln' is the quiet smile."
   },
   {
@@ -1729,6 +2161,10 @@
     "example": {
       "de": "Das Baby weint die ganze Nacht.",
       "en": "The baby cries all night."
+    },
+    "examplePerfekt": {
+      "de": "Das Baby hat die ganze Nacht geweint.",
+      "en": "The baby cried all night."
     },
     "tip": "Only 'cry' as in shedding tears; to shout or call out is rufen or schreien."
   },
@@ -1742,6 +2178,10 @@
     "example": {
       "de": "Ich hoffe, dass du morgen kommst.",
       "en": "I hope that you come tomorrow."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe auf gutes Wetter gehofft.",
+      "en": "I hoped for good weather."
     },
     "tip": "hoffen auf + Akkusativ (auf gutes Wetter). 'Hoffentlich' = hopefully; 'Ich hoffe es' = I hope so."
   },
@@ -1762,6 +2202,10 @@
       "de": "Ich lasse mein Auto heute zu Hause.",
       "en": "I'm leaving my car at home today."
     },
+    "examplePerfekt": {
+      "de": "Ich habe mein Handy zu Hause gelassen.",
+      "en": "I left my phone at home."
+    },
     "tip": "a→ä in du/er, both lässt (ss + st merge). Also 'let': Lass mich in Ruhe! and 'Lass uns gehen!' = let's go."
   },
   {
@@ -1777,6 +2221,10 @@
       "de": "Was kann ich für Sie tun?",
       "en": "What can I do for you?"
     },
+    "examplePerfekt": {
+      "de": "Was hast du heute getan?",
+      "en": "What did you do today?"
+    },
     "tip": "machen covers most of 'do'; tun lives in set phrases: wehtun, Es tut mir leid, Was tust du da? Perfekt: hat getan."
   },
   {
@@ -1791,6 +2239,10 @@
     "example": {
       "de": "Die Mutter ruft die Kinder zum Essen.",
       "en": "The mother calls the children to dinner."
+    },
+    "examplePerfekt": {
+      "de": "Die Mutter hat die Kinder gerufen.",
+      "en": "The mother called the children."
     },
     "tip": "Calling with your voice; on the phone it is anrufen. Strong verb: Perfekt hat gerufen."
   },
@@ -1808,6 +2260,10 @@
       "de": "Was bedeutet dieses Wort?",
       "en": "What does this word mean?"
     },
+    "examplePerfekt": {
+      "de": "Das hat mir viel bedeutet.",
+      "en": "That meant a lot to me."
+    },
     "tip": "Ask 'Was bedeutet das?' about a word or sign; for someone's opinion use meinen. Inseparable be-, so no ge-: hat bedeutet."
   },
   {
@@ -1823,6 +2279,10 @@
       "de": "Ich benutze jeden Tag mein Fahrrad.",
       "en": "I use my bike every day."
     },
+    "examplePerfekt": {
+      "de": "Ich habe dein Fahrrad benutzt.",
+      "en": "I used your bike."
+    },
     "tip": "Inseparable be-: no ge- (hat benutzt). After the z the du form equals er: du benutzt. Noun: der Benutzer = user."
   },
   {
@@ -1835,6 +2295,10 @@
     "example": {
       "de": "Ich telefoniere jeden Sonntag mit meiner Mutter.",
       "en": "I talk on the phone with my mother every Sunday."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe gestern mit meiner Mutter telefoniert.",
+      "en": "I talked to my mother on the phone yesterday."
     },
     "tip": "telefonieren mit + Dativ, no direct object; to call someone is anrufen + Akkusativ. -ieren verb, so no ge-."
   },
@@ -1850,6 +2314,10 @@
       "de": "Hier passiert nie etwas.",
       "en": "Nothing ever happens here."
     },
+    "examplePerfekt": {
+      "de": "Was ist gestern passiert?",
+      "en": "What happened yesterday?"
+    },
     "tip": "Perfekt with sein: Was ist passiert? The person it happens to is Dativ: Das passiert mir oft. -ieren, so no ge-."
   },
   {
@@ -1861,6 +2329,10 @@
     "example": {
       "de": "Hier dürfen Sie nicht parken.",
       "en": "You are not allowed to park here."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe vor dem Haus geparkt.",
+      "en": "I parked in front of the house."
     },
     "tip": "Where the car stands is wo? + Dativ: Ich parke vor dem Haus. Nouns: der Parkplatz, das Parkhaus."
   },
@@ -1874,6 +2346,10 @@
     "example": {
       "de": "Ich wünsche dir alles Gute zum Geburtstag!",
       "en": "I wish you all the best for your birthday!"
+    },
+    "examplePerfekt": {
+      "de": "Er hat mir viel Glück gewünscht.",
+      "en": "He wished me good luck."
     },
     "tip": "Person in Dativ, wish in Akkusativ: Ich wünsche Ihnen einen schönen Tag. Reflexive 'sich (Dativ) etwas wünschen' = to want something as a present."
   },
@@ -1889,6 +2365,10 @@
       "de": "Wir frühstücken am Sonntag um zehn.",
       "en": "On Sunday we have breakfast at ten."
     },
+    "examplePerfekt": {
+      "de": "Wir haben um neun gefrühstückt.",
+      "en": "We had breakfast at nine."
+    },
     "tip": "Looks separable but is not: ich frühstücke, hat gefrühstückt. Noun: das Frühstück."
   },
   {
@@ -1902,6 +2382,10 @@
       "de": "Am Samstag feiern wir meinen Geburtstag.",
       "en": "On Saturday we're celebrating my birthday."
     },
+    "examplePerfekt": {
+      "de": "Wir haben bis Mitternacht gefeiert.",
+      "en": "We partied until midnight."
+    },
     "tip": "-ern verb: ich feiere, wir feiern. Nouns: die Feier, die Party, das Fest."
   },
   {
@@ -1914,6 +2398,10 @@
     "example": {
       "de": "Mir fehlt noch ein Euro.",
       "en": "I'm still one euro short."
+    },
+    "examplePerfekt": {
+      "de": "Du hast mir sehr gefehlt.",
+      "en": "I missed you a lot."
     },
     "tip": "The person is Dativ: Was fehlt Ihnen? is the doctor's 'what's wrong?'. 'Du fehlst mir' = I miss you."
   },
@@ -1929,6 +2417,10 @@
       "de": "Ich freue mich auf das Wochenende.",
       "en": "I'm looking forward to the weekend."
     },
+    "examplePerfekt": {
+      "de": "Ich habe mich sehr über das Geschenk gefreut.",
+      "en": "I was very pleased about the present."
+    },
     "tip": "Always reflexive. sich freuen auf + Akk = look forward to; sich freuen über + Akk = be pleased about. 'Freut mich!' = pleased to meet you."
   },
   {
@@ -1942,6 +2434,10 @@
       "de": "Heute regnet es den ganzen Tag.",
       "en": "It's raining all day today."
     },
+    "examplePerfekt": {
+      "de": "Gestern hat es den ganzen Tag geregnet.",
+      "en": "It rained all day yesterday."
+    },
     "tip": "Only with es: Es regnet. Stem ends in -gn, so an -e- is inserted: es regnet, es hat geregnet. Noun: der Regen."
   },
   {
@@ -1954,6 +2450,10 @@
     "example": {
       "de": "Im Winter schneit es in den Bergen oft.",
       "en": "In winter it often snows in the mountains."
+    },
+    "examplePerfekt": {
+      "de": "Heute Nacht hat es geschneit.",
+      "en": "It snowed last night."
     },
     "tip": "Only with es: Es schneit. Perfekt: Es hat geschneit. Noun: der Schnee."
   },
@@ -1970,6 +2470,10 @@
       "de": "Heute scheint die Sonne.",
       "en": "The sun is shining today."
     },
+    "examplePerfekt": {
+      "de": "Am Sonntag hat die Sonne geschienen.",
+      "en": "The sun shone on Sunday."
+    },
     "tip": "Weather: Die Sonne scheint. Also 'to seem': Das scheint gut zu sein. Strong verb: Perfekt hat geschienen."
   },
   {
@@ -1981,6 +2485,10 @@
     "example": {
       "de": "Zahlen, bitte! Zusammen oder getrennt?",
       "en": "The bill, please! Together or separately?"
+    },
+    "examplePerfekt": {
+      "de": "Wer hat gestern gezahlt?",
+      "en": "Who paid yesterday?"
     },
     "tip": "Same meaning as bezahlen; at the café you say 'Zahlen, bitte!' or 'Ich möchte zahlen.' Regular: hat gezahlt."
   },
@@ -1995,6 +2503,10 @@
       "de": "Ich fülle das Glas mit Wasser.",
       "en": "I fill the glass with water."
     },
+    "examplePerfekt": {
+      "de": "Ich habe die Flasche mit Wasser gefüllt.",
+      "en": "I filled the bottle with water."
+    },
     "tip": "füllen mit + Dativ. A form is ausfüllen, and the adjective is voll = full."
   },
   {
@@ -2007,6 +2519,10 @@
     "example": {
       "de": "Ich sende Ihnen die Unterlagen per E-Mail.",
       "en": "I'm sending you the documents by email."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe Ihnen die Unterlagen gesendet.",
+      "en": "I sent you the documents."
     },
     "tip": "Formal word for schicken; on your phone 'gesendet' = sent. Stem ends in -d, so du sendest. Noun: die Sendung = TV programme or parcel."
   },
@@ -2022,6 +2538,10 @@
       "de": "Die Kinder rennen zum Bus.",
       "en": "The children are running to the bus."
     },
+    "examplePerfekt": {
+      "de": "Die Kinder sind zum Bus gerannt.",
+      "en": "The children ran to the bus."
+    },
     "tip": "Motion, so Perfekt with sein: ist gerannt. laufen is walking or jogging; rennen is running fast."
   },
   {
@@ -2036,6 +2556,10 @@
       "de": "Das Baby schreit die ganze Nacht.",
       "en": "The baby screams all night."
     },
+    "examplePerfekt": {
+      "de": "Das Baby hat laut geschrien.",
+      "en": "The baby screamed loudly."
+    },
     "tip": "Strong verb: Perfekt hat geschrien. rufen = call out to someone; schreien = loud, often angry or in pain."
   },
   {
@@ -2047,6 +2571,10 @@
     "example": {
       "de": "Sie lächelt immer freundlich.",
       "en": "She always smiles in a friendly way."
+    },
+    "examplePerfekt": {
+      "de": "Sie hat freundlich gelächelt.",
+      "en": "She smiled in a friendly way."
     },
     "tip": "-eln verb: ich lächle, wir lächeln. lachen = laugh out loud; lächeln = smile. Noun: das Lächeln."
   },
@@ -2063,6 +2591,10 @@
       "de": "Kannst du das noch gebrauchen?",
       "en": "Can you still use that?"
     },
+    "examplePerfekt": {
+      "de": "Die alte Jacke habe ich noch gut gebraucht.",
+      "en": "I still got good use out of the old jacket."
+    },
     "tip": "Everyday 'use' is benutzen; gebrauchen is 'have a use for'. Its Perfekt hat gebraucht is identical to that of brauchen."
   },
   {
@@ -2076,6 +2608,10 @@
       "de": "Ich speichere das Dokument auf dem Computer.",
       "en": "I save the document on the computer."
     },
+    "examplePerfekt": {
+      "de": "Hast du das Dokument gespeichert?",
+      "en": "Did you save the document?"
+    },
     "tip": "Computers only: money is sparen, people are retten. -ern verb: ich speichere, wir speichern."
   },
   {
@@ -2088,6 +2624,10 @@
     "example": {
       "de": "Die Feuerwehr rettet die Katze vom Baum.",
       "en": "The fire brigade rescues the cat from the tree."
+    },
+    "examplePerfekt": {
+      "de": "Die Feuerwehr hat die Katze gerettet.",
+      "en": "The fire brigade rescued the cat."
     },
     "tip": "Stem ends in -tt, so du rettest, er rettet. Money is sparen, files are speichern."
   },
@@ -2103,6 +2643,10 @@
     "example": {
       "de": "Ich stehe jeden Tag um sieben Uhr auf.",
       "en": "I get up at seven o'clock every day."
+    },
+    "examplePerfekt": {
+      "de": "Ich bin heute um sechs aufgestanden.",
+      "en": "I got up at six today."
     },
     "tip": "Perfekt with sein (change of position): Ich bin um sieben aufgestanden. Prefix auf- goes to the end."
   },
@@ -2124,6 +2668,10 @@
       "de": "Der Film fängt gleich an.",
       "en": "The film starts in a moment."
     },
+    "examplePerfekt": {
+      "de": "Der Film hat schon angefangen.",
+      "en": "The film has already started."
+    },
     "tip": "anfangen mit + Dativ: Ich fange mit der Arbeit an. Same meaning as beginnen, which is not separable."
   },
   {
@@ -2139,6 +2687,10 @@
       "de": "Ich höre jetzt mit der Arbeit auf.",
       "en": "I'm stopping work now."
     },
+    "examplePerfekt": {
+      "de": "Er hat mit dem Rauchen aufgehört.",
+      "en": "He stopped smoking."
+    },
     "tip": "aufhören mit + Dativ: Ich höre mit dem Rauchen auf. Means to cease; to stop a car or bus use anhalten."
   },
   {
@@ -2152,6 +2704,10 @@
     "example": {
       "de": "Wir kaufen am Samstag im Supermarkt ein.",
       "en": "We do our shopping at the supermarket on Saturday."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben am Samstag eingekauft.",
+      "en": "We did the shopping on Saturday."
     },
     "tip": "einkaufen = do the shopping (no object needed); kaufen = buy a specific thing. Common: einkaufen gehen."
   },
@@ -2173,6 +2729,10 @@
       "de": "Ich lade dich zu meinem Geburtstag ein.",
       "en": "I'm inviting you to my birthday."
     },
+    "examplePerfekt": {
+      "de": "Sie hat mich zum Geburtstag eingeladen.",
+      "en": "She invited me to her birthday."
+    },
     "tip": "Person in Akkusativ, occasion with zu + Dativ. Also 'to treat': Ich lade dich ein = it's on me."
   },
   {
@@ -2189,6 +2749,10 @@
       "de": "Ich rufe dich heute Abend an.",
       "en": "I'll call you this evening."
     },
+    "examplePerfekt": {
+      "de": "Ich habe dich gestern angerufen.",
+      "en": "I called you yesterday."
+    },
     "tip": "Takes Akkusativ directly (Ich rufe dich an), no preposition. For a place: bei der Firma anrufen."
   },
   {
@@ -2203,6 +2767,10 @@
     "example": {
       "de": "Der Laden macht um acht Uhr auf.",
       "en": "The shop opens at eight o'clock."
+    },
+    "examplePerfekt": {
+      "de": "Wer hat das Fenster aufgemacht?",
+      "en": "Who opened the window?"
     },
     "tip": "Everyday word for öffnen: Mach bitte das Fenster auf! Like all separable verbs, stress is on the prefix auf-."
   },
@@ -2219,6 +2787,10 @@
       "de": "Der Supermarkt macht um 20 Uhr zu.",
       "en": "The supermarket closes at 8 pm."
     },
+    "examplePerfekt": {
+      "de": "Ich habe die Tür zugemacht.",
+      "en": "I closed the door."
+    },
     "tip": "Everyday word for schließen: Mach bitte die Tür zu! Opposite of aufmachen; stress is on the prefix zu-."
   },
   {
@@ -2233,6 +2805,10 @@
     "example": {
       "de": "Kommst du morgen mit ins Kino?",
       "en": "Are you coming along to the cinema tomorrow?"
+    },
+    "examplePerfekt": {
+      "de": "Meine Schwester ist mitgekommen.",
+      "en": "My sister came along."
     },
     "tip": "Perfekt with sein (motion): Sie ist mitgekommen. 'Kommst du mit?' is the everyday 'Coming along?'"
   },
@@ -2250,6 +2826,10 @@
       "de": "Ich bringe einen Kuchen zur Party mit.",
       "en": "I'm bringing a cake to the party."
     },
+    "examplePerfekt": {
+      "de": "Ich habe einen Kuchen mitgebracht.",
+      "en": "I brought a cake."
+    },
     "tip": "Person in Dativ, thing in Akkusativ: Ich bringe dir etwas mit. Typical guest question: Was soll ich mitbringen?"
   },
   {
@@ -2265,6 +2845,10 @@
     "example": {
       "de": "Der Zug kommt um zehn Uhr in Berlin an.",
       "en": "The train arrives in Berlin at ten o'clock."
+    },
+    "examplePerfekt": {
+      "de": "Der Zug ist pünktlich angekommen.",
+      "en": "The train arrived on time."
     },
     "tip": "Place with in + Dativ (in Berlin, im Hotel). Perfekt with sein: Wir sind gut angekommen."
   },
@@ -2284,6 +2868,10 @@
     "example": {
       "de": "Der Zug fährt um acht Uhr ab.",
       "en": "The train departs at eight o'clock."
+    },
+    "examplePerfekt": {
+      "de": "Der Bus ist schon abgefahren.",
+      "en": "The bus has already left."
     },
     "tip": "Motion verb, so sein in the Perfekt: 'Der Zug ist abgefahren.' Typical question: 'Wann fährt der Bus ab?'"
   },
@@ -2305,6 +2893,10 @@
       "de": "Du siehst heute sehr müde aus.",
       "en": "You look very tired today."
     },
+    "examplePerfekt": {
+      "de": "Du hast gestern sehr müde ausgesehen.",
+      "en": "You looked very tired yesterday."
+    },
     "tip": "Appearance, not eyesight: 'gut aussehen' = to look good; 'gut sehen' = to see well. Ask 'Wie sieht er aus?'"
   },
   {
@@ -2325,6 +2917,10 @@
       "de": "Am Abend sehen wir zusammen fern.",
       "en": "In the evening we watch TV together."
     },
+    "examplePerfekt": {
+      "de": "Wir haben gestern Abend ferngesehen.",
+      "en": "We watched TV last night."
+    },
     "tip": "Separable: 'Ich sehe fern.' The activity is das Fernsehen, the TV set is der Fernseher."
   },
   {
@@ -2341,6 +2937,10 @@
       "de": "Das Konzert findet am Samstag statt.",
       "en": "The concert takes place on Saturday."
     },
+    "examplePerfekt": {
+      "de": "Das Konzert hat am Samstag stattgefunden.",
+      "en": "The concert took place on Saturday."
+    },
     "tip": "Almost always 3rd person with an event as subject: 'Der Kurs findet nicht statt.' Stress on the prefix: STATTfinden."
   },
   {
@@ -2356,6 +2956,10 @@
       "de": "Ich stelle dir meinen Bruder vor.",
       "en": "I'll introduce my brother to you."
     },
+    "examplePerfekt": {
+      "de": "Er hat mir seine Frau vorgestellt.",
+      "en": "He introduced his wife to me."
+    },
     "tip": "Reflexive: 'Ich stelle mich vor' (Akk) = I introduce myself; 'Ich stelle mir das vor' (Dativ) = I imagine that."
   },
   {
@@ -2370,6 +2974,10 @@
     "example": {
       "de": "Bitte füllen Sie das Formular aus.",
       "en": "Please fill in the form."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe das Formular ausgefüllt.",
+      "en": "I filled in the form."
     },
     "tip": "Key collocation: ein Formular ausfüllen. Plain 'füllen' is to fill a container (ein Glas füllen)."
   },
@@ -2387,6 +2995,10 @@
       "de": "Wir ziehen im Mai nach Berlin um.",
       "en": "We're moving to Berlin in May."
     },
+    "examplePerfekt": {
+      "de": "Wir sind im Mai nach Berlin umgezogen.",
+      "en": "We moved to Berlin in May."
+    },
     "tip": "Change of place, so sein: 'Ich bin umgezogen.' Reflexive 'sich umziehen' (hat) means to change clothes."
   },
   {
@@ -2402,6 +3014,10 @@
     "example": {
       "de": "Ich ziehe heute eine warme Jacke an.",
       "en": "I'm putting on a warm jacket today."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe eine warme Jacke angezogen.",
+      "en": "I put on a warm jacket."
     },
     "tip": "Takes Akk: 'den Mantel anziehen'. Reflexive 'sich anziehen' = to get dressed. Opposite: ausziehen."
   },
@@ -2419,6 +3035,10 @@
       "de": "Die Kinder ziehen die Schuhe aus.",
       "en": "The children take off their shoes."
     },
+    "examplePerfekt": {
+      "de": "Die Kinder haben die Schuhe ausgezogen.",
+      "en": "The children took off their shoes."
+    },
     "tip": "Clothes: hat ausgezogen. But 'ausziehen' = to move out takes sein: 'Er ist aus der Wohnung ausgezogen.'"
   },
   {
@@ -2433,6 +3053,10 @@
     "example": {
       "de": "Im Deutschkurs lerne ich viele Leute kennen.",
       "en": "In the German course I get to know a lot of people."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe meine Frau in Berlin kennengelernt.",
+      "en": "I met my wife in Berlin."
     },
     "tip": "Separable, and the prefix is a whole verb: Ich lerne dich kennen. Perfekt: hat kennengelernt. 'Freut mich, Sie kennenzulernen' = pleased to meet you."
   },
@@ -2455,6 +3079,10 @@
       "de": "Nimmst du einen Regenschirm mit?",
       "en": "Are you taking an umbrella along?"
     },
+    "examplePerfekt": {
+      "de": "Hast du den Regenschirm mitgenommen?",
+      "en": "Did you take the umbrella along?"
+    },
     "tip": "Like nehmen: du nimmst mit, er nimmt mit. mitbringen brings something here, mitnehmen takes it away with you."
   },
   {
@@ -2469,6 +3097,10 @@
     "example": {
       "de": "Ich hole dich um acht vom Bahnhof ab.",
       "en": "I'll pick you up from the station at eight."
+    },
+    "examplePerfekt": {
+      "de": "Er hat mich vom Bahnhof abgeholt.",
+      "en": "He picked me up from the station."
     },
     "tip": "Person or thing in Akkusativ: Ich hole das Paket ab. 'abholen von' + Dativ says where from."
   },
@@ -2485,6 +3117,10 @@
       "de": "Hör mir bitte zu!",
       "en": "Please listen to me!"
     },
+    "examplePerfekt": {
+      "de": "Du hast mir nicht zugehört!",
+      "en": "You didn't listen to me!"
+    },
     "tip": "Takes Dativ: Ich höre dir zu. hören = hear; zuhören = listen attentively."
   },
   {
@@ -2499,6 +3135,10 @@
     "example": {
       "de": "Ich räume am Samstag mein Zimmer auf.",
       "en": "I tidy up my room on Saturday."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe mein Zimmer aufgeräumt.",
+      "en": "I tidied up my room."
     },
     "tip": "Separable: Räum bitte dein Zimmer auf! Perfekt: hat aufgeräumt. Related noun: der Raum = room, space."
   },
@@ -2515,6 +3155,10 @@
       "de": "Machst du bitte das Licht an?",
       "en": "Will you turn on the light, please?"
     },
+    "examplePerfekt": {
+      "de": "Wer hat das Licht angemacht?",
+      "en": "Who turned on the light?"
+    },
     "tip": "Everyday word for einschalten. Opposite: ausmachen. Stress on the prefix: ANmachen."
   },
   {
@@ -2529,6 +3173,10 @@
     "example": {
       "de": "Mach bitte den Fernseher aus!",
       "en": "Please turn off the TV!"
+    },
+    "examplePerfekt": {
+      "de": "Ich habe den Fernseher ausgemacht.",
+      "en": "I turned off the TV."
     },
     "tip": "Opposite of anmachen. 'Das macht mir nichts aus' = I don't mind. Stress on the prefix: AUSmachen."
   },
@@ -2546,6 +3194,10 @@
       "de": "Ich melde mich für den Deutschkurs an.",
       "en": "I'm signing up for the German course."
     },
+    "examplePerfekt": {
+      "de": "Ich habe mich für den Kurs angemeldet.",
+      "en": "I signed up for the course."
+    },
     "tip": "sich anmelden für + Akk (a course) or bei + Dativ (an office). Stem ends in -d, so du meldest dich an. Noun: die Anmeldung."
   },
   {
@@ -2561,6 +3213,10 @@
       "de": "Wann kommst du zurück?",
       "en": "When are you coming back?"
     },
+    "examplePerfekt": {
+      "de": "Sie ist gestern zurückgekommen.",
+      "en": "She came back yesterday."
+    },
     "tip": "Motion, so Perfekt with sein: Sie ist gestern zurückgekommen. The prefix zurück- also fits fahren, gehen and geben."
   },
   {
@@ -2575,6 +3231,10 @@
     "example": {
       "de": "In Köln steigen wir um.",
       "en": "In Cologne we change trains."
+    },
+    "examplePerfekt": {
+      "de": "Wir sind in Köln umgestiegen.",
+      "en": "We changed trains in Cologne."
     },
     "tip": "Motion, so Perfekt with sein: Wir sind in Köln umgestiegen. Same family: einsteigen = get on, aussteigen = get off."
   },
@@ -2595,6 +3255,10 @@
       "de": "Der Bus hält an der Haltestelle an.",
       "en": "The bus stops at the bus stop."
     },
+    "examplePerfekt": {
+      "de": "Der Bus hat an der Haltestelle angehalten.",
+      "en": "The bus stopped at the bus stop."
+    },
     "tip": "a→ä in du/er: er hält an. Both the driver and the bus can anhalten; to stop doing something is aufhören."
   },
   {
@@ -2609,6 +3273,10 @@
     "example": {
       "de": "Kann ich die Jacke anprobieren?",
       "en": "Can I try on the jacket?"
+    },
+    "examplePerfekt": {
+      "de": "Ich habe die Jacke anprobiert.",
+      "en": "I tried on the jacket."
     },
     "tip": "Separable and -ieren, so the Perfekt has no ge- at all: hat anprobiert. Clothes in Akkusativ."
   },
@@ -2625,6 +3293,10 @@
       "de": "Ich probiere das neue Rezept aus.",
       "en": "I'm trying out the new recipe."
     },
+    "examplePerfekt": {
+      "de": "Wir haben das neue Rezept ausprobiert.",
+      "en": "We tried out the new recipe."
+    },
     "tip": "Separable and -ieren: hat ausprobiert, no ge-. probieren = taste; ausprobieren = test something new."
   },
   {
@@ -2640,6 +3312,10 @@
     "example": {
       "de": "Mein Kopf tut weh.",
       "en": "My head hurts."
+    },
+    "examplePerfekt": {
+      "de": "Mein Kopf hat den ganzen Tag wehgetan.",
+      "en": "My head hurt all day."
     },
     "tip": "The person is Dativ: Mein Bauch tut mir weh. Written wehtun or weh tun, both are allowed. Perfekt: hat wehgetan."
   }

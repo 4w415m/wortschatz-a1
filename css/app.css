@@ -95,6 +95,7 @@ table.conj td:last-child{font-family:var(--serif);text-align:left}
 .tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--surface2);color:var(--muted)}
 .tag.core{background:rgba(242,180,65,.15);color:var(--amber)}
 .ex{margin-top:18px;max-width:36ch}
+.ex .lbl{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);margin-bottom:2px}
 .ex .de{font-family:var(--serif);font-size:17px;line-height:1.35}
 .ex .en{font-size:13px;color:var(--muted);margin-top:3px}
 .tip{font-size:13px;line-height:1.45;color:var(--muted);margin-top:12px;max-width:36ch;

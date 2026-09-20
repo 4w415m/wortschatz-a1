@@ -163,6 +163,13 @@ function backHtml(w) {
     b += '<div class="ex"><div class="de">' + esc(w.example.de) + "</div>" +
       '<div class="en">' + esc(w.example.en) + "</div></div>";
   }
+  /* Verbs add the same idea in the past. möchten has no Perfekt, so its
+     sentence uses wollte and is labelled accordingly. */
+  if (w.examplePerfekt) {
+    b += '<div class="ex"><div class="lbl">' + (w.partizip ? "Perfekt" : "Präteritum") + "</div>" +
+      '<div class="de">' + esc(w.examplePerfekt.de) + "</div>" +
+      '<div class="en">' + esc(w.examplePerfekt.en) + "</div></div>";
+  }
   if (w.tip) b += '<div class="tip">' + esc(w.tip) + "</div>";
   return b + "</div>";
 }

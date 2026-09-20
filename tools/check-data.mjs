@@ -57,6 +57,21 @@ for (const v of verbs) {
   if (has("sep") && !splitSeparable(v)[0]) err(at + ": separable, but no prefix in conjugate.js matches");
   if (!has("sep") && !has("insep") && INSEP.test(v.infinitive)) warn(at + ": looks prefixed; add the insep flag?");
 
+  /* The Perfekt sentence must actually contain the verb's Perfekt: a form of
+     its auxiliary and the participle as a whole word. möchten, which has no
+     Perfekt, must fall back to wollte. */
+  const ep = v.examplePerfekt;
+  if (!ep || !ep.de || !ep.en) err(at + ": examplePerfekt needs de and en");
+  else {
+    /* case-insensitive: "Hast du …?" starts a sentence */
+    const word = (w) => new RegExp("(^|[^A-Za-zÄÖÜäöüß])" + w + "(?![A-Za-zÄÖÜäöüß])", "i");
+    if (v.partizip) {
+      const auxForms = v.aux === "ist" ? ["bin", "bist", "ist", "sind", "seid"] : ["habe", "hast", "hat", "haben", "habt"];
+      if (!word(v.partizip).test(ep.de)) err(at + ": examplePerfekt lacks the participle " + v.partizip);
+      if (!auxForms.some((f) => word(f).test(ep.de))) err(at + ": examplePerfekt lacks a form of " + v.aux);
+    } else if (!/wollte/.test(ep.de)) err(at + ": examplePerfekt of a verb without Perfekt should use wollte");
+  }
+
   /* e -> i/ie keeps the change in the imperative (Nimm!) while a -> ä drops it
      (Fahr!), so only the first kind needs the form written down. */
   if (v.stemChange && !v.imperative && !v.third && !has("modal")) {
