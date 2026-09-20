@@ -3,12 +3,12 @@ import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
-import { present, PERS } from "../conjugate.js";
+import { present, PERS, erSieChoices, imperative } from "../conjugate.js";
 import { back, go } from "../router.js";
 
 let app = null;
 let queue = [], cur = null, cat = "all";
-let revealed = false, articlePick = null, sessionCount = 0;
+let revealed = false, articlePick = null, verbPicks = null, sessionCount = 0;
 
 export function study(k, root) {
   app = root;
@@ -21,6 +21,7 @@ export function study(k, root) {
 function next() {
   revealed = false;
   articlePick = null;
+  verbPicks = null;
   const now = Date.now();
   const i = queue.findIndex((w) => { const c = card(w.id); return !c || c.d <= now; });
   if (i < 0) return finished();
@@ -118,22 +119,32 @@ function backHtml(w) {
     b += '<div class="plural">' + (w.plural ? "die " + esc(w.plural) : "<s>kein normaler Plural</s>") + "</div>";
     b += '<div class="mean">' + esc(w.en) + "</div>";
   } else if (w.cat === "verbs") {
-    b += '<div class="word">' + esc(w.infinitive) + "</div>";
+    const head = verbHead(w);
+    b += '<div class="word">' + esc(head) + "</div>";
     b += '<div class="mean">' + esc(w.en) + "</div>";
+    if (w.takes) b += '<div class="takes">' + esc(head + " " + w.takes) + "</div>";
     const forms = present(w);
+    /* A verb used only in the third person gets the two rows that matter. */
+    const rows = w.third ? [["es", forms[2]], ["sie", forms[5]]] : PERS.map((p, i) => [p, forms[i]]);
     b += '<table class="conj">' +
-      PERS.map((p, i) => "<tr><td>" + p + "</td><td>" + esc(forms[i]) + "</td></tr>").join("") +
+      rows.map(([p, f]) => "<tr><td>" + p + "</td><td>" + esc(f) + "</td></tr>").join("") +
       "</table>";
-    b += '<div class="perf">Perfekt: <em>' + esc(w.perfect) + "</em></div>";
-    if (w.infinitive === "mögen") {
-      b += '<div class="note">möchte, möchtest, möchte, möchten, möchtet, möchten — would like</div>';
+    if (w.partizip) b += '<div class="perf">Perfekt: <em>' + esc(w.aux + " " + w.partizip) + "</em></div>";
+    if (w.praeteritum) {
+      b += '<div class="praet"><b>Präteritum</b> ' +
+        PERS.map((p, i) => esc(p + " " + w.praeteritum[i])).join(" · ") + "</div>";
     }
+    const imp = imperative(w);
+    if (imp) b += '<div class="imp"><b>Imperativ</b> ' + imp.map(esc).join(" · ") + "</div>";
+    if (w.note) b += '<div class="note">' + esc(w.note) + "</div>";
     let tags = "";
     if (w.flags.includes("core"))  tags += '<span class="tag core">Kernverb</span>';
     if (w.flags.includes("irr"))   tags += '<span class="tag">unregelmäßig</span>';
     if (w.flags.includes("sep"))   tags += '<span class="tag">trennbar</span>';
+    if (w.flags.includes("insep")) tags += '<span class="tag">nicht trennbar</span>';
     if (w.flags.includes("modal")) tags += '<span class="tag">Modalverb</span>';
-    if (w.perfect.startsWith("ist")) tags += '<span class="tag">Perfekt mit sein</span>';
+    if (w.reflexive)               tags += '<span class="tag">reflexiv</span>';
+    if (w.aux === "ist")           tags += '<span class="tag">Perfekt mit sein</span>';
     if (tags) b += '<div class="tags">' + tags + "</div>";
   } else if (w.cat === "adjectives") {
     b += '<div class="word">' + esc(w.word) + '</div><div class="mean">' + esc(w.en) + "</div>";
@@ -156,11 +167,66 @@ function backHtml(w) {
   return b + "</div>";
 }
 
+/* "sich setzen" for a reflexive verb, the bare infinitive otherwise. */
+const verbHead = (w) => (w.reflexive ? "sich " : "") + w.infinitive;
+
+/* ---- the front of a verb card ----
+   Four things the learner should know before seeing the answer, each a tap
+   between two options. A row is left out where the question makes no sense
+   for this verb: no Perfekt row for möchten, no prefix row for a verb that
+   has no prefix. */
+const QUIZ_NAMES = { aux: "Perfekt", er: "er/sie/es-Form", reg: "Konjugation", sep: "Präfix" };
+
+function verbRows(w) {
+  const rows = [];
+  if (w.partizip) rows.push({ k: "aux", label: "Perfekt mit", opts: ["hat", "ist"], right: w.aux });
+  const [right, wrong] = erSieChoices(w);
+  rows.push({ k: "er", label: w.third ? "es" : "er/sie/es",
+    opts: Math.random() < 0.5 ? [right, wrong] : [wrong, right], right });
+  const irregular = w.flags.includes("irr") || w.flags.includes("modal");
+  rows.push({ k: "reg", label: "Konjugation", opts: ["regelmäßig", "unregelmäßig"],
+    right: irregular ? "unregelmäßig" : "regelmäßig" });
+  if (w.flags.includes("sep") || w.flags.includes("insep")) {
+    rows.push({ k: "sep", label: "Präfix", opts: ["trennbar", "nicht trennbar"],
+      right: w.flags.includes("sep") ? "trennbar" : "nicht trennbar" });
+  }
+  return rows;
+}
+
+function verbQuiz(w, reveal) {
+  const rows = verbRows(w);
+  verbPicks = {};
+  const box = h('<div class="quizzes"></div>');
+  for (const r of rows) {
+    const row = h('<div class="quiz"><span class="ql">' + esc(r.label) + '</span><div class="qo"></div></div>');
+    const opts = row.querySelector(".qo");
+    for (const o of r.opts) {
+      const btn = h("<button></button>");
+      btn.textContent = o;
+      btn.onclick = () => {
+        verbPicks[r.k] = o === r.right;
+        opts.querySelectorAll("button").forEach((x) => {
+          if (x.textContent === r.right) x.classList.add("right");
+          else if (x.textContent === o) x.classList.add("wrong");
+          x.disabled = true;
+        });
+        /* The last answer flips the card, like the article tap on a noun. */
+        if (Object.keys(verbPicks).length === rows.length) {
+          setTimeout(() => { if (!revealed) reveal(); }, 420);
+        }
+      };
+      opts.appendChild(btn);
+    }
+    box.appendChild(row);
+  }
+  return box;
+}
+
 function paint(produce, isNew) {
   const w = cur;
   const face = document.getElementById("face");
   const acts = document.getElementById("acts");
-  const isNoun = w.cat === "nouns";
+  const isNoun = w.cat === "nouns", isVerb = w.cat === "verbs";
   face.innerHTML = "";
   acts.innerHTML = "";
 
@@ -169,8 +235,14 @@ function paint(produce, isNew) {
   if (!revealed) {
     if (produce) {
       face.appendChild(h('<div><div class="cue">Auf Deutsch?' +
-        (isNoun ? " Mit Artikel und Plural." : "") + "</div>" +
+        (isNoun ? " Mit Artikel und Plural." : isVerb ? " Mit er/sie/es-Form und Perfekt." : "") + "</div>" +
         '<div class="word en">' + esc(w.en) + "</div></div>"));
+      acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
+      acts.querySelector("[data-rev]").onclick = reveal;
+    } else if (isVerb) {
+      face.appendChild(h('<div><div class="cue">Was heißt das?</div>' +
+        '<div class="word">' + esc(verbHead(w)) + "</div></div>"));
+      acts.appendChild(verbQuiz(w, reveal));
       acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
       acts.querySelector("[data-rev]").onclick = reveal;
     } else if (isNoun) {
@@ -194,7 +266,7 @@ function paint(produce, isNew) {
       acts.appendChild(box);
     } else {
       face.appendChild(h('<div><div class="cue">Was heißt das?</div>' +
-        '<div class="word">' + esc(w.cat === "verbs" ? w.infinitive : w.word) + "</div></div>"));
+        '<div class="word">' + esc(w.word) + "</div></div>"));
       acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
       acts.querySelector("[data-rev]").onclick = reveal;
     }
@@ -224,14 +296,18 @@ function paint(produce, isNew) {
   }
 
   const wrongArticle = isNoun && articlePick && articlePick !== w.gender;
+  const wrongVerb = verbPicks ? Object.keys(verbPicks).filter((k) => !verbPicks[k]) : [];
   const hint = wrongArticle
     ? "Artikel war falsch — nimm <em>Nochmal</em>"
-    : (isNoun ? "Artikel <em>und</em> Plural <em>und</em> Bedeutung richtig?" : "Wie gut saß das?");
+    : wrongVerb.length
+      ? "Falsch: " + esc(wrongVerb.map((k) => QUIZ_NAMES[k]).join(", ")) + " — nimm <em>Nochmal</em>"
+      : (isNoun ? "Artikel <em>und</em> Plural <em>und</em> Bedeutung richtig?" : "Wie gut saß das?");
+  const suggestAgain = wrongArticle || wrongVerb.length > 0;
 
   const box = h('<div><div class="hint">' + hint + '</div><div class="grades"></div></div>');
   const row = box.querySelector(".grades");
   for (const [title, g] of [["Nochmal", 0], ["Schwer", 1], ["Gut", 2], ["Leicht", 3]]) {
-    const btn = h('<button class="g' + g + (wrongArticle && g === 0 ? " suggest" : "") + '">' + title +
+    const btn = h('<button class="g' + g + (suggestAgain && g === 0 ? " suggest" : "") + '">' + title +
       '<span class="iv">' + nextIvl(w.id, g) + "</span></button>");
     btn.onclick = () => {
       grade(w.id, g);

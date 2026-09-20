@@ -21,7 +21,7 @@ export async function loadWords() {
 
   CATS.forEach((cat, i) => { W[cat.k] = lists[i]; });
 
-  /* The 20 core verbs carry most beginner sentences, so they come up first. */
+  /* The core verbs carry most beginner sentences, so they come up first. */
   W.verbs.sort((a, b) => {
     const ca = a.flags.includes("core"), cb = b.flags.includes("core");
     return ca === cb ? 0 : (ca ? -1 : 1);

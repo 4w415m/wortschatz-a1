@@ -18,11 +18,13 @@ js/
   data.js             loads data/*.json, builds the word index
   state.js            persistence, day rollover, v1→v2 migration
   srs.js              scheduling
-  conjugate.js        present tense
+  conjugate.js        present tense, imperative, the wrong form offered on the card
   sync.js             sync codes, merge, transport
   views/              home.js · study.js · settings.js
 data/*.json           the word lists
 worker/               Cloudflare Worker for cross-device sync
+tools/check-data.mjs  validates data/ and pins the conjugator's output
+tools/verbs.snapshot.txt  that output, one line per verb
 tools/extract-data.mjs  one-off converter from the original single-file version
 ```
 
@@ -50,6 +52,42 @@ its translation) and a `tip` (a short English usage note, or `null`). Both are
 shown on the answer side of the card. Tips should say something the card does
 not already show: a gender rule, the case a verb takes, a false friend, why the
 Perfekt uses *sein*.
+
+### Verbs
+
+A verb entry looks like this; every field after `en` is optional.
+
+```json
+{
+  "infinitive": "anmelden",
+  "en": "to register, to sign up",
+  "stemChange": ["du form", "er form"],   only where the present is irregular
+  "forms": ["ich", "du", "er", "wir", "ihr", "sie"],   full set: sein, modals, wissen
+  "aux": "hat", "partizip": "angemeldet",  the Perfekt; absent only on möchten
+  "praeteritum": [six forms],             sein, haben and möchten (wollte)
+  "imperative": "Nimm",                   the du form of the base verb, only where
+                                          it cannot be derived (e → i keeps the
+                                          change, a → ä drops it); sein has all three
+  "reflexive": "akk",                     shown as "sich anmelden", conjugated with
+                                          mich/dich/sich, or "dat" for mir/dir/sich
+  "takes": "für + Akkusativ",             printed after the headword as written
+  "third": true,                          used only in the third person: the table
+                                          shows es / sie, no imperative
+  "flags": ["sep"],                       core · irr · modal · sep · insep
+  "example": { "de": "…", "en": "…" },
+  "tip": "…"
+}
+```
+
+`insep` marks a verb with an inseparable prefix (bezahlen, verstehen). It exists
+so the card can ask "trennbar or nicht trennbar?" only of verbs that have a
+prefix at all. Separable verbs are split by the prefix list in `conjugate.js`;
+`check-data.mjs` fails if a `sep` verb has a prefix that list does not know.
+
+The front of a verb card asks for the Perfekt auxiliary, the er/sie/es form
+(against the mistake a learner is most likely to make: schlaft for schläft,
+frägt for fragt), regular or irregular, and separable or not. Each is derived
+from the fields above, so a data fix changes the quiz too.
 
 The original version stored progress by array position, which meant any edit to
 a list silently reassigned someone's progress to different words.
@@ -85,3 +123,25 @@ Goethe A1 list, which corrected 27 fields (16 plurals wrongly marked as absent,
 every entry gained an example sentence and a tip. Headwords were deliberately
 left untouched: card ids are built from them, so changing one would orphan
 saved progress.
+
+The verb list then grew from 129 to 169 entries and changed shape: `perfect`
+became `aux` + `partizip`, and the fields listed above were added. The 40 new
+verbs are ones the existing tips already named (abholen, zuhören, umsteigen,
+bedeuten …) plus common A1 syllabus verbs that were missing (möchten,
+kennenlernen, regnen, lassen, mitnehmen, tun, wehtun …). Glosses that were
+identical between two verbs (öffnen / aufmachen, beginnen / anfangen) were
+told apart, since production mode shows only the English. The rewritten
+conjugator gives the same present tense as before for all 129 original verbs,
+except setzen, which now carries its reflexive pronouns.
+
+## Checking the data
+
+```sh
+node tools/check-data.mjs
+```
+
+Reports schema problems (a `sep` verb with an unknown prefix, a missing
+imperative on an e → i verb, two verbs with the same gloss) and diffs every
+verb's present tense, imperative and card-front distractor against
+`tools/verbs.snapshot.txt`. After a deliberate change, `--update` rewrites the
+snapshot; the diff it prints first is the review.

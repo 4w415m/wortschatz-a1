@@ -10,8 +10,22 @@
       "seid",
       "sind"
     ],
-    "stemChange": null,
-    "perfect": "ist gewesen",
+    "aux": "ist",
+    "partizip": "gewesen",
+    "praeteritum": [
+      "war",
+      "warst",
+      "war",
+      "waren",
+      "wart",
+      "waren"
+    ],
+    "imperative": [
+      "Sei",
+      "Seid",
+      "Seien Sie"
+    ],
+    "takes": "+ Nominativ",
     "flags": [
       "core",
       "irr"
@@ -20,17 +34,26 @@
       "de": "Ich bin Lehrerin und meine Schwester ist Ärztin.",
       "en": "I am a teacher and my sister is a doctor."
     },
-    "tip": "Perfekt uses sein itself: Ich bin gewesen. No article before jobs: Ich bin Lehrer."
+    "tip": "The past is the Präteritum war, not the Perfekt: Ich war gestern zu Hause. No article before jobs: Ich bin Lehrer."
   },
   {
     "infinitive": "haben",
     "en": "to have",
-    "forms": null,
     "stemChange": [
       "hast",
       "hat"
     ],
-    "perfect": "hat gehabt",
+    "aux": "hat",
+    "partizip": "gehabt",
+    "praeteritum": [
+      "hatte",
+      "hattest",
+      "hatte",
+      "hatten",
+      "hattet",
+      "hatten"
+    ],
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -39,17 +62,19 @@
       "de": "Hast du heute Zeit für einen Kaffee?",
       "en": "Do you have time for a coffee today?"
     },
-    "tip": "Takes the Akkusativ (Ich habe einen Hund) and is the Perfekt helper for most verbs."
+    "tip": "Takes the Akkusativ (Ich habe einen Hund) and is the Perfekt helper for most verbs. Past: ich hatte, du hattest."
   },
   {
     "infinitive": "werden",
     "en": "to become",
-    "forms": null,
     "stemChange": [
       "wirst",
       "wird"
     ],
-    "perfect": "ist geworden",
+    "aux": "ist",
+    "partizip": "geworden",
+    "imperative": "Werde",
+    "takes": "+ Nominativ",
     "flags": [
       "core",
       "irr"
@@ -71,8 +96,8 @@
       "könnt",
       "können"
     ],
-    "stemChange": null,
-    "perfect": "hat gekonnt",
+    "aux": "hat",
+    "partizip": "gekonnt",
     "flags": [
       "core",
       "modal"
@@ -94,8 +119,8 @@
       "müsst",
       "müssen"
     ],
-    "stemChange": null,
-    "perfect": "hat gemusst",
+    "aux": "hat",
+    "partizip": "gemusst",
     "flags": [
       "core",
       "modal"
@@ -117,8 +142,8 @@
       "wollt",
       "wollen"
     ],
-    "stemChange": null,
-    "perfect": "hat gewollt",
+    "aux": "hat",
+    "partizip": "gewollt",
     "flags": [
       "core",
       "modal"
@@ -140,8 +165,8 @@
       "sollt",
       "sollen"
     ],
-    "stemChange": null,
-    "perfect": "hat gesollt",
+    "aux": "hat",
+    "partizip": "gesollt",
     "flags": [
       "core",
       "modal"
@@ -163,8 +188,8 @@
       "dürft",
       "dürfen"
     ],
-    "stemChange": null,
-    "perfect": "hat gedurft",
+    "aux": "hat",
+    "partizip": "gedurft",
     "flags": [
       "core",
       "modal"
@@ -186,8 +211,9 @@
       "mögt",
       "mögen"
     ],
-    "stemChange": null,
-    "perfect": "hat gemocht",
+    "aux": "hat",
+    "partizip": "gemocht",
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "modal"
@@ -196,14 +222,44 @@
       "de": "Ich mag Kaffee, aber ich mag keinen Tee.",
       "en": "I like coffee, but I don't like tea."
     },
-    "tip": "mag + noun: Ich mag Pizza. 'möchte' (would like) is its Konjunktiv II: Ich möchte einen Tee."
+    "tip": "mag + noun: Ich mag Pizza. Its Konjunktiv II möchte (would like) is so common it has its own card."
+  },
+  {
+    "infinitive": "möchten",
+    "en": "would like (to)",
+    "forms": [
+      "möchte",
+      "möchtest",
+      "möchte",
+      "möchten",
+      "möchtet",
+      "möchten"
+    ],
+    "praeteritum": [
+      "wollte",
+      "wolltest",
+      "wollte",
+      "wollten",
+      "wolltet",
+      "wollten"
+    ],
+    "takes": "+ Akkusativ",
+    "flags": [
+      "core",
+      "modal"
+    ],
+    "example": {
+      "de": "Ich möchte einen Kaffee, bitte.",
+      "en": "I would like a coffee, please."
+    },
+    "tip": "The polite way to want something; ich/er möchte take no ending. It has no Perfekt of its own: for the past say wollte (Ich wollte einen Tee)."
   },
   {
     "infinitive": "machen",
     "en": "to do, to make",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gemacht",
+    "aux": "hat",
+    "partizip": "gemacht",
+    "takes": "+ Akkusativ",
     "flags": [
       "core"
     ],
@@ -216,9 +272,8 @@
   {
     "infinitive": "gehen",
     "en": "to go",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist gegangen",
+    "aux": "ist",
+    "partizip": "gegangen",
     "flags": [
       "core",
       "irr"
@@ -232,9 +287,8 @@
   {
     "infinitive": "kommen",
     "en": "to come",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist gekommen",
+    "aux": "ist",
+    "partizip": "gekommen",
     "flags": [
       "core",
       "irr"
@@ -248,12 +302,14 @@
   {
     "infinitive": "sehen",
     "en": "to see",
-    "forms": null,
     "stemChange": [
       "siehst",
       "sieht"
     ],
-    "perfect": "hat gesehen",
+    "aux": "hat",
+    "partizip": "gesehen",
+    "imperative": "Sieh",
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -267,12 +323,14 @@
   {
     "infinitive": "geben",
     "en": "to give",
-    "forms": null,
     "stemChange": [
       "gibst",
       "gibt"
     ],
-    "perfect": "hat gegeben",
+    "aux": "hat",
+    "partizip": "gegeben",
+    "imperative": "Gib",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -286,9 +344,9 @@
   {
     "infinitive": "sagen",
     "en": "to say",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gesagt",
+    "aux": "hat",
+    "partizip": "gesagt",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "core"
     ],
@@ -309,8 +367,9 @@
       "wisst",
       "wissen"
     ],
-    "stemChange": null,
-    "perfect": "hat gewusst",
+    "aux": "hat",
+    "partizip": "gewusst",
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -324,9 +383,9 @@
   {
     "infinitive": "finden",
     "en": "to find",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gefunden",
+    "aux": "hat",
+    "partizip": "gefunden",
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -340,12 +399,14 @@
   {
     "infinitive": "nehmen",
     "en": "to take",
-    "forms": null,
     "stemChange": [
       "nimmst",
       "nimmt"
     ],
-    "perfect": "hat genommen",
+    "aux": "hat",
+    "partizip": "genommen",
+    "imperative": "Nimm",
+    "takes": "+ Akkusativ",
     "flags": [
       "core",
       "irr"
@@ -359,12 +420,14 @@
   {
     "infinitive": "sprechen",
     "en": "to speak",
-    "forms": null,
     "stemChange": [
       "sprichst",
       "spricht"
     ],
-    "perfect": "hat gesprochen",
+    "aux": "hat",
+    "partizip": "gesprochen",
+    "imperative": "Sprich",
+    "takes": "mit + Dativ",
     "flags": [
       "core",
       "irr"
@@ -378,9 +441,9 @@
   {
     "infinitive": "heißen",
     "en": "to be called",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geheißen",
+    "aux": "hat",
+    "partizip": "geheißen",
+    "takes": "+ Nominativ",
     "flags": [
       "core",
       "irr"
@@ -394,12 +457,14 @@
   {
     "infinitive": "essen",
     "en": "to eat",
-    "forms": null,
     "stemChange": [
       "isst",
       "isst"
     ],
-    "perfect": "hat gegessen",
+    "aux": "hat",
+    "partizip": "gegessen",
+    "imperative": "Iss",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -412,9 +477,9 @@
   {
     "infinitive": "trinken",
     "en": "to drink",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat getrunken",
+    "aux": "hat",
+    "partizip": "getrunken",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -427,12 +492,12 @@
   {
     "infinitive": "schlafen",
     "en": "to sleep",
-    "forms": null,
     "stemChange": [
       "schläfst",
       "schläft"
     ],
-    "perfect": "hat geschlafen",
+    "aux": "hat",
+    "partizip": "geschlafen",
     "flags": [
       "irr"
     ],
@@ -445,12 +510,12 @@
   {
     "infinitive": "fahren",
     "en": "to drive, to travel",
-    "forms": null,
     "stemChange": [
       "fährst",
       "fährt"
     ],
-    "perfect": "ist gefahren",
+    "aux": "ist",
+    "partizip": "gefahren",
     "flags": [
       "irr"
     ],
@@ -463,12 +528,12 @@
   {
     "infinitive": "laufen",
     "en": "to run, to walk",
-    "forms": null,
     "stemChange": [
       "läufst",
       "läuft"
     ],
-    "perfect": "ist gelaufen",
+    "aux": "ist",
+    "partizip": "gelaufen",
     "flags": [
       "irr"
     ],
@@ -481,9 +546,8 @@
   {
     "infinitive": "fliegen",
     "en": "to fly",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist geflogen",
+    "aux": "ist",
+    "partizip": "geflogen",
     "flags": [
       "irr"
     ],
@@ -496,12 +560,14 @@
   {
     "infinitive": "lesen",
     "en": "to read",
-    "forms": null,
     "stemChange": [
       "liest",
       "liest"
     ],
-    "perfect": "hat gelesen",
+    "aux": "hat",
+    "partizip": "gelesen",
+    "imperative": "Lies",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -514,9 +580,9 @@
   {
     "infinitive": "schreiben",
     "en": "to write",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geschrieben",
+    "aux": "hat",
+    "partizip": "geschrieben",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "irr"
     ],
@@ -529,9 +595,9 @@
   {
     "infinitive": "lernen",
     "en": "to learn",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gelernt",
+    "aux": "hat",
+    "partizip": "gelernt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich lerne jeden Tag zwanzig Minuten Deutsch.",
@@ -542,9 +608,9 @@
   {
     "infinitive": "arbeiten",
     "en": "to work",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gearbeitet",
+    "aux": "hat",
+    "partizip": "gearbeitet",
+    "takes": "bei + Dativ",
     "flags": [],
     "example": {
       "de": "Mein Vater arbeitet bei der Post.",
@@ -554,10 +620,10 @@
   },
   {
     "infinitive": "wohnen",
-    "en": "to live, to reside",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gewohnt",
+    "en": "to reside, to live (at an address)",
+    "aux": "hat",
+    "partizip": "gewohnt",
+    "takes": "in + Dativ",
     "flags": [],
     "example": {
       "de": "Ich wohne in Berlin.",
@@ -567,10 +633,10 @@
   },
   {
     "infinitive": "leben",
-    "en": "to live, to be alive",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gelebt",
+    "en": "to be alive, to live (in general)",
+    "aux": "hat",
+    "partizip": "gelebt",
+    "takes": "in + Dativ",
     "flags": [],
     "example": {
       "de": "Meine Großeltern leben in Italien.",
@@ -581,9 +647,9 @@
   {
     "infinitive": "spielen",
     "en": "to play",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gespielt",
+    "aux": "hat",
+    "partizip": "gespielt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Die Kinder spielen im Park.",
@@ -594,9 +660,9 @@
   {
     "infinitive": "hören",
     "en": "to hear, to listen",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gehört",
+    "aux": "hat",
+    "partizip": "gehört",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich höre gern Musik.",
@@ -607,9 +673,9 @@
   {
     "infinitive": "kaufen",
     "en": "to buy",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gekauft",
+    "aux": "hat",
+    "partizip": "gekauft",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Wir kaufen Brot und Milch im Supermarkt.",
@@ -620,10 +686,12 @@
   {
     "infinitive": "verkaufen",
     "en": "to sell",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat verkauft",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "verkauft",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Er verkauft sein altes Auto.",
       "en": "He is selling his old car."
@@ -633,9 +701,9 @@
   {
     "infinitive": "kosten",
     "en": "to cost",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gekostet",
+    "aux": "hat",
+    "partizip": "gekostet",
+    "third": true,
     "flags": [],
     "example": {
       "de": "Das Zimmer kostet 50 Euro pro Nacht.",
@@ -646,10 +714,12 @@
   {
     "infinitive": "bezahlen",
     "en": "to pay",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat bezahlt",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "bezahlt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Ich bezahle mit Karte.",
       "en": "I'm paying by card."
@@ -659,9 +729,9 @@
   {
     "infinitive": "brauchen",
     "en": "to need",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gebraucht",
+    "aux": "hat",
+    "partizip": "gebraucht",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich brauche einen neuen Stift.",
@@ -672,9 +742,9 @@
   {
     "infinitive": "suchen",
     "en": "to look for",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gesucht",
+    "aux": "hat",
+    "partizip": "gesucht",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich suche meinen Schlüssel.",
@@ -685,9 +755,9 @@
   {
     "infinitive": "fragen",
     "en": "to ask",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gefragt",
+    "aux": "hat",
+    "partizip": "gefragt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich frage den Lehrer.",
@@ -698,9 +768,9 @@
   {
     "infinitive": "antworten",
     "en": "to answer",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geantwortet",
+    "aux": "hat",
+    "partizip": "geantwortet",
+    "takes": "+ Dativ",
     "flags": [],
     "example": {
       "de": "Er antwortet mir nicht.",
@@ -711,11 +781,12 @@
   {
     "infinitive": "verstehen",
     "en": "to understand",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat verstanden",
+    "aux": "hat",
+    "partizip": "verstanden",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Verstehst du die Frage?",
@@ -726,9 +797,9 @@
   {
     "infinitive": "denken",
     "en": "to think",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gedacht",
+    "aux": "hat",
+    "partizip": "gedacht",
+    "takes": "an + Akkusativ",
     "flags": [
       "irr"
     ],
@@ -741,9 +812,9 @@
   {
     "infinitive": "glauben",
     "en": "to believe",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geglaubt",
+    "aux": "hat",
+    "partizip": "geglaubt",
+    "takes": "+ Dativ",
     "flags": [],
     "example": {
       "de": "Glaubst du das wirklich?",
@@ -753,10 +824,10 @@
   },
   {
     "infinitive": "meinen",
-    "en": "to mean, to think",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gemeint",
+    "en": "to think (an opinion), to mean",
+    "aux": "hat",
+    "partizip": "gemeint",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich meine, das Restaurant ist sehr gut.",
@@ -767,9 +838,9 @@
   {
     "infinitive": "kennen",
     "en": "to know (a person, place)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gekannt",
+    "aux": "hat",
+    "partizip": "gekannt",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -782,9 +853,9 @@
   {
     "infinitive": "lieben",
     "en": "to love",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geliebt",
+    "aux": "hat",
+    "partizip": "geliebt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich liebe meine Familie sehr.",
@@ -795,9 +866,9 @@
   {
     "infinitive": "warten",
     "en": "to wait",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gewartet",
+    "aux": "hat",
+    "partizip": "gewartet",
+    "takes": "auf + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich warte auf den Bus.",
@@ -808,9 +879,8 @@
   {
     "infinitive": "bleiben",
     "en": "to stay",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist geblieben",
+    "aux": "ist",
+    "partizip": "geblieben",
     "flags": [
       "irr"
     ],
@@ -823,9 +893,9 @@
   {
     "infinitive": "stehen",
     "en": "to stand",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gestanden",
+    "aux": "hat",
+    "partizip": "gestanden",
+    "takes": "wo? + Dativ",
     "flags": [
       "irr"
     ],
@@ -838,9 +908,9 @@
   {
     "infinitive": "sitzen",
     "en": "to sit",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gesessen",
+    "aux": "hat",
+    "partizip": "gesessen",
+    "takes": "wo? + Dativ",
     "flags": [
       "irr"
     ],
@@ -853,9 +923,9 @@
   {
     "infinitive": "liegen",
     "en": "to lie, to be located",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gelegen",
+    "aux": "hat",
+    "partizip": "gelegen",
+    "takes": "wo? + Dativ",
     "flags": [
       "irr"
     ],
@@ -868,9 +938,9 @@
   {
     "infinitive": "legen",
     "en": "to lay, to put down",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gelegt",
+    "aux": "hat",
+    "partizip": "gelegt",
+    "takes": "wohin? + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich lege das Buch auf den Tisch.",
@@ -881,9 +951,9 @@
   {
     "infinitive": "stellen",
     "en": "to put, to place upright",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gestellt",
+    "aux": "hat",
+    "partizip": "gestellt",
+    "takes": "wohin? + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich stelle die Flasche auf den Tisch.",
@@ -893,23 +963,24 @@
   },
   {
     "infinitive": "setzen",
-    "en": "to set, to put; sich setzen: to sit down",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gesetzt",
+    "en": "to sit down; (without sich) to put, to set",
+    "aux": "hat",
+    "partizip": "gesetzt",
+    "reflexive": "akk",
+    "takes": "wohin? + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich setze mich auf den Stuhl.",
       "en": "I sit down on the chair."
     },
-    "tip": "Mostly reflexive at A1: Setzen Sie sich! / Ich setze mich (wohin? + Akkusativ). Resulting state: sitzen."
+    "tip": "Reflexive with Akkusativ: Setzen Sie sich! / Ich setze mich (wohin? + Akkusativ). Resulting state: sitzen. Without sich it means to put: das Kind auf den Stuhl setzen."
   },
   {
     "infinitive": "öffnen",
-    "en": "to open",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geöffnet",
+    "en": "to open (standard word)",
+    "aux": "hat",
+    "partizip": "geöffnet",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Öffnest du bitte das Fenster?",
@@ -919,10 +990,10 @@
   },
   {
     "infinitive": "schließen",
-    "en": "to close",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geschlossen",
+    "en": "to close (standard word)",
+    "aux": "hat",
+    "partizip": "geschlossen",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -934,12 +1005,13 @@
   },
   {
     "infinitive": "beginnen",
-    "en": "to begin",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat begonnen",
+    "en": "to begin (not separable)",
+    "aux": "hat",
+    "partizip": "begonnen",
+    "takes": "mit + Dativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Der Deutschkurs beginnt um neun Uhr.",
@@ -950,12 +1022,14 @@
   {
     "infinitive": "helfen",
     "en": "to help",
-    "forms": null,
     "stemChange": [
       "hilfst",
       "hilft"
     ],
-    "perfect": "hat geholfen",
+    "aux": "hat",
+    "partizip": "geholfen",
+    "imperative": "Hilf",
+    "takes": "+ Dativ",
     "flags": [
       "irr"
     ],
@@ -968,9 +1042,9 @@
   {
     "infinitive": "danken",
     "en": "to thank",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gedankt",
+    "aux": "hat",
+    "partizip": "gedankt",
+    "takes": "+ Dativ",
     "flags": [],
     "example": {
       "de": "Ich danke dir für das Geschenk.",
@@ -981,9 +1055,9 @@
   {
     "infinitive": "bringen",
     "en": "to bring",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gebracht",
+    "aux": "hat",
+    "partizip": "gebracht",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "irr"
     ],
@@ -996,9 +1070,9 @@
   {
     "infinitive": "holen",
     "en": "to fetch",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geholt",
+    "aux": "hat",
+    "partizip": "geholt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich hole schnell Brot vom Bäcker.",
@@ -1009,12 +1083,13 @@
   {
     "infinitive": "tragen",
     "en": "to carry, to wear",
-    "forms": null,
     "stemChange": [
       "trägst",
       "trägt"
     ],
-    "perfect": "hat getragen",
+    "aux": "hat",
+    "partizip": "getragen",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -1027,11 +1102,12 @@
   {
     "infinitive": "bekommen",
     "en": "to receive, to get",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat bekommen",
+    "aux": "hat",
+    "partizip": "bekommen",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Ich bekomme zum Geburtstag ein neues Handy.",
@@ -1042,9 +1118,9 @@
   {
     "infinitive": "schenken",
     "en": "to give as a gift",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geschenkt",
+    "aux": "hat",
+    "partizip": "geschenkt",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [],
     "example": {
       "de": "Wir schenken Oma Blumen zum Geburtstag.",
@@ -1055,9 +1131,9 @@
   {
     "infinitive": "zeigen",
     "en": "to show",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gezeigt",
+    "aux": "hat",
+    "partizip": "gezeigt",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich zeige dir mein neues Zimmer.",
@@ -1068,10 +1144,12 @@
   {
     "infinitive": "erklären",
     "en": "to explain",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat erklärt",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "erklärt",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Die Lehrerin erklärt die Aufgabe noch einmal.",
       "en": "The teacher explains the task once more."
@@ -1081,9 +1159,9 @@
   {
     "infinitive": "üben",
     "en": "to practise",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geübt",
+    "aux": "hat",
+    "partizip": "geübt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich übe jeden Tag zehn Minuten Deutsch.",
@@ -1094,10 +1172,12 @@
   {
     "infinitive": "wiederholen",
     "en": "to repeat",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat wiederholt",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "wiederholt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Ich wiederhole die neuen Wörter jeden Abend.",
       "en": "I go over the new words every evening."
@@ -1107,14 +1187,17 @@
   {
     "infinitive": "vergessen",
     "en": "to forget",
-    "forms": null,
     "stemChange": [
       "vergisst",
       "vergisst"
     ],
-    "perfect": "hat vergessen",
+    "aux": "hat",
+    "partizip": "vergessen",
+    "imperative": "Vergiss",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Ich vergesse immer meinen Schlüssel.",
@@ -1125,12 +1208,14 @@
   {
     "infinitive": "treffen",
     "en": "to meet",
-    "forms": null,
     "stemChange": [
       "triffst",
       "trifft"
     ],
-    "perfect": "hat getroffen",
+    "aux": "hat",
+    "partizip": "getroffen",
+    "imperative": "Triff",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -1143,10 +1228,12 @@
   {
     "infinitive": "besuchen",
     "en": "to visit",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat besucht",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "besucht",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Am Sonntag besuchen wir meine Großeltern.",
       "en": "On Sunday we're visiting my grandparents."
@@ -1156,9 +1243,9 @@
   {
     "infinitive": "reisen",
     "en": "to travel",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist gereist",
+    "aux": "ist",
+    "partizip": "gereist",
+    "takes": "nach + Dativ",
     "flags": [],
     "example": {
       "de": "Wir reisen im Sommer nach Italien.",
@@ -1169,9 +1256,8 @@
   {
     "infinitive": "wandern",
     "en": "to hike",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist gewandert",
+    "aux": "ist",
+    "partizip": "gewandert",
     "flags": [],
     "example": {
       "de": "Am Wochenende wandern wir in den Bergen.",
@@ -1182,9 +1268,8 @@
   {
     "infinitive": "schwimmen",
     "en": "to swim",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist geschwommen",
+    "aux": "ist",
+    "partizip": "geschwommen",
     "flags": [
       "irr"
     ],
@@ -1197,9 +1282,8 @@
   {
     "infinitive": "tanzen",
     "en": "to dance",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat getanzt",
+    "aux": "hat",
+    "partizip": "getanzt",
     "flags": [],
     "example": {
       "de": "Am Samstag tanzen wir in der Disco.",
@@ -1210,9 +1294,8 @@
   {
     "infinitive": "singen",
     "en": "to sing",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gesungen",
+    "aux": "hat",
+    "partizip": "gesungen",
     "flags": [
       "irr"
     ],
@@ -1225,9 +1308,9 @@
   {
     "infinitive": "kochen",
     "en": "to cook",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gekocht",
+    "aux": "hat",
+    "partizip": "gekocht",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Heute koche ich eine Suppe.",
@@ -1238,9 +1321,9 @@
   {
     "infinitive": "backen",
     "en": "to bake",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gebacken",
+    "aux": "hat",
+    "partizip": "gebacken",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -1253,9 +1336,9 @@
   {
     "infinitive": "putzen",
     "en": "to clean",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geputzt",
+    "aux": "hat",
+    "partizip": "geputzt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich putze jeden Samstag die Wohnung.",
@@ -1266,12 +1349,13 @@
   {
     "infinitive": "waschen",
     "en": "to wash",
-    "forms": null,
     "stemChange": [
       "wäschst",
       "wäscht"
     ],
-    "perfect": "hat gewaschen",
+    "aux": "hat",
+    "partizip": "gewaschen",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -1284,9 +1368,8 @@
   {
     "infinitive": "duschen",
     "en": "to shower",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geduscht",
+    "aux": "hat",
+    "partizip": "geduscht",
     "flags": [],
     "example": {
       "de": "Ich dusche jeden Morgen um sieben.",
@@ -1297,9 +1380,9 @@
   {
     "infinitive": "ziehen",
     "en": "to pull",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gezogen",
+    "aux": "hat",
+    "partizip": "gezogen",
+    "takes": "+ Akkusativ",
     "flags": [
       "irr"
     ],
@@ -1312,14 +1395,17 @@
   {
     "infinitive": "gefallen",
     "en": "to please, to be liked",
-    "forms": null,
     "stemChange": [
       "gefällst",
       "gefällt"
     ],
-    "perfect": "hat gefallen",
+    "aux": "hat",
+    "partizip": "gefallen",
+    "takes": "+ Dativ",
+    "third": true,
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Die Jacke gefällt mir sehr gut.",
@@ -1330,9 +1416,10 @@
   {
     "infinitive": "schmecken",
     "en": "to taste (good)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geschmeckt",
+    "aux": "hat",
+    "partizip": "geschmeckt",
+    "takes": "+ Dativ",
+    "third": true,
     "flags": [],
     "example": {
       "de": "Die Pizza schmeckt mir sehr gut.",
@@ -1343,9 +1430,10 @@
   {
     "infinitive": "passen",
     "en": "to fit, to suit",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gepasst",
+    "aux": "hat",
+    "partizip": "gepasst",
+    "takes": "+ Dativ",
+    "third": true,
     "flags": [],
     "example": {
       "de": "Die Hose passt mir leider nicht.",
@@ -1356,10 +1444,13 @@
   {
     "infinitive": "gehören",
     "en": "to belong to",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gehört",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "gehört",
+    "takes": "+ Dativ",
+    "third": true,
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Das Fahrrad gehört meinem Bruder.",
       "en": "The bike belongs to my brother."
@@ -1368,10 +1459,10 @@
   },
   {
     "infinitive": "funktionieren",
-    "en": "to work, to function",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat funktioniert",
+    "en": "to function, to work (a machine)",
+    "aux": "hat",
+    "partizip": "funktioniert",
+    "third": true,
     "flags": [],
     "example": {
       "de": "Der Aufzug funktioniert heute nicht.",
@@ -1381,10 +1472,10 @@
   },
   {
     "infinitive": "probieren",
-    "en": "to try, to taste",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat probiert",
+    "en": "to taste, to sample",
+    "aux": "hat",
+    "partizip": "probiert",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Probierst du mal die Suppe?",
@@ -1394,11 +1485,13 @@
   },
   {
     "infinitive": "versuchen",
-    "en": "to try, to attempt",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat versucht",
-    "flags": [],
+    "en": "to attempt, to try (to do)",
+    "aux": "hat",
+    "partizip": "versucht",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Ich versuche es morgen noch einmal.",
       "en": "I'll try it again tomorrow."
@@ -1408,10 +1501,12 @@
   {
     "infinitive": "entschuldigen",
     "en": "to excuse",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat entschuldigt",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "entschuldigt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Entschuldigen Sie bitte, wo ist der Bahnhof?",
       "en": "Excuse me please, where is the train station?"
@@ -1420,10 +1515,10 @@
   },
   {
     "infinitive": "schicken",
-    "en": "to send",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geschickt",
+    "en": "to send (everyday word)",
+    "aux": "hat",
+    "partizip": "geschickt",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich schicke dir morgen eine E-Mail.",
@@ -1434,10 +1529,12 @@
   {
     "infinitive": "bestellen",
     "en": "to order",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat bestellt",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "bestellt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Wir bestellen zwei Kaffee und ein Stück Kuchen.",
       "en": "We're ordering two coffees and a piece of cake."
@@ -1447,9 +1544,9 @@
   {
     "infinitive": "buchen",
     "en": "to book",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gebucht",
+    "aux": "hat",
+    "partizip": "gebucht",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich buche ein Hotel in Berlin.",
@@ -1460,9 +1557,9 @@
   {
     "infinitive": "reservieren",
     "en": "to reserve",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat reserviert",
+    "aux": "hat",
+    "partizip": "reserviert",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich reserviere einen Tisch für zwei Personen.",
@@ -1473,11 +1570,12 @@
   {
     "infinitive": "verlieren",
     "en": "to lose",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat verloren",
+    "aux": "hat",
+    "partizip": "verloren",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Ich verliere immer meinen Schlüssel.",
@@ -1488,11 +1586,12 @@
   {
     "infinitive": "gewinnen",
     "en": "to win",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gewonnen",
+    "aux": "hat",
+    "partizip": "gewonnen",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Unser Team gewinnt das Spiel.",
@@ -1503,9 +1602,8 @@
   {
     "infinitive": "rauchen",
     "en": "to smoke",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geraucht",
+    "aux": "hat",
+    "partizip": "geraucht",
     "flags": [],
     "example": {
       "de": "Mein Vater raucht nicht mehr.",
@@ -1516,9 +1614,9 @@
   {
     "infinitive": "sparen",
     "en": "to save (money)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gespart",
+    "aux": "hat",
+    "partizip": "gespart",
+    "takes": "für + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich spare für ein neues Fahrrad.",
@@ -1529,10 +1627,12 @@
   {
     "infinitive": "verdienen",
     "en": "to earn",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat verdient",
-    "flags": [],
+    "aux": "hat",
+    "partizip": "verdient",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
     "example": {
       "de": "Meine Schwester verdient viel Geld.",
       "en": "My sister earns a lot of money."
@@ -1542,9 +1642,9 @@
   {
     "infinitive": "studieren",
     "en": "to study",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat studiert",
+    "aux": "hat",
+    "partizip": "studiert",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Mein Bruder studiert Medizin in München.",
@@ -1555,11 +1655,12 @@
   {
     "infinitive": "unterschreiben",
     "en": "to sign",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat unterschrieben",
+    "aux": "hat",
+    "partizip": "unterschrieben",
+    "takes": "+ Akkusativ",
     "flags": [
-      "irr"
+      "irr",
+      "insep"
     ],
     "example": {
       "de": "Bitte unterschreiben Sie hier.",
@@ -1569,10 +1670,10 @@
   },
   {
     "infinitive": "wechseln",
-    "en": "to change, to swap",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gewechselt",
+    "en": "to swap, to exchange (money)",
+    "aux": "hat",
+    "partizip": "gewechselt",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich wechsle am Flughafen Geld.",
@@ -1582,10 +1683,10 @@
   },
   {
     "infinitive": "ändern",
-    "en": "to change, to alter",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geändert",
+    "en": "to alter, to change (something)",
+    "aux": "hat",
+    "partizip": "geändert",
+    "takes": "+ Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich ändere meine Adresse.",
@@ -1596,9 +1697,9 @@
   {
     "infinitive": "dauern",
     "en": "to last, to take (time)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gedauert",
+    "aux": "hat",
+    "partizip": "gedauert",
+    "third": true,
     "flags": [],
     "example": {
       "de": "Der Film dauert zwei Stunden.",
@@ -1609,9 +1710,9 @@
   {
     "infinitive": "lachen",
     "en": "to laugh",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gelacht",
+    "aux": "hat",
+    "partizip": "gelacht",
+    "takes": "über + Akkusativ",
     "flags": [],
     "example": {
       "de": "Warum lachst du über mich?",
@@ -1622,9 +1723,8 @@
   {
     "infinitive": "weinen",
     "en": "to cry",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat geweint",
+    "aux": "hat",
+    "partizip": "geweint",
     "flags": [],
     "example": {
       "de": "Das Baby weint die ganze Nacht.",
@@ -1635,9 +1735,9 @@
   {
     "infinitive": "hoffen",
     "en": "to hope",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat gehofft",
+    "aux": "hat",
+    "partizip": "gehofft",
+    "takes": "auf + Akkusativ",
     "flags": [],
     "example": {
       "de": "Ich hoffe, dass du morgen kommst.",
@@ -1646,11 +1746,356 @@
     "tip": "hoffen auf + Akkusativ (auf gutes Wetter). 'Hoffentlich' = hopefully; 'Ich hoffe es' = I hope so."
   },
   {
+    "infinitive": "lassen",
+    "en": "to let, to leave (something somewhere)",
+    "stemChange": [
+      "lässt",
+      "lässt"
+    ],
+    "aux": "hat",
+    "partizip": "gelassen",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Ich lasse mein Auto heute zu Hause.",
+      "en": "I'm leaving my car at home today."
+    },
+    "tip": "a→ä in du/er, both lässt (ss + st merge). Also 'let': Lass mich in Ruhe! and 'Lass uns gehen!' = let's go."
+  },
+  {
+    "infinitive": "tun",
+    "en": "to do (in fixed phrases)",
+    "aux": "hat",
+    "partizip": "getan",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Was kann ich für Sie tun?",
+      "en": "What can I do for you?"
+    },
+    "tip": "machen covers most of 'do'; tun lives in set phrases: wehtun, Es tut mir leid, Was tust du da? Perfekt: hat getan."
+  },
+  {
+    "infinitive": "rufen",
+    "en": "to call out, to shout",
+    "aux": "hat",
+    "partizip": "gerufen",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Die Mutter ruft die Kinder zum Essen.",
+      "en": "The mother calls the children to dinner."
+    },
+    "tip": "Calling with your voice; on the phone it is anrufen. Strong verb: Perfekt hat gerufen."
+  },
+  {
+    "infinitive": "bedeuten",
+    "en": "to mean (a word, a sign)",
+    "aux": "hat",
+    "partizip": "bedeutet",
+    "takes": "+ Akkusativ",
+    "third": true,
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Was bedeutet dieses Wort?",
+      "en": "What does this word mean?"
+    },
+    "tip": "Ask 'Was bedeutet das?' about a word or sign; for someone's opinion use meinen. Inseparable be-, so no ge-: hat bedeutet."
+  },
+  {
+    "infinitive": "benutzen",
+    "en": "to use",
+    "aux": "hat",
+    "partizip": "benutzt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Ich benutze jeden Tag mein Fahrrad.",
+      "en": "I use my bike every day."
+    },
+    "tip": "Inseparable be-: no ge- (hat benutzt). After the z the du form equals er: du benutzt. Noun: der Benutzer = user."
+  },
+  {
+    "infinitive": "telefonieren",
+    "en": "to talk on the phone",
+    "aux": "hat",
+    "partizip": "telefoniert",
+    "takes": "mit + Dativ",
+    "flags": [],
+    "example": {
+      "de": "Ich telefoniere jeden Sonntag mit meiner Mutter.",
+      "en": "I talk on the phone with my mother every Sunday."
+    },
+    "tip": "telefonieren mit + Dativ, no direct object; to call someone is anrufen + Akkusativ. -ieren verb, so no ge-."
+  },
+  {
+    "infinitive": "passieren",
+    "en": "to happen",
+    "aux": "ist",
+    "partizip": "passiert",
+    "takes": "+ Dativ",
+    "third": true,
+    "flags": [],
+    "example": {
+      "de": "Hier passiert nie etwas.",
+      "en": "Nothing ever happens here."
+    },
+    "tip": "Perfekt with sein: Was ist passiert? The person it happens to is Dativ: Das passiert mir oft. -ieren, so no ge-."
+  },
+  {
+    "infinitive": "parken",
+    "en": "to park",
+    "aux": "hat",
+    "partizip": "geparkt",
+    "flags": [],
+    "example": {
+      "de": "Hier dürfen Sie nicht parken.",
+      "en": "You are not allowed to park here."
+    },
+    "tip": "Where the car stands is wo? + Dativ: Ich parke vor dem Haus. Nouns: der Parkplatz, das Parkhaus."
+  },
+  {
+    "infinitive": "wünschen",
+    "en": "to wish",
+    "aux": "hat",
+    "partizip": "gewünscht",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich wünsche dir alles Gute zum Geburtstag!",
+      "en": "I wish you all the best for your birthday!"
+    },
+    "tip": "Person in Dativ, wish in Akkusativ: Ich wünsche Ihnen einen schönen Tag. Reflexive 'sich (Dativ) etwas wünschen' = to want something as a present."
+  },
+  {
+    "infinitive": "frühstücken",
+    "en": "to have breakfast",
+    "aux": "hat",
+    "partizip": "gefrühstückt",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Wir frühstücken am Sonntag um zehn.",
+      "en": "On Sunday we have breakfast at ten."
+    },
+    "tip": "Looks separable but is not: ich frühstücke, hat gefrühstückt. Noun: das Frühstück."
+  },
+  {
+    "infinitive": "feiern",
+    "en": "to celebrate, to party",
+    "aux": "hat",
+    "partizip": "gefeiert",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Am Samstag feiern wir meinen Geburtstag.",
+      "en": "On Saturday we're celebrating my birthday."
+    },
+    "tip": "-ern verb: ich feiere, wir feiern. Nouns: die Feier, die Party, das Fest."
+  },
+  {
+    "infinitive": "fehlen",
+    "en": "to be missing, to be absent",
+    "aux": "hat",
+    "partizip": "gefehlt",
+    "takes": "+ Dativ",
+    "flags": [],
+    "example": {
+      "de": "Mir fehlt noch ein Euro.",
+      "en": "I'm still one euro short."
+    },
+    "tip": "The person is Dativ: Was fehlt Ihnen? is the doctor's 'what's wrong?'. 'Du fehlst mir' = I miss you."
+  },
+  {
+    "infinitive": "freuen",
+    "en": "to be glad; to look forward to",
+    "aux": "hat",
+    "partizip": "gefreut",
+    "reflexive": "akk",
+    "takes": "auf + Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich freue mich auf das Wochenende.",
+      "en": "I'm looking forward to the weekend."
+    },
+    "tip": "Always reflexive. sich freuen auf + Akk = look forward to; sich freuen über + Akk = be pleased about. 'Freut mich!' = pleased to meet you."
+  },
+  {
+    "infinitive": "regnen",
+    "en": "to rain",
+    "aux": "hat",
+    "partizip": "geregnet",
+    "third": true,
+    "flags": [],
+    "example": {
+      "de": "Heute regnet es den ganzen Tag.",
+      "en": "It's raining all day today."
+    },
+    "tip": "Only with es: Es regnet. Stem ends in -gn, so an -e- is inserted: es regnet, es hat geregnet. Noun: der Regen."
+  },
+  {
+    "infinitive": "schneien",
+    "en": "to snow",
+    "aux": "hat",
+    "partizip": "geschneit",
+    "third": true,
+    "flags": [],
+    "example": {
+      "de": "Im Winter schneit es in den Bergen oft.",
+      "en": "In winter it often snows in the mountains."
+    },
+    "tip": "Only with es: Es schneit. Perfekt: Es hat geschneit. Noun: der Schnee."
+  },
+  {
+    "infinitive": "scheinen",
+    "en": "to shine (the sun); to seem",
+    "aux": "hat",
+    "partizip": "geschienen",
+    "third": true,
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Heute scheint die Sonne.",
+      "en": "The sun is shining today."
+    },
+    "tip": "Weather: Die Sonne scheint. Also 'to seem': Das scheint gut zu sein. Strong verb: Perfekt hat geschienen."
+  },
+  {
+    "infinitive": "zahlen",
+    "en": "to pay (short form)",
+    "aux": "hat",
+    "partizip": "gezahlt",
+    "flags": [],
+    "example": {
+      "de": "Zahlen, bitte! Zusammen oder getrennt?",
+      "en": "The bill, please! Together or separately?"
+    },
+    "tip": "Same meaning as bezahlen; at the café you say 'Zahlen, bitte!' or 'Ich möchte zahlen.' Regular: hat gezahlt."
+  },
+  {
+    "infinitive": "füllen",
+    "en": "to fill (a container)",
+    "aux": "hat",
+    "partizip": "gefüllt",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich fülle das Glas mit Wasser.",
+      "en": "I fill the glass with water."
+    },
+    "tip": "füllen mit + Dativ. A form is ausfüllen, and the adjective is voll = full."
+  },
+  {
+    "infinitive": "senden",
+    "en": "to send (formal); to broadcast",
+    "aux": "hat",
+    "partizip": "gesendet",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich sende Ihnen die Unterlagen per E-Mail.",
+      "en": "I'm sending you the documents by email."
+    },
+    "tip": "Formal word for schicken; on your phone 'gesendet' = sent. Stem ends in -d, so du sendest. Noun: die Sendung = TV programme or parcel."
+  },
+  {
+    "infinitive": "rennen",
+    "en": "to run (fast)",
+    "aux": "ist",
+    "partizip": "gerannt",
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Die Kinder rennen zum Bus.",
+      "en": "The children are running to the bus."
+    },
+    "tip": "Motion, so Perfekt with sein: ist gerannt. laufen is walking or jogging; rennen is running fast."
+  },
+  {
+    "infinitive": "schreien",
+    "en": "to shout, to scream",
+    "aux": "hat",
+    "partizip": "geschrien",
+    "flags": [
+      "irr"
+    ],
+    "example": {
+      "de": "Das Baby schreit die ganze Nacht.",
+      "en": "The baby screams all night."
+    },
+    "tip": "Strong verb: Perfekt hat geschrien. rufen = call out to someone; schreien = loud, often angry or in pain."
+  },
+  {
+    "infinitive": "lächeln",
+    "en": "to smile",
+    "aux": "hat",
+    "partizip": "gelächelt",
+    "flags": [],
+    "example": {
+      "de": "Sie lächelt immer freundlich.",
+      "en": "She always smiles in a friendly way."
+    },
+    "tip": "-eln verb: ich lächle, wir lächeln. lachen = laugh out loud; lächeln = smile. Noun: das Lächeln."
+  },
+  {
+    "infinitive": "gebrauchen",
+    "en": "to make use of, to have a use for",
+    "aux": "hat",
+    "partizip": "gebraucht",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Kannst du das noch gebrauchen?",
+      "en": "Can you still use that?"
+    },
+    "tip": "Everyday 'use' is benutzen; gebrauchen is 'have a use for'. Its Perfekt hat gebraucht is identical to that of brauchen."
+  },
+  {
+    "infinitive": "speichern",
+    "en": "to save (a file)",
+    "aux": "hat",
+    "partizip": "gespeichert",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich speichere das Dokument auf dem Computer.",
+      "en": "I save the document on the computer."
+    },
+    "tip": "Computers only: money is sparen, people are retten. -ern verb: ich speichere, wir speichern."
+  },
+  {
+    "infinitive": "retten",
+    "en": "to rescue, to save (a person)",
+    "aux": "hat",
+    "partizip": "gerettet",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Die Feuerwehr rettet die Katze vom Baum.",
+      "en": "The fire brigade rescues the cat from the tree."
+    },
+    "tip": "Stem ends in -tt, so du rettest, er rettet. Money is sparen, files are speichern."
+  },
+  {
     "infinitive": "aufstehen",
     "en": "to get up",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist aufgestanden",
+    "aux": "ist",
+    "partizip": "aufgestanden",
     "flags": [
       "sep",
       "irr"
@@ -1663,13 +2108,14 @@
   },
   {
     "infinitive": "anfangen",
-    "en": "to begin",
-    "forms": null,
+    "en": "to begin (separable)",
     "stemChange": [
       "fängst",
       "fängt"
     ],
-    "perfect": "hat angefangen",
+    "aux": "hat",
+    "partizip": "angefangen",
+    "takes": "mit + Dativ",
     "flags": [
       "sep",
       "irr"
@@ -1682,10 +2128,10 @@
   },
   {
     "infinitive": "aufhören",
-    "en": "to stop",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat aufgehört",
+    "en": "to stop (doing something), to cease",
+    "aux": "hat",
+    "partizip": "aufgehört",
+    "takes": "mit + Dativ",
     "flags": [
       "sep"
     ],
@@ -1698,9 +2144,8 @@
   {
     "infinitive": "einkaufen",
     "en": "to shop",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat eingekauft",
+    "aux": "hat",
+    "partizip": "eingekauft",
     "flags": [
       "sep"
     ],
@@ -1713,12 +2158,13 @@
   {
     "infinitive": "einladen",
     "en": "to invite",
-    "forms": null,
     "stemChange": [
       "lädst",
       "lädt"
     ],
-    "perfect": "hat eingeladen",
+    "aux": "hat",
+    "partizip": "eingeladen",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep",
       "irr"
@@ -1732,9 +2178,9 @@
   {
     "infinitive": "anrufen",
     "en": "to phone, to call",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat angerufen",
+    "aux": "hat",
+    "partizip": "angerufen",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep",
       "irr"
@@ -1747,10 +2193,10 @@
   },
   {
     "infinitive": "aufmachen",
-    "en": "to open",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat aufgemacht",
+    "en": "to open (everyday, separable)",
+    "aux": "hat",
+    "partizip": "aufgemacht",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep"
     ],
@@ -1762,10 +2208,10 @@
   },
   {
     "infinitive": "zumachen",
-    "en": "to close",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat zugemacht",
+    "en": "to close (everyday, separable)",
+    "aux": "hat",
+    "partizip": "zugemacht",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep"
     ],
@@ -1778,9 +2224,8 @@
   {
     "infinitive": "mitkommen",
     "en": "to come along",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist mitgekommen",
+    "aux": "ist",
+    "partizip": "mitgekommen",
     "flags": [
       "sep",
       "irr"
@@ -1794,9 +2239,9 @@
   {
     "infinitive": "mitbringen",
     "en": "to bring along",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat mitgebracht",
+    "aux": "hat",
+    "partizip": "mitgebracht",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "sep",
       "irr"
@@ -1810,9 +2255,9 @@
   {
     "infinitive": "ankommen",
     "en": "to arrive",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist angekommen",
+    "aux": "ist",
+    "partizip": "angekommen",
+    "takes": "in + Dativ",
     "flags": [
       "sep",
       "irr"
@@ -1826,12 +2271,12 @@
   {
     "infinitive": "abfahren",
     "en": "to depart",
-    "forms": null,
     "stemChange": [
       "fährst",
       "fährt"
     ],
-    "perfect": "ist abgefahren",
+    "aux": "ist",
+    "partizip": "abgefahren",
     "flags": [
       "sep",
       "irr"
@@ -1845,12 +2290,13 @@
   {
     "infinitive": "aussehen",
     "en": "to look, to appear",
-    "forms": null,
     "stemChange": [
       "siehst",
       "sieht"
     ],
-    "perfect": "hat ausgesehen",
+    "aux": "hat",
+    "partizip": "ausgesehen",
+    "imperative": "Sieh",
     "flags": [
       "sep",
       "irr"
@@ -1864,12 +2310,13 @@
   {
     "infinitive": "fernsehen",
     "en": "to watch TV",
-    "forms": null,
     "stemChange": [
       "siehst",
       "sieht"
     ],
-    "perfect": "hat ferngesehen",
+    "aux": "hat",
+    "partizip": "ferngesehen",
+    "imperative": "Sieh",
     "flags": [
       "sep",
       "irr"
@@ -1883,9 +2330,9 @@
   {
     "infinitive": "stattfinden",
     "en": "to take place",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat stattgefunden",
+    "aux": "hat",
+    "partizip": "stattgefunden",
+    "third": true,
     "flags": [
       "sep",
       "irr"
@@ -1899,9 +2346,9 @@
   {
     "infinitive": "vorstellen",
     "en": "to introduce, to present",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat vorgestellt",
+    "aux": "hat",
+    "partizip": "vorgestellt",
+    "takes": "+ Dativ + Akkusativ",
     "flags": [
       "sep"
     ],
@@ -1913,10 +2360,10 @@
   },
   {
     "infinitive": "ausfüllen",
-    "en": "to fill in",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat ausgefüllt",
+    "en": "to fill in (a form)",
+    "aux": "hat",
+    "partizip": "ausgefüllt",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep"
     ],
@@ -1929,9 +2376,9 @@
   {
     "infinitive": "umziehen",
     "en": "to move house",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "ist umgezogen",
+    "aux": "ist",
+    "partizip": "umgezogen",
+    "takes": "nach + Dativ",
     "flags": [
       "sep",
       "irr"
@@ -1945,9 +2392,9 @@
   {
     "infinitive": "anziehen",
     "en": "to put on (clothes)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat angezogen",
+    "aux": "hat",
+    "partizip": "angezogen",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep",
       "irr"
@@ -1961,9 +2408,9 @@
   {
     "infinitive": "ausziehen",
     "en": "to take off (clothes)",
-    "forms": null,
-    "stemChange": null,
-    "perfect": "hat ausgezogen",
+    "aux": "hat",
+    "partizip": "ausgezogen",
+    "takes": "+ Akkusativ",
     "flags": [
       "sep",
       "irr"
@@ -1973,5 +2420,227 @@
       "en": "The children take off their shoes."
     },
     "tip": "Clothes: hat ausgezogen. But 'ausziehen' = to move out takes sein: 'Er ist aus der Wohnung ausgezogen.'"
+  },
+  {
+    "infinitive": "kennenlernen",
+    "en": "to get to know, to meet for the first time",
+    "aux": "hat",
+    "partizip": "kennengelernt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Im Deutschkurs lerne ich viele Leute kennen.",
+      "en": "In the German course I get to know a lot of people."
+    },
+    "tip": "Separable, and the prefix is a whole verb: Ich lerne dich kennen. Perfekt: hat kennengelernt. 'Freut mich, Sie kennenzulernen' = pleased to meet you."
+  },
+  {
+    "infinitive": "mitnehmen",
+    "en": "to take along",
+    "stemChange": [
+      "nimmst",
+      "nimmt"
+    ],
+    "aux": "hat",
+    "partizip": "mitgenommen",
+    "imperative": "Nimm",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep",
+      "irr"
+    ],
+    "example": {
+      "de": "Nimmst du einen Regenschirm mit?",
+      "en": "Are you taking an umbrella along?"
+    },
+    "tip": "Like nehmen: du nimmst mit, er nimmt mit. mitbringen brings something here, mitnehmen takes it away with you."
+  },
+  {
+    "infinitive": "abholen",
+    "en": "to pick up, to collect",
+    "aux": "hat",
+    "partizip": "abgeholt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Ich hole dich um acht vom Bahnhof ab.",
+      "en": "I'll pick you up from the station at eight."
+    },
+    "tip": "Person or thing in Akkusativ: Ich hole das Paket ab. 'abholen von' + Dativ says where from."
+  },
+  {
+    "infinitive": "zuhören",
+    "en": "to listen (to someone)",
+    "aux": "hat",
+    "partizip": "zugehört",
+    "takes": "+ Dativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Hör mir bitte zu!",
+      "en": "Please listen to me!"
+    },
+    "tip": "Takes Dativ: Ich höre dir zu. hören = hear; zuhören = listen attentively."
+  },
+  {
+    "infinitive": "aufräumen",
+    "en": "to tidy up",
+    "aux": "hat",
+    "partizip": "aufgeräumt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Ich räume am Samstag mein Zimmer auf.",
+      "en": "I tidy up my room on Saturday."
+    },
+    "tip": "Separable: Räum bitte dein Zimmer auf! Perfekt: hat aufgeräumt. Related noun: der Raum = room, space."
+  },
+  {
+    "infinitive": "anmachen",
+    "en": "to turn on (a light, a device)",
+    "aux": "hat",
+    "partizip": "angemacht",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Machst du bitte das Licht an?",
+      "en": "Will you turn on the light, please?"
+    },
+    "tip": "Everyday word for einschalten. Opposite: ausmachen. Stress on the prefix: ANmachen."
+  },
+  {
+    "infinitive": "ausmachen",
+    "en": "to turn off (a light, a device)",
+    "aux": "hat",
+    "partizip": "ausgemacht",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Mach bitte den Fernseher aus!",
+      "en": "Please turn off the TV!"
+    },
+    "tip": "Opposite of anmachen. 'Das macht mir nichts aus' = I don't mind. Stress on the prefix: AUSmachen."
+  },
+  {
+    "infinitive": "anmelden",
+    "en": "to register, to sign up",
+    "aux": "hat",
+    "partizip": "angemeldet",
+    "reflexive": "akk",
+    "takes": "für + Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Ich melde mich für den Deutschkurs an.",
+      "en": "I'm signing up for the German course."
+    },
+    "tip": "sich anmelden für + Akk (a course) or bei + Dativ (an office). Stem ends in -d, so du meldest dich an. Noun: die Anmeldung."
+  },
+  {
+    "infinitive": "zurückkommen",
+    "en": "to come back",
+    "aux": "ist",
+    "partizip": "zurückgekommen",
+    "flags": [
+      "sep",
+      "irr"
+    ],
+    "example": {
+      "de": "Wann kommst du zurück?",
+      "en": "When are you coming back?"
+    },
+    "tip": "Motion, so Perfekt with sein: Sie ist gestern zurückgekommen. The prefix zurück- also fits fahren, gehen and geben."
+  },
+  {
+    "infinitive": "umsteigen",
+    "en": "to change (trains, buses)",
+    "aux": "ist",
+    "partizip": "umgestiegen",
+    "flags": [
+      "sep",
+      "irr"
+    ],
+    "example": {
+      "de": "In Köln steigen wir um.",
+      "en": "In Cologne we change trains."
+    },
+    "tip": "Motion, so Perfekt with sein: Wir sind in Köln umgestiegen. Same family: einsteigen = get on, aussteigen = get off."
+  },
+  {
+    "infinitive": "anhalten",
+    "en": "to stop (a vehicle), to halt",
+    "stemChange": [
+      "hältst",
+      "hält"
+    ],
+    "aux": "hat",
+    "partizip": "angehalten",
+    "flags": [
+      "sep",
+      "irr"
+    ],
+    "example": {
+      "de": "Der Bus hält an der Haltestelle an.",
+      "en": "The bus stops at the bus stop."
+    },
+    "tip": "a→ä in du/er: er hält an. Both the driver and the bus can anhalten; to stop doing something is aufhören."
+  },
+  {
+    "infinitive": "anprobieren",
+    "en": "to try on (clothes)",
+    "aux": "hat",
+    "partizip": "anprobiert",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Kann ich die Jacke anprobieren?",
+      "en": "Can I try on the jacket?"
+    },
+    "tip": "Separable and -ieren, so the Perfekt has no ge- at all: hat anprobiert. Clothes in Akkusativ."
+  },
+  {
+    "infinitive": "ausprobieren",
+    "en": "to try out, to test",
+    "aux": "hat",
+    "partizip": "ausprobiert",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Ich probiere das neue Rezept aus.",
+      "en": "I'm trying out the new recipe."
+    },
+    "tip": "Separable and -ieren: hat ausprobiert, no ge-. probieren = taste; ausprobieren = test something new."
+  },
+  {
+    "infinitive": "wehtun",
+    "en": "to hurt",
+    "aux": "hat",
+    "partizip": "wehgetan",
+    "takes": "+ Dativ",
+    "flags": [
+      "sep",
+      "irr"
+    ],
+    "example": {
+      "de": "Mein Kopf tut weh.",
+      "en": "My head hurts."
+    },
+    "tip": "The person is Dativ: Mein Bauch tut mir weh. Written wehtun or weh tun, both are allowed. Perfekt: hat wehgetan."
   }
 ]

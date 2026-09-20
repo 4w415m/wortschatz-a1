@@ -54,9 +54,16 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .counts{font-size:13px;font-variant-numeric:tabular-nums;color:var(--dim)}
 .counts b{color:var(--amber);font-weight:600}
 
-.card{flex:1;display:flex;flex-direction:column;padding:0 18px}
-.face{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;
-  text-align:center;padding:24px 0 12px;min-height:190px}
+/* While a card is up the app fills the viewport and the face scrolls inside
+   it, so the grade buttons stay put under a long verb card. Browsers without
+   :has() fall back to scrolling the page. */
+#app:has(> .card){height:100vh;height:100dvh;overflow:hidden}
+.card{flex:1;min-height:0;display:flex;flex-direction:column;padding:0 18px}
+.face{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;
+  scrollbar-width:thin;scrollbar-color:var(--line) transparent;
+  display:flex;flex-direction:column;align-items:center;text-align:center;padding:24px 0 12px}
+/* auto margins centre a short face and let a long one scroll from the top */
+.face>div{margin:auto 0}
 .cue{color:var(--dim);font-size:12.5px;margin-bottom:14px}
 .word{font-family:var(--serif);font-size:42px;line-height:1.15;font-weight:600;letter-spacing:-.015em;
   word-break:break-word}
@@ -78,8 +85,12 @@ table.conj{border-collapse:collapse;margin-top:16px;font-size:15px}
 table.conj td{padding:3px 0}
 table.conj td:first-child{color:var(--dim);text-align:right;padding-right:14px;width:44px}
 table.conj td:last-child{font-family:var(--serif);text-align:left}
+.takes{margin-top:8px;font-family:var(--serif);font-size:15px;color:var(--amber)}
 .perf{margin-top:14px;font-family:var(--serif);font-size:17px}
 .perf em{font-style:normal;color:var(--amber)}
+.praet,.imp{margin-top:10px;font-size:13.5px;line-height:1.45;color:var(--muted);max-width:36ch}
+.praet b,.imp b{display:block;font-weight:400;font-size:10.5px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--dim)}
 .tags{display:flex;gap:6px;justify-content:center;margin-top:12px;flex-wrap:wrap}
 .tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--surface2);color:var(--muted)}
 .tag.core{background:rgba(242,180,65,.15);color:var(--amber)}
@@ -99,6 +110,15 @@ table.conj td:last-child{font-family:var(--serif);text-align:left}
 .arts button.der{color:var(--der)} .arts button.die{color:var(--die)} .arts button.das{color:var(--das)}
 .arts button.right{background:rgba(63,191,135,.15);border-color:var(--ok)}
 .arts button.wrong{background:rgba(224,81,139,.14);border-color:var(--bad)}
+.quizzes{margin-bottom:10px}
+.quiz{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.quiz .ql{flex:none;width:80px;text-align:right;font-size:12px;color:var(--dim)}
+.quiz .qo{flex:1;display:flex;gap:7px}
+.quiz .qo button{flex:1;padding:11px 4px;border-radius:10px;background:var(--surface);
+  border:1.5px solid var(--line);font-family:var(--serif);font-size:15px;font-weight:600;
+  overflow-wrap:anywhere}
+.quiz .qo button.right{background:rgba(63,191,135,.15);border-color:var(--ok)}
+.quiz .qo button.wrong{background:rgba(224,81,139,.14);border-color:var(--bad)}
 .big{display:block;width:100%;padding:17px;border-radius:12px;background:var(--surface2);
   font-size:16px;font-weight:500;border:1.5px solid var(--line)}
 .big:active{background:var(--line)}

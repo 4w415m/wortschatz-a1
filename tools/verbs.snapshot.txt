@@ -1,0 +1,169 @@
+sein | bin · bist · ist · sind · seid · sind | imperativ: Sei · Seid · Seien Sie | falsch: seit
+haben | habe · hast · hat · haben · habt · haben | imperativ: Hab · Habt · Haben Sie | falsch: habt
+werden | werde · wirst · wird · werden · werdet · werden | imperativ: Werde · Werdet · Werden Sie | falsch: werdet
+können | kann · kannst · kann · können · könnt · können | imperativ: - | falsch: könnt
+müssen | muss · musst · muss · müssen · müsst · müssen | imperativ: - | falsch: müsst
+wollen | will · willst · will · wollen · wollt · wollen | imperativ: - | falsch: wollt
+sollen | soll · sollst · soll · sollen · sollt · sollen | imperativ: - | falsch: sollt
+dürfen | darf · darfst · darf · dürfen · dürft · dürfen | imperativ: - | falsch: dürft
+mögen | mag · magst · mag · mögen · mögt · mögen | imperativ: - | falsch: mögt
+möchten | möchte · möchtest · möchte · möchten · möchtet · möchten | imperativ: - | falsch: möchtet
+machen | mache · machst · macht · machen · macht · machen | imperativ: Mach · Macht · Machen Sie | falsch: mächt
+gehen | gehe · gehst · geht · gehen · geht · gehen | imperativ: Geh · Geht · Gehen Sie | falsch: gieht
+kommen | komme · kommst · kommt · kommen · kommt · kommen | imperativ: Komm · Kommt · Kommen Sie | falsch: kommst
+sehen | sehe · siehst · sieht · sehen · seht · sehen | imperativ: Sieh · Seht · Sehen Sie | falsch: seht
+geben | gebe · gibst · gibt · geben · gebt · geben | imperativ: Gib · Gebt · Geben Sie | falsch: gebt
+sagen | sage · sagst · sagt · sagen · sagt · sagen | imperativ: Sag · Sagt · Sagen Sie | falsch: sägt
+wissen | weiß · weißt · weiß · wissen · wisst · wissen | imperativ: - | falsch: wisst
+finden | finde · findest · findet · finden · findet · finden | imperativ: Finde · Findet · Finden Sie | falsch: findest
+nehmen | nehme · nimmst · nimmt · nehmen · nehmt · nehmen | imperativ: Nimm · Nehmt · Nehmen Sie | falsch: nehmt
+sprechen | spreche · sprichst · spricht · sprechen · sprecht · sprechen | imperativ: Sprich · Sprecht · Sprechen Sie | falsch: sprecht
+heißen | heiße · heißt · heißt · heißen · heißt · heißen | imperativ: Heiß · Heißt · Heißen Sie | falsch: heiße
+essen | esse · isst · isst · essen · esst · essen | imperativ: Iss · Esst · Essen Sie | falsch: esst
+trinken | trinke · trinkst · trinkt · trinken · trinkt · trinken | imperativ: Trink · Trinkt · Trinken Sie | falsch: trinkst
+schlafen | schlafe · schläfst · schläft · schlafen · schlaft · schlafen | imperativ: Schlaf · Schlaft · Schlafen Sie | falsch: schlaft
+fahren | fahre · fährst · fährt · fahren · fahrt · fahren | imperativ: Fahr · Fahrt · Fahren Sie | falsch: fahrt
+laufen | laufe · läufst · läuft · laufen · lauft · laufen | imperativ: Lauf · Lauft · Laufen Sie | falsch: lauft
+fliegen | fliege · fliegst · fliegt · fliegen · fliegt · fliegen | imperativ: Flieg · Fliegt · Fliegen Sie | falsch: fliegst
+lesen | lese · liest · liest · lesen · lest · lesen | imperativ: Lies · Lest · Lesen Sie | falsch: lest
+schreiben | schreibe · schreibst · schreibt · schreiben · schreibt · schreiben | imperativ: Schreib · Schreibt · Schreiben Sie | falsch: schreibst
+lernen | lerne · lernst · lernt · lernen · lernt · lernen | imperativ: Lern · Lernt · Lernen Sie | falsch: lirnt
+arbeiten | arbeite · arbeitest · arbeitet · arbeiten · arbeitet · arbeiten | imperativ: Arbeite · Arbeitet · Arbeiten Sie | falsch: arbeitest
+wohnen | wohne · wohnst · wohnt · wohnen · wohnt · wohnen | imperativ: Wohn · Wohnt · Wohnen Sie | falsch: wohnst
+leben | lebe · lebst · lebt · leben · lebt · leben | imperativ: Leb · Lebt · Leben Sie | falsch: libt
+spielen | spiele · spielst · spielt · spielen · spielt · spielen | imperativ: Spiel · Spielt · Spielen Sie | falsch: spielst
+hören | höre · hörst · hört · hören · hört · hören | imperativ: Hör · Hört · Hören Sie | falsch: hörst
+kaufen | kaufe · kaufst · kauft · kaufen · kauft · kaufen | imperativ: Kauf · Kauft · Kaufen Sie | falsch: käuft
+verkaufen | verkaufe · verkaufst · verkauft · verkaufen · verkauft · verkaufen | imperativ: Verkauf · Verkauft · Verkaufen Sie | falsch: verkäuft
+kosten | koste · kostest · kostet · kosten · kostet · kosten | imperativ: - | falsch: kostest
+bezahlen | bezahle · bezahlst · bezahlt · bezahlen · bezahlt · bezahlen | imperativ: Bezahl · Bezahlt · Bezahlen Sie | falsch: bezählt
+brauchen | brauche · brauchst · braucht · brauchen · braucht · brauchen | imperativ: Brauch · Braucht · Brauchen Sie | falsch: bräucht
+suchen | suche · suchst · sucht · suchen · sucht · suchen | imperativ: Such · Sucht · Suchen Sie | falsch: suchst
+fragen | frage · fragst · fragt · fragen · fragt · fragen | imperativ: Frag · Fragt · Fragen Sie | falsch: frägt
+antworten | antworte · antwortest · antwortet · antworten · antwortet · antworten | imperativ: Antworte · Antwortet · Antworten Sie | falsch: antwortest
+verstehen | verstehe · verstehst · versteht · verstehen · versteht · verstehen | imperativ: Versteh · Versteht · Verstehen Sie | falsch: verstieht
+denken | denke · denkst · denkt · denken · denkt · denken | imperativ: Denk · Denkt · Denken Sie | falsch: dinkt
+glauben | glaube · glaubst · glaubt · glauben · glaubt · glauben | imperativ: Glaub · Glaubt · Glauben Sie | falsch: gläubt
+meinen | meine · meinst · meint · meinen · meint · meinen | imperativ: Mein · Meint · Meinen Sie | falsch: meinst
+kennen | kenne · kennst · kennt · kennen · kennt · kennen | imperativ: Kenn · Kennt · Kennen Sie | falsch: kinnt
+lieben | liebe · liebst · liebt · lieben · liebt · lieben | imperativ: Lieb · Liebt · Lieben Sie | falsch: liebst
+warten | warte · wartest · wartet · warten · wartet · warten | imperativ: Warte · Wartet · Warten Sie | falsch: wärtet
+bleiben | bleibe · bleibst · bleibt · bleiben · bleibt · bleiben | imperativ: Bleib · Bleibt · Bleiben Sie | falsch: bleibst
+stehen | stehe · stehst · steht · stehen · steht · stehen | imperativ: Steh · Steht · Stehen Sie | falsch: stieht
+sitzen | sitze · sitzt · sitzt · sitzen · sitzt · sitzen | imperativ: Sitz · Sitzt · Sitzen Sie | falsch: sitze
+liegen | liege · liegst · liegt · liegen · liegt · liegen | imperativ: Lieg · Liegt · Liegen Sie | falsch: liegst
+legen | lege · legst · legt · legen · legt · legen | imperativ: Leg · Legt · Legen Sie | falsch: ligt
+stellen | stelle · stellst · stellt · stellen · stellt · stellen | imperativ: Stell · Stellt · Stellen Sie | falsch: stillt
+setzen | setze mich · setzt dich · setzt sich · setzen uns · setzt euch · setzen sich | imperativ: Setz dich · Setzt euch · Setzen Sie sich | falsch: sitzt sich
+öffnen | öffne · öffnest · öffnet · öffnen · öffnet · öffnen | imperativ: Öffne · Öffnet · Öffnen Sie | falsch: öffnest
+schließen | schließe · schließt · schließt · schließen · schließt · schließen | imperativ: Schließ · Schließt · Schließen Sie | falsch: schließe
+beginnen | beginne · beginnst · beginnt · beginnen · beginnt · beginnen | imperativ: Beginn · Beginnt · Beginnen Sie | falsch: beginnst
+helfen | helfe · hilfst · hilft · helfen · helft · helfen | imperativ: Hilf · Helft · Helfen Sie | falsch: helft
+danken | danke · dankst · dankt · danken · dankt · danken | imperativ: Dank · Dankt · Danken Sie | falsch: dänkt
+bringen | bringe · bringst · bringt · bringen · bringt · bringen | imperativ: Bring · Bringt · Bringen Sie | falsch: bringst
+holen | hole · holst · holt · holen · holt · holen | imperativ: Hol · Holt · Holen Sie | falsch: holst
+tragen | trage · trägst · trägt · tragen · tragt · tragen | imperativ: Trag · Tragt · Tragen Sie | falsch: tragt
+bekommen | bekomme · bekommst · bekommt · bekommen · bekommt · bekommen | imperativ: Bekomm · Bekommt · Bekommen Sie | falsch: bekommst
+schenken | schenke · schenkst · schenkt · schenken · schenkt · schenken | imperativ: Schenk · Schenkt · Schenken Sie | falsch: schinkt
+zeigen | zeige · zeigst · zeigt · zeigen · zeigt · zeigen | imperativ: Zeig · Zeigt · Zeigen Sie | falsch: zeigst
+erklären | erkläre · erklärst · erklärt · erklären · erklärt · erklären | imperativ: Erklär · Erklärt · Erklären Sie | falsch: erklärst
+üben | übe · übst · übt · üben · übt · üben | imperativ: Üb · Übt · Üben Sie | falsch: übst
+wiederholen | wiederhole · wiederholst · wiederholt · wiederholen · wiederholt · wiederholen | imperativ: Wiederhol · Wiederholt · Wiederholen Sie | falsch: wiederholst
+vergessen | vergesse · vergisst · vergisst · vergessen · vergesst · vergessen | imperativ: Vergiss · Vergesst · Vergessen Sie | falsch: vergesst
+treffen | treffe · triffst · trifft · treffen · trefft · treffen | imperativ: Triff · Trefft · Treffen Sie | falsch: trefft
+besuchen | besuche · besuchst · besucht · besuchen · besucht · besuchen | imperativ: Besuch · Besucht · Besuchen Sie | falsch: besuchst
+reisen | reise · reist · reist · reisen · reist · reisen | imperativ: Reis · Reist · Reisen Sie | falsch: reise
+wandern | wandere · wanderst · wandert · wandern · wandert · wandern | imperativ: Wandere · Wandert · Wandern Sie | falsch: wanderst
+schwimmen | schwimme · schwimmst · schwimmt · schwimmen · schwimmt · schwimmen | imperativ: Schwimm · Schwimmt · Schwimmen Sie | falsch: schwimmst
+tanzen | tanze · tanzt · tanzt · tanzen · tanzt · tanzen | imperativ: Tanz · Tanzt · Tanzen Sie | falsch: tänzt
+singen | singe · singst · singt · singen · singt · singen | imperativ: Sing · Singt · Singen Sie | falsch: singst
+kochen | koche · kochst · kocht · kochen · kocht · kochen | imperativ: Koch · Kocht · Kochen Sie | falsch: kochst
+backen | backe · backst · backt · backen · backt · backen | imperativ: Back · Backt · Backen Sie | falsch: bäckt
+putzen | putze · putzt · putzt · putzen · putzt · putzen | imperativ: Putz · Putzt · Putzen Sie | falsch: putze
+waschen | wasche · wäschst · wäscht · waschen · wascht · waschen | imperativ: Wasch · Wascht · Waschen Sie | falsch: wascht
+duschen | dusche · duschst · duscht · duschen · duscht · duschen | imperativ: Dusch · Duscht · Duschen Sie | falsch: duschst
+ziehen | ziehe · ziehst · zieht · ziehen · zieht · ziehen | imperativ: Zieh · Zieht · Ziehen Sie | falsch: ziehst
+gefallen | gefalle · gefällst · gefällt · gefallen · gefallt · gefallen | imperativ: - | falsch: gefallt
+schmecken | schmecke · schmeckst · schmeckt · schmecken · schmeckt · schmecken | imperativ: - | falsch: schmickt
+passen | passe · passt · passt · passen · passt · passen | imperativ: - | falsch: pässt
+gehören | gehöre · gehörst · gehört · gehören · gehört · gehören | imperativ: - | falsch: gehörst
+funktionieren | funktioniere · funktionierst · funktioniert · funktionieren · funktioniert · funktionieren | imperativ: - | falsch: funktionierst
+probieren | probiere · probierst · probiert · probieren · probiert · probieren | imperativ: Probier · Probiert · Probieren Sie | falsch: probierst
+versuchen | versuche · versuchst · versucht · versuchen · versucht · versuchen | imperativ: Versuch · Versucht · Versuchen Sie | falsch: versuchst
+entschuldigen | entschuldige · entschuldigst · entschuldigt · entschuldigen · entschuldigt · entschuldigen | imperativ: Entschuldige · Entschuldigt · Entschuldigen Sie | falsch: entschuldigst
+schicken | schicke · schickst · schickt · schicken · schickt · schicken | imperativ: Schick · Schickt · Schicken Sie | falsch: schickst
+bestellen | bestelle · bestellst · bestellt · bestellen · bestellt · bestellen | imperativ: Bestell · Bestellt · Bestellen Sie | falsch: bestillt
+buchen | buche · buchst · bucht · buchen · bucht · buchen | imperativ: Buch · Bucht · Buchen Sie | falsch: buchst
+reservieren | reserviere · reservierst · reserviert · reservieren · reserviert · reservieren | imperativ: Reservier · Reserviert · Reservieren Sie | falsch: reservierst
+verlieren | verliere · verlierst · verliert · verlieren · verliert · verlieren | imperativ: Verlier · Verliert · Verlieren Sie | falsch: verlierst
+gewinnen | gewinne · gewinnst · gewinnt · gewinnen · gewinnt · gewinnen | imperativ: Gewinn · Gewinnt · Gewinnen Sie | falsch: gewinnst
+rauchen | rauche · rauchst · raucht · rauchen · raucht · rauchen | imperativ: Rauch · Raucht · Rauchen Sie | falsch: räucht
+sparen | spare · sparst · spart · sparen · spart · sparen | imperativ: Spar · Spart · Sparen Sie | falsch: spärt
+verdienen | verdiene · verdienst · verdient · verdienen · verdient · verdienen | imperativ: Verdien · Verdient · Verdienen Sie | falsch: verdienst
+studieren | studiere · studierst · studiert · studieren · studiert · studieren | imperativ: Studier · Studiert · Studieren Sie | falsch: studierst
+unterschreiben | unterschreibe · unterschreibst · unterschreibt · unterschreiben · unterschreibt · unterschreiben | imperativ: Unterschreib · Unterschreibt · Unterschreiben Sie | falsch: unterschreibst
+wechseln | wechsle · wechselst · wechselt · wechseln · wechselt · wechseln | imperativ: Wechsle · Wechselt · Wechseln Sie | falsch: wechselst
+ändern | ändere · änderst · ändert · ändern · ändert · ändern | imperativ: Ändere · Ändert · Ändern Sie | falsch: änderst
+dauern | dauere · dauerst · dauert · dauern · dauert · dauern | imperativ: - | falsch: dauerst
+lachen | lache · lachst · lacht · lachen · lacht · lachen | imperativ: Lach · Lacht · Lachen Sie | falsch: lächt
+weinen | weine · weinst · weint · weinen · weint · weinen | imperativ: Wein · Weint · Weinen Sie | falsch: weinst
+hoffen | hoffe · hoffst · hofft · hoffen · hofft · hoffen | imperativ: Hoff · Hofft · Hoffen Sie | falsch: hoffst
+lassen | lasse · lässt · lässt · lassen · lasst · lassen | imperativ: Lass · Lasst · Lassen Sie | falsch: lasst
+tun | tue · tust · tut · tun · tut · tun | imperativ: Tu · Tut · Tun Sie | falsch: tust
+rufen | rufe · rufst · ruft · rufen · ruft · rufen | imperativ: Ruf · Ruft · Rufen Sie | falsch: rufst
+bedeuten | bedeute · bedeutest · bedeutet · bedeuten · bedeutet · bedeuten | imperativ: - | falsch: bedeutest
+benutzen | benutze · benutzt · benutzt · benutzen · benutzt · benutzen | imperativ: Benutz · Benutzt · Benutzen Sie | falsch: benutze
+telefonieren | telefoniere · telefonierst · telefoniert · telefonieren · telefoniert · telefonieren | imperativ: Telefonier · Telefoniert · Telefonieren Sie | falsch: telefonierst
+passieren | passiere · passierst · passiert · passieren · passiert · passieren | imperativ: - | falsch: passierst
+parken | parke · parkst · parkt · parken · parkt · parken | imperativ: Park · Parkt · Parken Sie | falsch: pärkt
+wünschen | wünsche · wünschst · wünscht · wünschen · wünscht · wünschen | imperativ: Wünsch · Wünscht · Wünschen Sie | falsch: wünschst
+frühstücken | frühstücke · frühstückst · frühstückt · frühstücken · frühstückt · frühstücken | imperativ: Frühstück · Frühstückt · Frühstücken Sie | falsch: frühstückst
+feiern | feiere · feierst · feiert · feiern · feiert · feiern | imperativ: Feiere · Feiert · Feiern Sie | falsch: feierst
+fehlen | fehle · fehlst · fehlt · fehlen · fehlt · fehlen | imperativ: Fehl · Fehlt · Fehlen Sie | falsch: fiehlt
+freuen | freue mich · freust dich · freut sich · freuen uns · freut euch · freuen sich | imperativ: Freu dich · Freut euch · Freuen Sie sich | falsch: freust sich
+regnen | regne · regnest · regnet · regnen · regnet · regnen | imperativ: - | falsch: rignet
+schneien | schneie · schneist · schneit · schneien · schneit · schneien | imperativ: - | falsch: schneist
+scheinen | scheine · scheinst · scheint · scheinen · scheint · scheinen | imperativ: - | falsch: scheinst
+zahlen | zahle · zahlst · zahlt · zahlen · zahlt · zahlen | imperativ: Zahl · Zahlt · Zahlen Sie | falsch: zählt
+füllen | fülle · füllst · füllt · füllen · füllt · füllen | imperativ: Füll · Füllt · Füllen Sie | falsch: füllst
+senden | sende · sendest · sendet · senden · sendet · senden | imperativ: Sende · Sendet · Senden Sie | falsch: sindet
+rennen | renne · rennst · rennt · rennen · rennt · rennen | imperativ: Renn · Rennt · Rennen Sie | falsch: rinnt
+schreien | schreie · schreist · schreit · schreien · schreit · schreien | imperativ: Schrei · Schreit · Schreien Sie | falsch: schreist
+lächeln | lächle · lächelst · lächelt · lächeln · lächelt · lächeln | imperativ: Lächle · Lächelt · Lächeln Sie | falsch: lächelst
+gebrauchen | gebrauche · gebrauchst · gebraucht · gebrauchen · gebraucht · gebrauchen | imperativ: Gebrauch · Gebraucht · Gebrauchen Sie | falsch: gebräucht
+speichern | speichere · speicherst · speichert · speichern · speichert · speichern | imperativ: Speichere · Speichert · Speichern Sie | falsch: speicherst
+retten | rette · rettest · rettet · retten · rettet · retten | imperativ: Rette · Rettet · Retten Sie | falsch: rittet
+aufstehen | stehe auf · stehst auf · steht auf · stehen auf · steht auf · stehen auf | imperativ: Steh auf · Steht auf · Stehen Sie auf | falsch: stieht auf
+anfangen | fange an · fängst an · fängt an · fangen an · fangt an · fangen an | imperativ: Fang an · Fangt an · Fangen Sie an | falsch: fangt an
+aufhören | höre auf · hörst auf · hört auf · hören auf · hört auf · hören auf | imperativ: Hör auf · Hört auf · Hören Sie auf | falsch: hörst auf
+einkaufen | kaufe ein · kaufst ein · kauft ein · kaufen ein · kauft ein · kaufen ein | imperativ: Kauf ein · Kauft ein · Kaufen Sie ein | falsch: käuft ein
+einladen | lade ein · lädst ein · lädt ein · laden ein · ladet ein · laden ein | imperativ: Lade ein · Ladet ein · Laden Sie ein | falsch: ladet ein
+anrufen | rufe an · rufst an · ruft an · rufen an · ruft an · rufen an | imperativ: Ruf an · Ruft an · Rufen Sie an | falsch: rufst an
+aufmachen | mache auf · machst auf · macht auf · machen auf · macht auf · machen auf | imperativ: Mach auf · Macht auf · Machen Sie auf | falsch: mächt auf
+zumachen | mache zu · machst zu · macht zu · machen zu · macht zu · machen zu | imperativ: Mach zu · Macht zu · Machen Sie zu | falsch: mächt zu
+mitkommen | komme mit · kommst mit · kommt mit · kommen mit · kommt mit · kommen mit | imperativ: Komm mit · Kommt mit · Kommen Sie mit | falsch: kommst mit
+mitbringen | bringe mit · bringst mit · bringt mit · bringen mit · bringt mit · bringen mit | imperativ: Bring mit · Bringt mit · Bringen Sie mit | falsch: bringst mit
+ankommen | komme an · kommst an · kommt an · kommen an · kommt an · kommen an | imperativ: Komm an · Kommt an · Kommen Sie an | falsch: kommst an
+abfahren | fahre ab · fährst ab · fährt ab · fahren ab · fahrt ab · fahren ab | imperativ: Fahr ab · Fahrt ab · Fahren Sie ab | falsch: fahrt ab
+aussehen | sehe aus · siehst aus · sieht aus · sehen aus · seht aus · sehen aus | imperativ: Sieh aus · Seht aus · Sehen Sie aus | falsch: seht aus
+fernsehen | sehe fern · siehst fern · sieht fern · sehen fern · seht fern · sehen fern | imperativ: Sieh fern · Seht fern · Sehen Sie fern | falsch: seht fern
+stattfinden | finde statt · findest statt · findet statt · finden statt · findet statt · finden statt | imperativ: - | falsch: findest statt
+vorstellen | stelle vor · stellst vor · stellt vor · stellen vor · stellt vor · stellen vor | imperativ: Stell vor · Stellt vor · Stellen Sie vor | falsch: stillt vor
+ausfüllen | fülle aus · füllst aus · füllt aus · füllen aus · füllt aus · füllen aus | imperativ: Füll aus · Füllt aus · Füllen Sie aus | falsch: füllst aus
+umziehen | ziehe um · ziehst um · zieht um · ziehen um · zieht um · ziehen um | imperativ: Zieh um · Zieht um · Ziehen Sie um | falsch: ziehst um
+anziehen | ziehe an · ziehst an · zieht an · ziehen an · zieht an · ziehen an | imperativ: Zieh an · Zieht an · Ziehen Sie an | falsch: ziehst an
+ausziehen | ziehe aus · ziehst aus · zieht aus · ziehen aus · zieht aus · ziehen aus | imperativ: Zieh aus · Zieht aus · Ziehen Sie aus | falsch: ziehst aus
+kennenlernen | lerne kennen · lernst kennen · lernt kennen · lernen kennen · lernt kennen · lernen kennen | imperativ: Lern kennen · Lernt kennen · Lernen Sie kennen | falsch: lirnt kennen
+mitnehmen | nehme mit · nimmst mit · nimmt mit · nehmen mit · nehmt mit · nehmen mit | imperativ: Nimm mit · Nehmt mit · Nehmen Sie mit | falsch: nehmt mit
+abholen | hole ab · holst ab · holt ab · holen ab · holt ab · holen ab | imperativ: Hol ab · Holt ab · Holen Sie ab | falsch: holst ab
+zuhören | höre zu · hörst zu · hört zu · hören zu · hört zu · hören zu | imperativ: Hör zu · Hört zu · Hören Sie zu | falsch: hörst zu
+aufräumen | räume auf · räumst auf · räumt auf · räumen auf · räumt auf · räumen auf | imperativ: Räum auf · Räumt auf · Räumen Sie auf | falsch: räumst auf
+anmachen | mache an · machst an · macht an · machen an · macht an · machen an | imperativ: Mach an · Macht an · Machen Sie an | falsch: mächt an
+ausmachen | mache aus · machst aus · macht aus · machen aus · macht aus · machen aus | imperativ: Mach aus · Macht aus · Machen Sie aus | falsch: mächt aus
+anmelden | melde mich an · meldest dich an · meldet sich an · melden uns an · meldet euch an · melden sich an | imperativ: Melde dich an · Meldet euch an · Melden Sie sich an | falsch: mildet sich an
+zurückkommen | komme zurück · kommst zurück · kommt zurück · kommen zurück · kommt zurück · kommen zurück | imperativ: Komm zurück · Kommt zurück · Kommen Sie zurück | falsch: kommst zurück
+umsteigen | steige um · steigst um · steigt um · steigen um · steigt um · steigen um | imperativ: Steig um · Steigt um · Steigen Sie um | falsch: steigst um
+anhalten | halte an · hältst an · hält an · halten an · haltet an · halten an | imperativ: Halte an · Haltet an · Halten Sie an | falsch: haltet an
+anprobieren | probiere an · probierst an · probiert an · probieren an · probiert an · probieren an | imperativ: Probier an · Probiert an · Probieren Sie an | falsch: probierst an
+ausprobieren | probiere aus · probierst aus · probiert aus · probieren aus · probiert aus · probieren aus | imperativ: Probier aus · Probiert aus · Probieren Sie aus | falsch: probierst aus
+wehtun | tue weh · tust weh · tut weh · tun weh · tut weh · tun weh | imperativ: Tu weh · Tut weh · Tun Sie weh | falsch: tust weh

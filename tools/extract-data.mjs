@@ -4,7 +4,9 @@
 
    Do not rerun it against the current data/: the JSON has since been reviewed
    and enriched by hand (corrected plurals and notes, plus `example` and `tip`
-   on every entry), none of which exists in the original file. */
+   on every entry), none of which exists in the original file. The verb schema
+   has also moved on: `perfect` became `aux` + `partizip`, and entries carry
+   `takes`, `imperative`, `reflexive`, `praeteritum` and `third`. See README. */
 import { readFileSync, writeFileSync } from "node:fs";
 
 const src = readFileSync(process.argv[2] ?? "index.html", "utf8");
