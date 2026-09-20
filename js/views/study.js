@@ -3,7 +3,7 @@ import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
-import { present, PERS, erSieChoices, imperative } from "../conjugate.js";
+import { present, PERS, imperative } from "../conjugate.js";
 import { back, go } from "../router.js";
 
 let app = null;
@@ -171,18 +171,24 @@ function backHtml(w) {
 const verbHead = (w) => (w.reflexive ? "sich " : "") + w.infinitive;
 
 /* ---- the front of a verb card ----
-   Four things the learner should know before seeing the answer, each a tap
-   between two options. A row is left out where the question makes no sense
-   for this verb: no Perfekt row for möchten, no prefix row for a verb that
-   has no prefix. */
-const QUIZ_NAMES = { aux: "Perfekt", er: "er/sie/es-Form", reg: "Konjugation", sep: "Präfix" };
+   Up to four things the learner should know before seeing the answer, each a
+   tap between a few options. Answering the last one flips the card. A row is
+   left out where the question makes no sense for this verb: no Perfekt row
+   for möchten, no case row for sein, no prefix row for a verb that has no
+   prefix. */
+const QUIZ_NAMES = { aux: "Perfekt", kasus: "Kasus", reg: "Konjugation", sep: "Präfix" };
 
 function verbRows(w) {
   const rows = [];
   if (w.partizip) rows.push({ k: "aux", label: "Perfekt mit", opts: ["hat", "ist"], right: w.aux });
-  const [right, wrong] = erSieChoices(w);
-  rows.push({ k: "er", label: w.third ? "es" : "er/sie/es",
-    opts: Math.random() < 0.5 ? [right, wrong] : [wrong, right], right });
+  /* The case of the complement, read off `takes`: "beides" for a person in
+     the Dativ and a thing in the Akkusativ (geben). Nominativ (sein, werden,
+     heißen) is neither, so those verbs get no row. */
+  const akk = /Akkusativ/.test(w.takes || ""), dat = /Dativ/.test(w.takes || "");
+  if (akk || dat) {
+    rows.push({ k: "kasus", label: "Kasus", opts: ["Akkusativ", "Dativ", "beides"],
+      right: akk && dat ? "beides" : akk ? "Akkusativ" : "Dativ" });
+  }
   const irregular = w.flags.includes("irr") || w.flags.includes("modal");
   rows.push({ k: "reg", label: "Konjugation", opts: ["regelmäßig", "unregelmäßig"],
     right: irregular ? "unregelmäßig" : "regelmäßig" });
@@ -240,11 +246,10 @@ function paint(produce, isNew) {
       acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
       acts.querySelector("[data-rev]").onclick = reveal;
     } else if (isVerb) {
+      /* No reveal button: the last quiz row answered flips the card. */
       face.appendChild(h('<div><div class="cue">Was heißt das?</div>' +
         '<div class="word">' + esc(verbHead(w)) + "</div></div>"));
       acts.appendChild(verbQuiz(w, reveal));
-      acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
-      acts.querySelector("[data-rev]").onclick = reveal;
     } else if (isNoun) {
       face.appendChild(h('<div><div class="cue">Artikel, Plural, Bedeutung?</div>' +
         '<div class="word">' + esc(w.singular) + "</div></div>"));

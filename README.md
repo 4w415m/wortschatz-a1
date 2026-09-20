@@ -18,7 +18,7 @@ js/
   data.js             loads data/*.json, builds the word index
   state.js            persistence, day rollover, v1→v2 migration
   srs.js              scheduling
-  conjugate.js        present tense, imperative, the wrong form offered on the card
+  conjugate.js        present tense and imperative
   sync.js             sync codes, merge, transport
   views/              home.js · study.js · settings.js
 data/*.json           the word lists
@@ -70,7 +70,8 @@ A verb entry looks like this; every field after `en` is optional.
                                           change, a → ä drops it); sein has all three
   "reflexive": "akk",                     shown as "sich anmelden", conjugated with
                                           mich/dich/sich, or "dat" for mir/dir/sich
-  "takes": "für + Akkusativ",             printed after the headword as written
+  "takes": "für + Akkusativ",             printed after the headword as written;
+                                          also decides the Kasus row on the front
   "third": true,                          used only in the third person: the table
                                           shows es / sie, no imperative
   "flags": ["sep"],                       core · irr · modal · sep · insep
@@ -84,10 +85,11 @@ so the card can ask "trennbar or nicht trennbar?" only of verbs that have a
 prefix at all. Separable verbs are split by the prefix list in `conjugate.js`;
 `check-data.mjs` fails if a `sep` verb has a prefix that list does not know.
 
-The front of a verb card asks for the Perfekt auxiliary, the er/sie/es form
-(against the mistake a learner is most likely to make: schlaft for schläft,
-frägt for fragt), regular or irregular, and separable or not. Each is derived
-from the fields above, so a data fix changes the quiz too.
+The front of a verb card asks for the Perfekt auxiliary, the case the verb
+takes (Akkusativ, Dativ, or both for geben-type verbs; no row where `takes`
+is Nominativ or absent), regular or irregular, and separable or not. The last
+answer flips the card. Each row is derived from the fields above, so a data
+fix changes the quiz too.
 
 The original version stored progress by array position, which meant any edit to
 a list silently reassigned someone's progress to different words.
@@ -142,6 +144,5 @@ node tools/check-data.mjs
 
 Reports schema problems (a `sep` verb with an unknown prefix, a missing
 imperative on an e → i verb, two verbs with the same gloss) and diffs every
-verb's present tense, imperative and card-front distractor against
-`tools/verbs.snapshot.txt`. After a deliberate change, `--update` rewrites the
+verb's present tense and imperative against `tools/verbs.snapshot.txt`. After a deliberate change, `--update` rewrites the
 snapshot; the diff it prints first is the review.

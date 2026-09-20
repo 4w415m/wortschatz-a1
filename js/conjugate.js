@@ -35,7 +35,7 @@ const needsE = (stem) => /[dt]$/.test(stem) || /[bcdfgkpstwz][mn]$/.test(stem);
 const sibilant = (stem) => /[sßxz]$/.test(stem);
 
 /* The six forms a fully regular verb with this base would have. */
-export function regular(base) {
+function regular(base) {
   const stem = stemOf(base);
   const e = needsE(stem), s = sibilant(stem);
   return [
@@ -74,31 +74,6 @@ const dress = (verb, forms) => forms.map((f, i) => dressOne(verb, f, i));
 
 /* Returns the six present-tense forms, in PERS order. */
 export const present = (verb) => dress(verb, bare(verb));
-
-/* [correct, wrong] for the er/sie/es form: the wrong one is the mistake a
-   learner is most likely to make with this verb.
-   - irregular present: the form it would have if it were regular (schlaft)
-   - regular a/au/e stem: a stem change it does not have (frägt, käuft, giht)
-   - otherwise: the du form, or the ich form when those coincide (sitzt/sitze) */
-export function erSieChoices(verb) {
-  const [, base] = splitSeparable(verb);
-  const forms = bare(verb);
-  const reg = regular(base);
-  let wrong;
-  if (forms[2] !== reg[2]) wrong = reg[2];
-  else if (!/(eln|ern)$/.test(base)) {
-    const stem = stemOf(base);
-    const m = stem.match(/([aeiouäöü]+)[^aeiouäöü]*$/);
-    /* a long e (geh-, steh-) would lengthen to ie, a short one to i */
-    const fake = m && { a: "ä", au: "äu", e: stem[m.index + 1] === "h" ? "ie" : "i" }[m[1]];
-    if (fake) {
-      const at = m.index;
-      wrong = regular(stem.slice(0, at) + fake + stem.slice(at + m[1].length) + base.slice(stem.length))[2];
-    }
-  }
-  if (!wrong) wrong = forms[1] !== forms[2] ? forms[1] : forms[0];
-  return [dressOne(verb, forms[2], 2), dressOne(verb, wrong, 2)];
-}
 
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 

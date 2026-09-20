@@ -3,13 +3,12 @@
      node tools/check-data.mjs            report problems, exit 1 on errors
      node tools/check-data.mjs --update   rewrite tools/verbs.snapshot.txt
 
-   The snapshot holds every verb's present tense, imperative and the wrong
-   er/sie/es form offered on the card front. A rule change in conjugate.js or
-   a data edit that alters any of them shows up here as a diff, so it can be
-   checked on purpose rather than noticed on a card. */
+   The snapshot holds every verb's present tense and imperative. A rule change
+   in conjugate.js or a data edit that alters either shows up here as a diff,
+   so it can be checked on purpose rather than noticed on a card. */
 import { readFileSync, writeFileSync } from "node:fs";
 import { CATS } from "../js/categories.js";
-import { present, imperative, erSieChoices, splitSeparable } from "../js/conjugate.js";
+import { present, imperative, splitSeparable } from "../js/conjugate.js";
 
 const root = new URL("..", import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), "utf8"));
@@ -83,8 +82,7 @@ for (const [s, vs] of Object.entries(senses)) {
 const lines = verbs.map((v) => {
   const imp = imperative(v);
   return [v.infinitive, present(v).join(" · "),
-    "imperativ: " + (imp ? imp.join(" · ") : "-"),
-    "falsch: " + erSieChoices(v)[1]].join(" | ");
+    "imperativ: " + (imp ? imp.join(" · ") : "-")].join(" | ");
 });
 const snapshot = new URL("tools/verbs.snapshot.txt", root);
 if (process.argv.includes("--update")) {
