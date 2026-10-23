@@ -10,7 +10,7 @@
         to be memorized, for stark and gemischt.
    A verb is schwach exactly when applying steps 1 and 2 to an unchanged stem
    reproduces its participle. */
-import { splitSeparable, stemOf, needsE } from "./conjugate.js";
+import { splitSeparable, stemOf, needsE, praet3 } from "./conjugate.js";
 
 /* Prefixes that are never stressed, so the participle takes no ge-. Shared
    with tools/check-data.mjs. */
@@ -93,4 +93,70 @@ export function participleProblem(verb) {
       ", nor strong (-en), nor a known mixed verb";
   }
   return null;
+}
+
+/* ---- vowel families ---- */
+
+const VOWELS = /(ie|ei|eu|äu|au|[aeiouäöü])/g;
+const lastVowel = (s) => (s.match(VOWELS) || []).pop() ?? null;
+
+/* The stem vowel of a Präteritum form: brachte and wurde carry an ending -e
+   that is not the vowel we want, schrie does not. */
+const praetVowel = (p) => lastVowel(p.replace(/te$/, "").replace(/([^aeiouäöü])e$/, "$1"));
+
+/* "i–a–u": the stem vowel in Infinitiv, Präteritum and Partizip. Only strong
+   and mixed verbs have one; a weak verb's vowel never moves. */
+export function family(verb) {
+  const t = typeOf(verb);
+  if (!t || t === "schwach") return null;
+  const stem = segments(verb).find((s) => s.kind === "stem").text;
+  return [lastVowel(stemOf(baseOf(verb))), praetVowel(praet3(verb)), lastVowel(stem)].join("–");
+}
+
+/* Up to three verbs that change their vowel the same way, as memory hooks.
+   Same type only: stehen and denken share e–a–a but not their ending, and the
+   ending is one of the things being learned. One verb per base, the base verb
+   itself where the list has it; prefixed derivatives of this verb's own base
+   are not mates, except that a separable verb names its base first. */
+export function familyMates(verb, verbs) {
+  const fam = family(verb);
+  if (!fam) return [];
+  const t = typeOf(verb), myBase = baseOf(verb);
+  const byBase = new Map();
+  for (const v of verbs) {
+    if (v.infinitive === verb.infinitive || typeOf(v) !== t || family(v) !== fam) continue;
+    const b = baseOf(v);
+    if (!byBase.has(b) || v.infinitive === b) byBase.set(b, v);
+  }
+  let baseFirst = null;
+  const rest = [];
+  for (const [b, v] of byBase) {
+    if (b !== myBase) rest.push(v);
+    else if (v.infinitive === b && verb.infinitive !== b) baseFirst = v;
+  }
+  const isCore = (v) => v.flags.includes("core");
+  rest.sort((a, b) => (isCore(b) - isCore(a)) || (verbs.indexOf(a) - verbs.indexOf(b)));
+  return (baseFirst ? [baseFirst] : []).concat(rest).slice(0, 3).map((v) => v.infinitive);
+}
+
+/* ---- text for the card ---- */
+
+/* Infinitiv · Präteritum (er/sie/es) · Partizip II: "aufstehen · stand auf · aufgestanden". */
+export function stammformen(verb) {
+  if (!verb.partizip) return null;
+  const [prefix] = splitSeparable(verb);
+  return [verb.infinitive, praet3(verb) + (prefix ? " " + prefix : ""), verb.partizip];
+}
+
+/* One line saying why the participle looks the way it does. */
+export function reason(verb) {
+  const t = typeOf(verb);
+  if (!t) return null;
+  const ge = geRule(verb).label, e = ending(verb);
+  if (t === "schwach") {
+    const stem = stemOf(baseOf(verb));
+    return "schwach · " + ge + " · " + (e === "-et" ? "-et nach -" + stem.slice(-1) : "-t");
+  }
+  if (t === "gemischt") return "gemischt · " + ge + " · -t, Vokal ändert sich";
+  return "stark · " + ge + " · " + e + " · " + family(verb);
 }

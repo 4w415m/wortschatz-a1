@@ -102,3 +102,62 @@ test("baseOf and hasInsepPrefix", () => {
   assert.equal(hasInsepPrefix("frühstücken"), false);
   assert.equal(hasInsepPrefix("gehen"), false);
 });
+
+import { family, familyMates, stammformen, reason } from "../js/perfekt.js";
+
+test("family: Infinitiv–Präteritum–Partizip vowels, null for weak", () => {
+  assert.equal(family(F.singen), "i–a–u");
+  assert.equal(family(F.aufstehen), "e–a–a");
+  assert.equal(family(F.verstehen), "e–a–a");
+  assert.equal(family(F.bringen), "i–a–a");
+  assert.equal(family(F.sein), "ei–a–e");
+  assert.equal(family(F.tun), "u–a–a");
+  assert.equal(family(V({ infinitive: "verlieren", partizip: "verloren", praet: "verlor", flags: ["insep"] })), "ie–o–o");
+  assert.equal(family(V({ infinitive: "heißen", partizip: "geheißen", praet: "hieß" })), "ei–ie–ei");
+  assert.equal(family(V({ infinitive: "laufen", partizip: "gelaufen", praet: "lief" })), "au–ie–au");
+  assert.equal(family(F.lernen), null);
+});
+
+test("familyMates never mixes types, folds derivatives, puts a separable verb's base first", () => {
+  const stehen = V({ infinitive: "stehen", partizip: "gestanden", praet: "stand" });
+  const denken = V({ infinitive: "denken", partizip: "gedacht", praet: "dachte" });
+  const list = [F.lernen, stehen, F.verstehen, denken, F.aufstehen];
+  assert.deepEqual(familyMates(F.aufstehen, list), ["stehen", "verstehen"]);
+  assert.deepEqual(familyMates(stehen, list), ["verstehen"]);
+  assert.deepEqual(familyMates(denken, list), []);
+
+  const kommen = V({ infinitive: "kommen", partizip: "gekommen", praet: "kam", flags: ["core"] });
+  const ankommen = V({ infinitive: "ankommen", partizip: "angekommen", praet: "kam", flags: ["sep"] });
+  const mitkommen = V({ infinitive: "mitkommen", partizip: "mitgekommen", praet: "kam", flags: ["sep"] });
+  const bekommen = V({ infinitive: "bekommen", partizip: "bekommen", praet: "bekam", flags: ["insep"] });
+  assert.deepEqual(familyMates(kommen, [kommen, ankommen, mitkommen, bekommen]), ["bekommen"]);
+  assert.deepEqual(familyMates(ankommen, [kommen, ankommen, mitkommen, bekommen]), ["kommen", "bekommen"]);
+});
+
+test("familyMates caps at three, core first, one per base", () => {
+  const schreiben = V({ infinitive: "schreiben", partizip: "geschrieben", praet: "schrieb" });
+  const scheinen = V({ infinitive: "scheinen", partizip: "geschienen", praet: "schien", flags: ["core"] });
+  const umsteigen = V({ infinitive: "umsteigen", partizip: "umgestiegen", praet: "stieg", flags: ["sep"] });
+  const einsteigen = V({ infinitive: "einsteigen", partizip: "eingestiegen", praet: "stieg", flags: ["sep"] });
+  const unterschreiben = V({ infinitive: "unterschreiben", partizip: "unterschrieben", praet: "unterschrieb", flags: ["insep"] });
+  const list = [schreiben, F.bleiben, scheinen, umsteigen, einsteigen, unterschreiben];
+  assert.deepEqual(familyMates(schreiben, list), ["scheinen", "bleiben", "umsteigen"]);
+});
+
+test("stammformen", () => {
+  assert.deepEqual(stammformen(F.aufstehen), ["aufstehen", "stand auf", "aufgestanden"]);
+  assert.deepEqual(stammformen(F.lernen), ["lernen", "lernte", "gelernt"]);
+  assert.equal(stammformen(F.moechten), null);
+});
+
+test("reason", () => {
+  assert.equal(reason(F.lernen), "schwach · ge- vorne · -t");
+  assert.equal(reason(F.arbeiten), "schwach · ge- vorne · -et nach -t");
+  assert.equal(reason(F.oeffnen), "schwach · ge- vorne · -et nach -n");
+  assert.equal(reason(F.studieren), "schwach · kein ge- (-ieren) · -t");
+  assert.equal(reason(F.verkaufen), "schwach · kein ge- (Präfix ver-) · -t");
+  assert.equal(reason(F.bringen), "gemischt · ge- vorne · -t, Vokal ändert sich");
+  assert.equal(reason(F.singen), "stark · ge- vorne · -en · i–a–u");
+  assert.equal(reason(F.tun), "stark · ge- vorne · -n · u–a–a");
+  assert.equal(reason(F.moechten), null);
+});
