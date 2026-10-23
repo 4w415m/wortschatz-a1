@@ -199,3 +199,19 @@ test("every verb in the data gets two distinct wrong forms", () => {
     assert.notEqual(d[1], v.partizip, v.infinitive);
   }
 });
+
+/* From the whole-branch review: two verbs the rules mis-read. */
+test("verlieren is an inseparable-prefix verb, not an -ieren verb", () => {
+  const verlieren = V({ infinitive: "verlieren", aux: "hat", partizip: "verloren", praet: "verlor", flags: ["insep"] });
+  assert.equal(geRule(verlieren).label, "kein ge- (Präfix ver-)");
+  assert.equal(segments(verlieren).map((s) => s.kind + ":" + s.text).join(" "), "prefix:ver stem:lor ending:en");
+  assert.equal(reason(verlieren), "stark · kein ge- (Präfix ver-) · -en · ie–o–o");
+});
+
+test("geschrien is cut as schrie + n, so schreien joins the ei–ie–ie family", () => {
+  const schreien = V({ infinitive: "schreien", aux: "hat", partizip: "geschrien", praet: "schrie" });
+  assert.equal(ending(schreien), "-n");
+  assert.equal(segments(schreien).map((s) => s.kind + ":" + s.text).join(" "), "ge:ge stem:schrie ending:n");
+  assert.equal(family(schreien), "ei–ie–ie");
+  assert.deepEqual(distractors(schreien), ["geschreit", "geschrein"]);
+});

@@ -31,12 +31,13 @@ export const hasInsepPrefix = (inf) => insepPrefixOf(inf) !== null;
    verstehen does not share a participle shape with stehen. */
 export const baseOf = (verb) => splitSeparable(verb)[1];
 
-/* Step 1. kind: vorne · mitte · ieren · praefix. */
+/* Step 1. kind: vorne · mitte · ieren · praefix. The prefix is checked before
+   the -ieren ending: verlieren is ver-lier-en, not an -ieren verb. */
 export function geRule(verb) {
   const [prefix, base] = splitSeparable(verb);
-  if (/ieren$/.test(base)) return { kind: "ieren", prefix: null, label: "kein ge- (-ieren)" };
   const ip = verb.flags.includes("insep") ? insepPrefixOf(base) : null;
   if (ip) return { kind: "praefix", prefix: ip, label: "kein ge- (Präfix " + ip + "-)" };
+  if (/ieren$/.test(base)) return { kind: "ieren", prefix: null, label: "kein ge- (-ieren)" };
   if (prefix) return { kind: "mitte", prefix, label: "ge- nach dem Präfix" };
   return { kind: "vorne", prefix: null, label: "ge- vorne" };
 }
@@ -57,13 +58,14 @@ export function typeOf(verb) {
   return verb.partizip.endsWith("t") ? "gemischt" : "stark";
 }
 
-/* -t · -et · -en, or -n for getan, where the -e- of -en is swallowed. */
+/* -t · -et · -en, or -n after a vowel (getan, geschrien), where the -e- of
+   -en is swallowed and the vowel belongs to the stem. */
 export function ending(verb) {
   const t = typeOf(verb);
   if (!t) return null;
   if (t === "schwach") return needsE(stemOf(baseOf(verb))) ? "-et" : "-t";
   if (t === "gemischt") return "-t";
-  return verb.partizip.endsWith("en") ? "-en" : "-n";
+  return /(ie|[aouäöü])n$/.test(verb.partizip) ? "-n" : "-en";
 }
 
 /* The participle cut into prefix · ge · stem · ending, for the card to colour.
