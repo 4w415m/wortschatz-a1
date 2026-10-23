@@ -18,13 +18,15 @@ js/
   data.js             loads data/*.json, builds the word index
   state.js            persistence, day rollover, v1→v2 migration
   srs.js              scheduling
-  conjugate.js        present tense and imperative
+  conjugate.js        present tense, imperative and Präteritum
+  perfekt.js          participle analysis: type, ge- rule, segments, vowel family, distractors
   sync.js             sync codes, merge, transport
   views/              home.js · study.js · settings.js
 data/*.json           the word lists
 worker/               Cloudflare Worker for cross-device sync
-tools/check-data.mjs  validates data/ and pins the conjugator's output
+tools/check-data.mjs  validates data/ and pins what the verb modules derive
 tools/verbs.snapshot.txt  that output, one line per verb
+tests/*.test.mjs      unit tests for conjugate.js and perfekt.js (node --test)
 tools/extract-data.mjs  one-off converter from the original single-file version
 ```
 
@@ -64,7 +66,10 @@ A verb entry looks like this; every field after `en` is optional.
   "stemChange": ["du form", "er form"],   only where the present is irregular
   "forms": ["ich", "du", "er", "wir", "ihr", "sie"],   full set: sein, modals, wissen
   "aux": "hat", "partizip": "angemeldet",  the Perfekt; absent only on möchten
-  "praeteritum": [six forms],             sein, haben and möchten (wollte)
+  "praet": "stand",                       er/sie/es Präteritum of the base verb, only
+                                          where the weak rule (stem + -te) does not
+                                          give it: strong and mixed verbs, and haben
+  "praeteritum": [six forms],             full six-form override; only möchten (wollte)
   "imperative": "Nimm",                   the du form of the base verb, only where
                                           it cannot be derived (e → i keeps the
                                           change, a → ä drops it); sein has all three
@@ -82,10 +87,18 @@ A verb entry looks like this; every field after `en` is optional.
 }
 ```
 
-`insep` marks a verb with an inseparable prefix (bezahlen, verstehen). It exists
-so the card can ask "trennbar or nicht trennbar?" only of verbs that have a
-prefix at all. Separable verbs are split by the prefix list in `conjugate.js`;
-`check-data.mjs` fails if a `sep` verb has a prefix that list does not know.
+`insep` marks a prefix that does not separate (bezahlen, verstehen). Together
+with the inseparable-prefix list in `perfekt.js` it decides that the participle
+takes no ge-, and it prints the "nicht trennbar" tag. Separable verbs are split
+by the prefix list in `conjugate.js`; `check-data.mjs` fails if a `sep` verb has
+a prefix that list does not know, or an `insep` verb a prefix the other list
+does not know.
+
+Everything else about the Perfekt is derived, not stored: `perfekt.js` works
+out whether a verb is schwach, stark or gemischt (the participle either is the
+weak form, or ends in -t, or does not), where its ge- goes, which ending it
+takes, its Infinitiv–Präteritum–Partizip vowel family, and the two wrong forms
+the card offers next to the right one.
 
 The front of a verb card asks for the Perfekt auxiliary, the case the verb
 takes (Akkusativ, Dativ, or both for geben-type verbs; no row where `takes`
@@ -138,14 +151,29 @@ told apart, since production mode shows only the English. The rewritten
 conjugator gives the same present tense as before for all 129 original verbs,
 except setzen, which now carries its reflexive pronouns.
 
+Three more A1 verbs followed, erzählen, einsteigen and aussteigen, all on the
+Goethe A1 list, for 172 in all; and every strong and mixed verb gained its
+Präteritum (`praet`), so the three principal parts can be shown.
+
 ## Checking the data
 
 ```sh
 node tools/check-data.mjs
 ```
 
-Reports schema problems (a `sep` verb with an unknown prefix, a missing
-imperative on an e → i verb, two verbs with the same gloss, a Perfekt sentence
-that does not contain the verb's auxiliary and participle) and diffs every
-verb's present tense and imperative against `tools/verbs.snapshot.txt`. After a deliberate change, `--update` rewrites the
-snapshot; the diff it prints first is the review.
+Reports schema problems (a `sep` verb with an unknown prefix, an `insep` verb
+without one, a missing imperative on an e → i verb, two verbs with the same
+gloss, a Perfekt sentence that does not contain the verb's auxiliary and
+participle, a participle that is neither the weak form nor strong nor one of
+the known mixed verbs, a strong or mixed verb without `praet`, a file under
+`js/` missing from the service worker's cache list) and diffs every verb's
+present tense, imperative, Perfekt with its type and vowel family, Präteritum
+and quiz distractors against `tools/verbs.snapshot.txt`. After a deliberate
+change, `--update` rewrites the snapshot; the diff it prints first is the
+review.
+
+```sh
+node --test tests/*.test.mjs
+```
+
+Unit tests for the derivations in `conjugate.js` and `perfekt.js`.

@@ -3373,5 +3373,64 @@
       "en": "My head hurt all day."
     },
     "tip": "The person is Dativ: Mein Bauch tut mir weh. Written wehtun or weh tun, both are allowed. Perfekt: hat wehgetan."
+  },
+  {
+    "infinitive": "erzählen",
+    "en": "to tell (a story, what happened)",
+    "aux": "hat",
+    "partizip": "erzählt",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Erzähl mir von deinem Wochenende!",
+      "en": "Tell me about your weekend!"
+    },
+    "examplePerfekt": {
+      "de": "Oma hat uns eine Geschichte erzählt.",
+      "en": "Grandma told us a story."
+    },
+    "tip": "Person in the Dativ, story in the Akkusativ: Ich erzähle dir eine Geschichte. erzählen von + Dativ = tell about. sagen is for a single remark."
+  },
+  {
+    "infinitive": "einsteigen",
+    "en": "to get on, to get in (a bus, a car)",
+    "aux": "ist",
+    "partizip": "eingestiegen",
+    "praet": "stieg",
+    "takes": "in + Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Wir steigen in den Bus ein.",
+      "en": "We get on the bus."
+    },
+    "examplePerfekt": {
+      "de": "Sie ist in das falsche Auto eingestiegen.",
+      "en": "She got into the wrong car."
+    },
+    "tip": "Direction, so in + Akkusativ: in den Zug einsteigen. Opposite: aussteigen; to change is umsteigen."
+  },
+  {
+    "infinitive": "aussteigen",
+    "en": "to get off, to get out (of a bus, a car)",
+    "aux": "ist",
+    "partizip": "ausgestiegen",
+    "praet": "stieg",
+    "takes": "aus + Dativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Wo muss ich aussteigen?",
+      "en": "Where do I have to get off?"
+    },
+    "examplePerfekt": {
+      "de": "Wir sind an der Haltestelle ausgestiegen.",
+      "en": "We got off at the stop."
+    },
+    "tip": "aus + Dativ: aus dem Bus aussteigen. Announcements use the noun: Ausstieg in Fahrtrichtung rechts."
   }
 ]
