@@ -67,7 +67,7 @@ for (const v of verbs) {
   if (problem) err(at + ": " + problem);
   if (v.praet !== undefined && typeof v.praet !== "string") err(at + ": praet is a string");
   if (v.partizip && typeOf(v) !== "schwach" && !v.praet && !v.praeteritum) err(at + ": strong or mixed verb needs praet");
-  if (v.praet && v.praet === regularPraet3(v)) warn(at + ": praet is the regular form; drop it");
+  if (v.praet && typeOf(v) === "schwach" && v.praet === regularPraet3(v)) warn(at + ": praet is the regular form; drop it");
 
   /* The Perfekt sentence must actually contain the verb's Perfekt: a form of
      its auxiliary and the participle as a whole word. möchten, which has no
