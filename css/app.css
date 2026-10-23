@@ -86,8 +86,15 @@ table.conj td{padding:3px 0}
 table.conj td:first-child{color:var(--dim);text-align:right;padding-right:14px;width:44px}
 table.conj td:last-child{font-family:var(--serif);text-align:left}
 .takes{margin-top:8px;font-family:var(--serif);font-size:15px;color:var(--amber)}
-.perf{margin-top:14px;font-family:var(--serif);font-size:17px}
-.perf em{font-style:normal;color:var(--amber)}
+.perfekt{margin-top:14px}
+.perfekt .lbl{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);margin-bottom:2px}
+.perfekt .form{font-family:var(--serif);font-size:20px;line-height:1.3}
+.perfekt .aux{color:var(--amber)}
+/* a dot between the pieces, so the cut reads without colour */
+.seg+.seg::before{content:"·";color:var(--dim);margin:0 1px}
+.seg.ge{color:var(--amber)} .seg.ending{color:var(--das)} .seg.prefix{color:var(--der)}
+.perfekt .why,.perfekt .stamm,.perfekt .mates{font-size:13.5px;line-height:1.45;color:var(--muted);max-width:36ch}
+.perfekt .why{margin-top:4px}
 .praet,.imp{margin-top:10px;font-size:13.5px;line-height:1.45;color:var(--muted);max-width:36ch}
 .praet b,.imp b{display:block;font-weight:400;font-size:10.5px;letter-spacing:.06em;
   text-transform:uppercase;color:var(--dim)}

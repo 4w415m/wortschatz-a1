@@ -3,8 +3,9 @@ import { catName } from "../categories.js";
 import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
-import { present, PERS, imperative } from "../conjugate.js";
-import { typeOf, ppOptions } from "../perfekt.js";
+import { W } from "../data.js";
+import { present, PERS, imperative, praeteritum } from "../conjugate.js";
+import { typeOf, ppOptions, segments, reason, stammformen, familyMates } from "../perfekt.js";
 import { back, go } from "../router.js";
 
 let app = null;
@@ -130,17 +131,20 @@ function backHtml(w) {
     b += '<table class="conj">' +
       rows.map(([p, f]) => "<tr><td>" + p + "</td><td>" + esc(f) + "</td></tr>").join("") +
       "</table>";
-    if (w.partizip) b += '<div class="perf">Perfekt: <em>' + esc(w.aux + " " + w.partizip) + "</em></div>";
-    if (w.praeteritum) {
-      b += '<div class="praet"><b>Präteritum</b> ' +
-        PERS.map((p, i) => esc(p + " " + w.praeteritum[i])).join(" · ") + "</div>";
-    }
+    if (w.partizip) b += perfektHtml(w);
+    /* Every verb shows its Präteritum: weak ones are derived, the rest stored. */
+    const pt = praeteritum(w);
+    b += '<div class="praet"><b>Präteritum</b> ' +
+      (w.third ? [["es", pt[2]], ["sie", pt[5]]] : PERS.map((p, i) => [p, pt[i]]))
+        .map(([p, f]) => esc(p + " " + f)).join(" · ") + "</div>";
     const imp = imperative(w);
     if (imp) b += '<div class="imp"><b>Imperativ</b> ' + imp.map(esc).join(" · ") + "</div>";
     if (w.note) b += '<div class="note">' + esc(w.note) + "</div>";
     let tags = "";
     if (w.flags.includes("core"))  tags += '<span class="tag core">Kernverb</span>';
-    if (w.flags.includes("irr"))   tags += '<span class="tag">unregelmäßig</span>';
+    if (w.stemChange || w.forms)   tags += '<span class="tag">Präsens unregelmäßig</span>';
+    const t = typeOf(w);
+    if (t === "stark" || t === "gemischt") tags += '<span class="tag">' + t + "</span>";
     if (w.flags.includes("sep"))   tags += '<span class="tag">trennbar</span>';
     if (w.flags.includes("insep")) tags += '<span class="tag">nicht trennbar</span>';
     if (w.flags.includes("modal")) tags += '<span class="tag">Modalverb</span>';
@@ -177,6 +181,20 @@ function backHtml(w) {
 
 /* "sich setzen" for a reflexive verb, the bare infinitive otherwise. */
 const verbHead = (w) => (w.reflexive ? "sich " : "") + w.infinitive;
+
+/* The Perfekt as a small lesson: the form with its participle cut into
+   prefix · ge · stem · ending, one line on why it looks that way, the three
+   principal parts, and up to three verbs whose vowel moves the same way. */
+function perfektHtml(w) {
+  const pp = segments(w).map((s) => '<span class="seg ' + s.kind + '">' + esc(s.text) + "</span>").join("");
+  const mates = familyMates(w, W.verbs);
+  return '<div class="perfekt"><div class="lbl">Perfekt</div>' +
+    '<div class="form"><span class="aux">' + esc(w.aux) + '</span> <span class="pp">' + pp + "</span></div>" +
+    '<div class="why">' + esc(reason(w)) + "</div>" +
+    '<div class="stamm">' + stammformen(w).map(esc).join(" · ") + "</div>" +
+    (mates.length ? '<div class="mates">wie ' + mates.map(esc).join(", ") + "</div>" : "") +
+    "</div>";
+}
 
 /* ---- the front of a verb card ----
    Up to four things the learner should know before seeing the answer, each a
