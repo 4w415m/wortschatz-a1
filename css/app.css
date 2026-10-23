@@ -120,6 +120,8 @@ table.conj td:last-child{font-family:var(--serif);text-align:left}
   overflow-wrap:anywhere}
 .quiz .qo button.right{background:rgba(63,191,135,.15);border-color:var(--ok)}
 .quiz .qo button.wrong{background:rgba(224,81,139,.14);border-color:var(--bad)}
+/* three participles as long as zurückgekommen must share one row on a 360px phone */
+.quiz .qo button.pp{font-size:13.5px;padding:11px 2px}
 .big{display:block;width:100%;padding:17px;border-radius:12px;background:var(--surface2);
   font-size:16px;font-weight:500;border:1.5px solid var(--line)}
 .big:active{background:var(--line)}

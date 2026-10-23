@@ -4,6 +4,7 @@ import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
 import { present, PERS, imperative } from "../conjugate.js";
+import { typeOf, ppOptions } from "../perfekt.js";
 import { back, go } from "../router.js";
 
 let app = null;
@@ -179,11 +180,22 @@ const verbHead = (w) => (w.reflexive ? "sich " : "") + w.infinitive;
 
 /* ---- the front of a verb card ----
    Up to four things the learner should know before seeing the answer, each a
-   tap between a few options. Answering the last one flips the card. A row is
-   left out where the question makes no sense for this verb: no Perfekt row
-   for möchten, no case row for sein, no prefix row for a verb that has no
-   prefix. */
-const QUIZ_NAMES = { aux: "Perfekt", kasus: "Kasus", reg: "Konjugation", sep: "Präfix" };
+   tap between a few options: the Perfekt auxiliary, the case the verb takes,
+   the verb type (schwach / stark / gemischt, which decides the ending), and
+   the participle itself, picked from the right form and two tempting wrong
+   ones. Answering the last one flips the card. A row is left out where the
+   question makes no sense for this verb: no Perfekt, Typ or Partizip row for
+   möchten, no case row for sein. */
+const QUIZ_NAMES = { aux: "Perfekt", kasus: "Kasus", typ: "Typ", pp: "Partizip II" };
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 function verbRows(w) {
   const rows = [];
@@ -196,12 +208,10 @@ function verbRows(w) {
     rows.push({ k: "kasus", label: "Kasus", opts: ["Akkusativ", "Dativ", "beides"],
       right: akk && dat ? "beides" : akk ? "Akkusativ" : "Dativ" });
   }
-  const irregular = w.flags.includes("irr") || w.flags.includes("modal");
-  rows.push({ k: "reg", label: "Konjugation", opts: ["regelmäßig", "unregelmäßig"],
-    right: irregular ? "unregelmäßig" : "regelmäßig" });
-  if (w.flags.includes("sep") || w.flags.includes("insep")) {
-    rows.push({ k: "sep", label: "Präfix", opts: ["trennbar", "nicht trennbar"],
-      right: w.flags.includes("sep") ? "trennbar" : "nicht trennbar" });
+  if (w.partizip) {
+    rows.push({ k: "typ", label: "Typ", opts: ["schwach", "stark", "gemischt"], right: typeOf(w) });
+    /* The wrong forms are fixed per verb (see perfekt.js); only their order moves. */
+    rows.push({ k: "pp", label: "Partizip II", opts: shuffle(ppOptions(w)), right: w.partizip });
   }
   return rows;
 }
@@ -216,6 +226,7 @@ function verbQuiz(w, reveal) {
     for (const o of r.opts) {
       const btn = h("<button></button>");
       btn.textContent = o;
+      if (r.k === "pp") btn.classList.add("pp");
       btn.onclick = () => {
         verbPicks[r.k] = o === r.right;
         opts.querySelectorAll("button").forEach((x) => {
@@ -248,7 +259,7 @@ function paint(produce, isNew) {
   if (!revealed) {
     if (produce) {
       face.appendChild(h('<div><div class="cue">Auf Deutsch?' +
-        (isNoun ? " Mit Artikel und Plural." : isVerb ? " Mit er/sie/es-Form und Perfekt." : "") + "</div>" +
+        (isNoun ? " Mit Artikel und Plural." : isVerb ? " Mit er/sie/es-Form, Präteritum und Perfekt." : "") + "</div>" +
         '<div class="word en">' + esc(w.en) + "</div></div>"));
       acts.appendChild(h('<button class="big" data-rev>Antwort zeigen</button>'));
       acts.querySelector("[data-rev]").onclick = reveal;

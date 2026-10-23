@@ -2,7 +2,7 @@
    headword — it is what card ids are built from, so it must stay stable. */
 export const CATS = [
   { k: "nouns",        head: "singular",   nm: "Nomen",                              desc: "Artikel, Plural und Bedeutung" },
-  { k: "verbs",        head: "infinitive", nm: "Verben",                             desc: "Konjugation, Perfekt, Imperativ · Kernverben zuerst" },
+  { k: "verbs",        head: "infinitive", nm: "Verben",                             desc: "Perfekt, Präteritum, Imperativ · Kernverben zuerst" },
   { k: "adjectives",   head: "word",       nm: "Adjektive",                          desc: "meist als Gegensatzpaar" },
   { k: "prepositions", head: "word",       nm: "Präpositionen",                      desc: "mit Fall: Dativ, Akkusativ, Wechsel" },
   { k: "function",     head: "word",       nm: "Pronomen, Artikel, Konjunktionen",   desc: "kleine Wörter, größte Wirkung" },
