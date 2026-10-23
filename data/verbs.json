@@ -20,8 +20,7 @@
     ],
     "takes": "+ Nominativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich bin Lehrerin und meine Schwester ist Ärztin.",
@@ -45,8 +44,7 @@
     "praet": "hatte",
     "takes": "+ Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Hast du heute Zeit für einen Kaffee?",
@@ -71,8 +69,7 @@
     "imperative": "Werde",
     "takes": "+ Nominativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Meine Tochter wird im Mai sechs Jahre alt.",
@@ -311,8 +308,7 @@
     "partizip": "gegangen",
     "praet": "ging",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich gehe jeden Morgen zu Fuß zur Arbeit.",
@@ -331,8 +327,7 @@
     "partizip": "gekommen",
     "praet": "kam",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Kommst du heute Abend zur Party?",
@@ -357,8 +352,7 @@
     "imperative": "Sieh",
     "takes": "+ Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich sehe den Hund im Garten.",
@@ -383,8 +377,7 @@
     "imperative": "Gib",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Gibst du mir bitte das Salz?",
@@ -431,8 +424,7 @@
     "praet": "wusste",
     "takes": "+ Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Weißt du, wo der Bahnhof ist?",
@@ -452,8 +444,7 @@
     "praet": "fand",
     "takes": "+ Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich finde meinen Schlüssel nicht.",
@@ -478,8 +469,7 @@
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich nehme heute den Bus zur Arbeit.",
@@ -504,8 +494,7 @@
     "imperative": "Sprich",
     "takes": "mit + Dativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Meine Schwester spricht sehr gut Englisch.",
@@ -525,8 +514,7 @@
     "praet": "hieß",
     "takes": "+ Nominativ",
     "flags": [
-      "core",
-      "irr"
+      "core"
     ],
     "example": {
       "de": "Ich heiße Anna, und wie heißt du?",
@@ -550,9 +538,7 @@
     "praet": "aß",
     "imperative": "Iss",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Was isst du gern zum Frühstück?",
       "en": "What do you like to eat for breakfast?"
@@ -570,9 +556,7 @@
     "partizip": "getrunken",
     "praet": "trank",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich trinke morgens gern einen Kaffee.",
       "en": "I like to drink a coffee in the morning."
@@ -593,9 +577,7 @@
     "aux": "hat",
     "partizip": "geschlafen",
     "praet": "schlief",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Am Wochenende schlafe ich lange.",
       "en": "On the weekend I sleep in."
@@ -616,9 +598,7 @@
     "aux": "ist",
     "partizip": "gefahren",
     "praet": "fuhr",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Fährst du mich bitte nach Hause?",
       "en": "Will you drive me home, please?"
@@ -639,9 +619,7 @@
     "aux": "ist",
     "partizip": "gelaufen",
     "praet": "lief",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Meine Tochter läuft allein zur Haltestelle.",
       "en": "My daughter walks to the bus stop on her own."
@@ -658,9 +636,7 @@
     "aux": "ist",
     "partizip": "geflogen",
     "praet": "flog",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Im Sommer fliegen wir nach Spanien.",
       "en": "In summer we're flying to Spain."
@@ -683,9 +659,7 @@
     "praet": "las",
     "imperative": "Lies",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Er liest jeden Abend ein Buch.",
       "en": "He reads a book every evening."
@@ -703,9 +677,7 @@
     "partizip": "geschrieben",
     "praet": "schrieb",
     "takes": "+ Dativ + Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich schreibe meiner Oma einen Brief.",
       "en": "I'm writing my grandma a letter."
@@ -966,7 +938,6 @@
     "praet": "verstand",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -986,9 +957,7 @@
     "partizip": "gedacht",
     "praet": "dachte",
     "takes": "an + Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich denke an meine Familie.",
       "en": "I'm thinking about my family."
@@ -1040,9 +1009,7 @@
     "partizip": "gekannt",
     "praet": "kannte",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Kennst du meinen Bruder?",
       "en": "Do you know my brother?"
@@ -1093,9 +1060,7 @@
     "aux": "ist",
     "partizip": "geblieben",
     "praet": "blieb",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Heute bleibe ich zu Hause.",
       "en": "Today I am staying at home."
@@ -1113,9 +1078,7 @@
     "partizip": "gestanden",
     "praet": "stand",
     "takes": "wo? + Dativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Wir stehen schon zehn Minuten an der Kasse.",
       "en": "We've been standing at the checkout for ten minutes."
@@ -1133,9 +1096,7 @@
     "partizip": "gesessen",
     "praet": "saß",
     "takes": "wo? + Dativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Wir sitzen im Garten und trinken Kaffee.",
       "en": "We are sitting in the garden drinking coffee."
@@ -1153,9 +1114,7 @@
     "partizip": "gelegen",
     "praet": "lag",
     "takes": "wo? + Dativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Das Buch liegt auf dem Tisch.",
       "en": "The book is lying on the table."
@@ -1242,9 +1201,7 @@
     "partizip": "geschlossen",
     "praet": "schloss",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Der Supermarkt schließt um acht Uhr.",
       "en": "The supermarket closes at eight o'clock."
@@ -1263,7 +1220,6 @@
     "praet": "begann",
     "takes": "mit + Dativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -1288,9 +1244,7 @@
     "praet": "half",
     "imperative": "Hilf",
     "takes": "+ Dativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich helfe meiner Mutter in der Küche.",
       "en": "I help my mother in the kitchen."
@@ -1325,9 +1279,7 @@
     "partizip": "gebracht",
     "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich bringe dir morgen das Buch.",
       "en": "I'll bring you the book tomorrow."
@@ -1366,9 +1318,7 @@
     "partizip": "getragen",
     "praet": "trug",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Sie trägt heute ein rotes Kleid.",
       "en": "She is wearing a red dress today."
@@ -1387,7 +1337,6 @@
     "praet": "bekam",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -1502,7 +1451,6 @@
     "imperative": "Vergiss",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -1527,9 +1475,7 @@
     "praet": "traf",
     "imperative": "Triff",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich treffe morgen meine Freunde im Café.",
       "en": "I'm meeting my friends at the café tomorrow."
@@ -1598,9 +1544,7 @@
     "aux": "ist",
     "partizip": "geschwommen",
     "praet": "schwamm",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Im Sommer schwimmen wir oft im See.",
       "en": "In summer we often swim in the lake."
@@ -1633,9 +1577,7 @@
     "aux": "hat",
     "partizip": "gesungen",
     "praet": "sang",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Meine Schwester singt sehr gern.",
       "en": "My sister really likes singing."
@@ -1670,9 +1612,7 @@
     "partizip": "gebacken",
     "praet": "backte",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Oma backt am Sonntag einen Kuchen.",
       "en": "Grandma is baking a cake on Sunday."
@@ -1711,9 +1651,7 @@
     "partizip": "gewaschen",
     "praet": "wusch",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Er wäscht am Wochenende sein Auto.",
       "en": "He washes his car at the weekend."
@@ -1747,9 +1685,7 @@
     "partizip": "gezogen",
     "praet": "zog",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich ziehe an der Tür, aber sie geht nicht auf.",
       "en": "I pull on the door, but it doesn't open."
@@ -1773,7 +1709,6 @@
     "takes": "+ Dativ",
     "third": true,
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -1992,7 +1927,6 @@
     "praet": "verlor",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -2013,7 +1947,6 @@
     "praet": "gewann",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -2103,7 +2036,6 @@
     "praet": "unterschrieb",
     "takes": "+ Akkusativ",
     "flags": [
-      "irr",
       "insep"
     ],
     "example": {
@@ -2228,9 +2160,7 @@
     "partizip": "gelassen",
     "praet": "ließ",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Ich lasse mein Auto heute zu Hause.",
       "en": "I'm leaving my car at home today."
@@ -2248,9 +2178,7 @@
     "partizip": "getan",
     "praet": "tat",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Was kann ich für Sie tun?",
       "en": "What can I do for you?"
@@ -2268,9 +2196,7 @@
     "partizip": "gerufen",
     "praet": "rief",
     "takes": "+ Akkusativ",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Die Mutter ruft die Kinder zum Essen.",
       "en": "The mother calls the children to dinner."
@@ -2497,9 +2423,7 @@
     "partizip": "geschienen",
     "praet": "schien",
     "third": true,
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Heute scheint die Sonne.",
       "en": "The sun is shining today."
@@ -2566,9 +2490,7 @@
     "aux": "ist",
     "partizip": "gerannt",
     "praet": "rannte",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Die Kinder rennen zum Bus.",
       "en": "The children are running to the bus."
@@ -2585,9 +2507,7 @@
     "aux": "hat",
     "partizip": "geschrien",
     "praet": "schrie",
-    "flags": [
-      "irr"
-    ],
+    "flags": [],
     "example": {
       "de": "Das Baby schreit die ganze Nacht.",
       "en": "The baby screams all night."
@@ -2674,8 +2594,7 @@
     "partizip": "aufgestanden",
     "praet": "stand",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Ich stehe jeden Tag um sieben Uhr auf.",
@@ -2699,8 +2618,7 @@
     "praet": "fing",
     "takes": "mit + Dativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Der Film fängt gleich an.",
@@ -2761,8 +2679,7 @@
     "praet": "lud",
     "takes": "+ Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Ich lade dich zu meinem Geburtstag ein.",
@@ -2782,8 +2699,7 @@
     "praet": "rief",
     "takes": "+ Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Ich rufe dich heute Abend an.",
@@ -2840,8 +2756,7 @@
     "partizip": "mitgekommen",
     "praet": "kam",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Kommst du morgen mit ins Kino?",
@@ -2861,8 +2776,7 @@
     "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Ich bringe einen Kuchen zur Party mit.",
@@ -2882,8 +2796,7 @@
     "praet": "kam",
     "takes": "in + Dativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Der Zug kommt um zehn Uhr in Berlin an.",
@@ -2906,8 +2819,7 @@
     "partizip": "abgefahren",
     "praet": "fuhr",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Der Zug fährt um acht Uhr ab.",
@@ -2931,8 +2843,7 @@
     "praet": "sah",
     "imperative": "Sieh",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Du siehst heute sehr müde aus.",
@@ -2956,8 +2867,7 @@
     "praet": "sah",
     "imperative": "Sieh",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Am Abend sehen wir zusammen fern.",
@@ -2977,8 +2887,7 @@
     "praet": "fand",
     "third": true,
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Das Konzert findet am Samstag statt.",
@@ -3036,8 +2945,7 @@
     "praet": "zog",
     "takes": "nach + Dativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Wir ziehen im Mai nach Berlin um.",
@@ -3057,8 +2965,7 @@
     "praet": "zog",
     "takes": "+ Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Ich ziehe heute eine warme Jacke an.",
@@ -3078,8 +2985,7 @@
     "praet": "zog",
     "takes": "+ Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Die Kinder ziehen die Schuhe aus.",
@@ -3123,8 +3029,7 @@
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Nimmst du einen Regenschirm mit?",
@@ -3258,8 +3163,7 @@
     "partizip": "zurückgekommen",
     "praet": "kam",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Wann kommst du zurück?",
@@ -3278,8 +3182,7 @@
     "partizip": "umgestiegen",
     "praet": "stieg",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "In Köln steigen wir um.",
@@ -3302,8 +3205,7 @@
     "partizip": "angehalten",
     "praet": "hielt",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Der Bus hält an der Haltestelle an.",
@@ -3361,8 +3263,7 @@
     "praet": "tat",
     "takes": "+ Dativ",
     "flags": [
-      "sep",
-      "irr"
+      "sep"
     ],
     "example": {
       "de": "Mein Kopf tut weh.",

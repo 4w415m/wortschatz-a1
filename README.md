@@ -79,7 +79,7 @@ A verb entry looks like this; every field after `en` is optional.
                                           also decides the Kasus row on the front
   "third": true,                          used only in the third person: the table
                                           shows es / sie, no imperative
-  "flags": ["sep"],                       core · irr · modal · sep · insep
+  "flags": ["sep"],                       core · modal · sep · insep
   "example": { "de": "…", "en": "…" },
   "examplePerfekt": { "de": "…", "en": "…" },   the same idea in the past; on
                                           möchten it uses wollte instead
@@ -102,9 +102,13 @@ the card offers next to the right one.
 
 The front of a verb card asks for the Perfekt auxiliary, the case the verb
 takes (Akkusativ, Dativ, or both for geben-type verbs; no row where `takes`
-is Nominativ or absent), regular or irregular, and separable or not. The last
-answer flips the card. Each row is derived from the fields above, so a data
-fix changes the quiz too.
+is Nominativ or absent), the verb type (schwach, stark or gemischt), and the
+participle itself, picked from the right form and two wrong ones built from
+typical mistakes (a misplaced ge-, the wrong ending, the wrong vowel). The
+last answer flips the card. Each row is derived from the fields above, so a
+data fix changes the quiz too. Whether the present tense is irregular is not
+stored either: a verb with `stemChange` or `forms` gets the "Präsens
+unregelmäßig" tag on the back.
 
 The original version stored progress by array position, which meant any edit to
 a list silently reassigned someone's progress to different words.

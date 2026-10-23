@@ -37,7 +37,7 @@ for (const cat of CATS) {
 
 /* ---- verbs ---- */
 const verbs = read("data/verbs.json");
-const FLAGS = new Set(["core", "irr", "sep", "insep", "modal"]);
+const FLAGS = new Set(["core", "sep", "insep", "modal"]);
 const lastVowel = (s) => (s.match(/[aeiouäöü]+/g) || []).pop();
 const glosses = {}, senses = {};
 
