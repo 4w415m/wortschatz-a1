@@ -1,4 +1,4 @@
-/* Present tense and imperative for the A1 verb list. */
+/* Present tense, imperative and Präteritum for the A1 verb list. */
 
 export const PERS = ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"];
 
@@ -24,13 +24,13 @@ export function splitSeparable(verb) {
 }
 
 const isEln = (base) => /eln$/.test(base);
-const stemOf = (base) =>
+export const stemOf = (base) =>
   /(eln|ern)$/.test(base) ? base.slice(0, -1)
     : base.endsWith("en") ? base.slice(0, -2)
     : base.replace(/n$/, "");
 
 /* arbeiten -> du arbeitest: a spoken -e- appears after -d/-t and some clusters */
-const needsE = (stem) => /[dt]$/.test(stem) || /[bcdfgkpstwz][mn]$/.test(stem);
+export const needsE = (stem) => /[dt]$/.test(stem) || /[bcdfgkpstwz][mn]$/.test(stem);
 /* heißen -> du heißt: the -s- of -st merges into an existing sibilant */
 const sibilant = (stem) => /[sßxz]$/.test(stem);
 
@@ -104,4 +104,31 @@ export function imperative(verb) {
     cap(bare(verb)[4]) + (refl ? " " + refl[4] : "") + tail,
     cap(base) + " Sie" + (refl ? " sich" : "") + tail,
   ];
+}
+
+/* ---- Präteritum ----
+   Weak verbs are fully regular (lernte, arbeitete), so only strong and mixed
+   verbs store their form: verb.praet is the er/sie/es form of the base verb
+   (stand, sang, brachte). verb.praeteritum, six forms, is a full override and
+   is used verbatim (möchten, which borrows wollte). */
+
+/* The weak er/sie/es form: stem + -te, or -ete where the present needs its -e-. */
+export function regularPraet3(verb) {
+  const stem = stemOf(splitSeparable(verb)[1]);
+  return stem + (needsE(stem) ? "ete" : "te");
+}
+
+export const praet3 = (verb) =>
+  verb.praet ?? (verb.praeteritum ? verb.praeteritum[2] : regularPraet3(verb));
+
+/* The six forms, in PERS order, dressed like the present tense. From the
+   er/sie/es form p: du adds -st (-est after d, t, s, ß), ihr adds -t (-et after
+   d, t), wir/sie add -en (-n when p already ends in -e: lernte, wurde). */
+export function praeteritum(verb) {
+  if (verb.praeteritum) return verb.praeteritum.slice();
+  const p = praet3(verb);
+  const du = p + (/[dtsß]$/.test(p) ? "est" : "st");
+  const plural = p + (p.endsWith("e") ? "n" : "en");
+  const ihr = p + (/[dt]$/.test(p) ? "et" : "t");
+  return dress(verb, [p, du, p, plural, ihr, plural]);
 }
