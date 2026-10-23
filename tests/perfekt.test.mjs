@@ -215,3 +215,8 @@ test("geschrien is cut as schrie + n, so schreien joins the ei–ie–ie family"
   assert.equal(family(schreien), "ei–ie–ie");
   assert.deepEqual(distractors(schreien), ["geschreit", "geschrein"]);
 });
+
+test("-eln and -ern verbs get the wrong form a learner would write", () => {
+  assert.deepEqual(distractors(V({ infinitive: "wechseln", aux: "hat", partizip: "gewechselt" })), ["gewechseln", "wechselt"]);
+  assert.deepEqual(distractors(V({ infinitive: "wandern", aux: "ist", partizip: "gewandert" })), ["gewandern", "wandert"]);
+});

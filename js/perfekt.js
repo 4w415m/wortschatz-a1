@@ -188,7 +188,10 @@ export function distractors(verb) {
   const geMisplaced = sep ? "ge" + sep + withoutGe.slice(sep.length)
     : rule.kind === "praefix" || rule.kind === "ieren" ? "ge" + pp
     : hasGe ? withoutGe : null;
-  const wrongEnding = rebuild(segs, { ending: /^e?n$/.test(e.slice(1)) ? (needsE(stem) ? "et" : "t") : "en" });
+  /* A learner who treats wechseln as strong writes gewechseln, not gewechselen:
+     after -el and -er the wrong -en is spelled -n, as in the infinitive. */
+  const wrongEnding = rebuild(segs, { ending: /^e?n$/.test(e.slice(1)) ? (needsE(stem) ? "et" : "t")
+    : /(eln|ern)$/.test(base) ? "n" : "en" });
   const wrongVowel = (() => {
     if (t === "schwach") return null;
     const swapVowel = (v) => rebuild(segs, { stem: stem.replace(new RegExp("(" + VOWELS.source + ")(?!.*" + VOWELS.source + ")"), v) });
