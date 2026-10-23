@@ -45,6 +45,8 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .bar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin-top:11px;background:#2A3242}
 .bar i{display:block;height:100%}
 .legend{display:flex;gap:14px;font-size:11px;color:var(--dim);margin-top:7px}
+.rules-link{display:block;width:100%;text-align:right;color:var(--muted);font-size:13px;padding:0 6px 14px;margin-top:-6px}
+.rules-link:hover{color:var(--text)}
 .legend b{font-weight:400}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
 
@@ -165,6 +167,18 @@ textarea{width:100%;height:130px;background:var(--surface);border:1px solid var(
 .flagged{font-size:14px;padding:9px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
 .flagged span{font-family:var(--serif)}
 .flagged em{font-style:normal;color:var(--muted);margin-left:auto;font-size:12.5px}
+/* ---- rules page and the sheet that shows it over a card ---- */
+.rules h2{font-family:var(--serif);font-size:20px;margin:22px 0 8px}
+.rules h2:first-child{margin-top:4px}
+.rules h3{font-size:14px;font-weight:600;margin:14px 0 4px}
+.rules p,.rules li{color:var(--muted);font-size:14px;line-height:1.5;margin:4px 0}
+.rules ul{padding-left:18px;margin:4px 0}
+.rules table{border-collapse:collapse;font-size:14px;color:var(--muted)}
+.rules td{padding:4px 10px 4px 0;vertical-align:top}
+.rules td:first-child{color:var(--text);font-family:var(--serif);white-space:nowrap}
+.sheet{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;justify-content:center;z-index:10}
+.sheet-body{position:relative;background:var(--surface);width:100%;max-width:540px;max-height:88vh;overflow-y:auto;overscroll-behavior:contain;border-radius:16px 16px 0 0;padding:16px 18px 28px}
+.sheet .close{position:absolute;top:8px;right:8px}
 .boot{padding:34px 22px;max-width:34em}
 .boot h1{font-family:var(--serif);font-size:28px;margin:0 0 14px}
 .boot p{color:var(--muted);font-size:15px;line-height:1.6}

@@ -21,7 +21,7 @@ js/
   conjugate.js        present tense, imperative and Präteritum
   perfekt.js          participle analysis: type, ge- rule, segments, vowel family, distractors
   sync.js             sync codes, merge, transport
-  views/              home.js · study.js · settings.js
+  views/              home.js · study.js · settings.js · rules.js
 data/*.json           the word lists
 worker/               Cloudflare Worker for cross-device sync
 tools/check-data.mjs  validates data/ and pins what the verb modules derive
@@ -93,6 +93,12 @@ takes no ge-, and it prints the "nicht trennbar" tag. Separable verbs are split
 by the prefix list in `conjugate.js`; `check-data.mjs` fails if a `sep` verb has
 a prefix that list does not know, or an `insep` verb a prefix the other list
 does not know.
+
+The rules themselves have a page, `#/regeln`, rendered from the live list by
+`views/rules.js`: the three steps, haben or sein, the three types with their
+counts, and the vowel families with this list's verbs under them. It is linked
+from the Verben group on the home screen and opens as a sheet over any verb
+card (the `?` in the top bar), so looking something up never ends the session.
 
 Everything else about the Perfekt is derived, not stored: `perfekt.js` works
 out whether a verb is schwach, stark or gemischt (the participle either is the

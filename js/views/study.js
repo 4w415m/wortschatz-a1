@@ -7,6 +7,7 @@ import { W } from "../data.js";
 import { present, PERS, imperative, praeteritum } from "../conjugate.js";
 import { typeOf, ppOptions, segments, reason, stammformen, familyMates } from "../perfekt.js";
 import { back, go } from "../router.js";
+import { rulesHtml } from "./rules.js";
 
 let app = null;
 let queue = [], cur = null, cat = "all";
@@ -99,6 +100,7 @@ function drawCard() {
     '<div class="top"><button class="iconbtn" data-back aria-label="Zurück">‹</button>' +
     '<span class="ttl">' + esc(catName(cat === "all" ? w.cat : cat).split(",")[0]) + "</span>" +
     '<span class="counts"><b>' + left + "</b> übrig</span>" +
+    (w.cat === "verbs" ? '<button class="iconbtn" data-rules aria-label="Regeln">?</button>' : "") +
     '<button class="iconbtn flagbtn' + (flagged ? " on" : "") +
       '" data-flag aria-label="Fehler melden">⚑</button></div>' +
     '<div class="card"><div class="face" id="face"></div><div class="acts" id="acts"></div></div>';
@@ -109,8 +111,22 @@ function drawCard() {
     save();
     e.currentTarget.classList.toggle("on");
   };
+  const rulesBtn = app.querySelector("[data-rules]");
+  if (rulesBtn) rulesBtn.onclick = openRules;
 
   paint(produce, isNew);
+}
+
+/* The rules as a sheet over the card rather than a route: re-entering the
+   study route would rebuild the queue and lose the card, its picks and the
+   session count. */
+function openRules() {
+  const sheet = h('<div class="sheet" role="dialog" aria-label="Regeln"><div class="sheet-body">' +
+    '<button class="iconbtn close" data-close aria-label="Schließen">✕</button>' +
+    rulesHtml(W.verbs) + "</div></div>");
+  sheet.querySelector("[data-close]").onclick = () => sheet.remove();
+  sheet.onclick = (e) => { if (e.target === sheet) sheet.remove(); };
+  app.appendChild(sheet);
 }
 
 /* ---- the answer side, one shape per category ---- */
@@ -363,6 +379,9 @@ function paint(produce, isNew) {
 
 /* Desktop shortcuts: space/enter reveals, 1-4 grade. */
 document.addEventListener("keydown", (e) => {
+  /* While the rules sheet is open, Escape closes it and nothing else grades. */
+  const sheet = document.querySelector(".sheet");
+  if (sheet) { if (e.key === "Escape") sheet.remove(); return; }
   if (!cur || !document.getElementById("acts")) return;
   if (e.key === " " || e.key === "Enter") {
     const r = document.querySelector("[data-rev]");

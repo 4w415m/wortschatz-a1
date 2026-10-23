@@ -4,6 +4,7 @@ import { register, start, rerender, currentRoute } from "./router.js";
 import { home } from "./views/home.js";
 import { study } from "./views/study.js";
 import { settings } from "./views/settings.js";
+import { rules } from "./views/rules.js";
 import { syncEnabled, syncNow } from "./sync.js";
 
 const app = document.getElementById("app");
@@ -27,6 +28,7 @@ window.addEventListener("unhandledrejection", (e) => {
 register("home", () => home(app));
 register("study", (k) => study(k, app));
 register("settings", () => settings(app));
+register("regeln", () => rules(app));
 
 async function boot() {
   try {

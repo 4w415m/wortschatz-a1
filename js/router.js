@@ -24,6 +24,7 @@ function parse(hash) {
   if (!parts.length) return { name: "home" };
   if (parts[0] === "study" && parts[1]) return { name: "study", arg: decodeURIComponent(parts[1]) };
   if (parts[0] === "settings") return { name: "settings" };
+  if (parts[0] === "regeln") return { name: "regeln" };
   return { name: "home" };
 }
 

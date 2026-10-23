@@ -39,7 +39,11 @@ export function home(app) {
     "</div>";
 
   html += catButton("all", "alle sechs Gruppen zusammen");
-  for (const c of CATS) html += catButton(c.k, c.desc);
+  for (const c of CATS) {
+    html += catButton(c.k, c.desc);
+    /* The Perfekt rules sit under the group they explain. */
+    if (c.k === "verbs") html += '<button class="rules-link" data-go="regeln">Regeln: Perfekt &amp; Partizip II ›</button>';
+  }
 
   html += '<div class="legend" style="margin-top:16px">' +
     '<b><i class="dot" style="background:#2A3242"></i>neu</b>' +
@@ -49,5 +53,5 @@ export function home(app) {
 
   app.innerHTML = html;
   app.querySelectorAll("[data-cat]").forEach((b) => { b.onclick = () => go("study", b.dataset.cat); });
-  app.querySelector("[data-go=settings]").onclick = () => go("settings");
+  app.querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => go(b.dataset.go); });
 }
