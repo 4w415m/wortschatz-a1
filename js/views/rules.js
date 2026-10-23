@@ -7,7 +7,7 @@ import { esc } from "../dom.js";
 import { W } from "../data.js";
 import { back } from "../router.js";
 import { splitSeparable } from "../conjugate.js";
-import { typeOf, family, baseOf } from "../perfekt.js";
+import { typeOf, family, baseOf, INSEP_PREFIXES } from "../perfekt.js";
 
 const isCore = (v) => v.flags.includes("core");
 /* Stable: core verbs first, list order kept within each half. */
@@ -36,7 +36,7 @@ export function rulesHtml(verbs) {
     "<p>ge- appears only when the first syllable is stressed.</p><ul>" +
     "<li>No prefix: ge- in front — " + ex("lernen") + "</li>" +
     "<li>Ends in -ieren: no ge- — " + ex("studieren") + "</li>" +
-    "<li>Inseparable prefix (be-, emp-, ent-, er-, ge-, miss-, ver-, zer-): no ge- — " + ex("verstehen") + "</li>" +
+    "<li>Inseparable prefix (" + INSEP_PREFIXES.map((p) => p + "-").join(", ") + "): no ge- — " + ex("verstehen") + "</li>" +
     "<li>Separable prefix: ge- between prefix and stem — " + ex("aufstehen") + "</li></ul>" +
     "<h3>2 · Welche Endung?</h3><table>" +
     "<tr><td>schwach</td><td>-t, or -et after -d, -t and clusters</td><td>" + ex("arbeiten") + "</td></tr>" +
@@ -46,15 +46,18 @@ export function rulesHtml(verbs) {
     "<p>Weak: nothing, the form is fully predictable. Strong and mixed: the vowel changes and must be learned; the families below make that faster.</p>";
 
   h += "<h2>haben oder sein</h2>" +
-    "<p>haben by default, always with a direct object. sein for movement from A to B, for a change of state, and for sein, bleiben, werden.</p>" +
+    "<p>haben by default; a verb with a direct object always takes haben. sein for movement from A to B, for a change of state, for something that happens (passieren), and for sein, bleiben, werden.</p>" +
     '<p class="list">Mit sein in dieser Liste: ' +
     verbs.filter((v) => v.aux === "ist").map((v) => esc(v.infinitive)).join(" · ") + "</p>";
 
+  /* Examples with a regular present, so haben and sein do not head the
+     table right above the line that calls them fully irregular. */
   h += "<h2>Drei Typen</h2><table>";
   for (const t of ["schwach", "stark", "gemischt"]) {
     const list = ofType(t);
+    const plain = list.filter((v) => !v.forms && !v.stemChange);
     h += "<tr><td>" + t + "</td><td>" + list.length + "</td><td>" +
-      coreFirst(list).slice(0, 3).map((v) => esc(v.infinitive)).join(", ") + "</td></tr>";
+      coreFirst(plain).slice(0, 3).map((v) => esc(v.infinitive)).join(", ") + "</td></tr>";
   }
   h += "</table><p>Ganz unregelmäßig: sein · haben · werden · tun</p>";
 

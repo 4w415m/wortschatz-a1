@@ -36,3 +36,17 @@ test("the sein list and the examples come from the data", () => {
   assert.match(html, /verstehen → verstanden/);
   assert.equal((html.match(/<div class="rules">/g) || []).length, 1);
 });
+
+/* Follow-up, 2026-10-24 */
+test("type examples skip verbs with an irregular present", () => {
+  const rows = html.split("Drei Typen")[1].split("</table>")[0];
+  assert.match(rows, /schwach[\s\S]*?machen, sagen, lernen/);
+  assert.match(rows, /stark[\s\S]*?gehen, kommen, finden/);
+  assert.match(rows, /gemischt[\s\S]*?denken, kennen, bringen/);
+});
+
+test("the prefix list comes from the code and the auxiliary copy covers passieren", () => {
+  assert.match(html, /be-, emp-, ent-, er-, ge-, miss-, ver-, zer-, unter-, über-, wieder-/);
+  assert.match(html, /a verb with a direct object always takes haben/);
+  assert.match(html, /for something that happens \(passieren\)/);
+});
