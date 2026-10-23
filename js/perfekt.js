@@ -1,0 +1,96 @@
+/* What a verb's Partizip II tells the learner, derived from fields verbs.json
+   already has: the stored participle, the flags, and the stem rules in
+   conjugate.js. Nothing returned here is stored in the data.
+
+   The spreadsheet view of the Perfekt: three ordered steps.
+     1. Where does ge- go?  In front, after a separable prefix, or nowhere
+        (verbs in -ieren and verbs with an unstressed, inseparable prefix).
+     2. Which ending?       schwach -t/-et · gemischt -t · stark -en
+     3. What happens to the stem?  Nothing for schwach; a vowel change,
+        to be memorized, for stark and gemischt.
+   A verb is schwach exactly when applying steps 1 and 2 to an unchanged stem
+   reproduces its participle. */
+import { splitSeparable, stemOf, needsE } from "./conjugate.js";
+
+/* Prefixes that are never stressed, so the participle takes no ge-. Shared
+   with tools/check-data.mjs. */
+export const INSEP_PREFIXES = ["be", "emp", "ent", "er", "ge", "miss", "ver", "zer", "unter", "über", "wieder"];
+
+/* The closed set of mixed verbs (vowel change plus the weak -t): any other -t
+   participle that is not the weak form is a typo. Base verbs only; mitbringen
+   is checked through bringen. */
+export const MIXED_BASES = new Set(["können", "müssen", "dürfen", "mögen", "wissen", "denken", "kennen", "bringen", "rennen"]);
+
+/* "verstehen" yes, "gehen" and "geben" no: the prefix must leave a verb of at
+   least four letters, which is what tells er-klären from Erde-like stems. */
+const insepPrefixOf = (inf) =>
+  INSEP_PREFIXES.find((p) => inf.startsWith(p) && inf.length >= p.length + 4) ?? null;
+export const hasInsepPrefix = (inf) => insepPrefixOf(inf) !== null;
+
+/* The verb without its separable prefix. An inseparable verb is its own base:
+   verstehen does not share a participle shape with stehen. */
+export const baseOf = (verb) => splitSeparable(verb)[1];
+
+/* Step 1. kind: vorne · mitte · ieren · praefix. */
+export function geRule(verb) {
+  const [prefix, base] = splitSeparable(verb);
+  if (/ieren$/.test(base)) return { kind: "ieren", prefix: null, label: "kein ge- (-ieren)" };
+  const ip = verb.flags.includes("insep") ? insepPrefixOf(base) : null;
+  if (ip) return { kind: "praefix", prefix: ip, label: "kein ge- (Präfix " + ip + "-)" };
+  if (prefix) return { kind: "mitte", prefix, label: "ge- nach dem Präfix" };
+  return { kind: "vorne", prefix: null, label: "ge- vorne" };
+}
+
+/* Steps 1 and 2 applied to an unchanged stem: what the participle would be if
+   the verb were weak. */
+export function weakForm(verb) {
+  const [prefix, base] = splitSeparable(verb);
+  const stem = stemOf(base);
+  const { kind } = geRule(verb);
+  const ge = kind === "ieren" || kind === "praefix" ? "" : "ge";
+  return prefix + ge + stem + (needsE(stem) ? "et" : "t");
+}
+
+export function typeOf(verb) {
+  if (!verb.partizip) return null;
+  if (verb.partizip === weakForm(verb)) return "schwach";
+  return verb.partizip.endsWith("t") ? "gemischt" : "stark";
+}
+
+/* -t · -et · -en, or -n for getan, where the -e- of -en is swallowed. */
+export function ending(verb) {
+  const t = typeOf(verb);
+  if (!t) return null;
+  if (t === "schwach") return needsE(stemOf(baseOf(verb))) ? "-et" : "-t";
+  if (t === "gemischt") return "-t";
+  return verb.partizip.endsWith("en") ? "-en" : "-n";
+}
+
+/* The participle cut into prefix · ge · stem · ending, for the card to colour.
+   A separable prefix and an inseparable one are both "prefix". */
+export function segments(verb) {
+  if (!verb.partizip) return null;
+  const [sep] = splitSeparable(verb);
+  const rule = geRule(verb);
+  const out = [];
+  let rest = verb.partizip;
+  const take = (kind, text) => { out.push({ kind, text }); rest = rest.slice(text.length); };
+  if (sep && rest.startsWith(sep)) take("prefix", sep);
+  if (rule.kind === "praefix" && rest.startsWith(rule.prefix)) take("prefix", rule.prefix);
+  if ((rule.kind === "vorne" || rule.kind === "mitte") && rest.startsWith("ge")) take("ge", "ge");
+  const end = ending(verb).slice(1);
+  out.push({ kind: "stem", text: rest.slice(0, rest.length - end.length) });
+  out.push({ kind: "ending", text: end });
+  return out;
+}
+
+/* A -t participle that is not the weak form must belong to a known mixed verb;
+   anything else is a typo like "gelernet". */
+export function participleProblem(verb) {
+  if (!verb.partizip) return null;
+  if (typeOf(verb) === "gemischt" && !MIXED_BASES.has(baseOf(verb))) {
+    return "participle " + verb.partizip + " is neither the weak form " + weakForm(verb) +
+      ", nor strong (-en), nor a known mixed verb";
+  }
+  return null;
+}
