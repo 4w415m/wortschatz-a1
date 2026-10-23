@@ -3,12 +3,15 @@
      node tools/check-data.mjs            report problems, exit 1 on errors
      node tools/check-data.mjs --update   rewrite tools/verbs.snapshot.txt
 
-   The snapshot holds every verb's present tense and imperative. A rule change
-   in conjugate.js or a data edit that alters either shows up here as a diff,
-   so it can be checked on purpose rather than noticed on a card. */
-import { readFileSync, writeFileSync } from "node:fs";
+   The snapshot holds every verb's present tense, imperative, Perfekt (with
+   its derived type and vowel family), Präteritum and quiz distractors. A rule
+   change in conjugate.js or perfekt.js, or a data edit that alters any of
+   them, shows up here as a diff, so it can be checked on purpose rather than
+   noticed on a card. */
+import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { CATS } from "../js/categories.js";
-import { present, imperative, splitSeparable } from "../js/conjugate.js";
+import { present, imperative, splitSeparable, praeteritum, regularPraet3 } from "../js/conjugate.js";
+import { typeOf, participleProblem, hasInsepPrefix, INSEP_PREFIXES, family, distractors } from "../js/perfekt.js";
 
 const root = new URL("..", import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), "utf8"));
@@ -35,7 +38,6 @@ for (const cat of CATS) {
 /* ---- verbs ---- */
 const verbs = read("data/verbs.json");
 const FLAGS = new Set(["core", "irr", "sep", "insep", "modal"]);
-const INSEP = /^(be|ge|er|ver|zer|ent|emp|miss|unter|über|wieder).{4,}$/;
 const lastVowel = (s) => (s.match(/[aeiouäöü]+/g) || []).pop();
 const glosses = {}, senses = {};
 
@@ -55,7 +57,17 @@ for (const v of verbs) {
   if (v.takes !== undefined && typeof v.takes !== "string") err(at + ": takes is a string");
   if (has("sep") && has("insep")) err(at + ": both sep and insep");
   if (has("sep") && !splitSeparable(v)[0]) err(at + ": separable, but no prefix in conjugate.js matches");
-  if (!has("sep") && !has("insep") && INSEP.test(v.infinitive)) warn(at + ": looks prefixed; add the insep flag?");
+  if (!has("sep") && !has("insep") && hasInsepPrefix(v.infinitive)) warn(at + ": looks prefixed; add the insep flag?");
+  if (has("insep") && !hasInsepPrefix(v.infinitive)) err(at + ": insep, but no inseparable prefix (" + INSEP_PREFIXES.join(", ") + ")");
+
+  /* The participle must follow a known pattern: the weak form, a strong -en,
+     or the -t of one of the few mixed verbs. Anything else is a typo. Strong
+     and mixed verbs cannot derive their Präteritum, so they store it. */
+  const problem = participleProblem(v);
+  if (problem) err(at + ": " + problem);
+  if (v.praet !== undefined && typeof v.praet !== "string") err(at + ": praet is a string");
+  if (v.partizip && typeOf(v) !== "schwach" && !v.praet && !v.praeteritum) err(at + ": strong or mixed verb needs praet");
+  if (v.praet && v.praet === regularPraet3(v)) warn(at + ": praet is the regular form; drop it");
 
   /* The Perfekt sentence must actually contain the verb's Perfekt: a form of
      its auxiliary and the participle as a whole word. möchten, which has no
@@ -93,11 +105,22 @@ for (const [s, vs] of Object.entries(senses)) {
   if (vs.length > 1) warn(`verbs: shared first sense "${s}": ${vs.join(", ")}`);
 }
 
+/* ---- offline cache: every module must be listed, or it works online and
+   breaks offline ---- */
+const sw = readFileSync(new URL("sw.js", root), "utf8");
+for (const f of readdirSync(new URL("js/", root), { recursive: true })) {
+  if (f.endsWith(".js") && !sw.includes('"./js/' + f + '"')) err("sw.js: FILES lacks ./js/" + f);
+}
+
 /* ---- snapshot ---- */
 const lines = verbs.map((v) => {
   const imp = imperative(v);
+  const perf = v.partizip ? v.aux + " " + v.partizip + " · " + typeOf(v) + " · " + (family(v) ?? "–") : "–";
   return [v.infinitive, present(v).join(" · "),
-    "imperativ: " + (imp ? imp.join(" · ") : "-")].join(" | ");
+    "imperativ: " + (imp ? imp.join(" · ") : "-"),
+    "perfekt: " + perf,
+    "präteritum: " + praeteritum(v).join(" · "),
+    "distraktoren: " + (v.partizip ? distractors(v).join(" · ") : "–")].join(" | ");
 });
 const snapshot = new URL("tools/verbs.snapshot.txt", root);
 if (process.argv.includes("--update")) {

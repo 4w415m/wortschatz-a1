@@ -5,7 +5,7 @@ const FILES = [
   "./css/app.css",
   "./js/app.js", "./js/dom.js", "./js/router.js", "./js/config.js",
   "./js/categories.js", "./js/data.js", "./js/state.js", "./js/srs.js",
-  "./js/conjugate.js", "./js/sync.js",
+  "./js/conjugate.js", "./js/perfekt.js", "./js/sync.js",
   "./js/views/home.js", "./js/views/study.js", "./js/views/settings.js",
   "./data/nouns.json", "./data/verbs.json", "./data/adjectives.json",
   "./data/prepositions.json", "./data/function.json", "./data/other.json",

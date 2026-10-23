@@ -1,169 +1,169 @@
-sein | bin · bist · ist · sind · seid · sind | imperativ: Sei · Seid · Seien Sie
-haben | habe · hast · hat · haben · habt · haben | imperativ: Hab · Habt · Haben Sie
-werden | werde · wirst · wird · werden · werdet · werden | imperativ: Werde · Werdet · Werden Sie
-können | kann · kannst · kann · können · könnt · können | imperativ: -
-müssen | muss · musst · muss · müssen · müsst · müssen | imperativ: -
-wollen | will · willst · will · wollen · wollt · wollen | imperativ: -
-sollen | soll · sollst · soll · sollen · sollt · sollen | imperativ: -
-dürfen | darf · darfst · darf · dürfen · dürft · dürfen | imperativ: -
-mögen | mag · magst · mag · mögen · mögt · mögen | imperativ: -
-möchten | möchte · möchtest · möchte · möchten · möchtet · möchten | imperativ: -
-machen | mache · machst · macht · machen · macht · machen | imperativ: Mach · Macht · Machen Sie
-gehen | gehe · gehst · geht · gehen · geht · gehen | imperativ: Geh · Geht · Gehen Sie
-kommen | komme · kommst · kommt · kommen · kommt · kommen | imperativ: Komm · Kommt · Kommen Sie
-sehen | sehe · siehst · sieht · sehen · seht · sehen | imperativ: Sieh · Seht · Sehen Sie
-geben | gebe · gibst · gibt · geben · gebt · geben | imperativ: Gib · Gebt · Geben Sie
-sagen | sage · sagst · sagt · sagen · sagt · sagen | imperativ: Sag · Sagt · Sagen Sie
-wissen | weiß · weißt · weiß · wissen · wisst · wissen | imperativ: -
-finden | finde · findest · findet · finden · findet · finden | imperativ: Finde · Findet · Finden Sie
-nehmen | nehme · nimmst · nimmt · nehmen · nehmt · nehmen | imperativ: Nimm · Nehmt · Nehmen Sie
-sprechen | spreche · sprichst · spricht · sprechen · sprecht · sprechen | imperativ: Sprich · Sprecht · Sprechen Sie
-heißen | heiße · heißt · heißt · heißen · heißt · heißen | imperativ: Heiß · Heißt · Heißen Sie
-essen | esse · isst · isst · essen · esst · essen | imperativ: Iss · Esst · Essen Sie
-trinken | trinke · trinkst · trinkt · trinken · trinkt · trinken | imperativ: Trink · Trinkt · Trinken Sie
-schlafen | schlafe · schläfst · schläft · schlafen · schlaft · schlafen | imperativ: Schlaf · Schlaft · Schlafen Sie
-fahren | fahre · fährst · fährt · fahren · fahrt · fahren | imperativ: Fahr · Fahrt · Fahren Sie
-laufen | laufe · läufst · läuft · laufen · lauft · laufen | imperativ: Lauf · Lauft · Laufen Sie
-fliegen | fliege · fliegst · fliegt · fliegen · fliegt · fliegen | imperativ: Flieg · Fliegt · Fliegen Sie
-lesen | lese · liest · liest · lesen · lest · lesen | imperativ: Lies · Lest · Lesen Sie
-schreiben | schreibe · schreibst · schreibt · schreiben · schreibt · schreiben | imperativ: Schreib · Schreibt · Schreiben Sie
-lernen | lerne · lernst · lernt · lernen · lernt · lernen | imperativ: Lern · Lernt · Lernen Sie
-arbeiten | arbeite · arbeitest · arbeitet · arbeiten · arbeitet · arbeiten | imperativ: Arbeite · Arbeitet · Arbeiten Sie
-wohnen | wohne · wohnst · wohnt · wohnen · wohnt · wohnen | imperativ: Wohn · Wohnt · Wohnen Sie
-leben | lebe · lebst · lebt · leben · lebt · leben | imperativ: Leb · Lebt · Leben Sie
-spielen | spiele · spielst · spielt · spielen · spielt · spielen | imperativ: Spiel · Spielt · Spielen Sie
-hören | höre · hörst · hört · hören · hört · hören | imperativ: Hör · Hört · Hören Sie
-kaufen | kaufe · kaufst · kauft · kaufen · kauft · kaufen | imperativ: Kauf · Kauft · Kaufen Sie
-verkaufen | verkaufe · verkaufst · verkauft · verkaufen · verkauft · verkaufen | imperativ: Verkauf · Verkauft · Verkaufen Sie
-kosten | koste · kostest · kostet · kosten · kostet · kosten | imperativ: -
-bezahlen | bezahle · bezahlst · bezahlt · bezahlen · bezahlt · bezahlen | imperativ: Bezahl · Bezahlt · Bezahlen Sie
-brauchen | brauche · brauchst · braucht · brauchen · braucht · brauchen | imperativ: Brauch · Braucht · Brauchen Sie
-suchen | suche · suchst · sucht · suchen · sucht · suchen | imperativ: Such · Sucht · Suchen Sie
-fragen | frage · fragst · fragt · fragen · fragt · fragen | imperativ: Frag · Fragt · Fragen Sie
-antworten | antworte · antwortest · antwortet · antworten · antwortet · antworten | imperativ: Antworte · Antwortet · Antworten Sie
-verstehen | verstehe · verstehst · versteht · verstehen · versteht · verstehen | imperativ: Versteh · Versteht · Verstehen Sie
-denken | denke · denkst · denkt · denken · denkt · denken | imperativ: Denk · Denkt · Denken Sie
-glauben | glaube · glaubst · glaubt · glauben · glaubt · glauben | imperativ: Glaub · Glaubt · Glauben Sie
-meinen | meine · meinst · meint · meinen · meint · meinen | imperativ: Mein · Meint · Meinen Sie
-kennen | kenne · kennst · kennt · kennen · kennt · kennen | imperativ: Kenn · Kennt · Kennen Sie
-lieben | liebe · liebst · liebt · lieben · liebt · lieben | imperativ: Lieb · Liebt · Lieben Sie
-warten | warte · wartest · wartet · warten · wartet · warten | imperativ: Warte · Wartet · Warten Sie
-bleiben | bleibe · bleibst · bleibt · bleiben · bleibt · bleiben | imperativ: Bleib · Bleibt · Bleiben Sie
-stehen | stehe · stehst · steht · stehen · steht · stehen | imperativ: Steh · Steht · Stehen Sie
-sitzen | sitze · sitzt · sitzt · sitzen · sitzt · sitzen | imperativ: Sitz · Sitzt · Sitzen Sie
-liegen | liege · liegst · liegt · liegen · liegt · liegen | imperativ: Lieg · Liegt · Liegen Sie
-legen | lege · legst · legt · legen · legt · legen | imperativ: Leg · Legt · Legen Sie
-stellen | stelle · stellst · stellt · stellen · stellt · stellen | imperativ: Stell · Stellt · Stellen Sie
-setzen | setze mich · setzt dich · setzt sich · setzen uns · setzt euch · setzen sich | imperativ: Setz dich · Setzt euch · Setzen Sie sich
-öffnen | öffne · öffnest · öffnet · öffnen · öffnet · öffnen | imperativ: Öffne · Öffnet · Öffnen Sie
-schließen | schließe · schließt · schließt · schließen · schließt · schließen | imperativ: Schließ · Schließt · Schließen Sie
-beginnen | beginne · beginnst · beginnt · beginnen · beginnt · beginnen | imperativ: Beginn · Beginnt · Beginnen Sie
-helfen | helfe · hilfst · hilft · helfen · helft · helfen | imperativ: Hilf · Helft · Helfen Sie
-danken | danke · dankst · dankt · danken · dankt · danken | imperativ: Dank · Dankt · Danken Sie
-bringen | bringe · bringst · bringt · bringen · bringt · bringen | imperativ: Bring · Bringt · Bringen Sie
-holen | hole · holst · holt · holen · holt · holen | imperativ: Hol · Holt · Holen Sie
-tragen | trage · trägst · trägt · tragen · tragt · tragen | imperativ: Trag · Tragt · Tragen Sie
-bekommen | bekomme · bekommst · bekommt · bekommen · bekommt · bekommen | imperativ: Bekomm · Bekommt · Bekommen Sie
-schenken | schenke · schenkst · schenkt · schenken · schenkt · schenken | imperativ: Schenk · Schenkt · Schenken Sie
-zeigen | zeige · zeigst · zeigt · zeigen · zeigt · zeigen | imperativ: Zeig · Zeigt · Zeigen Sie
-erklären | erkläre · erklärst · erklärt · erklären · erklärt · erklären | imperativ: Erklär · Erklärt · Erklären Sie
-üben | übe · übst · übt · üben · übt · üben | imperativ: Üb · Übt · Üben Sie
-wiederholen | wiederhole · wiederholst · wiederholt · wiederholen · wiederholt · wiederholen | imperativ: Wiederhol · Wiederholt · Wiederholen Sie
-vergessen | vergesse · vergisst · vergisst · vergessen · vergesst · vergessen | imperativ: Vergiss · Vergesst · Vergessen Sie
-treffen | treffe · triffst · trifft · treffen · trefft · treffen | imperativ: Triff · Trefft · Treffen Sie
-besuchen | besuche · besuchst · besucht · besuchen · besucht · besuchen | imperativ: Besuch · Besucht · Besuchen Sie
-reisen | reise · reist · reist · reisen · reist · reisen | imperativ: Reis · Reist · Reisen Sie
-wandern | wandere · wanderst · wandert · wandern · wandert · wandern | imperativ: Wandere · Wandert · Wandern Sie
-schwimmen | schwimme · schwimmst · schwimmt · schwimmen · schwimmt · schwimmen | imperativ: Schwimm · Schwimmt · Schwimmen Sie
-tanzen | tanze · tanzt · tanzt · tanzen · tanzt · tanzen | imperativ: Tanz · Tanzt · Tanzen Sie
-singen | singe · singst · singt · singen · singt · singen | imperativ: Sing · Singt · Singen Sie
-kochen | koche · kochst · kocht · kochen · kocht · kochen | imperativ: Koch · Kocht · Kochen Sie
-backen | backe · backst · backt · backen · backt · backen | imperativ: Back · Backt · Backen Sie
-putzen | putze · putzt · putzt · putzen · putzt · putzen | imperativ: Putz · Putzt · Putzen Sie
-waschen | wasche · wäschst · wäscht · waschen · wascht · waschen | imperativ: Wasch · Wascht · Waschen Sie
-duschen | dusche · duschst · duscht · duschen · duscht · duschen | imperativ: Dusch · Duscht · Duschen Sie
-ziehen | ziehe · ziehst · zieht · ziehen · zieht · ziehen | imperativ: Zieh · Zieht · Ziehen Sie
-gefallen | gefalle · gefällst · gefällt · gefallen · gefallt · gefallen | imperativ: -
-schmecken | schmecke · schmeckst · schmeckt · schmecken · schmeckt · schmecken | imperativ: -
-passen | passe · passt · passt · passen · passt · passen | imperativ: -
-gehören | gehöre · gehörst · gehört · gehören · gehört · gehören | imperativ: -
-funktionieren | funktioniere · funktionierst · funktioniert · funktionieren · funktioniert · funktionieren | imperativ: -
-probieren | probiere · probierst · probiert · probieren · probiert · probieren | imperativ: Probier · Probiert · Probieren Sie
-versuchen | versuche · versuchst · versucht · versuchen · versucht · versuchen | imperativ: Versuch · Versucht · Versuchen Sie
-entschuldigen | entschuldige · entschuldigst · entschuldigt · entschuldigen · entschuldigt · entschuldigen | imperativ: Entschuldige · Entschuldigt · Entschuldigen Sie
-schicken | schicke · schickst · schickt · schicken · schickt · schicken | imperativ: Schick · Schickt · Schicken Sie
-bestellen | bestelle · bestellst · bestellt · bestellen · bestellt · bestellen | imperativ: Bestell · Bestellt · Bestellen Sie
-buchen | buche · buchst · bucht · buchen · bucht · buchen | imperativ: Buch · Bucht · Buchen Sie
-reservieren | reserviere · reservierst · reserviert · reservieren · reserviert · reservieren | imperativ: Reservier · Reserviert · Reservieren Sie
-verlieren | verliere · verlierst · verliert · verlieren · verliert · verlieren | imperativ: Verlier · Verliert · Verlieren Sie
-gewinnen | gewinne · gewinnst · gewinnt · gewinnen · gewinnt · gewinnen | imperativ: Gewinn · Gewinnt · Gewinnen Sie
-rauchen | rauche · rauchst · raucht · rauchen · raucht · rauchen | imperativ: Rauch · Raucht · Rauchen Sie
-sparen | spare · sparst · spart · sparen · spart · sparen | imperativ: Spar · Spart · Sparen Sie
-verdienen | verdiene · verdienst · verdient · verdienen · verdient · verdienen | imperativ: Verdien · Verdient · Verdienen Sie
-studieren | studiere · studierst · studiert · studieren · studiert · studieren | imperativ: Studier · Studiert · Studieren Sie
-unterschreiben | unterschreibe · unterschreibst · unterschreibt · unterschreiben · unterschreibt · unterschreiben | imperativ: Unterschreib · Unterschreibt · Unterschreiben Sie
-wechseln | wechsle · wechselst · wechselt · wechseln · wechselt · wechseln | imperativ: Wechsle · Wechselt · Wechseln Sie
-ändern | ändere · änderst · ändert · ändern · ändert · ändern | imperativ: Ändere · Ändert · Ändern Sie
-dauern | dauere · dauerst · dauert · dauern · dauert · dauern | imperativ: -
-lachen | lache · lachst · lacht · lachen · lacht · lachen | imperativ: Lach · Lacht · Lachen Sie
-weinen | weine · weinst · weint · weinen · weint · weinen | imperativ: Wein · Weint · Weinen Sie
-hoffen | hoffe · hoffst · hofft · hoffen · hofft · hoffen | imperativ: Hoff · Hofft · Hoffen Sie
-lassen | lasse · lässt · lässt · lassen · lasst · lassen | imperativ: Lass · Lasst · Lassen Sie
-tun | tue · tust · tut · tun · tut · tun | imperativ: Tu · Tut · Tun Sie
-rufen | rufe · rufst · ruft · rufen · ruft · rufen | imperativ: Ruf · Ruft · Rufen Sie
-bedeuten | bedeute · bedeutest · bedeutet · bedeuten · bedeutet · bedeuten | imperativ: -
-benutzen | benutze · benutzt · benutzt · benutzen · benutzt · benutzen | imperativ: Benutz · Benutzt · Benutzen Sie
-telefonieren | telefoniere · telefonierst · telefoniert · telefonieren · telefoniert · telefonieren | imperativ: Telefonier · Telefoniert · Telefonieren Sie
-passieren | passiere · passierst · passiert · passieren · passiert · passieren | imperativ: -
-parken | parke · parkst · parkt · parken · parkt · parken | imperativ: Park · Parkt · Parken Sie
-wünschen | wünsche · wünschst · wünscht · wünschen · wünscht · wünschen | imperativ: Wünsch · Wünscht · Wünschen Sie
-frühstücken | frühstücke · frühstückst · frühstückt · frühstücken · frühstückt · frühstücken | imperativ: Frühstück · Frühstückt · Frühstücken Sie
-feiern | feiere · feierst · feiert · feiern · feiert · feiern | imperativ: Feiere · Feiert · Feiern Sie
-fehlen | fehle · fehlst · fehlt · fehlen · fehlt · fehlen | imperativ: Fehl · Fehlt · Fehlen Sie
-freuen | freue mich · freust dich · freut sich · freuen uns · freut euch · freuen sich | imperativ: Freu dich · Freut euch · Freuen Sie sich
-regnen | regne · regnest · regnet · regnen · regnet · regnen | imperativ: -
-schneien | schneie · schneist · schneit · schneien · schneit · schneien | imperativ: -
-scheinen | scheine · scheinst · scheint · scheinen · scheint · scheinen | imperativ: -
-zahlen | zahle · zahlst · zahlt · zahlen · zahlt · zahlen | imperativ: Zahl · Zahlt · Zahlen Sie
-füllen | fülle · füllst · füllt · füllen · füllt · füllen | imperativ: Füll · Füllt · Füllen Sie
-senden | sende · sendest · sendet · senden · sendet · senden | imperativ: Sende · Sendet · Senden Sie
-rennen | renne · rennst · rennt · rennen · rennt · rennen | imperativ: Renn · Rennt · Rennen Sie
-schreien | schreie · schreist · schreit · schreien · schreit · schreien | imperativ: Schrei · Schreit · Schreien Sie
-lächeln | lächle · lächelst · lächelt · lächeln · lächelt · lächeln | imperativ: Lächle · Lächelt · Lächeln Sie
-gebrauchen | gebrauche · gebrauchst · gebraucht · gebrauchen · gebraucht · gebrauchen | imperativ: Gebrauch · Gebraucht · Gebrauchen Sie
-speichern | speichere · speicherst · speichert · speichern · speichert · speichern | imperativ: Speichere · Speichert · Speichern Sie
-retten | rette · rettest · rettet · retten · rettet · retten | imperativ: Rette · Rettet · Retten Sie
-aufstehen | stehe auf · stehst auf · steht auf · stehen auf · steht auf · stehen auf | imperativ: Steh auf · Steht auf · Stehen Sie auf
-anfangen | fange an · fängst an · fängt an · fangen an · fangt an · fangen an | imperativ: Fang an · Fangt an · Fangen Sie an
-aufhören | höre auf · hörst auf · hört auf · hören auf · hört auf · hören auf | imperativ: Hör auf · Hört auf · Hören Sie auf
-einkaufen | kaufe ein · kaufst ein · kauft ein · kaufen ein · kauft ein · kaufen ein | imperativ: Kauf ein · Kauft ein · Kaufen Sie ein
-einladen | lade ein · lädst ein · lädt ein · laden ein · ladet ein · laden ein | imperativ: Lade ein · Ladet ein · Laden Sie ein
-anrufen | rufe an · rufst an · ruft an · rufen an · ruft an · rufen an | imperativ: Ruf an · Ruft an · Rufen Sie an
-aufmachen | mache auf · machst auf · macht auf · machen auf · macht auf · machen auf | imperativ: Mach auf · Macht auf · Machen Sie auf
-zumachen | mache zu · machst zu · macht zu · machen zu · macht zu · machen zu | imperativ: Mach zu · Macht zu · Machen Sie zu
-mitkommen | komme mit · kommst mit · kommt mit · kommen mit · kommt mit · kommen mit | imperativ: Komm mit · Kommt mit · Kommen Sie mit
-mitbringen | bringe mit · bringst mit · bringt mit · bringen mit · bringt mit · bringen mit | imperativ: Bring mit · Bringt mit · Bringen Sie mit
-ankommen | komme an · kommst an · kommt an · kommen an · kommt an · kommen an | imperativ: Komm an · Kommt an · Kommen Sie an
-abfahren | fahre ab · fährst ab · fährt ab · fahren ab · fahrt ab · fahren ab | imperativ: Fahr ab · Fahrt ab · Fahren Sie ab
-aussehen | sehe aus · siehst aus · sieht aus · sehen aus · seht aus · sehen aus | imperativ: Sieh aus · Seht aus · Sehen Sie aus
-fernsehen | sehe fern · siehst fern · sieht fern · sehen fern · seht fern · sehen fern | imperativ: Sieh fern · Seht fern · Sehen Sie fern
-stattfinden | finde statt · findest statt · findet statt · finden statt · findet statt · finden statt | imperativ: -
-vorstellen | stelle vor · stellst vor · stellt vor · stellen vor · stellt vor · stellen vor | imperativ: Stell vor · Stellt vor · Stellen Sie vor
-ausfüllen | fülle aus · füllst aus · füllt aus · füllen aus · füllt aus · füllen aus | imperativ: Füll aus · Füllt aus · Füllen Sie aus
-umziehen | ziehe um · ziehst um · zieht um · ziehen um · zieht um · ziehen um | imperativ: Zieh um · Zieht um · Ziehen Sie um
-anziehen | ziehe an · ziehst an · zieht an · ziehen an · zieht an · ziehen an | imperativ: Zieh an · Zieht an · Ziehen Sie an
-ausziehen | ziehe aus · ziehst aus · zieht aus · ziehen aus · zieht aus · ziehen aus | imperativ: Zieh aus · Zieht aus · Ziehen Sie aus
-kennenlernen | lerne kennen · lernst kennen · lernt kennen · lernen kennen · lernt kennen · lernen kennen | imperativ: Lern kennen · Lernt kennen · Lernen Sie kennen
-mitnehmen | nehme mit · nimmst mit · nimmt mit · nehmen mit · nehmt mit · nehmen mit | imperativ: Nimm mit · Nehmt mit · Nehmen Sie mit
-abholen | hole ab · holst ab · holt ab · holen ab · holt ab · holen ab | imperativ: Hol ab · Holt ab · Holen Sie ab
-zuhören | höre zu · hörst zu · hört zu · hören zu · hört zu · hören zu | imperativ: Hör zu · Hört zu · Hören Sie zu
-aufräumen | räume auf · räumst auf · räumt auf · räumen auf · räumt auf · räumen auf | imperativ: Räum auf · Räumt auf · Räumen Sie auf
-anmachen | mache an · machst an · macht an · machen an · macht an · machen an | imperativ: Mach an · Macht an · Machen Sie an
-ausmachen | mache aus · machst aus · macht aus · machen aus · macht aus · machen aus | imperativ: Mach aus · Macht aus · Machen Sie aus
-anmelden | melde mich an · meldest dich an · meldet sich an · melden uns an · meldet euch an · melden sich an | imperativ: Melde dich an · Meldet euch an · Melden Sie sich an
-zurückkommen | komme zurück · kommst zurück · kommt zurück · kommen zurück · kommt zurück · kommen zurück | imperativ: Komm zurück · Kommt zurück · Kommen Sie zurück
-umsteigen | steige um · steigst um · steigt um · steigen um · steigt um · steigen um | imperativ: Steig um · Steigt um · Steigen Sie um
-anhalten | halte an · hältst an · hält an · halten an · haltet an · halten an | imperativ: Halte an · Haltet an · Halten Sie an
-anprobieren | probiere an · probierst an · probiert an · probieren an · probiert an · probieren an | imperativ: Probier an · Probiert an · Probieren Sie an
-ausprobieren | probiere aus · probierst aus · probiert aus · probieren aus · probiert aus · probieren aus | imperativ: Probier aus · Probiert aus · Probieren Sie aus
-wehtun | tue weh · tust weh · tut weh · tun weh · tut weh · tun weh | imperativ: Tu weh · Tut weh · Tun Sie weh
+sein | bin · bist · ist · sind · seid · sind | imperativ: Sei · Seid · Seien Sie | perfekt: ist gewesen · stark · ei–a–e | präteritum: war · warst · war · waren · wart · waren | distraktoren: geseit · gewasen
+haben | habe · hast · hat · haben · habt · haben | imperativ: Hab · Habt · Haben Sie | perfekt: hat gehabt · schwach · – | präteritum: hatte · hattest · hatte · hatten · hattet · hatten | distraktoren: gehaben · habt
+werden | werde · wirst · wird · werden · werdet · werden | imperativ: Werde · Werdet · Werden Sie | perfekt: ist geworden · stark · e–u–o | präteritum: wurde · wurdest · wurde · wurden · wurdet · wurden | distraktoren: gewerdet · gewurden
+können | kann · kannst · kann · können · könnt · können | imperativ: - | perfekt: hat gekonnt · gemischt · ö–o–o | präteritum: konnte · konntest · konnte · konnten · konntet · konnten | distraktoren: gekönnt · gekonnen
+müssen | muss · musst · muss · müssen · müsst · müssen | imperativ: - | perfekt: hat gemusst · gemischt · ü–u–u | präteritum: musste · musstest · musste · mussten · musstet · mussten | distraktoren: gemüsst · gemussen
+wollen | will · willst · will · wollen · wollt · wollen | imperativ: - | perfekt: hat gewollt · schwach · – | präteritum: wollte · wolltest · wollte · wollten · wolltet · wollten | distraktoren: gewollen · wollt
+sollen | soll · sollst · soll · sollen · sollt · sollen | imperativ: - | perfekt: hat gesollt · schwach · – | präteritum: sollte · solltest · sollte · sollten · solltet · sollten | distraktoren: gesollen · sollt
+dürfen | darf · darfst · darf · dürfen · dürft · dürfen | imperativ: - | perfekt: hat gedurft · gemischt · ü–u–u | präteritum: durfte · durftest · durfte · durften · durftet · durften | distraktoren: gedürft · gedurfen
+mögen | mag · magst · mag · mögen · mögt · mögen | imperativ: - | perfekt: hat gemocht · gemischt · ö–o–o | präteritum: mochte · mochtest · mochte · mochten · mochtet · mochten | distraktoren: gemögt · gemochen
+möchten | möchte · möchtest · möchte · möchten · möchtet · möchten | imperativ: - | perfekt: – | präteritum: wollte · wolltest · wollte · wollten · wolltet · wollten | distraktoren: –
+machen | mache · machst · macht · machen · macht · machen | imperativ: Mach · Macht · Machen Sie | perfekt: hat gemacht · schwach · – | präteritum: machte · machtest · machte · machten · machtet · machten | distraktoren: gemachen · macht
+gehen | gehe · gehst · geht · gehen · geht · gehen | imperativ: Geh · Geht · Gehen Sie | perfekt: ist gegangen · stark · e–i–a | präteritum: ging · gingst · ging · gingen · gingt · gingen | distraktoren: gegeht · gegingen
+kommen | komme · kommst · kommt · kommen · kommt · kommen | imperativ: Komm · Kommt · Kommen Sie | perfekt: ist gekommen · stark · o–a–o | präteritum: kam · kamst · kam · kamen · kamt · kamen | distraktoren: gekommt · gekammen
+sehen | sehe · siehst · sieht · sehen · seht · sehen | imperativ: Sieh · Seht · Sehen Sie | perfekt: hat gesehen · stark · e–a–e | präteritum: sah · sahst · sah · sahen · saht · sahen | distraktoren: geseht · gesahen
+geben | gebe · gibst · gibt · geben · gebt · geben | imperativ: Gib · Gebt · Geben Sie | perfekt: hat gegeben · stark · e–a–e | präteritum: gab · gabst · gab · gaben · gabt · gaben | distraktoren: gegebt · gegaben
+sagen | sage · sagst · sagt · sagen · sagt · sagen | imperativ: Sag · Sagt · Sagen Sie | perfekt: hat gesagt · schwach · – | präteritum: sagte · sagtest · sagte · sagten · sagtet · sagten | distraktoren: gesagen · sagt
+wissen | weiß · weißt · weiß · wissen · wisst · wissen | imperativ: - | perfekt: hat gewusst · gemischt · i–u–u | präteritum: wusste · wusstest · wusste · wussten · wusstet · wussten | distraktoren: gewisst · gewussen
+finden | finde · findest · findet · finden · findet · finden | imperativ: Finde · Findet · Finden Sie | perfekt: hat gefunden · stark · i–a–u | präteritum: fand · fandest · fand · fanden · fandet · fanden | distraktoren: gefindet · gefanden
+nehmen | nehme · nimmst · nimmt · nehmen · nehmt · nehmen | imperativ: Nimm · Nehmt · Nehmen Sie | perfekt: hat genommen · stark · e–a–o | präteritum: nahm · nahmst · nahm · nahmen · nahmt · nahmen | distraktoren: genehmt · genammen
+sprechen | spreche · sprichst · spricht · sprechen · sprecht · sprechen | imperativ: Sprich · Sprecht · Sprechen Sie | perfekt: hat gesprochen · stark · e–a–o | präteritum: sprach · sprachst · sprach · sprachen · spracht · sprachen | distraktoren: gesprecht · gesprachen
+heißen | heiße · heißt · heißt · heißen · heißt · heißen | imperativ: Heiß · Heißt · Heißen Sie | perfekt: hat geheißen · stark · ei–ie–ei | präteritum: hieß · hießest · hieß · hießen · hießt · hießen | distraktoren: geheißt · gehießen
+essen | esse · isst · isst · essen · esst · essen | imperativ: Iss · Esst · Essen Sie | perfekt: hat gegessen · stark · e–a–e | präteritum: aß · aßest · aß · aßen · aßt · aßen | distraktoren: geesst · gegassen
+trinken | trinke · trinkst · trinkt · trinken · trinkt · trinken | imperativ: Trink · Trinkt · Trinken Sie | perfekt: hat getrunken · stark · i–a–u | präteritum: trank · trankst · trank · tranken · trankt · tranken | distraktoren: getrinkt · getranken
+schlafen | schlafe · schläfst · schläft · schlafen · schlaft · schlafen | imperativ: Schlaf · Schlaft · Schlafen Sie | perfekt: hat geschlafen · stark · a–ie–a | präteritum: schlief · schliefst · schlief · schliefen · schlieft · schliefen | distraktoren: geschlaft · geschliefen
+fahren | fahre · fährst · fährt · fahren · fahrt · fahren | imperativ: Fahr · Fahrt · Fahren Sie | perfekt: ist gefahren · stark · a–u–a | präteritum: fuhr · fuhrst · fuhr · fuhren · fuhrt · fuhren | distraktoren: gefahrt · gefuhren
+laufen | laufe · läufst · läuft · laufen · lauft · laufen | imperativ: Lauf · Lauft · Laufen Sie | perfekt: ist gelaufen · stark · au–ie–au | präteritum: lief · liefst · lief · liefen · lieft · liefen | distraktoren: gelauft · geliefen
+fliegen | fliege · fliegst · fliegt · fliegen · fliegt · fliegen | imperativ: Flieg · Fliegt · Fliegen Sie | perfekt: ist geflogen · stark · ie–o–o | präteritum: flog · flogst · flog · flogen · flogt · flogen | distraktoren: gefliegt · gefliegen
+lesen | lese · liest · liest · lesen · lest · lesen | imperativ: Lies · Lest · Lesen Sie | perfekt: hat gelesen · stark · e–a–e | präteritum: las · lasest · las · lasen · last · lasen | distraktoren: gelest · gelasen
+schreiben | schreibe · schreibst · schreibt · schreiben · schreibt · schreiben | imperativ: Schreib · Schreibt · Schreiben Sie | perfekt: hat geschrieben · stark · ei–ie–ie | präteritum: schrieb · schriebst · schrieb · schrieben · schriebt · schrieben | distraktoren: geschreibt · geschreiben
+lernen | lerne · lernst · lernt · lernen · lernt · lernen | imperativ: Lern · Lernt · Lernen Sie | perfekt: hat gelernt · schwach · – | präteritum: lernte · lerntest · lernte · lernten · lerntet · lernten | distraktoren: gelernen · lernt
+arbeiten | arbeite · arbeitest · arbeitet · arbeiten · arbeitet · arbeiten | imperativ: Arbeite · Arbeitet · Arbeiten Sie | perfekt: hat gearbeitet · schwach · – | präteritum: arbeitete · arbeitetest · arbeitete · arbeiteten · arbeitetet · arbeiteten | distraktoren: gearbeiten · gearbeit
+wohnen | wohne · wohnst · wohnt · wohnen · wohnt · wohnen | imperativ: Wohn · Wohnt · Wohnen Sie | perfekt: hat gewohnt · schwach · – | präteritum: wohnte · wohntest · wohnte · wohnten · wohntet · wohnten | distraktoren: gewohnen · wohnt
+leben | lebe · lebst · lebt · leben · lebt · leben | imperativ: Leb · Lebt · Leben Sie | perfekt: hat gelebt · schwach · – | präteritum: lebte · lebtest · lebte · lebten · lebtet · lebten | distraktoren: geleben · lebt
+spielen | spiele · spielst · spielt · spielen · spielt · spielen | imperativ: Spiel · Spielt · Spielen Sie | perfekt: hat gespielt · schwach · – | präteritum: spielte · spieltest · spielte · spielten · spieltet · spielten | distraktoren: gespielen · spielt
+hören | höre · hörst · hört · hören · hört · hören | imperativ: Hör · Hört · Hören Sie | perfekt: hat gehört · schwach · – | präteritum: hörte · hörtest · hörte · hörten · hörtet · hörten | distraktoren: gehören · hört
+kaufen | kaufe · kaufst · kauft · kaufen · kauft · kaufen | imperativ: Kauf · Kauft · Kaufen Sie | perfekt: hat gekauft · schwach · – | präteritum: kaufte · kauftest · kaufte · kauften · kauftet · kauften | distraktoren: gekaufen · kauft
+verkaufen | verkaufe · verkaufst · verkauft · verkaufen · verkauft · verkaufen | imperativ: Verkauf · Verkauft · Verkaufen Sie | perfekt: hat verkauft · schwach · – | präteritum: verkaufte · verkauftest · verkaufte · verkauften · verkauftet · verkauften | distraktoren: geverkauft · verkaufen
+kosten | koste · kostest · kostet · kosten · kostet · kosten | imperativ: - | perfekt: hat gekostet · schwach · – | präteritum: kostete · kostetest · kostete · kosteten · kostetet · kosteten | distraktoren: gekosten · gekost
+bezahlen | bezahle · bezahlst · bezahlt · bezahlen · bezahlt · bezahlen | imperativ: Bezahl · Bezahlt · Bezahlen Sie | perfekt: hat bezahlt · schwach · – | präteritum: bezahlte · bezahltest · bezahlte · bezahlten · bezahltet · bezahlten | distraktoren: gebezahlt · bezahlen
+brauchen | brauche · brauchst · braucht · brauchen · braucht · brauchen | imperativ: Brauch · Braucht · Brauchen Sie | perfekt: hat gebraucht · schwach · – | präteritum: brauchte · brauchtest · brauchte · brauchten · brauchtet · brauchten | distraktoren: gebrauchen · braucht
+suchen | suche · suchst · sucht · suchen · sucht · suchen | imperativ: Such · Sucht · Suchen Sie | perfekt: hat gesucht · schwach · – | präteritum: suchte · suchtest · suchte · suchten · suchtet · suchten | distraktoren: gesuchen · sucht
+fragen | frage · fragst · fragt · fragen · fragt · fragen | imperativ: Frag · Fragt · Fragen Sie | perfekt: hat gefragt · schwach · – | präteritum: fragte · fragtest · fragte · fragten · fragtet · fragten | distraktoren: gefragen · fragt
+antworten | antworte · antwortest · antwortet · antworten · antwortet · antworten | imperativ: Antworte · Antwortet · Antworten Sie | perfekt: hat geantwortet · schwach · – | präteritum: antwortete · antwortetest · antwortete · antworteten · antwortetet · antworteten | distraktoren: geantworten · geantwort
+verstehen | verstehe · verstehst · versteht · verstehen · versteht · verstehen | imperativ: Versteh · Versteht · Verstehen Sie | perfekt: hat verstanden · stark · e–a–a | präteritum: verstand · verstandest · verstand · verstanden · verstandet · verstanden | distraktoren: geverstanden · versteht
+denken | denke · denkst · denkt · denken · denkt · denken | imperativ: Denk · Denkt · Denken Sie | perfekt: hat gedacht · gemischt · e–a–a | präteritum: dachte · dachtest · dachte · dachten · dachtet · dachten | distraktoren: gedenkt · gedachen
+glauben | glaube · glaubst · glaubt · glauben · glaubt · glauben | imperativ: Glaub · Glaubt · Glauben Sie | perfekt: hat geglaubt · schwach · – | präteritum: glaubte · glaubtest · glaubte · glaubten · glaubtet · glaubten | distraktoren: geglauben · glaubt
+meinen | meine · meinst · meint · meinen · meint · meinen | imperativ: Mein · Meint · Meinen Sie | perfekt: hat gemeint · schwach · – | präteritum: meinte · meintest · meinte · meinten · meintet · meinten | distraktoren: gemeinen · meint
+kennen | kenne · kennst · kennt · kennen · kennt · kennen | imperativ: Kenn · Kennt · Kennen Sie | perfekt: hat gekannt · gemischt · e–a–a | präteritum: kannte · kanntest · kannte · kannten · kanntet · kannten | distraktoren: gekennt · gekannen
+lieben | liebe · liebst · liebt · lieben · liebt · lieben | imperativ: Lieb · Liebt · Lieben Sie | perfekt: hat geliebt · schwach · – | präteritum: liebte · liebtest · liebte · liebten · liebtet · liebten | distraktoren: gelieben · liebt
+warten | warte · wartest · wartet · warten · wartet · warten | imperativ: Warte · Wartet · Warten Sie | perfekt: hat gewartet · schwach · – | präteritum: wartete · wartetest · wartete · warteten · wartetet · warteten | distraktoren: gewarten · gewart
+bleiben | bleibe · bleibst · bleibt · bleiben · bleibt · bleiben | imperativ: Bleib · Bleibt · Bleiben Sie | perfekt: ist geblieben · stark · ei–ie–ie | präteritum: blieb · bliebst · blieb · blieben · bliebt · blieben | distraktoren: gebleibt · gebleiben
+stehen | stehe · stehst · steht · stehen · steht · stehen | imperativ: Steh · Steht · Stehen Sie | perfekt: hat gestanden · stark · e–a–a | präteritum: stand · standest · stand · standen · standet · standen | distraktoren: gesteht · gestenden
+sitzen | sitze · sitzt · sitzt · sitzen · sitzt · sitzen | imperativ: Sitz · Sitzt · Sitzen Sie | perfekt: hat gesessen · stark · i–a–e | präteritum: saß · saßest · saß · saßen · saßt · saßen | distraktoren: gesitzt · gesassen
+liegen | liege · liegst · liegt · liegen · liegt · liegen | imperativ: Lieg · Liegt · Liegen Sie | perfekt: hat gelegen · stark · ie–a–e | präteritum: lag · lagst · lag · lagen · lagt · lagen | distraktoren: geliegt · gelagen
+legen | lege · legst · legt · legen · legt · legen | imperativ: Leg · Legt · Legen Sie | perfekt: hat gelegt · schwach · – | präteritum: legte · legtest · legte · legten · legtet · legten | distraktoren: gelegen · legt
+stellen | stelle · stellst · stellt · stellen · stellt · stellen | imperativ: Stell · Stellt · Stellen Sie | perfekt: hat gestellt · schwach · – | präteritum: stellte · stelltest · stellte · stellten · stelltet · stellten | distraktoren: gestellen · stellt
+setzen | setze mich · setzt dich · setzt sich · setzen uns · setzt euch · setzen sich | imperativ: Setz dich · Setzt euch · Setzen Sie sich | perfekt: hat gesetzt · schwach · – | präteritum: setzte mich · setztest dich · setzte sich · setzten uns · setztet euch · setzten sich | distraktoren: gesetzen · setzt
+öffnen | öffne · öffnest · öffnet · öffnen · öffnet · öffnen | imperativ: Öffne · Öffnet · Öffnen Sie | perfekt: hat geöffnet · schwach · – | präteritum: öffnete · öffnetest · öffnete · öffneten · öffnetet · öffneten | distraktoren: geöffnen · geöffn
+schließen | schließe · schließt · schließt · schließen · schließt · schließen | imperativ: Schließ · Schließt · Schließen Sie | perfekt: hat geschlossen · stark · ie–o–o | präteritum: schloss · schlossest · schloss · schlossen · schlosst · schlossen | distraktoren: geschließt · geschliessen
+beginnen | beginne · beginnst · beginnt · beginnen · beginnt · beginnen | imperativ: Beginn · Beginnt · Beginnen Sie | perfekt: hat begonnen · stark · i–a–o | präteritum: begann · begannst · begann · begannen · begannt · begannen | distraktoren: gebegonnen · beginnt
+helfen | helfe · hilfst · hilft · helfen · helft · helfen | imperativ: Hilf · Helft · Helfen Sie | perfekt: hat geholfen · stark · e–a–o | präteritum: half · halfst · half · halfen · halft · halfen | distraktoren: gehelft · gehalfen
+danken | danke · dankst · dankt · danken · dankt · danken | imperativ: Dank · Dankt · Danken Sie | perfekt: hat gedankt · schwach · – | präteritum: dankte · danktest · dankte · dankten · danktet · dankten | distraktoren: gedanken · dankt
+bringen | bringe · bringst · bringt · bringen · bringt · bringen | imperativ: Bring · Bringt · Bringen Sie | perfekt: hat gebracht · gemischt · i–a–a | präteritum: brachte · brachtest · brachte · brachten · brachtet · brachten | distraktoren: gebringt · gebrachen
+holen | hole · holst · holt · holen · holt · holen | imperativ: Hol · Holt · Holen Sie | perfekt: hat geholt · schwach · – | präteritum: holte · holtest · holte · holten · holtet · holten | distraktoren: geholen · holt
+tragen | trage · trägst · trägt · tragen · tragt · tragen | imperativ: Trag · Tragt · Tragen Sie | perfekt: hat getragen · stark · a–u–a | präteritum: trug · trugst · trug · trugen · trugt · trugen | distraktoren: getragt · getrugen
+bekommen | bekomme · bekommst · bekommt · bekommen · bekommt · bekommen | imperativ: Bekomm · Bekommt · Bekommen Sie | perfekt: hat bekommen · stark · o–a–o | präteritum: bekam · bekamst · bekam · bekamen · bekamt · bekamen | distraktoren: gebekommen · bekommt
+schenken | schenke · schenkst · schenkt · schenken · schenkt · schenken | imperativ: Schenk · Schenkt · Schenken Sie | perfekt: hat geschenkt · schwach · – | präteritum: schenkte · schenktest · schenkte · schenkten · schenktet · schenkten | distraktoren: geschenken · schenkt
+zeigen | zeige · zeigst · zeigt · zeigen · zeigt · zeigen | imperativ: Zeig · Zeigt · Zeigen Sie | perfekt: hat gezeigt · schwach · – | präteritum: zeigte · zeigtest · zeigte · zeigten · zeigtet · zeigten | distraktoren: gezeigen · zeigt
+erklären | erkläre · erklärst · erklärt · erklären · erklärt · erklären | imperativ: Erklär · Erklärt · Erklären Sie | perfekt: hat erklärt · schwach · – | präteritum: erklärte · erklärtest · erklärte · erklärten · erklärtet · erklärten | distraktoren: geerklärt · erklären
+üben | übe · übst · übt · üben · übt · üben | imperativ: Üb · Übt · Üben Sie | perfekt: hat geübt · schwach · – | präteritum: übte · übtest · übte · übten · übtet · übten | distraktoren: geüben · übt
+wiederholen | wiederhole · wiederholst · wiederholt · wiederholen · wiederholt · wiederholen | imperativ: Wiederhol · Wiederholt · Wiederholen Sie | perfekt: hat wiederholt · schwach · – | präteritum: wiederholte · wiederholtest · wiederholte · wiederholten · wiederholtet · wiederholten | distraktoren: gewiederholt · wiederholen
+vergessen | vergesse · vergisst · vergisst · vergessen · vergesst · vergessen | imperativ: Vergiss · Vergesst · Vergessen Sie | perfekt: hat vergessen · stark · e–a–e | präteritum: vergaß · vergaßest · vergaß · vergaßen · vergaßt · vergaßen | distraktoren: gevergessen · vergesst
+treffen | treffe · triffst · trifft · treffen · trefft · treffen | imperativ: Triff · Trefft · Treffen Sie | perfekt: hat getroffen · stark · e–a–o | präteritum: traf · trafst · traf · trafen · traft · trafen | distraktoren: getrefft · getraffen
+besuchen | besuche · besuchst · besucht · besuchen · besucht · besuchen | imperativ: Besuch · Besucht · Besuchen Sie | perfekt: hat besucht · schwach · – | präteritum: besuchte · besuchtest · besuchte · besuchten · besuchtet · besuchten | distraktoren: gebesucht · besuchen
+reisen | reise · reist · reist · reisen · reist · reisen | imperativ: Reis · Reist · Reisen Sie | perfekt: ist gereist · schwach · – | präteritum: reiste · reistest · reiste · reisten · reistet · reisten | distraktoren: gereisen · reist
+wandern | wandere · wanderst · wandert · wandern · wandert · wandern | imperativ: Wandere · Wandert · Wandern Sie | perfekt: ist gewandert · schwach · – | präteritum: wanderte · wandertest · wanderte · wanderten · wandertet · wanderten | distraktoren: gewanderen · wandert
+schwimmen | schwimme · schwimmst · schwimmt · schwimmen · schwimmt · schwimmen | imperativ: Schwimm · Schwimmt · Schwimmen Sie | perfekt: ist geschwommen · stark · i–a–o | präteritum: schwamm · schwammst · schwamm · schwammen · schwammt · schwammen | distraktoren: geschwimmt · geschwammen
+tanzen | tanze · tanzt · tanzt · tanzen · tanzt · tanzen | imperativ: Tanz · Tanzt · Tanzen Sie | perfekt: hat getanzt · schwach · – | präteritum: tanzte · tanztest · tanzte · tanzten · tanztet · tanzten | distraktoren: getanzen · tanzt
+singen | singe · singst · singt · singen · singt · singen | imperativ: Sing · Singt · Singen Sie | perfekt: hat gesungen · stark · i–a–u | präteritum: sang · sangst · sang · sangen · sangt · sangen | distraktoren: gesingt · gesangen
+kochen | koche · kochst · kocht · kochen · kocht · kochen | imperativ: Koch · Kocht · Kochen Sie | perfekt: hat gekocht · schwach · – | präteritum: kochte · kochtest · kochte · kochten · kochtet · kochten | distraktoren: gekochen · kocht
+backen | backe · backst · backt · backen · backt · backen | imperativ: Back · Backt · Backen Sie | perfekt: hat gebacken · stark · a–a–a | präteritum: backte · backtest · backte · backten · backtet · backten | distraktoren: gebackt · backen
+putzen | putze · putzt · putzt · putzen · putzt · putzen | imperativ: Putz · Putzt · Putzen Sie | perfekt: hat geputzt · schwach · – | präteritum: putzte · putztest · putzte · putzten · putztet · putzten | distraktoren: geputzen · putzt
+waschen | wasche · wäschst · wäscht · waschen · wascht · waschen | imperativ: Wasch · Wascht · Waschen Sie | perfekt: hat gewaschen · stark · a–u–a | präteritum: wusch · wuschst · wusch · wuschen · wuscht · wuschen | distraktoren: gewascht · gewuschen
+duschen | dusche · duschst · duscht · duschen · duscht · duschen | imperativ: Dusch · Duscht · Duschen Sie | perfekt: hat geduscht · schwach · – | präteritum: duschte · duschtest · duschte · duschten · duschtet · duschten | distraktoren: geduschen · duscht
+ziehen | ziehe · ziehst · zieht · ziehen · zieht · ziehen | imperativ: Zieh · Zieht · Ziehen Sie | perfekt: hat gezogen · stark · ie–o–o | präteritum: zog · zogst · zog · zogen · zogt · zogen | distraktoren: gezieht · geziegen
+gefallen | gefalle · gefällst · gefällt · gefallen · gefallt · gefallen | imperativ: - | perfekt: hat gefallen · stark · a–ie–a | präteritum: gefiel · gefielst · gefiel · gefielen · gefielt · gefielen | distraktoren: gegefallen · gefallt
+schmecken | schmecke · schmeckst · schmeckt · schmecken · schmeckt · schmecken | imperativ: - | perfekt: hat geschmeckt · schwach · – | präteritum: schmeckte · schmecktest · schmeckte · schmeckten · schmecktet · schmeckten | distraktoren: geschmecken · schmeckt
+passen | passe · passt · passt · passen · passt · passen | imperativ: - | perfekt: hat gepasst · schwach · – | präteritum: passte · passtest · passte · passten · passtet · passten | distraktoren: gepassen · passt
+gehören | gehöre · gehörst · gehört · gehören · gehört · gehören | imperativ: - | perfekt: hat gehört · schwach · – | präteritum: gehörte · gehörtest · gehörte · gehörten · gehörtet · gehörten | distraktoren: gegehört · gehören
+funktionieren | funktioniere · funktionierst · funktioniert · funktionieren · funktioniert · funktionieren | imperativ: - | perfekt: hat funktioniert · schwach · – | präteritum: funktionierte · funktioniertest · funktionierte · funktionierten · funktioniertet · funktionierten | distraktoren: gefunktioniert · funktionieren
+probieren | probiere · probierst · probiert · probieren · probiert · probieren | imperativ: Probier · Probiert · Probieren Sie | perfekt: hat probiert · schwach · – | präteritum: probierte · probiertest · probierte · probierten · probiertet · probierten | distraktoren: geprobiert · probieren
+versuchen | versuche · versuchst · versucht · versuchen · versucht · versuchen | imperativ: Versuch · Versucht · Versuchen Sie | perfekt: hat versucht · schwach · – | präteritum: versuchte · versuchtest · versuchte · versuchten · versuchtet · versuchten | distraktoren: geversucht · versuchen
+entschuldigen | entschuldige · entschuldigst · entschuldigt · entschuldigen · entschuldigt · entschuldigen | imperativ: Entschuldige · Entschuldigt · Entschuldigen Sie | perfekt: hat entschuldigt · schwach · – | präteritum: entschuldigte · entschuldigtest · entschuldigte · entschuldigten · entschuldigtet · entschuldigten | distraktoren: geentschuldigt · entschuldigen
+schicken | schicke · schickst · schickt · schicken · schickt · schicken | imperativ: Schick · Schickt · Schicken Sie | perfekt: hat geschickt · schwach · – | präteritum: schickte · schicktest · schickte · schickten · schicktet · schickten | distraktoren: geschicken · schickt
+bestellen | bestelle · bestellst · bestellt · bestellen · bestellt · bestellen | imperativ: Bestell · Bestellt · Bestellen Sie | perfekt: hat bestellt · schwach · – | präteritum: bestellte · bestelltest · bestellte · bestellten · bestelltet · bestellten | distraktoren: gebestellt · bestellen
+buchen | buche · buchst · bucht · buchen · bucht · buchen | imperativ: Buch · Bucht · Buchen Sie | perfekt: hat gebucht · schwach · – | präteritum: buchte · buchtest · buchte · buchten · buchtet · buchten | distraktoren: gebuchen · bucht
+reservieren | reserviere · reservierst · reserviert · reservieren · reserviert · reservieren | imperativ: Reservier · Reserviert · Reservieren Sie | perfekt: hat reserviert · schwach · – | präteritum: reservierte · reserviertest · reservierte · reservierten · reserviertet · reservierten | distraktoren: gereserviert · reservieren
+verlieren | verliere · verlierst · verliert · verlieren · verliert · verlieren | imperativ: Verlier · Verliert · Verlieren Sie | perfekt: hat verloren · stark · ie–o–o | präteritum: verlor · verlorst · verlor · verloren · verlort · verloren | distraktoren: geverloren · verliert
+gewinnen | gewinne · gewinnst · gewinnt · gewinnen · gewinnt · gewinnen | imperativ: Gewinn · Gewinnt · Gewinnen Sie | perfekt: hat gewonnen · stark · i–a–o | präteritum: gewann · gewannst · gewann · gewannen · gewannt · gewannen | distraktoren: gegewonnen · gewinnt
+rauchen | rauche · rauchst · raucht · rauchen · raucht · rauchen | imperativ: Rauch · Raucht · Rauchen Sie | perfekt: hat geraucht · schwach · – | präteritum: rauchte · rauchtest · rauchte · rauchten · rauchtet · rauchten | distraktoren: gerauchen · raucht
+sparen | spare · sparst · spart · sparen · spart · sparen | imperativ: Spar · Spart · Sparen Sie | perfekt: hat gespart · schwach · – | präteritum: sparte · spartest · sparte · sparten · spartet · sparten | distraktoren: gesparen · spart
+verdienen | verdiene · verdienst · verdient · verdienen · verdient · verdienen | imperativ: Verdien · Verdient · Verdienen Sie | perfekt: hat verdient · schwach · – | präteritum: verdiente · verdientest · verdiente · verdienten · verdientet · verdienten | distraktoren: geverdient · verdienen
+studieren | studiere · studierst · studiert · studieren · studiert · studieren | imperativ: Studier · Studiert · Studieren Sie | perfekt: hat studiert · schwach · – | präteritum: studierte · studiertest · studierte · studierten · studiertet · studierten | distraktoren: gestudiert · studieren
+unterschreiben | unterschreibe · unterschreibst · unterschreibt · unterschreiben · unterschreibt · unterschreiben | imperativ: Unterschreib · Unterschreibt · Unterschreiben Sie | perfekt: hat unterschrieben · stark · ei–ie–ie | präteritum: unterschrieb · unterschriebst · unterschrieb · unterschrieben · unterschriebt · unterschrieben | distraktoren: geunterschrieben · unterschreibt
+wechseln | wechsle · wechselst · wechselt · wechseln · wechselt · wechseln | imperativ: Wechsle · Wechselt · Wechseln Sie | perfekt: hat gewechselt · schwach · – | präteritum: wechselte · wechseltest · wechselte · wechselten · wechseltet · wechselten | distraktoren: gewechselen · wechselt
+ändern | ändere · änderst · ändert · ändern · ändert · ändern | imperativ: Ändere · Ändert · Ändern Sie | perfekt: hat geändert · schwach · – | präteritum: änderte · ändertest · änderte · änderten · ändertet · änderten | distraktoren: geänderen · ändert
+dauern | dauere · dauerst · dauert · dauern · dauert · dauern | imperativ: - | perfekt: hat gedauert · schwach · – | präteritum: dauerte · dauertest · dauerte · dauerten · dauertet · dauerten | distraktoren: gedaueren · dauert
+lachen | lache · lachst · lacht · lachen · lacht · lachen | imperativ: Lach · Lacht · Lachen Sie | perfekt: hat gelacht · schwach · – | präteritum: lachte · lachtest · lachte · lachten · lachtet · lachten | distraktoren: gelachen · lacht
+weinen | weine · weinst · weint · weinen · weint · weinen | imperativ: Wein · Weint · Weinen Sie | perfekt: hat geweint · schwach · – | präteritum: weinte · weintest · weinte · weinten · weintet · weinten | distraktoren: geweinen · weint
+hoffen | hoffe · hoffst · hofft · hoffen · hofft · hoffen | imperativ: Hoff · Hofft · Hoffen Sie | perfekt: hat gehofft · schwach · – | präteritum: hoffte · hofftest · hoffte · hofften · hofftet · hofften | distraktoren: gehoffen · hofft
+lassen | lasse · lässt · lässt · lassen · lasst · lassen | imperativ: Lass · Lasst · Lassen Sie | perfekt: hat gelassen · stark · a–ie–a | präteritum: ließ · ließest · ließ · ließen · ließt · ließen | distraktoren: gelasst · geliessen
+tun | tue · tust · tut · tun · tut · tun | imperativ: Tu · Tut · Tun Sie | perfekt: hat getan · stark · u–a–a | präteritum: tat · tatest · tat · taten · tatet · taten | distraktoren: getut · getun
+rufen | rufe · rufst · ruft · rufen · ruft · rufen | imperativ: Ruf · Ruft · Rufen Sie | perfekt: hat gerufen · stark · u–ie–u | präteritum: rief · riefst · rief · riefen · rieft · riefen | distraktoren: geruft · geriefen
+bedeuten | bedeute · bedeutest · bedeutet · bedeuten · bedeutet · bedeuten | imperativ: - | perfekt: hat bedeutet · schwach · – | präteritum: bedeutete · bedeutetest · bedeutete · bedeuteten · bedeutetet · bedeuteten | distraktoren: gebedeutet · bedeuten
+benutzen | benutze · benutzt · benutzt · benutzen · benutzt · benutzen | imperativ: Benutz · Benutzt · Benutzen Sie | perfekt: hat benutzt · schwach · – | präteritum: benutzte · benutztest · benutzte · benutzten · benutztet · benutzten | distraktoren: gebenutzt · benutzen
+telefonieren | telefoniere · telefonierst · telefoniert · telefonieren · telefoniert · telefonieren | imperativ: Telefonier · Telefoniert · Telefonieren Sie | perfekt: hat telefoniert · schwach · – | präteritum: telefonierte · telefoniertest · telefonierte · telefonierten · telefoniertet · telefonierten | distraktoren: getelefoniert · telefonieren
+passieren | passiere · passierst · passiert · passieren · passiert · passieren | imperativ: - | perfekt: ist passiert · schwach · – | präteritum: passierte · passiertest · passierte · passierten · passiertet · passierten | distraktoren: gepassiert · passieren
+parken | parke · parkst · parkt · parken · parkt · parken | imperativ: Park · Parkt · Parken Sie | perfekt: hat geparkt · schwach · – | präteritum: parkte · parktest · parkte · parkten · parktet · parkten | distraktoren: geparken · parkt
+wünschen | wünsche · wünschst · wünscht · wünschen · wünscht · wünschen | imperativ: Wünsch · Wünscht · Wünschen Sie | perfekt: hat gewünscht · schwach · – | präteritum: wünschte · wünschtest · wünschte · wünschten · wünschtet · wünschten | distraktoren: gewünschen · wünscht
+frühstücken | frühstücke · frühstückst · frühstückt · frühstücken · frühstückt · frühstücken | imperativ: Frühstück · Frühstückt · Frühstücken Sie | perfekt: hat gefrühstückt · schwach · – | präteritum: frühstückte · frühstücktest · frühstückte · frühstückten · frühstücktet · frühstückten | distraktoren: gefrühstücken · frühstückt
+feiern | feiere · feierst · feiert · feiern · feiert · feiern | imperativ: Feiere · Feiert · Feiern Sie | perfekt: hat gefeiert · schwach · – | präteritum: feierte · feiertest · feierte · feierten · feiertet · feierten | distraktoren: gefeieren · feiert
+fehlen | fehle · fehlst · fehlt · fehlen · fehlt · fehlen | imperativ: Fehl · Fehlt · Fehlen Sie | perfekt: hat gefehlt · schwach · – | präteritum: fehlte · fehltest · fehlte · fehlten · fehltet · fehlten | distraktoren: gefehlen · fehlt
+freuen | freue mich · freust dich · freut sich · freuen uns · freut euch · freuen sich | imperativ: Freu dich · Freut euch · Freuen Sie sich | perfekt: hat gefreut · schwach · – | präteritum: freute mich · freutest dich · freute sich · freuten uns · freutet euch · freuten sich | distraktoren: gefreuen · freut
+regnen | regne · regnest · regnet · regnen · regnet · regnen | imperativ: - | perfekt: hat geregnet · schwach · – | präteritum: regnete · regnetest · regnete · regneten · regnetet · regneten | distraktoren: geregnen · geregn
+schneien | schneie · schneist · schneit · schneien · schneit · schneien | imperativ: - | perfekt: hat geschneit · schwach · – | präteritum: schneite · schneitest · schneite · schneiten · schneitet · schneiten | distraktoren: geschneien · schneit
+scheinen | scheine · scheinst · scheint · scheinen · scheint · scheinen | imperativ: - | perfekt: hat geschienen · stark · ei–ie–ie | präteritum: schien · schienst · schien · schienen · schient · schienen | distraktoren: gescheint · gescheinen
+zahlen | zahle · zahlst · zahlt · zahlen · zahlt · zahlen | imperativ: Zahl · Zahlt · Zahlen Sie | perfekt: hat gezahlt · schwach · – | präteritum: zahlte · zahltest · zahlte · zahlten · zahltet · zahlten | distraktoren: gezahlen · zahlt
+füllen | fülle · füllst · füllt · füllen · füllt · füllen | imperativ: Füll · Füllt · Füllen Sie | perfekt: hat gefüllt · schwach · – | präteritum: füllte · fülltest · füllte · füllten · fülltet · füllten | distraktoren: gefüllen · füllt
+senden | sende · sendest · sendet · senden · sendet · senden | imperativ: Sende · Sendet · Senden Sie | perfekt: hat gesendet · schwach · – | präteritum: sendete · sendetest · sendete · sendeten · sendetet · sendeten | distraktoren: gesenden · gesend
+rennen | renne · rennst · rennt · rennen · rennt · rennen | imperativ: Renn · Rennt · Rennen Sie | perfekt: ist gerannt · gemischt · e–a–a | präteritum: rannte · ranntest · rannte · rannten · ranntet · rannten | distraktoren: gerennt · gerannen
+schreien | schreie · schreist · schreit · schreien · schreit · schreien | imperativ: Schrei · Schreit · Schreien Sie | perfekt: hat geschrien · stark · ei–ie–i | präteritum: schrie · schriest · schrie · schrien · schriet · schrien | distraktoren: geschreit · geschrieen
+lächeln | lächle · lächelst · lächelt · lächeln · lächelt · lächeln | imperativ: Lächle · Lächelt · Lächeln Sie | perfekt: hat gelächelt · schwach · – | präteritum: lächelte · lächeltest · lächelte · lächelten · lächeltet · lächelten | distraktoren: gelächelen · lächelt
+gebrauchen | gebrauche · gebrauchst · gebraucht · gebrauchen · gebraucht · gebrauchen | imperativ: Gebrauch · Gebraucht · Gebrauchen Sie | perfekt: hat gebraucht · schwach · – | präteritum: gebrauchte · gebrauchtest · gebrauchte · gebrauchten · gebrauchtet · gebrauchten | distraktoren: gegebraucht · gebrauchen
+speichern | speichere · speicherst · speichert · speichern · speichert · speichern | imperativ: Speichere · Speichert · Speichern Sie | perfekt: hat gespeichert · schwach · – | präteritum: speicherte · speichertest · speicherte · speicherten · speichertet · speicherten | distraktoren: gespeicheren · speichert
+retten | rette · rettest · rettet · retten · rettet · retten | imperativ: Rette · Rettet · Retten Sie | perfekt: hat gerettet · schwach · – | präteritum: rettete · rettetest · rettete · retteten · rettetet · retteten | distraktoren: geretten · gerett
+aufstehen | stehe auf · stehst auf · steht auf · stehen auf · steht auf · stehen auf | imperativ: Steh auf · Steht auf · Stehen Sie auf | perfekt: ist aufgestanden · stark · e–a–a | präteritum: stand auf · standest auf · stand auf · standen auf · standet auf · standen auf | distraktoren: geaufstanden · aufgesteht
+anfangen | fange an · fängst an · fängt an · fangen an · fangt an · fangen an | imperativ: Fang an · Fangt an · Fangen Sie an | perfekt: hat angefangen · stark · a–i–a | präteritum: fing an · fingst an · fing an · fingen an · fingt an · fingen an | distraktoren: geanfangen · angefangt
+aufhören | höre auf · hörst auf · hört auf · hören auf · hört auf · hören auf | imperativ: Hör auf · Hört auf · Hören Sie auf | perfekt: hat aufgehört · schwach · – | präteritum: hörte auf · hörtest auf · hörte auf · hörten auf · hörtet auf · hörten auf | distraktoren: geaufhört · aufgehören
+einkaufen | kaufe ein · kaufst ein · kauft ein · kaufen ein · kauft ein · kaufen ein | imperativ: Kauf ein · Kauft ein · Kaufen Sie ein | perfekt: hat eingekauft · schwach · – | präteritum: kaufte ein · kauftest ein · kaufte ein · kauften ein · kauftet ein · kauften ein | distraktoren: geeinkauft · eingekaufen
+einladen | lade ein · lädst ein · lädt ein · laden ein · ladet ein · laden ein | imperativ: Lade ein · Ladet ein · Laden Sie ein | perfekt: hat eingeladen · stark · a–u–a | präteritum: lud ein · ludest ein · lud ein · luden ein · ludet ein · luden ein | distraktoren: geeinladen · eingeladet
+anrufen | rufe an · rufst an · ruft an · rufen an · ruft an · rufen an | imperativ: Ruf an · Ruft an · Rufen Sie an | perfekt: hat angerufen · stark · u–ie–u | präteritum: rief an · riefst an · rief an · riefen an · rieft an · riefen an | distraktoren: geanrufen · angeruft
+aufmachen | mache auf · machst auf · macht auf · machen auf · macht auf · machen auf | imperativ: Mach auf · Macht auf · Machen Sie auf | perfekt: hat aufgemacht · schwach · – | präteritum: machte auf · machtest auf · machte auf · machten auf · machtet auf · machten auf | distraktoren: geaufmacht · aufgemachen
+zumachen | mache zu · machst zu · macht zu · machen zu · macht zu · machen zu | imperativ: Mach zu · Macht zu · Machen Sie zu | perfekt: hat zugemacht · schwach · – | präteritum: machte zu · machtest zu · machte zu · machten zu · machtet zu · machten zu | distraktoren: gezumacht · zugemachen
+mitkommen | komme mit · kommst mit · kommt mit · kommen mit · kommt mit · kommen mit | imperativ: Komm mit · Kommt mit · Kommen Sie mit | perfekt: ist mitgekommen · stark · o–a–o | präteritum: kam mit · kamst mit · kam mit · kamen mit · kamt mit · kamen mit | distraktoren: gemitkommen · mitgekommt
+mitbringen | bringe mit · bringst mit · bringt mit · bringen mit · bringt mit · bringen mit | imperativ: Bring mit · Bringt mit · Bringen Sie mit | perfekt: hat mitgebracht · gemischt · i–a–a | präteritum: brachte mit · brachtest mit · brachte mit · brachten mit · brachtet mit · brachten mit | distraktoren: gemitbracht · mitgebrachen
+ankommen | komme an · kommst an · kommt an · kommen an · kommt an · kommen an | imperativ: Komm an · Kommt an · Kommen Sie an | perfekt: ist angekommen · stark · o–a–o | präteritum: kam an · kamst an · kam an · kamen an · kamt an · kamen an | distraktoren: geankommen · angekommt
+abfahren | fahre ab · fährst ab · fährt ab · fahren ab · fahrt ab · fahren ab | imperativ: Fahr ab · Fahrt ab · Fahren Sie ab | perfekt: ist abgefahren · stark · a–u–a | präteritum: fuhr ab · fuhrst ab · fuhr ab · fuhren ab · fuhrt ab · fuhren ab | distraktoren: geabfahren · abgefahrt
+aussehen | sehe aus · siehst aus · sieht aus · sehen aus · seht aus · sehen aus | imperativ: Sieh aus · Seht aus · Sehen Sie aus | perfekt: hat ausgesehen · stark · e–a–e | präteritum: sah aus · sahst aus · sah aus · sahen aus · saht aus · sahen aus | distraktoren: geaussehen · ausgeseht
+fernsehen | sehe fern · siehst fern · sieht fern · sehen fern · seht fern · sehen fern | imperativ: Sieh fern · Seht fern · Sehen Sie fern | perfekt: hat ferngesehen · stark · e–a–e | präteritum: sah fern · sahst fern · sah fern · sahen fern · saht fern · sahen fern | distraktoren: gefernsehen · ferngeseht
+stattfinden | finde statt · findest statt · findet statt · finden statt · findet statt · finden statt | imperativ: - | perfekt: hat stattgefunden · stark · i–a–u | präteritum: fand statt · fandest statt · fand statt · fanden statt · fandet statt · fanden statt | distraktoren: gestattfunden · stattgefindet
+vorstellen | stelle vor · stellst vor · stellt vor · stellen vor · stellt vor · stellen vor | imperativ: Stell vor · Stellt vor · Stellen Sie vor | perfekt: hat vorgestellt · schwach · – | präteritum: stellte vor · stelltest vor · stellte vor · stellten vor · stelltet vor · stellten vor | distraktoren: gevorstellt · vorgestellen
+ausfüllen | fülle aus · füllst aus · füllt aus · füllen aus · füllt aus · füllen aus | imperativ: Füll aus · Füllt aus · Füllen Sie aus | perfekt: hat ausgefüllt · schwach · – | präteritum: füllte aus · fülltest aus · füllte aus · füllten aus · fülltet aus · füllten aus | distraktoren: geausfüllt · ausgefüllen
+umziehen | ziehe um · ziehst um · zieht um · ziehen um · zieht um · ziehen um | imperativ: Zieh um · Zieht um · Ziehen Sie um | perfekt: ist umgezogen · stark · ie–o–o | präteritum: zog um · zogst um · zog um · zogen um · zogt um · zogen um | distraktoren: geumzogen · umgezieht
+anziehen | ziehe an · ziehst an · zieht an · ziehen an · zieht an · ziehen an | imperativ: Zieh an · Zieht an · Ziehen Sie an | perfekt: hat angezogen · stark · ie–o–o | präteritum: zog an · zogst an · zog an · zogen an · zogt an · zogen an | distraktoren: geanzogen · angezieht
+ausziehen | ziehe aus · ziehst aus · zieht aus · ziehen aus · zieht aus · ziehen aus | imperativ: Zieh aus · Zieht aus · Ziehen Sie aus | perfekt: hat ausgezogen · stark · ie–o–o | präteritum: zog aus · zogst aus · zog aus · zogen aus · zogt aus · zogen aus | distraktoren: geauszogen · ausgezieht
+kennenlernen | lerne kennen · lernst kennen · lernt kennen · lernen kennen · lernt kennen · lernen kennen | imperativ: Lern kennen · Lernt kennen · Lernen Sie kennen | perfekt: hat kennengelernt · schwach · – | präteritum: lernte kennen · lerntest kennen · lernte kennen · lernten kennen · lerntet kennen · lernten kennen | distraktoren: gekennenlernt · kennengelernen
+mitnehmen | nehme mit · nimmst mit · nimmt mit · nehmen mit · nehmt mit · nehmen mit | imperativ: Nimm mit · Nehmt mit · Nehmen Sie mit | perfekt: hat mitgenommen · stark · e–a–o | präteritum: nahm mit · nahmst mit · nahm mit · nahmen mit · nahmt mit · nahmen mit | distraktoren: gemitnommen · mitgenehmt
+abholen | hole ab · holst ab · holt ab · holen ab · holt ab · holen ab | imperativ: Hol ab · Holt ab · Holen Sie ab | perfekt: hat abgeholt · schwach · – | präteritum: holte ab · holtest ab · holte ab · holten ab · holtet ab · holten ab | distraktoren: geabholt · abgeholen
+zuhören | höre zu · hörst zu · hört zu · hören zu · hört zu · hören zu | imperativ: Hör zu · Hört zu · Hören Sie zu | perfekt: hat zugehört · schwach · – | präteritum: hörte zu · hörtest zu · hörte zu · hörten zu · hörtet zu · hörten zu | distraktoren: gezuhört · zugehören
+aufräumen | räume auf · räumst auf · räumt auf · räumen auf · räumt auf · räumen auf | imperativ: Räum auf · Räumt auf · Räumen Sie auf | perfekt: hat aufgeräumt · schwach · – | präteritum: räumte auf · räumtest auf · räumte auf · räumten auf · räumtet auf · räumten auf | distraktoren: geaufräumt · aufgeräumen
+anmachen | mache an · machst an · macht an · machen an · macht an · machen an | imperativ: Mach an · Macht an · Machen Sie an | perfekt: hat angemacht · schwach · – | präteritum: machte an · machtest an · machte an · machten an · machtet an · machten an | distraktoren: geanmacht · angemachen
+ausmachen | mache aus · machst aus · macht aus · machen aus · macht aus · machen aus | imperativ: Mach aus · Macht aus · Machen Sie aus | perfekt: hat ausgemacht · schwach · – | präteritum: machte aus · machtest aus · machte aus · machten aus · machtet aus · machten aus | distraktoren: geausmacht · ausgemachen
+anmelden | melde mich an · meldest dich an · meldet sich an · melden uns an · meldet euch an · melden sich an | imperativ: Melde dich an · Meldet euch an · Melden Sie sich an | perfekt: hat angemeldet · schwach · – | präteritum: meldete mich an · meldetest dich an · meldete sich an · meldeten uns an · meldetet euch an · meldeten sich an | distraktoren: geanmeldet · angemelden
+zurückkommen | komme zurück · kommst zurück · kommt zurück · kommen zurück · kommt zurück · kommen zurück | imperativ: Komm zurück · Kommt zurück · Kommen Sie zurück | perfekt: ist zurückgekommen · stark · o–a–o | präteritum: kam zurück · kamst zurück · kam zurück · kamen zurück · kamt zurück · kamen zurück | distraktoren: gezurückkommen · zurückgekommt
+umsteigen | steige um · steigst um · steigt um · steigen um · steigt um · steigen um | imperativ: Steig um · Steigt um · Steigen Sie um | perfekt: ist umgestiegen · stark · ei–ie–ie | präteritum: stieg um · stiegst um · stieg um · stiegen um · stiegt um · stiegen um | distraktoren: geumstiegen · umgesteigt
+anhalten | halte an · hältst an · hält an · halten an · haltet an · halten an | imperativ: Halte an · Haltet an · Halten Sie an | perfekt: hat angehalten · stark · a–ie–a | präteritum: hielt an · hieltest an · hielt an · hielten an · hieltet an · hielten an | distraktoren: geanhalten · angehaltet
+anprobieren | probiere an · probierst an · probiert an · probieren an · probiert an · probieren an | imperativ: Probier an · Probiert an · Probieren Sie an | perfekt: hat anprobiert · schwach · – | präteritum: probierte an · probiertest an · probierte an · probierten an · probiertet an · probierten an | distraktoren: angeprobiert · anprobieren
+ausprobieren | probiere aus · probierst aus · probiert aus · probieren aus · probiert aus · probieren aus | imperativ: Probier aus · Probiert aus · Probieren Sie aus | perfekt: hat ausprobiert · schwach · – | präteritum: probierte aus · probiertest aus · probierte aus · probierten aus · probiertet aus · probierten aus | distraktoren: ausgeprobiert · ausprobieren
+wehtun | tue weh · tust weh · tut weh · tun weh · tut weh · tun weh | imperativ: Tu weh · Tut weh · Tun Sie weh | perfekt: hat wehgetan · stark · u–a–a | präteritum: tat weh · tatest weh · tat weh · taten weh · tatet weh · taten weh | distraktoren: gewehtan · wehgetut

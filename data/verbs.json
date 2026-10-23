@@ -12,14 +12,7 @@
     ],
     "aux": "ist",
     "partizip": "gewesen",
-    "praeteritum": [
-      "war",
-      "warst",
-      "war",
-      "waren",
-      "wart",
-      "waren"
-    ],
+    "praet": "war",
     "imperative": [
       "Sei",
       "Seid",
@@ -49,14 +42,7 @@
     ],
     "aux": "hat",
     "partizip": "gehabt",
-    "praeteritum": [
-      "hatte",
-      "hattest",
-      "hatte",
-      "hatten",
-      "hattet",
-      "hatten"
-    ],
+    "praet": "hatte",
     "takes": "+ Akkusativ",
     "flags": [
       "core",
@@ -81,6 +67,7 @@
     ],
     "aux": "ist",
     "partizip": "geworden",
+    "praet": "wurde",
     "imperative": "Werde",
     "takes": "+ Nominativ",
     "flags": [
@@ -110,6 +97,7 @@
     ],
     "aux": "hat",
     "partizip": "gekonnt",
+    "praet": "konnte",
     "flags": [
       "core",
       "modal"
@@ -137,6 +125,7 @@
     ],
     "aux": "hat",
     "partizip": "gemusst",
+    "praet": "musste",
     "flags": [
       "core",
       "modal"
@@ -218,6 +207,7 @@
     ],
     "aux": "hat",
     "partizip": "gedurft",
+    "praet": "durfte",
     "flags": [
       "core",
       "modal"
@@ -245,6 +235,7 @@
     ],
     "aux": "hat",
     "partizip": "gemocht",
+    "praet": "mochte",
     "takes": "+ Akkusativ",
     "flags": [
       "core",
@@ -318,6 +309,7 @@
     "en": "to go",
     "aux": "ist",
     "partizip": "gegangen",
+    "praet": "ging",
     "flags": [
       "core",
       "irr"
@@ -337,6 +329,7 @@
     "en": "to come",
     "aux": "ist",
     "partizip": "gekommen",
+    "praet": "kam",
     "flags": [
       "core",
       "irr"
@@ -360,6 +353,7 @@
     ],
     "aux": "hat",
     "partizip": "gesehen",
+    "praet": "sah",
     "imperative": "Sieh",
     "takes": "+ Akkusativ",
     "flags": [
@@ -385,6 +379,7 @@
     ],
     "aux": "hat",
     "partizip": "gegeben",
+    "praet": "gab",
     "imperative": "Gib",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
@@ -433,6 +428,7 @@
     ],
     "aux": "hat",
     "partizip": "gewusst",
+    "praet": "wusste",
     "takes": "+ Akkusativ",
     "flags": [
       "core",
@@ -453,6 +449,7 @@
     "en": "to find",
     "aux": "hat",
     "partizip": "gefunden",
+    "praet": "fand",
     "takes": "+ Akkusativ",
     "flags": [
       "core",
@@ -477,6 +474,7 @@
     ],
     "aux": "hat",
     "partizip": "genommen",
+    "praet": "nahm",
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
     "flags": [
@@ -502,6 +500,7 @@
     ],
     "aux": "hat",
     "partizip": "gesprochen",
+    "praet": "sprach",
     "imperative": "Sprich",
     "takes": "mit + Dativ",
     "flags": [
@@ -523,6 +522,7 @@
     "en": "to be called",
     "aux": "hat",
     "partizip": "geheißen",
+    "praet": "hieß",
     "takes": "+ Nominativ",
     "flags": [
       "core",
@@ -547,6 +547,7 @@
     ],
     "aux": "hat",
     "partizip": "gegessen",
+    "praet": "aß",
     "imperative": "Iss",
     "takes": "+ Akkusativ",
     "flags": [
@@ -567,6 +568,7 @@
     "en": "to drink",
     "aux": "hat",
     "partizip": "getrunken",
+    "praet": "trank",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -590,6 +592,7 @@
     ],
     "aux": "hat",
     "partizip": "geschlafen",
+    "praet": "schlief",
     "flags": [
       "irr"
     ],
@@ -612,6 +615,7 @@
     ],
     "aux": "ist",
     "partizip": "gefahren",
+    "praet": "fuhr",
     "flags": [
       "irr"
     ],
@@ -634,6 +638,7 @@
     ],
     "aux": "ist",
     "partizip": "gelaufen",
+    "praet": "lief",
     "flags": [
       "irr"
     ],
@@ -652,6 +657,7 @@
     "en": "to fly",
     "aux": "ist",
     "partizip": "geflogen",
+    "praet": "flog",
     "flags": [
       "irr"
     ],
@@ -674,6 +680,7 @@
     ],
     "aux": "hat",
     "partizip": "gelesen",
+    "praet": "las",
     "imperative": "Lies",
     "takes": "+ Akkusativ",
     "flags": [
@@ -694,6 +701,7 @@
     "en": "to write",
     "aux": "hat",
     "partizip": "geschrieben",
+    "praet": "schrieb",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
       "irr"
@@ -955,6 +963,7 @@
     "en": "to understand",
     "aux": "hat",
     "partizip": "verstanden",
+    "praet": "verstand",
     "takes": "+ Akkusativ",
     "flags": [
       "irr",
@@ -975,6 +984,7 @@
     "en": "to think",
     "aux": "hat",
     "partizip": "gedacht",
+    "praet": "dachte",
     "takes": "an + Akkusativ",
     "flags": [
       "irr"
@@ -1028,6 +1038,7 @@
     "en": "to know (a person, place)",
     "aux": "hat",
     "partizip": "gekannt",
+    "praet": "kannte",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1081,6 +1092,7 @@
     "en": "to stay",
     "aux": "ist",
     "partizip": "geblieben",
+    "praet": "blieb",
     "flags": [
       "irr"
     ],
@@ -1099,6 +1111,7 @@
     "en": "to stand",
     "aux": "hat",
     "partizip": "gestanden",
+    "praet": "stand",
     "takes": "wo? + Dativ",
     "flags": [
       "irr"
@@ -1118,6 +1131,7 @@
     "en": "to sit",
     "aux": "hat",
     "partizip": "gesessen",
+    "praet": "saß",
     "takes": "wo? + Dativ",
     "flags": [
       "irr"
@@ -1137,6 +1151,7 @@
     "en": "to lie, to be located",
     "aux": "hat",
     "partizip": "gelegen",
+    "praet": "lag",
     "takes": "wo? + Dativ",
     "flags": [
       "irr"
@@ -1225,6 +1240,7 @@
     "en": "to close (standard word)",
     "aux": "hat",
     "partizip": "geschlossen",
+    "praet": "schloss",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1244,6 +1260,7 @@
     "en": "to begin (not separable)",
     "aux": "hat",
     "partizip": "begonnen",
+    "praet": "begann",
     "takes": "mit + Dativ",
     "flags": [
       "irr",
@@ -1268,6 +1285,7 @@
     ],
     "aux": "hat",
     "partizip": "geholfen",
+    "praet": "half",
     "imperative": "Hilf",
     "takes": "+ Dativ",
     "flags": [
@@ -1305,6 +1323,7 @@
     "en": "to bring",
     "aux": "hat",
     "partizip": "gebracht",
+    "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
       "irr"
@@ -1345,6 +1364,7 @@
     ],
     "aux": "hat",
     "partizip": "getragen",
+    "praet": "trug",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1364,6 +1384,7 @@
     "en": "to receive, to get",
     "aux": "hat",
     "partizip": "bekommen",
+    "praet": "bekam",
     "takes": "+ Akkusativ",
     "flags": [
       "irr",
@@ -1477,6 +1498,7 @@
     ],
     "aux": "hat",
     "partizip": "vergessen",
+    "praet": "vergaß",
     "imperative": "Vergiss",
     "takes": "+ Akkusativ",
     "flags": [
@@ -1502,6 +1524,7 @@
     ],
     "aux": "hat",
     "partizip": "getroffen",
+    "praet": "traf",
     "imperative": "Triff",
     "takes": "+ Akkusativ",
     "flags": [
@@ -1574,6 +1597,7 @@
     "en": "to swim",
     "aux": "ist",
     "partizip": "geschwommen",
+    "praet": "schwamm",
     "flags": [
       "irr"
     ],
@@ -1608,6 +1632,7 @@
     "en": "to sing",
     "aux": "hat",
     "partizip": "gesungen",
+    "praet": "sang",
     "flags": [
       "irr"
     ],
@@ -1643,6 +1668,7 @@
     "en": "to bake",
     "aux": "hat",
     "partizip": "gebacken",
+    "praet": "backte",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1683,6 +1709,7 @@
     ],
     "aux": "hat",
     "partizip": "gewaschen",
+    "praet": "wusch",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1718,6 +1745,7 @@
     "en": "to pull",
     "aux": "hat",
     "partizip": "gezogen",
+    "praet": "zog",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -1741,6 +1769,7 @@
     ],
     "aux": "hat",
     "partizip": "gefallen",
+    "praet": "gefiel",
     "takes": "+ Dativ",
     "third": true,
     "flags": [
@@ -1960,6 +1989,7 @@
     "en": "to lose",
     "aux": "hat",
     "partizip": "verloren",
+    "praet": "verlor",
     "takes": "+ Akkusativ",
     "flags": [
       "irr",
@@ -1980,6 +2010,7 @@
     "en": "to win",
     "aux": "hat",
     "partizip": "gewonnen",
+    "praet": "gewann",
     "takes": "+ Akkusativ",
     "flags": [
       "irr",
@@ -2069,6 +2100,7 @@
     "en": "to sign",
     "aux": "hat",
     "partizip": "unterschrieben",
+    "praet": "unterschrieb",
     "takes": "+ Akkusativ",
     "flags": [
       "irr",
@@ -2194,6 +2226,7 @@
     ],
     "aux": "hat",
     "partizip": "gelassen",
+    "praet": "ließ",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -2213,6 +2246,7 @@
     "en": "to do (in fixed phrases)",
     "aux": "hat",
     "partizip": "getan",
+    "praet": "tat",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -2232,6 +2266,7 @@
     "en": "to call out, to shout",
     "aux": "hat",
     "partizip": "gerufen",
+    "praet": "rief",
     "takes": "+ Akkusativ",
     "flags": [
       "irr"
@@ -2358,9 +2393,7 @@
     "en": "to have breakfast",
     "aux": "hat",
     "partizip": "gefrühstückt",
-    "flags": [
-      "insep"
-    ],
+    "flags": [],
     "example": {
       "de": "Wir frühstücken am Sonntag um zehn.",
       "en": "On Sunday we have breakfast at ten."
@@ -2462,6 +2495,7 @@
     "en": "to shine (the sun); to seem",
     "aux": "hat",
     "partizip": "geschienen",
+    "praet": "schien",
     "third": true,
     "flags": [
       "irr"
@@ -2531,6 +2565,7 @@
     "en": "to run (fast)",
     "aux": "ist",
     "partizip": "gerannt",
+    "praet": "rannte",
     "flags": [
       "irr"
     ],
@@ -2549,6 +2584,7 @@
     "en": "to shout, to scream",
     "aux": "hat",
     "partizip": "geschrien",
+    "praet": "schrie",
     "flags": [
       "irr"
     ],
@@ -2636,6 +2672,7 @@
     "en": "to get up",
     "aux": "ist",
     "partizip": "aufgestanden",
+    "praet": "stand",
     "flags": [
       "sep",
       "irr"
@@ -2659,6 +2696,7 @@
     ],
     "aux": "hat",
     "partizip": "angefangen",
+    "praet": "fing",
     "takes": "mit + Dativ",
     "flags": [
       "sep",
@@ -2720,6 +2758,7 @@
     ],
     "aux": "hat",
     "partizip": "eingeladen",
+    "praet": "lud",
     "takes": "+ Akkusativ",
     "flags": [
       "sep",
@@ -2740,6 +2779,7 @@
     "en": "to phone, to call",
     "aux": "hat",
     "partizip": "angerufen",
+    "praet": "rief",
     "takes": "+ Akkusativ",
     "flags": [
       "sep",
@@ -2798,6 +2838,7 @@
     "en": "to come along",
     "aux": "ist",
     "partizip": "mitgekommen",
+    "praet": "kam",
     "flags": [
       "sep",
       "irr"
@@ -2817,6 +2858,7 @@
     "en": "to bring along",
     "aux": "hat",
     "partizip": "mitgebracht",
+    "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
     "flags": [
       "sep",
@@ -2837,6 +2879,7 @@
     "en": "to arrive",
     "aux": "ist",
     "partizip": "angekommen",
+    "praet": "kam",
     "takes": "in + Dativ",
     "flags": [
       "sep",
@@ -2861,6 +2904,7 @@
     ],
     "aux": "ist",
     "partizip": "abgefahren",
+    "praet": "fuhr",
     "flags": [
       "sep",
       "irr"
@@ -2884,6 +2928,7 @@
     ],
     "aux": "hat",
     "partizip": "ausgesehen",
+    "praet": "sah",
     "imperative": "Sieh",
     "flags": [
       "sep",
@@ -2908,6 +2953,7 @@
     ],
     "aux": "hat",
     "partizip": "ferngesehen",
+    "praet": "sah",
     "imperative": "Sieh",
     "flags": [
       "sep",
@@ -2928,6 +2974,7 @@
     "en": "to take place",
     "aux": "hat",
     "partizip": "stattgefunden",
+    "praet": "fand",
     "third": true,
     "flags": [
       "sep",
@@ -2986,6 +3033,7 @@
     "en": "to move house",
     "aux": "ist",
     "partizip": "umgezogen",
+    "praet": "zog",
     "takes": "nach + Dativ",
     "flags": [
       "sep",
@@ -3006,6 +3054,7 @@
     "en": "to put on (clothes)",
     "aux": "hat",
     "partizip": "angezogen",
+    "praet": "zog",
     "takes": "+ Akkusativ",
     "flags": [
       "sep",
@@ -3026,6 +3075,7 @@
     "en": "to take off (clothes)",
     "aux": "hat",
     "partizip": "ausgezogen",
+    "praet": "zog",
     "takes": "+ Akkusativ",
     "flags": [
       "sep",
@@ -3069,6 +3119,7 @@
     ],
     "aux": "hat",
     "partizip": "mitgenommen",
+    "praet": "nahm",
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
     "flags": [
@@ -3205,6 +3256,7 @@
     "en": "to come back",
     "aux": "ist",
     "partizip": "zurückgekommen",
+    "praet": "kam",
     "flags": [
       "sep",
       "irr"
@@ -3224,6 +3276,7 @@
     "en": "to change (trains, buses)",
     "aux": "ist",
     "partizip": "umgestiegen",
+    "praet": "stieg",
     "flags": [
       "sep",
       "irr"
@@ -3247,6 +3300,7 @@
     ],
     "aux": "hat",
     "partizip": "angehalten",
+    "praet": "hielt",
     "flags": [
       "sep",
       "irr"
@@ -3304,6 +3358,7 @@
     "en": "to hurt",
     "aux": "hat",
     "partizip": "wehgetan",
+    "praet": "tat",
     "takes": "+ Dativ",
     "flags": [
       "sep",
