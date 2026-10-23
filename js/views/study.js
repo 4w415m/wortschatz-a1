@@ -119,15 +119,31 @@ function drawCard() {
 
 /* The rules as a sheet over the card rather than a route: re-entering the
    study route would rebuild the queue and lose the card, its picks and the
-   session count. */
+   session count. The sheet does get a history entry of its own, so the
+   platform back gesture closes it instead of leaving the card; closing it any
+   other way pops that entry again. */
 function openRules() {
   const sheet = h('<div class="sheet" role="dialog" aria-label="Regeln"><div class="sheet-body">' +
     '<button class="iconbtn close" data-close aria-label="Schließen">✕</button>' +
     rulesHtml(W.verbs) + "</div></div>");
-  sheet.querySelector("[data-close]").onclick = () => sheet.remove();
-  sheet.onclick = (e) => { if (e.target === sheet) sheet.remove(); };
+  sheet.querySelector("[data-close]").onclick = closeRules;
+  sheet.onclick = (e) => { if (e.target === sheet) closeRules(); };
   app.appendChild(sheet);
+  history.pushState({ ...history.state, sheet: true }, "", location.href);
 }
+
+function closeRules() {
+  const sheet = document.querySelector(".sheet");
+  if (!sheet) return;
+  sheet.remove();
+  if (history.state && history.state.sheet) history.back();
+}
+
+/* Back gesture or button while the sheet is open: the hash is unchanged, so
+   the router stays out of it and only the sheet goes. */
+addEventListener("popstate", () => {
+  if (!(history.state && history.state.sheet)) closeRules();
+});
 
 /* ---- the answer side, one shape per category ---- */
 function backHtml(w) {
@@ -380,8 +396,7 @@ function paint(produce, isNew) {
 /* Desktop shortcuts: space/enter reveals, 1-4 grade. */
 document.addEventListener("keydown", (e) => {
   /* While the rules sheet is open, Escape closes it and nothing else grades. */
-  const sheet = document.querySelector(".sheet");
-  if (sheet) { if (e.key === "Escape") sheet.remove(); return; }
+  if (document.querySelector(".sheet")) { if (e.key === "Escape") closeRules(); return; }
   if (!cur || !document.getElementById("acts")) return;
   if (e.key === " " || e.key === "Enter") {
     const r = document.querySelector("[data-rev]");

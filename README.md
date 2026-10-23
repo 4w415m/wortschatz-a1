@@ -26,7 +26,7 @@ data/*.json           the word lists
 worker/               Cloudflare Worker for cross-device sync
 tools/check-data.mjs  validates data/ and pins what the verb modules derive
 tools/verbs.snapshot.txt  that output, one line per verb
-tests/*.test.mjs      unit tests for conjugate.js and perfekt.js (node --test)
+tests/*.test.mjs      unit tests for conjugate.js, perfekt.js and the rules page (node --test)
 tools/extract-data.mjs  one-off converter from the original single-file version
 ```
 
