@@ -69,6 +69,13 @@ for (const v of verbs) {
   if (v.partizip && typeOf(v) !== "schwach" && !v.praet && !v.praeteritum) err(at + ": strong or mixed verb needs praet");
   if (v.praet && typeOf(v) === "schwach" && v.praet === regularPraet3(v)) warn(at + ": praet is the regular form; drop it");
 
+  /* The card now shows the Perfekt with its rule, so a tip that spells out
+     "hat verkauft" or "no ge-" says it twice. */
+  if (v.partizip && v.tip) {
+    const perfekt = new RegExp("\\b(hat|ist|bin|bist|sind|seid|habe|hast|haben|habt)\\s+" + v.partizip + "\\b", "i");
+    if (perfekt.test(v.tip) || /no ge-/i.test(v.tip)) warn(at + ": tip restates the Perfekt; the card shows it now");
+  }
+
   /* The Perfekt sentence must actually contain the verb's Perfekt: a form of
      its auxiliary and the participle as a whole word. möchten, which has no
      Perfekt, must fall back to wollte. */

@@ -318,7 +318,7 @@
       "de": "Ich bin gestern früh ins Bett gegangen.",
       "en": "I went to bed early yesterday."
     },
-    "tip": "Perfekt with sein (motion): Ich bin gegangen. 'Wie geht's?' = How are you?"
+    "tip": "'Wie geht's?' = How are you? Movement from A to B, so the Perfekt takes sein. zu Fuß gehen = to walk."
   },
   {
     "infinitive": "kommen",
@@ -337,7 +337,7 @@
       "de": "Sie ist gestern spät nach Hause gekommen.",
       "en": "She came home late yesterday."
     },
-    "tip": "Perfekt with sein: Sie ist gekommen. Origin: kommen aus + Dativ (aus der Schweiz)."
+    "tip": "Origin: kommen aus + Dativ (aus der Schweiz). Movement, so the Perfekt takes sein; 'Ich komme aus Berlin' = I'm from Berlin."
   },
   {
     "infinitive": "sehen",
@@ -607,7 +607,7 @@
       "de": "Wir sind mit dem Auto nach Hamburg gefahren.",
       "en": "We drove to Hamburg."
     },
-    "tip": "Any vehicle: Auto, Bus, Zug, Fahrrad fahren. Motion verb → ist gefahren. Transport takes 'mit dem/der' + Dativ."
+    "tip": "Any vehicle: Auto, Bus, Zug, Fahrrad fahren. Transport takes 'mit dem/der' + Dativ. Motion, so sein in the Perfekt; haben only with an object: Ich habe den Bus gefahren."
   },
   {
     "infinitive": "laufen",
@@ -628,7 +628,7 @@
       "de": "Ich bin heute zur Arbeit gelaufen.",
       "en": "I walked to work today."
     },
-    "tip": "In everyday German laufen often means to walk (zu Fuß); 'rennen' is to run fast. Motion → ist gelaufen."
+    "tip": "In everyday German laufen often means to walk (zu Fuß); 'rennen' is to run fast. Motion, so the Perfekt takes sein."
   },
   {
     "infinitive": "fliegen",
@@ -645,7 +645,7 @@
       "de": "Sie ist letzte Woche nach Rom geflogen.",
       "en": "She flew to Rome last week."
     },
-    "tip": "Motion verb → ist geflogen. Vowel pattern ie–o–o: fliegen, flog, geflogen."
+    "tip": "Motion, so the Perfekt takes sein. nach + city or country for the destination: Wir fliegen nach Rom; the plane is das Flugzeug."
   },
   {
     "infinitive": "lesen",
@@ -824,7 +824,7 @@
       "de": "Er hat sein Auto verkauft.",
       "en": "He sold his car."
     },
-    "tip": "Inseparable prefix ver-: no ge- in the Perfekt (hat verkauft); stress falls on -kau-."
+    "tip": "Stress falls on -kau-, not on ver-: an unstressed prefix is why there is nothing in front of the participle. Opposite of kaufen; the seller is der Verkäufer."
   },
   {
     "infinitive": "kosten",
@@ -860,7 +860,7 @@
       "de": "Ich habe mit Karte bezahlt.",
       "en": "I paid by card."
     },
-    "tip": "Inseparable be-: no ge- (hat bezahlt). Short form zahlen also exists: 'Zahlen, bitte!' = the bill, please."
+    "tip": "Short form zahlen also exists: 'Zahlen, bitte!' = the bill, please. bezahlen takes the thing or the person directly: die Rechnung bezahlen, den Kellner bezahlen."
   },
   {
     "infinitive": "brauchen",
@@ -948,7 +948,7 @@
       "de": "Ich habe die Frage nicht verstanden.",
       "en": "I didn't understand the question."
     },
-    "tip": "Perfekt follows stehen (hat gestanden) but the inseparable ver- means no ge-: hat verstanden."
+    "tip": "'Verstanden?' = Got it? Ich verstehe nur Bahnhof = I don't understand a thing. sich verstehen mit + Dativ = get on with someone."
   },
   {
     "infinitive": "denken",
@@ -966,7 +966,7 @@
       "de": "Ich habe an dich gedacht.",
       "en": "I thought of you."
     },
-    "tip": "Mixed verb: regular present endings, but Perfekt hat gedacht. 'denken an' + Akkusativ = think of/about."
+    "tip": "'denken an' + Akkusativ = think of/about: Ich denke an dich. 'Ich denke, dass …' = I think that …; for an opinion, meinen or glauben also work."
   },
   {
     "infinitive": "glauben",
@@ -1069,7 +1069,7 @@
       "de": "Wir sind gestern zu Hause geblieben.",
       "en": "We stayed at home yesterday."
     },
-    "tip": "Perfekt with sein even though nothing moves: sein, bleiben and werden are the exceptions (ist geblieben)."
+    "tip": "Perfekt with sein even though nothing moves: sein, bleiben and werden are the exceptions. bleiben bei + Dativ = stay with; 'Bleib ruhig!' = stay calm."
   },
   {
     "infinitive": "stehen",
@@ -1230,7 +1230,7 @@
       "de": "Der Kurs hat um neun begonnen.",
       "en": "The course began at nine."
     },
-    "tip": "Inseparable be- prefix: no ge- in the Partizip (hat begonnen). beginnen mit + Dativ."
+    "tip": "beginnen mit + Dativ: Wir beginnen mit der Arbeit. Everyday German often prefers anfangen; der Beginn = the start."
   },
   {
     "infinitive": "helfen",
@@ -1288,7 +1288,7 @@
       "de": "Er hat mir Blumen gebracht.",
       "en": "He brought me flowers."
     },
-    "tip": "Mixed verb: present is regular but Perfekt is hat gebracht (like denken → gedacht). Person in Dativ, thing in Akkusativ."
+    "tip": "Person in Dativ, thing in Akkusativ: Ich bringe dir das Buch. mitbringen = bring along; 'Was bringt das?' = what's the point?"
   },
   {
     "infinitive": "holen",
@@ -1347,7 +1347,7 @@
       "de": "Ich habe ein Paket bekommen.",
       "en": "I received a parcel."
     },
-    "tip": "False friend: bekommen = to get, not to become (that is werden). Inseparable be-, so no ge-: hat bekommen."
+    "tip": "False friend: bekommen = to get, not to become (that is werden). The participle looks exactly like the infinitive, so watch the word order: Ich habe eine E-Mail bekommen."
   },
   {
     "infinitive": "schenken",
@@ -1400,7 +1400,7 @@
       "de": "Die Lehrerin hat die Aufgabe erklärt.",
       "en": "The teacher explained the task."
     },
-    "tip": "Inseparable er-: no ge- in the Perfekt, hat erklärt. Erklär mir das bitte (person in Dativ)."
+    "tip": "Erklär mir das bitte: person in Dativ, thing in Akkusativ. Noun: die Erklärung = explanation; erklären also = declare."
   },
   {
     "infinitive": "üben",
@@ -1436,7 +1436,7 @@
       "de": "Wir haben die Wörter wiederholt.",
       "en": "We went over the words again."
     },
-    "tip": "Not separable in this meaning: ich wiederhole, hat wiederholt, stress on -HO-. Key phrase: Können Sie das bitte wiederholen?"
+    "tip": "Not separable in this meaning: ich wiederhole, stress on -HO-. Key phrase: Können Sie das bitte wiederholen? Noun: die Wiederholung = repetition, rerun."
   },
   {
     "infinitive": "vergessen",
@@ -1461,7 +1461,7 @@
       "de": "Ich habe meinen Schlüssel vergessen.",
       "en": "I forgot my key."
     },
-    "tip": "e → i in du/er, both vergisst (ss + st merge). Inseparable ver-: Perfekt hat vergessen, no ge-."
+    "tip": "e → i in du/er, both vergisst (ss + st merge). The participle looks like the infinitive: Ich habe meinen Schlüssel vergessen. 'Vergiss es!' = forget it."
   },
   {
     "infinitive": "treffen",
@@ -1503,7 +1503,7 @@
       "de": "Wir haben am Sonntag Oma besucht.",
       "en": "We visited Grandma on Sunday."
     },
-    "tip": "Direct object, no preposition: Ich besuche meine Oma (not 'bei'). Inseparable be-: hat besucht."
+    "tip": "Direct object, no preposition: Ich besuche meine Oma (not 'bei'). Also for classes: einen Kurs besuchen; der Besuch = visit, visitor."
   },
   {
     "infinitive": "reisen",
@@ -1536,7 +1536,7 @@
       "de": "Wir sind am Wochenende in den Bergen gewandert.",
       "en": "We went hiking in the mountains at the weekend."
     },
-    "tip": "-ern verbs: wir/sie wandern (no -en), ich wandere. Perfekt with sein: ist gewandert."
+    "tip": "-ern verbs: wir/sie wandern (no -en), ich wandere. Movement, so sein in the Perfekt. wandern = hike; a walk in town is spazieren gehen."
   },
   {
     "infinitive": "schwimmen",
@@ -1553,7 +1553,7 @@
       "de": "Ich bin im See geschwommen.",
       "en": "I swam in the lake."
     },
-    "tip": "Perfekt with sein (ist geschwommen) because it is movement; 'hat geschwommen' is also heard when no direction is meant."
+    "tip": "sein because it is movement; haben is also heard when no direction is meant (Ich habe eine Stunde geschwommen)."
   },
   {
     "infinitive": "tanzen",
@@ -1775,7 +1775,7 @@
       "de": "Das Auto hat meinem Vater gehört.",
       "en": "The car belonged to my father."
     },
-    "tip": "Dativ: Das gehört mir. 'hat gehört' is also the Perfekt of hören (heard) — context tells them apart."
+    "tip": "Dativ: Das gehört mir. Its participle is also that of hören (heard); only context tells them apart. gehören zu + Dativ = be part of."
   },
   {
     "infinitive": "funktionieren",
@@ -1792,7 +1792,7 @@
       "de": "Der Aufzug hat gestern nicht funktioniert.",
       "en": "The lift didn't work yesterday."
     },
-    "tip": "-ieren verbs take no ge- in the Perfekt: hat funktioniert. Things (machines, plans) funktionieren; people who work arbeiten."
+    "tip": "Things (machines, plans) funktionieren; people who work arbeiten. 'Das funktioniert nicht' = that doesn't work. Stress on -NIE-."
   },
   {
     "infinitive": "probieren",
@@ -1809,7 +1809,7 @@
       "de": "Hast du den Kuchen probiert?",
       "en": "Did you try the cake?"
     },
-    "tip": "No ge- in the Perfekt (hat probiert). anprobieren = try on (clothes), ausprobieren = try out."
+    "tip": "anprobieren = try on (clothes), ausprobieren = try out; plain probieren is mostly tasting: Probier mal! = have a taste."
   },
   {
     "infinitive": "versuchen",
@@ -1828,7 +1828,7 @@
       "de": "Ich habe es dreimal versucht.",
       "en": "I tried it three times."
     },
-    "tip": "Often with zu + Infinitiv: Ich versuche, Deutsch zu lernen. Inseparable ver-: Perfekt hat versucht, no ge-."
+    "tip": "Often with zu + Infinitiv: Ich versuche, Deutsch zu lernen. Noun: der Versuch = attempt; probieren is the everyday 'give it a try'."
   },
   {
     "infinitive": "entschuldigen",
@@ -1883,7 +1883,7 @@
       "de": "Ich habe eine Pizza bestellt.",
       "en": "I ordered a pizza."
     },
-    "tip": "Inseparable be-: Perfekt hat bestellt, no ge-. Used in the café and online: Ich habe im Internet bestellt."
+    "tip": "Used in the café and online: Ich habe im Internet bestellt. Noun: die Bestellung; 'Haben Sie schon bestellt?' is the waiter's question."
   },
   {
     "infinitive": "buchen",
@@ -1917,7 +1917,7 @@
       "de": "Wir haben einen Tisch reserviert.",
       "en": "We reserved a table."
     },
-    "tip": "-ieren verbs take no ge- in the Perfekt: hat reserviert. Stress on -VIE-: reser-VIE-ren."
+    "tip": "Stress on -VIE-: reser-VIE-ren. einen Tisch / ein Zimmer reservieren; noun: die Reservierung."
   },
   {
     "infinitive": "verlieren",
@@ -1937,7 +1937,7 @@
       "de": "Ich habe meinen Schlüssel verloren.",
       "en": "I lost my key."
     },
-    "tip": "Strong verb: Perfekt hat verloren (vowel change ie → o, no ge- because of ver-). Opposite: gewinnen / finden."
+    "tip": "Opposite: gewinnen (a game) or finden (a thing). 'sich verlaufen' = get lost on foot; a lost item is verloren gegangen."
   },
   {
     "infinitive": "gewinnen",
@@ -1957,7 +1957,7 @@
       "de": "Unser Team hat das Spiel gewonnen.",
       "en": "Our team won the game."
     },
-    "tip": "Perfekt hat gewonnen: the ge- belongs to the stem, so no second ge-. Also for money and prizes: im Lotto gewinnen."
+    "tip": "The ge- at the front belongs to the stem, so the participle adds no second one. Also for money and prizes: im Lotto gewinnen; der Gewinn = profit, prize."
   },
   {
     "infinitive": "rauchen",
@@ -2009,7 +2009,7 @@
       "de": "Sie hat viel Geld verdient.",
       "en": "She earned a lot of money."
     },
-    "tip": "Geld verdienen = earn money; also 'deserve': Das hast du verdient. Inseparable ver-: Perfekt hat verdient."
+    "tip": "Geld verdienen = earn money; also 'deserve': Das hast du verdient. Noun: der Verdienst = earnings."
   },
   {
     "infinitive": "studieren",
@@ -2046,7 +2046,7 @@
       "de": "Ich habe den Vertrag unterschrieben.",
       "en": "I signed the contract."
     },
-    "tip": "Inseparable here (stress on -SCHREI-): Ich unterschreibe den Vertrag. Perfekt hat unterschrieben, no ge-."
+    "tip": "Inseparable here (stress on -SCHREI-): Ich unterschreibe den Vertrag. Noun: die Unterschrift = signature; 'Unterschreiben Sie bitte hier.'"
   },
   {
     "infinitive": "wechseln",
@@ -2187,7 +2187,7 @@
       "de": "Was hast du heute getan?",
       "en": "What did you do today?"
     },
-    "tip": "machen covers most of 'do'; tun lives in set phrases: wehtun, Es tut mir leid, Was tust du da? Perfekt: hat getan."
+    "tip": "machen covers most of 'do'; tun lives in set phrases: wehtun, Es tut mir leid, Was tust du da? 'Das tut nichts zur Sache' = that's beside the point."
   },
   {
     "infinitive": "rufen",
@@ -2205,7 +2205,7 @@
       "de": "Die Mutter hat die Kinder gerufen.",
       "en": "The mother called the children."
     },
-    "tip": "Calling with your voice; on the phone it is anrufen. Strong verb: Perfekt hat gerufen."
+    "tip": "Calling with your voice; on the phone it is anrufen. 'um Hilfe rufen' = call for help; der Ruf = call, reputation."
   },
   {
     "infinitive": "bedeuten",
@@ -2225,7 +2225,7 @@
       "de": "Das hat mir viel bedeutet.",
       "en": "That meant a lot to me."
     },
-    "tip": "Ask 'Was bedeutet das?' about a word or sign; for someone's opinion use meinen. Inseparable be-, so no ge-: hat bedeutet."
+    "tip": "Ask 'Was bedeutet das?' about a word or sign; for someone's opinion use meinen. Noun: die Bedeutung = meaning."
   },
   {
     "infinitive": "benutzen",
@@ -2244,7 +2244,7 @@
       "de": "Ich habe dein Fahrrad benutzt.",
       "en": "I used your bike."
     },
-    "tip": "Inseparable be-: no ge- (hat benutzt). After the z the du form equals er: du benutzt. Noun: der Benutzer = user."
+    "tip": "After the z the du form equals er: du benutzt. Noun: der Benutzer = user; benutzen takes the Akkusativ: den Computer benutzen."
   },
   {
     "infinitive": "telefonieren",
@@ -2261,7 +2261,7 @@
       "de": "Ich habe gestern mit meiner Mutter telefoniert.",
       "en": "I talked to my mother on the phone yesterday."
     },
-    "tip": "telefonieren mit + Dativ, no direct object; to call someone is anrufen + Akkusativ. -ieren verb, so no ge-."
+    "tip": "telefonieren mit + Dativ, no direct object; to call someone is anrufen + Akkusativ. Stress on -NIE-: telefo-NIE-ren."
   },
   {
     "infinitive": "passieren",
@@ -2279,7 +2279,7 @@
       "de": "Was ist gestern passiert?",
       "en": "What happened yesterday?"
     },
-    "tip": "Perfekt with sein: Was ist passiert? The person it happens to is Dativ: Das passiert mir oft. -ieren, so no ge-."
+    "tip": "'Was ist denn passiert?' = what happened? The person it happens to is Dativ: Das passiert mir oft. sein in the Perfekt, like other verbs of happening."
   },
   {
     "infinitive": "parken",
@@ -2328,7 +2328,7 @@
       "de": "Wir haben um neun gefrühstückt.",
       "en": "We had breakfast at nine."
     },
-    "tip": "Looks separable but is not: ich frühstücke, hat gefrühstückt. Noun: das Frühstück."
+    "tip": "Looks like a prefix verb but is a plain one made from the noun das Frühstück: ich frühstücke, wir frühstücken um acht."
   },
   {
     "infinitive": "feiern",
@@ -2397,7 +2397,7 @@
       "de": "Gestern hat es den ganzen Tag geregnet.",
       "en": "It rained all day yesterday."
     },
-    "tip": "Only with es: Es regnet. Stem ends in -gn, so an -e- is inserted: es regnet, es hat geregnet. Noun: der Regen."
+    "tip": "Only with es: Es regnet. The stem ends in -gn, so an -e- is inserted before -t: es regnet. Noun: der Regen; es nieselt = it's drizzling."
   },
   {
     "infinitive": "schneien",
@@ -2414,7 +2414,7 @@
       "de": "Heute Nacht hat es geschneit.",
       "en": "It snowed last night."
     },
-    "tip": "Only with es: Es schneit. Perfekt: Es hat geschneit. Noun: der Schnee."
+    "tip": "Only with es: Es schneit. Noun: der Schnee; 'Es schneit dicke Flocken' = big flakes are falling."
   },
   {
     "infinitive": "scheinen",
@@ -2432,7 +2432,7 @@
       "de": "Am Sonntag hat die Sonne geschienen.",
       "en": "The sun shone on Sunday."
     },
-    "tip": "Weather: Die Sonne scheint. Also 'to seem': Das scheint gut zu sein. Strong verb: Perfekt hat geschienen."
+    "tip": "Weather: Die Sonne scheint. Also 'to seem': Das scheint gut zu sein. 'anscheinend' = apparently."
   },
   {
     "infinitive": "zahlen",
@@ -2448,7 +2448,7 @@
       "de": "Wer hat gestern gezahlt?",
       "en": "Who paid yesterday?"
     },
-    "tip": "Same meaning as bezahlen; at the café you say 'Zahlen, bitte!' or 'Ich möchte zahlen.' Regular: hat gezahlt."
+    "tip": "Same meaning as bezahlen; at the café you say 'Zahlen, bitte!' or 'Ich möchte zahlen.' Not to be confused with zählen = to count."
   },
   {
     "infinitive": "füllen",
@@ -2499,7 +2499,7 @@
       "de": "Die Kinder sind zum Bus gerannt.",
       "en": "The children ran to the bus."
     },
-    "tip": "Motion, so Perfekt with sein: ist gerannt. laufen is walking or jogging; rennen is running fast."
+    "tip": "Motion, so sein in the Perfekt. laufen is walking or jogging; rennen is running fast; das Rennen = the race."
   },
   {
     "infinitive": "schreien",
@@ -2516,7 +2516,7 @@
       "de": "Das Baby hat laut geschrien.",
       "en": "The baby screamed loudly."
     },
-    "tip": "Strong verb: Perfekt hat geschrien. rufen = call out to someone; schreien = loud, often angry or in pain."
+    "tip": "rufen = call out to someone; schreien = loud, often angry or in pain. 'Schrei nicht so!' = don't shout."
   },
   {
     "infinitive": "lächeln",
@@ -2551,7 +2551,7 @@
       "de": "Die alte Jacke habe ich noch gut gebraucht.",
       "en": "I still got good use out of the old jacket."
     },
-    "tip": "Everyday 'use' is benutzen; gebrauchen is 'have a use for'. Its Perfekt hat gebraucht is identical to that of brauchen."
+    "tip": "Everyday 'use' is benutzen; gebrauchen is 'have a use for'. Its participle is identical to that of brauchen; gebraucht as an adjective = second-hand."
   },
   {
     "infinitive": "speichern",
@@ -2766,7 +2766,7 @@
       "de": "Meine Schwester ist mitgekommen.",
       "en": "My sister came along."
     },
-    "tip": "Perfekt with sein (motion): Sie ist mitgekommen. 'Kommst du mit?' is the everyday 'Coming along?'"
+    "tip": "'Kommst du mit?' is the everyday 'Coming along?'; 'Ich komme nicht mit' also means 'I can't follow'. Motion, so sein."
   },
   {
     "infinitive": "mitbringen",
@@ -2829,7 +2829,7 @@
       "de": "Der Bus ist schon abgefahren.",
       "en": "The bus has already left."
     },
-    "tip": "Motion verb, so sein in the Perfekt: 'Der Zug ist abgefahren.' Typical question: 'Wann fährt der Bus ab?'"
+    "tip": "Typical question: 'Wann fährt der Bus ab?' Noun: die Abfahrt = departure (opposite: die Ankunft). Motion, so sein."
   },
   {
     "infinitive": "aussehen",
@@ -2955,7 +2955,7 @@
       "de": "Wir sind im Mai nach Berlin umgezogen.",
       "en": "We moved to Berlin in May."
     },
-    "tip": "Change of place, so sein: 'Ich bin umgezogen.' Reflexive 'sich umziehen' (hat) means to change clothes."
+    "tip": "Change of place, so sein. Reflexive 'sich umziehen' takes haben and means to change clothes: Ich habe mich umgezogen."
   },
   {
     "infinitive": "anziehen",
@@ -2995,7 +2995,7 @@
       "de": "Die Kinder haben die Schuhe ausgezogen.",
       "en": "The children took off their shoes."
     },
-    "tip": "Clothes: hat ausgezogen. But 'ausziehen' = to move out takes sein: 'Er ist aus der Wohnung ausgezogen.'"
+    "tip": "Clothes take haben: Ich habe die Jacke ausgezogen. Moving out takes sein: 'Er ist aus der Wohnung ausgezogen.'"
   },
   {
     "infinitive": "kennenlernen",
@@ -3014,7 +3014,7 @@
       "de": "Ich habe meine Frau in Berlin kennengelernt.",
       "en": "I met my wife in Berlin."
     },
-    "tip": "Separable, and the prefix is a whole verb: Ich lerne dich kennen. Perfekt: hat kennengelernt. 'Freut mich, Sie kennenzulernen' = pleased to meet you."
+    "tip": "Separable, and the prefix is a whole verb: Ich lerne dich kennen. 'Freut mich, Sie kennenzulernen' = pleased to meet you."
   },
   {
     "infinitive": "mitnehmen",
@@ -3096,7 +3096,7 @@
       "de": "Ich habe mein Zimmer aufgeräumt.",
       "en": "I tidied up my room."
     },
-    "tip": "Separable: Räum bitte dein Zimmer auf! Perfekt: hat aufgeräumt. Related noun: der Raum = room, space."
+    "tip": "Separable: Räum bitte dein Zimmer auf! Related noun: der Raum = room, space; aufgeräumt as an adjective = tidy."
   },
   {
     "infinitive": "anmachen",
@@ -3234,7 +3234,7 @@
       "de": "Ich habe die Jacke anprobiert.",
       "en": "I tried on the jacket."
     },
-    "tip": "Separable and -ieren, so the Perfekt has no ge- at all: hat anprobiert. Clothes in Akkusativ."
+    "tip": "Separable and -ieren at once: Ich probiere die Jacke an. Clothes in Akkusativ; die Umkleidekabine = fitting room."
   },
   {
     "infinitive": "ausprobieren",
@@ -3253,7 +3253,7 @@
       "de": "Wir haben das neue Rezept ausprobiert.",
       "en": "We tried out the new recipe."
     },
-    "tip": "Separable and -ieren: hat ausprobiert, no ge-. probieren = taste; ausprobieren = test something new."
+    "tip": "probieren = taste; ausprobieren = test something new: Probier die App mal aus!"
   },
   {
     "infinitive": "wehtun",
@@ -3273,7 +3273,7 @@
       "de": "Mein Kopf hat den ganzen Tag wehgetan.",
       "en": "My head hurt all day."
     },
-    "tip": "The person is Dativ: Mein Bauch tut mir weh. Written wehtun or weh tun, both are allowed. Perfekt: hat wehgetan."
+    "tip": "The person is Dativ: Mein Bauch tut mir weh. Written wehtun or weh tun, both are allowed. 'Wo tut es weh?' is the doctor's question."
   },
   {
     "infinitive": "erzählen",
