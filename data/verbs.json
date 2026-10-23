@@ -3333,5 +3333,531 @@
       "en": "We got off at the stop."
     },
     "tip": "aus + Dativ: aus dem Bus aussteigen. Announcements use the noun: Ausstieg in Fahrtrichtung rechts."
+  },
+  {
+    "infinitive": "abfliegen",
+    "en": "to take off, to fly out",
+    "aux": "ist",
+    "partizip": "abgeflogen",
+    "praet": "flog",
+    "takes": "von + Dativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Wann fliegst du ab?",
+      "en": "When do you fly out?"
+    },
+    "examplePerfekt": {
+      "de": "Das Flugzeug ist pünktlich abgeflogen.",
+      "en": "The plane took off on time."
+    },
+    "tip": "Motion away, so sein. Noun: der Abflug = departure, the airport sign; the opposite is ankommen, die Ankunft."
+  },
+  {
+    "infinitive": "abgeben",
+    "en": "to hand in, to drop off",
+    "stemChange": [
+      "gibst",
+      "gibt"
+    ],
+    "aux": "hat",
+    "partizip": "abgegeben",
+    "praet": "gab",
+    "imperative": "Gib",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Ich muss meine Schlüssel abgeben.",
+      "en": "I have to hand in my keys."
+    },
+    "examplePerfekt": {
+      "de": "Hast du die Hausaufgaben abgegeben?",
+      "en": "Did you hand in the homework?"
+    },
+    "tip": "Follows geben: du gibst ab, er gibt ab. abgeben bei + Dativ = hand in at: den Schlüssel an der Rezeption abgeben."
+  },
+  {
+    "infinitive": "anbieten",
+    "en": "to offer",
+    "aux": "hat",
+    "partizip": "angeboten",
+    "praet": "bot",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Was darf ich dir anbieten?",
+      "en": "What can I offer you?"
+    },
+    "examplePerfekt": {
+      "de": "Er hat mir einen Kaffee angeboten.",
+      "en": "He offered me a coffee."
+    },
+    "tip": "Person in Dativ, thing in Akkusativ. Noun: das Angebot = offer, special deal; im Angebot = on sale."
+  },
+  {
+    "infinitive": "bitten",
+    "en": "to ask for, to request",
+    "aux": "hat",
+    "partizip": "gebeten",
+    "praet": "bat",
+    "takes": "um + Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Darf ich Sie um etwas bitten?",
+      "en": "May I ask you for something?"
+    },
+    "examplePerfekt": {
+      "de": "Ich habe ihn um Hilfe gebeten.",
+      "en": "I asked him for help."
+    },
+    "tip": "bitten um + Akkusativ = ask for; a question is fragen. Not to be confused with bieten (offer): bat, gebeten against bot, geboten."
+  },
+  {
+    "infinitive": "empfehlen",
+    "en": "to recommend",
+    "stemChange": [
+      "empfiehlst",
+      "empfiehlt"
+    ],
+    "aux": "hat",
+    "partizip": "empfohlen",
+    "praet": "empfahl",
+    "imperative": "Empfiehl",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Welchen Wein können Sie mir empfehlen?",
+      "en": "Which wine can you recommend to me?"
+    },
+    "examplePerfekt": {
+      "de": "Der Kellner hat uns den Fisch empfohlen.",
+      "en": "The waiter recommended the fish to us."
+    },
+    "tip": "e → ie in du/er: er empfiehlt. Person in Dativ, thing in Akkusativ. Noun: die Empfehlung."
+  },
+  {
+    "infinitive": "halten",
+    "en": "to hold, to stop (come to a halt)",
+    "stemChange": [
+      "hältst",
+      "hält"
+    ],
+    "aux": "hat",
+    "partizip": "gehalten",
+    "praet": "hielt",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Dieser Zug hält nicht in Rüdesheim.",
+      "en": "This train doesn't stop in Rüdesheim."
+    },
+    "examplePerfekt": {
+      "de": "Der Bus hat hier nicht gehalten.",
+      "en": "The bus didn't stop here."
+    },
+    "tip": "a → ä in du/er: er hält. Two meanings: hold something (die Tasche halten) and come to a stop (der Zug hält). halten von + Dativ = think of: Was hältst du davon?"
+  },
+  {
+    "infinitive": "riechen",
+    "en": "to smell",
+    "aux": "hat",
+    "partizip": "gerochen",
+    "praet": "roch",
+    "takes": "nach + Dativ",
+    "flags": [],
+    "example": {
+      "de": "Dieser Wein riecht gut.",
+      "en": "This wine smells good."
+    },
+    "examplePerfekt": {
+      "de": "Es hat nach Rauch gerochen.",
+      "en": "It smelled of smoke."
+    },
+    "tip": "riechen nach + Dativ = smell of: Es riecht nach Kaffee. Both to smell something and to give off a smell; noun: der Geruch."
+  },
+  {
+    "infinitive": "sterben",
+    "en": "to die",
+    "stemChange": [
+      "stirbst",
+      "stirbt"
+    ],
+    "aux": "ist",
+    "partizip": "gestorben",
+    "praet": "starb",
+    "imperative": "Stirb",
+    "takes": "an + Dativ",
+    "flags": [],
+    "example": {
+      "de": "Viele Tiere sterben im Winter.",
+      "en": "Many animals die in winter."
+    },
+    "examplePerfekt": {
+      "de": "Mein Opa ist letztes Jahr gestorben.",
+      "en": "My grandpa died last year."
+    },
+    "tip": "e → i in du/er: er stirbt. Change of state, so sein. sterben an + Dativ = die of. The other end of life is a set phrase: Ich bin 1990 geboren."
+  },
+  {
+    "infinitive": "überweisen",
+    "en": "to transfer (money)",
+    "aux": "hat",
+    "partizip": "überwiesen",
+    "praet": "überwies",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Sie können das Geld auch überweisen.",
+      "en": "You can also transfer the money."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe die Miete gestern überwiesen.",
+      "en": "I transferred the rent yesterday."
+    },
+    "tip": "Bank transfer: Geld auf ein Konto überweisen, auf + Akkusativ. Noun: die Überweisung. Follows weisen: wies, gewiesen."
+  },
+  {
+    "infinitive": "anklicken",
+    "en": "to click on",
+    "aux": "hat",
+    "partizip": "angeklickt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Da musst du dieses Wort anklicken.",
+      "en": "You have to click on this word there."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe den Link angeklickt.",
+      "en": "I clicked on the link."
+    },
+    "tip": "Computer verb; klicken auf + Akkusativ also works. Related: der Klick, die Maus, der Link."
+  },
+  {
+    "infinitive": "ankreuzen",
+    "en": "to tick, to mark with a cross",
+    "aux": "hat",
+    "partizip": "angekreuzt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Kreuzen Sie die richtige Antwort an.",
+      "en": "Tick the correct answer."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe die falsche Antwort angekreuzt.",
+      "en": "I ticked the wrong answer."
+    },
+    "tip": "Exam-sheet verb: 'Kreuzen Sie an' = tick the box. Noun: das Kreuz = cross; the box is das Kästchen."
+  },
+  {
+    "infinitive": "baden",
+    "en": "to bathe, to have a bath, to swim",
+    "aux": "hat",
+    "partizip": "gebadet",
+    "flags": [],
+    "example": {
+      "de": "Ich bade nicht so gern, ich dusche lieber.",
+      "en": "I don't like baths much, I prefer to shower."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben im See gebadet.",
+      "en": "We swam in the lake."
+    },
+    "tip": "Both a bath at home and a swim outdoors: im Meer baden. Stem ends in -d, so du badest, er badet. Noun: das Bad = bath, bathroom."
+  },
+  {
+    "infinitive": "besichtigen",
+    "en": "to visit (a sight), to tour",
+    "aux": "hat",
+    "partizip": "besichtigt",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Ich möchte gern den Dom besichtigen.",
+      "en": "I'd like to visit the cathedral."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben gestern das Schloss besichtigt.",
+      "en": "We visited the castle yesterday."
+    },
+    "tip": "Sights and buildings, not people: den Dom besichtigen, but Freunde besuchen. Noun: die Besichtigung = tour, viewing."
+  },
+  {
+    "infinitive": "buchstabieren",
+    "en": "to spell",
+    "aux": "hat",
+    "partizip": "buchstabiert",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Bitte buchstabieren Sie Ihren Namen.",
+      "en": "Please spell your name."
+    },
+    "examplePerfekt": {
+      "de": "Sie hat ihren Namen buchstabiert.",
+      "en": "She spelled her name."
+    },
+    "tip": "Stress on -BIE-: buchsta-BIE-ren. Noun: der Buchstabe = letter of the alphabet. On the phone: 'Wie schreibt man das?'"
+  },
+  {
+    "infinitive": "drucken",
+    "en": "to print",
+    "aux": "hat",
+    "partizip": "gedruckt",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Bitte drucke das Formular für mich.",
+      "en": "Please print the form for me."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe die Tickets gedruckt.",
+      "en": "I printed the tickets."
+    },
+    "tip": "drucken = print (der Drucker); drücken with ü = press. ausdrucken is the everyday word for printing a document."
+  },
+  {
+    "infinitive": "drücken",
+    "en": "to press, to push",
+    "aux": "hat",
+    "partizip": "gedrückt",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Drück hier, dann geht der Computer an.",
+      "en": "Press here, then the computer turns on."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe den falschen Knopf gedrückt.",
+      "en": "I pressed the wrong button."
+    },
+    "tip": "On doors: Drücken = push, Ziehen = pull. 'Ich drücke dir die Daumen' = fingers crossed. drucken without umlaut = print."
+  },
+  {
+    "infinitive": "enden",
+    "en": "to end, to finish (on its own)",
+    "aux": "hat",
+    "partizip": "geendet",
+    "flags": [],
+    "example": {
+      "de": "Die Straße endet hier.",
+      "en": "The street ends here."
+    },
+    "examplePerfekt": {
+      "de": "Der Film hat um elf geendet.",
+      "en": "The film ended at eleven."
+    },
+    "tip": "Things end on their own: Der Kurs endet im Mai. To end something yourself is beenden. Noun: das Ende."
+  },
+  {
+    "infinitive": "erlauben",
+    "en": "to allow, to permit",
+    "aux": "hat",
+    "partizip": "erlaubt",
+    "takes": "+ Dativ + Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Rauchen ist hier nicht erlaubt.",
+      "en": "Smoking is not allowed here."
+    },
+    "examplePerfekt": {
+      "de": "Meine Eltern haben mir das erlaubt.",
+      "en": "My parents allowed me that."
+    },
+    "tip": "Person in Dativ: Erlauben Sie mir eine Frage? Opposite: verbieten. 'Das ist nicht erlaubt' = that's not allowed. Noun: die Erlaubnis."
+  },
+  {
+    "infinitive": "gratulieren",
+    "en": "to congratulate",
+    "aux": "hat",
+    "partizip": "gratuliert",
+    "takes": "+ Dativ",
+    "flags": [],
+    "example": {
+      "de": "Ich gratuliere dir!",
+      "en": "Congratulations!"
+    },
+    "examplePerfekt": {
+      "de": "Wir haben ihr zum Geburtstag gratuliert.",
+      "en": "We congratulated her on her birthday."
+    },
+    "tip": "Person in Dativ, occasion with zu: jemandem zum Geburtstag gratulieren. The set phrase is 'Herzlichen Glückwunsch!'"
+  },
+  {
+    "infinitive": "grillen",
+    "en": "to barbecue, to grill",
+    "aux": "hat",
+    "partizip": "gegrillt",
+    "flags": [],
+    "example": {
+      "de": "Heute grillen wir im Garten.",
+      "en": "Today we're barbecuing in the garden."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben am Samstag gegrillt.",
+      "en": "We had a barbecue on Saturday."
+    },
+    "tip": "Both the activity and the food: Wir grillen; Würstchen grillen. Noun: der Grill; das Grillfest = barbecue party."
+  },
+  {
+    "infinitive": "heiraten",
+    "en": "to marry, to get married",
+    "aux": "hat",
+    "partizip": "geheiratet",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Meine Schwester heiratet einen Japaner.",
+      "en": "My sister is marrying a Japanese man."
+    },
+    "examplePerfekt": {
+      "de": "Sie haben letztes Jahr geheiratet.",
+      "en": "They got married last year."
+    },
+    "tip": "Direct object, no preposition: Er heiratet sie. Stem ends in -t: du heiratest. Nouns: die Hochzeit = wedding; verheiratet = married."
+  },
+  {
+    "infinitive": "kriegen",
+    "en": "to get (colloquial)",
+    "aux": "hat",
+    "partizip": "gekriegt",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich kriege 15 Euro in der Stunde für meine Arbeit.",
+      "en": "I get 15 euros an hour for my work."
+    },
+    "examplePerfekt": {
+      "de": "Hast du die E-Mail gekriegt?",
+      "en": "Did you get the e-mail?"
+    },
+    "tip": "Everyday, spoken word for bekommen; in writing prefer bekommen. 'Ich kriege ein Kind' = I'm having a baby. der Krieg (war) is unrelated."
+  },
+  {
+    "infinitive": "kümmern",
+    "en": "to take care of, to look after",
+    "aux": "hat",
+    "partizip": "gekümmert",
+    "reflexive": "akk",
+    "takes": "um + Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Jede Mutter kümmert sich um ihre kleinen Kinder.",
+      "en": "Every mother looks after her small children."
+    },
+    "examplePerfekt": {
+      "de": "Ich habe mich um die Katze gekümmert.",
+      "en": "I looked after the cat."
+    },
+    "tip": "Always reflexive and always with um + Akkusativ: Ich kümmere mich darum = I'll take care of it. -ern verb: wir kümmern uns."
+  },
+  {
+    "infinitive": "mieten",
+    "en": "to rent (as the tenant)",
+    "aux": "hat",
+    "partizip": "gemietet",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Ich möchte ein Auto mieten.",
+      "en": "I'd like to rent a car."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben eine Wohnung in Köln gemietet.",
+      "en": "We rented a flat in Cologne."
+    },
+    "tip": "You mieten as the tenant; the owner vermietet. Nouns: die Miete = rent, der Mieter = tenant. Stem ends in -t: du mietest."
+  },
+  {
+    "infinitive": "mitmachen",
+    "en": "to join in, to take part",
+    "aux": "hat",
+    "partizip": "mitgemacht",
+    "takes": "bei + Dativ",
+    "flags": [
+      "sep"
+    ],
+    "example": {
+      "de": "Warum macht ihr nicht mit?",
+      "en": "Why don't you join in?"
+    },
+    "examplePerfekt": {
+      "de": "Alle haben beim Spiel mitgemacht.",
+      "en": "Everyone joined in the game."
+    },
+    "tip": "mitmachen bei + Dativ = take part in: beim Kurs mitmachen. 'Machst du mit?' = are you in?"
+  },
+  {
+    "infinitive": "reparieren",
+    "en": "to repair, to fix",
+    "aux": "hat",
+    "partizip": "repariert",
+    "takes": "+ Akkusativ",
+    "flags": [],
+    "example": {
+      "de": "Kannst du mein Fahrrad reparieren?",
+      "en": "Can you repair my bike?"
+    },
+    "examplePerfekt": {
+      "de": "Er hat das Fahrrad repariert.",
+      "en": "He repaired the bike."
+    },
+    "tip": "Stress on -RIE-: repa-RIE-ren. reparieren lassen = have something repaired: Ich lasse das Auto reparieren. Noun: die Reparatur."
+  },
+  {
+    "infinitive": "vermieten",
+    "en": "to rent out, to let",
+    "aux": "hat",
+    "partizip": "vermietet",
+    "takes": "+ Akkusativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Die Wohnung ist schon vermietet.",
+      "en": "The flat is already let."
+    },
+    "examplePerfekt": {
+      "de": "Er hat sein Zimmer an Studenten vermietet.",
+      "en": "He rented his room out to students."
+    },
+    "tip": "The owner vermietet, the tenant mietet. vermieten an + Akkusativ = let to. Noun: der Vermieter = landlord."
+  },
+  {
+    "infinitive": "übernachten",
+    "en": "to stay overnight",
+    "aux": "hat",
+    "partizip": "übernachtet",
+    "takes": "bei + Dativ",
+    "flags": [
+      "insep"
+    ],
+    "example": {
+      "de": "Du kannst bei mir übernachten.",
+      "en": "You can stay the night at my place."
+    },
+    "examplePerfekt": {
+      "de": "Wir haben im Hotel übernachtet.",
+      "en": "We stayed the night in a hotel."
+    },
+    "tip": "übernachten bei + Dativ = stay over at someone's; im Hotel übernachten. Stress on -NACH-, so the prefix stays put. Noun: die Übernachtung."
   }
 ]
