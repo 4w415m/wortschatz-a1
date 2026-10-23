@@ -160,3 +160,59 @@ export function reason(verb) {
   if (t === "gemischt") return "gemischt · " + ge + " · -t, Vokal ändert sich";
   return "stark · " + ge + " · " + e + " · " + family(verb);
 }
+
+/* ---- distractors ----
+   Two wrong participles for the card front, each the result of applying a
+   tempting wrong rule to this verb: ge- in the wrong place, the wrong ending,
+   the wrong vowel, or treating a strong verb as weak. A distractor may be
+   another verb's real participle (gelegen for legen): that confusion is the
+   point. The set is deterministic so the snapshot can pin it. */
+
+/* The participle rebuilt from its segments, with one piece swapped. */
+const rebuild = (segs, swap) =>
+  segs.map((s) => (swap[s.kind] !== undefined ? swap[s.kind] : s.text)).join("");
+
+export function distractors(verb) {
+  if (!verb.partizip) return null;
+  const pp = verb.partizip;
+  const [sep, base] = splitSeparable(verb);
+  const t = typeOf(verb), rule = geRule(verb), e = ending(verb);
+  const segs = segments(verb);
+  const stem = segs.find((s) => s.kind === "stem").text;
+  const hasGe = segs.some((s) => s.kind === "ge");
+  const withoutGe = segs.filter((s) => s.kind !== "ge").map((s) => s.text).join("");
+
+  const weak = weakForm(verb);
+  const geMisplaced = sep ? "ge" + sep + withoutGe.slice(sep.length)
+    : rule.kind === "praefix" || rule.kind === "ieren" ? "ge" + pp
+    : hasGe ? withoutGe : null;
+  const wrongEnding = rebuild(segs, { ending: /^e?n$/.test(e.slice(1)) ? (needsE(stem) ? "et" : "t") : "en" });
+  const wrongVowel = (() => {
+    if (t === "schwach") return null;
+    const swapVowel = (v) => rebuild(segs, { stem: stem.replace(new RegExp("(" + VOWELS.source + ")(?!.*" + VOWELS.source + ")"), v) });
+    const a = swapVowel(praetVowel(praet3(verb)));
+    if (a !== pp) return a;
+    const b = swapVowel(lastVowel(stemOf(base)));
+    return b !== pp ? b : null;
+  })();
+  const dropEnding = rebuild(segs, { ending: "" });
+  const noGe = hasGe ? withoutGe : verb.infinitive;
+
+  let row;
+  if (sep && /ieren$/.test(base)) row = [sep + "ge" + pp.slice(sep.length), verb.infinitive];
+  else if (sep || rule.kind === "praefix" || rule.kind === "ieren") row = [geMisplaced, t === "stark" ? weak : wrongEnding];
+  else if (t === "stark") row = [weak, wrongVowel];
+  else if (t === "gemischt") row = [weak, wrongEnding];
+  else if (e === "-et") row = [wrongEnding, dropEnding];
+  else row = [wrongEnding, noGe];
+
+  const out = [];
+  for (const c of row.concat([weak, geMisplaced, wrongEnding, wrongVowel, dropEnding, noGe])) {
+    if (c && c !== pp && !out.includes(c)) out.push(c);
+    if (out.length === 2) break;
+  }
+  return out;
+}
+
+/* The three options for the Partizip II row, right answer first; the view shuffles. */
+export const ppOptions = (verb) => [verb.partizip, ...distractors(verb)];

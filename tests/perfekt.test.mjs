@@ -161,3 +161,41 @@ test("reason", () => {
   assert.equal(reason(F.tun), "stark · ge- vorne · -n · u–a–a");
   assert.equal(reason(F.moechten), null);
 });
+
+import { readFileSync } from "node:fs";
+import { distractors, ppOptions } from "../js/perfekt.js";
+
+test("distractors follow the spec table", () => {
+  assert.deepEqual(distractors(F.anprobieren), ["angeprobiert", "anprobieren"]);
+  assert.deepEqual(distractors(F.aufstehen), ["geaufstanden", "aufgesteht"]);
+  assert.deepEqual(distractors(F.einkaufen), ["geeinkauft", "eingekaufen"]);
+  assert.deepEqual(distractors(F.verstehen), ["geverstanden", "versteht"]);
+  assert.deepEqual(distractors(F.verkaufen), ["geverkauft", "verkaufen"]);
+  assert.deepEqual(distractors(F.studieren), ["gestudiert", "studieren"]);
+  assert.deepEqual(distractors(F.singen), ["gesingt", "gesangen"]);
+  assert.deepEqual(distractors(F.bleiben), ["gebleibt", "gebleiben"]);
+  assert.deepEqual(distractors(F.bringen), ["gebringt", "gebrachen"]);
+  assert.deepEqual(distractors(F.koennen), ["gekönnt", "gekonnen"]);
+  assert.deepEqual(distractors(F.arbeiten), ["gearbeiten", "gearbeit"]);
+  assert.deepEqual(distractors(F.lernen), ["gelernen", "lernt"]);
+  assert.deepEqual(distractors(F.backen), ["gebackt", "backen"]);
+  assert.deepEqual(distractors(V({ infinitive: "legen", partizip: "gelegt" })), ["gelegen", "legt"]);
+  assert.equal(distractors(F.moechten), null);
+});
+
+test("ppOptions puts the right form first", () => {
+  assert.deepEqual(ppOptions(F.singen), ["gesungen", "gesingt", "gesangen"]);
+});
+
+test("every verb in the data gets two distinct wrong forms", () => {
+  const verbs = JSON.parse(readFileSync(new URL("../data/verbs.json", import.meta.url), "utf8"));
+  for (const v of verbs) {
+    if (!v.partizip) continue;
+    const d = distractors(v);
+    assert.equal(d.length, 2, v.infinitive);
+    assert.ok(d[0] && d[1], v.infinitive);
+    assert.notEqual(d[0], d[1], v.infinitive);
+    assert.notEqual(d[0], v.partizip, v.infinitive);
+    assert.notEqual(d[1], v.partizip, v.infinitive);
+  }
+});
