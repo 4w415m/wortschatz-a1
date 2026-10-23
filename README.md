@@ -163,7 +163,10 @@ except setzen, which now carries its reflexive pronouns.
 
 Three more A1 verbs followed, erzählen, einsteigen and aussteigen, all on the
 Goethe A1 list, for 172 in all; and every strong and mixed verb gained its
-Präteritum (`praet`), so the three principal parts can be shown.
+Präteritum (`praet`), so the three principal parts can be shown. The list was
+then completed against the official Goethe A1 word list (Start Deutsch 1
+Wortliste): the 27 verbs it has that the app lacked, plus sterben, which the
+list carries only as gestorben, bring it to 200.
 
 ## Checking the data
 
