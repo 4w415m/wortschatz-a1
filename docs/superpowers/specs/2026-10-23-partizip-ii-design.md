@@ -1,6 +1,6 @@
 # Partizip II: teach the rule, not just the form
 
-Date: 2026-10-23 · Status: draft, awaiting approval
+Date: 2026-10-23 · Status: shipped 2026-10-24 (main e5548bc); follow-up below
 
 ## Intent
 
@@ -8,7 +8,7 @@ The verb card currently shows the Perfekt as a finished fact ("Perfekt: hat
 gemacht") and asks one ambiguous question about it ("Konjugation: regelmäßig /
 unregelmäßig"). The learner gets all three parts of participle formation wrong:
 where the ge- goes, whether the ending is -t or -en, and what happens to the
-vowel. The spreadsheet `german_partizip_ii.xlsx` lays out the system as three
+vowel. The spreadsheet `docs/superpowers/specs/2026-10-23-german-partizip-ii.xlsx` lays out the system as three
 ordered steps plus the auxiliary, and splits "irregular" into the three groups
 that actually behave differently: schwach, stark, gemischt.
 
@@ -355,3 +355,24 @@ implementer would):
 - The explicit mixed-verb list and how it is shared between checker and app.
 - Wording of the rules page within the constraints above.
 - The 72 `praet` values and the three new entries (checked against Duden).
+
+## Follow-up, 2026-10-24
+
+Decided after the whole-branch review, with the owner:
+
+- **Back gesture closes the sheet.** Opening the rules sheet from a card pushes
+  a history entry of its own; the platform back gesture (popstate) closes the
+  sheet and leaves the card untouched. Closing by ✕, backdrop or Escape pops
+  that entry again so history stays consistent.
+- **Drei Typen examples skip verbs with an irregular present** (`forms` or
+  `stemChange`), so the table shows machen, sagen, lernen rather than haben,
+  wollen, sollen next to the "Ganz unregelmäßig" line.
+- **The rules page derives its prefix list from `INSEP_PREFIXES`**, so it names
+  unter-, über- and wieder- like the cards do.
+- **Copy:** "haben by default; a verb with a direct object always takes haben",
+  and passieren is covered by "for something that happens".
+- **-eln and -ern verbs** get the wrong form a learner would actually write,
+  gewechseln rather than gewechselen: the wrong -en ending is spelled -n after
+  -el and -er.
+- Deferred on purpose: ß in vowel-swapped wrong forms, dialog focus management.
+- The source spreadsheet lives beside this document.
