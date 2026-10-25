@@ -103,7 +103,7 @@ test("baseOf and hasInsepPrefix", () => {
   assert.equal(hasInsepPrefix("gehen"), false);
 });
 
-import { family, familyMates, stammformen, reason } from "../js/perfekt.js";
+import { family, familyMates, ruleLine } from "../js/perfekt.js";
 
 test("family: Infinitiv–Präteritum–Partizip vowels, null for weak", () => {
   assert.equal(family(F.singen), "i–a–u");
@@ -144,22 +144,19 @@ test("familyMates caps at three, core first, one per base", () => {
   assert.deepEqual(familyMates(schreiben, list), ["scheinen", "bleiben", "umsteigen"]);
 });
 
-test("stammformen", () => {
-  assert.deepEqual(stammformen(F.aufstehen), ["aufstehen", "stand auf", "aufgestanden"]);
-  assert.deepEqual(stammformen(F.lernen), ["lernen", "lernte", "gelernt"]);
-  assert.equal(stammformen(F.moechten), null);
-});
-
-test("reason", () => {
-  assert.equal(reason(F.lernen), "schwach · ge- vorne · -t");
-  assert.equal(reason(F.arbeiten), "schwach · ge- vorne · -et nach -t");
-  assert.equal(reason(F.oeffnen), "schwach · ge- vorne · -et nach -n");
-  assert.equal(reason(F.studieren), "schwach · kein ge- (-ieren) · -t");
-  assert.equal(reason(F.verkaufen), "schwach · kein ge- (Präfix ver-) · -t");
-  assert.equal(reason(F.bringen), "gemischt · ge- vorne · -t, Vokal ändert sich");
-  assert.equal(reason(F.singen), "stark · ge- vorne · -en · i–a–u");
-  assert.equal(reason(F.tun), "stark · ge- vorne · -n · u–a–a");
-  assert.equal(reason(F.moechten), null);
+test("ruleLine says in English where ge- goes and which ending the type takes", () => {
+  assert.equal(ruleLine(F.lernen), "ge- goes in front; weak verbs end in -t.");
+  assert.equal(ruleLine(F.arbeiten), "ge- goes in front; weak verbs end in -et after -t.");
+  assert.equal(ruleLine(F.oeffnen), "ge- goes in front; weak verbs end in -et after -fn.");
+  assert.equal(ruleLine(F.studieren), "-ieren verbs take no ge-; weak verbs end in -t.");
+  assert.equal(ruleLine(F.anprobieren), "-ieren verbs take no ge-; weak verbs end in -t.");
+  assert.equal(ruleLine(F.verkaufen), "ver- is never stressed, so no ge-; weak verbs end in -t.");
+  assert.equal(ruleLine(F.einkaufen), "ge- goes after the prefix; weak verbs end in -t.");
+  assert.equal(ruleLine(F.bringen), "ge- goes in front; mixed verbs end in -t but change the vowel.");
+  assert.equal(ruleLine(F.singen), "ge- goes in front; strong verbs end in -en.");
+  assert.equal(ruleLine(F.aufstehen), "ge- goes after the prefix; strong verbs end in -en.");
+  assert.equal(ruleLine(F.tun), "ge- goes in front; strong verbs end in -en, here just -n after the vowel.");
+  assert.equal(ruleLine(F.moechten), null);
 });
 
 import { readFileSync } from "node:fs";
@@ -205,7 +202,7 @@ test("verlieren is an inseparable-prefix verb, not an -ieren verb", () => {
   const verlieren = V({ infinitive: "verlieren", aux: "hat", partizip: "verloren", praet: "verlor", flags: ["insep"] });
   assert.equal(geRule(verlieren).label, "kein ge- (Präfix ver-)");
   assert.equal(segments(verlieren).map((s) => s.kind + ":" + s.text).join(" "), "prefix:ver stem:lor ending:en");
-  assert.equal(reason(verlieren), "stark · kein ge- (Präfix ver-) · -en · ie–o–o");
+  assert.equal(ruleLine(verlieren), "ver- is never stressed, so no ge-; strong verbs end in -en.");
 });
 
 test("geschrien is cut as schrie + n, so schreien joins the ei–ie–ie family", () => {

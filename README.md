@@ -22,11 +22,13 @@ js/
   perfekt.js          participle analysis: type, ge- rule, segments, vowel family, distractors
   sync.js             sync codes, merge, transport
   views/              home.js · study.js · settings.js · rules.js
+                      · verbcard.js (the answer side of a verb card)
 data/*.json           the word lists
 worker/               Cloudflare Worker for cross-device sync
 tools/check-data.mjs  validates data/ and pins what the verb modules derive
 tools/verbs.snapshot.txt  that output, one line per verb
-tests/*.test.mjs      unit tests for conjugate.js, perfekt.js and the rules page (node --test)
+tests/*.test.mjs      unit tests for conjugate.js, perfekt.js, the rules page and the
+                      verb card (node --test)
 tools/extract-data.mjs  one-off converter from the original single-file version
 ```
 
@@ -75,17 +77,35 @@ A verb entry looks like this; every field after `en` is optional.
                                           change, a → ä drops it); sein has all three
   "reflexive": "akk",                     shown as "sich anmelden", conjugated with
                                           mich/dich/sich, or "dat" for mir/dir/sich
-  "takes": "für + Akkusativ",             printed after the headword as written;
-                                          also decides the Kasus row on the front
+  "takes": "für + Akkusativ",             printed as written in a pill under the
+                                          headword; also decides the Kasus row on
+                                          the front
+  "pattern": "sich für etwas anmelden",   what the verb takes, as a dictionary
+                                          phrase; present exactly when `takes` is
   "third": true,                          used only in the third person: the table
                                           shows es / sie, no imperative
   "flags": ["sep"],                       core · modal · sep · insep
-  "example": { "de": "…", "en": "…" },
-  "examplePerfekt": { "de": "…", "en": "…" },   the same idea in the past; on
-                                          möchten it uses wollte instead
+  "example": { "de": "…", "en": "…" },    a sentence in the Präsens
+  "examplePraet": { "de": "…", "en": "…" },   a sentence in the Präteritum; on
+                                          möchten it uses wollte
+  "examplePerfekt": { "de": "…", "en": "…" },   a sentence in the Perfekt; every
+                                          verb but möchten
   "tip": "…"
 }
 ```
+
+`pattern` ends in the infinitive and uses four placeholders, which the card
+sets in italics: *jemanden*, *jemandem*, *jemand*, *etwas* ("jemandem etwas
+geben", "mit jemandem sprechen"). Where a placeholder would hide the case, it
+uses a short phrase whose article shows it instead ("auf dem Tisch liegen",
+"etwas auf den Tisch legen", "in einer Stadt wohnen").
+
+The three sentences each contain the verb in their own tense, which the card
+sets in bold. `examplePraet` is everyday speech for the verbs whose Präteritum
+Germans actually say (sein, haben, werden, wissen and the modal verbs). For
+every other verb it is a line of written narrative, usually in the third
+person, and the card adds "Mostly written. In speech, use the Perfekt." under
+it; that list is `spokenPraet` in `views/verbcard.js`.
 
 `insep` marks a prefix that does not separate (bezahlen, verstehen). Together
 with the inseparable-prefix list in `perfekt.js` it decides that the participle
@@ -112,9 +132,26 @@ is Nominativ or absent), the verb type (schwach, stark or gemischt), and the
 participle itself, picked from the right form and two wrong ones built from
 typical mistakes (a misplaced ge-, the wrong ending, the wrong vowel). The
 last answer flips the card. Each row is derived from the fields above, so a
-data fix changes the quiz too. Whether the present tense is irregular is not
-stored either: a verb with `stemChange` or `forms` gets the "Präsens
-unregelmäßig" tag on the back.
+data fix changes the quiz too.
+
+The back, `views/verbcard.js`, is a "tense ladder" in four sections; any
+section whose data is missing is left out:
+
+1. The verb: tags (Kernverb, trennbar or nicht trennbar, Modalverb, Präsens
+   unregelmäßig), the headword with "sich" muted, the meaning, and `pattern`
+   with `takes` in a pill.
+2. The ladder: a line with the type, the vowel family and up to three verbs
+   that share it; then Präsens, Präteritum and Perfekt, each as its er/sie/es
+   form (es for `third` verbs) above its sentence, with the participle cut as
+   an·ge·ruf·en; then one English line on where ge- goes and which ending the
+   type takes (`ruleLine` in `perfekt.js`). möchten has no Perfekt rung.
+3. The tip.
+4. The tables: Präsens and Präteritum side by side per person, then the
+   Imperativ, with a detached prefix in blue.
+
+Whether the present tense is irregular is not stored either: a verb with
+`stemChange` or `forms` gets the "Präsens unregelmäßig" tag, except modal
+verbs, which are irregular by definition.
 
 The original version stored progress by array position, which meant any edit to
 a list silently reassigned someone's progress to different words.
@@ -168,6 +205,10 @@ then completed against the official Goethe A1 word list (Start Deutsch 1
 Wortliste): the 27 verbs it has that the app lacked, plus sterben, which the
 list carries only as gestorben, bring it to 200.
 
+For the tense-ladder card, every verb gained a Präteritum sentence
+(`examplePraet`) and every verb with `takes` a `pattern`, 156 of them;
+möchten's wollte sentence moved from `examplePerfekt` to `examplePraet`.
+
 ## Checking the data
 
 ```sh
@@ -177,11 +218,15 @@ node tools/check-data.mjs
 Reports schema problems (a `sep` verb with an unknown prefix, an `insep` verb
 without one, a missing imperative on an e → i verb, two verbs with the same
 gloss, a Perfekt sentence that does not contain the verb's auxiliary and
-participle, a participle that is neither the weak form nor strong nor one of
-the known mixed verbs, a strong or mixed verb without `praet`, a file under
-`js/` missing from the service worker's cache list) and diffs every verb's
-present tense, imperative, Perfekt with its type and vowel family, Präteritum
-and quiz distractors against `tools/verbs.snapshot.txt`. After a deliberate
+participle, any of the three sentences in which the card finds no form of the
+verb in that tense, a `pattern` without `takes` or the other way round, or one
+that does not end in the infinitive or lacks the preposition or the sich, a
+participle that is neither the weak form nor strong nor one of the known mixed
+verbs, a strong or mixed verb without `praet`, a file under `js/` missing from
+the service worker's cache list) and diffs every verb's present tense,
+imperative, Perfekt with its type and vowel family, Präteritum, quiz
+distractors, the card's ge- rule line and the words it sets in bold against
+`tools/verbs.snapshot.txt`. After a deliberate
 change, `--update` rewrites the snapshot; the diff it prints first is the
 review.
 

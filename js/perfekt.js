@@ -143,24 +143,26 @@ export function familyMates(verb, verbs) {
 
 /* ---- text for the card ---- */
 
-/* Infinitiv · Präteritum (er/sie/es) · Partizip II: "aufstehen · stand auf · aufgestanden". */
-export function stammformen(verb) {
-  if (!verb.partizip) return null;
-  const [prefix] = splitSeparable(verb);
-  return [verb.infinitive, praet3(verb) + (prefix ? " " + prefix : ""), verb.partizip];
-}
-
-/* One line saying why the participle looks the way it does. */
-export function reason(verb) {
+/* One English line saying why the participle looks the way it does: where
+   ge- goes (steps 1) and which ending the type takes (step 2). The type and
+   the vowel family are on the card's meta line, so they are not repeated. */
+export function ruleLine(verb) {
   const t = typeOf(verb);
   if (!t) return null;
-  const ge = geRule(verb).label, e = ending(verb);
+  const rule = geRule(verb);
+  const ge = rule.kind === "vorne" ? "ge- goes in front"
+    : rule.kind === "mitte" ? "ge- goes after the prefix"
+    : rule.kind === "ieren" ? "-ieren verbs take no ge-"
+    : rule.prefix + "- is never stressed, so no ge-";
+  let end;
   if (t === "schwach") {
     const stem = stemOf(baseOf(verb));
-    return "schwach · " + ge + " · " + (e === "-et" ? "-et nach -" + stem.slice(-1) : "-t");
-  }
-  if (t === "gemischt") return "gemischt · " + ge + " · -t, Vokal ändert sich";
-  return "stark · " + ge + " · " + e + " · " + family(verb);
+    end = ending(verb) === "-et"
+      ? "weak verbs end in -et after -" + (/[dt]$/.test(stem) ? stem.slice(-1) : stem.slice(-2))
+      : "weak verbs end in -t";
+  } else if (t === "gemischt") end = "mixed verbs end in -t but change the vowel";
+  else end = ending(verb) === "-n" ? "strong verbs end in -en, here just -n after the vowel" : "strong verbs end in -en";
+  return ge + "; " + end + ".";
 }
 
 /* ---- distractors ----

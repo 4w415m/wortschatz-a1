@@ -4,10 +4,10 @@ import { S, card, save } from "../state.js";
 import { triage, grade, nextIvl, buildQueue, TRIAGE, triageHint,
   newAllowanceLeft, unseenCount, nextDueAt } from "../srs.js";
 import { W } from "../data.js";
-import { present, PERS, imperative, praeteritum } from "../conjugate.js";
-import { typeOf, ppOptions, segments, reason, stammformen, familyMates } from "../perfekt.js";
+import { typeOf, ppOptions } from "../perfekt.js";
 import { back, go } from "../router.js";
 import { rulesHtml } from "./rules.js";
+import { verbBackHtml } from "./verbcard.js";
 
 let app = null;
 let queue = [], cur = null, cat = "all";
@@ -147,42 +147,13 @@ addEventListener("popstate", () => {
 
 /* ---- the answer side, one shape per category ---- */
 function backHtml(w) {
+  /* Verbs have a layout of their own, sentences and tip included. */
+  if (w.cat === "verbs") return verbBackHtml(w, W.verbs);
   let b = "<div>";
   if (w.cat === "nouns") {
     b += '<div class="word"><span class="art ' + w.gender + '">' + w.gender + "</span>" + esc(w.singular) + "</div>";
     b += '<div class="plural">' + (w.plural ? "die " + esc(w.plural) : "<s>kein normaler Plural</s>") + "</div>";
     b += '<div class="mean">' + esc(w.en) + "</div>";
-  } else if (w.cat === "verbs") {
-    const head = verbHead(w);
-    b += '<div class="word">' + esc(head) + "</div>";
-    b += '<div class="mean">' + esc(w.en) + "</div>";
-    if (w.takes) b += '<div class="takes">' + esc(head + " " + w.takes) + "</div>";
-    const forms = present(w);
-    /* A verb used only in the third person gets the two rows that matter. */
-    const rows = w.third ? [["es", forms[2]], ["sie", forms[5]]] : PERS.map((p, i) => [p, forms[i]]);
-    b += '<table class="conj">' +
-      rows.map(([p, f]) => "<tr><td>" + p + "</td><td>" + esc(f) + "</td></tr>").join("") +
-      "</table>";
-    if (w.partizip) b += perfektHtml(w);
-    /* Every verb shows its Präteritum: weak ones are derived, the rest stored. */
-    const pt = praeteritum(w);
-    b += '<div class="praet"><b>Präteritum</b> ' +
-      (w.third ? [["es", pt[2]], ["sie", pt[5]]] : PERS.map((p, i) => [p, pt[i]]))
-        .map(([p, f]) => esc(p + " " + f)).join(" · ") + "</div>";
-    const imp = imperative(w);
-    if (imp) b += '<div class="imp"><b>Imperativ</b> ' + imp.map(esc).join(" · ") + "</div>";
-    if (w.note) b += '<div class="note">' + esc(w.note) + "</div>";
-    let tags = "";
-    if (w.flags.includes("core"))  tags += '<span class="tag core">Kernverb</span>';
-    if (w.stemChange || w.forms)   tags += '<span class="tag">Präsens unregelmäßig</span>';
-    const t = typeOf(w);
-    if (t === "stark" || t === "gemischt") tags += '<span class="tag">' + t + "</span>";
-    if (w.flags.includes("sep"))   tags += '<span class="tag">trennbar</span>';
-    if (w.flags.includes("insep")) tags += '<span class="tag">nicht trennbar</span>';
-    if (w.flags.includes("modal")) tags += '<span class="tag">Modalverb</span>';
-    if (w.reflexive)               tags += '<span class="tag">reflexiv</span>';
-    if (w.aux === "ist")           tags += '<span class="tag">Perfekt mit sein</span>';
-    if (tags) b += '<div class="tags">' + tags + "</div>";
   } else if (w.cat === "adjectives") {
     b += '<div class="word">' + esc(w.word) + '</div><div class="mean">' + esc(w.en) + "</div>";
     if (w.opposite) b += '<div class="opp">Gegenteil: <b>' + esc(w.opposite) + "</b></div>";
@@ -200,33 +171,12 @@ function backHtml(w) {
     b += '<div class="ex"><div class="de">' + esc(w.example.de) + "</div>" +
       '<div class="en">' + esc(w.example.en) + "</div></div>";
   }
-  /* Verbs add the same idea in the past. möchten has no Perfekt, so its
-     sentence uses wollte and is labelled accordingly. */
-  if (w.examplePerfekt) {
-    b += '<div class="ex"><div class="lbl">' + (w.partizip ? "Perfekt" : "Präteritum") + "</div>" +
-      '<div class="de">' + esc(w.examplePerfekt.de) + "</div>" +
-      '<div class="en">' + esc(w.examplePerfekt.en) + "</div></div>";
-  }
   if (w.tip) b += '<div class="tip">' + esc(w.tip) + "</div>";
   return b + "</div>";
 }
 
 /* "sich setzen" for a reflexive verb, the bare infinitive otherwise. */
 const verbHead = (w) => (w.reflexive ? "sich " : "") + w.infinitive;
-
-/* The Perfekt as a small lesson: the form with its participle cut into
-   prefix · ge · stem · ending, one line on why it looks that way, the three
-   principal parts, and up to three verbs whose vowel moves the same way. */
-function perfektHtml(w) {
-  const pp = segments(w).map((s) => '<span class="seg ' + s.kind + '">' + esc(s.text) + "</span>").join("");
-  const mates = familyMates(w, W.verbs);
-  return '<div class="perfekt"><div class="lbl">Perfekt</div>' +
-    '<div class="form"><span class="aux">' + esc(w.aux) + '</span> <span class="pp">' + pp + "</span></div>" +
-    '<div class="why">' + esc(reason(w)) + "</div>" +
-    '<div class="stamm">' + stammformen(w).map(esc).join(" · ") + "</div>" +
-    (mates.length ? '<div class="mates">wie ' + mates.map(esc).join(", ") + "</div>" : "") +
-    "</div>";
-}
 
 /* ---- the front of a verb card ----
    Up to four things the learner should know before seeing the answer, each a
@@ -303,6 +253,9 @@ function paint(produce, isNew) {
   const isNoun = w.cat === "nouns", isVerb = w.cat === "verbs";
   face.innerHTML = "";
   acts.innerHTML = "";
+  /* A verb's answer side is a left-aligned panel that scrolls from the top,
+     not a centred stack. */
+  face.classList.toggle("face--verb", revealed && isVerb);
 
   const reveal = () => { revealed = true; paint(produce, isNew); };
 

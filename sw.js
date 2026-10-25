@@ -1,5 +1,5 @@
 /* Offline cache. Bump CACHE whenever any cached file changes. */
-const CACHE = "wortschatz-a1-v17";
+const CACHE = "wortschatz-a1-v18";
 const FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png",
   "./css/app.css",
@@ -7,6 +7,7 @@ const FILES = [
   "./js/categories.js", "./js/data.js", "./js/state.js", "./js/srs.js",
   "./js/conjugate.js", "./js/perfekt.js", "./js/sync.js",
   "./js/views/home.js", "./js/views/study.js", "./js/views/settings.js", "./js/views/rules.js",
+  "./js/views/verbcard.js",
   "./data/nouns.json", "./data/verbs.json", "./data/adjectives.json",
   "./data/prepositions.json", "./data/function.json", "./data/other.json",
   "./data/legacy-ids.json",

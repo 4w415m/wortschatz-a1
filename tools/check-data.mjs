@@ -4,14 +4,16 @@
      node tools/check-data.mjs --update   rewrite tools/verbs.snapshot.txt
 
    The snapshot holds every verb's present tense, imperative, Perfekt (with
-   its derived type and vowel family), Präteritum and quiz distractors. A rule
-   change in conjugate.js or perfekt.js, or a data edit that alters any of
-   them, shows up here as a diff, so it can be checked on purpose rather than
-   noticed on a card. */
+   its derived type and vowel family), Präteritum, quiz distractors, the
+   card's ge- rule line and the words it sets in bold in each sentence. A
+   rule change in conjugate.js, perfekt.js or verbcard.js, or a data edit that
+   alters any of them, shows up here as a diff, so it can be checked on
+   purpose rather than noticed on a card. */
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { CATS } from "../js/categories.js";
 import { present, imperative, splitSeparable, praeteritum, regularPraet3 } from "../js/conjugate.js";
-import { typeOf, participleProblem, hasInsepPrefix, INSEP_PREFIXES, family, distractors } from "../js/perfekt.js";
+import { typeOf, participleProblem, hasInsepPrefix, INSEP_PREFIXES, family, distractors, ruleLine } from "../js/perfekt.js";
+import { marked } from "../js/views/verbcard.js";
 
 const root = new URL("..", import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), "utf8"));
@@ -77,18 +79,35 @@ for (const v of verbs) {
   }
 
   /* The Perfekt sentence must actually contain the verb's Perfekt: a form of
-     its auxiliary and the participle as a whole word. möchten, which has no
-     Perfekt, must fall back to wollte. */
+     its auxiliary and the participle as a whole word. A verb without a
+     Perfekt (möchten) has no Perfekt sentence. */
   const ep = v.examplePerfekt;
-  if (!ep || !ep.de || !ep.en) err(at + ": examplePerfekt needs de and en");
+  /* case-insensitive: "Hast du …?" starts a sentence */
+  const word = (w, flags = "i") => new RegExp("(^|[^A-Za-zÄÖÜäöüß])" + w + "(?![A-Za-zÄÖÜäöüß])", flags);
+  if (!v.partizip) { if (ep) err(at + ": examplePerfekt on a verb without Perfekt; use examplePraet"); }
+  else if (!ep || !ep.de || !ep.en) err(at + ": examplePerfekt needs de and en");
   else {
-    /* case-insensitive: "Hast du …?" starts a sentence */
-    const word = (w) => new RegExp("(^|[^A-Za-zÄÖÜäöüß])" + w + "(?![A-Za-zÄÖÜäöüß])", "i");
-    if (v.partizip) {
-      const auxForms = v.aux === "ist" ? ["bin", "bist", "ist", "sind", "seid"] : ["habe", "hast", "hat", "haben", "habt"];
-      if (!word(v.partizip).test(ep.de)) err(at + ": examplePerfekt lacks the participle " + v.partizip);
-      if (!auxForms.some((f) => word(f).test(ep.de))) err(at + ": examplePerfekt lacks a form of " + v.aux);
-    } else if (!/wollte/.test(ep.de)) err(at + ": examplePerfekt of a verb without Perfekt should use wollte");
+    const auxForms = v.aux === "ist" ? ["bin", "bist", "ist", "sind", "seid"] : ["habe", "hast", "hat", "haben", "habt"];
+    if (!word(v.partizip).test(ep.de)) err(at + ": examplePerfekt lacks the participle " + v.partizip);
+    if (!auxForms.some((f) => word(f).test(ep.de))) err(at + ": examplePerfekt lacks a form of " + v.aux);
+  }
+  if (!v.examplePraet || !v.examplePraet.de || !v.examplePraet.en) err(at + ": examplePraet needs de and en");
+
+  /* The card sets the verb in bold in each of its sentences. A sentence where
+     it finds nothing uses another verb, another tense, or a form the
+     conjugator does not produce. */
+  for (const [field, tense] of [["example", "praesens"], ["examplePraet", "praeteritum"], ["examplePerfekt", "perfekt"]]) {
+    if (v[field]?.de && !marked(v, v[field].de, tense).includes("<b>")) err(at + ": " + field + " has no form of the verb in that tense");
+  }
+
+  /* The pattern under the headword ("jemanden anrufen") goes with `takes`,
+     ends in the infinitive, and shows any preposition and the sich. */
+  if (!!v.takes !== !!v.pattern) err(at + ": pattern and takes go together");
+  else if (v.pattern) {
+    if (!v.pattern.endsWith(v.infinitive)) err(at + ": pattern must end with the infinitive");
+    if (!!v.reflexive !== word("sich", "").test(v.pattern)) err(at + ": pattern has sich exactly when the verb is reflexive");
+    const prep = v.takes.split(" ")[0];
+    if (!["+", "wo?", "wohin?"].includes(prep) && !word(prep, "").test(v.pattern)) err(at + ": pattern lacks the preposition " + prep);
   }
 
   /* e -> i/ie keeps the change in the imperative (Nimm!) while a -> ä drops it
@@ -127,7 +146,12 @@ const lines = verbs.map((v) => {
     "imperativ: " + (imp ? imp.join(" · ") : "-"),
     "perfekt: " + perf,
     "präteritum: " + praeteritum(v).join(" · "),
-    "distraktoren: " + (v.partizip ? distractors(v).join(" · ") : "–")].join(" | ");
+    "distraktoren: " + (v.partizip ? distractors(v).join(" · ") : "–"),
+    "regel: " + (ruleLine(v) ?? "–"),
+    /* only the words the card sets in bold, sentence by sentence */
+    "markiert: " + [["example", "praesens"], ["examplePraet", "praeteritum"], ["examplePerfekt", "perfekt"]]
+      .filter(([f]) => v[f]).map(([f, t]) => [...marked(v, v[f].de, t).matchAll(/<b>(.*?)<\/b>/g)].map((m) => m[1]).join(" "))
+      .join(" · ")].join(" | ");
 });
 const snapshot = new URL("tools/verbs.snapshot.txt", root);
 if (process.argv.includes("--update")) {

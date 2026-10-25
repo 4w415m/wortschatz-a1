@@ -19,12 +19,17 @@
       "Seien Sie"
     ],
     "takes": "+ Nominativ",
+    "pattern": "Lehrer sein",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Ich bin Lehrerin und meine Schwester ist Ärztin.",
       "en": "I am a teacher and my sister is a doctor."
+    },
+    "examplePraet": {
+      "de": "Mein Opa war vierzig Jahre lang Bäcker.",
+      "en": "My grandpa was a baker for forty years."
     },
     "examplePerfekt": {
       "de": "Ich bin schon einmal in Berlin gewesen.",
@@ -43,12 +48,17 @@
     "partizip": "gehabt",
     "praet": "hatte",
     "takes": "+ Akkusativ",
+    "pattern": "etwas haben",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Hast du heute Zeit für einen Kaffee?",
       "en": "Do you have time for a coffee today?"
+    },
+    "examplePraet": {
+      "de": "Am Montag hatte ich einen Termin beim Arzt.",
+      "en": "On Monday I had a doctor's appointment."
     },
     "examplePerfekt": {
       "de": "Wir haben gestern keine Zeit gehabt.",
@@ -68,12 +78,17 @@
     "praet": "wurde",
     "imperative": "Werde",
     "takes": "+ Nominativ",
+    "pattern": "Arzt werden",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Meine Tochter wird im Mai sechs Jahre alt.",
       "en": "My daughter turns six in May."
+    },
+    "examplePraet": {
+      "de": "Mit zwanzig Jahren wurde mein Bruder Vater.",
+      "en": "My brother became a father at twenty."
     },
     "examplePerfekt": {
       "de": "Meine Schwester ist Ärztin geworden.",
@@ -103,6 +118,10 @@
       "de": "Meine Tochter kann schon lesen.",
       "en": "My daughter can already read."
     },
+    "examplePraet": {
+      "de": "Leider konnte ich am Freitag nicht zu deiner Party kommen.",
+      "en": "Unfortunately I couldn't come to your party on Friday."
+    },
     "examplePerfekt": {
       "de": "Das habe ich früher gut gekonnt.",
       "en": "I used to be good at that."
@@ -131,6 +150,10 @@
       "de": "Ich muss jetzt nach Hause gehen.",
       "en": "I have to go home now."
     },
+    "examplePraet": {
+      "de": "Musstest du am Samstag auch arbeiten?",
+      "en": "Did you have to work on Saturday too?"
+    },
     "examplePerfekt": {
       "de": "Wir haben um sechs nach Hause gemusst.",
       "en": "We had to go home at six."
@@ -158,6 +181,10 @@
       "de": "Wir wollen am Wochenende ins Kino gehen.",
       "en": "We want to go to the cinema at the weekend."
     },
+    "examplePraet": {
+      "de": "Ich wollte dich gestern anrufen, aber ich hatte keine Zeit.",
+      "en": "I wanted to call you yesterday, but I didn't have time."
+    },
     "examplePerfekt": {
       "de": "Das habe ich nicht gewollt.",
       "en": "I didn't mean for that to happen."
@@ -184,6 +211,10 @@
     "example": {
       "de": "Soll ich das Fenster aufmachen?",
       "en": "Should I open the window?"
+    },
+    "examplePraet": {
+      "de": "Gestern sollte ich um acht Uhr im Büro sein.",
+      "en": "Yesterday I was supposed to be at the office at eight."
     },
     "examplePerfekt": {
       "de": "Das hast du nicht gesollt.",
@@ -213,6 +244,10 @@
       "de": "Hier darf man nicht rauchen.",
       "en": "You are not allowed to smoke here."
     },
+    "examplePraet": {
+      "de": "Im Museum durften wir leider keine Fotos machen.",
+      "en": "Unfortunately we weren't allowed to take photos in the museum."
+    },
     "examplePerfekt": {
       "de": "Als Kind habe ich das nicht gedurft.",
       "en": "As a child I wasn't allowed to do that."
@@ -234,6 +269,7 @@
     "partizip": "gemocht",
     "praet": "mochte",
     "takes": "+ Akkusativ",
+    "pattern": "etwas mögen",
     "flags": [
       "core",
       "modal"
@@ -241,6 +277,10 @@
     "example": {
       "de": "Ich mag Kaffee, aber ich mag keinen Tee.",
       "en": "I like coffee, but I don't like tea."
+    },
+    "examplePraet": {
+      "de": "Als Kind mochte ich keinen Fisch.",
+      "en": "As a child I didn't like fish."
     },
     "examplePerfekt": {
       "de": "Ich habe den Film nicht gemocht.",
@@ -268,6 +308,7 @@
       "wollten"
     ],
     "takes": "+ Akkusativ",
+    "pattern": "etwas möchten",
     "flags": [
       "core",
       "modal"
@@ -276,7 +317,7 @@
       "de": "Ich möchte einen Kaffee, bitte.",
       "en": "I would like a coffee, please."
     },
-    "examplePerfekt": {
+    "examplePraet": {
       "de": "Ich wollte gestern ins Kino gehen.",
       "en": "I wanted to go to the cinema yesterday."
     },
@@ -288,12 +329,17 @@
     "aux": "hat",
     "partizip": "gemacht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas machen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Was machst du am Samstag?",
       "en": "What are you doing on Saturday?"
+    },
+    "examplePraet": {
+      "de": "Nach dem Abendessen machte Jonas seine Hausaufgaben.",
+      "en": "After dinner Jonas did his homework."
     },
     "examplePerfekt": {
       "de": "Was hast du am Wochenende gemacht?",
@@ -314,6 +360,10 @@
       "de": "Ich gehe jeden Morgen zu Fuß zur Arbeit.",
       "en": "I walk to work every morning."
     },
+    "examplePraet": {
+      "de": "Am Sonntag ging Maria mit ihrem Hund in den Park.",
+      "en": "On Sunday Maria went to the park with her dog."
+    },
     "examplePerfekt": {
       "de": "Ich bin gestern früh ins Bett gegangen.",
       "en": "I went to bed early yesterday."
@@ -333,6 +383,10 @@
       "de": "Kommst du heute Abend zur Party?",
       "en": "Are you coming to the party tonight?"
     },
+    "examplePraet": {
+      "de": "Am Nachmittag kam Lenas Oma zu Besuch.",
+      "en": "In the afternoon Lena's grandma came to visit."
+    },
     "examplePerfekt": {
       "de": "Sie ist gestern spät nach Hause gekommen.",
       "en": "She came home late yesterday."
@@ -351,12 +405,17 @@
     "praet": "sah",
     "imperative": "Sieh",
     "takes": "+ Akkusativ",
+    "pattern": "etwas sehen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Ich sehe den Hund im Garten.",
       "en": "I see the dog in the garden."
+    },
+    "examplePraet": {
+      "de": "Im Supermarkt sah Ben seinen alten Lehrer.",
+      "en": "At the supermarket Ben saw his old teacher."
     },
     "examplePerfekt": {
       "de": "Hast du den Film schon gesehen?",
@@ -376,12 +435,17 @@
     "praet": "gab",
     "imperative": "Gib",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas geben",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Gibst du mir bitte das Salz?",
       "en": "Can you pass me the salt, please?"
+    },
+    "examplePraet": {
+      "de": "Vor der Schule gab Anna ihrem Sohn einen Apfel.",
+      "en": "Before school Anna gave her son an apple."
     },
     "examplePerfekt": {
       "de": "Er hat mir das Buch gegeben.",
@@ -395,12 +459,17 @@
     "aux": "hat",
     "partizip": "gesagt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas sagen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Wie sagt man das auf Deutsch?",
       "en": "How do you say that in German?"
+    },
+    "examplePraet": {
+      "de": "Am nächsten Tag sagte der Lehrer den Kindern die Antwort.",
+      "en": "The next day the teacher told the children the answer."
     },
     "examplePerfekt": {
       "de": "Was hat sie gesagt?",
@@ -423,12 +492,17 @@
     "partizip": "gewusst",
     "praet": "wusste",
     "takes": "+ Akkusativ",
+    "pattern": "etwas wissen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Weißt du, wo der Bahnhof ist?",
       "en": "Do you know where the station is?"
+    },
+    "examplePraet": {
+      "de": "Ich wusste nicht, dass du heute Geburtstag hast.",
+      "en": "I didn't know it was your birthday today."
     },
     "examplePerfekt": {
       "de": "Das habe ich nicht gewusst.",
@@ -443,12 +517,17 @@
     "partizip": "gefunden",
     "praet": "fand",
     "takes": "+ Akkusativ",
+    "pattern": "etwas finden",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Ich finde meinen Schlüssel nicht.",
       "en": "I can't find my key."
+    },
+    "examplePraet": {
+      "de": "Im Mai fand Paul endlich eine neue Wohnung.",
+      "en": "In May Paul finally found a new flat."
     },
     "examplePerfekt": {
       "de": "Ich habe meinen Schlüssel gefunden!",
@@ -468,12 +547,17 @@
     "praet": "nahm",
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
+    "pattern": "etwas nehmen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Ich nehme heute den Bus zur Arbeit.",
       "en": "I'm taking the bus to work today."
+    },
+    "examplePraet": {
+      "de": "Hannah nahm ihre Tasche und ging zur Tür.",
+      "en": "Hannah took her bag and went to the door."
     },
     "examplePerfekt": {
       "de": "Wir haben den Zug nach München genommen.",
@@ -493,12 +577,17 @@
     "praet": "sprach",
     "imperative": "Sprich",
     "takes": "mit + Dativ",
+    "pattern": "mit jemandem sprechen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Meine Schwester spricht sehr gut Englisch.",
       "en": "My sister speaks English very well."
+    },
+    "examplePraet": {
+      "de": "Nach dem Unterricht sprach Leon lange mit seiner Lehrerin.",
+      "en": "After class Leon spoke with his teacher for a long time."
     },
     "examplePerfekt": {
       "de": "Ich habe gestern mit meiner Oma gesprochen.",
@@ -513,12 +602,17 @@
     "partizip": "geheißen",
     "praet": "hieß",
     "takes": "+ Nominativ",
+    "pattern": "Anna heißen",
     "flags": [
       "core"
     ],
     "example": {
       "de": "Ich heiße Anna, und wie heißt du?",
       "en": "My name is Anna, and what's your name?"
+    },
+    "examplePraet": {
+      "de": "Toms kleiner Hund hieß Bello.",
+      "en": "Tom's little dog was called Bello."
     },
     "examplePerfekt": {
       "de": "Früher hat die Straße anders geheißen.",
@@ -538,10 +632,15 @@
     "praet": "aß",
     "imperative": "Iss",
     "takes": "+ Akkusativ",
+    "pattern": "etwas essen",
     "flags": [],
     "example": {
       "de": "Was isst du gern zum Frühstück?",
       "en": "What do you like to eat for breakfast?"
+    },
+    "examplePraet": {
+      "de": "Zu Mittag aß Sophie nur einen Salat.",
+      "en": "For lunch Sophie only ate a salad."
     },
     "examplePerfekt": {
       "de": "Wir haben gestern Pizza gegessen.",
@@ -556,10 +655,15 @@
     "partizip": "getrunken",
     "praet": "trank",
     "takes": "+ Akkusativ",
+    "pattern": "etwas trinken",
     "flags": [],
     "example": {
       "de": "Ich trinke morgens gern einen Kaffee.",
       "en": "I like to drink a coffee in the morning."
+    },
+    "examplePraet": {
+      "de": "Nach dem Spiel trank Jonas eine große Flasche Wasser.",
+      "en": "After the game Jonas drank a big bottle of water."
     },
     "examplePerfekt": {
       "de": "Er hat zwei Tassen Kaffee getrunken.",
@@ -582,6 +686,10 @@
       "de": "Am Wochenende schlafe ich lange.",
       "en": "On the weekend I sleep in."
     },
+    "examplePraet": {
+      "de": "In der Nacht schlief das Baby sehr ruhig.",
+      "en": "During the night the baby slept very peacefully."
+    },
     "examplePerfekt": {
       "de": "Ich habe heute Nacht schlecht geschlafen.",
       "en": "I slept badly last night."
@@ -602,6 +710,10 @@
     "example": {
       "de": "Fährst du mich bitte nach Hause?",
       "en": "Will you drive me home, please?"
+    },
+    "examplePraet": {
+      "de": "In den Ferien fuhr Paul mit dem Zug ans Meer.",
+      "en": "In the holidays Paul travelled to the sea by train."
     },
     "examplePerfekt": {
       "de": "Wir sind mit dem Auto nach Hamburg gefahren.",
@@ -624,6 +736,10 @@
       "de": "Meine Tochter läuft allein zur Haltestelle.",
       "en": "My daughter walks to the bus stop on her own."
     },
+    "examplePraet": {
+      "de": "Lukas lief am Vormittag eine Stunde durch die Stadt.",
+      "en": "Lukas walked around the town for an hour in the morning."
+    },
     "examplePerfekt": {
       "de": "Ich bin heute zur Arbeit gelaufen.",
       "en": "I walked to work today."
@@ -640,6 +756,10 @@
     "example": {
       "de": "Im Sommer fliegen wir nach Spanien.",
       "en": "In summer we're flying to Spain."
+    },
+    "examplePraet": {
+      "de": "Im Juli flog Julia zum ersten Mal nach London.",
+      "en": "In July Julia flew to London for the first time."
     },
     "examplePerfekt": {
       "de": "Sie ist letzte Woche nach Rom geflogen.",
@@ -659,10 +779,15 @@
     "praet": "las",
     "imperative": "Lies",
     "takes": "+ Akkusativ",
+    "pattern": "etwas lesen",
     "flags": [],
     "example": {
       "de": "Er liest jeden Abend ein Buch.",
       "en": "He reads a book every evening."
+    },
+    "examplePraet": {
+      "de": "Jonas las im Zug die Zeitung.",
+      "en": "Jonas read the newspaper on the train."
     },
     "examplePerfekt": {
       "de": "Hast du das Buch gelesen?",
@@ -677,10 +802,15 @@
     "partizip": "geschrieben",
     "praet": "schrieb",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas schreiben",
     "flags": [],
     "example": {
       "de": "Ich schreibe meiner Oma einen Brief.",
       "en": "I'm writing my grandma a letter."
+    },
+    "examplePraet": {
+      "de": "Lena schrieb ihren Eltern aus dem Urlaub eine Postkarte.",
+      "en": "Lena wrote her parents a postcard from her holiday."
     },
     "examplePerfekt": {
       "de": "Ich habe dir eine E-Mail geschrieben.",
@@ -694,10 +824,15 @@
     "aux": "hat",
     "partizip": "gelernt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas lernen",
     "flags": [],
     "example": {
       "de": "Ich lerne jeden Tag zwanzig Minuten Deutsch.",
       "en": "I study German for twenty minutes every day."
+    },
+    "examplePraet": {
+      "de": "In der Schule lernte Mia Englisch und Französisch.",
+      "en": "At school Mia learned English and French."
     },
     "examplePerfekt": {
       "de": "Ich habe heute zwanzig neue Wörter gelernt.",
@@ -711,10 +846,15 @@
     "aux": "hat",
     "partizip": "gearbeitet",
     "takes": "bei + Dativ",
+    "pattern": "bei einer Firma arbeiten",
     "flags": [],
     "example": {
       "de": "Mein Vater arbeitet bei der Post.",
       "en": "My father works at the post office."
+    },
+    "examplePraet": {
+      "de": "Viele Jahre arbeitete Tom bei einer großen Firma in München.",
+      "en": "For many years Tom worked for a big company in Munich."
     },
     "examplePerfekt": {
       "de": "Er hat gestern bis acht Uhr gearbeitet.",
@@ -728,10 +868,15 @@
     "aux": "hat",
     "partizip": "gewohnt",
     "takes": "in + Dativ",
+    "pattern": "in einer Stadt wohnen",
     "flags": [],
     "example": {
       "de": "Ich wohne in Berlin.",
       "en": "I live in Berlin."
+    },
+    "examplePraet": {
+      "de": "Als Studentin wohnte Anna in einer kleinen Wohnung.",
+      "en": "As a student Anna lived in a small flat."
     },
     "examplePerfekt": {
       "de": "Ich habe zwei Jahre in Wien gewohnt.",
@@ -745,10 +890,15 @@
     "aux": "hat",
     "partizip": "gelebt",
     "takes": "in + Dativ",
+    "pattern": "in einem Land leben",
     "flags": [],
     "example": {
       "de": "Meine Großeltern leben in Italien.",
       "en": "My grandparents live in Italy."
+    },
+    "examplePraet": {
+      "de": "Felix lebte drei Jahre in Spanien und lernte dort Spanisch.",
+      "en": "Felix lived in Spain for three years and learned Spanish there."
     },
     "examplePerfekt": {
       "de": "Mein Opa hat lange in Italien gelebt.",
@@ -762,10 +912,15 @@
     "aux": "hat",
     "partizip": "gespielt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas spielen",
     "flags": [],
     "example": {
       "de": "Die Kinder spielen im Park.",
       "en": "The children are playing in the park."
+    },
+    "examplePraet": {
+      "de": "Am Samstag spielte Lukas mit seinen Freunden Fußball.",
+      "en": "On Saturday Lukas played football with his friends."
     },
     "examplePerfekt": {
       "de": "Die Kinder haben im Park gespielt.",
@@ -779,10 +934,15 @@
     "aux": "hat",
     "partizip": "gehört",
     "takes": "+ Akkusativ",
+    "pattern": "etwas hören",
     "flags": [],
     "example": {
       "de": "Ich höre gern Musik.",
       "en": "I like listening to music."
+    },
+    "examplePraet": {
+      "de": "Plötzlich hörte Emma ein Auto vor dem Haus.",
+      "en": "Suddenly Emma heard a car outside the house."
     },
     "examplePerfekt": {
       "de": "Hast du das gehört?",
@@ -796,10 +956,15 @@
     "aux": "hat",
     "partizip": "gekauft",
     "takes": "+ Akkusativ",
+    "pattern": "etwas kaufen",
     "flags": [],
     "example": {
       "de": "Wir kaufen Brot und Milch im Supermarkt.",
       "en": "We buy bread and milk at the supermarket."
+    },
+    "examplePraet": {
+      "de": "Auf dem Markt kaufte Maria frisches Gemüse und Eier.",
+      "en": "At the market Maria bought fresh vegetables and eggs."
     },
     "examplePerfekt": {
       "de": "Ich habe ein neues Handy gekauft.",
@@ -813,12 +978,17 @@
     "aux": "hat",
     "partizip": "verkauft",
     "takes": "+ Akkusativ",
+    "pattern": "etwas verkaufen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Er verkauft sein altes Auto.",
       "en": "He is selling his old car."
+    },
+    "examplePraet": {
+      "de": "Der Bäcker verkaufte am Morgen über hundert Brötchen.",
+      "en": "The baker sold over a hundred rolls in the morning."
     },
     "examplePerfekt": {
       "de": "Er hat sein Auto verkauft.",
@@ -837,6 +1007,10 @@
       "de": "Das Zimmer kostet 50 Euro pro Nacht.",
       "en": "The room costs 50 euros per night."
     },
+    "examplePraet": {
+      "de": "Die Reise nach Italien kostete fast tausend Euro.",
+      "en": "The trip to Italy cost almost a thousand euros."
+    },
     "examplePerfekt": {
       "de": "Das Ticket hat zehn Euro gekostet.",
       "en": "The ticket cost ten euros."
@@ -849,12 +1023,17 @@
     "aux": "hat",
     "partizip": "bezahlt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas bezahlen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich bezahle mit Karte.",
       "en": "I'm paying by card."
+    },
+    "examplePraet": {
+      "de": "Im Restaurant bezahlte Felix die Rechnung für alle.",
+      "en": "At the restaurant Felix paid the bill for everyone."
     },
     "examplePerfekt": {
       "de": "Ich habe mit Karte bezahlt.",
@@ -868,10 +1047,15 @@
     "aux": "hat",
     "partizip": "gebraucht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas brauchen",
     "flags": [],
     "example": {
       "de": "Ich brauche einen neuen Stift.",
       "en": "I need a new pen."
+    },
+    "examplePraet": {
+      "de": "Für den Kuchen brauchte Laura noch Milch und Zucker.",
+      "en": "Laura still needed milk and sugar for the cake."
     },
     "examplePerfekt": {
       "de": "Ich habe deine Hilfe gebraucht.",
@@ -885,10 +1069,15 @@
     "aux": "hat",
     "partizip": "gesucht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas suchen",
     "flags": [],
     "example": {
       "de": "Ich suche meinen Schlüssel.",
       "en": "I'm looking for my key."
+    },
+    "examplePraet": {
+      "de": "Den ganzen Morgen suchte Paul sein Handy.",
+      "en": "Paul looked for his phone all morning."
     },
     "examplePerfekt": {
       "de": "Ich habe dich überall gesucht.",
@@ -902,10 +1091,15 @@
     "aux": "hat",
     "partizip": "gefragt",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden fragen",
     "flags": [],
     "example": {
       "de": "Ich frage den Lehrer.",
       "en": "I ask the teacher."
+    },
+    "examplePraet": {
+      "de": "Auf der Straße fragte Lena einen Mann nach dem Weg.",
+      "en": "In the street Lena asked a man for directions."
     },
     "examplePerfekt": {
       "de": "Hast du den Lehrer gefragt?",
@@ -919,10 +1113,15 @@
     "aux": "hat",
     "partizip": "geantwortet",
     "takes": "+ Dativ",
+    "pattern": "jemandem antworten",
     "flags": [],
     "example": {
       "de": "Er antwortet mir nicht.",
       "en": "He doesn't answer me."
+    },
+    "examplePraet": {
+      "de": "Erst nach drei Tagen antwortete Sophie ihrer Freundin.",
+      "en": "Sophie only answered her friend after three days."
     },
     "examplePerfekt": {
       "de": "Sie hat mir nicht geantwortet.",
@@ -937,12 +1136,17 @@
     "partizip": "verstanden",
     "praet": "verstand",
     "takes": "+ Akkusativ",
+    "pattern": "etwas verstehen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Verstehst du die Frage?",
       "en": "Do you understand the question?"
+    },
+    "examplePraet": {
+      "de": "Am Anfang verstand Ben im Deutschkurs fast nichts.",
+      "en": "At first Ben understood almost nothing in the German course."
     },
     "examplePerfekt": {
       "de": "Ich habe die Frage nicht verstanden.",
@@ -957,10 +1161,15 @@
     "partizip": "gedacht",
     "praet": "dachte",
     "takes": "an + Akkusativ",
+    "pattern": "an jemanden denken",
     "flags": [],
     "example": {
       "de": "Ich denke an meine Familie.",
       "en": "I'm thinking about my family."
+    },
+    "examplePraet": {
+      "de": "Im Urlaub dachte Maria oft an ihre Katze.",
+      "en": "On holiday Maria often thought about her cat."
     },
     "examplePerfekt": {
       "de": "Ich habe an dich gedacht.",
@@ -974,10 +1183,15 @@
     "aux": "hat",
     "partizip": "geglaubt",
     "takes": "+ Dativ",
+    "pattern": "jemandem glauben",
     "flags": [],
     "example": {
       "de": "Glaubst du das wirklich?",
       "en": "Do you really believe that?"
+    },
+    "examplePraet": {
+      "de": "Zuerst glaubte Lukas seiner Schwester nicht.",
+      "en": "At first Lukas didn't believe his sister."
     },
     "examplePerfekt": {
       "de": "Das habe ich nicht geglaubt.",
@@ -991,10 +1205,15 @@
     "aux": "hat",
     "partizip": "gemeint",
     "takes": "+ Akkusativ",
+    "pattern": "etwas meinen",
     "flags": [],
     "example": {
       "de": "Ich meine, das Restaurant ist sehr gut.",
       "en": "I think the restaurant is very good."
+    },
+    "examplePraet": {
+      "de": "Natürlich meinte Emma das rote Kleid, nicht das blaue.",
+      "en": "Of course Emma meant the red dress, not the blue one."
     },
     "examplePerfekt": {
       "de": "Das habe ich nicht so gemeint.",
@@ -1009,10 +1228,15 @@
     "partizip": "gekannt",
     "praet": "kannte",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden kennen",
     "flags": [],
     "example": {
       "de": "Kennst du meinen Bruder?",
       "en": "Do you know my brother?"
+    },
+    "examplePraet": {
+      "de": "Auf der Party kannte Max niemanden.",
+      "en": "Max didn't know anyone at the party."
     },
     "examplePerfekt": {
       "de": "Ich habe ihn gut gekannt.",
@@ -1026,10 +1250,15 @@
     "aux": "hat",
     "partizip": "geliebt",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden lieben",
     "flags": [],
     "example": {
       "de": "Ich liebe meine Familie sehr.",
       "en": "I love my family very much."
+    },
+    "examplePraet": {
+      "de": "Frau Berger liebte ihren Garten und arbeitete dort jeden Tag.",
+      "en": "Mrs Berger loved her garden and worked there every day."
     },
     "examplePerfekt": {
       "de": "Sie hat ihn sehr geliebt.",
@@ -1043,10 +1272,15 @@
     "aux": "hat",
     "partizip": "gewartet",
     "takes": "auf + Akkusativ",
+    "pattern": "auf jemanden warten",
     "flags": [],
     "example": {
       "de": "Ich warte auf den Bus.",
       "en": "I am waiting for the bus."
+    },
+    "examplePraet": {
+      "de": "Am Bahnhof wartete Mia eine halbe Stunde auf ihre Schwester.",
+      "en": "At the station Mia waited half an hour for her sister."
     },
     "examplePerfekt": {
       "de": "Ich habe eine Stunde auf den Bus gewartet.",
@@ -1065,6 +1299,10 @@
       "de": "Heute bleibe ich zu Hause.",
       "en": "Today I am staying at home."
     },
+    "examplePraet": {
+      "de": "Letzten Sommer blieb Anna drei Wochen bei ihrer Tante.",
+      "en": "Last summer Anna stayed with her aunt for three weeks."
+    },
     "examplePerfekt": {
       "de": "Wir sind gestern zu Hause geblieben.",
       "en": "We stayed at home yesterday."
@@ -1078,10 +1316,15 @@
     "partizip": "gestanden",
     "praet": "stand",
     "takes": "wo? + Dativ",
+    "pattern": "vor dem Haus stehen",
     "flags": [],
     "example": {
       "de": "Wir stehen schon zehn Minuten an der Kasse.",
       "en": "We've been standing at the checkout for ten minutes."
+    },
+    "examplePraet": {
+      "de": "Maria stand eine halbe Stunde an der Bushaltestelle.",
+      "en": "Maria stood at the bus stop for half an hour."
     },
     "examplePerfekt": {
       "de": "Ich habe lange an der Kasse gestanden.",
@@ -1096,10 +1339,15 @@
     "partizip": "gesessen",
     "praet": "saß",
     "takes": "wo? + Dativ",
+    "pattern": "auf dem Stuhl sitzen",
     "flags": [],
     "example": {
       "de": "Wir sitzen im Garten und trinken Kaffee.",
       "en": "We are sitting in the garden drinking coffee."
+    },
+    "examplePraet": {
+      "de": "Die Katze saß den ganzen Abend auf dem Sofa.",
+      "en": "The cat sat on the sofa all evening."
     },
     "examplePerfekt": {
       "de": "Wir haben im Garten gesessen.",
@@ -1114,10 +1362,15 @@
     "partizip": "gelegen",
     "praet": "lag",
     "takes": "wo? + Dativ",
+    "pattern": "auf dem Tisch liegen",
     "flags": [],
     "example": {
       "de": "Das Buch liegt auf dem Tisch.",
       "en": "The book is lying on the table."
+    },
+    "examplePraet": {
+      "de": "Das kleine Hotel lag direkt am Meer.",
+      "en": "The little hotel was right by the sea."
     },
     "examplePerfekt": {
       "de": "Das Buch hat auf dem Tisch gelegen.",
@@ -1131,10 +1384,15 @@
     "aux": "hat",
     "partizip": "gelegt",
     "takes": "wohin? + Akkusativ",
+    "pattern": "etwas auf den Tisch legen",
     "flags": [],
     "example": {
       "de": "Ich lege das Buch auf den Tisch.",
       "en": "I put the book on the table."
+    },
+    "examplePraet": {
+      "de": "Am Abend legte Mia ihr Handy neben das Bett.",
+      "en": "In the evening Mia put her phone next to the bed."
     },
     "examplePerfekt": {
       "de": "Ich habe den Schlüssel auf den Tisch gelegt.",
@@ -1148,10 +1406,15 @@
     "aux": "hat",
     "partizip": "gestellt",
     "takes": "wohin? + Akkusativ",
+    "pattern": "etwas auf den Tisch stellen",
     "flags": [],
     "example": {
       "de": "Ich stelle die Flasche auf den Tisch.",
       "en": "I put the bottle on the table."
+    },
+    "examplePraet": {
+      "de": "Der Kellner stellte zwei Gläser auf den Tisch.",
+      "en": "The waiter put two glasses on the table."
     },
     "examplePerfekt": {
       "de": "Er hat die Flasche in den Kühlschrank gestellt.",
@@ -1166,10 +1429,15 @@
     "partizip": "gesetzt",
     "reflexive": "akk",
     "takes": "wohin? + Akkusativ",
+    "pattern": "sich auf den Stuhl setzen",
     "flags": [],
     "example": {
       "de": "Ich setze mich auf den Stuhl.",
       "en": "I sit down on the chair."
+    },
+    "examplePraet": {
+      "de": "Im Bus setzte sich Oma auf einen freien Platz.",
+      "en": "On the bus Grandma sat down in an empty seat."
     },
     "examplePerfekt": {
       "de": "Ich habe mich auf den Stuhl gesetzt.",
@@ -1183,10 +1451,15 @@
     "aux": "hat",
     "partizip": "geöffnet",
     "takes": "+ Akkusativ",
+    "pattern": "etwas öffnen",
     "flags": [],
     "example": {
       "de": "Öffnest du bitte das Fenster?",
       "en": "Would you open the window, please?"
+    },
+    "examplePraet": {
+      "de": "Felix öffnete langsam das Paket von seiner Oma.",
+      "en": "Felix slowly opened the parcel from his grandma."
     },
     "examplePerfekt": {
       "de": "Wer hat das Fenster geöffnet?",
@@ -1201,10 +1474,15 @@
     "partizip": "geschlossen",
     "praet": "schloss",
     "takes": "+ Akkusativ",
+    "pattern": "etwas schließen",
     "flags": [],
     "example": {
       "de": "Der Supermarkt schließt um acht Uhr.",
       "en": "The supermarket closes at eight o'clock."
+    },
+    "examplePraet": {
+      "de": "Es wurde kalt, also schloss Lena das Fenster.",
+      "en": "It got cold, so Lena closed the window."
     },
     "examplePerfekt": {
       "de": "Der Laden hat um acht geschlossen.",
@@ -1219,12 +1497,17 @@
     "partizip": "begonnen",
     "praet": "begann",
     "takes": "mit + Dativ",
+    "pattern": "mit etwas beginnen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Der Deutschkurs beginnt um neun Uhr.",
       "en": "The German course begins at nine o'clock."
+    },
+    "examplePraet": {
+      "de": "Um acht Uhr begann Jonas mit der Arbeit.",
+      "en": "At eight o'clock Jonas started work."
     },
     "examplePerfekt": {
       "de": "Der Kurs hat um neun begonnen.",
@@ -1244,10 +1527,15 @@
     "praet": "half",
     "imperative": "Hilf",
     "takes": "+ Dativ",
+    "pattern": "jemandem helfen",
     "flags": [],
     "example": {
       "de": "Ich helfe meiner Mutter in der Küche.",
       "en": "I help my mother in the kitchen."
+    },
+    "examplePraet": {
+      "de": "Am Nachmittag half Tom seinem Nachbarn im Garten.",
+      "en": "In the afternoon Tom helped his neighbour in the garden."
     },
     "examplePerfekt": {
       "de": "Sie hat mir bei den Hausaufgaben geholfen.",
@@ -1261,10 +1549,15 @@
     "aux": "hat",
     "partizip": "gedankt",
     "takes": "+ Dativ",
+    "pattern": "jemandem danken",
     "flags": [],
     "example": {
       "de": "Ich danke dir für das Geschenk.",
       "en": "Thank you for the present."
+    },
+    "examplePraet": {
+      "de": "Die Frau dankte dem Arzt für seine Hilfe.",
+      "en": "The woman thanked the doctor for his help."
     },
     "examplePerfekt": {
       "de": "Ich habe ihm für das Geschenk gedankt.",
@@ -1279,10 +1572,15 @@
     "partizip": "gebracht",
     "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas bringen",
     "flags": [],
     "example": {
       "de": "Ich bringe dir morgen das Buch.",
       "en": "I'll bring you the book tomorrow."
+    },
+    "examplePraet": {
+      "de": "Am Muttertag brachte Jakob seiner Mutter das Frühstück ans Bett.",
+      "en": "On Mother's Day Jakob brought his mother breakfast in bed."
     },
     "examplePerfekt": {
       "de": "Er hat mir Blumen gebracht.",
@@ -1296,10 +1594,15 @@
     "aux": "hat",
     "partizip": "geholt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas holen",
     "flags": [],
     "example": {
       "de": "Ich hole schnell Brot vom Bäcker.",
       "en": "I'll quickly get some bread from the baker's."
+    },
+    "examplePraet": {
+      "de": "Paul holte eine Flasche Wasser aus der Küche.",
+      "en": "Paul fetched a bottle of water from the kitchen."
     },
     "examplePerfekt": {
       "de": "Ich habe Brot vom Bäcker geholt.",
@@ -1318,10 +1621,15 @@
     "partizip": "getragen",
     "praet": "trug",
     "takes": "+ Akkusativ",
+    "pattern": "etwas tragen",
     "flags": [],
     "example": {
       "de": "Sie trägt heute ein rotes Kleid.",
       "en": "She is wearing a red dress today."
+    },
+    "examplePraet": {
+      "de": "Der Vater trug das müde Kind nach Hause.",
+      "en": "The father carried the tired child home."
     },
     "examplePerfekt": {
       "de": "Sie hat gestern ein rotes Kleid getragen.",
@@ -1336,12 +1644,17 @@
     "partizip": "bekommen",
     "praet": "bekam",
     "takes": "+ Akkusativ",
+    "pattern": "etwas bekommen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich bekomme zum Geburtstag ein neues Handy.",
       "en": "I'm getting a new phone for my birthday."
+    },
+    "examplePraet": {
+      "de": "Am Freitag bekam Ben einen Brief von der Bank.",
+      "en": "On Friday Ben received a letter from the bank."
     },
     "examplePerfekt": {
       "de": "Ich habe ein Paket bekommen.",
@@ -1355,10 +1668,15 @@
     "aux": "hat",
     "partizip": "geschenkt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas schenken",
     "flags": [],
     "example": {
       "de": "Wir schenken Oma Blumen zum Geburtstag.",
       "en": "We're giving Grandma flowers for her birthday."
+    },
+    "examplePraet": {
+      "de": "Zu Weihnachten schenkte Lisa ihrem Bruder ein Buch.",
+      "en": "For Christmas Lisa gave her brother a book."
     },
     "examplePerfekt": {
       "de": "Wir haben Oma Blumen geschenkt.",
@@ -1372,10 +1690,15 @@
     "aux": "hat",
     "partizip": "gezeigt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas zeigen",
     "flags": [],
     "example": {
       "de": "Ich zeige dir mein neues Zimmer.",
       "en": "I'll show you my new room."
+    },
+    "examplePraet": {
+      "de": "Eine freundliche Frau zeigte den Touristen den Weg zum Bahnhof.",
+      "en": "A friendly woman showed the tourists the way to the station."
     },
     "examplePerfekt": {
       "de": "Er hat mir seine Wohnung gezeigt.",
@@ -1389,12 +1712,17 @@
     "aux": "hat",
     "partizip": "erklärt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas erklären",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Die Lehrerin erklärt die Aufgabe noch einmal.",
       "en": "The teacher explains the task once more."
+    },
+    "examplePraet": {
+      "de": "Herr Braun erklärte seinem Sohn das neue Spiel.",
+      "en": "Mr Braun explained the new game to his son."
     },
     "examplePerfekt": {
       "de": "Die Lehrerin hat die Aufgabe erklärt.",
@@ -1408,10 +1736,15 @@
     "aux": "hat",
     "partizip": "geübt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas üben",
     "flags": [],
     "example": {
       "de": "Ich übe jeden Tag zehn Minuten Deutsch.",
       "en": "I practise German for ten minutes every day."
+    },
+    "examplePraet": {
+      "de": "Vor dem Konzert übte Emma jeden Tag ihr Lied.",
+      "en": "Before the concert Emma practised her song every day."
     },
     "examplePerfekt": {
       "de": "Ich habe gestern eine Stunde geübt.",
@@ -1425,12 +1758,17 @@
     "aux": "hat",
     "partizip": "wiederholt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas wiederholen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich wiederhole die neuen Wörter jeden Abend.",
       "en": "I go over the new words every evening."
+    },
+    "examplePraet": {
+      "de": "Der Lehrer wiederholte die Frage langsam.",
+      "en": "The teacher repeated the question slowly."
     },
     "examplePerfekt": {
       "de": "Wir haben die Wörter wiederholt.",
@@ -1450,12 +1788,17 @@
     "praet": "vergaß",
     "imperative": "Vergiss",
     "takes": "+ Akkusativ",
+    "pattern": "etwas vergessen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich vergesse immer meinen Schlüssel.",
       "en": "I always forget my key."
+    },
+    "examplePraet": {
+      "de": "Leider vergaß Hannah ihre Tasche im Zug.",
+      "en": "Unfortunately Hannah forgot her bag on the train."
     },
     "examplePerfekt": {
       "de": "Ich habe meinen Schlüssel vergessen.",
@@ -1475,10 +1818,15 @@
     "praet": "traf",
     "imperative": "Triff",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden treffen",
     "flags": [],
     "example": {
       "de": "Ich treffe morgen meine Freunde im Café.",
       "en": "I'm meeting my friends at the café tomorrow."
+    },
+    "examplePraet": {
+      "de": "Im Supermarkt traf David seine alte Lehrerin.",
+      "en": "At the supermarket David met his old teacher."
     },
     "examplePerfekt": {
       "de": "Ich habe gestern Anna im Café getroffen.",
@@ -1492,12 +1840,17 @@
     "aux": "hat",
     "partizip": "besucht",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden besuchen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Am Sonntag besuchen wir meine Großeltern.",
       "en": "On Sunday we're visiting my grandparents."
+    },
+    "examplePraet": {
+      "de": "In den Ferien besuchte Sophie ihre Tante in Wien.",
+      "en": "In the holidays Sophie visited her aunt in Vienna."
     },
     "examplePerfekt": {
       "de": "Wir haben am Sonntag Oma besucht.",
@@ -1511,10 +1864,15 @@
     "aux": "ist",
     "partizip": "gereist",
     "takes": "nach + Dativ",
+    "pattern": "nach Berlin reisen",
     "flags": [],
     "example": {
       "de": "Wir reisen im Sommer nach Italien.",
       "en": "We're travelling to Italy in the summer."
+    },
+    "examplePraet": {
+      "de": "Im Frühling reiste Max mit dem Zug nach Paris.",
+      "en": "In the spring Max travelled to Paris by train."
     },
     "examplePerfekt": {
       "de": "Sie ist letztes Jahr nach Spanien gereist.",
@@ -1531,6 +1889,10 @@
     "example": {
       "de": "Am Wochenende wandern wir in den Bergen.",
       "en": "At the weekend we go hiking in the mountains."
+    },
+    "examplePraet": {
+      "de": "Am Samstag wanderten Lara und Jan fünf Stunden.",
+      "en": "On Saturday Lara and Jan hiked for five hours."
     },
     "examplePerfekt": {
       "de": "Wir sind am Wochenende in den Bergen gewandert.",
@@ -1549,6 +1911,10 @@
       "de": "Im Sommer schwimmen wir oft im See.",
       "en": "In summer we often swim in the lake."
     },
+    "examplePraet": {
+      "de": "Im Urlaub schwamm Niklas jeden Morgen im Meer.",
+      "en": "On holiday Niklas swam in the sea every morning."
+    },
     "examplePerfekt": {
       "de": "Ich bin im See geschwommen.",
       "en": "I swam in the lake."
@@ -1564,6 +1930,10 @@
     "example": {
       "de": "Am Samstag tanzen wir in der Disco.",
       "en": "On Saturday we're dancing at the club."
+    },
+    "examplePraet": {
+      "de": "Auf der Party tanzte Clara den ganzen Abend mit ihrem Bruder.",
+      "en": "At the party Clara danced with her brother all evening."
     },
     "examplePerfekt": {
       "de": "Wir haben die ganze Nacht getanzt.",
@@ -1582,6 +1952,10 @@
       "de": "Meine Schwester singt sehr gern.",
       "en": "My sister really likes singing."
     },
+    "examplePraet": {
+      "de": "Unter der Dusche sang Opa immer sehr laut.",
+      "en": "Grandpa always sang very loudly in the shower."
+    },
     "examplePerfekt": {
       "de": "Die Kinder haben ein Lied gesungen.",
       "en": "The children sang a song."
@@ -1594,10 +1968,15 @@
     "aux": "hat",
     "partizip": "gekocht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas kochen",
     "flags": [],
     "example": {
       "de": "Heute koche ich eine Suppe.",
       "en": "Today I'm cooking soup."
+    },
+    "examplePraet": {
+      "de": "Für seine Gäste kochte Elias ein großes Essen.",
+      "en": "Elias cooked a big meal for his guests."
     },
     "examplePerfekt": {
       "de": "Mein Vater hat gestern gekocht.",
@@ -1612,10 +1991,15 @@
     "partizip": "gebacken",
     "praet": "backte",
     "takes": "+ Akkusativ",
+    "pattern": "etwas backen",
     "flags": [],
     "example": {
       "de": "Oma backt am Sonntag einen Kuchen.",
       "en": "Grandma is baking a cake on Sunday."
+    },
+    "examplePraet": {
+      "de": "Am Wochenende backte Marie Brot für die ganze Familie.",
+      "en": "At the weekend Marie baked bread for the whole family."
     },
     "examplePerfekt": {
       "de": "Oma hat einen Kuchen gebacken.",
@@ -1629,10 +2013,15 @@
     "aux": "hat",
     "partizip": "geputzt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas putzen",
     "flags": [],
     "example": {
       "de": "Ich putze jeden Samstag die Wohnung.",
       "en": "I clean the flat every Saturday."
+    },
+    "examplePraet": {
+      "de": "Nach dem Essen putzte Tim die Küche.",
+      "en": "After the meal Tim cleaned the kitchen."
     },
     "examplePerfekt": {
       "de": "Ich habe die ganze Wohnung geputzt.",
@@ -1651,10 +2040,15 @@
     "partizip": "gewaschen",
     "praet": "wusch",
     "takes": "+ Akkusativ",
+    "pattern": "etwas waschen",
     "flags": [],
     "example": {
       "de": "Er wäscht am Wochenende sein Auto.",
       "en": "He washes his car at the weekend."
+    },
+    "examplePraet": {
+      "de": "Nach dem Fußballspiel wusch Noah sein T-Shirt.",
+      "en": "After the football match Noah washed his T-shirt."
     },
     "examplePerfekt": {
       "de": "Er hat sein Auto gewaschen.",
@@ -1672,6 +2066,10 @@
       "de": "Ich dusche jeden Morgen um sieben.",
       "en": "I shower every morning at seven."
     },
+    "examplePraet": {
+      "de": "Zuerst duschte Leon, dann frühstückte er.",
+      "en": "First Leon had a shower, then he had breakfast."
+    },
     "examplePerfekt": {
       "de": "Ich habe heute Morgen geduscht.",
       "en": "I showered this morning."
@@ -1685,10 +2083,15 @@
     "partizip": "gezogen",
     "praet": "zog",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ziehen",
     "flags": [],
     "example": {
       "de": "Ich ziehe an der Tür, aber sie geht nicht auf.",
       "en": "I pull on the door, but it doesn't open."
+    },
+    "examplePraet": {
+      "de": "Sarah zog den schweren Koffer zum Bahnhof.",
+      "en": "Sarah pulled the heavy suitcase to the station."
     },
     "examplePerfekt": {
       "de": "Ich habe an der Tür gezogen.",
@@ -1707,6 +2110,7 @@
     "partizip": "gefallen",
     "praet": "gefiel",
     "takes": "+ Dativ",
+    "pattern": "jemandem gefallen",
     "third": true,
     "flags": [
       "insep"
@@ -1714,6 +2118,10 @@
     "example": {
       "de": "Die Jacke gefällt mir sehr gut.",
       "en": "I like the jacket a lot."
+    },
+    "examplePraet": {
+      "de": "Die Wohnung gefiel meinen Eltern sofort.",
+      "en": "My parents liked the flat straight away."
     },
     "examplePerfekt": {
       "de": "Der Film hat mir gut gefallen.",
@@ -1727,11 +2135,16 @@
     "aux": "hat",
     "partizip": "geschmeckt",
     "takes": "+ Dativ",
+    "pattern": "jemandem schmecken",
     "third": true,
     "flags": [],
     "example": {
       "de": "Die Pizza schmeckt mir sehr gut.",
       "en": "The pizza tastes really good to me."
+    },
+    "examplePraet": {
+      "de": "Der Kuchen schmeckte den Kindern sehr gut.",
+      "en": "The children really liked the cake."
     },
     "examplePerfekt": {
       "de": "Die Suppe hat sehr gut geschmeckt.",
@@ -1745,11 +2158,16 @@
     "aux": "hat",
     "partizip": "gepasst",
     "takes": "+ Dativ",
+    "pattern": "jemandem passen",
     "third": true,
     "flags": [],
     "example": {
       "de": "Die Hose passt mir leider nicht.",
       "en": "Unfortunately the trousers don't fit me."
+    },
+    "examplePraet": {
+      "de": "Die neuen Schuhe passten Anna perfekt.",
+      "en": "The new shoes fitted Anna perfectly."
     },
     "examplePerfekt": {
       "de": "Die Hose hat leider nicht gepasst.",
@@ -1763,6 +2181,7 @@
     "aux": "hat",
     "partizip": "gehört",
     "takes": "+ Dativ",
+    "pattern": "jemandem gehören",
     "third": true,
     "flags": [
       "insep"
@@ -1770,6 +2189,10 @@
     "example": {
       "de": "Das Fahrrad gehört meinem Bruder.",
       "en": "The bike belongs to my brother."
+    },
+    "examplePraet": {
+      "de": "Das alte Café gehörte früher einer Familie aus Italien.",
+      "en": "The old café used to belong to a family from Italy."
     },
     "examplePerfekt": {
       "de": "Das Auto hat meinem Vater gehört.",
@@ -1788,6 +2211,10 @@
       "de": "Der Aufzug funktioniert heute nicht.",
       "en": "The lift isn't working today."
     },
+    "examplePraet": {
+      "de": "Am Montag funktionierte das Internet im Büro nicht.",
+      "en": "On Monday the internet in the office didn't work."
+    },
     "examplePerfekt": {
       "de": "Der Aufzug hat gestern nicht funktioniert.",
       "en": "The lift didn't work yesterday."
@@ -1800,10 +2227,15 @@
     "aux": "hat",
     "partizip": "probiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas probieren",
     "flags": [],
     "example": {
       "de": "Probierst du mal die Suppe?",
       "en": "Will you try the soup?"
+    },
+    "examplePraet": {
+      "de": "Auf dem Markt probierte Emil ein Stück Käse.",
+      "en": "At the market Emil tried a piece of cheese."
     },
     "examplePerfekt": {
       "de": "Hast du den Kuchen probiert?",
@@ -1817,12 +2249,17 @@
     "aux": "hat",
     "partizip": "versucht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas versuchen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich versuche es morgen noch einmal.",
       "en": "I'll try it again tomorrow."
+    },
+    "examplePraet": {
+      "de": "Julia versuchte alles, aber die Tür blieb geschlossen.",
+      "en": "Julia tried everything, but the door stayed shut."
     },
     "examplePerfekt": {
       "de": "Ich habe es dreimal versucht.",
@@ -1836,12 +2273,17 @@
     "aux": "hat",
     "partizip": "entschuldigt",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden entschuldigen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Entschuldigen Sie bitte, wo ist der Bahnhof?",
       "en": "Excuse me please, where is the train station?"
+    },
+    "examplePraet": {
+      "de": "Am nächsten Tag entschuldigte sich Tom bei seiner Schwester.",
+      "en": "The next day Tom apologised to his sister."
     },
     "examplePerfekt": {
       "de": "Er hat sich bei mir entschuldigt.",
@@ -1855,10 +2297,15 @@
     "aux": "hat",
     "partizip": "geschickt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas schicken",
     "flags": [],
     "example": {
       "de": "Ich schicke dir morgen eine E-Mail.",
       "en": "I'll send you an email tomorrow."
+    },
+    "examplePraet": {
+      "de": "Aus dem Urlaub schickte Lea ihren Eltern eine Postkarte.",
+      "en": "Lea sent her parents a postcard from her holiday."
     },
     "examplePerfekt": {
       "de": "Ich habe dir ein Paket geschickt.",
@@ -1872,12 +2319,17 @@
     "aux": "hat",
     "partizip": "bestellt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas bestellen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Wir bestellen zwei Kaffee und ein Stück Kuchen.",
       "en": "We're ordering two coffees and a piece of cake."
+    },
+    "examplePraet": {
+      "de": "Im Restaurant bestellte Moritz einen Salat und eine Cola.",
+      "en": "At the restaurant Moritz ordered a salad and a cola."
     },
     "examplePerfekt": {
       "de": "Ich habe eine Pizza bestellt.",
@@ -1891,10 +2343,15 @@
     "aux": "hat",
     "partizip": "gebucht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas buchen",
     "flags": [],
     "example": {
       "de": "Ich buche ein Hotel in Berlin.",
       "en": "I'm booking a hotel in Berlin."
+    },
+    "examplePraet": {
+      "de": "Im Januar buchte Familie Schmidt eine Reise nach Spanien.",
+      "en": "In January the Schmidt family booked a trip to Spain."
     },
     "examplePerfekt": {
       "de": "Ich habe ein Hotel in Berlin gebucht.",
@@ -1908,10 +2365,15 @@
     "aux": "hat",
     "partizip": "reserviert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas reservieren",
     "flags": [],
     "example": {
       "de": "Ich reserviere einen Tisch für zwei Personen.",
       "en": "I'm reserving a table for two people."
+    },
+    "examplePraet": {
+      "de": "Für die Reise reservierte Laura zwei Plätze im Zug.",
+      "en": "Laura reserved two seats on the train for the trip."
     },
     "examplePerfekt": {
       "de": "Wir haben einen Tisch reserviert.",
@@ -1926,12 +2388,17 @@
     "partizip": "verloren",
     "praet": "verlor",
     "takes": "+ Akkusativ",
+    "pattern": "etwas verlieren",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich verliere immer meinen Schlüssel.",
       "en": "I always lose my key."
+    },
+    "examplePraet": {
+      "de": "Auf dem Weg zur Arbeit verlor Herr Wagner seine Brille.",
+      "en": "On the way to work Mr Wagner lost his glasses."
     },
     "examplePerfekt": {
       "de": "Ich habe meinen Schlüssel verloren.",
@@ -1946,12 +2413,17 @@
     "partizip": "gewonnen",
     "praet": "gewann",
     "takes": "+ Akkusativ",
+    "pattern": "etwas gewinnen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Unser Team gewinnt das Spiel.",
       "en": "Our team wins the game."
+    },
+    "examplePraet": {
+      "de": "Mit ihrem Bild gewann Nina den ersten Preis.",
+      "en": "Nina won first prize with her picture."
     },
     "examplePerfekt": {
       "de": "Unser Team hat das Spiel gewonnen.",
@@ -1969,6 +2441,10 @@
       "de": "Mein Vater raucht nicht mehr.",
       "en": "My father doesn't smoke any more."
     },
+    "examplePraet": {
+      "de": "Auf dem Balkon rauchte Onkel Peter eine Zigarette.",
+      "en": "Uncle Peter smoked a cigarette on the balcony."
+    },
     "examplePerfekt": {
       "de": "Er hat früher viel geraucht.",
       "en": "He used to smoke a lot."
@@ -1981,10 +2457,15 @@
     "aux": "hat",
     "partizip": "gespart",
     "takes": "für + Akkusativ",
+    "pattern": "für etwas sparen",
     "flags": [],
     "example": {
       "de": "Ich spare für ein neues Fahrrad.",
       "en": "I'm saving for a new bike."
+    },
+    "examplePraet": {
+      "de": "Zwei Jahre lang sparte Lukas für ein Auto.",
+      "en": "Lukas saved up for a car for two years."
     },
     "examplePerfekt": {
       "de": "Ich habe lange für das Fahrrad gespart.",
@@ -1998,12 +2479,17 @@
     "aux": "hat",
     "partizip": "verdient",
     "takes": "+ Akkusativ",
+    "pattern": "etwas verdienen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Meine Schwester verdient viel Geld.",
       "en": "My sister earns a lot of money."
+    },
+    "examplePraet": {
+      "de": "Als Student verdiente Lukas sein Geld in einem Café.",
+      "en": "As a student Lukas earned his money in a café."
     },
     "examplePerfekt": {
       "de": "Sie hat viel Geld verdient.",
@@ -2017,10 +2503,15 @@
     "aux": "hat",
     "partizip": "studiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas studieren",
     "flags": [],
     "example": {
       "de": "Mein Bruder studiert Medizin in München.",
       "en": "My brother studies medicine in Munich."
+    },
+    "examplePraet": {
+      "de": "Nach der Schule studierte Maria in Hamburg Musik.",
+      "en": "After school Maria studied music in Hamburg."
     },
     "examplePerfekt": {
       "de": "Mein Bruder hat in München studiert.",
@@ -2035,12 +2526,17 @@
     "partizip": "unterschrieben",
     "praet": "unterschrieb",
     "takes": "+ Akkusativ",
+    "pattern": "etwas unterschreiben",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Bitte unterschreiben Sie hier.",
       "en": "Please sign here."
+    },
+    "examplePraet": {
+      "de": "An der Rezeption unterschrieb Herr Weber das Formular.",
+      "en": "At the reception desk Mr Weber signed the form."
     },
     "examplePerfekt": {
       "de": "Ich habe den Vertrag unterschrieben.",
@@ -2054,10 +2550,15 @@
     "aux": "hat",
     "partizip": "gewechselt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas wechseln",
     "flags": [],
     "example": {
       "de": "Ich wechsle am Flughafen Geld.",
       "en": "I'm changing money at the airport."
+    },
+    "examplePraet": {
+      "de": "Vor der Reise wechselte Max bei der Bank Geld.",
+      "en": "Before the trip Max changed money at the bank."
     },
     "examplePerfekt": {
       "de": "Ich habe am Flughafen Geld gewechselt.",
@@ -2071,10 +2572,15 @@
     "aux": "hat",
     "partizip": "geändert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ändern",
     "flags": [],
     "example": {
       "de": "Ich ändere meine Adresse.",
       "en": "I'm changing my address."
+    },
+    "examplePraet": {
+      "de": "Am Freitag änderte Sophie ihre Pläne für das Wochenende.",
+      "en": "On Friday Sophie changed her plans for the weekend."
     },
     "examplePerfekt": {
       "de": "Sie hat ihre Adresse geändert.",
@@ -2093,6 +2599,10 @@
       "de": "Der Film dauert zwei Stunden.",
       "en": "The film lasts two hours."
     },
+    "examplePraet": {
+      "de": "Die Fahrt nach Italien dauerte zehn Stunden.",
+      "en": "The journey to Italy took ten hours."
+    },
     "examplePerfekt": {
       "de": "Der Film hat zwei Stunden gedauert.",
       "en": "The film lasted two hours."
@@ -2105,10 +2615,15 @@
     "aux": "hat",
     "partizip": "gelacht",
     "takes": "über + Akkusativ",
+    "pattern": "über etwas lachen",
     "flags": [],
     "example": {
       "de": "Warum lachst du über mich?",
       "en": "Why are you laughing at me?"
+    },
+    "examplePraet": {
+      "de": "Beim Essen lachten alle über die Geschichte von Opa.",
+      "en": "During the meal everyone laughed at Grandpa's story."
     },
     "examplePerfekt": {
       "de": "Wir haben viel gelacht.",
@@ -2126,6 +2641,10 @@
       "de": "Das Baby weint die ganze Nacht.",
       "en": "The baby cries all night."
     },
+    "examplePraet": {
+      "de": "Am ersten Schultag weinte der kleine Ben.",
+      "en": "On the first day of school little Ben cried."
+    },
     "examplePerfekt": {
       "de": "Das Baby hat die ganze Nacht geweint.",
       "en": "The baby cried all night."
@@ -2138,10 +2657,15 @@
     "aux": "hat",
     "partizip": "gehofft",
     "takes": "auf + Akkusativ",
+    "pattern": "auf etwas hoffen",
     "flags": [],
     "example": {
       "de": "Ich hoffe, dass du morgen kommst.",
       "en": "I hope that you come tomorrow."
+    },
+    "examplePraet": {
+      "de": "Den ganzen Winter hoffte Felix auf viel Schnee.",
+      "en": "All winter Felix hoped for lots of snow."
     },
     "examplePerfekt": {
       "de": "Ich habe auf gutes Wetter gehofft.",
@@ -2160,10 +2684,15 @@
     "partizip": "gelassen",
     "praet": "ließ",
     "takes": "+ Akkusativ",
+    "pattern": "etwas zu Hause lassen",
     "flags": [],
     "example": {
       "de": "Ich lasse mein Auto heute zu Hause.",
       "en": "I'm leaving my car at home today."
+    },
+    "examplePraet": {
+      "de": "In den Ferien ließ Lena ihre Katze bei der Nachbarin.",
+      "en": "During the holidays Lena left her cat with the neighbour."
     },
     "examplePerfekt": {
       "de": "Ich habe mein Handy zu Hause gelassen.",
@@ -2178,10 +2707,15 @@
     "partizip": "getan",
     "praet": "tat",
     "takes": "+ Akkusativ",
+    "pattern": "etwas tun",
     "flags": [],
     "example": {
       "de": "Was kann ich für Sie tun?",
       "en": "What can I do for you?"
+    },
+    "examplePraet": {
+      "de": "Nach der Prüfung tat Paul eine Woche lang nichts.",
+      "en": "After the exam Paul did nothing for a week."
     },
     "examplePerfekt": {
       "de": "Was hast du heute getan?",
@@ -2196,10 +2730,15 @@
     "partizip": "gerufen",
     "praet": "rief",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden rufen",
     "flags": [],
     "example": {
       "de": "Die Mutter ruft die Kinder zum Essen.",
       "en": "The mother calls the children to dinner."
+    },
+    "examplePraet": {
+      "de": "Am Strand rief Mia ihren Bruder, aber er hörte sie nicht.",
+      "en": "On the beach Mia called out to her brother, but he didn't hear her."
     },
     "examplePerfekt": {
       "de": "Die Mutter hat die Kinder gerufen.",
@@ -2213,6 +2752,7 @@
     "aux": "hat",
     "partizip": "bedeutet",
     "takes": "+ Akkusativ",
+    "pattern": "etwas bedeuten",
     "third": true,
     "flags": [
       "insep"
@@ -2220,6 +2760,10 @@
     "example": {
       "de": "Was bedeutet dieses Wort?",
       "en": "What does this word mean?"
+    },
+    "examplePraet": {
+      "de": "Früher bedeutete das Wort etwas ganz anderes.",
+      "en": "In the past the word meant something quite different."
     },
     "examplePerfekt": {
       "de": "Das hat mir viel bedeutet.",
@@ -2233,12 +2777,17 @@
     "aux": "hat",
     "partizip": "benutzt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas benutzen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich benutze jeden Tag mein Fahrrad.",
       "en": "I use my bike every day."
+    },
+    "examplePraet": {
+      "de": "Im Urlaub benutzte Jonas sein Handy als Kamera.",
+      "en": "On holiday Jonas used his phone as a camera."
     },
     "examplePerfekt": {
       "de": "Ich habe dein Fahrrad benutzt.",
@@ -2252,10 +2801,15 @@
     "aux": "hat",
     "partizip": "telefoniert",
     "takes": "mit + Dativ",
+    "pattern": "mit jemandem telefonieren",
     "flags": [],
     "example": {
       "de": "Ich telefoniere jeden Sonntag mit meiner Mutter.",
       "en": "I talk on the phone with my mother every Sunday."
+    },
+    "examplePraet": {
+      "de": "Nach dem Kurs telefonierte Emma eine Stunde mit ihrer Freundin.",
+      "en": "After class Emma talked to her friend on the phone for an hour."
     },
     "examplePerfekt": {
       "de": "Ich habe gestern mit meiner Mutter telefoniert.",
@@ -2269,11 +2823,16 @@
     "aux": "ist",
     "partizip": "passiert",
     "takes": "+ Dativ",
+    "pattern": "jemandem passieren",
     "third": true,
     "flags": [],
     "example": {
       "de": "Hier passiert nie etwas.",
       "en": "Nothing ever happens here."
+    },
+    "examplePraet": {
+      "de": "Zum Glück passierte den Kindern nichts.",
+      "en": "Luckily nothing happened to the children."
     },
     "examplePerfekt": {
       "de": "Was ist gestern passiert?",
@@ -2291,6 +2850,10 @@
       "de": "Hier dürfen Sie nicht parken.",
       "en": "You are not allowed to park here."
     },
+    "examplePraet": {
+      "de": "Herr Becker parkte sein Auto im Parkhaus neben dem Kino.",
+      "en": "Mr Becker parked his car in the car park next to the cinema."
+    },
     "examplePerfekt": {
       "de": "Ich habe vor dem Haus geparkt.",
       "en": "I parked in front of the house."
@@ -2303,10 +2866,15 @@
     "aux": "hat",
     "partizip": "gewünscht",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas wünschen",
     "flags": [],
     "example": {
       "de": "Ich wünsche dir alles Gute zum Geburtstag!",
       "en": "I wish you all the best for your birthday!"
+    },
+    "examplePraet": {
+      "de": "Am Bahnhof wünschte die Mutter ihrem Sohn eine gute Reise.",
+      "en": "At the station the mother wished her son a good trip."
     },
     "examplePerfekt": {
       "de": "Er hat mir viel Glück gewünscht.",
@@ -2324,6 +2892,10 @@
       "de": "Wir frühstücken am Sonntag um zehn.",
       "en": "On Sunday we have breakfast at ten."
     },
+    "examplePraet": {
+      "de": "An diesem Morgen frühstückte Julia auf dem Balkon.",
+      "en": "That morning Julia had breakfast on the balcony."
+    },
     "examplePerfekt": {
       "de": "Wir haben um neun gefrühstückt.",
       "en": "We had breakfast at nine."
@@ -2336,10 +2908,15 @@
     "aux": "hat",
     "partizip": "gefeiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas feiern",
     "flags": [],
     "example": {
       "de": "Am Samstag feiern wir meinen Geburtstag.",
       "en": "On Saturday we're celebrating my birthday."
+    },
+    "examplePraet": {
+      "de": "Damals feierte die Familie Weihnachten immer bei Oma.",
+      "en": "Back then the family always celebrated Christmas at Grandma's."
     },
     "examplePerfekt": {
       "de": "Wir haben bis Mitternacht gefeiert.",
@@ -2353,10 +2930,15 @@
     "aux": "hat",
     "partizip": "gefehlt",
     "takes": "+ Dativ",
+    "pattern": "jemandem fehlen",
     "flags": [],
     "example": {
       "de": "Mir fehlt noch ein Euro.",
       "en": "I'm still one euro short."
+    },
+    "examplePraet": {
+      "de": "In Berlin fehlten Laura ihre alten Freunde sehr.",
+      "en": "In Berlin Laura missed her old friends a lot."
     },
     "examplePerfekt": {
       "de": "Du hast mir sehr gefehlt.",
@@ -2371,10 +2953,15 @@
     "partizip": "gefreut",
     "reflexive": "akk",
     "takes": "auf + Akkusativ",
+    "pattern": "sich auf etwas freuen",
     "flags": [],
     "example": {
       "de": "Ich freue mich auf das Wochenende.",
       "en": "I'm looking forward to the weekend."
+    },
+    "examplePraet": {
+      "de": "Die ganze Woche freuten sich die Kinder auf den Ausflug.",
+      "en": "All week the children looked forward to the trip."
     },
     "examplePerfekt": {
       "de": "Ich habe mich sehr über das Geschenk gefreut.",
@@ -2393,6 +2980,10 @@
       "de": "Heute regnet es den ganzen Tag.",
       "en": "It's raining all day today."
     },
+    "examplePraet": {
+      "de": "In der Nacht regnete es stark.",
+      "en": "During the night it rained heavily."
+    },
     "examplePerfekt": {
       "de": "Gestern hat es den ganzen Tag geregnet.",
       "en": "It rained all day yesterday."
@@ -2409,6 +3000,10 @@
     "example": {
       "de": "Im Winter schneit es in den Bergen oft.",
       "en": "In winter it often snows in the mountains."
+    },
+    "examplePraet": {
+      "de": "Im Januar schneite es drei Tage lang.",
+      "en": "In January it snowed for three days."
     },
     "examplePerfekt": {
       "de": "Heute Nacht hat es geschneit.",
@@ -2428,6 +3023,10 @@
       "de": "Heute scheint die Sonne.",
       "en": "The sun is shining today."
     },
+    "examplePraet": {
+      "de": "Am Nachmittag schien endlich wieder die Sonne.",
+      "en": "In the afternoon the sun finally shone again."
+    },
     "examplePerfekt": {
       "de": "Am Sonntag hat die Sonne geschienen.",
       "en": "The sun shone on Sunday."
@@ -2444,6 +3043,10 @@
       "de": "Zahlen, bitte! Zusammen oder getrennt?",
       "en": "The bill, please! Together or separately?"
     },
+    "examplePraet": {
+      "de": "Im Restaurant zahlte Papa für alle.",
+      "en": "At the restaurant Dad paid for everyone."
+    },
     "examplePerfekt": {
       "de": "Wer hat gestern gezahlt?",
       "en": "Who paid yesterday?"
@@ -2456,10 +3059,15 @@
     "aux": "hat",
     "partizip": "gefüllt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas füllen",
     "flags": [],
     "example": {
       "de": "Ich fülle das Glas mit Wasser.",
       "en": "I fill the glass with water."
+    },
+    "examplePraet": {
+      "de": "Im Herbst füllte Jan einen Korb mit Äpfeln.",
+      "en": "In autumn Jan filled a basket with apples."
     },
     "examplePerfekt": {
       "de": "Ich habe die Flasche mit Wasser gefüllt.",
@@ -2473,10 +3081,15 @@
     "aux": "hat",
     "partizip": "gesendet",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas senden",
     "flags": [],
     "example": {
       "de": "Ich sende Ihnen die Unterlagen per E-Mail.",
       "en": "I'm sending you the documents by email."
+    },
+    "examplePraet": {
+      "de": "Am Montag sendete die Firma ihren Kunden eine E-Mail.",
+      "en": "On Monday the company sent its customers an email."
     },
     "examplePerfekt": {
       "de": "Ich habe Ihnen die Unterlagen gesendet.",
@@ -2495,6 +3108,10 @@
       "de": "Die Kinder rennen zum Bus.",
       "en": "The children are running to the bus."
     },
+    "examplePraet": {
+      "de": "Mit dem Ball rannte Leon in den Garten.",
+      "en": "Leon ran into the garden with the ball."
+    },
     "examplePerfekt": {
       "de": "Die Kinder sind zum Bus gerannt.",
       "en": "The children ran to the bus."
@@ -2512,6 +3129,10 @@
       "de": "Das Baby schreit die ganze Nacht.",
       "en": "The baby screams all night."
     },
+    "examplePraet": {
+      "de": "Am Telefon schrie Herr Wagner sehr laut.",
+      "en": "On the phone Mr Wagner shouted very loudly."
+    },
     "examplePerfekt": {
       "de": "Das Baby hat laut geschrien.",
       "en": "The baby screamed loudly."
@@ -2528,6 +3149,10 @@
       "de": "Sie lächelt immer freundlich.",
       "en": "She always smiles in a friendly way."
     },
+    "examplePraet": {
+      "de": "Die Kellnerin lächelte und brachte uns die Karte.",
+      "en": "The waitress smiled and brought us the menu."
+    },
     "examplePerfekt": {
       "de": "Sie hat freundlich gelächelt.",
       "en": "She smiled in a friendly way."
@@ -2540,12 +3165,17 @@
     "aux": "hat",
     "partizip": "gebraucht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas gebrauchen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Kannst du das noch gebrauchen?",
       "en": "Can you still use that?"
+    },
+    "examplePraet": {
+      "de": "Der Lehrer gebrauchte im Unterricht nur einfache Wörter.",
+      "en": "In class the teacher used only simple words."
     },
     "examplePerfekt": {
       "de": "Die alte Jacke habe ich noch gut gebraucht.",
@@ -2559,10 +3189,15 @@
     "aux": "hat",
     "partizip": "gespeichert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas speichern",
     "flags": [],
     "example": {
       "de": "Ich speichere das Dokument auf dem Computer.",
       "en": "I save the document on the computer."
+    },
+    "examplePraet": {
+      "de": "Am Abend speicherte Lisa alle Fotos auf ihrem Computer.",
+      "en": "In the evening Lisa saved all the photos on her computer."
     },
     "examplePerfekt": {
       "de": "Hast du das Dokument gespeichert?",
@@ -2576,10 +3211,15 @@
     "aux": "hat",
     "partizip": "gerettet",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden retten",
     "flags": [],
     "example": {
       "de": "Die Feuerwehr rettet die Katze vom Baum.",
       "en": "The fire brigade rescues the cat from the tree."
+    },
+    "examplePraet": {
+      "de": "Im Sommer rettete ein junger Mann ein Kind aus dem See.",
+      "en": "In the summer a young man rescued a child from the lake."
     },
     "examplePerfekt": {
       "de": "Die Feuerwehr hat die Katze gerettet.",
@@ -2600,6 +3240,10 @@
       "de": "Ich stehe jeden Tag um sieben Uhr auf.",
       "en": "I get up at seven o'clock every day."
     },
+    "examplePraet": {
+      "de": "Am Sonntag stand Hannah erst um zehn Uhr auf.",
+      "en": "On Sunday Hannah didn't get up until ten o'clock."
+    },
     "examplePerfekt": {
       "de": "Ich bin heute um sechs aufgestanden.",
       "en": "I got up at six today."
@@ -2617,12 +3261,17 @@
     "partizip": "angefangen",
     "praet": "fing",
     "takes": "mit + Dativ",
+    "pattern": "mit etwas anfangen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Der Film fängt gleich an.",
       "en": "The film starts in a moment."
+    },
+    "examplePraet": {
+      "de": "Im Oktober fing David mit dem Deutschkurs an.",
+      "en": "In October David started the German course."
     },
     "examplePerfekt": {
       "de": "Der Film hat schon angefangen.",
@@ -2636,12 +3285,17 @@
     "aux": "hat",
     "partizip": "aufgehört",
     "takes": "mit + Dativ",
+    "pattern": "mit etwas aufhören",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich höre jetzt mit der Arbeit auf.",
       "en": "I'm stopping work now."
+    },
+    "examplePraet": {
+      "de": "Um neun Uhr hörte Tim mit den Hausaufgaben auf.",
+      "en": "At nine o'clock Tim stopped doing his homework."
     },
     "examplePerfekt": {
       "de": "Er hat mit dem Rauchen aufgehört.",
@@ -2661,6 +3315,10 @@
       "de": "Wir kaufen am Samstag im Supermarkt ein.",
       "en": "We do our shopping at the supermarket on Saturday."
     },
+    "examplePraet": {
+      "de": "Vor der Party kaufte Clara für zwanzig Leute ein.",
+      "en": "Before the party Clara did the shopping for twenty people."
+    },
     "examplePerfekt": {
       "de": "Wir haben am Samstag eingekauft.",
       "en": "We did the shopping on Saturday."
@@ -2678,12 +3336,17 @@
     "partizip": "eingeladen",
     "praet": "lud",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden einladen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich lade dich zu meinem Geburtstag ein.",
       "en": "I'm inviting you to my birthday."
+    },
+    "examplePraet": {
+      "de": "Am Samstag lud Sarah ihre neuen Nachbarn zum Essen ein.",
+      "en": "On Saturday Sarah invited her new neighbours to dinner."
     },
     "examplePerfekt": {
       "de": "Sie hat mich zum Geburtstag eingeladen.",
@@ -2698,12 +3361,17 @@
     "partizip": "angerufen",
     "praet": "rief",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden anrufen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich rufe dich heute Abend an.",
       "en": "I'll call you this evening."
+    },
+    "examplePraet": {
+      "de": "Am Morgen rief Nina ihren Chef an, denn sie war krank.",
+      "en": "In the morning Nina called her boss because she was ill."
     },
     "examplePerfekt": {
       "de": "Ich habe dich gestern angerufen.",
@@ -2717,12 +3385,17 @@
     "aux": "hat",
     "partizip": "aufgemacht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas aufmachen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Der Laden macht um acht Uhr auf.",
       "en": "The shop opens at eight o'clock."
+    },
+    "examplePraet": {
+      "de": "Nach dem Frühstück machte Paula den Brief von ihrer Oma auf.",
+      "en": "After breakfast Paula opened the letter from her grandma."
     },
     "examplePerfekt": {
       "de": "Wer hat das Fenster aufgemacht?",
@@ -2736,12 +3409,17 @@
     "aux": "hat",
     "partizip": "zugemacht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas zumachen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Der Supermarkt macht um 20 Uhr zu.",
       "en": "The supermarket closes at 8 pm."
+    },
+    "examplePraet": {
+      "de": "Vor dem Regen machte Oma schnell alle Fenster zu.",
+      "en": "Before the rain Grandma quickly closed all the windows."
     },
     "examplePerfekt": {
       "de": "Ich habe die Tür zugemacht.",
@@ -2762,6 +3440,10 @@
       "de": "Kommst du morgen mit ins Kino?",
       "en": "Are you coming along to the cinema tomorrow?"
     },
+    "examplePraet": {
+      "de": "Anna ging spazieren, und ihr Hund kam mit.",
+      "en": "Anna went for a walk, and her dog came along."
+    },
     "examplePerfekt": {
       "de": "Meine Schwester ist mitgekommen.",
       "en": "My sister came along."
@@ -2775,12 +3457,17 @@
     "partizip": "mitgebracht",
     "praet": "brachte",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas mitbringen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich bringe einen Kuchen zur Party mit.",
       "en": "I'm bringing a cake to the party."
+    },
+    "examplePraet": {
+      "de": "Aus Wien brachte Tom seiner Mutter Schokolade mit.",
+      "en": "Tom brought his mother some chocolate from Vienna."
     },
     "examplePerfekt": {
       "de": "Ich habe einen Kuchen mitgebracht.",
@@ -2795,12 +3482,17 @@
     "partizip": "angekommen",
     "praet": "kam",
     "takes": "in + Dativ",
+    "pattern": "in einer Stadt ankommen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Der Zug kommt um zehn Uhr in Berlin an.",
       "en": "The train arrives in Berlin at ten o'clock."
+    },
+    "examplePraet": {
+      "de": "Spät am Abend kamen die Gäste im Hotel an.",
+      "en": "Late in the evening the guests arrived at the hotel."
     },
     "examplePerfekt": {
       "de": "Der Zug ist pünktlich angekommen.",
@@ -2824,6 +3516,10 @@
     "example": {
       "de": "Der Zug fährt um acht Uhr ab.",
       "en": "The train departs at eight o'clock."
+    },
+    "examplePraet": {
+      "de": "Ohne Noah fuhr der Zug nach Köln ab.",
+      "en": "The train to Cologne left without Noah."
     },
     "examplePerfekt": {
       "de": "Der Bus ist schon abgefahren.",
@@ -2849,6 +3545,10 @@
       "de": "Du siehst heute sehr müde aus.",
       "en": "You look very tired today."
     },
+    "examplePraet": {
+      "de": "Mit der neuen Brille sah mein Vater ganz anders aus.",
+      "en": "With his new glasses my father looked completely different."
+    },
     "examplePerfekt": {
       "de": "Du hast gestern sehr müde ausgesehen.",
       "en": "You looked very tired yesterday."
@@ -2873,6 +3573,10 @@
       "de": "Am Abend sehen wir zusammen fern.",
       "en": "In the evening we watch TV together."
     },
+    "examplePraet": {
+      "de": "Nach dem Abendessen sahen die Großeltern noch eine Stunde fern.",
+      "en": "After dinner the grandparents watched TV for another hour."
+    },
     "examplePerfekt": {
       "de": "Wir haben gestern Abend ferngesehen.",
       "en": "We watched TV last night."
@@ -2893,6 +3597,10 @@
       "de": "Das Konzert findet am Samstag statt.",
       "en": "The concert takes place on Saturday."
     },
+    "examplePraet": {
+      "de": "Letztes Jahr fand das Sommerfest im Park statt.",
+      "en": "Last year the summer party took place in the park."
+    },
     "examplePerfekt": {
       "de": "Das Konzert hat am Samstag stattgefunden.",
       "en": "The concert took place on Saturday."
@@ -2905,12 +3613,17 @@
     "aux": "hat",
     "partizip": "vorgestellt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem jemanden vorstellen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich stelle dir meinen Bruder vor.",
       "en": "I'll introduce my brother to you."
+    },
+    "examplePraet": {
+      "de": "Der Chef stellte dem Team die neue Kollegin vor.",
+      "en": "The boss introduced the new colleague to the team."
     },
     "examplePerfekt": {
       "de": "Er hat mir seine Frau vorgestellt.",
@@ -2924,12 +3637,17 @@
     "aux": "hat",
     "partizip": "ausgefüllt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ausfüllen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Bitte füllen Sie das Formular aus.",
       "en": "Please fill in the form."
+    },
+    "examplePraet": {
+      "de": "Im Büro füllte Maria ein langes Formular aus.",
+      "en": "At the office Maria filled in a long form."
     },
     "examplePerfekt": {
       "de": "Ich habe das Formular ausgefüllt.",
@@ -2944,12 +3662,17 @@
     "partizip": "umgezogen",
     "praet": "zog",
     "takes": "nach + Dativ",
+    "pattern": "nach Berlin umziehen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Wir ziehen im Mai nach Berlin um.",
       "en": "We're moving to Berlin in May."
+    },
+    "examplePraet": {
+      "de": "Im März zog die Familie nach Hamburg um.",
+      "en": "In March the family moved to Hamburg."
     },
     "examplePerfekt": {
       "de": "Wir sind im Mai nach Berlin umgezogen.",
@@ -2964,12 +3687,17 @@
     "partizip": "angezogen",
     "praet": "zog",
     "takes": "+ Akkusativ",
+    "pattern": "etwas anziehen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich ziehe heute eine warme Jacke an.",
       "en": "I'm putting on a warm jacket today."
+    },
+    "examplePraet": {
+      "de": "Vor der Arbeit zog Lena ihren neuen Mantel an.",
+      "en": "Before work Lena put on her new coat."
     },
     "examplePerfekt": {
       "de": "Ich habe eine warme Jacke angezogen.",
@@ -2984,12 +3712,17 @@
     "partizip": "ausgezogen",
     "praet": "zog",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ausziehen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Die Kinder ziehen die Schuhe aus.",
       "en": "The children take off their shoes."
+    },
+    "examplePraet": {
+      "de": "In der warmen Küche zog Paul seine Jacke aus.",
+      "en": "In the warm kitchen Paul took off his jacket."
     },
     "examplePerfekt": {
       "de": "Die Kinder haben die Schuhe ausgezogen.",
@@ -3003,12 +3736,17 @@
     "aux": "hat",
     "partizip": "kennengelernt",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden kennenlernen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Im Deutschkurs lerne ich viele Leute kennen.",
       "en": "In the German course I get to know a lot of people."
+    },
+    "examplePraet": {
+      "de": "Jonas lernte seinen besten Freund in der Schule kennen.",
+      "en": "Jonas met his best friend at school."
     },
     "examplePerfekt": {
       "de": "Ich habe meine Frau in Berlin kennengelernt.",
@@ -3028,12 +3766,17 @@
     "praet": "nahm",
     "imperative": "Nimm",
     "takes": "+ Akkusativ",
+    "pattern": "etwas mitnehmen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Nimmst du einen Regenschirm mit?",
       "en": "Are you taking an umbrella along?"
+    },
+    "examplePraet": {
+      "de": "Für die Reise nahm Anna nur eine kleine Tasche mit.",
+      "en": "For the trip Anna took only a small bag with her."
     },
     "examplePerfekt": {
       "de": "Hast du den Regenschirm mitgenommen?",
@@ -3047,12 +3790,17 @@
     "aux": "hat",
     "partizip": "abgeholt",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden abholen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich hole dich um acht vom Bahnhof ab.",
       "en": "I'll pick you up from the station at eight."
+    },
+    "examplePraet": {
+      "de": "Um vier Uhr holte Tom seine kleine Schwester vom Kindergarten ab.",
+      "en": "At four o'clock Tom picked up his little sister from kindergarten."
     },
     "examplePerfekt": {
       "de": "Er hat mich vom Bahnhof abgeholt.",
@@ -3066,12 +3814,17 @@
     "aux": "hat",
     "partizip": "zugehört",
     "takes": "+ Dativ",
+    "pattern": "jemandem zuhören",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Hör mir bitte zu!",
       "en": "Please listen to me!"
+    },
+    "examplePraet": {
+      "de": "Am Abend hörte Ben seinem Opa lange zu.",
+      "en": "In the evening Ben listened to his grandpa for a long time."
     },
     "examplePerfekt": {
       "de": "Du hast mir nicht zugehört!",
@@ -3085,12 +3838,17 @@
     "aux": "hat",
     "partizip": "aufgeräumt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas aufräumen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich räume am Samstag mein Zimmer auf.",
       "en": "I tidy up my room on Saturday."
+    },
+    "examplePraet": {
+      "de": "Vor dem Besuch räumte Emma schnell die Küche auf.",
+      "en": "Before the visit Emma quickly tidied up the kitchen."
     },
     "examplePerfekt": {
       "de": "Ich habe mein Zimmer aufgeräumt.",
@@ -3104,12 +3862,17 @@
     "aux": "hat",
     "partizip": "angemacht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas anmachen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Machst du bitte das Licht an?",
       "en": "Will you turn on the light, please?"
+    },
+    "examplePraet": {
+      "de": "Felix machte beim Frühstück das Radio an.",
+      "en": "Felix turned on the radio at breakfast."
     },
     "examplePerfekt": {
       "de": "Wer hat das Licht angemacht?",
@@ -3123,12 +3886,17 @@
     "aux": "hat",
     "partizip": "ausgemacht",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ausmachen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Mach bitte den Fernseher aus!",
       "en": "Please turn off the TV!"
+    },
+    "examplePraet": {
+      "de": "Um elf Uhr machte Sophie das Licht aus.",
+      "en": "At eleven o'clock Sophie turned off the light."
     },
     "examplePerfekt": {
       "de": "Ich habe den Fernseher ausgemacht.",
@@ -3143,12 +3911,17 @@
     "partizip": "angemeldet",
     "reflexive": "akk",
     "takes": "für + Akkusativ",
+    "pattern": "sich für etwas anmelden",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich melde mich für den Deutschkurs an.",
       "en": "I'm signing up for the German course."
+    },
+    "examplePraet": {
+      "de": "Tom meldete sich im Januar für einen Tanzkurs an.",
+      "en": "Tom signed up for a dance class in January."
     },
     "examplePerfekt": {
       "de": "Ich habe mich für den Kurs angemeldet.",
@@ -3169,6 +3942,10 @@
       "de": "Wann kommst du zurück?",
       "en": "When are you coming back?"
     },
+    "examplePraet": {
+      "de": "Lukas kam nach drei Wochen aus Italien zurück.",
+      "en": "Lukas came back from Italy after three weeks."
+    },
     "examplePerfekt": {
       "de": "Sie ist gestern zurückgekommen.",
       "en": "She came back yesterday."
@@ -3187,6 +3964,10 @@
     "example": {
       "de": "In Köln steigen wir um.",
       "en": "In Cologne we change trains."
+    },
+    "examplePraet": {
+      "de": "Am Hauptbahnhof stieg Sophie in die U-Bahn um.",
+      "en": "At the main station Sophie changed to the underground."
     },
     "examplePerfekt": {
       "de": "Wir sind in Köln umgestiegen.",
@@ -3211,6 +3992,10 @@
       "de": "Der Bus hält an der Haltestelle an.",
       "en": "The bus stops at the bus stop."
     },
+    "examplePraet": {
+      "de": "Vor dem Hotel hielt das Taxi an.",
+      "en": "The taxi stopped in front of the hotel."
+    },
     "examplePerfekt": {
       "de": "Der Bus hat an der Haltestelle angehalten.",
       "en": "The bus stopped at the bus stop."
@@ -3223,12 +4008,17 @@
     "aux": "hat",
     "partizip": "anprobiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas anprobieren",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Kann ich die Jacke anprobieren?",
       "en": "Can I try on the jacket?"
+    },
+    "examplePraet": {
+      "de": "Im Geschäft probierte Maria drei Kleider an.",
+      "en": "In the shop Maria tried on three dresses."
     },
     "examplePerfekt": {
       "de": "Ich habe die Jacke anprobiert.",
@@ -3242,12 +4032,17 @@
     "aux": "hat",
     "partizip": "ausprobiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ausprobieren",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich probiere das neue Rezept aus.",
       "en": "I'm trying out the new recipe."
+    },
+    "examplePraet": {
+      "de": "Am Wochenende probierte Jonas sein neues Handy aus.",
+      "en": "At the weekend Jonas tried out his new mobile phone."
     },
     "examplePerfekt": {
       "de": "Wir haben das neue Rezept ausprobiert.",
@@ -3262,12 +4057,17 @@
     "partizip": "wehgetan",
     "praet": "tat",
     "takes": "+ Dativ",
+    "pattern": "jemandem wehtun",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Mein Kopf tut weh.",
       "en": "My head hurts."
+    },
+    "examplePraet": {
+      "de": "Nach dem Fußballspiel tat dem Jungen das Bein weh.",
+      "en": "After the football match the boy's leg hurt."
     },
     "examplePerfekt": {
       "de": "Mein Kopf hat den ganzen Tag wehgetan.",
@@ -3281,12 +4081,17 @@
     "aux": "hat",
     "partizip": "erzählt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas erzählen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Erzähl mir von deinem Wochenende!",
       "en": "Tell me about your weekend!"
+    },
+    "examplePraet": {
+      "de": "Beim Essen erzählte Emma ihren Eltern alles über die Reise.",
+      "en": "During the meal Emma told her parents all about the trip."
     },
     "examplePerfekt": {
       "de": "Oma hat uns eine Geschichte erzählt.",
@@ -3301,12 +4106,17 @@
     "partizip": "eingestiegen",
     "praet": "stieg",
     "takes": "in + Akkusativ",
+    "pattern": "in den Zug einsteigen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Wir steigen in den Bus ein.",
       "en": "We get on the bus."
+    },
+    "examplePraet": {
+      "de": "Mia stieg am Marktplatz in die Straßenbahn ein.",
+      "en": "Mia got on the tram at the market square."
     },
     "examplePerfekt": {
       "de": "Sie ist in das falsche Auto eingestiegen.",
@@ -3321,12 +4131,17 @@
     "partizip": "ausgestiegen",
     "praet": "stieg",
     "takes": "aus + Dativ",
+    "pattern": "aus dem Bus aussteigen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Wo muss ich aussteigen?",
       "en": "Where do I have to get off?"
+    },
+    "examplePraet": {
+      "de": "Emma stieg in München aus dem Zug aus.",
+      "en": "Emma got off the train in Munich."
     },
     "examplePerfekt": {
       "de": "Wir sind an der Haltestelle ausgestiegen.",
@@ -3341,12 +4156,17 @@
     "partizip": "abgeflogen",
     "praet": "flog",
     "takes": "von + Dativ",
+    "pattern": "von Frankfurt abfliegen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Wann fliegst du ab?",
       "en": "When do you fly out?"
+    },
+    "examplePraet": {
+      "de": "Um sechs Uhr morgens flog Felix von Hamburg ab.",
+      "en": "At six in the morning Felix flew out of Hamburg."
     },
     "examplePerfekt": {
       "de": "Das Flugzeug ist pünktlich abgeflogen.",
@@ -3366,12 +4186,17 @@
     "praet": "gab",
     "imperative": "Gib",
     "takes": "+ Akkusativ",
+    "pattern": "etwas abgeben",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Ich muss meine Schlüssel abgeben.",
       "en": "I have to hand in my keys."
+    },
+    "examplePraet": {
+      "de": "Am Morgen gab Lena den Brief bei der Post ab.",
+      "en": "In the morning Lena dropped off the letter at the post office."
     },
     "examplePerfekt": {
       "de": "Hast du die Hausaufgaben abgegeben?",
@@ -3386,12 +4211,17 @@
     "partizip": "angeboten",
     "praet": "bot",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas anbieten",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Was darf ich dir anbieten?",
       "en": "What can I offer you?"
+    },
+    "examplePraet": {
+      "de": "Am Nachmittag bot Oma jedem Gast ein Stück Kuchen an.",
+      "en": "In the afternoon Grandma offered each guest a piece of cake."
     },
     "examplePerfekt": {
       "de": "Er hat mir einen Kaffee angeboten.",
@@ -3406,10 +4236,15 @@
     "partizip": "gebeten",
     "praet": "bat",
     "takes": "um + Akkusativ",
+    "pattern": "jemanden um etwas bitten",
     "flags": [],
     "example": {
       "de": "Darf ich Sie um etwas bitten?",
       "en": "May I ask you for something?"
+    },
+    "examplePraet": {
+      "de": "Mia bat den Kellner freundlich um die Rechnung.",
+      "en": "Mia politely asked the waiter for the bill."
     },
     "examplePerfekt": {
       "de": "Ich habe ihn um Hilfe gebeten.",
@@ -3429,12 +4264,17 @@
     "praet": "empfahl",
     "imperative": "Empfiehl",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas empfehlen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Welchen Wein können Sie mir empfehlen?",
       "en": "Which wine can you recommend to me?"
+    },
+    "examplePraet": {
+      "de": "Die Frau an der Rezeption empfahl den Gästen ein Restaurant.",
+      "en": "The woman at reception recommended a restaurant to the guests."
     },
     "examplePerfekt": {
       "de": "Der Kellner hat uns den Fisch empfohlen.",
@@ -3453,10 +4293,15 @@
     "partizip": "gehalten",
     "praet": "hielt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas halten",
     "flags": [],
     "example": {
       "de": "Dieser Zug hält nicht in Rüdesheim.",
       "en": "This train doesn't stop in Rüdesheim."
+    },
+    "examplePraet": {
+      "de": "Im Krankenhaus hielt Paul zum ersten Mal sein Baby im Arm.",
+      "en": "At the hospital Paul held his baby in his arms for the first time."
     },
     "examplePerfekt": {
       "de": "Der Bus hat hier nicht gehalten.",
@@ -3471,10 +4316,15 @@
     "partizip": "gerochen",
     "praet": "roch",
     "takes": "nach + Dativ",
+    "pattern": "nach etwas riechen",
     "flags": [],
     "example": {
       "de": "Dieser Wein riecht gut.",
       "en": "This wine smells good."
+    },
+    "examplePraet": {
+      "de": "Am Sonntag roch die ganze Küche nach frischem Brot.",
+      "en": "On Sunday the whole kitchen smelled of fresh bread."
     },
     "examplePerfekt": {
       "de": "Es hat nach Rauch gerochen.",
@@ -3494,10 +4344,15 @@
     "praet": "starb",
     "imperative": "Stirb",
     "takes": "an + Dativ",
+    "pattern": "an etwas sterben",
     "flags": [],
     "example": {
       "de": "Viele Tiere sterben im Winter.",
       "en": "Many animals die in winter."
+    },
+    "examplePraet": {
+      "de": "Die alte Katze starb im Winter an einer Krankheit.",
+      "en": "The old cat died of an illness in the winter."
     },
     "examplePerfekt": {
       "de": "Mein Opa ist letztes Jahr gestorben.",
@@ -3512,12 +4367,17 @@
     "partizip": "überwiesen",
     "praet": "überwies",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas überweisen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Sie können das Geld auch überweisen.",
       "en": "You can also transfer the money."
+    },
+    "examplePraet": {
+      "de": "Jeden Monat überwies der Vater seinem Sohn 300 Euro.",
+      "en": "Every month the father transferred 300 euros to his son."
     },
     "examplePerfekt": {
       "de": "Ich habe die Miete gestern überwiesen.",
@@ -3531,12 +4391,17 @@
     "aux": "hat",
     "partizip": "angeklickt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas anklicken",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Da musst du dieses Wort anklicken.",
       "en": "You have to click on this word there."
+    },
+    "examplePraet": {
+      "de": "Im Internet klickte Sophie ein Foto vom Hotel an.",
+      "en": "Online Sophie clicked on a photo of the hotel."
     },
     "examplePerfekt": {
       "de": "Ich habe den Link angeklickt.",
@@ -3550,12 +4415,17 @@
     "aux": "hat",
     "partizip": "angekreuzt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas ankreuzen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Kreuzen Sie die richtige Antwort an.",
       "en": "Tick the correct answer."
+    },
+    "examplePraet": {
+      "de": "In der Prüfung kreuzte Anna bei jeder Frage eine Antwort an.",
+      "en": "In the exam Anna ticked one answer for each question."
     },
     "examplePerfekt": {
       "de": "Ich habe die falsche Antwort angekreuzt.",
@@ -3573,6 +4443,10 @@
       "de": "Ich bade nicht so gern, ich dusche lieber.",
       "en": "I don't like baths much, I prefer to shower."
     },
+    "examplePraet": {
+      "de": "Im Urlaub badeten die Kinder jeden Tag im Meer.",
+      "en": "On holiday the children swam in the sea every day."
+    },
     "examplePerfekt": {
       "de": "Wir haben im See gebadet.",
       "en": "We swam in the lake."
@@ -3585,12 +4459,17 @@
     "aux": "hat",
     "partizip": "besichtigt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas besichtigen",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Ich möchte gern den Dom besichtigen.",
       "en": "I'd like to visit the cathedral."
+    },
+    "examplePraet": {
+      "de": "In Rom besichtigte die Gruppe viele alte Kirchen.",
+      "en": "In Rome the group visited many old churches."
     },
     "examplePerfekt": {
       "de": "Wir haben gestern das Schloss besichtigt.",
@@ -3604,10 +4483,15 @@
     "aux": "hat",
     "partizip": "buchstabiert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas buchstabieren",
     "flags": [],
     "example": {
       "de": "Bitte buchstabieren Sie Ihren Namen.",
       "en": "Please spell your name."
+    },
+    "examplePraet": {
+      "de": "Am Telefon buchstabierte Lukas seine E-Mail-Adresse.",
+      "en": "On the phone Lukas spelled out his e-mail address."
     },
     "examplePerfekt": {
       "de": "Sie hat ihren Namen buchstabiert.",
@@ -3621,10 +4505,15 @@
     "aux": "hat",
     "partizip": "gedruckt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas drucken",
     "flags": [],
     "example": {
       "de": "Bitte drucke das Formular für mich.",
       "en": "Please print the form for me."
+    },
+    "examplePraet": {
+      "de": "Für die Party druckte Lena bunte Einladungen.",
+      "en": "For the party Lena printed colourful invitations."
     },
     "examplePerfekt": {
       "de": "Ich habe die Tickets gedruckt.",
@@ -3638,10 +4527,15 @@
     "aux": "hat",
     "partizip": "gedrückt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas drücken",
     "flags": [],
     "example": {
       "de": "Drück hier, dann geht der Computer an.",
       "en": "Press here, then the computer turns on."
+    },
+    "examplePraet": {
+      "de": "Im Aufzug drückte Tom den Knopf für den fünften Stock.",
+      "en": "In the lift Tom pressed the button for the fifth floor."
     },
     "examplePerfekt": {
       "de": "Ich habe den falschen Knopf gedrückt.",
@@ -3659,6 +4553,10 @@
       "de": "Die Straße endet hier.",
       "en": "The street ends here."
     },
+    "examplePraet": {
+      "de": "Die Party endete erst um drei Uhr morgens.",
+      "en": "The party didn't end until three in the morning."
+    },
     "examplePerfekt": {
       "de": "Der Film hat um elf geendet.",
       "en": "The film ended at eleven."
@@ -3671,12 +4569,17 @@
     "aux": "hat",
     "partizip": "erlaubt",
     "takes": "+ Dativ + Akkusativ",
+    "pattern": "jemandem etwas erlauben",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Rauchen ist hier nicht erlaubt.",
       "en": "Smoking is not allowed here."
+    },
+    "examplePraet": {
+      "de": "Am Freitag erlaubte die Lehrerin den Schülern eine lange Pause.",
+      "en": "On Friday the teacher allowed the students a long break."
     },
     "examplePerfekt": {
       "de": "Meine Eltern haben mir das erlaubt.",
@@ -3690,10 +4593,15 @@
     "aux": "hat",
     "partizip": "gratuliert",
     "takes": "+ Dativ",
+    "pattern": "jemandem gratulieren",
     "flags": [],
     "example": {
       "de": "Ich gratuliere dir!",
       "en": "Congratulations!"
+    },
+    "examplePraet": {
+      "de": "Nach der Prüfung gratulierte Jonas seiner Freundin.",
+      "en": "After the exam Jonas congratulated his girlfriend."
     },
     "examplePerfekt": {
       "de": "Wir haben ihr zum Geburtstag gratuliert.",
@@ -3711,6 +4619,10 @@
       "de": "Heute grillen wir im Garten.",
       "en": "Today we're barbecuing in the garden."
     },
+    "examplePraet": {
+      "de": "Am See grillten die Freunde bis spät in die Nacht.",
+      "en": "By the lake the friends barbecued until late at night."
+    },
     "examplePerfekt": {
       "de": "Wir haben am Samstag gegrillt.",
       "en": "We had a barbecue on Saturday."
@@ -3723,10 +4635,15 @@
     "aux": "hat",
     "partizip": "geheiratet",
     "takes": "+ Akkusativ",
+    "pattern": "jemanden heiraten",
     "flags": [],
     "example": {
       "de": "Meine Schwester heiratet einen Japaner.",
       "en": "My sister is marrying a Japanese man."
+    },
+    "examplePraet": {
+      "de": "Nach fünf Jahren heiratete Maria ihren Freund Max.",
+      "en": "After five years Maria married her boyfriend Max."
     },
     "examplePerfekt": {
       "de": "Sie haben letztes Jahr geheiratet.",
@@ -3740,10 +4657,15 @@
     "aux": "hat",
     "partizip": "gekriegt",
     "takes": "+ Akkusativ",
+    "pattern": "etwas kriegen",
     "flags": [],
     "example": {
       "de": "Ich kriege 15 Euro in der Stunde für meine Arbeit.",
       "en": "I get 15 euros an hour for my work."
+    },
+    "examplePraet": {
+      "de": "Ben kriegte zum Geburtstag ein rotes Fahrrad.",
+      "en": "Ben got a red bike for his birthday."
     },
     "examplePerfekt": {
       "de": "Hast du die E-Mail gekriegt?",
@@ -3758,10 +4680,15 @@
     "partizip": "gekümmert",
     "reflexive": "akk",
     "takes": "um + Akkusativ",
+    "pattern": "sich um jemanden kümmern",
     "flags": [],
     "example": {
       "de": "Jede Mutter kümmert sich um ihre kleinen Kinder.",
       "en": "Every mother looks after her small children."
+    },
+    "examplePraet": {
+      "de": "Drei Wochen lang kümmerte sich Lena um ihren kranken Vater.",
+      "en": "For three weeks Lena looked after her sick father."
     },
     "examplePerfekt": {
       "de": "Ich habe mich um die Katze gekümmert.",
@@ -3775,10 +4702,15 @@
     "aux": "hat",
     "partizip": "gemietet",
     "takes": "+ Akkusativ",
+    "pattern": "etwas mieten",
     "flags": [],
     "example": {
       "de": "Ich möchte ein Auto mieten.",
       "en": "I'd like to rent a car."
+    },
+    "examplePraet": {
+      "de": "Paul und Anna mieteten für die Ferien ein Haus am Meer.",
+      "en": "Paul and Anna rented a house by the sea for the holidays."
     },
     "examplePerfekt": {
       "de": "Wir haben eine Wohnung in Köln gemietet.",
@@ -3792,12 +4724,17 @@
     "aux": "hat",
     "partizip": "mitgemacht",
     "takes": "bei + Dativ",
+    "pattern": "bei etwas mitmachen",
     "flags": [
       "sep"
     ],
     "example": {
       "de": "Warum macht ihr nicht mit?",
       "en": "Why don't you join in?"
+    },
+    "examplePraet": {
+      "de": "Im Herbst machte Mia bei einem Kochkurs mit.",
+      "en": "In the autumn Mia took part in a cooking class."
     },
     "examplePerfekt": {
       "de": "Alle haben beim Spiel mitgemacht.",
@@ -3811,10 +4748,15 @@
     "aux": "hat",
     "partizip": "repariert",
     "takes": "+ Akkusativ",
+    "pattern": "etwas reparieren",
     "flags": [],
     "example": {
       "de": "Kannst du mein Fahrrad reparieren?",
       "en": "Can you repair my bike?"
+    },
+    "examplePraet": {
+      "de": "Opa reparierte die alte Lampe in nur zehn Minuten.",
+      "en": "Grandpa repaired the old lamp in just ten minutes."
     },
     "examplePerfekt": {
       "de": "Er hat das Fahrrad repariert.",
@@ -3828,12 +4770,17 @@
     "aux": "hat",
     "partizip": "vermietet",
     "takes": "+ Akkusativ",
+    "pattern": "etwas vermieten",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Die Wohnung ist schon vermietet.",
       "en": "The flat is already let."
+    },
+    "examplePraet": {
+      "de": "Das kleine Hotel vermietete auch Fahrräder.",
+      "en": "The small hotel also rented out bicycles."
     },
     "examplePerfekt": {
       "de": "Er hat sein Zimmer an Studenten vermietet.",
@@ -3847,12 +4794,17 @@
     "aux": "hat",
     "partizip": "übernachtet",
     "takes": "bei + Dativ",
+    "pattern": "bei jemandem übernachten",
     "flags": [
       "insep"
     ],
     "example": {
       "de": "Du kannst bei mir übernachten.",
       "en": "You can stay the night at my place."
+    },
+    "examplePraet": {
+      "de": "Nach dem Kino übernachtete Lukas bei seiner Tante.",
+      "en": "After the cinema Lukas stayed the night at his aunt's."
     },
     "examplePerfekt": {
       "de": "Wir haben im Hotel übernachtet.",
